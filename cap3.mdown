@@ -1,6 +1,6 @@
-#La lección de los marcadores ======
+#La lección de los marcadores 
 
-## Resources =====
+## Resources 
   * The Del.icio.us Lesson: http://bokardo.com/archives/the-delicious-lesson/
   * http://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
   * http://rashmisinha.com/2006/07/27/findability-with-tags-facets-clusters-and-pivot-browsing/
@@ -51,24 +51,24 @@ El problema sigue siendo el mismo: el día a día nos hace ser más flexibles co
 http://www.uxmatters.com/MT/archives/000271.php
 Quizá el origen de todo sirvió en cuanto a que el ordenador seguía la metáfora del escritorio: guardábamos documentos de texto, hojas de cálculo y fichas de datos. El problema es cuando el ordenador ha dejado de ser la metáfora del escritorio. Ahora mismo guardamos:
 
-  * Documentos de texto
-  * Hojas de cálculo
-  * Correo electrónico
-  * Presentaciones
-  * Mensajería instantánea
-  * Calendarios / Eventos 
-  * Enlaces
-  * Música
-  * Videos
-  * Imágenes (capturas de pantalla, fotografías, imágenes de la web,…)
-  * Ilustraciones
-  * Notas/Clips
-  * To-do
-  * Serial numbers
-  * Contraseñas
-  * Contactos
-  * referencias de libros
-  * ...
+* Documentos de texto
+* Hojas de cálculo
+* Correo electrónico
+* Presentaciones
+* Mensajería instantánea
+* Calendarios / Eventos 
+* Enlaces
+* Música
+* Videos
+* Imágenes (capturas de pantalla, fotografías, imágenes de la web,…)
+* Ilustraciones
+* Notas/Clips
+* To-do
+* Serial numbers
+* Contraseñas
+* Contactos
+* referencias de libros
+* ...
 
 El problema aumenta en cuanto perdemos la metáfora del escritorio y nuestra actividad profesional traspasa los límites tradicionales de la información personal. La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
 Hay intentos como http://www.plaxo.com/ o http://www.airset.com/AirSet.jsp#app.Home
