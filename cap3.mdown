@@ -1,0 +1,84 @@
+#La lección de los marcadores ======
+
+## Resources =====
+  * The Del.icio.us Lesson: http://bokardo.com/archives/the-delicious-lesson/
+  * http://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
+  * http://rashmisinha.com/2006/07/27/findability-with-tags-facets-clusters-and-pivot-browsing/
+  * The Reality of Semantic Desktops: Death To Tags, Labels and Folders: http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/
+  * Folders vs. Tags For Shared Email Accounts? : http://tech.slashdot.org/article.pl?sid=08/05/03/1749255
+  * [PDF] Wikifolders
+
+
+Laura está preparando una actividad de formación interna en la que uno de los recursos es una lista de marcadores web. 
+
+Laura ha recopilado la lista de recursos en un documento de texto. También ha pensado en la opción de colgar la información en una página web. Si proporciona un documento de texto (del formato .doc o .odt) se encuentra con los siguientes problemas:
+
+* Ha de realizar tantas copias como asistentes a la actividad de formación. Este obliga a que los asistentes proporcionen su correo electrónico.
+* Si el documento está encapsulado, (.pdf), una modificación requerirá un mayor trabajo si no se tiene a mano una editor de documentos PDF.
+* La transmisión es unidireccional. Laura no tiene ningún medio de recibir y organizar la interacción de los participantes sin que acabe en un perfecto caos. Sólo que uno o una de los participantes del curso añade un nuevo marcador al documento, éste debería enviárselo a Laura y, a continuación, Laura debería reenviarlo al resto del grupo. Imaginemos por un momento si en lugar de una modificación contamos diez u once.
+* El último apartado nos recuerda que Laura debe enviar el archivo adjunto según el número de participantes. Si el grupo de trabajo lo integran dieciséis personas, representa dieciséis copias más una (la de Laura). A partir de ese momento ¿qué tipo de estrategia debería seguir Laura para conocer cuál es el documento original y cuál es la copia? ¿Cuál de las dieciséis copias representa la versión definitiva? Si como hemos explicado antes se realiza un cambio o se añade uno o varios marcadores nuevos, ¿cómo notificamos estos cambios a los demás?
+* Es un sistema acumulativo de la información: se basa en una clasificación muy primitiva, por temática. ¿Qué ocurre si un recurso pertenece a dos o tres temáticas diferentes? ¿Debe duplicar o triplicar la información del recurso?
+* Para terminar, Laura sabe que, una vez terminada la actividad, el documento quedará automáticamente obsoleto para los participantes si Laura no realiza el esfuerzo de enviar copias actualizadas a los asistentes cada vez que realiza un cambio. Esto último resulta incluso molesto todavía más si lo único que conseguimos es aumentar la bandeja de entrada del cliente de correo.
+
+Por otro lado, Laura valora la alternativa de publicar los enlaces en una página web. De hecho gana una serie de ventajas frente la realización de un documento de texto:
+
+* El contenido es accesible desde cualquier ordenador, independiente del sistema operativo o exclusivo de un determinado procesador de textos. Los participantes sólo necesitan un navegador.
+* Evita tener que enviar adjuntos a los correos de los participantes. Puede adelantar la información enviando un correo con la dirección de la página web donde ha publicado la lista de recursos o esperar al primer día de la actividad y proporcionar la dirección escribiéndola en la pizarra.
+* A partir de entonces, los participantes ya saben donde pueden consultar la página de los recursos a lo largo de la duración del curso como una vez finalizado.
+* Si alguno o alguna de los participantes desea corregir o añadir un nuevo recurso, debe primero comunicárselo a Laura y, seguidamente, modificar la web. Esto implica un total de 2 ó 3 mensajes de correo (1. notificación del cambio 2. notificación del cambio). 
+* Siguen habiendo un problema de participación: Laura se sitúa en el centro donde convergen y pasas todas las incidencias de cambios, actualizaciones de la página de recursos. 
+* Laura ha publicado el contenido de los enlaces en una página estática.(y?) luego deberá tener un mínimo de formación de creación de páginas web (lenguaje HTML), transmisión de ficheros desde su ordenador al servidor, etc.
+* Si ha mejorado el trabajo que lleva la gestión del documento, esta vez publicado en web, de los recursos de la actividad, Laura considera que todavía es ineficiente. ¿Por qué?
+* No se ha solucionado el problema que supone centralizar la publicación del documento y, por lo tanto, el coste de mantenimiento/edición y actualización del documento.
+* Lo anterior tampoco no proporciona un sistema eficiente de catalogación de los recursos.
+* También Laura insiste que no tiene horas para aprender a crear páginas web. Le recuerdo que no es problema. En la actualidad hay varias aplicaciones libres que te permiten crearla sin problemas. Incluso puedes probar servicios como http://www.weebly.com/ que te ayudan a crear una página web en cuatro pasos.
+
+## Las etiquetas importan 
+
+Cuando acumulamos demasiada información digital, nos sentimos obligados a clasificarlas, sea una lista interminable de marcadores de páginas web, documentos de texto, hojas de cálculo, presentaciones o fotografías. En general, el sistema de organización personal que sigamos, entre intuitiva, flexible o rígida, siempre terminará encontrándose con el sistema de organización que nos proporciona el sistema operativo. Hasta la actualidad, la organización de los archivos (sean documentos de textos o imágenes) pasaba por el sistema de carpetas (folders).
+
+Este sistema requiere una manera personal de clasificar los archivos. Primero se estima cuál es el espacio o lugar idóneo para ubicar los archivos según sea su tipo. Es relevante que las últimas versiones de los sistemas operativos vengan con unos directorios predeterminados asociados a la cuenta del usuario: Documentos, Música, Photos, Imágenes, Videos, Plantillas o incluso directamente el formato PDF. De esta manera insinúa al usuario cuál será el lugar más indicado. Sería una contradicción guardar documentos de texto en la carpeta de imágenes. Una segunda decisión viene después, cuando el contenido de las fotografías corresponden a diferentes temáticas, están tomadas en fechas diferentes, algunas son públicas, otras privadas.
+
+Mark Hurst, en su libro “Bit Literacy” nos sugiere la técnica de los “dos niveles”(pág. 84). Él es partidario de utilizar el sistema de organización de carpetas. El sistema de los dos niveles es realmente simple. Consiste en una primera organización por año (2003, 2004, 2005,…) y seguidamente, el segundo nivel de carpetas en la que sigue la convención mes - evento.
+
+Mark Hurst no es partidario de utilizar etiquetas. Considera que la práctica de etiquetar las fotografías requiere de un esfuerzo que, la mayoría de usuarios, no está dispuesto a asumir (pág 80-81). En general, muy pocos son los usuarios que sigan a conciencia un sistema rígido de clasificación y organización de los archivos. En general ni siquiera renombran las imágenes tal como estas salen por defecto de la cámara de fotos. Prueba de ello es que en Flickr nos encontramos a menudo con imágenes amateur con nombres como “DSCN…” y un largo número. Estos usuarios ni clasifican las imágenes, ni siquiera las nombran. Ni mucho menos las etiquetan,.
+nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search/?ss=2&ct=6&w=all&q=dscn0001&m=text comprobaréis cómo un número elevado de usuarios no renombran las fotografías que suben. De hecho se cuenta hasta 17.582 resultados de imágenes de idéntico título.
+
+### Etiquetas vs. Carpetas 
+
+La clasificación de nuestros archivos en el disco duro se ha basado en la metáfora de la vida real. Organizamos facturas, documentos legales, apuntes en carpetas y subcarpetas. No es extraño que practiquemos lo mismo. Aparte de simple contenedores, las carpetas también se presentan como la primera estructura de un proyecto personal. Carpetas y subcarpetas anidadas le siguen una convención personal de cada nombre de la carpeta. Pequeños hacks de las carpetas, especialmente a prefijos con números y letras para forzar uno u otro orden.
+El problema sigue siendo el mismo: el día a día nos hace ser más flexibles con nuestras propias reglas o tareas repetitivas. Dejamos de seguir la convención con la que ordenábamos las carpetas, la numeración, vamos dejando los archivos en el Escritorio, más tarde los desplazamos a lugares equivocados, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta fatiga degrada el sistema de organización de los documentos, lo que ocasiona que, al cabo de un tiempo (no muy largo), no encontremos los archivos si quiera en nuestro ordenador.
+http://www.uxmatters.com/MT/archives/000271.php
+Quizá el origen de todo sirvió en cuanto a que el ordenador seguía la metáfora del escritorio: guardábamos documentos de texto, hojas de cálculo y fichas de datos. El problema es cuando el ordenador ha dejado de ser la metáfora del escritorio. Ahora mismo guardamos:
+
+  * Documentos de texto
+  * Hojas de cálculo
+  * Correo electrónico
+  * Presentaciones
+  * Mensajería instantánea
+  * Calendarios / Eventos 
+  * Enlaces
+  * Música
+  * Videos
+  * Imágenes (capturas de pantalla, fotografías, imágenes de la web,…)
+  * Ilustraciones
+  * Notas/Clips
+  * To-do
+  * Serial numbers
+  * Contraseñas
+  * Contactos
+  * referencias de libros
+  * ...
+
+El problema aumenta en cuanto perdemos la metáfora del escritorio y nuestra actividad profesional traspasa los límites tradicionales de la información personal. La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
+Hay intentos como http://www.plaxo.com/ o http://www.airset.com/AirSet.jsp#app.Home
+
+Quizá una solución posible pasaría por un sistema de lifestreaming online/offline (RIA?). Veamos un ejemplo:
+
+  * Acabo un documento de texto en el escritorio. Si creo necesario, lo subo mediante un cliente RIA a mi espacio de lifestreaming. Este cliente podría trabajar offline, esperando a que, una vez sincronizado con la nube, suba los cambios. En realidad se registra la localización del documento, versión y etiquetas. De esta manera, en la línea de “vida” tienes archivado. 
+  * Pueden tener perfiles de privacidad
+  * Incorporar servicios web 
+  * Puedes publicar o referenciar documentos, los primeros tienen un límite de espacio
+  * Puedes agrupar documentos tomando como referencia un directorio/carpeta 
+
+Una parte de nosotros ha comenzado a considerar la subida de este tipo de archivos a la red en lugar de estar repartido en un ordenador. Quizá el problema más serio viene con los documentos ofimáticos que tienen relación con la realización de un proyecto.
