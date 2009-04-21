@@ -1,0 +1,136 @@
+#Representar el exceso de la información
+
+Acostumbro a observar a los compañeros y compañeras del trabajo que pasan horas interminables delante de una rejilla cubierta de números. La mirada atenta, analítica y fría frente a una hoja de cálculo en la que el contenido, imperceptibles cifras atrapadas en diminutas celdas, son legibles sólo a muy poca distancia. A medida que pasan los días, el cuerpo de letra de los números va menguando debido a que el volumen de la información ha aumentado, y las dimensiones de la pantalla no permiten una extensión mayor de los 1280 por 970 píxeles. Al otro lado, un empleado prepara la presentación de un proyecto que ha llevado semanas de trabajo. Hacer una síntesis efectiva de la información del proyecto no resulta una tarea fácil; conoce muy bien las funcionalidades de la herramienta, pero desconoce qué técnicas facilitan la transmisión visual de la información al público al que va dirigida la presentación.
+
+Quienes acostumbran a manejar enormes volúmenes de información, al final de un proyecto, toman varias fotografías de la geografía tupida y abigarrada de datos con el objetivo de presentarlas al público en general en forma de instantánea. La información de esta manera se revela eficaz y brinda la oportunidad a quienes la observan y analizan de comprenderla en su totalidad. La representación de la información no es gratuita; la elección del sistema de visualizar los datos allanará más el acceso rápido al conocimiento de la información representada. De lo contrario, una elección equivocada del método empleado en presentar los datos puede tener un efecto contrario y dar como resultado mal interpretaciones o lecturas equivocadas.
+
+
+##La visualización de información como disciplina
+
+El propósito de la visualización es revelar al espectador un conocimiento que, de otra manera, quedaría oculto en su representación más primitiva, aquella que es más próxima a la máquina y no a las personas. Se establece entonces una escala de la representación de la información según el grado de interpretación y conclusiones posibles de su lectura.
+
+Visualizar datos no es equivalente a la infografía o representación de la información. La visualización de datos representa un volumen cuantificado de datos; en frente, la infografía representa una información cuantificable o no.
+
+La visualización de datos revela aquello que, en su representación más cruda, sería imposible de comprender o entender. La representación es una suerte de instantánea que permite al espectador descubrir una o diferentes informaciones que, de la otra manera, quedaría oculta en los propios datos.
+
+La visualización sirve de transmisor de aquello oculto. Por esto, la hojas de cálculo permiten trabajar con datos, pero estos finalmente acaban visibles no como una interminable lista de datos tabulados, sino a través de los gráficos como por ejemplo los simples de barras o pastel.
+
+La elección de qué datos a representar o el tipo de representación puede pervertir el mensaje o la respuesta a la pregunta que desea responder.
+
+Ben Fry (Fry, 2008) establece una secuencia de acciones en el proceso de la visualización de la información: adquirir, analizar (parser), filtrar, extraer (data mining), representar, refinar y, por último, interactuar con la representación. Es un proceso complejo y que implica un control de disciplinas coo la estadística, la matemática, la computacional y la artística. Si una de las acciones no es acertada, el proceso se verá afectado y la visualización difícilmente responderá las preguntas que, previamente, se han formulado al principio.
+
+Joel Laumans determina que una representación de la información requiere un importante proceso de análisis previo de los datos a representar: cuáles son los datos, qué relaciones hay entre las variables? cómo se organizan los datos y, finalmente, qué perseguimos o necesitamos comunicar?
+
+La mayoría de autores coinciden que el éxito de la representación está fuertemente sujeto a la elección del método de representación o tipo de gráfico. Si bien la decisión del tipo de gráfico es libre, una serie de patrones encontramos disponibles que resultan eficientes según el tipo de datos.
+
+###Patrones en la visualización de datos
+
+* Cantidades independientes: comparación de los valores de variables independientes. Un ejemplo son los gráficos de barra
+* Cantidades continuas a lo largo de una línea de tiempo: gráficas de líneas o gráficas de áreas apiladas (stacked area chart)
+* Proporciones: Cuando la información o los datos forman parte de un todo. Gráficos de pastel o gráficos de anillos
+* Correlaciones: Scatterplots o bubble charts
+* Jerarquías: diagramas de árbol
+* Redes: diagramas de nodos
+* Cartográficos: Mapas
+* Flujo: Diagramas de Sankey
+
+Como es habitual, no todos los escenarios se ajustan a una solución precocinada. Las hojas de cálculo incorporan soluciones estándar como las que hemos visto más arriba, pero también comienzan a introducirse nuevas representaciones. La hoja de cálculo de Google Docs añade una opción conocida por Gadgets que añaden la línea del tiempo y, por lo tanto, una secuencia animada de la representación de datos.
+
+Cuando la solución estándar no es ideal debido a las características de los datos, las alternativas suelen ser una mezcla de dos o más patrones.
+
+###Revelar la información
+
+Hacer evidente la información, o la disciplina de visualización de datos no se limita a una traducción de la informacióm tabular (una hoja de cálculo) a un gráfico. Todo lo contrario, la visualización implica la comunicación clara del mensaje que queremos transmitir. Un ejemplo sería los Cloud Tags o una reinvención del ejemplo del libro de Tidwell (http://designinginterfaces.com/) (retomado por Joel Laumans), en el que se muestra una rejilla de puntos, muchos de ellos de color rojo y unos pocos de color azul. Si nos preguntan si sabemos localizar los puntos azules no nos resultaría difícil. En cambio, si cambiamos los puntos de color por valores numéricos y nos preguntan cuáles de ellos están por encima de la unidad, la facilidad del primero se traduciría a ir mirando una variable tras otra.
+
+En cierta manera, la solución de los Tag Cloud corresponde a ofrecer un mensaje claro: del conjunto total de etiquetas, cuáles tienen mayor peso o relevancia según una variable o valor escogido como referencia (acostumbra a ser el número de artículos a los que se les ha asignado la etiqueta)
+
+Tidwell recomienda utilizar estrategias propias de la Gestalt cuando no aconseja emplear técnicas de “separación” visual del aquel ítem relevante respecto al resto de valores. Ejemplos como la posición, orientación, saturación, tamaño (Tag Cloud) o forma.
+
+
+###Interactividad de la visualización de información
+
+La entrada de la informática en el campo de la visualización representó una clara inflexión al facilitar la interactividad del usuario con la información representada a través de interfícies diseñadas a tal propósito. Frente a la foto final de la visualización impresa, la oferta de una visualización dinámica de la información añade nuevas maneras de tratarla, especialmente si pensamos que, a través de la interacción, se altera a tiempo real alguna de las fases del proceso descrito por el autor de Visualizing Data. Es decir, el usuario puede determinar el tipo de filtro, acentuar la visualización o contextualizar mediante tooltips la información. Manipular directamente la información es una ventaja.
+
+Un ejemplo de ello, es la siguiente información: http://flowingdata.com/2008/03/12/17-ways-to-visualize-the-twitter-universe/
+
+en la que los usuarios representan la información de twitter a través de herramientas interactivas de visualización.
+
+http://yoan.dosimple.ch/blog/2007/05/17/
+
+De acuerdo con Tufte (Tufte, 200), la excelencia de la representación gráfica de datos consiste en que ideas complejas se comunicen con claridad, precisión y eficiencia.
+
+Examinar los datos o, lo que Ben Fry determinar como el análisis de los datos. Joel Laumans insiste en que toda visualización responde a una pregunta en relación a una información. Conocer esta información, saber las relaciones que hay entre las variables, el cómo se organizan y qué es lo que necesita ser comunicado será básico en el éxito del trabajo.
+
+El tipo de pregunta que nos formulemos implicará definitivamente el tipo de representación a elegir: la evolución de una empresa en el tiempo corresponderá a una línea en el tiempo; la densidad de población implicaría una representación geográfica antes que otra solución.
+
+
+###Caso de estudio: tag cloud
+
+Improving Tag-Clouds as Visual Information Retrieval Interfaces [PDF]
+
+Un ejemplo de solución al problema del exceso de información, que fue adoptado rápidamente por la mayoría de páginas web que clasificaban los contenidos en base a un sistema flexible de etiquetas, es el sistema de representación conocido como Tag Cloud, nube de etiquetas.
+
+A diferencia del sistema tradicional de clasificación en carpetas, siguiendo la metáfora del escritorio, se consideró una alternativa más flexible y ágil de ordenar los contenidos, el etiquetaje. Mediante el uso de etiquetas, los usuarios clasifican la información con total libertad, ajustándose al signifcado del contenido según el criterio del sentido común. La actividad de ordenar la información mediante etiquetas resulta ser más espontánea y próxima al usuario que otros sistemas de organización fuertemente jerarquizados, como las taxonomías, donde el usuario debe forzar la categoría de un contenido.
+
+La rápida acumulación de etiquetas en páginas web donde la publicación de contenidos es intensa originó el sistema de nubes de etiquetas. Este sistema debía cumplir dos funciones:
+
+  * Permitir a los usuarios conocer qué etiquetas clasifican el mayor número de contenidos de la página web y, por lo tanto, una suerte de zeitgeist de la información.
+  * Establecr una metodología sencilla de navegación y adquisición de la información a través del espacio de etiquetas, de tal manera que ofreciese nuevas rutas en la adquisición de la información.
+
+###Caso de estudio: IBM Many Eyes & The New York Times & Processing 
+
+* http://www.research.ibm.com/visual/
+* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/
+* http://vizlab.nytimes.com/
+* http://blog.blprnt.com/blog/blprnt/nytimes-prints-for-sale-files-for-free
+* http://www.flickr.com/photos/blprnt/sets/72157613381549987/
+
+
+## Mashups 
+
+Un mashup es una aplicación web que remezcla información o datos de dos o más servicios web con la intención de crear un servicio nuevo o representación diferente. John Musser, creador de la web "Programmable Web" enumera un listado de APIs disponibles para utilizarlas en la creación de mashups. Algunas de estas APis estan diseñadas para ser utilizadas en páginas basadas en la tecnología AJAX -páginas que usan Javascript para intercambiar el XML- basadas en peticiones asíncronas con los servidores de estas APIs, actualizando los contenidos según sea la petición.
+
+Los Mashups se sirven de la tecnología web y de las APIs de terceros con el fin de construir una nueva web. En parte, esta tecnología ha permitido representar la información que guardan los servidores de Google, Yahoo, Twitter de una manera no pensada cuando se lanzó el servicio original. Los Mashups en este sentido representan un paso hacia la llamada Web Semántica, es decir, cuando los datos, al agruparlos, remezclarlos con otros y, finalmente, representarlos, adquieren un significado nuevo y alumbran un conocimiento oculto hasta entonces.
+
+http://www.programmableweb.com/howto para comenzar a tener una ligera idea de lo que escribo
+
+
+El clásico mashup Chicago Crime (chicahocrime.org o el actualizado http://chicago.everyblock.com/) muestra la manera de cómo recopilar una extensa colección de datos y revelar significados o dar sentido a toda esa colección de información mediante el uso de interficies gráficas (el uso de mapas de Chicago gracias a la API de Google Maps) que nos permitiran comprender la información. En su defecto, la policia de Chicago proporciona los datos mediante hojas de cálculo, pero fue gracias a la representación de mapas que la información adquirió un nuevo significado, más accesible para todos y por lo tanto de un mayor uso y comprensión de la información. 
+
+Un ejemplo del potencial es la representación de la información generada por los usuarios de Twitter a través de mashups. Según cuenta programmableweb, hay registrados 141 mashups: http://www.programmableweb.com/api/twitter/mashups, del ya popular Twittervision a http://www.programmableweb.com/mashup/twitter-top-news-trends 
+
+
+Para cuando entonces mashups que gestionen la información personal y, por lo tanto, controlemos el exceso de información ya no mediante una observación precisa del detalle sino relevadora de la imagen general. Es decir, un mashup que remezcle nuestro correo, nuestro trabajo diario con los documentos, los servicios web a los que estamos suscritos, participamos, etc,...
+
+Esto podría enlazarse con el artículo [[http://flowingdata.com/2009/04/07/a-perfect-personal-data-collection-application/|A Perfect Personal Data Collection Application]]
+
+El incremento de nuestra actividad en la web, de especial interés en aquella información que recogemos, publicamos o compartimos con otros usuarios. En la actualidad encontramos una serie de herramientas online de tracking sobre alguna actividad específica: cuánto tiempo pasamos delante del ordenador, cuánto dinero gastamos a la semana, cuánto pesamos, etc.  No deja de resultar evidente la limitación que supone evaluar sólo una actividad, independiente de otras variables que afectarían en mayor o menor medida el resultado de aquel. Estas herramientas no pueden siquiera compararse con el tracking de la información generada por la redes sociales como Twitter o Facebook. Según Nathan de Flowing Data remarca que estas posibles herramientas que gestionen la información personal no deberían aumentar el exceso de información, todo lo contrario, una nueva estrategia o una nueva perspectiva de nuestra propia imagen. El individuo como un Mashup?
+
+### PIM ¿Pesonal Information Mashup? 
+
+Dejemos definitivamente la gestión por la remezcla. El nuevo escenario podría ser una suerte de RIA (Rich Internet App) que remezclara la actividad personal, la profesional y la social, y que sincronizara con los diferentes dispositivos que generalmente trabajamos. Una suerte de FriendFeed que registrara además los documentos, correo, aprovechando las APIs abiertas de cada uno de los servicios.
+
+De hecho, EventBox es un primer paso hacia una experiencia más efectiva y eficiente en cuanto agrupa algunos de los servicios más populares en una única aplicación: Google Reader, FriendFeed y Twitter. 
+
+## Referencias 
+
+* http://flowingdata.com/2009/03/20/data-visualization-is-only-part-of-the-answer-to-big-data/
+* http://www.vectart.com/esp/indexsp.htm 
+* http://blog.vectart.com/?p=101
+* http://flowingdata.com/2009/01/15/flow-chart-shows-you-what-chart-to-use/
+* http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html 
+* http://visualcomplexity.com 
+* http://www.timshowers.com/web-design-blog/ 
+* http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/ 
+* http://infosthetics.com/
+* http://blog.thejit.org/javascript-information-visualization-toolkit-jit/
+* http://blog.thejit.org/2008/11/27/using-ocaml-to-visualize-radioheads-hoc-music-video-part-1/ 
+* http://vis.stanford.edu/protovis/
+* http://www.visophyte.org/blog/
+* http://www.math.yorku.ca/SCS/Gallery/milestone/index.html
+* http://magicalnihilism.wordpress.com/2009/04/03/data-as-seductive-material/
+* http://www.flight404.com/blog/
+* http://netdiver.net/10years/artists-and-their-apps-by-doc-woohoo
+* http://vizlab.nytimes.com/
+* http://piksels.com/introduction-to-visualizing-data/
+* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#

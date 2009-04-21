@@ -1,0 +1,122 @@
+
+#De la gestión al exceso de la información personal. PIG
+
+El acrónimo PIM corresponde a *Personal Information Managament* y, según la Wikipedia (http://en.wikipedia.org/wiki/Personal_information_management), engloba toda actividad personal relacionada con la adquisición, búsqueda, organización, recuperación, mantenimiento y uso de la información con la finalidad de completar una tarea . En un escenario ideal, completar una tarea resultaría fácil si tuviéramos la información adecuada en el lugar adecuado y en el momento adecuado. Si una de las tres condiciones -el qué, el dónde y el cuándo- no se cumple dificultará la realización de la tarea. Necesito saber el número de teléfono de un restaurante que me recomendó una amiga en un e-mail hace unos meses. Esta simple tarea -saber el teléfono del restaurante- se vería cumplida si conocemos la información adecuada -nombre del restaurante, dirección y localidad del restaurante-, el dónde guardamos la información -correo electrónico, bandeja de entrada de un cliente de correo instalado en un dispositivo móvil. - y el cuándo -el día que fue recibido el mensaje. Desde una perspectiva más académica, Belloti et al. (2002) describe el PIM como "la organización de la información en base a la categorización, ubicación o adorno de la misma con el fin de facilitar su recuperación cuando sea necesaria" o la de Barreau (1995) como "las estrategias en la adquisición, organización y guardar información, las reglas y procedimientos para recuperarla, los mecanismos para su recuperación, y los métodos para producir un resultado". En esta dirección el PIM vendría a representar un tensión entre aquello que consideramos objeto de información, susceptible de sernos útil y, por lo tanto, incorporarlo en un sistema personal de búsqueda, organización y preservación, y lo demás, es decir, todo objeto que descartamos del sistema. Hablo de tensión ya que es evidente que la decisión de lo que consideramos objeto de información puede verse alterada en el tiempo o en el contexto. Un enlace sobre un estudio estadístico de un tópico social no nos resulte personalmente importante, pero sí que, por motivos profesionales, meses más tarde, queramos recuperarlo debido a que encaja perfectamente en un nuevo proyecto.
+
+
+Jones (2008) delimita a un conjunto de actividades que enlazan los objetos de información y nuestros intereses: 
+
+* **Buscar** 
+* **Guardar**
+
+Además de estas dos actividades, Jones añade otras que por sus características las considera meta-actividades y que vienen a significar actividades que superan la barrera imaginaria del corto plazo: organizar, preservar, evaluar/actualizar y, finalmente otorgar un significado a la colección de objetos de información.
+
+* **Guardamos** una imagen en el escritorio (corto plazo). Utilizamos estrategias para guardar este tipo de información, desde sistema más sofisticados (wikis, marcadores sociales,...) a más básicos (papel servilleta)
+* **Buscamos** el horario de un tren (corto plazo), una página web, una fotografía, un video, un texto, nuevos servicios, nuevos clientes, etc. 
+* **Organizamos** un viaje, un encuentro, un proyecto, una documentación, una colección de imágenes,... organizar es un proceso en el que convive el afán de mantener la información y ubicarla en una jerarquía o sistema de clasificación que nos permita recuperarla en el momento que nos resulte necesario. Esta organización ha de facilitar que la búsqueda requiera una inversión de tiempo muy corto. 
+* **Preservamos** una colección de fotos (meta actividad medio-largo plazo) del viaje
+* **Actualizamos** la información en el caso que repitamos el viaje (modificar hoteles, rutas,...)
+* Dar sentido a la información corresponde al proceso de crear un nuevo objeto de información que agrupe lo anterior (?)
+  
+## PIG (Personal Information Glut)
+
+La web como plataforma (Reilly, 2004) descubre nuevas posibilidades como nuevas fracturas de la gestión de la información personal. Si los límites del PIM en relación a la web se reducían hasta entonces a la gestión del correo electrónico y a la de los marcadores de páginas web, es decir, la web analógica en cuanto a que no se ha emancipado de su propia metáfora de la realidad, como es el caso de los escritorios de ordenador, la Web 2.0 devolverá a la tradición oral un nuevo estatus de poder frente a la tradición escrita (Wright, 2007), The Age of Conversation (McLellan, 2008), la personas se hablan entre ellas a través de los diferentes servicios web, aplicaciones sociales, mensajería instantanea, microblogging, bloggings y otros mecanismos que generen la conversación colectiva. Disrupción en cuanto a que todo mensaje escrito adopta forma de charla cotidiana.
+
+El primer síntoma del exceso no se debe sólo a la información que recibimos, sino que compartimos o publicamos, tanto en el área profesional como pública, entendiendo que los límites de estos quedan completamente rebasados por el espacio de la red. El término de identidad digital incorpora ese añadido al currículum: ya no somos sólo nuestro currículum oficial sino también la proyección en la red en la medida de cómo interactuamos con ella, desde una simple extensión de nuestras vidas personales (comunicación oral a través de la mensajería instantanea, correo electrónico, msm,..) a profesionales (redes sociales, networking profesional,...)
+
+La proliferación de servicios de la web como de los dispositivos que utilizamos para comunicarnos e interactuamos con aquellos determina una fragmentación y dispersión de la información personal. Esta nueva realidad afectará al PIM, en primer lugar, un excesivo acento en la capacidades de las dos actividades básicas: buscar y guardar. Ya no buscamos sólo en dos áreas claramente diferenciadas, una privada (mi ordenador) y otra pública (internet como un simple catálogo de información), ya que la búsqueda queda afectada por la fragmentación de la información. A la pregunta ¿dónde la guardé? o ¿dónde encontrarla? el objeto de información.
+
+### Buscar o ¿reencontrar?
+
+El objeto de información, en la búsqueda, podemos apoyarnos de nuestra frágil memoria. De hecho, las innumerables soluciones de buscadores responden a la necesidad de completar aquella actividad que se ve superada por el volumen de información. Jones (2008) establece un cuadrante en el que la búsqueda quedará sujeta según la cuatro posibilidades:
+
+| La información... | es de nuestra propiedad |  es propiedad de otros |
+|:-----------------:|:-----------------------:|:----------------------:|
+| fue vista con anterioridad |  A  |  B  |
+| no fue vista con anterioridad |  D  |  C  |
+
+
+
+#### Apartado A: La información que hemos visto con anterioridad y controlamos
+
+En el apartado A se ubican toda la información que hemos ido acumulando tanto en nuestro ordenador. En el escenario PIM, esta información reside en el disco duro del ordenador: documentos de texto, hojas de cálculo, música, películas, fotografías, correo,..., en general es información a la que recurrimos habitualmente, pero en PIG el límite del disco duro se ve extralimitado por la información personal que compartimos en las diferentes redes sociales. Aquí tiene vital importancia los búscadores de escritorio, de los que hablamos ahora... pero qué ocurre con la información que guardamos en la red, en la nube? Qué ocurre cuando el objeto de información es algo más que un documento de trabajo, un simple marcador y se extiende a otras nuevas formas, como por ejemplo, un artículo de blog, 
+
+Aquí, en relación a la búsqueda o recuperación de la información personal propia, o mejor dicho, aquella que tenemos bajo control (se traduce con permisos de lectura, escritura y ejecución, es decir, podemos elegir la herramienta con la que abriremos la información (en el caso de las fotografías, desde el visualizador del sistema hasta herramientas sofisticadas de retoque digital; de escritura, en cuanto a que podemos borrarla o desplazarla a otros dispositivos y, finalmente, de lectura, la opción básica de acceder al contenido de la misma. 
+
+Siguiendo el apartado anterior, los usuarios organizan o sistematizan las técnicas para reencontrar la información a la que frencuentemente recurrimos a ella. Aquí la metáfora del escritorio adquiere especial interés ya que es el espacio en el que dejamos la información con la que trabajamos a menudo y que, debido a la facilidad visual de acceso. Prueba de ello es el problema que el autor X (Bit Literacy) habla del problema conocido por cluttering, es decir, por la acumulación de elementos de información que contiene el escritorio -documentos, carpetas, enlaces directos a aplicaciones- que neutralizan su función.
+
+## Contraponer la organización personal frente a la lógica del sistema de archivos del sistema operativo 
+
+Descubramos diferentes escenarios habituales de cómo guardamos los documentos en nuestro ordenador. 
+
+* No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
+Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
+* El escritorio lleno o la visión del clutter desktop. Tanto que el fondo de escritorio (léase paisaje, foto de las vacaciones o familiar querido) se esconde detrás de la infinidad de carpetas o documentos. Se cree o piensa que el tener los documentos en el escritorio es sinónimo de tenerlos más a mano, como si de una pila de papeles se tratara (siguiendo la metáfora del escritorio). En realidad su visión resulta como mínimo estresante para un desconocido. Insostenible si pensamos que el número de documentos y carpetas crecen cada día. Las dos pantallas no son la respuesta a esta problemática. http://www.avesh.com/blog/DesktopZenReducingVisualClutterOnYourDesktop.aspx
+* Se utilizan un par o tres de carpetas como almacén de toda la información, lo que en poco tiempo se llega a una situación conocida por “clutter digital”. No se puede encontrar ningún fichero por el problema del “engordamiento”
+* La degradación de un sistema personal. Este es quizá el más generalizado. Se emprende el ejercicio de mantener una estructura pero con el tiempo se consigue sólo a medias. Esto se debe en gran parte al trabajo bajo presión de fechas de entrega o realización de proyectos.
+* Priorizamos una serie de archivos o documentos en los que estamos trabajando y, con el motivo de no perderlos de vista, hacemos la excepción de la regla de organización fijada previamente. El resultado es, al poco tiempo, un auténtico desastre: conviven una organización de archivos y la ubicación aleatoria de otros.
+
+Habrás leído algunas recomendaciones. No hay una solución definitiva a este problema, pero la mayoría tienen puntos en común:
+  
+* La carpeta base o raíz. Los tres sistemas operativos más populares tienen una y se identifica con un nombre bastante significativo: mis documentos (windows), documentos (mac osx). También han incorporado carpetas asociadas a un tipo de archivo (Películas, Música, Descargas, Imágenes,...)
+* Tomamos la carpeta asociada a “Documentos”. Descartamos todos los archivos de imágenes o películas o música, ya que corresponderían a las carpetas que reciben su nombre.
+Dentro de Documentos creamos un segundo nivel de carpetas. Nunca dejamos archivos sueltos en el interior de la carpeta “Documentos”.
+Las carpetas pueden tener dos tipos de organización: por temática (nombre de un proyecto) o año.
+* Los proyectos pueden tener un mínimo de organización lógica antes de ir dejando todos los archivos relacionados con el mismo y sufrir de nuevo un cierto cluttering. Tener carpetas como “old”, “
+
+Seguimos. Las aplicaciones incorporan la opción de recuperar los objetos de información que habitualmente recurrimos para continuar trabajando con ellos; es también el caso de los navegadores con las pestañas abiertas de la última sesión. Aún así los buscadores de escritorio tienen una especial utilidad, especialmente cuando hablamos de información que gestiona exclusivamente la aplicación, como es el caso de los clientes de correo.
+
+**Nota**: introducir aquí el tema de organización de los ficheros (Bit Literacy), los buscadores como Google Desktop o Spotlight
+
+
+
+También aquí entraría la soluciones de MobileMe o la de PogoPlug, soluciones de sincronizar la información que guardamos y que, por lo tanto, la recuperación de la misma no se traumática. En todo caso, se evita la duplicación o triplicación de los objetos de información: realizamos una presentación y el objeto de la misma, el documento, está en el disco duro, en un lápiz USB, como adjunto a un correo enviado a nosotros mismos y, finalmente, publicado en un servicio de presentaciones como SlideShare. Cuatro cartuchos para un mismo objeto.
+
+También podemos incluir experimentos como Weave, que intentan que la información vaya con nosotros a cualquier parte y, en la medida de lo posible, desde cualquier dispositivo.
+
+#### Apartado B: La información que hemos visto con anterioridad y no controlamos
+
+En este apartado tiene relación por ejemplo con los marcadores de la web, pero también con una fotografía.
+
+En este sentido, era habitual en los primeros pasos de la web, finales de la década de 1990, los usuarios guardaban los marcadores de las páginas de interés personal en una página web. No dejaba de ser un reflejo de la gestión de marcadores del navegador.
+
+Un ejemplo de afrontar el hecho de ver continuamente páginas que puedan resultarnos de interés o sólo nos llamen la atención, pero no resultan lo suficientemente importantes para incluirlas en una lista de marcadores. El problema viene a menudo con los diferentes navegadores que usamos a diario, no sólo del tipo sino que nuestros continuos movimientos y los dispositivos diferentes nos obligan a utilizar vario navegadores. Es decir, una dispersión de información de las páginas que hemos visto. EL complemento [Read it later](http://readitlaterlist.com/) por un lado nos ayuda a no acumular pestañas con páginas abiertas pendientes de una lectura detenida. El problema ocurre que no sólo navegamos con el navegador del ordenador personal, sino también del ordenador del trabajo, ordenador de la escuela, de otros dispositivos que tienen acceso a la red, etc. Luego comprobamos que la dispersión de la información que hemos visto en un navegador, representado en forma de pestaña, queda atrapada en aquel navegador a no ser que nos enviemos una mensaje o que finalmente incorporemos la información de la página en la lista de nuestros marcadores favoritos, lo que aumenta considerablemente el volumen de marcadores sin apenas diferenciar su nivel de importancia o interés.
+
+
+
+#### Sincronizar los navegadores 
+
+[Weave](http://labs.mozilla.com/projects/weave/) o [Read it later](http://readitlaterlist.com/)  intentan de alguna manera de sincronizar el contenido que maneja un navegador. El caso de [Read it later](http://readitlaterlist.com/) se limita a los marcadores que dejamos pendientes de lectura para más tarde. En cambio Weave da un paso más allá y aporta una nueva experiencia en la gestión de la información personal que envuelve al navegador. Información que sería el histórico, las pestañas abiertas de la última sesión, las _cookies_, contraseñas, temas o complementos del navegador Mozilla Firefox perfectamente sincronizados con el objeto que el usuario sienta estar siempre delante de su navegador aún estando en dispositivos u ordenadores diferentes. Este es un objetivo que evita la fragmentación de la información y que le obliga a duplicar el entorno de trabajo de su navegador en el resto de navegadores a los que, por diferentes motivos personales o profesionales, toma contacto.
+
+>synchronizes the Firefox experience across multiple browsers, so that your desktop, laptop, and mobile phone can all work together. It currently supports continuous synchronization of your bookmarks, browsing history, saved passwords and tabs.
+
+
+#### Apartado C: Buscar información nueva
+
+
+
+
+#### Buscar en términos PIG
+
+1. La frontera entre el apartado A y B se diluye en el ámbito de la nube. Nuestra información se la supone ubicua y, por lo tanto, traspasa la frontera del ordenador personal. 
+2. Los ayudantes o helpers que nos guian en la localización puede determinar un búsqueda equivocada o esconder información relevante: autocompletados, una jerarquización errónea, etiquetas falsas, metadatos erróneos...
+3. Polimorfismo de la información; cuando esta convive entre su representación física (notas, papeles, impresiones, cartas físicas, memorándums,...) y sobretodo por la explosión de nuevas formas con la llegada de las aplicaciones o servicios web. La información representada de múltiples maneras y guardada en diferentes espacios de almacenamiento ocasiona la dispersión y fragmentación de la información. Incluso un mismo documento o ítem de información es igualmente susceptible de representar este mismo problema en cuanto a que:
+  * el documento se edita y actualiza a lo largo de un tiempo (presentación de un proyecto, informe de una actividad, ...)
+  * el documento se edita mediante uno o varios tipos de software. Recibimos el documento, lo abrimos con un software, lo publicamos para visualizarlo en otro y lo retocamos mediante otro.
+  * Guardamos una copia en uno o varios ordenadores, en uno o varios dispositivos de almacenamiento, en uno o varios mensajes de correo como adjunto,...
+  * Si guardamos las versiones del documento, incrementa la fragmentación y la dispersión si este es un documento de colaboración. 
+  * Manejar versiones diferentes de un mismo documento dificulta la búsqueda de la //versión//, dejando al usuario la tarea de decidir cuál de las versiones es la correcta.
+  * "Better searching, in combination with better, even automated tagging, can be an important tool in the fight against information fragmentation".
+  * La búsqueda ya no es en muchas situaciones interna. No es sólo recorrer el disco duro, sino también la actividad en la web. Es posible pensar en un buscador que indexe todas aquella información que no sólo guardamos en el disco duro, sino en la miríada de servicios en los que participamos en la manera que publicamos, compartimos y guardamos información.
+3. **La fragmentación de la información**: diferentes dispositivos de trabajo, de almacenamiento, y falta de sincronización entre ellos, hace que se levanten barreras entre ellos y que la búsqueda sea difícil. El número de dispositivos en el que guardamos la información es cada vez mayor. Ya no sólo trabajamos con un único ordenador, sino habitualmente trabajamos con uno personal y el de la empresa; tenemos uno o dos móviles, una PDA, varias cuentas de correo, varios dispositivos de almacenamiento (lápices de memoria, disco duros externos,...), cámara digitales de fotografía y video en la que a menudo se transforman en dispositivos de memoria, o cuadernos de trabajo, libretas de notas o agendas tradicionales se ha de sumar otros espacios donde vamos guardando y acumulando objetos de información personal: la evolución de la web de plataforma a servicio incluye la creación de nuevos contenedores de información con la consigna de acceder a los mismos desde cualquier punto geográfico siempre y cuando podamos acceder a la red. Pero estos servicios plantean un nuevo escenario donde convergen una mayor fragmentación de la información personal (la web no como escritura sino como conversación), interrogantes sobre la propiedad y uso de la información personal (véase debate sobre Facebook) que puedan hacer las empresas proveedoras de estos servicios. 
+4. El síndrome de las versiones y variaciones de un mismo objeto de información puede representar 
+5. La información entrante es enorme, luego el sistema de búsqueda queda relegada a los buscadores de escritorio
+
+Si la fragmentación de la información es posible paliarla a nivel de escritorio mediante una sistematización individual de las actividades de buscar-guardar-reencontrar-organizar, a nivel de nube de la web la sistematización se torna más compleja ya que nuestra información personal se verá estratificada y, en algunos escenarios, mezclada con la información personal de otros usuarios. Ya que la información personal ya no se limita a aquello que generamos o que surge de nuestras manos sino también aquello que compartimos o que resulta de interés de la información personal de otros usuarios. Esta mezcla de las esferas personales de la información escapa de cualquier sistematización. Si bien existen servicios web claramente diferenciados por el servicio que ofrecen (Flickr->fotografías, Vimeo->Videos, Delicious->Marcadores)...
+
+¿Se puede hablar de un sistema 
+
+
+Guardar información. Jones (2008) considera que la actividad de mantener la información responde a más de una cuestión: ¿me resultará útil más adelante? ¿dónde guardarla? ¿en qué formato? ¿en qué dispositivo? Guardar información es sinónimo de tomar una decisión sobre la prevención de si surge una necesidad relacionada. "Guardo este enlace ya que es posible que más adelante surga un proyecto en el trabajo". En gran medida, los servicios web actuales aligeran la necesidad de tomar una decisión al respecto, ya que si bien antes podría haber limitaciones físicas de espacio (comprar libros resulta un problema) o cuando los dispositivos de almacenamiento eran limitados, ahora resulta una práctica de cazadores de información, incluso aunque la información en sí misma no resulte útil. No guardamos copia de esta información, sólo instancias de la misma: de las páginas web guardamos su marcador, de aquellas fotografías, presentaciones o videos los marcamos de nuestro interés; marcamos/cazamos comentarios, grupos de discusión, noticias, comentarios, opiniones, enlaces, vuelos, rutas, hoteles, estancias,...; agregar noticias no deja de ser también una actividad relacionada con guardar la información. El símbolo de la estrella iluminada adyacente al objeto de información. 
+
+En PIG no guardamos, marcamos aquello que nos interesa. Luego no mantenemos todo y tampoco mantenemos nada. Jones (2008) encuentra problemas tanto en lo primero -mantenerlo todo-, ya que pervierte cualquier sistematización u organización de la información personal (problemas de versiones, resultados equívocos o fallidos de los buscadores, problemas más adelante del mantenimiento de la información) como también el dejar a terceros la actividad de guardar la información, es decir, subir nuestra información personal a la nube: las etiquetas o acción de señalizar toda información en lugar de guardarla, no hemos de olvidar que esta información no es de nuestra propiedad y está fuera de control, puede cambiar o desaparecer con el tiempo. Es también una manera de aniquilar los formatos entendidos como barreras de portabilidad de la información entre aplicaciones.
