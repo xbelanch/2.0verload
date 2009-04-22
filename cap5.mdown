@@ -1,0 +1,79 @@
+# RSS Overload 
+
+>I’m a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. (( Mark Frauenfelder, Rule the Web (2007) ))
+
+Atención: http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia
+
+
+Antes de la explosión generalizada de los blogs, los propietarios de páginas web informaban a los visitantes de novedades, modificaciones o simplemente que estaba en proceso de creación mediante advertencias visuales. Esta alertas estaban representadas por pequeños iconos animados (los gif animados) en forma de banderines rojos, bolas que cambiaban el color y, en el peor de los gustos, alguna figura humana practicando un gesto obsceno. Los usuarios guardábamos en la carpeta Favoritos del navegador los marcadores de las páginas de interés con el objeto de, más adelante, verificar si habían publicado nuevas noticias o actualizado la información. El problema surgió cuando el número de marcadores crecía sin deternerse y el tiempo que dedicábamos a averigurar si habían novedades era incluso mayor. Ya no era sólo averiguar si había o no una actualización del contenido; también se necesitaba un cierto esfuerzo en localizarla.
+
+Manternerse al día de la actualidad de la web resultaba caro en cuanto a tiempo y dedicación.  Una alternativa a este proceso interminable representó la suscripción, emulando el sistema tradicional de revistas y periódicos. Si estaba suscrito, la información actualizada, la novedad o la publicación de una noticia vendría a mí a través de un e-mail. No venía el contenido total de la noticia o novedad, sino generalmente el anuncio de la misma. 
+Este escenario incurría a varios problemas:
+
+  * Aumentaba el número de mensajes en la bandeja de entrada.
+  * Dispersión de la información. Recuperar más tarde la información era una tarea ardua. 
+  * Obligaba al usuario a consultar el contenido en la web, lo que significaba dejar  el cliente de correo, ir al navegador y visitar el enlace de la web.
+  * A medida que los blogs se fueron haciendo más populares, la necesidad de adoptar un sistema de subscripción más eficiente que permitiera a los usuarios
+  * recibir el contenido de la noticia, no una alerta de novedad.
+  * concentrar la información de las subscripciones.
+  * alejar definitivamente las subscripciones de la bandeja de entrada.
+
+se volvió urgente. Finalmente se decidió adoptar un antiguo formato conocido por el acrónimo RSS, que significaba Really Simple Syndication. Este formato tenía unas características generales que resultaron fundamentales para su uso generalizado:
+
+  * Formato estandarizado
+  * Contenía el contenido de la noticia
+  * Contenía metainformación como la fecha de publicación y autoría.
+
+Aún conociendo las ventajas que suponía un uso generalizado del RSS, es todavía un acrónimo desconocido para la mayoría de usuarios. En general convive con la práctica de ir visitando las páginas, una tras otra, para consultar las novedades o el envío de un boletín informativo si pensamos en la información interna de una organización, sea pública o privada.
+
+## El lector de RSS 
+
+A medida que el número de páginas que permitían la sindicación aumentaba, en parte a servicios como Blogger que facilitiban en menos de tres clics comenzar a publicar en un blog, se hizo patente la necesidad de un lector o herramienta que gestionara las suscripciones. Hubo tres visiones:
+  
+* La visión e-mail-centric, es decir, como una funcionalidad nueva del cliente de correo y, por lo tanto, incrementaba la acumulación de información en dos frentes, el de la bandeja de entrada y el de las suscripciones.
+* La visión desktop-centric, una aplicación de escritorio y, por lo tanto, sucedáneo del cliente de correo en el que guardar la información que recibimos de las suscripciones.
+* La visión web-centric, un servicio web que aprovechara la naturaleza on-line del RSS. En esta dirección encontramos dos versiones diferentes de afrontar la organización y lectura de las suscripciones, la traducción del cliente desktop-centric a la web, como el malogrado Bloglines o el exitoso Google Reader, y la personalización de una pantalla de inicio que ofreciera al usuario una instantánea de las últimas entradas de las suscripciones.
+
+
+>The key is quality information, not quantity of information. (( http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/ ))
+
+A medida que aumentamos el interés en conocer nuevos contenidos, no sólo de publicaciones de blogs, sino marcadores, listas de videos, redes sociales, etc, el número de subscripciones también crece. El lector RSS o agregador de feeds se colapsa de información y el usuario tiende a una lectura en diagonal de la mayoría de las noticias y el abandono de otras.
+Si bien parece ser un escenario prematuro, no son pocas las voces que plantean el problema de la sobrecarga de suscripciones. El exceso de la información generada por la publicación ininterrumpida de terceros. No entraremos en los motivos que empujan a muchos bloggers a publicar dos o tres mensajes diarios. Esto sin contar en aquellos blogs o gestores de contenidos colaborativos que el promedio de noticias acostumbra a alcanzar los nueve o diez mensajes al día.
+
+Si todavía esta situación no es generalizada, sí podría ser el marco de referencia o germen del desarrollo de nuevas aplicaciones que, en la actualidad, permanecen bajo el áura de experimentales o de laboratorio, o para early-adopters. 
+
+## Mashups a la ayuda 
+
+>The point is that we all have difficulty managing information overload and our attention stream; however, we can’t let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity. ((http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/))
+
+La aparición hace un año de Yahoo Pipes causó una cierta expectación, mezcla de incomprensión y de pregunta ¿Para qué sirve? En un primer momento se vendió como una herramienta web-centric de creación de mashups. Un mashup no es más que una aplicación web que recoger, mezcla y presenta la información de  servicios web de terceros, abiertos y documentados para su uso colectivo. En el úlimo capítulo nos extenderemos más en el término, especialmente a ayudarno a gestionar mejor el exceso de información.
+
+Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical que enlazaba la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura “En un principio fue la línea de comandos”, de Niel Stephenson)) veamos el siguiente ejemplo:
+
+<code>
+ls -lah | grep 
+</code> 
+
+Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Yahoo Pipes sigue una línea de trabajo conocida por el uso de Widgets. No es el único. Varias herramientas siguen esta metodología visual de trabajo. Veamos estas capturas de diferentes herramientas:
+
+  * Yahoo Pipes
+  * Quartz Composer
+
+
+## Caso práctico: flitrar un grupo de suscripciones con Yahoo Pipes 
+
+El objetivo de esta práctica será la creación de un nuevo RSS mediante el filtro según unas palabras clave de un grupo de suscripciones. En este ejemplo, nuestro interés está puesto en aquellas noticias que hablen sobre las libretas Moleskine, GTD  (Getting Things Done) y coaching en blogs sobre productividad personal.
+
+Dirígete a la página de  Yahoo Pipes y haz clic en la opción Create a Pipe. Accederás a la pàgina de autentificación de Yahoo!. Identifícate o crea una cuenta nueva .
+Una vez 
+
+Si bien funciona, queda el agujero de saber qué ocurre con aquellas noticias que, sin estar relacionadas con las palabras que hemos determinado como filtro, pueden resultar de interés.
+
+### Expresiones regulares 
+
+Controlar las expresiones regulares, Rubular (http://www.rubular.com/) es un editor de expresiones regulares 
+
+
+## Referencias 
+
+  * http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php
