@@ -30,10 +30,27 @@ La proliferación de servicios de la web como de los dispositivos que utilizamos
 
 El objeto de información, en la búsqueda, podemos apoyarnos de nuestra frágil memoria. De hecho, las innumerables soluciones de buscadores responden a la necesidad de completar aquella actividad que se ve superada por el volumen de información. Jones (2008) establece un cuadrante en el que la búsqueda quedará sujeta según la cuatro posibilidades:
 
-| La información... | es de nuestra propiedad |  es propiedad de otros |
-|:-----------------:|:-----------------------:|:----------------------:|
-| fue vista con anterioridad |  A  |  B  |
-| no fue vista con anterioridad |  D  |  C  |
+<table>
+<thead>
+<tr>
+  <th align="center">La información&#8230;</th>
+  <th align="center">es de nuestra propiedad</th>
+  <th align="center">es propiedad de otros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="center">fue vista con anterioridad</td>
+  <td align="center">A</td>
+  <td align="center">B</td>
+</tr>
+<tr>
+  <td align="center">no fue vista con anterioridad</td>
+  <td align="center">D</td>
+  <td align="center">C</td>
+</tr>
+</tbody>
+</table>
 
 
 

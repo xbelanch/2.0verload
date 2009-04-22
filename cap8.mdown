@@ -1,0 +1,85 @@
+# Tabs and Apps cluttering 
+
+## Caso de estudio: Quicksilver 
+
+  * http://lifehacker.com/software/quicksilver/hack-attack-a-beginners-guide-to-quicksilver-247129.php
+  * http://lifehacker.com/322363/top-10-quicksilver-plug+ins
+  * http://docs.blacktree.com/quicksilver/tutorials
+  * http://blacktree.com/
+  * http://do.davebsd.com/
+  * http://feeds.gawker.com/~r/lifehacker/full/~3/p-ooSpL_MIk/gnome-dos-smart-dock-takes-app-launching-to-another-level 
+  
+
+## Tabs cluttering 
+
+
+En el momento de mayor popularidad del denostado navegador de Microsoft, Internet Explorer 6, era frecuente ver una multitud de pequeñas secciones en la barra de tareas del escritorio de MS Windows 98/2000 que correspondían a una ventana del navegador. A diferencia de otros navegadores minoritarios, Internet Explorer 6 carecía de pestañas, por lo que obligaba al usuario a abrir una ventana nueva del navegador si quería visitar otra página web distinta a la actual o, desgraciadamente, debido a un atributo del lenguaje HTML -descartado en la actualidad-, los programadores web incluían un método, abrir nueva ventana, en cada uno de los enlaces que aparecía en la página. Olvidaban a menudo que todos los navegadores, incluido Internet Explorer, incorporaban de fábrica una flecha de navegación de retroceso y, en segundo lugar, que los usuarios y usuarias podían tener más ventanas abiertas del navegador.
+
+Esta dinámica degeneraba en un exceso de ventanas minimizadas del navegador, en el que el usuario no podía siquiera adivinar a qué página correspondía la ventana minimizada. Con la llegada de MS Windows XP, esta irregularidad se corrigió a través de la técnica de agrupación de las ventanas minimizadas. Recuperar una página web de una ventana minimizada del navegador ahora era posible sin ninguna dificultad. En contra del sentido común, se mantuvo la continuidad del navegador Internet Explorer 6 frente al auge de otros navegadores más eficientes, seguros y rápidos. A fin de cuentas, no era difícil caer en la despreocupación cuando los informes te comunican que tu navegador colapsa el 98% del mercado.
+
+## La web contextual 
+
+  * http://www.readwriteweb.com/archives/contextual_web.php
+
+>>This familiar sequence is an awful lot of clicking, typing, searching, copying, and pasting in order to do a very simple task.  And you haven’t even really sent a map or useful reviews—only links to them.
+
+
+Para el navegador, la página web que estás visitando no representa nada más que una simple colección de datos estructurados siguiendo las normas del lenguaje de marcado, HTML. El navegador tampoco sabe qué haces cuando visitas la página. El navegador actúa como una simple ventana al mundo. Lo que veamos a través de él no es de su interés. La Web entendida como contextual rompe esta visión pasiva del navegador. El navegador “comprende” lo que está haciendo el usuario; la combinación de la información de la página y el comportamiento del usuario cuando navega a través de ella crea el contexto. Cada página define un contexto: no será el mismo contexto si lo que estoy visitando es una página sobre restaurantes de Barcelona que consultando mi saldo bancario en la página de la entidad financiera. En el primer caso estoy pensando cuál será el próximo restaurante donde iré a comer o cenar; en el segundo, me preocupa saber si tendré dinero para ir de restaurante. Los contextos, en cada uno de las dos situaciones son diferentes, luego la incorporación de tecnologías que interpreten el contexto y actúen en consonancia a los intereses de los usuarios, ayudaran a que la experiencia sea enormemente más positiva que la media.
+Características de la Web Contextual
+
+Según el autor, la Web Contextual considera cuatro propiedades:
+
+  * Relevancia: en el sentido que, a una mayor y mejor experiencia del contexto de la web incrementa la relevancia de los contenidos de la página.
+  * Atajos: los atajos contextuales de la información evitan las búsquedas agresivas (es decir, cuando disparamos cañonazos para matar mariposas en Google, lo que la mayoría de los casos sólo obtenemos una buena carga de frustración).
+  * Personalización: el contexto se basa tanto en la historia como en las intenciones del usuario en sus frecuentes visitas a la página.
+  * Remezcla: información de interés resulta accesible al instante gracias a la posibilidad de lo usuarios en remezclarla.
+
+### Tecnologías de la Web Contextual 
+
+
+Todo lo anterior no sería posible si no tuviéramos una serie de tecnologías que permitan la experiencia de la Web Contextual. Identificamos por el momento las siguientes:
+
+  * microformatos
+  * widgets
+  * extensiones (add-ons) de los navegadores
+
+### Microformatos 
+ 
+  * http://www.readwriteweb.com/archives/web_of_data_machine_accessible_information.php
+
+
+Los microformatos forman parte de la Web Contextual. A decir verdad, para la mayoría de los usuarios, los microformatos pasan inadvertidos, no son visibles y tampoco se manifiestan abiertamente cuando estan presentes. Los microformatos conciernen más a los desarrolladores de páginas web. La intención es proporcionar una mejor estructura y un mayor contenido semántico a la web utilizando el lenguaje de marcado HTML. Según la organización que trabaja en las especificaciones y adopción de los microformatos:
+
+>Designed for humans first and machines second, microformats are a set of simple, open data formats built upon existing and widely adopted standards (Microformats.org)
+
+Sin extenderme en los aspectos técnicos, mi visión acerca de los microformatos es realmente simple: son bloques de información sobre un tópico que acostumbran a aparecer en la mayoría de las páginas web. La ficha personal o de una organización, un evento, una fecha de calendario, una licencia, el comentario u opinión de un producto o etiquetas asociadas a un elemento son ejemplos de estos bloques de información. Luego, como desarrolladores de la web podemos tomar la decisión de estructurar estos bloques de información a nuestro antojo o seguir las especificaciones de los microformatos. Seguir las convenciones facilitará mucho las cosas para que los usuarios disfruten de la Web Contextual con poquito esfuerzo.
+
+Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo mejor será verlos en acción. Si navegáis con el Mozilla Firefox tenéis una extensión, operator que os facilitará la comunicación de los bloque de información proporcionada por los microformatos entre diferentes servicios. Por ejemplo, si en una página encontramos una serie de eventos estructurados según las especificaciones del microformato hCalendar, Operator los detectará y nos brindará la posibilidad de transformalos en eventos de calendario para los diferentes servicios de calendarios web como Yahoo Calendar o Google Calendar. En caso de navegar con IE8, podéis jugar con los Web Slices , en especial Oomph
+
+  * http://ajaxian.com/archives/getting-semantic-with-microformats-series-by-emily-lewis
+  * http://labs.mozilla.com/2006/12/introducing-operator/
+  * http://tantek.com/presentations/2006/07/what-are-microformats/
+  * http://visitmix.com/Lab/Oomph#Consume
+  * http://torrez.us/archives/2006/04/13/431/
+
+### Ubiquity 
+
+
+  * http://labs.mozilla.com/projects/ubiquity/
+  * https://wiki.mozilla.org/Labs/Ubiquity/
+  * https://ubiquity.mozilla.com/herd/
+
+
+
+### Taskfox 
+
+  * http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php
+  * https://wiki.mozilla.org/Taskfox
+
+
+
+
+
+## Adicción por compartir 
+
+Este espacio sería conveniente que fuera en el de Lifestreaming, cuando hablas de shareolic, pero también no deja de ser contextual en cuanto compartes información sin necesidad de ir a la página. 

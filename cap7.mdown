@@ -1,0 +1,48 @@
+# Social Network Overload 
+
+
+Curiosas comparaciones!
+
+|{{:2.0_overload:unix.jpeg?350|}}| {{:2.0_overload:time-machine-mode.jpg?350|}} |
+
+La primera corresponde al paper "Lifestreams: Organizing your Electronic Life", de www.aaai.org/Papers/Symposia/Fall/1995/FS-95-03/FS95-03-007.pdf 
+
+## Sobre el lifestreaming 
+
+  * http://www.consumer.es/web/es/tecnologia/internet/2008/10/08/180169.php
+  * http://www.dangerouslyirrelevant.org/2007/08/social-network-.html 
+  * http://blog.duoconsulting.com/2008/12/04/why-create-yet-another-social-profile/
+  * http://www.readwriteweb.com/archives/friendfeed_information_overload.php 
+  * http://feedproxy.google.com/~r/readwriteweb/~3/OrJW6611-CM/how_to_use_the_new_friendfeed.php 
+  * http://lifestream.fm/
+  * http://lifestream.fm/
+
+>In researching this column, I signed up for as many of the networks out there as I could and what did I get? A headache. Suddenly my email inbox was flooded with friends accepting my invites for Plaxo, Twitter, etc., and I realized there was no way I was going to have time to do any of these sites justice. Especially since I’m already a member of LinkedIn and Facebook, and I barely have time to keep those up-to-date(( Eve Tahmincioglu, “Beware of social networking overload” ))
+
+
+Publicamos noticias, agregamos noticias, votamos noticias,  publicamos videos, fotografías, marcamos como favoritos videos, fotografías,  anunciamos nuestro estado actual, guardamos marcadores, definimos un estado, agregamos noticias, compartimos causas, comentamos, escribimos, añadimos amigos, dejamos de ser amigos. Esta es una de las realidades que, por el momento, nos convierte en adictos a la publicación de contenidos a través de los diferentes servicios gratuitos de la web.  
+
+
+## Social Fatigue 
+
+http://www.readwriteweb.com/archives/visualizing_social_media_fatigue.php 
+
+## Lifestreaming: un arma de doble filo 
+
+>Lifestreaming, according to Wordspy, is "an online record of a person's daily activities, either via direct video feed or via aggregating the person's online content such as blog posts, social network updates, and online photos."(( Richard MacManus, “Lifestreaming: a ReadWriteWeb Primer” (http://www.readwriteweb.com/archives/lifestreaming_primer.php) ))
+
+Si bien los servicios lifestreaming agrupan la actividad social en la red en un único lugar, se da la situación que nos encontramos de nuevo frente a una situación de exceso de información. Agregar servicios de microblogging como Twitter, servicios que todavía tienen una enorme actividad entre los usuarios, hinundan el espacio.
+
+Para evitar el cuttering, FriendFeed agrupan los mensajes, si estos han sido publicados en un intervalo pequeño de tiempo, en uno único. Un ejemplo sería el marcar como favoritos varias fotografías del servicio Flickr en apenas varios minutos; en lugar de aparecer una por cada favorito marcado, se agrupan en una única entrada. De igual manera se plantea la agrupación de los tweets de los usuarios de Twitter. En esta dirección se consigue paliar el efecto cluttering del espacio de actividad social.
+
+Por otro lado, estos servicios no permiten por el momento sistemas de filtrado de la información de la información de terceros. No podemos, por ejemplo, determinar qué servicios de los que acostumbra a publicar un amigo o amiga nos interesa como relevante. Es decir, sólo quiero los contenidos o publicaciones generadas en este servicio de este amigo o amiga
+
+## Motion, from Movable Type 
+
+http://www.movabletype.com/motion/
+
+
+## EventBox: Pack your social network in one box 
+
+  * http://thecosmicmachine.com/
+  * http://www.readwriteweb.com/archives/nomee_introduces_new_social_aggregation_software.php
