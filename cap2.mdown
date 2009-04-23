@@ -7,6 +7,8 @@ Quienes acostumbran a manejar enormes volúmenes de información, al final de un
 
 ##La visualización de información como disciplina
 
+[50 grandes ejemplos de visualización](http://blogof.francescomugnai.com/2009/04/50-great-examples-of-infographics/)
+
 El propósito de la visualización es revelar al espectador un conocimiento que, de otra manera, quedaría oculto en su representación más primitiva, aquella que es más próxima a la máquina y no a las personas. Se establece entonces una escala de la representación de la información según el grado de interpretación y conclusiones posibles de su lectura.
 
 Visualizar datos no es equivalente a la infografía o representación de la información. La visualización de datos representa un volumen cuantificado de datos; en frente, la infografía representa una información cuantificable o no.

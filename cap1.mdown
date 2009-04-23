@@ -26,7 +26,7 @@ El primer síntoma del exceso no se debe sólo a la información que recibimos, 
 
 La proliferación de servicios de la web como de los dispositivos que utilizamos para comunicarnos e interactuamos con aquellos determina una fragmentación y dispersión de la información personal. Esta nueva realidad afectará al PIM, en primer lugar, un excesivo acento en la capacidades de las dos actividades básicas: buscar y guardar. Ya no buscamos sólo en dos áreas claramente diferenciadas, una privada (mi ordenador) y otra pública (internet como un simple catálogo de información), ya que la búsqueda queda afectada por la fragmentación de la información. A la pregunta ¿dónde la guardé? o ¿dónde encontrarla? el objeto de información.
 
-### Buscar o ¿reencontrar?
+### Buscar y reencontrar en el océano de internet
 
 El objeto de información, en la búsqueda, podemos apoyarnos de nuestra frágil memoria. De hecho, las innumerables soluciones de buscadores responden a la necesidad de completar aquella actividad que se ve superada por el volumen de información. Jones (2008) establece un cuadrante en el que la búsqueda quedará sujeta según la cuatro posibilidades:
 
@@ -53,6 +53,37 @@ El objeto de información, en la búsqueda, podemos apoyarnos de nuestra frágil
 </table>
 
 
+La web en forma de blogs, wikis, redes sociales, microblogging, una miscelánea de servicios que van desde compartir y almacenar los marcadores de páginas (Delicious), fotografías (Flickr), Videos (Vimeo), nuestras rutas de viaje,... dibuja un nuevo escenario de la gestión de la información personal. En primer lugar, la convivencia entre las aplicaciones de escritorio con las de la web, como si de una etapa de transición se tratara, en el que lentamente las aplicaciones estarán en la llamada nube y el dispositivo, sea un ordenador de sobremesa, un portátil o una PDA, requiera una conexión rápida y un navegador que optimice la experiencia del usuario en relación a estas aplicaciones. El navegador web está en proceso de reinventarse y dejar atrás una fisonomía de la década de 1990. Es relevante que los creadores de Mozilla Firefox están planteando la posibilidad de un navegador sin pestañas, sin ventanas nuevas: un único espacio de trabajo que garantice la mejor experiencia, la mejor usabilidad y la optimización de los recursos que faciliten una mejor navegación y acceso a la información. Por otro lado, una impresión de este nuevo escenario es la dispersión de la información por todos aquellos servicios que vamos utilizando y que, de alguna manera, van acumulando siguiendo la estructura organizativa de la aplicación.
+
+
+En términos de búsqueda de la información, el enorme volumen de información ya no se reduce a la consulta de un catálago de páginas estáticas a través de los buscadores. Si bien, el algoritmo PageRank de Google cambió por completo el orden de preferencias de los usuarios en la utilización de uno u otro buscador, y creando al mismo tiempo una opinión del significado de buscar y encontrar la información, como también de la visibilidad de la información -más allá de la primera página no existes- y también la perversión de los resultados de la búsqueda de información revelante en la actividad conocida como SEO (Search Engine Optimization), aparecen alternativas que dan respuesta a otro tipo de búsquedas o sistemas de búsqueda o de navegación. Por ejemplo, quizá la búsqueda ya no responde a una pregunta del tipo "¿Cuál es el teléfono de un restaurante de una ciudad?" sino "¿qué restaurantes son mejores en tal ciudad según la opinión de la gente?". Twitter, la marca estrella de los servicios de microblogging dispone de un buscador que responde a la pregunta ¿Qué está pasando ahora? en función de los "tweets" o mensajes de menos de 140 caracteres enviados por los usuarios. Google permite búsquedas precisas en las entradas y comentarios de los blogs, sabiendo que la información proporcionada se corresponderá a la opinión colectiva y no a un mensaje precocinado (especialmente si la búsqueda responde a un producto). 
+
+Las opciones de autocompletado también es una estrategia que ayuda a precisar la búsqueda.
+
+Las búsquedas también se veran afectadas por la elaboración de una sintaxis sencilla para precisar mejor el resultado de la búsqueda. Se omite por tanto la utilización de un formulario a favor de una sintaxis que facilita la agilidad de la búsqueda y que se aproxima, por lo tanto, a una expresión del lenguaje humano. Google, por ejemplo, ha incorporado una sintaxis a la mayoría de sus servicios. Si en el ejemplo del buscador teníamos esta lista:
+
+<code>
+site:google.com  syntax gmail +search
+</code>
+
+en el caso del servicio de correo, GMail, encontramos [expresiones](http://mail.google.com/support/bin/answer.py?hl=en&answer=7190) del tipo:
+
+<code>
+from:mai in:anywhere  has:attachment filename:pdf after:2007/04/16 before:2009/04/18 
+</code>
+
+que vendría a decir _busca todos los mensajes enviados por mai que adjunten un archivo del tipo pdf entre las fechas 16 de abril de 2007 y 18 de abril de 2009_
+
+
+Veamos otro ejemplo. El buscador de Twitter también nos proporciona una [lista de operadores](http://search.twitter.com/operators):
+
+
+Por otro lado, las búsquedas de aquello que hemos visto o recogido mediante alguno de los servicios, pongamos el caso de los lectores de noticias. Es otra manera de seguir una actividad primero de filtrar la información que nos interesa (nos suscribimos vía RSS a los canales de nuestro interés); en el ejercicio diario de la lectura podemos marcar algunos mensajes como favoritos, o etiquetarlos. y finalmente, cuando el exceso de noticias recibidas sobrepasa el límite de un control personal, recurrimos al buscador para reencontrar información.
+
+En el caso del lector de noticias de Google, Google Reader, por el contrario, la búsqueda es todavía demasiado simple. 
+
+
+Hablar también que la información personal se diluye en proyectos comunitarios de guardar y organizar la información. Es decir, proyectos como la Wikipedia, o 11870.com donde los usuarios van almacenando información relativa a una entrada enciclopedica, luego la organización descansa en la misma estructura de la aplicación (wiki,...)
 
 #### Apartado A: La información que hemos visto con anterioridad y controlamos
 
