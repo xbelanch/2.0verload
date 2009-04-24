@@ -116,6 +116,10 @@ De hecho, EventBox es un primer paso hacia una experiencia más efectiva y efici
 
 ## Referencias 
 
+* http://github.com/mojombo/primer/tree/master
+* http://www.aaronkoblin.com/work.html
+* http://raphaeljs.com/
+* http://code.google.com/intl/en/apis/visualization/
 * http://flowingdata.com/2009/04/21/visual-representation-of-tabular-information-how-to-fix-the-uncommunicative-table/
 * http://flowingdata.com/2009/03/20/data-visualization-is-only-part-of-the-answer-to-big-data/
 * http://www.vectart.com/esp/indexsp.htm 

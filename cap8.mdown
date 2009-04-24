@@ -62,6 +62,15 @@ Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo m
   * http://visitmix.com/Lab/Oomph#Consume
   * http://torrez.us/archives/2006/04/13/431/
 
+
+## Widgets
+
+* http://ajaxian.com/archives/an-introduction-to-w3c-widgets
+* http://www.anieto2k.com/2006/11/10/la-w3c-le-mete-mano-a-los-widgets/
+* http://www.readwriteweb.com/archives/world_wide_web_of_widgets.php
+* http://www.anieto2k.com/2009/04/22/introduccion-a-los-w3c-widgets/
+* http://www.quirksmode.org/blog/archives/2009/04/introduction_to.html 
+
 ### Ubiquity 
 
 
