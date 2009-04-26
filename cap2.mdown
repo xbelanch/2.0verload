@@ -79,13 +79,6 @@ La rápida acumulación de etiquetas en páginas web donde la publicación de co
   * Permitir a los usuarios conocer qué etiquetas clasifican el mayor número de contenidos de la página web y, por lo tanto, una suerte de zeitgeist de la información.
   * Establecr una metodología sencilla de navegación y adquisición de la información a través del espacio de etiquetas, de tal manera que ofreciese nuevas rutas en la adquisición de la información.
 
-###Caso de estudio: IBM Many Eyes & The New York Times & Processing 
-
-* http://www.research.ibm.com/visual/
-* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/
-* http://vizlab.nytimes.com/
-* http://blog.blprnt.com/blog/blprnt/nytimes-prints-for-sale-files-for-free
-* http://www.flickr.com/photos/blprnt/sets/72157613381549987/
 
 
 ## Mashups 
@@ -114,7 +107,38 @@ Dejemos definitivamente la gestión por la remezcla. El nuevo escenario podría 
 
 De hecho, EventBox es un primer paso hacia una experiencia más efectiva y eficiente en cuanto agrupa algunos de los servicios más populares en una única aplicación: Google Reader, FriendFeed y Twitter. 
 
-## Referencias 
+Por otro lado, la información personal es susceptible de ser estudiada y, por lo tanto, convertirse en objeto de análisis de la documentación o una disciplina conocida como _Personal Data Mining_.Un escenario de este tipo sería el caso del cliente de correo electrónico y la promesa de algunos servicios de guardar los mensajes, tanto enviados como recibidos que garantizan y permiten una radiografía de los temas tratados, contactos, que tópicos se repiten con mayor frecuencia, luego se podrían hacer análisis de perfil de los contactos en función de los temas tratados. De esta manera, contextualizar el perfil del remitente en función de mensajes anteriores.
+
+>What I’m referring to as “personal data mining” here is not finding personal information about yourself or others, but looking back at things you’ve done (blogging, bookmarking, anything else) and trying to find meaning through visualization or other reconfiguration of the material. [Ericka Menchen, Personal data mining - reading the entrails](http://blog.erickamenchen.net/2005/10/18/personal-data-mining-reading-the-entrails/)
+
+Siguiendo el ejemplo del cliente de correo, [21  ways to visualize and explore your email inbox](http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/) Nathan explora las diferentes representaciones en diferentes agrupaciones según su tratamiento: exploratory, analytic, mapping, metaphor, networks, and abstract. 
+
+A nivel de exploración, la visualización de la bandeja de entrada según el volumen de mensajes, las relaciones entre nosotros y los remitentes según un tópico o expresión. 
+
+Analítico a nivel cuantitativo. Proyectar sobre un mapa geográfico el volumen de mensajes de entrada (supongamos que trabajamos en un proyecto y queremos valorar geográficamente qué zonas han respondido con mayor frecuencia y número de mensajes a nuestra propuesta; con cuál de estas ha habido mayor interactividad). 
+
+Metáforas visuales, donde se recurre a la bandeja de entrada como motivo estético o siguiendo los gráficos circulares que ahonden en las relaciones entre remitente
+
+[I devised a multicolumn layout for visualizing discussions and described it in a workshop paper in 2005](http://zesty.ca/threadmap/)
+
+## Herramientas para la visualización
+  
+En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas con la finalidad de proporcionar unas librerías gráficas para el diseño y artistas. 
+
+Processing no es único en su campo y otras soluciones, quizá no tan populares, han ido ganando aceptación. El caso de NodeBox y ContextFree son claros ejemplos donde el primero es una solución basada en el lenguaje de programación Python y fuertemente dependiente del entorno MacOS. Processing y NodeBox comparten el origen (MIT) como el planteamiento de "state machine" máquina de estados, que facilita la comprensión del lenguaje al profano y le introduce en el arte de programación. No son tampoco una novedad en su planteamiento y la figura de la tortuga del Logo de la década de 1980 es un ejemplo.
+
+
+###Caso de estudio: IBM Many Eyes & The New York Times & Processing 
+
+* http://www.research.ibm.com/visual/
+* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/
+* http://vizlab.nytimes.com/
+* http://blog.blprnt.com/blog/blprnt/nytimes-prints-for-sale-files-for-free
+* http://www.flickr.com/photos/blprnt/sets/72157613381549987/
+* http://piksels.com/introduction-to-visualizing-data/ http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
+
+
+## Referencias
 
 * http://github.com/mojombo/primer/tree/master
 * http://www.aaronkoblin.com/work.html
@@ -122,16 +146,16 @@ De hecho, EventBox es un primer paso hacia una experiencia más efectiva y efici
 * http://code.google.com/intl/en/apis/visualization/
 * http://flowingdata.com/2009/04/21/visual-representation-of-tabular-information-how-to-fix-the-uncommunicative-table/
 * http://flowingdata.com/2009/03/20/data-visualization-is-only-part-of-the-answer-to-big-data/
-* http://www.vectart.com/esp/indexsp.htm 
+* http://www.vectart.com/esp/indexsp.htm
 * http://blog.vectart.com/?p=101
 * http://flowingdata.com/2009/01/15/flow-chart-shows-you-what-chart-to-use/
-* http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html 
-* http://visualcomplexity.com 
-* http://www.timshowers.com/web-design-blog/ 
-* http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/ 
+* http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html
+* http://visualcomplexity.com
+* http://www.timshowers.com/web-design-blog/
+* http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/
 * http://infosthetics.com/
 * http://blog.thejit.org/javascript-information-visualization-toolkit-jit/
-* http://blog.thejit.org/2008/11/27/using-ocaml-to-visualize-radioheads-hoc-music-video-part-1/ 
+* http://blog.thejit.org/2008/11/27/using-ocaml-to-visualize-radioheads-hoc-music-video-part-1/
 * http://vis.stanford.edu/protovis/
 * http://www.visophyte.org/blog/
 * http://www.math.yorku.ca/SCS/Gallery/milestone/index.html
@@ -141,3 +165,4 @@ De hecho, EventBox es un primer paso hacia una experiencia más efectiva y efici
 * http://vizlab.nytimes.com/
 * http://piksels.com/introduction-to-visualizing-data/
 * http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
+
