@@ -123,9 +123,22 @@ Metáforas visuales, donde se recurre a la bandeja de entrada como motivo estét
 
 ## Herramientas para la visualización
   
-En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas con la finalidad de proporcionar unas librerías gráficas para el diseño y artistas. 
+En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas con la finalidad de proporcionar un DSL (Domain Specific Language) gráfico a artistas y diseñadores. 
 
-Processing no es único en su campo y otras soluciones, quizá no tan populares, han ido ganando aceptación. El caso de NodeBox y ContextFree son claros ejemplos donde el primero es una solución basada en el lenguaje de programación Python y fuertemente dependiente del entorno MacOS. Processing y NodeBox comparten el origen (MIT) como el planteamiento de "state machine" máquina de estados, que facilita la comprensión del lenguaje al profano y le introduce en el arte de programación. No son tampoco una novedad en su planteamiento y la figura de la tortuga del Logo de la década de 1980 es un ejemplo.
+>Un DSL, según la Wikipedia, corresponde a un lenguaje de programación que responde a un problema específico. En el escenario de la representación gráfica
+
+<code>	
+	size(400, 400); 
+	background(192, 64, 0); 
+	stroke(255); 
+	line(150, 25, 270, 350);
+</code>
+	
+
+Processing no es único en su campo y otras soluciones, quizá no tan populares, han ido ganando aceptación. El caso de NodeBox y ContextFree son claros ejemplos donde el primero es una solución basada en el lenguaje de programación Python y fuertemente dependiente del entorno MacOS. Processing y NodeBox comparten el origen (MIT) como el planteamiento de "state machine" máquina de estados, que facilita la comprensión del lenguaje al profano y le introduce en el arte de programación. No son tampoco una novedad en su planteamiento y la figura de la tortuga del Logo de la década de 1980 es un ejemplo. Context Free Art es la proyección gráfica del Context Free Grammar. 
+
+Sirva de ejemplo el [SCIgen - An Automatic CS Paper Generator](http://pdos.csail.mit.edu/scigen/), basado igualmente en el Context Free Grammar 
+
 
 
 ###Caso de estudio: IBM Many Eyes & The New York Times & Processing 
