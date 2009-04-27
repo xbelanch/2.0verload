@@ -66,7 +66,7 @@ Examinar los datos o, lo que Ben Fry determinar como el análisis de los datos. 
 El tipo de pregunta que nos formulemos implicará definitivamente el tipo de representación a elegir: la evolución de una empresa en el tiempo corresponderá a una línea en el tiempo; la densidad de población implicaría una representación geográfica antes que otra solución.
 
 
-###Caso de estudio: tag cloud
+##Caso de estudio: tag cloud
 
 Improving Tag-Clouds as Visual Information Retrieval Interfaces [PDF]
 
@@ -80,6 +80,9 @@ La rápida acumulación de etiquetas en páginas web donde la publicación de co
   * Establecr una metodología sencilla de navegación y adquisición de la información a través del espacio de etiquetas, de tal manera que ofreciese nuevas rutas en la adquisición de la información.
 
 
+### Del Tag Cloud al Wordle
+
+http://www.wordle.net/
 
 ## Mashups 
 
@@ -135,6 +138,13 @@ En el trabajo "Data Visualization" el autor elige Processing como herramienta de
 </code>
 	
 
+
+### Processing, Nodebox y Context Free Art
+En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas en el 2001 con la finalidad de proporcionar unas librerías gráficas para el diseño y artistas desde una visión artística._Processing is the first full-featured programming language and environment to be created by artists for artists_ Ira Greenberg (2007). 
+
+Processing no es único en su campo y otras soluciones, quizá no tan populares, han ido ganando aceptación. El caso de NodeBox y ContextFree son claros ejemplos donde el primero es una solución basada en el lenguaje de programación Python y fuertemente dependiente del entorno MacOS. Processing y NodeBox comparten el origen (MIT) como el planteamiento de "state machine" máquina de estados, que facilita la comprensión del lenguaje al profano y le introduce en el arte de programación. No son tampoco una novedad en su planteamiento y la figura de la tortuga del Logo de la década de 1980 es un ejemplo.
+
+
 Processing no es único en su campo y otras soluciones, quizá no tan populares, han ido ganando aceptación. El caso de NodeBox y ContextFree son claros ejemplos donde el primero es una solución basada en el lenguaje de programación Python y fuertemente dependiente del entorno MacOS. Processing y NodeBox comparten el origen (MIT) como el planteamiento de "state machine" máquina de estados, que facilita la comprensión del lenguaje al profano y le introduce en el arte de programación. No son tampoco una novedad en su planteamiento y la figura de la tortuga del Logo de la década de 1980 es un ejemplo. Context Free Art es la proyección gráfica del Context Free Grammar. 
 
 Sirva de ejemplo el [SCIgen - An Automatic CS Paper Generator](http://pdos.csail.mit.edu/scigen/), basado igualmente en el Context Free Grammar 
@@ -142,13 +152,29 @@ Sirva de ejemplo el [SCIgen - An Automatic CS Paper Generator](http://pdos.csail
 
 
 ###Caso de estudio: IBM Many Eyes & The New York Times & Processing 
+###Caso de estudio: Many Eyes & The New York Times & Processing 
+
+[Many Eyes](http://manyeyes.alphaworks.ibm.com/manyeyes/page/About.html) es, en palabras de sus desarrolladores, una aplicación web asentada en la capacidad de la inteligencia visual en encontrar patrones a partir de una fuente de información. El objetivo es _democratizar la visualización y proporcionar nuevas herramientas sociales de análisis de la información_,luego sería motivo de debate y de adquisición de nuevos conocimientos de la información representada. La cuestión estética de la representación dejaría paso a una percepción intelectual de la información. Many Eyes establece seis categorías que agrupan diferentes sistemas de representación según la metodología del análisis. Esta categorización no es muy diferente de la mencionada más arriba:
+
+
+* Relaciones entre puntos de información (Diagramas de redes, ScatterPlot y Matrix Chart) 
+* Comparación entre un conjunto de valores (Gráfico de burbuja _Bubble Chart_, Histogramas, Gráfica de barras)
+* Registro de alzas y bajas a lo largo de un tiempo (gráfica de líneas y de pilas)
+* Observación de las partes de un todo (TreeMap, gráfica de pastel _Pie Chart_)
+* Analizador de texto (Tag Cloud, Phrase Net, Wordle)
+* Mapas, geolocalización de la información.
+
+Este interés en la democratización de la visualización de la información no ha quedado relegada a un ámbito de laboratorio universitario. El diario The New York Times impulsó el año pasado, desde su versión digital, un espacio específico donde los lectores pudieran utilizar Many Eyes y la API del diario y representar la información relativa a la actualidad. Si los comentarios a los artículos publicados en la versión digital del diario como la sección de los lectores aportan una información propia y complementan la de los periodistas, las representaciones y los posibles debates alrededor de las mismas pueden sumar a la información escrita del diario y aportar un enorme valor social. Tomemos como ejemplo el [discurso de inauguración de Barack Obama](http://vizlab.nytimes.com/datasets/barack-obamas-inauguration-address-2/versions/1). La fuente de información es un texto plano, sin ningún formato que pueda distraer técnicamente el análisis. Los usuarios toman esta información y, a través de Many Eyes, eligen un método de representación y, finalmente, publican el resultado. Si todavía su popularidas no es excesiva y el conjunto de la propuesta no ha "arrelado", sí en cambio comprobamos que representaciones como el "Wordle" han tenido una buena acpetación, pero quizá en mayor grado debido a cuestiones estéticas que no provovadoras de un debate. ¿Falta de educación visual?
+
+Acompaña a Many Eyes Swivel, otro servicio que mezcla los tres componentes: explorar y analizar la información a través de su representación; compartirla y subir la información relevante y, por lo tanto, susceptible de generar un debate como la creación. Un ejemplo sería la información relacionada con los [accidentes aéreos ocasionados dede 1918](http://www.swivel.com/data_sets/spreadsheet/1018156). pero que sólo informan del número de accidentes y fallecidos, pero no especifican el lugar, compañía, recorrido, lugar del accidente, y una categorización por etiquetas que los clasificara según el problema que oirginó el accidente (error humano, técnico, atentado, fortuito,...) 
 
 * http://www.research.ibm.com/visual/
 * http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/
 * http://vizlab.nytimes.com/
 * http://blog.blprnt.com/blog/blprnt/nytimes-prints-for-sale-files-for-free
 * http://www.flickr.com/photos/blprnt/sets/72157613381549987/
-* http://piksels.com/introduction-to-visualizing-data/ http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
+* http://piksels.com/introduction-to-visualizing-data/ 
+* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
 
 
 ## Referencias
