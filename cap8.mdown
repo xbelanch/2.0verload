@@ -92,6 +92,13 @@ En el sentido estricto de la web contextual, los _widgets_ no deberían ser expl
 
 ## Complementos del navegador
 
+[MacManus](http://www.readwriteweb.com/archives/what_became_of.php)(2003) lamentaba que la visión de la Web Semántica que tenía el padre de la _World Wide Web_, Tim Berns Lee, en 1993, diez años después seguía siendo incomprendida o, en el peor de los casos, indiferente a los caprichos de aquel momento. A principios del 2000, la web todavía seguía participando de la metáfora de una suerte de páginas amarillas, es decir, siendo únicamente de lectura, donde los contenidos eran editados y actualizados por los propiepatarios de las páginas. Todo lo contrario del sueño de Tim Berns Lee, la idea de un navegador/editor de la web en donde la nageación por la red es sólo una parte, pero no la importante. La cuestión crucial es la capacidad o libertad de "tejer" la red a través de la escritura. 
+
+"la descentralización es el principio de diseño subyacente que dará al Web Semántico la capacidad de convertirse en algo más que la suma de sus partes" Berns-Lee (1999)
+
+En aquel momento, las tecnologías flash o java acaparaban el interés y la atención, del lado del diseño como del lado de las aplicaciones web. Perfectas cajas negras, callejones sin salida para la información que manipulaban. La Blogosfera comenzaba a dar sus primeros pasos gracias en gran parte a tecnologías libres (PHP, MySQL) que permitían la creación de gestores de contenidos (Wordpress nace en 2003), Textpattern en 2001, Drupal en (2001). El distanciamento entre la web y los estándares parecía insalvable. El navegador dominante en un 95% era Internet Explorer 6 del que no respetaba apenas un 35% de los estándares de la web. El navegador no proporcionaba otra característica que guardar los marcadores de las páginas que nos interesaba y navegar por internet. Los plugins permitían visualizar los contenidos de las cajas negras como las animaciones realizadas en la tecnología Flash o ejecutar las aplicaciones Java. El navegador, visto de esa manera, era un simple intermediario no muy distante de Mosaic, el primer navegador web de la historia desarrollado en 1993.
+
+La creación de la fundación Mozilla en base a la liberación del código de Netscape (el anterior y malogrado rival de Internet Explorer en la llamada [guerra de los navegadores](http://es.wikipedia.org/wiki/Browser_Wars))
 
 
 ### Ubiquity 
