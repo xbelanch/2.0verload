@@ -27,6 +27,14 @@ Publicamos noticias, agregamos noticias, votamos noticias,  publicamos videos, f
 
 http://www.readwriteweb.com/archives/visualizing_social_media_fatigue.php 
 
+
+
+
+
+## Adicción por compartir: replicar la información 
+
+Este espacio sería conveniente que fuera en el de Lifestreaming, cuando hablas de shareolic, pero también no deja de ser contextual en cuanto compartes información sin necesidad de ir a la página.
+
 ## Lifestreaming: un arma de doble filo 
 
 >Lifestreaming, according to Wordspy, is "an online record of a person's daily activities, either via direct video feed or via aggregating the person's online content such as blog posts, social network updates, and online photos."(( Richard MacManus, “Lifestreaming: a ReadWriteWeb Primer” (http://www.readwriteweb.com/archives/lifestreaming_primer.php) ))

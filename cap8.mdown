@@ -52,7 +52,7 @@ Los microformatos forman parte de la Web Contextual. A decir verdad, para la may
 
 >Designed for humans first and machines second, microformats are a set of simple, open data formats built upon existing and widely adopted standards (Microformats.org)
 
-Sin extenderme en los aspectos técnicos, mi visión acerca de los microformatos es realmente simple: son bloques de información sobre un tópico que acostumbran a aparecer en la mayoría de las páginas web. La ficha personal o de una organización, un evento, una fecha de calendario, una licencia, el comentario u opinión de un producto o etiquetas asociadas a un elemento son ejemplos de estos bloques de información. Luego, como desarrolladores de la web podemos tomar la decisión de estructurar estos bloques de información a nuestro antojo o seguir las especificaciones de los microformatos. Seguir las convenciones facilitará mucho las cosas para que los usuarios disfruten de la Web Contextual con poquito esfuerzo.
+Sin extenderme en los aspectos técnicos, la estryctura interna los microformatos es realmente simple: son bloques de información sobre un tópico que acostumbran a aparecer en la mayoría de las páginas web. La ficha personal o de una organización, un evento, una fecha de calendario, una licencia, el comentario u opinión de un producto o etiquetas asociadas a un elemento son ejemplos de estos bloques de información. Luego, como desarrolladores de la web podemos tomar la decisión de estructurar estos bloques de información a nuestro antojo o seguir las especificaciones de los microformatos. Seguir las convenciones facilitará mucho las cosas para que los usuarios disfruten de la Web Contextual con poquito esfuerzo.
 
 Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo mejor será verlos en acción. Si navegáis con el Mozilla Firefox tenéis una extensión, operator que os facilitará la comunicación de los bloque de información proporcionada por los microformatos entre diferentes servicios. Por ejemplo, si en una página encontramos una serie de eventos estructurados según las especificaciones del microformato hCalendar, Operator los detectará y nos brindará la posibilidad de transformalos en eventos de calendario para los diferentes servicios de calendarios web como Yahoo Calendar o Google Calendar. En caso de navegar con IE8, podéis jugar con los Web Slices , en especial Oomph
 
@@ -65,14 +65,38 @@ Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo m
 
 ## Widgets
 
+En esencia, los _widgets_ son  pequeñas aplicaciones web incrustadas en un escenario más amplio que amplían o enriquecen la experiencia de adquisición de información del usuario. Un _widget_ es un bloque de información específica; evita recurrir o salir fuera del área de trabajo; ejemplos de widgets los vemos a diario, especialmente si visitamos, por ejemplo, blogs u otras páginas web en las que ubican los widgets en una de las columnas laterales: relojes, el tiempo, un lector rss específico, clientes de Twitter o FriendFeed, contadores de visitas, galerías de fotos, videos, publicidad, calendarios. Los _widgets_ pueden ser de escritorio (ejemplos como los _widgets_ de MacOSX, los de Microsoft Vista, los _[screenlets](https://code.launchpad.net/screenlets/trunk/0.1.2)_ en GNU/Linux, los de Yahoo Widgets) y los de la web
+
+
+El 2007 fue la explosión definitiva del uso indiscriminado de _widgets_ ([Lenehan](http://www.readwriteweb.com/archives/world_wide_web_of_widgets.php), 2007). Su presencia comenzó a resultar ubicua en la web. Quizá el widget más popular y más extendido por su utilización _ad infinitum_ ha resultado ser el de video, especialmente importante en el caso más que documentado de YouTube y que jugó un papel crucial en su meteórica aceptación popular. Si en aquel momento Lenehan argumentaba el papel positivo del uso de los _widgets_ por añadir nuevas funcionalidades a la página. 
+
+El problema de los widgets es doble: utilizando la metáfora de la ciudad, los _widgets_ corresponderían en muchas de las situaciones en los que aparecen como vallas publicitarias; aumentan el ruido en exceso y proporcionan una experiencia negativa de la navegación por la página cuando estos no suman información relevante al usuario. Se suma a este último que la mayoría de los widgets no estan personalizados (parte porque quien lo proporciona no lo permite o el usuario desconoce cómo hacerlo) y que no tengan ninguna relación temática o visual entre ellos, luego el desiquilibrio visual de la página contribuye todavía más en la  En otro lado, el tiempo de carga de la página es mayor, ya no sólo por el peso de la aplicación que es, sino de las peticiones que ha de realizar si el bloque es un lector de noticias o un canal de Twitter. Desde esta perspectiva, los _widgets_ son una evolución lógica de las molestas ventanas emergentes y no un componente importante de la web contextual. 
+
+El extremo último de los widgets encontramos los portales personalizados como iGoogle, Netvibes, PageFlakes o el servicio [yourminis](http://www.yourminis.com/), en el que permiten la edición y personalización del _widget_ a partir de una catálago prefabricados de aquellos. 
+
+En el sentido estricto de la web contextual, los _widgets_ no deberían ser explícitos como los ejemplos descritos más arriba. Todo lo contrario, los _widgets_ deberían funcionar siguiendo la metáfora del reloj y la hora: no darla si no nos la piden. En esta dirección, uno de los _widgets_ del tipo contextual que apareció con enorme fuerza, especialmente en el ecosistema de los blogs personales, fue la tecnología [SnapShots](http://www.snap.com/). El lema sigue siendo enriquecer la experiencia del usuario cuando visite nuestra página. ¿Hacemos referencia a un personaje histórico, acrónimo tecnológico? enlazamos este con su entrada en la Wikipedia ¿la calle de un restaurante? desplegamos su geolocalización en el mapa del widget ¿citamos un monumento? fotografías tomadas de Flickr... El inconveniente es doble: 
+
+* Saturación del servicio [SnapShots](http://www.snap.com/), luego la navegación por la página es impracticable y resulta enormemente molesta para los usuarios que la visitan. Exceso luego de información relacionada con los contenidos. El servicio de _widgets_ contextuales como [Apture](http://www.apture.com/), por el contrario, obliga al usuario a hacer clic sobre en enlace, por lo que el resultado no es tan intrusivo. 
+* La decisión de desplegar la información es del propietario de la página. Este decide qué términos o palabras estan sujetas a la aparición o no del widget. Esta pérdida de control por parte del usuario -pueden desactivar la aparición de los widgets de manera transparente?- 
+
+[Apture](http://www.apture.com/) proporciona una mejor experiencia de navegación diferente a [SnapShots](http://www.snap.com/) y viene completada con distintivos visuales que identifican el carácter de la información relacinada (geográfica, textual, imagen, video, sonido,...). En palabras de [MacManus](http://www.readwriteweb.com/archives/apture_popups_media.php) (2009), la tecnología de Apture se diferencia de tecnologías como Snap en la que prevalece el sentido común frente a complejos algoritmos de automatización de la selección de aquellos contenidos suscpetibles de estar sujetos a un _widget_ contextual, caso como Snap o Adapative [SmartLinks](http://www.adaptiveblue.com/smartlinks.html).
+
+
+
 * http://ajaxian.com/archives/an-introduction-to-w3c-widgets
 * http://www.anieto2k.com/2006/11/10/la-w3c-le-mete-mano-a-los-widgets/
-* http://www.readwriteweb.com/archives/world_wide_web_of_widgets.php
 * http://www.anieto2k.com/2009/04/22/introduccion-a-los-w3c-widgets/
 * http://www.quirksmode.org/blog/archives/2009/04/introduction_to.html 
+* http://www.w3.org/TR/widgets-apis/
+
+
+## Complementos del navegador
+
+
 
 ### Ubiquity 
 
+El regreso a la línea de comandos 
 
   * http://labs.mozilla.com/projects/ubiquity/
   * https://wiki.mozilla.org/Labs/Ubiquity/
@@ -87,8 +111,3 @@ Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo m
 
 
 
-
-
-## Adicción por compartir 
-
-Este espacio sería conveniente que fuera en el de Lifestreaming, cuando hablas de shareolic, pero también no deja de ser contextual en cuanto compartes información sin necesidad de ir a la página. 
