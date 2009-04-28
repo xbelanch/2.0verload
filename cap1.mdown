@@ -145,6 +145,9 @@ Un ejemplo de afrontar el hecho de ver continuamente páginas que puedan resulta
 >synchronizes the Firefox experience across multiple browsers, so that your desktop, laptop, and mobile phone can all work together. It currently supports continuous synchronization of your bookmarks, browsing history, saved passwords and tabs.
 
 
+Hablar de https://addons.mozilla.org/es-ES/firefox/addon/2410
+
+
 #### Apartado C: Buscar información nueva
 
 
