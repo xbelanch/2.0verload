@@ -127,9 +127,4 @@ Ocho años después, Oliver Reichenstein responde de nuevo a la pregunta, esta v
 
 Como iTunes. 
 
-Reichenstein argues that tabs were a good solution for an earlier age of the Internet, when users hardly ever had more than ten tabs open at any given time. Now, however, as browsers are slowly turning into operating systems, a new paradigm for organizing this information has become necessary.
-
-The current generation of browsers does a decent job when it comes to keeping a current browser session organized, but Reichenstein wants to create a system that structures the browser more like a mutimedia file system.
-
-
-Otra posibilidad es la desparición del servicio original (la página fuente sin representación como web sino en el cliente!), es decir, un Twitter sin twitter.com como web, pero que actúe en el momento que nos inscribimos, es decir, es el navegador + extensiones que finalmente organiza la información sin necesidad de recurrir a la visita de la página
+Esta es una opinión _bwroser-centric_, pero que podría venir acompañada de otra posibilidad: la desaparición del html en según qué servicios a favor de convertirse en emisores de información estructura (formatos livianos como json). La representación vendría determinada por una convención entre el emisor de información y un complemento oficial o de terceros que la representara. De hecho, lo estamos viendo con la creciente desarrollo de RIAs. Por ejemplo: la versión HTML de GMail desaparece y en su lugar una información relativa a qué debemos tener. En este caso, la carga petición sería la de la información no la información mezclada con la representación. Un complemento sustituiría la parte de la representación, luego la experiencia del usuario a nivel de interficie sería más rica y, por otro lado, más rápida y daría paso a las aplicaciones offline.

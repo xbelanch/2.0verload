@@ -27,8 +27,24 @@ Publicamos noticias, agregamos noticias, votamos noticias,  publicamos videos, f
 
 http://www.readwriteweb.com/archives/visualizing_social_media_fatigue.php 
 
+A prinicipios del 2008, [Andrew Shuttleworth](http://hq.andrewshuttleworth.com/hq/2008/02/social-media-on.html) describía en un diagrama el flujo a través de la red de su información personal. Shuttleworth establecía varias fuentes de información personal: 
 
+* Calendario y tareas
+* Documentos de carácter ofimático
+* Videos
+* Fotografías
+* Mensajes microblogging
+* Marcadores
+* Páginas web activas 
+* Software o aplicaciones activas
+* Correo
+* Videoconferencia
+* Mensajería instantánea
+* Otros
 
+La una primera observación del esquema es cómo algunos de los servicios web que utiliza Shuttelworth estan interconectados entre ellos; envía un mensaje a Twitter y éste aparece poco más tarde en su cuenta de Facebook. Comparte un _feed_ o entrada de su lector de noticias y, apenas unos minutos después, aparece como mensaje en Twitter y en Facebook. La información personal empieza a replicarse entre los diferentes servicios, luego su efecto redundante conlleva a un eco del mismo mensaje o contenido al resto de usuarios. 
+
+Según Catone ([2008](http://www.readwriteweb.com/archives/visualizing_social_media_fatigue.php)), un elemento clave contra la fatiga digital que dibuja el diagrama de Shuttelworth es la portabilidad de la información personal, lo que permitiría la creación de espacios de agrupación de la información y mejore la gestión de nuestra atención. Catone recupera el concepto de [la economía de la atención](http://en.wikipedia.org/wiki/Attention_economy) que, en palabras de Iskold y MacManus ([2007](http://www.readwriteweb.com/archives/attention_economy_overview.php)), _Because of this information explosion, we no longer read - we skim_. No leemos siguiendo el sentido de lectura horizontal de izquierda a derecha sino _observamos_ o tomamos instantáneas del contenido que desechamos una vez realizadas. El ritmo de lectura y asmilación de la información que vamos recibiendo es comparable a la fotografía, de los procedimientos artesanales de la generación de la imagen al ultra consumo de creación/deshecho/publicación con la cámara digital: nuestra atención es cada vez más exigente o, en su contra, más pobre: no hay sobresaltos en la abundancia informativa; todo es un falso positivo (Iskold y MacManus, 2007).
 
 
 ## Adicción por compartir: replicar la información 
@@ -44,6 +60,9 @@ Si bien los servicios lifestreaming agrupan la actividad social en la red en un 
 Para evitar el cuttering, FriendFeed agrupan los mensajes, si estos han sido publicados en un intervalo pequeño de tiempo, en uno único. Un ejemplo sería el marcar como favoritos varias fotografías del servicio Flickr en apenas varios minutos; en lugar de aparecer una por cada favorito marcado, se agrupan en una única entrada. De igual manera se plantea la agrupación de los tweets de los usuarios de Twitter. En esta dirección se consigue paliar el efecto cluttering del espacio de actividad social.
 
 Por otro lado, estos servicios no permiten por el momento sistemas de filtrado de la información de la información de terceros. No podemos, por ejemplo, determinar qué servicios de los que acostumbra a publicar un amigo o amiga nos interesa como relevante. Es decir, sólo quiero los contenidos o publicaciones generadas en este servicio de este amigo o amiga
+
+
+### FriendFeed
 
 ## Motion, from Movable Type 
 
