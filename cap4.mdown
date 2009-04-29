@@ -129,10 +129,20 @@ En el artículo [[http://tommorris.org/blog/2008/03/09#pid2761430|How to build t
 Según Tom, la solución pasa por un sistema muy simple de un directorio lleno de archivos de texto y trackeados con Git. En el momento de hacer "git push", se añaden todos los commits a la wiki, lo que se publican en la página. Es decir, hacia una wiki distribuida...
 
 
-## Wikis experimentales 
+## Hacias nuevas maneras de gestionar las versiones
 
+En el desarrollo de software, el uso de una herramienta de control de versiones es tan necesaria como la documentación o un [depurador](http://es.wikipedia.org/wiki/Depurador). A modo intrudctorio, las herramientas de control de versiones permiten a los programadores realizar _snapshots_, instantáneas del código fuente, comprobar diferencias entre diferentes instantáneas y revertir a una instantánea si era necesario. Si herramientas como CVS, Subversion, DARCS o Git se han reducido al ámbito exclusivo de la programación, en gran medida a un vocabulario y funcionamiento en apariencia esotérico para neófitos y extraños al control de versiones, de un tiempo a esta parte se han realizado tímidos intentos de llevar estos sistemas a ámbitos tan dispares como la literatura: el escritor y blogger [Cory Doctorow](http://craphound.com/) utiliza un sistema de control de versiones con el registrar los cambios 
+
+http://craphound.com/?p=2171
+
+Absolutamente genial! ya no sólo automatiza los "push" sino que además añade información como: tiempo, correo leído, feeds, o incluso canciones! Y todo ello lo incorpora en el commit :-) El contexto de la creación se ve reflejado en el commit: el exceso de información que manejamos queda igualmente congelado en la instantánea :)
+
+  * http://lifehacker.com/5232049/flashbake-automates-version-control-for-nerdy-writers
   * WiGit: A Simple Git-based Wiki: http://el-tramo.be/software/wigit
   * Git-Wiki: http://github.com/sr/git-wiki/tree/master 
+
+
+
 
 ##  Preguntas finales 
 
