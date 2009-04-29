@@ -1,21 +1,11 @@
-# Tabs and Apps cluttering 
-
-## Caso de estudio: Quicksilver 
-
-  * http://lifehacker.com/software/quicksilver/hack-attack-a-beginners-guide-to-quicksilver-247129.php
-  * http://lifehacker.com/322363/top-10-quicksilver-plug+ins
-  * http://docs.blacktree.com/quicksilver/tutorials
-  * http://blacktree.com/
-  * http://do.davebsd.com/
-  * http://feeds.gawker.com/~r/lifehacker/full/~3/p-ooSpL_MIk/gnome-dos-smart-dock-takes-app-launching-to-another-level 
-  
-
-## Tabs cluttering 
+# Tabs Overload
 
 
 En el momento de mayor popularidad del denostado navegador de Microsoft, Internet Explorer 6, era frecuente ver una multitud de pequeñas secciones en la barra de tareas del escritorio de MS Windows 98/2000 que correspondían a una ventana del navegador. A diferencia de otros navegadores minoritarios, Internet Explorer 6 carecía de pestañas, por lo que obligaba al usuario a abrir una ventana nueva del navegador si quería visitar otra página web distinta a la actual o, desgraciadamente, debido a un atributo del lenguaje HTML -descartado en la actualidad-, los programadores web incluían un método, abrir nueva ventana, en cada uno de los enlaces que aparecía en la página. Olvidaban a menudo que todos los navegadores, incluido Internet Explorer, incorporaban de fábrica una flecha de navegación de retroceso y, en segundo lugar, que los usuarios y usuarias podían tener más ventanas abiertas del navegador.
 
 Esta dinámica degeneraba en un exceso de ventanas minimizadas del navegador, en el que el usuario no podía siquiera adivinar a qué página correspondía la ventana minimizada. Con la llegada de MS Windows XP, esta irregularidad se corrigió a través de la técnica de agrupación de las ventanas minimizadas. Recuperar una página web de una ventana minimizada del navegador ahora era posible sin ninguna dificultad. En contra del sentido común, se mantuvo la continuidad del navegador Internet Explorer 6 frente al auge de otros navegadores más eficientes, seguros y rápidos. A fin de cuentas, no era difícil caer en la despreocupación cuando los informes te comunican que tu navegador colapsa el 98% del mercado.
+
+_Cluttered_, significa _filled or scattered with a disorderly accumulation of objects or rubbish_[define](http://wordnetweb.princeton.edu/perl/webwn?s=cluttered), una acumulación desordenada de objetos. 
 
 ## La web contextual 
 
@@ -109,6 +99,8 @@ Pero en la web contextual, también es imprescindible aquellas herramientas que 
 
 ### Ubiquity y Taskfox, el poder de la línea de comandos 
 
+Ubiquity, un Quicksilver?
+
 
   * http://labs.mozilla.com/projects/ubiquity/
   * https://wiki.mozilla.org/Labs/Ubiquity/
@@ -116,10 +108,24 @@ Pero en la web contextual, también es imprescindible aquellas herramientas que 
   * http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php
   * https://wiki.mozilla.org/Taskfox
 
+  * http://lifehacker.com/software/quicksilver/hack-attack-a-beginners-guide-to-quicksilver-247129.php
+  * http://lifehacker.com/322363/top-10-quicksilver-plug+ins
+  * http://docs.blacktree.com/quicksilver/tutorials
+  * http://blacktree.com/
+  * http://do.davebsd.com/
+  * http://feeds.gawker.com/~r/lifehacker/full/~3/p-ooSpL_MIk/gnome-dos-smart-dock-takes-app-launching-to-another-level
 
-## Hacia nuevas maneras de organizar y gestionar la navegación
+## Hacia nuevos diseños de organización y gestión de la navegación
 
 [link](http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php)
+
+Recientemente, Oliver Reichenstein de [Information Architecs](http://informationarchitects.jp/) publicaba una entrada que recordaba una pregunta formulada por T-Online a primeros del 2000: _Si tuvieras que diseñar la interfaz de un navegador desde cero ¿qué decisiones tomarías?_. La respuesta se limitó a "pestañas". Manifestaba en una palabra un error de diseño flagrante de navegación de los navegadores de aquel momento: navegar en una página nueva, pero conservando la actual, significaba abrir una ventana nueva del navegador. Por otro lado, los diseñadores web consideraron que las flechas de navegación del navegador eran puramente decorativas, luego utilizaron -y se sigue utilizando- el valor <code>\_blank</code> del atributo <code>target</code> para cada enlace de la página, lo que ya en sí mismo ya supone un acto contra las pautas de accesibilidad.. A todo esto hay que sumar el ingente número de _pop-ups_ como ubicuas e harto intrusivas vallas publicitarias de contenido, generalmente, basura. La imagen de una barra inferior de Microsoft Windows 98/2000 saturada de ventanas minimizadas del navegador una hora después de iniciar una sesión de trabajo comenzó a ser una imagen familiar para los usuarios. Esto suponía un problema evidente de organización de la navegación como de eficiencia de la gestión de recursos del propio sistema operativo. Las pestañas vinieron con el propósito de agrupar las páginas activas de una sesión de trabajo y, en consiguiente, evitar el _cluttered_ de ventanas abiertas. 
+
+Ocho años después, Oliver Reichenstein responde de nuevo a la pregunta, esta vez planteada por [Aza Raskin](http://www.azarask.in/blog/post/firefoxnext-tabs-on-the-side/) y responde con contundencia: "olvida las pestañas!". ¿Regresar al pasado? No. El escenario ha cambiado y, por lo tanto, los problemas han cambiado, luego las respuestas ya no resultan adecuadas ni solucionan los nuevos problemas. Hemos alcanzado una nueva situación que desborda la efectividad de trabajo con pestañas: la sobrecarga. Esta acumulación horizontal de las páginas abiertas provoca de nuevo una mala organización de la información que manejamos acompañado de una sobrecarga del sistema. Ya no hablamos de unas cuantas páginas estásticas abiertas; en la actualidad manejamos páginas que encierran aplicaciones manipulando, recibiendo y transmitiendo información. Es una práctica habitual dejar abiertas las sesiones de, por ejemplo, el cliente de correo de Google, GMail, el calendario de Google, GCalendar, Facebook,... video streaming, etc. Como bien se muestra en el cómic promocional de Chrome (citar al autor), la web se ha vuelto se ha visto enriquecida de aplicaciones que, a principios del 2000, eran difíciles de concebir. Esta visión de la web como el nuevo escritorio personal instalado en la nube obliga al navegador a funcionar como una suerte de sistema operativo; el ejercicio de gestionar esta nueva web es técnicamente intensa. Cada pestaña son más recursos que el navegador solicita al sistema. Reichenstein cita jocosamente a "[Dios](http://www.useit.com/alertbox/tabs.html)" cuando habla que las "pestañas no funcionan cuando la información es heterogénea". Si las pestañas solucionaron el problema del _cluttered_ de ventanas, veamos qué solución encontramos a la diversidad de la información que maneja el navegador. En palabras de Reichenstein,
+
+>The idea is not to show screen shots but to turn the browser into a media system organizer more than a media display application. Instead of structuring a browser to keep the screen tidy for the moment, we thought that it’d be awesome to structure the browser as a (multi media) file system. 
+
+Como iTunes. 
 
 Reichenstein argues that tabs were a good solution for an earlier age of the Internet, when users hardly ever had more than ten tabs open at any given time. Now, however, as browsers are slowly turning into operating systems, a new paradigm for organizing this information has become necessary.
 
