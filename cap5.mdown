@@ -30,9 +30,9 @@ Aún conociendo las ventajas que suponía un uso generalizado del RSS, es todav�
 
 A medida que el número de páginas que permitían la sindicación aumentaba, en parte a servicios como Blogger que facilitiban en menos de tres clics comenzar a publicar en un blog, se hizo patente la necesidad de un lector o herramienta que gestionara las suscripciones. Hubo tres visiones:
   
-* La visión e-mail-centric, es decir, como una funcionalidad nueva del cliente de correo y, por lo tanto, incrementaba la acumulación de información en dos frentes, el de la bandeja de entrada y el de las suscripciones.
-* La visión desktop-centric, una aplicación de escritorio y, por lo tanto, sucedáneo del cliente de correo en el que guardar la información que recibimos de las suscripciones.
-* La visión web-centric, un servicio web que aprovechara la naturaleza on-line del RSS. En esta dirección encontramos dos versiones diferentes de afrontar la organización y lectura de las suscripciones, la traducción del cliente desktop-centric a la web, como el malogrado Bloglines o el exitoso Google Reader, y la personalización de una pantalla de inicio que ofreciera al usuario una instantánea de las últimas entradas de las suscripciones.
+* La visión _e-mail-centric_, es decir, como una funcionalidad nueva del cliente de correo y, por lo tanto, incrementaba la acumulación de información en dos frentes, el de la bandeja de entrada y el de las suscripciones.
+* La visión _desktop-centric_, una aplicación de escritorio y, por lo tanto, sucedáneo del cliente de correo en el que guardar la información que recibimos de las suscripciones.
+* La visión _web-centric_, un servicio web que aprovechara la naturaleza on-line del RSS. En esta dirección encontramos dos versiones diferentes de afrontar la organización y lectura de las suscripciones, la traducción del cliente desktop-centric a la web, como el malogrado Bloglines o el exitoso Google Reader, y la personalización de una pantalla de inicio que ofreciera al usuario una instantánea de las últimas entradas de las suscripciones.
 
 
 >The key is quality information, not quantity of information. (( http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/ ))
@@ -72,6 +72,9 @@ Si bien funciona, queda el agujero de saber qué ocurre con aquellas noticias qu
 ### Expresiones regulares 
 
 Controlar las expresiones regulares, Rubular (http://www.rubular.com/) es un editor de expresiones regulares 
+
+
+
 
 
 ## Referencias 
