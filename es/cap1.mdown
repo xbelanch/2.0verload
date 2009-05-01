@@ -99,29 +99,6 @@ Siguiendo el apartado anterior, los usuarios organizan o sistematizan las técni
 
 La división o brecha digital entre los inmigrantes digitales y nativos digitales también les separa el cómo gestionan su información personal. Tal división es obsoleta y debería diferenciarse entre quienes mantienen actividades PIM tradicionales y, por lo tanto, la extienden al ámbito digital; a diferencia de los net-natives, quienes la información personal se extiende en y por la red; se sirven de los servicios para organizarse en grupo la información personal, que deja de ser individual y cobra significado en la galería, en la identificación en grupo; en los comentarios adjuntos; en las valoraciones; en las respuestas de quienes forman o no de aquella infromación 
 
-## Contraponer la organización personal frente a la lógica del sistema de archivos del sistema operativo 
-
-Descubramos diferentes escenarios habituales de cómo guardamos los documentos en nuestro ordenador. 
-
-* No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
-Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
-* El escritorio lleno o la visión del clutter desktop. Tanto que el fondo de escritorio (léase paisaje, foto de las vacaciones o familiar querido) se esconde detrás de la infinidad de carpetas o documentos. Se cree o piensa que el tener los documentos en el escritorio es sinónimo de tenerlos más a mano, como si de una pila de papeles se tratara (siguiendo la metáfora del escritorio). En realidad su visión resulta como mínimo estresante para un desconocido. Insostenible si pensamos que el número de documentos y carpetas crecen cada día. Las dos pantallas no son la respuesta a esta problemática. http://www.avesh.com/blog/DesktopZenReducingVisualClutterOnYourDesktop.aspx
-* Se utilizan un par o tres de carpetas como almacén de toda la información, lo que en poco tiempo se llega a una situación conocida por “clutter digital”. No se puede encontrar ningún fichero por el problema del “engordamiento”
-* La degradación de un sistema personal. Este es quizá el más generalizado. Se emprende el ejercicio de mantener una estructura pero con el tiempo se consigue sólo a medias. Esto se debe en gran parte al trabajo bajo presión de fechas de entrega o realización de proyectos.
-* Priorizamos una serie de archivos o documentos en los que estamos trabajando y, con el motivo de no perderlos de vista, hacemos la excepción de la regla de organización fijada previamente. El resultado es, al poco tiempo, un auténtico desastre: conviven una organización de archivos y la ubicación aleatoria de otros.
-
-Habrás leído algunas recomendaciones. No hay una solución definitiva a este problema, pero la mayoría tienen puntos en común:
-  
-* La carpeta base o raíz. Los tres sistemas operativos más populares tienen una y se identifica con un nombre bastante significativo: mis documentos (windows), documentos (mac osx). También han incorporado carpetas asociadas a un tipo de archivo (Películas, Música, Descargas, Imágenes,...)
-* Tomamos la carpeta asociada a “Documentos”. Descartamos todos los archivos de imágenes o películas o música, ya que corresponderían a las carpetas que reciben su nombre.
-Dentro de Documentos creamos un segundo nivel de carpetas. Nunca dejamos archivos sueltos en el interior de la carpeta “Documentos”.
-Las carpetas pueden tener dos tipos de organización: por temática (nombre de un proyecto) o año.
-* Los proyectos pueden tener un mínimo de organización lógica antes de ir dejando todos los archivos relacionados con el mismo y sufrir de nuevo un cierto cluttering. Tener carpetas como “old”, “
-
-Seguimos. Las aplicaciones incorporan la opción de recuperar los objetos de información que habitualmente recurrimos para continuar trabajando con ellos; es también el caso de los navegadores con las pestañas abiertas de la última sesión. Aún así los buscadores de escritorio tienen una especial utilidad, especialmente cuando hablamos de información que gestiona exclusivamente la aplicación, como es el caso de los clientes de correo.
-
-**Nota**: introducir aquí el tema de organización de los ficheros (Bit Literacy), los buscadores como Google Desktop o Spotlight
-
 
 
 También aquí entraría la soluciones de MobileMe o la de PogoPlug, soluciones de sincronizar la información que guardamos y que, por lo tanto, la recuperación de la misma no se traumática. En todo caso, se evita la duplicación o triplicación de los objetos de información: realizamos una presentación y el objeto de la misma, el documento, está en el disco duro, en un lápiz USB, como adjunto a un correo enviado a nosotros mismos y, finalmente, publicado en un servicio de presentaciones como SlideShare. Cuatro cartuchos para un mismo objeto.

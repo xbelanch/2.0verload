@@ -33,9 +33,42 @@ Por otro lado, Laura valora la alternativa de publicar los enlaces en una págin
 * Lo anterior tampoco no proporciona un sistema eficiente de catalogación de los recursos.
 * También Laura insiste que no tiene horas para aprender a crear páginas web. Le recuerdo que no es problema. En la actualidad hay varias aplicaciones libres que te permiten crearla sin problemas. Incluso puedes probar servicios como http://www.weebly.com/ que te ayudan a crear una página web en cuatro pasos.
 
-## Las etiquetas importan 
 
-Cuando acumulamos demasiada información digital, nos sentimos obligados a clasificarlas, sea una lista interminable de marcadores de páginas web, documentos de texto, hojas de cálculo, presentaciones o fotografías. En general, el sistema de organización personal que sigamos, entre intuitiva, flexible o rígida, siempre terminará encontrándose con el sistema de organización que nos proporciona el sistema operativo. Hasta la actualidad, la organización de los archivos (sean documentos de textos o imágenes) pasaba por el sistema de carpetas (folders).
+
+## Organizar, clasificar, ordenar la información: los metadatos
+
+### 
+
+http://www.well.com/~doctorow/metacrap.htm
+
+
+
+### Las etiquetas importan 
+
+Cuando acumulamos demasiada información en la memoria del ordenador o de un disco duro externo, nos sentimos obligados a clasificarla, a ordenarla, con el fin último de recuperarla más tarde. En general, el sistema de organización personal que sigamos, entre intuitiva, flexible o rígida, siempre terminará encontrándose con el sistema de ordenación que nos proporciona el sistema operativo. Hasta el momento, la organización de los archivos (sean documentos de textos o imágenes) pasa por el sistema de carpetas (folders). Cada archivo estará asociado a unos metadatos, de los cuales el más evidente es el nombre del archivo (no necesariamente relacionado con el contenido del mismo).
+
+Con el tiempo, superponemos nuestra lógica de organización personal frente a la lógica del sistema de organización de carpetas y archivos que propone el sistema operativo. Pasado un tiempo, esta convivencia acaba resultando más o menos compleja y difiere sobretodo en la regularidad en la que clasificamos la información según pautas propias.
+
+* No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
+Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
+* El escritorio lleno o la visión del *clutter desktop*. Tanto que el fondo de escritorio (léase paisaje, foto de las vacaciones o familiar querido) se esconde detrás de la infinidad de carpetas o documentos. Se cree o piensa que el tener los documentos en el escritorio es sinónimo de tenerlos más a mano, como si de una pila de papeles se tratara (siguiendo la metáfora del escritorio). En realidad su visión resulta como mínimo estresante para un desconocido. Insostenible si pensamos que el número de documentos y carpetas crecen cada día. Las dos pantallas no son la respuesta a esta problemática. http://www.avesh.com/blog/DesktopZenReducingVisualClutterOnYourDesktop.aspx
+* Se utilizan un par o tres de carpetas como almacén de toda la información, lo que en poco tiempo se llega a una situación conocida por “clutter digital”. No se puede encontrar ningún fichero por el problema del “engordamiento”
+* La degradación de un sistema personal. Este es quizá el más generalizado. Se emprende el ejercicio de mantener una estructura pero con el tiempo se consigue sólo a medias. Esto se debe en gran parte al trabajo bajo presión de fechas de entrega o realización de proyectos.
+* Priorizamos una serie de archivos o documentos en los que estamos trabajando y, con el motivo de no perderlos de vista, hacemos la excepción de la regla de organización fijada previamente. El resultado es, al poco tiempo, un auténtico desastre: conviven una organización de archivos y la ubicación aleatoria de otros.
+
+No hay una solución definitiva a este problema, pero la mayoría tienen puntos en común:
+  
+* La carpeta base o raíz. Los tres sistemas operativos más populares tienen una y se identifica con un nombre bastante significativo: mis documentos (windows), documentos (mac osx). También han incorporado carpetas asociadas a un tipo de archivo (Películas, Música, Descargas, Imágenes,...)
+* Tomamos la carpeta asociada a “Documentos”. Descartamos todos los archivos de imágenes o películas o música, ya que corresponderían a las carpetas que reciben su nombre.
+Dentro de Documentos creamos un segundo nivel de carpetas. Nunca dejamos archivos sueltos en el interior de la carpeta “Documentos”.
+Las carpetas pueden tener dos tipos de organización: por temática (nombre de un proyecto) o año.
+* Los proyectos pueden tener un mínimo de organización lógica antes de ir dejando todos los archivos relacionados con el mismo y sufrir de nuevo un cierto cluttering. Tener carpetas como “old”, “
+
+Las aplicaciones incorporan la opción de recuperar los objetos de información que habitualmente recurrimos para continuar trabajando con ellos; es también el caso de los navegadores con las pestañas abiertas de la última sesión. Aún así los buscadores de escritorio tienen una especial utilidad, especialmente cuando hablamos de información que gestiona exclusivamente la aplicación, como es el caso de los clientes de correo.
+
+**Nota**: introducir aquí el tema de organización de los ficheros (Bit Literacy), los buscadores como Google Desktop o Spotlight
+
+
 
 Este sistema requiere una manera personal de clasificar los archivos. Primero se estima cuál es el espacio o lugar idóneo para ubicar los archivos según sea su tipo. Es relevante que las últimas versiones de los sistemas operativos vengan con unos directorios predeterminados asociados a la cuenta del usuario: Documentos, Música, Photos, Imágenes, Videos, Plantillas o incluso directamente el formato PDF. De esta manera insinúa al usuario cuál será el lugar más indicado. Sería una contradicción guardar documentos de texto en la carpeta de imágenes. Una segunda decisión viene después, cuando el contenido de las fotografías corresponden a diferentes temáticas, están tomadas en fechas diferentes, algunas son públicas, otras privadas.
 
@@ -43,6 +76,7 @@ Mark Hurst, en su libro “Bit Literacy” nos sugiere la técnica de los “dos
 
 Mark Hurst no es partidario de utilizar etiquetas. Considera que la práctica de etiquetar las fotografías requiere de un esfuerzo que, la mayoría de usuarios, no está dispuesto a asumir (pág 80-81). En general, muy pocos son los usuarios que sigan a conciencia un sistema rígido de clasificación y organización de los archivos. En general ni siquiera renombran las imágenes tal como estas salen por defecto de la cámara de fotos. Prueba de ello es que en Flickr nos encontramos a menudo con imágenes amateur con nombres como “DSCN…” y un largo número. Estos usuarios ni clasifican las imágenes, ni siquiera las nombran. Ni mucho menos las etiquetan,.
 nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search/?ss=2&ct=6&w=all&q=dscn0001&m=text comprobaréis cómo un número elevado de usuarios no renombran las fotografías que suben. De hecho se cuenta hasta 17.582 resultados de imágenes de idéntico título.
+
 
 ### Etiquetas vs. Carpetas 
 
@@ -70,8 +104,15 @@ Quizá el origen de todo sirvió en cuanto a que el ordenador seguía la metáfo
 * referencias de libros
 * ...
 
-El problema aumenta en cuanto perdemos la metáfora del escritorio y nuestra actividad profesional traspasa los límites tradicionales de la información personal. La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
+El problema aumenta en cuanto perdemos la metáfora del escritorio y nuestra actividad profesional traspasa los límites tradicionales de la información personal. 
+
+## Entre el escritorio y la nube
+
+
+La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
 Hay intentos como http://www.plaxo.com/ o http://www.airset.com/AirSet.jsp#app.Home
+
+
 
 Quizá una solución posible pasaría por un sistema de lifestreaming online/offline (RIA?). Veamos un ejemplo:
 
