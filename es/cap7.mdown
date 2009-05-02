@@ -64,6 +64,8 @@ Por otro lado, estos servicios no permiten por el momento sistemas de filtrado d
 
 ### FriendFeed
 
+* http://www.readwriteweb.com/archives/the_man_who_made_gmail_says_real-time_conversation.php
+
 ## Motion, from Movable Type 
 
 http://www.movabletype.com/motion/
