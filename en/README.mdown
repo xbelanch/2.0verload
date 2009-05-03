@@ -1,3 +1,4 @@
-#2.0 Overload, cartografías del exceso de información personal
+#2.0 Overload, maps of personal information glut
+
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/es/88x31.png" /></a><br /><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">2.0 Overload</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Xavier Belanche Alonso</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">Creative Commons Reconocimiento-No comercial-Compartir bajo la misma licencia 3.0 Espa&#241;a License</a>.<br />Based on a work at <a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://github.com/xbelanch/2.0-overload/tree/master" rel="dc:source">github.com</a>.
