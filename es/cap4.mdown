@@ -20,6 +20,10 @@ Este escenario se agrava más todavía si una metodología de desarrollo de la d
 
 ## Wikis 
 
+>Nevertheless, I predict that Wikis will disappear over the next 5 to 10 years. This is not because they will fail but precisely because they will succeed. The best technologies disappear from view because they become so common-place that nobody notices them. Wiki-style functionality will become embedded within other software – within portals, web design tools, word processors, and content management systems. Our children may not learn the word “Wiki,” but they will be surprised when we tell them that there was a time when you couldn’t just edit a web page to build the content collaboratively. Matthew C.
+Clarke ([2009](http://www.boxesandarrows.com/view/control-and))
+
+
 Según la Wikipedia, una wiki es una o más páginas web que permite a los usuarios modificar su contenido utilizando un lenguaje de marcado simplificado a través de una navegador. La wiki más popular es la Wikipedia (http://wikipedia.org), una enciclopedia libre y sin ánimo de lucro creada, actualizada y mantenida por voluntarios de todo el mundo.
 Su creación se remonta a mediados de la década de 1990 y el próposito original era, según las palabras de su creador, Ward Cunningham(( http://www.wiki.org/wiki.cgi?TheBook )):
 

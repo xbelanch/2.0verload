@@ -3,9 +3,13 @@ La sobre información no es ninguna novedad y siempre ha tenido.  (cita del lite
 http://letstalkknowledge.com/tag/information-overload/
 http://www.synapticacentral.com/content/working-problems-information-overload
 
-El problema del exceso de la información no se debe tanto al ruido que la acompaña y la extiende (como una bandeja de entrada llena de correo basura) sino a la completa rotura de sus fronteras; a la carencia de prioridades: toda información nos resulta relevante, prioritaria. Podemos almacenarla, transportarla, representarla...
+El problema del exceso de la información no se debe tanto al ruido que la acompaña y la extiende (como una bandeja de entrada llena de correo basura) sino a la completa rotura de sus fronteras; a la carencia de prioridades: toda información resulta relevante, prioritaria, clasificable y gracias a la capacidad sin límite de almacenamiento podemos guardarla en una nube de ordenadores (?)
 
-Este libro no contentará ni a los especialistas de la materia ni tampoco a quienes buscan un inventario fácil de las nuevas tecnologías. Por el contrario, escribí el libro siguiendo el hilo del tópico de la sobre abundancia informativa y cómo ha afectado a la gestión diaria de la información personal.
+Se ha escrito que la sobrecarga de información tienes peores efectos que el consumo de la marihuana([2005](http://www.newscientist.com/article/mg18624973.400)); que la productividad personal y profesional se ve mermada por el volumen diario de información que recibimos y manejamos al día. Menos es más. Tomar decisiones, saber elegir entre un océano informativo no es una tarea simple; la información personal se ve drásticamente alterada por la economía de la atención: toda información exige sus 15 minutos de gloria, parafraseando a Warhol. Información que a veces emerge como publicidad o, como novedad, la información deviene publicidad de la mano de los consumidores. Los consumidores en red señalan qué objeto, sin ser en un principio producto de consumo, termina generando una dinámica comercial sin precedentes. La impredecibilidad es objeto de estudio y especulación. 
+
+Este libro trata de describir cómo la actual web ha tenido un impacto en la gestión de la información personal y cómo esta a su vez intenta proporcionar soluciones. (no)
 
 
-Algunos de los paisajes se encuentran desdibujados o poco reconocibles; otros, por proximidad o conocimento, estan perfectamente trazados. 
+Este minúsculo libro trata de describir cómo la Web 2.0, la _web como plataforma_ es cara y cruz de la moneda del exceso de información; problema y respuesta, puerta cerrada y ventana abierta a nuevas estrategias de gestionar la información personal. 
+
+La llamada Web 2.0 o _web como plataforma_ ha significado una 

@@ -57,7 +57,10 @@ Sufrimiento (suffering)al no conocer estrategias que nos permitan remediar o cor
 
 ## Consejos, ayudas, recomendaciones 
 
-Varios autores han dedicado su atención al problema de la bandeja de entrada. Merlin Mann, ideólogo de Inbox Zero, Tim Ferriss, autor del célebre “The 4-Hour Workweek”, Mark Husrt, de “Bit Literacy”, Scott Young, en “Email Zen”, incluso cabría el tremendamente popular “Getting Things Done”, de David Allen, y otros autores de la blogosfera, proponen consejos, ayudas, recomendaciones, orientaciones e incluso qué herramientas son más eficientes en alcanzar el zen del control de la bandeja de entrada.
+>Esta es la primera crisis fuerte en la que disponemos masivamente desplegada de esta tecnología de comunicación electrónica. Lo que me dicen y lo que puedo observar es que no está resultando todo lo efectiva, productiva y humana que pensaron sus inventores, como explicó uno de ellos, Howard Frank, cuando le dimos un premio en el IESE hará 15 años. Hay quienes se esconden y evitan disculparse. Pero también los hay creando la imagen de que trabajan reduciendo costes cuando lo que hacen es superficial o contraproducente. Casi seguro que para la próxima crisis fuerte, el 2021, los e-mail estarán prohibidos. Pedro Nueno ([2009, (http://espaicritic.blogspot.com/2009/05/emailiando-de-pedro-nueno-en-la.html)])
+
+
+Varios autores han dedicado su atención al problema de la bandeja de entrada. Merlin Mann, ideólogo de Inbox Zero, Tim Ferriss, autor de “The 4-Hour Workweek”, Mark Husrt, de “Bit Literacy”, Scott Young, en “Email Zen”, incluso cabría el tremendamente popular “Getting Things Done”, de David Allen, y otros autores de la blogosfera, proponen consejos, ayudas, recomendaciones, orientaciones e incluso qué herramientas son más eficientes en alcanzar el zen del control de la bandeja de entrada.
 
 Un visión general de las ayudas y consejos de los diferentes autores nos permite encontrar un común denominador:
 Conseguir el zen de la bandeja de entrada cero.
@@ -108,3 +111,28 @@ Hay voces que proclaman que la desparición del e-mail tal como lo hemos conocid
     * limitaciones ridículas de espacio de la bandeja de entrada como del tamaño de transferencia de los mensajes.
     * inseguridad a la hora de realizar copias de seguridad del correo
     * dificultad en la localización de contenido específico a través del buscador interno del cliente de correo.
+
+
+## Dos visiones confrontadas del PIG: email-centric o stop-using-email
+
+
+
+
+## Etiquetas a la ayuda
+
+>"I run a student organization with a 10-member 'board of directors.' We hardly ever all have time to attend meetings and a large part of how we interact with the student body is through email. We have a shared email account (accessible by the 10 of us on the board) right now that is typically accessed through an outlook web-access portal. We've been attempting to keep things organized in the account through a complex collection of folders that have been tacked on ad libum. It's turned into a complete mess. I have the onerous task of restructuring the folder system in hopes of achieving sustainable organization, but I'm wondering if I should just switch us over to a tagging system — perhaps Gmail. Has anyone used tags for a multi-user account successfully or does it end up being just as messy?"
+
+[Folders vs. Tags For Shared Email Accounts?](http://tech.slashdot.org/article.pl?sid=08/05/03/1749255)
+
+
+
+
+
+> You can have multiple tags on one mail, but you can't put a mail in multiple folders.([Tags. Or three folders maximum](http://tech.slashdot.org/comments.pl?sid=542398&cid=23286128))
+
+
+
+
+
+
+
