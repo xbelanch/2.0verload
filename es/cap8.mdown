@@ -38,11 +38,27 @@ Todo lo anterior no sería posible si no tuviéramos una serie de tecnologías q
   * http://www.readwriteweb.com/archives/web_of_data_machine_accessible_information.php
 
 
-Los microformatos forman parte de la Web Contextual. A decir verdad, para la mayoría de los usuarios, los microformatos pasan inadvertidos, no son visibles y tampoco se manifiestan abiertamente cuando estan presentes. Los microformatos conciernen más a los desarrolladores de páginas web. La intención es proporcionar una mejor estructura y un mayor contenido semántico a la web utilizando el lenguaje de marcado HTML. Según la organización que trabaja en las especificaciones y adopción de los microformatos:
+Los microformatos aparecen como necesidad de resolver, de una manera transparente, el problema del exceso de desestructuración de la web. Una página web es, en esencia, un documento escrito en un lenguaje de marcado, HTML (HyperText Markup Language). 
+
+En palabras de microformats.org, los Microformatos
+
+>diseñados primero para los humanos y segundo para las máquinas, los microformatos son un formato abierto y simple elaborados a partir de estándares (...) los microformatos intentan resolver primero problemas simple tomando como referencia conductas y patrones de uso actuales (ejemplo, XHTML blogging)
+
+Para la gran mayoría de los usuarios, los microformatos pasan inadvertidos, no son visibles y tampoco se manifiestan abiertamente cuando estan presentes. Los microformatos conciernen más a los desarrolladores de páginas web. La intención es proporcionar una mejor estructura y un mayor contenido semántico a la web utilizando el lenguaje de marcado HTML. Según la organización que trabaja en las especificaciones y adopción de los microformatos:
 
 >Designed for humans first and machines second, microformats are a set of simple, open data formats built upon existing and widely adopted standards (Microformats.org)
 
 Sin extenderme en los aspectos técnicos, la estryctura interna los microformatos es realmente simple: son bloques de información sobre un tópico que acostumbran a aparecer en la mayoría de las páginas web. La ficha personal o de una organización, un evento, una fecha de calendario, una licencia, el comentario u opinión de un producto o etiquetas asociadas a un elemento son ejemplos de estos bloques de información. Luego, como desarrolladores de la web podemos tomar la decisión de estructurar estos bloques de información a nuestro antojo o seguir las especificaciones de los microformatos. Seguir las convenciones facilitará mucho las cosas para que los usuarios disfruten de la Web Contextual con poquito esfuerzo.
+
+John Allsopp (2008, Microformats Empowering Your Markup for Web 2.0, friendsoft) resume en la siguiente lista los principales usos de los microformatos:
+
+* Solucionar problemas específicos
+* Simples en la medida de lo posible
+* Diseñados primero para los humanos, después para las máquinas
+* Adopción de los estándares de la web como punto de partida
+* Modular 
+* Estimula el desarrollo descentralizado de contenidos y servicios.
+
 
 Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo mejor será verlos en acción. Si navegáis con el Mozilla Firefox tenéis una extensión, operator que os facilitará la comunicación de los bloque de información proporcionada por los microformatos entre diferentes servicios. Por ejemplo, si en una página encontramos una serie de eventos estructurados según las especificaciones del microformato hCalendar, Operator los detectará y nos brindará la posibilidad de transformalos en eventos de calendario para los diferentes servicios de calendarios web como Yahoo Calendar o Google Calendar. En caso de navegar con IE8, podéis jugar con los Web Slices , en especial Oomph
 
