@@ -1,11 +1,49 @@
 #La lección de los marcadores 
 
+>memory first, discovery second. Joshua Schachter (fundador de Delicious)
+
 ## Resources 
-  * The Del.icio.us Lesson: http://bokardo.com/archives/the-delicious-lesson/
+
   * http://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
-  * http://rashmisinha.com/2006/07/27/findability-with-tags-facets-clusters-and-pivot-browsing/
-  * The Reality of Semantic Desktops: Death To Tags, Labels and Folders: http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/
-  * Folders vs. Tags For Shared Email Accounts? : http://tech.slashdot.org/article.pl?sid=08/05/03/1749255
+  
+
+
+ 
+
+
+
+
+Kebin Kubasik, desarrollador del indexador libre [Beagle](http://beagle-project.org/Main_Page) ([2008](http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/)) en _The Reality of Semantic Desktops: Death To Tags, Labels and Folders_ defiende un nuevo escritorio que, definitivamente, ponga punto y final a la metáfora del escritorio tradicional, que rompa la sinergia de continuar la tradición de establecer jerarquías de directorios, categorías, etiquetas, distintivos de color y cualquier otro emblema visual con fines organizativos. Toda práctica de clasificación de la información personal y profesional siguiendo este modelo termina en fracaso
+
+>how many people actually keep their address book completely updated? Or tag all their photos, or keep every document in the right folder? Even those who are vigilant eventually fall behind, and that’s because users already know what the material they are filling is, but still have to spend time explaining to the computer which items are related and where they belong. 
+
+y defiende dos líneas futuras de un posible espacio de información personal: los buscadores, que si bien pueden ser eficientes a nivel textual, ¿cómo serlo en contenidos audiovisuales? ¿mediante el uso de etiquetas?
+
+>a million and one more ways for me to catalog and store my data, but when I’m actually looking for something the tags never seem to help much
+
+Esta denuncia de las limitaciones del uso de etiquetas como vía de recuperación de la información es un recurrente que más tarde que temprano aparece en la clasificación de entradas de servicios sociales. Situación que Enrique Dans ([2008](Los límites de las folksonomías)) supo exponer con claridad al tomar como referencia la problemática en evitar al buscador resultados de "falsos-positivos y falsos-negativos" (Encinar, [2008](http://www.jesusencinar.com/2008/12/rediseño-de-11870com.html)) [11870.com](http://11870.com) en presentar un sistema mixto de organización: convivencia entre la vieja guardia de las categorías y sistema flexible de etiquetaje social. La contundente afirmación de Jesús Encinar, CEO (*Chief Executive Officer*) de [Idealista.com](http://www.idealista.com/pagina/portada) al hablar del rediseño de 11870.com 
+
+>Con el tiempo hemos visto que 2.500 años de historia de las bibliotecas no están equivocadas.
+
+Se castiga así a la _folksonomía_ por la deriva de "inconsistencias, sinonimias, homonimias, polisemias o, en general, la falta de homogeneidad y de coherencia." (Dans, 2008). Esta apariencia caótica de clasificar la información espanta a puristas de la ontología y a quienes ven el sistema colectivo de etiquetaje una camino sin retorno a la ...
+
+No es un debate nuevo ni la elección es una novedad. Rashmi Sinha en *Findability with tags: Facets, clusters, and pivot browsing* ([2006](http://rashmisinha.com/2006/07/27/findability-with-tags-facets-clusters-and-pivot-browsing/)). El uso de bloques o agrupaciones -*facets*- de etiquetas que tengan y compartan un significado común 
+
+>For example, you might start by looking at wines from a particular region. Next, you decide to view by price. If you don’t like that option, you can change the facet, and start looking by type. You are in control every step of the way. In many ways, this could be the holy grail for tagging systems.
+
+
+Sigue la opción de creación de *clusters* y recomendaciones. Aunque diferentes, guardan parecidos a nivel de experiencia del usuario. Un ejemplo de éxito del uso de *clusters* el de Flickr. Rashmi dibuja la secuencia: en un principio, las listas de ítems; segundo, las nubes de etiquetas, como lista con esteroides según el uso recurrente de algunas etiquetas; y por último, cuando la información es excesiva, la navegación por estas resulta impracticable. 
+
+
+Quizá la solución pase por la contextualización de la información como sistema de clasificación. Si las etiquetas y las carpetas han ayudado a rebajar el efecto conocido por *cluttering*, no es así cuando he de recuperar una información precisa que he guardado. Y repetimos, no sólo nos referimos a un documento, sino puede ser incluso la recomendación de una canción por parte de una amiga en un chat. Esto implica el uso de la narrativa como ayudante o metainformación. No nos ayudamos sólo de palabras exactas sino de historias, luego una búsqueda por la historia podrá ayuderme o no a encontrar la información...  Por ejemplo:
+
+Marco -realizo un _commit_- un documento de texto, por ejemplo, como objeto de información de interés (no todo lo que almaceno, guardo, hablo ¿es de interés?). El contenido lo parsea y enlaza el documento con una historia, la del contenido con el contexto en el que estaba trabajando (emails, chats, blogging, tweets), hay un track también del uso del mismo, referencias externas al mismo... luego, cada commit representa una actualización de la historia o información contextual del mismo. Quizá de esta manera podrían ligarse meta historias o enlazar a otras, luego ya no encontramos un documento, sino todo lo ligado a este y, por lo tanto, navegar por esa información. 
+
+
+ 
+
+
+
   * [PDF] Wikifolders
 
 
@@ -35,15 +73,32 @@ Por otro lado, Laura valora la alternativa de publicar los enlaces en una págin
 
 
 
-## Organizar, clasificar, ordenar la información: los metadatos
+## Organizar, clasificar, ordenar la información. 
 
-### 
-
-http://www.well.com/~doctorow/metacrap.htm
+Clasificar la información es un acto puramente ontológico. Clasificamos la información para comprender la información que tratamos a diario o puntualmente. Si estamos preparando un viaje, diseñamos una clasificación de la información según las propiedades de cada uno de los elementos que participen en la descripción del viaje. Ordenar esta información en carpetas y subcarpetas bajo nombres que identiquen el contenido de cada una de ellas es un taxonomía naïf donde el nodo raíz sería la carpeta o directorio con el nombre, por ejemplo, del viaje. De este nodo principal irían colgando los nodos de segunda categoría (carpetas de fotografías, documentos, mapas,...) y así sucesivamente (por ejemplo, del nodo "fotografías" podrían colgar los nodos que representan los días del viaje).
 
 
+### Taxonomías y ontologías 
+
+>This is something the ‘well-designed metadata’ crowd has never understood — just because it’s better to have well-designed metadata along one axis does not mean that it is better along all axes, and the axis of cost, in particular, will trump any other advantage as it grows larger. And the cost of tagging large systems rigorously is crippling, so fantasies of using controlled metadata in environments like Flickr are really fantasies of users suddenly deciding to become disciples of information architecture. 
+
+http://www.sifry.com/alerts/archives/000270.html
+
+
+Los metadatos, como indica su procedencia griega, son la tarjeta de identidad de un objeto de información. _Data about data_. 
+
+
+Cory Doctorow ([2001](http://www.well.com/~doctorow/metacrap.htm)) ya planteó muy acertadamente la inutilidad de los metadatos; en un escenario ideal, los metadatos proporcionarían la ayuda exacta para encontrar la información que estamos buscando, debido a que esta estaría correctamente identificada; es el lo que Cory Doctorow identifica con la _meta-utopia_, un estadio de la información en la que los metadatos son de una gran ayuda, imparciales y neutrales, pero ineficaces cuando se trata de un mundo en el que la gente _miente_. No olvidemos que las palabras de Cory Doctorow se escribieron en el 2001. De hecho, anticipa una realidad donde los metadatos se pervierten originando una realida informativa tóxica: tóxica debido al continuo _spam_ que va entrando en las bandejas de entrada, resultados de una búsqueda que no tiene relación ninguna con lo que estamos localizando; 
+
+¿Es posible mantener, actualizar y preservar durante un tiempo la actividad de clasificar la información con metadatos? Cory Doctorow determina que la gente es tremendamente vaga y estúpida; conservan los documentos con el nombre que la herramienta les asigna por defecto ("UNTITLED.DOC", las fotografías,...) o escriben mal, puntuan mal: ejemplo de ello sería "Plam Pilot", donde uno gracias a estas incorrecciones puede encontrar una auténtica ganga.
+
+Cory Doctorow alega que las jerarquías no son neutrales: _cualquier jerarquía de ideas necesariamente implica la importancia de algunos ejes sobre otros. 
 
 ### Las etiquetas importan 
+
+http://www.sifry.com/alerts/archives/000270.html
+
+
 
 Cuando acumulamos demasiada información en la memoria del ordenador o de un disco duro externo, nos sentimos obligados a clasificarla, a ordenarla, con el fin último de recuperarla más tarde. En general, el sistema de organización personal que sigamos, entre intuitiva, flexible o rígida, siempre terminará encontrándose con el sistema de ordenación que nos proporciona el sistema operativo. Hasta el momento, la organización de los archivos (sean documentos de textos o imágenes) pasa por el sistema de carpetas (folders). Cada archivo estará asociado a unos metadatos, de los cuales el más evidente es el nombre del archivo (no necesariamente relacionado con el contenido del mismo).
 
@@ -78,6 +133,13 @@ Mark Hurst no es partidario de utilizar etiquetas. Considera que la práctica de
 nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search/?ss=2&ct=6&w=all&q=dscn0001&m=text comprobaréis cómo un número elevado de usuarios no renombran las fotografías que suben. De hecho se cuenta hasta 17.582 resultados de imágenes de idéntico título.
 
 
+## Exceso y sobrecarga de etiquetas
+
+>But if you look closer, you can see massive redundancy and disorganization. There are tags for brandenthusiasts, branding and brands. Separate ones for forum and forums. And a run of social media related ones that include no fewer than sellingsocialmedia, socialbookmarking, socialmedia, socialmediamarketing, socialmediameasurement, socialmediarelease, socialmediaroi, socialmediastrategy, socialmediatools, socialnetworking and socialnews. Oh, and there are separate entries for business, CEO and corporate. Jason Falls ([2009](The Practical Guide To Content Tagging In Social Bookmarking))
+
+
+Mira a este: http://delicious.com/earth2marsh?ubtags=off 4563 etiquetas!!!
+
 ### Etiquetas vs. Carpetas 
 
 La clasificación de nuestros archivos en el disco duro se ha basado en la metáfora de la vida real. Organizamos facturas, documentos legales, apuntes en carpetas y subcarpetas. No es extraño que practiquemos lo mismo. Aparte de simple contenedores, las carpetas también se presentan como la primera estructura de un proyecto personal. Carpetas y subcarpetas anidadas le siguen una convención personal de cada nombre de la carpeta. Pequeños hacks de las carpetas, especialmente a prefijos con números y letras para forzar uno u otro orden.
@@ -105,6 +167,19 @@ Quizá el origen de todo sirvió en cuanto a que el ordenador seguía la metáfo
 * ...
 
 El problema aumenta en cuanto perdemos la metáfora del escritorio y nuestra actividad profesional traspasa los límites tradicionales de la información personal. 
+
+
+### La lección de Delicious
+
+Joshua Porter ([2006](http://bokardo.com/archives/the-delicious-lesson/)), autor de _Designing for the social web_(2008) acentúa el orden de la secuencia: el valor de la información personal precede a la información de la web. Prueba de ello es el enorme éxito de Delicious y su sistema flexible de ordenación de los marcadores por etiquetas. Porter relata el escepticismo de Yahoo! (http://blog.searchenginewatch.com/blog/050322-163753) y comprobar poco después que las etiquetas no funcionan como sucedáneos o una suerte de metadatos, parte del mal funcionamiento de los buscadores siguiendo los principios de una taxonomía de la web basada en metadatos.
+
+¿Dónde reside el valor de la acción de _tagging_, de clasificar libremente la información por etiquetas? A diferencia de las etiquetas como metadatos, que no aportan ningún valor personal, sino de _atención_ para los buscadores, el valor de las etiquetas de Delicious es la de proporcionar un valor personal por cada vez que un usuario los utiliza para recuperar o descubrir un marcador. 
+
+###Etiquetas para llamar la atención o como valor personal
+
+
+
+
 
 ## Entre el escritorio y la nube
 
