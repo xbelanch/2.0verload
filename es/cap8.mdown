@@ -113,6 +113,11 @@ Los complementos vienen a extender las funcionalidades del navegador y, por lo t
 
 Pero en la web contextual, también es imprescindible aquellas herramientas que nos permitan publicar o compartir la información sin necesidad de salir de la página que estamos visitando. En el exceso de servicios de publicación (blog, microblog, red social, red profesional, agregador de noticias,...) la descentralización del sistema de publicación ha originado una explosión de complementos que realizan exclusivamente esta tarea: publicar desde fuera de la aplicación o, por el contrario, recibir notificaciones de la misma. Ejemplos como [Shareolic](https://addons.mozilla.org/es-ES/firefox/addon/5457), [TwitterFox](https://addons.mozilla.org/es-ES/firefox/addon/5081), [Open IT Online](https://addons.mozilla.org/es-ES/firefox/addon/6350), [Delicious Bookmarks](https://addons.mozilla.org/es-ES/firefox/addon/3615), [eBay Sidebar for Firefox](https://addons.mozilla.org/es-ES/firefox/addon/5202), [Gmail Notifier](https://addons.mozilla.org/es-ES/firefox/addon/173), 
 
+
+### Shareolic y Kwiclick
+
+http://feedproxy.google.com/~r/readwriteweb/~3/bxSGNVSKpRw/kwiclick_wants_to_help_you_do_stuff_faster_in_firefox.php 
+
 ### Ubiquity y Taskfox, el poder de la línea de comandos 
 
 Ubiquity, un Quicksilver?

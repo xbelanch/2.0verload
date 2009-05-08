@@ -1,26 +1,134 @@
-# Anexo I: Git en GitHub
+# Anexo I: Fork the book!
 
-## Control de versiones
+http://www.rubyinside.com/git-and-ruby-git-tutorials-articles-and-links-for-rubyists-860.html
+
+## Sistemas de control de versiones
+
+Un sistema de control de versiones (VCS, _Version Control System_) es una herramienta o metodología de trabajo que establece un registro preciso de las modificaciones de un proyecto. La actividad de realizar una copia de un documento, renombrarlo con la fecha o un código que responda a una convención personal correspondería a la manera más simple de controlar las versiones del documento.
+
+
 
 
 
 ## Vocabulario básico
 
 
+**Repositorio**
+
+**Commit**
+
+**Merge**
+
 
 
 ## GitHub
 
-
+Crear un repositorio en Git Hub es simple. Sigue las instrucciones...
 
 
 ## Git básico
 
 
+### Operaciones básicas
+
+Configuración básica
+
+<code>
+git config --global user.name "Xavier Belanche"
+git config --global user.email "xbelanch@gmail.com"
+git config --global color.ui "auto"
+</code>
+
+
+Clonamos el libro:
+
+<code>
+git clone git://github.com/xbelanch/2.0-overload.git
+</code>
+
+
+Actualizat el repositorio
+
+<code>
+git pull
+</code>
+
+
+Añadir, modificar archivos del proyecto
+
+<code>
+git add cap1.mdown
+</code>
+
+Commit representa el proceso en la que se suman los cambios a la historia del repositorio y se le asigna un nombre de "commit" a ellos.
+
+<code>
+git add cap1.mdown
+git commit -m "contenido del mensaje"
+</code>
+ 
+Conocer el estado
+
+<code>
+git status
+</code>
+
+Ver las diferencias
+
+<code>
+git diff
+</code>
+
+
+<code>
+git diff HEAD
+</code>
+
+### Manipulando archivos
+
+
+Renombrar, mover archivos
+
+<code>
+git mv archivo1 archivo2
+</code>
+
+
+Borrar archivos
+
+<code>
+git rm archivo1
+</code>
+
+Ignorar archivos
+
+<code>
+.gitignore
+</code>
 
 
 
+  
+## Fork me!
+
+Aprender cómo funcionan las _branches_ en Git y después en GitHub
+
+
+###But I have my own repo and people are trying to commit to me. What do I do, how does that work?
+
+http://b.lesseverything.com/2008/3/25/got-git-howto-git-and-github
+
+In git everything revolves around branches (github calls them forks1). When you create a git repo, that main branch is called “master.” Your master branch is kind of like what trunk is in svn. When someone wants to fork/branch your master, they go to your page in github and click the fork button. Now they have a fork/branch of your master branch. When they are ready for you to check out their changes and merge theirs back into your master they’ll send you a message via git hub. You’ll get this message in your inbox and have no idea what to do with it. Cool.
 
 
 
+###You just want to patch some else’s repo
 
+1.  Go to github and click the “fork” button.
+2. git clone git://github.com/stevenbristol/lovd-by-less.git
+3. cd lovd-by-less
+4. Make your cahnges
+5. git status
+6. git commit -a
+7. git push
+8. go back to git hub and click the “pull request” button.
