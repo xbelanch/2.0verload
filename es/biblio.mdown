@@ -1,7 +1,7 @@
 #Bibliografía
 
 
-##Capítulo 1
+## Antes de partir
 
 
 * http://www.digitalnative.org/wiki/Digital_Information_Overload
@@ -9,3 +9,6 @@
 * http://www.synapticacentral.com/content/working-problems-information-overload
 * http://www.readwriteweb.com/archives/attention_economy_overview.php
 * [The E-Mail “Dilemma”](http://goldhaber.org/blog/?cat=38)
+
+
+## PIG, Personal Information Glut 
