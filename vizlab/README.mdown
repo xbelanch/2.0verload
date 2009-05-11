@@ -1,0 +1,26 @@
+#2.0 Overload vizlab
+
+
+## GitHub API
+
+* [the GitHub Developer site](http://develop.github.com/)
+* [Guides: The GitHub API](http://github.com/guides/the-github-api)
+
+<code>
+$curl -i http://github.com/api/v1/yaml/xbelanch/2.0-overload/commits/master | less
+
+$curl -i http://github.com/api/v1/yaml/xbelanch/2.0-overload/commit/ceeb7ea71e65ffe9c5f8356dc5d2f0586aec27ca | less
+
+$curl -i http://github.com/api/v1/yaml/xbelanch | less
+
+</code>
+
+
+## GitHub API + Vizlab examples
+
+* [git-trip](http://github.com/Oshuma/git-trip/tree) – Visualize git repositories.
+
+
+## 2.0 Overload vizlab proposals
+
+
