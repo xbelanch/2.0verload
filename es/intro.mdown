@@ -1,0 +1,27 @@
+# Notas antes de partir
+
+La percepción de estar inmersos en una etapa irreversible de exceso de información no es exclusiva de nuestra época. A finales del siglo XVII, Adrien Baillet, lector apasionado y biógrafo de René Descartes, escribió:
+
+>that the multitude of books which grows every day in a prodigious fashion will make the following centuries fall into a state as barbarous as that of the centuries that followed the fall of the Roman Empire.
+
+Debido a la incapacidad de absorber y evaluar el flujo continuo de información, Adrien Baillet alertó de un futuro confuso de la información, una espesa niebla que nos impediría discenir lo relevante de lo superfluo de la información; empujaría a la civilización occidental a una nueva etapa oscura de la cultura, esta vez no por ausencia cuantitativa, sí cualitativa. El anticipo de la banalización de la información, de la cultura y, finalmente, el regreso a una suerte de Edad Media donde los ciudadanos se ven anestesiados por el enorme volumen de información.
+
+Si la cuestión del exceso de información repercutió se limitó a la élite de la cultura del siglo XVI y XVII, en la actualidad es un fenómeno que afecta a todos por igual. Ann Blair, en un estudio sobre cómo hacer frente al exceso de información (Blair, 2003) concluye que
+
+>I don't have any particular remedy to offer, other than to comment that even though the problem seems dire, it's not all that new.
+
+El exceso de información es un relato recurrente; proyecta una sombra que distorsiona las actividades relacionadas con la información, es decir, su adquisición, búsqueda, clasificación, categorización, recuperación y preservación. Gestionar el exceso de información es objeto de análisis y advertencias; un reciente estudio ([Wilson, 2005](http://www.newscientist.com/article/mg18624973.400)) advertía que la _infomanía_ tiene peores efectos que el consumo de marihuana. La _infoxicación_ provoca estrés, un penosa sensación de improductividad; se extiende la multitarea como metodología única de trabajo y nos acaba castigando al difuminar la frontera entre la parcela íntima y la privada. De un tiempo a esta parte los libros de auto ayuda del terreno profesional han invadido las estanterías de las librerías. De un tiempo a esta parte los blogs sobre productividad personal y excelencia laboral proliferan y aumentan su visibilidad. Consejos, recetas prefabricadas, opiniones, estudios, tutoriales, experiencias personales alrededor de un mismo eje: controla el exceso de información antes que sucumbas a él.
+
+>E-mail traffic has increased, computers and other devices have profilerated, new acronyms and technology terms have invaded our speech, and many people can sense that there's a problem. It's all too much. Mark Hurst, Bit Literacy
+
+
+Se asocia el exceso de información al déficit de atención (Hallowell, 2005), a la toma equivocada de decisiones (Malhotra, 1982) como al tiempo que tardamos en tomarla (Jacoby, 1984); ahogarnos en el detalle y perder de vista la perspectiva general de las situaciones (Schneider, 1987). La economía de la atención emerge del océano informativo. El crecimiento exponencial de la información atenta contra la atención (Simon, 1971); peligran las actividades de contrastar la información, validarla, identificar sus fuentes. No hay tiempo para una lectura que no sea en diagonal. Los contenidos se simplifican hasta el punto de convertirse en diapositivas de ellos mismos. El mundo se representa a sí mismo en un interminable _PowerPoint_.
+
+[Did you know?](http://shifthappens.wikispaces.com/)
+
+El relato del exceso de información adquiere un significado especial gracias a las nuevas tecnologías. Convivimos con la promesa de una integridad inquebrantable del circuito de tratamiento de la información. La irreversible e imparable digitalización de la información personal se la acompaña de buscadores más inteligentes, más precisos en lo resultados, más rápidos de respuesta a las consultas; buscar información nunca nos ha parecido tan fácil. Los márgenes del contenedor en el que guardamos la información, que seleccionamos y categorizamos son igualmente difusos; nos convencemos que son ilimitados. Un relato que los diferentes servicios ubicados bajo ese extravagante y indefinible paraguas conocido popularmente por _Web 2.0_ han construido y forjado hábilmente en el imaginario colectivo. 
+
+Este libro habla de cómo la _Web 2.0_ ha reinventado las actividades asociadas a la información personal; el adiós a la metáfora del escritorio individual a la de un escritorio colectivo; una nueva orografía, por tanto, del exceso de información. Nuevas preguntas a las que responder; nuevas fronteras. Nuevos retos bajo el sol. Como el cartógrafo de Vermeer, sujetando el instrumento de medida mientras medita y reflexiona sobre los límites de la representación, cada capítulo corresponde a una descripción incierta y a veces equivocada de  una región del exceso de información, eco y reflejo de aquella ciudad invisible de Octavia
+
+>Suspendida en el abismo, la vida de los habitantes de Octavia es menos incierta que en otras ciudades. Sabe que la resistencia de la red tiene un límite.
+
