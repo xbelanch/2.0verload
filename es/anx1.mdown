@@ -1,10 +1,12 @@
-# Anexo I: Fork the book!
+# Anexo I: The beauty of commitment
+
+
 
 http://www.rubyinside.com/git-and-ruby-git-tutorials-articles-and-links-for-rubyists-860.html
 
 ## Sistemas de control de versiones
 
-Un sistema de control de versiones (VCS, _Version Control System_) es una herramienta o metodología de trabajo que establece un registro preciso de las modificaciones de un proyecto. La actividad de realizar una copia de un documento, renombrarlo con la fecha o un código que responda a una convención personal correspondería a la manera más simple de controlar las versiones del documento.
+Un sistema de control de versiones (VCS, _Version Control System_) es una herramienta o metodología de trabajo que establece un registro preciso de last modificaciones de un proyecto. La actividad de realizar una copia de un documento, renombrarlo con la fecha o un código que responda a una convención personal correspondería a la manera más simple de controlar las versiones del documento.
 
 
 

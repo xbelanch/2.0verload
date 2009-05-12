@@ -13,6 +13,8 @@ $curl -i http://github.com/api/v1/yaml/xbelanch/2.0-overload/commit/ceeb7ea71e65
 
 $curl -i http://github.com/api/v1/yaml/xbelanch | less
 
+
+$curl -i http://github.com/api/v2/xml/repos/show/xbelanch/
 </code>
 
 
@@ -24,3 +26,7 @@ $curl -i http://github.com/api/v1/yaml/xbelanch | less
 ## 2.0 Overload vizlab proposals
 
 
+http://github.com/xbelanch/2.0-overload/tree/7f28a535d7ca04cdc4d00e7ae632bdec2cf30f68
+
+
+ curl http://github.com/api/v2/yaml/tree/show/xbelanch/2.0-overload/7f28a535d7ca04cdc4d00e7ae632bdec2cf30f68
