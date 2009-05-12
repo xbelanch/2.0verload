@@ -1,32 +1,19 @@
 #2.0 Overload vizlab
 
 
-## GitHub API v1
-
-
-* [Guides: The GitHub API](http://github.com/guides/the-github-api)
-
-<code>$curl -i http://github.com/api/v1/yaml/xbelanch/2.0-overload/commits/master | less</code>
-
-<code>$curl -i http://github.com/api/v1/yaml/xbelanch/2.0-overload/commit/ceeb7ea71e65ffe9c5f8356dc5d2f0586aec27ca | less</code>
-
-<code>$curl -i http://github.com/api/v1/yaml/xbelanch | less</code>
-
-## GitHub API v2
+## GitHub API
 
 * [the GitHub Developer site](http://develop.github.com/)
+* [Guides: The GitHub API](http://github.com/guides/the-github-api)
 
-Datos de un usuario
+<code>
+$curl -i http://github.com/api/v1/yaml/xbelanch/2.0-overload/commits/master | less
 
-<code>curl http://github.com/api/v2/yaml/user/show/xbelanch</code>
+$curl -i http://github.com/api/v1/yaml/xbelanch/2.0-overload/commit/ceeb7ea71e65ffe9c5f8356dc5d2f0586aec27ca | less
 
-Información de los repositorios de un usuario
+$curl -i http://github.com/api/v1/yaml/xbelanch | less
 
-<code>curl http://github.com/api/v2/yaml/repos/show/xbelanch</code>
-
-Información de un repositorio (en el caso parece de tener sólo uno!)
-
-<code>http://github.com/api/v2/yaml/repos/show/xbelanch</code>
+</code>
 
 
 ## GitHub API + Vizlab examples
