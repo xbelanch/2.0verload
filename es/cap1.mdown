@@ -17,26 +17,16 @@ La marca comercial 2.0 ha impuesto la dictadura de un antes y un después. Una i
 
 Si la Web 2.0 se ha edificado en el relato de una conversación colectiva (McLellan, 2008) donde todas las voces tienen algo qué decir ("¿Qué estás haciendo ahora"), una fiesta permanente de cotorras y papagayos, ¿cómo dibujar el espacio de la información personal, aquel que responde a las cuestiones (Jones, 2008) de qué información esta controlada por mí; la información sobre mí; qué información tiene relación conmigo o cuál información es relevante para mí?. La Web 2.0 se ha emancipado de ser esclava de las metáforas del escritorio personal para construirse una realidad propia, obsesionada por una moderna tradición oral. Disrupción de la palabra escrita en voz alta: todo mensaje adopta la forma de charla (Wright, 2007), luego la rápidez en la que circula la información es infinitamente mayor. No leemos, hablamos con las palabras. Escribimos en voz alta a través de los SMS, la mensajería instantánea, el microblogging, el videoblogging. La información a tiempo real, al instante. Un nuevo exceso de información. 
 
-
-****
-
+La Web 2.0 es una interminable proliferación de servicios, de tecnologías que celebran la conversación. Cada poco tiempo aparece un nuevo servicio que intenta hacerse un hueco en la economía de la atención. Cada servicio es una propuesta nueva o refinada de una anterior en gestionar una información determinada. O remezclar varios tipos de información, como es el caso de las apliaciones _mashup_. Ya no sólo contamos un exceso de información, sino también de servicios de publicación y edición de información, privada o pública. Suma a este escenario una miríada de dispositivos físicos que se conectan con la conversación. Dispositivos o _gadgets_ que tienen en común la movilidad -pequeños, ligeros y fuertemente ergonómicos-, la interoperabilidad (necesaria, aún levantando estúpidas barreras por parte de los fabricantes) y la conectividad. El primer síntoma de este exceso no se limita sólo a nuestras actividades PIM de carácter inmediato -buscar y guardar información- y que luego hablaremos con más detalle. Se rompe definitivamente la frontera física del espacio personal de la información; ésta ya no se limita a las cuatro paredes de nuestro despacho o estudio. El escritorio es una pieza más del espacio personal de la información de un escritorio mayor, difuso en cuanto a que el número de dispositivos con el que interactuamos -el ordenador de casa, el portátil, el ordenador del trabajo, el móvil personal, el móvil profesional,...- como los servicios a los que delegamos la información es cada vez mayor. La promesa de nuestro espacio personal de información en la _nube_. La promesa de acceder a nuestra información desde cualquier lugar como desde cualquier dispositivo. Veamos ahora cómo y en qué medida de este nuevo telón de fondo resuelven pero también emergen nuevas tensiones relacionadas con las actividades básicas del PIM.
 
 
-El primer síntoma del exceso no se debe sólo a la información que recibimos, sino que compartimos o publicamos, tanto en el área profesional como pública, entendiendo que los límites de estos quedan completamente rebasados por el espacio de la red. El término de identidad digital incorpora ese añadido al currículum: ya no somos sólo nuestro currículum oficial sino también la proyección en la red en la medida de cómo interactuamos con ella, desde una simple extensión de nuestras vidas personales (comunicación oral a través de la mensajería instantanea, correo electrónico, msm,..) a profesionales (redes sociales, networking profesional,...)
+##Buscar 
 
-La proliferación de servicios de la web como de los dispositivos que utilizamos para comunicarnos e interactuamos con aquellos determina una fragmentación y dispersión de la información personal. Esta nueva realidad afectará al PIM, en primer lugar, un excesivo acento en la capacidades de las dos actividades básicas: buscar y guardar. Ya no buscamos sólo en dos áreas claramente diferenciadas, una privada (mi ordenador) y otra pública (internet como un simple catálogo de información), ya que la búsqueda queda afectada por la fragmentación de la información. A la pregunta ¿dónde la guardé? o ¿dónde encontrarla? el objeto de información.
+>But as people get more sophisticated at search they are coming to us to solve more complex problems. To stay on top of this, we have spent a lot of time looking at how we can better understand the wide range of information that's on the web and quickly connect people to just the nuggets they need at that moment. We want to help our users find more useful information, and do more useful things with it. ([More Search Options and other updates from our Searchology event, 2009](http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html))
 
 
-Jones añade otras que por sus características las considera meta-actividades y que vienen a significar actividades que superan la barrera imaginaria del corto plazo: organizar, preservar, evaluar/actualizar y, finalmente otorgar un significado a la colección de objetos de información.
 
-* **Guardamos** una imagen en el escritorio (corto plazo). Utilizamos estrategias para guardar este tipo de información, desde sistema más sofisticados (wikis, marcadores sociales,...) a más básicos (papel servilleta)
-* **Buscamos** el horario de un tren (corto plazo), una página web, una fotografía, un video, un texto, nuevos servicios, nuevos clientes, etc. 
-* **Organizamos** un viaje, un encuentro, un proyecto, una documentación, una colección de imágenes,... organizar es un proceso en el que convive el afán de mantener la información y ubicarla en una jerarquía o sistema de clasificación que nos permita recuperarla en el momento que nos resulte necesario. Esta organización ha de facilitar que la búsqueda requiera una inversión de tiempo muy corto. 
-* **Preservamos** una colección de fotos (meta actividad medio-largo plazo) del viaje
-* **Actualizamos** la información en el caso que repitamos el viaje (modificar hoteles, rutas,...)
-* Dar sentido a la información corresponde al proceso de crear un nuevo objeto de información que agrupe lo anterior (?)
-
-### Buscar y reencontrar en el océano de internet
+http://www.readwriteweb.com/archives/major_search_announcement_at_google_today.php 
 
 El objeto de información, en la búsqueda, podemos apoyarnos de nuestra frágil memoria. De hecho, las innumerables soluciones de buscadores responden a la necesidad de completar aquella actividad que se ve superada por el volumen de información. Jones (2008) establece un cuadrante en el que la búsqueda quedará sujeta según la cuatro posibilidades:
 
@@ -125,22 +115,11 @@ Un ejemplo de afrontar el hecho de ver continuamente páginas que puedan resulta
 
 
 
-#### Sincronizar los navegadores 
-
-[Weave](http://labs.mozilla.com/projects/weave/) o [Read it later](http://readitlaterlist.com/)  intentan de alguna manera de sincronizar el contenido que maneja un navegador. El caso de [Read it later](http://readitlaterlist.com/) se limita a los marcadores que dejamos pendientes de lectura para más tarde. En cambio Weave da un paso más allá y aporta una nueva experiencia en la gestión de la información personal que envuelve al navegador. Información que sería el histórico, las pestañas abiertas de la última sesión, las _cookies_, contraseñas, temas o complementos del navegador Mozilla Firefox perfectamente sincronizados con el objeto que el usuario sienta estar siempre delante de su navegador aún estando en dispositivos u ordenadores diferentes. Este es un objetivo que evita la fragmentación de la información y que le obliga a duplicar el entorno de trabajo de su navegador en el resto de navegadores a los que, por diferentes motivos personales o profesionales, toma contacto.
-
->synchronizes the Firefox experience across multiple browsers, so that your desktop, laptop, and mobile phone can all work together. It currently supports continuous synchronization of your bookmarks, browsing history, saved passwords and tabs.
-
-
-Hablar de https://addons.mozilla.org/es-ES/firefox/addon/2410
-
-
-#### Apartado C: Buscar información nueva
 
 
 
 
-#### Buscar en términos PIG
+## Buscar
 
 1. La frontera entre el apartado A y B se diluye en el ámbito de la nube. Nuestra información se la supone ubicua y, por lo tanto, traspasa la frontera del ordenador personal. 
 2. Los ayudantes o helpers que nos guian en la localización puede determinar un búsqueda equivocada o esconder información relevante: autocompletados, una jerarquización errónea, etiquetas falsas, metadatos erróneos...
@@ -161,7 +140,21 @@ Si la fragmentación de la información es posible paliarla a nivel de escritori
 ¿Se puede hablar de un sistema 
 
 
-## Preservar la información
+## Guardar
+
+
+### Sincronizar
+
+[Weave](http://labs.mozilla.com/projects/weave/) o [Read it later](http://readitlaterlist.com/)  intentan de alguna manera de sincronizar el contenido que maneja un navegador. El caso de [Read it later](http://readitlaterlist.com/) se limita a los marcadores que dejamos pendientes de lectura para más tarde. En cambio Weave da un paso más allá y aporta una nueva experiencia en la gestión de la información personal que envuelve al navegador. Información que sería el histórico, las pestañas abiertas de la última sesión, las _cookies_, contraseñas, temas o complementos del navegador Mozilla Firefox perfectamente sincronizados con el objeto que el usuario sienta estar siempre delante de su navegador aún estando en dispositivos u ordenadores diferentes. Este es un objetivo que evita la fragmentación de la información y que le obliga a duplicar el entorno de trabajo de su navegador en el resto de navegadores a los que, por diferentes motivos personales o profesionales, toma contacto.
+
+>synchronizes the Firefox experience across multiple browsers, so that your desktop, laptop, and mobile phone can all work together. It currently supports continuous synchronization of your bookmarks, browsing history, saved passwords and tabs.
+
+
+Hablar de https://addons.mozilla.org/es-ES/firefox/addon/2410
+
+
+
+### Preservar
 
 >I think of those old Apple II disks in my closet. My son's first Basic program, still on a Commodore 64 cassette. I flip through my filing cabinet. Sure enough, some 51/4-inch floppies for an IBM PC, containing who knows what? I think of a stele in the Louvre, with Hammurabi's code of law carved on it 3,000 years ago, of listening to the English translation on the digital recorder you rent at the museum door. I think of Shakespeare's first folio, fading but readable. Steven Gulie, [Saved. What death can't destroy and how to digitize it.](http://wired-vig.wired.com/wired/archive/6.09/saved.html?pg=1&topic=)
 
@@ -171,11 +164,18 @@ En la primera época de la informática doméstica, las cintas de cassette fuero
 >how all of this data that isn't transferred to modern day systems will be dealt with, both from a technological and machine- and media-aging point-of-view. And in the context of criminal investigations, what happens if evidence is "lost" (or simply unrecovered) from a 25-year-old computer in a murder investigation which has no statute of limitations? It's an equally difficult question for governments, corporations, and academic institutions that actually *want* to keep the data but are having trouble instituting standards, policies, and mechanisms for data retention.
 
  
-A una escala mayor, el proyecto _BBC Domesday_ representó en la década de 1980 una reinterpretación  del trabajo, 900 años después, que impulsó el rey Guillermo I en la creación del primer censo conocido de las propiedades de la población de Inglaterra. Si aquel se concretó en dos volúmenes, el _little Domesday_ y el _great Domesday_, el homenaje que propuso la BBC, en la que participaron alrededor de un millón de personales, donde los protagonistas fueron los escolares del Reino Unido; participaron escribiendo sobre la historia, geografía y acontecimientos de importancia desde una perspectiva local. La información, repartida en mapas, videos, fotografías, interactivos y escritos, quedó literalmente atrapada en dos _laserdiscs_ de la época. Poco tiempo después, el proceso de obsolescencia del dispositivo de almacenamiento y el tipo de formato en el que se registró la información, provocó la alarma sabedores de tener frente a ellos una información irrecuperable. Se originó una serie de iniciativas de extracción y adaptación de la información a las tecnologías actuales, no sin enormes dificultades. El error y, por lo tanto, lectura, en palabras de Mike Tibbets, responsables del proyecto fue 
+A una escala mayor, el proyecto _BBC Domesday_ representó en la década de 1980 una reinterpretación  del trabajo, 900 años después, que impulsó el rey Guillermo I en la creación del primer censo conocido de las propiedades de la población de Inglaterra. Si aquel se concretó en dos volúmenes, el _little Domesday_ y el _great Domesday_, el homenaje que propuso la BBC, en la que participaron alrededor de un millón de escolares, donde los protagonistas fueron los escolares del Reino Unido; participaron escribiendo sobre la historia, geografía y acontecimientos de importancia desde una perspectiva local. La información, repartida en mapas, videos, fotografías, interactivos y escritos, quedó literalmente atrapada en dos _laserdiscs_ de la época. Poco tiempo después, el proceso de obsolescencia del dispositivo de almacenamiento y el tipo de formato en el que se registró la información, provocó la alarma sabedores de tener frente a ellos una información irrecuperable. Se originó una serie de iniciativas de extracción y adaptación de la información a las tecnologías actuales, no sin enormes dificultades. El error y, por lo tanto, lectura, en palabras de Mike Tibbets, responsables del proyecto fue 
 
 >not in the lack of vision or foresight by the technologists but that, at least in the UK, the national systems of data preservation and heritage archiving simply don't work reliably or consistently. [1](http://catless.ncl.ac.uk/Risks/25.44.html#subj7)
 
 Guardar información. Jones (2008) considera que la actividad de mantener la información responde a más de una cuestión: ¿me resultará útil más adelante? ¿dónde guardarla? ¿en qué formato? ¿en qué dispositivo? Guardar información es sinónimo de tomar una decisión sobre la prevención de si surge una necesidad relacionada. "Guardo este enlace ya que es posible que más adelante surga un proyecto en el trabajo". En gran medida, los servicios web actuales aligeran la necesidad de tomar una decisión al respecto, ya que si bien antes podría haber limitaciones físicas de espacio (comprar libros resulta un problema) o cuando los dispositivos de almacenamiento eran limitados, ahora resulta una práctica de cazadores de información, incluso aunque la información en sí misma no resulte útil. No guardamos copia de esta información, sólo instancias de la misma: de las páginas web guardamos su marcador, de aquellas fotografías, presentaciones o videos los marcamos de nuestro interés; marcamos/cazamos comentarios, grupos de discusión, noticias, comentarios, opiniones, enlaces, vuelos, rutas, hoteles, estancias,...; agregar noticias no deja de ser también una actividad relacionada con guardar la información. El símbolo de la estrella iluminada adyacente al objeto de información. 
+
+
+Hablar de Caso de estudio: Ma.gnolia
+
+http://www.error500.net/articulo/magnolia-hizo-crack
+
+como de los intentos de mantener la información de geocities! y de empresas que se encargan de traspasar la información a otro lado.
 
 Preservar el exceso de información, incluso el ruido que la acompaña, en el ancho del tiempo como metáfora ineludible, marca o identidad de nuestro tiempo. Preservar el exceso de información en el lenguaje de las bases de datos que descansan en la _nube_; preservar el exceso de información aunque la mayoría de ella sea inútil o irrelevante. Toda información está bajo sospecha de ser valiosa más adelante, luego no se destruye nada. Se pretende que toda información, por astronómica en volumen, por estúpida que resulte su contenido, sea recuperable en un futuro. Evitar quizá una  _[digital dark age](http://en.wikipedia.org/wiki/Digital_Dark_Age)_, visión sensacionalista o de enorme interés por neuloditas de un mundo en el que los dispositivos de almacenamiento digitales se conviertan en el símbolo de defunción de la información.
 
