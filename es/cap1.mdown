@@ -25,38 +25,58 @@ La Web 2.0 es una interminable proliferación de servicios, de tecnologías que 
 >But as people get more sophisticated at search they are coming to us to solve more complex problems. To stay on top of this, we have spent a lot of time looking at how we can better understand the wide range of information that's on the web and quickly connect people to just the nuggets they need at that moment. We want to help our users find more useful information, and do more useful things with it. ([More Search Options and other updates from our Searchology event, 2009](http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html))
 
 
+---
+
+Si algo se le conoce mundialmente a Google es por su motor de búsqueda. (bla bla)
+
+En términos de búsqueda de información en internet, el enorme volumen de información ya no se reduce a la consulta de un catálago de páginas estáticas a través de los buscadores. Si bien, el algoritmo PageRank de Google cambió por completo el orden de preferencias de los usuarios en la utilización de uno u otro buscador, y creando al mismo tiempo una opinión del significado de buscar y encontrar la información, como también de la visibilidad de la información -más allá de la primera página no existes- y también la perversión de los resultados de la búsqueda de información revelante en la actividad conocida como SEO (Search Engine Optimization), aparecen alternativas que dan respuesta a otro tipo de búsquedas o sistemas de búsqueda o de navegación. Por ejemplo, quizá la búsqueda ya no responde a una pregunta del tipo "¿Cuál es el teléfono de un restaurante de una ciudad?" sino "¿qué restaurantes son mejores en tal ciudad según la opinión de la gente?". Twitter, la marca estrella de los servicios de microblogging dispone de un buscador que responde a la pregunta ¿Qué está pasando ahora? en función de los "tweets" o mensajes de menos de 140 caracteres enviados por los usuarios. Google permite búsquedas precisas en las entradas y comentarios de los blogs, sabiendo que la información proporcionada se corresponderá a la opinión colectiva y no a un mensaje precocinado (especialmente si la búsqueda responde a un producto). 
+
+http://edition.cnn.com/2009/TECH/05/12/future.search.engine/index.html
 
 http://www.readwriteweb.com/archives/major_search_announcement_at_google_today.php 
 
-El objeto de información, en la búsqueda, podemos apoyarnos de nuestra frágil memoria. De hecho, las innumerables soluciones de buscadores responden a la necesidad de completar aquella actividad que se ve superada por el volumen de información. Jones (2008) establece un cuadrante en el que la búsqueda quedará sujeta según la cuatro posibilidades:
+http://feedproxy.google.com/~r/readwriteweb/~3/jxEfbOdsGDw/introduction_to_the_real_time_web.php
 
-<table>
-<thead>
-<tr>
-  <th align="center">La información&#8230;</th>
-  <th align="center">es de nuestra propiedad</th>
-  <th align="center">es propiedad de otros</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td align="center">fue vista con anterioridad</td>
-  <td align="center">A</td>
-  <td align="center">B</td>
-</tr>
-<tr>
-  <td align="center">no fue vista con anterioridad</td>
-  <td align="center">D</td>
-  <td align="center">C</td>
-</tr>
-</tbody>
-</table>
+---
 
 
-La web en forma de blogs, wikis, redes sociales, microblogging, una miscelánea de servicios que van desde compartir y almacenar los marcadores de páginas (Delicious), fotografías (Flickr), Videos (Vimeo), nuestras rutas de viaje,... dibuja un nuevo escenario de la gestión de la información personal. En primer lugar, la convivencia entre las aplicaciones de escritorio con las de la web, como si de una etapa de transición se tratara, en el que lentamente las aplicaciones estarán en la llamada nube y el dispositivo, sea un ordenador de sobremesa, un portátil o una PDA, requiera una conexión rápida y un navegador que optimice la experiencia del usuario en relación a estas aplicaciones. El navegador web está en proceso de reinventarse y dejar atrás una fisonomía de la década de 1990. Es relevante que los creadores de Mozilla Firefox están planteando la posibilidad de un navegador sin pestañas, sin ventanas nuevas: un único espacio de trabajo que garantice la mejor experiencia, la mejor usabilidad y la optimización de los recursos que faciliten una mejor navegación y acceso a la información. Por otro lado, una impresión de este nuevo escenario es la dispersión de la información por todos aquellos servicios que vamos utilizando y que, de alguna manera, van acumulando siguiendo la estructura organizativa de la aplicación.
+
+Buscar en la geografía del actual océano de información es una actividad que no sólo responde a una única finalidad -encontrar la información adecuada que responda a una necesidad-. En el proceso de búsqueda interactuamos con la información (Jones, 2008); no hay búsqueda que no venga acompañada de una cierta dosis de serendipidad o de procrastinación. Entre encuentros fortuitos y el puro entretenimiento por descubrir nueva información, relacionada o no con el objeto de la búsqueda, buscar información es un ejercicio que William Jones (2008) desglosa en dos grandes bloques:
+
+* La información vista con anterioridad (*¿Dónde guardé este documento?*). Recuperamos una información -controlada por nosotros en cuanto a que está en un espacio de nuestra propiedad- que guardamos en el ordenador del trabajo, en un dispositivo de memoria externo, en la cámara digital, en el portátil. O en un servicio externo a nosotros -controlada por terceros-, es decir, una información que reside en alguno de los servicios web en el que participamos, independiente de si es a un nivel de lectura o escritura, o en una simple página estática.
+* La información que desconocemos su existencia (*¿Encontraré la imagen relacionada con el tema?*). Si es una información que controlamos se debe en gran medida al enorme volumen de información que hemos ido acumulando en el tiempo y que nos supera en memoria. De lo contrario, es información que está en otro exceso de información, el de la Web 2.0. 
+
+>Quien necesita hoy información abundante (incluso de cierta solvencia), teclea en Google lo que persigue y lo obtiene en cuestión de segundos: desde entradas de blog a tesis doctorales en línea. Lo queramos o no, en los hangares de Google está la memoria del planeta, y la memoria es gran parte de la identidad (Vicente Luis Mora, 2009)
+
+El escenario actual de exceso de información, de servicios de la web y de dispositivos traza una serie de limitaciones que perjudican el éxito ("Vamos a tener suerte") de los dos bloques arriba mencionados, de la exploración como la recuperación de información personal. La fragmentación, el polimorfismo, la acumulación desorganizada, la opacidad, la descontextualización y la duplicación de la información son las principales barreras que la Web 2.0 intenta, de alguna manera, resolver con mayor o menor éxito. Veamos qué significan cada una de ellas.
+
+### Fragmentación 
+
+Fragmentación en cuanto a que vamos dispersando la información entre diferentes dispositivos, falta de sincronización entre ellos. Fragmentación entre diferentes aplicaciones, entre diferentes servicios. El número de dispositivos en el que guardamos la información es cada vez mayor. Ya no sólo trabajamos con un único ordenador, sino habitualmente trabajamos con uno personal y el de la empresa; tenemos uno o dos móviles, una PDA, varias cuentas de correo, varios dispositivos de almacenamiento (lápices de memoria, disco duros externos,...), cámara digitales de fotografía y video en la que a menudo se transforman en dispositivos de memoria, o cuadernos de trabajo, libretas de notas o agendas tradicionales se ha de sumar otros espacios donde vamos guardando y acumulando objetos de información personal: la evolución de la web de plataforma a servicio incluye la creación de nuevos contenedores de información con la consigna de acceder a los mismos desde cualquier punto geográfico siempre y cuando podamos acceder a la red. Pero estos servicios plantean un nuevo escenario donde convergen una mayor fragmentación de la información personal (la web no como escritura sino como conversación), interrogantes sobre la propiedad y uso de la información personal (véase debate sobre Facebook) que puedan hacer las empresas proveedoras de estos servicios. Si la fragmentación de la información es posible paliarla a nivel de escritorio mediante una sistematización individual de las actividades de buscar-guardar-reencontrar-organizar, a nivel de nube de la web la sistematización se torna más compleja ya que nuestra información personal se verá estratificada y, en algunos escenarios, mezclada con la información personal de otros usuarios. Ya que la información personal ya no se limita a aquello que generamos o que surge de nuestras manos sino también aquello que compartimos o que resulta de interés de la información personal de otros usuarios. Esta mezcla de las esferas personales de la información escapa de cualquier sistematización. Si bien existen servicios web claramente diferenciados por el servicio que ofrecen (Flickr->fotografías, Vimeo->Videos, Delicious->Marcadores)...
+
+* Duplicación o versiones de un mismo objeto de información es también causa de la fragmentación de la información. En el capítulo tal se verá cómo las wikis...
+
+### Polimorfismo
+
+* Polimorfismo de la información: documentos de texto, informes, presentaciones, contraseñas, notas, listas de tareas, fotografías... 
 
 
-En términos de búsqueda de la información, el enorme volumen de información ya no se reduce a la consulta de un catálago de páginas estáticas a través de los buscadores. Si bien, el algoritmo PageRank de Google cambió por completo el orden de preferencias de los usuarios en la utilización de uno u otro buscador, y creando al mismo tiempo una opinión del significado de buscar y encontrar la información, como también de la visibilidad de la información -más allá de la primera página no existes- y también la perversión de los resultados de la búsqueda de información revelante en la actividad conocida como SEO (Search Engine Optimization), aparecen alternativas que dan respuesta a otro tipo de búsquedas o sistemas de búsqueda o de navegación. Por ejemplo, quizá la búsqueda ya no responde a una pregunta del tipo "¿Cuál es el teléfono de un restaurante de una ciudad?" sino "¿qué restaurantes son mejores en tal ciudad según la opinión de la gente?". Twitter, la marca estrella de los servicios de microblogging dispone de un buscador que responde a la pregunta ¿Qué está pasando ahora? en función de los "tweets" o mensajes de menos de 140 caracteres enviados por los usuarios. Google permite búsquedas precisas en las entradas y comentarios de los blogs, sabiendo que la información proporcionada se corresponderá a la opinión colectiva y no a un mensaje precocinado (especialmente si la búsqueda responde a un producto). 
+### Acumulación desorganizada 
+
+* Acumulación o *cluttering* de información personal sin seguir criterios de organización
+
+
+### Descontextualización
+
+* Descontextualización de la información (Google incorpora búsquedas más precisas) una organización, o el relato que explica Jones como excusa para asociar la información a un relato. Un ejemplo de contextualización es la Wikipedia (mediante el omnipresente hipervínculo) como Delicious (sistema de etiquetas) que sirven de gran ayuda en la navegación como actividad de búsqueda.
+
+
+
+
+
+
+
+### Ayudantes
 
 Las opciones de autocompletado también es una estrategia que ayuda a precisar la búsqueda.
 
@@ -83,6 +103,8 @@ Por otro lado, las búsquedas de aquello que hemos visto o recogido mediante alg
 En el caso del lector de noticias de Google, Google Reader, por el contrario, la búsqueda es todavía demasiado simple. 
 
 
+---
+
 Hablar también que la información personal se diluye en proyectos comunitarios de guardar y organizar la información. Es decir, proyectos como la Wikipedia, o 11870.com donde los usuarios van almacenando información relativa a una entrada enciclopedica, luego la organización descansa en la misma estructura de la aplicación (wiki,...) y, mediante el buscador propio de la aplicación, con mayor o menor éxito, puede ayudar a encontrar la información. A este sistema, tendríamos ayudantes que contribuyen al éxito de búsqueda: el autocompletado, la desambiguación de la expresión (mal escrito, en el caso de Google Web Search, o por diferencias de significado, caso de la Wikipedia) o la fortaleza del hipervínculo en el caso de las entradas de la Wikipedia, la categorización de las entradas; la Wikipedia es también culto al hipervínculo, a la conexión en red de la información; toda entrada es eco y reflejo de otras entradas. La lectura de una entrada es en sí misma un soporte o punto de partida en la nevagación del resto de entradas de la Wikipedia.
 
 La Wikipedia como otros servicios de la Web 2.0 se construyen en la suma de una iniciativa colectiva de, además de compartir, delegar la actividad de guardar la información en un servicio de terceros, sabiendo de antemano que este servicio nos proporcionará las herramientas suficientes para la recuperación de la información que hemos depositado: nuestros conocimentos sobre uno o varios temas (Wikipedia), comentarios, anécdotas o sugerencias en los servicios de las ciudades (11870), fotografías (Flickr), marcadores (Delicious), videos (YouTube), presentaciones (SlideShare), documentos (Google Docs). Esta actividad, por otro lado, nos permitirá buscar la información debido a dos motivos: asociamos una marca a un tipo de información que excluye al resto; los marcadores estan asociados a Delicious, luego una búsqueda en el espacio privado, organzado por categorías o etiquetas, demostrará ser más eficiente que si buscamos en la sección de uno de los navegadores que usamos. Este abandonamiento voluntario a los servicios de la web evita también la fragmentación de la información: en la actualidad no utilizamos un único navegador al día debido al acceso permanente a Internet; el ordenador de sobremesa, el portátil personal, el de trabajo, el dispositivo móvil, el ordenador de un aula de formación, el de la biblioteca. Deseamos que los dispositivos resulten transparentes cuando buscamos y accedemos a nuestro espacio de la información. Si la búsqueda resulta compleja cuando desconocemos los referentes que nos permitirán encontrarla, un escenario donde la información se vea impedida por la cautividad de la información en un dispositivo puede resultar demoledora. De hecho, las herramientas que acompañan a las nuevas cámaras de fotos o videos añaden nuevas opciones de publicación, no dirigidas exclusivamentes al ordenador o un dispositivo de almacenamiento sino a la cuenta de un servicio popular ¿acabas de grabar un video? súbelo a tu cuenta de YouTube ¿Tu colección de fotografías? Súbelas a tu cuenta de Flickr. ¿Quieres tenerlas impresas? Flickr te conecta con servicios de terceros de impresión, del tipo Blurb o ..., La información aquí se gestiona en la nube y los mecanismos tradicionales se ven superados por la inmediatez y la portabilidad de la información: el formato desaparece (sube el formato que quieras, nosotros haremos el resto); una vez en la nube la imagen  será indexada, utilizada, reinventada, remezclada, impresa en el resto de servicios web. Los caminos para recuperarla será tan fácil debido a que la misma estará asociada a nuestra identidad digital. "Pon tu nombre, nosotros nos encargamos de decirte quien eres y qué has publicado; te diremos cómo encontrar aquello que buscas;...".
@@ -101,9 +123,6 @@ La división o brecha digital entre los inmigrantes digitales y nativos digitale
 
 
 
-También aquí entraría la soluciones de MobileMe o la de PogoPlug, soluciones de sincronizar la información que guardamos y que, por lo tanto, la recuperación de la misma no se traumática. En todo caso, se evita la duplicación o triplicación de los objetos de información: realizamos una presentación y el objeto de la misma, el documento, está en el disco duro, en un lápiz USB, como adjunto a un correo enviado a nosotros mismos y, finalmente, publicado en un servicio de presentaciones como SlideShare. Cuatro cartuchos para un mismo objeto.
-
-También podemos incluir experimentos como Weave, que intentan que la información vaya con nosotros a cualquier parte y, en la medida de lo posible, desde cualquier dispositivo.
 
 #### Apartado B: La información que hemos visto con anterioridad y no controlamos
 
@@ -131,11 +150,10 @@ Un ejemplo de afrontar el hecho de ver continuamente páginas que puedan resulta
   * Manejar versiones diferentes de un mismo documento dificulta la búsqueda de la //versión//, dejando al usuario la tarea de decidir cuál de las versiones es la correcta.
   * "Better searching, in combination with better, even automated tagging, can be an important tool in the fight against information fragmentation".
   * La búsqueda ya no es en muchas situaciones interna. No es sólo recorrer el disco duro, sino también la actividad en la web. Es posible pensar en un buscador que indexe todas aquella información que no sólo guardamos en el disco duro, sino en la miríada de servicios en los que participamos en la manera que publicamos, compartimos y guardamos información.
-3. **La fragmentación de la información**: diferentes dispositivos de trabajo, de almacenamiento, y falta de sincronización entre ellos, hace que se levanten barreras entre ellos y que la búsqueda sea difícil. El número de dispositivos en el que guardamos la información es cada vez mayor. Ya no sólo trabajamos con un único ordenador, sino habitualmente trabajamos con uno personal y el de la empresa; tenemos uno o dos móviles, una PDA, varias cuentas de correo, varios dispositivos de almacenamiento (lápices de memoria, disco duros externos,...), cámara digitales de fotografía y video en la que a menudo se transforman en dispositivos de memoria, o cuadernos de trabajo, libretas de notas o agendas tradicionales se ha de sumar otros espacios donde vamos guardando y acumulando objetos de información personal: la evolución de la web de plataforma a servicio incluye la creación de nuevos contenedores de información con la consigna de acceder a los mismos desde cualquier punto geográfico siempre y cuando podamos acceder a la red. Pero estos servicios plantean un nuevo escenario donde convergen una mayor fragmentación de la información personal (la web no como escritura sino como conversación), interrogantes sobre la propiedad y uso de la información personal (véase debate sobre Facebook) que puedan hacer las empresas proveedoras de estos servicios. 
+3. **La fragmentación de la información**: 
 4. El síndrome de las versiones y variaciones de un mismo objeto de información puede representar 
 5. La información entrante es enorme, luego el sistema de búsqueda queda relegada a los buscadores de escritorio
 
-Si la fragmentación de la información es posible paliarla a nivel de escritorio mediante una sistematización individual de las actividades de buscar-guardar-reencontrar-organizar, a nivel de nube de la web la sistematización se torna más compleja ya que nuestra información personal se verá estratificada y, en algunos escenarios, mezclada con la información personal de otros usuarios. Ya que la información personal ya no se limita a aquello que generamos o que surge de nuestras manos sino también aquello que compartimos o que resulta de interés de la información personal de otros usuarios. Esta mezcla de las esferas personales de la información escapa de cualquier sistematización. Si bien existen servicios web claramente diferenciados por el servicio que ofrecen (Flickr->fotografías, Vimeo->Videos, Delicious->Marcadores)...
 
 ¿Se puede hablar de un sistema 
 
@@ -144,6 +162,15 @@ Si la fragmentación de la información es posible paliarla a nivel de escritori
 
 
 ### Sincronizar
+
+* http://www.getdropbox.com/
+* https://ubuntuone.com/
+
+También aquí entraría la soluciones de MobileMe o la de PogoPlug, soluciones de sincronizar la información que guardamos y que, por lo tanto, la recuperación de la misma no se traumática. En todo caso, se evita la duplicación o triplicación de los objetos de información: realizamos una presentación y el objeto de la misma, el documento, está en el disco duro, en un lápiz USB, como adjunto a un correo enviado a nosotros mismos y, finalmente, publicado en un servicio de presentaciones como SlideShare. Cuatro cartuchos para un mismo objeto.
+
+También podemos incluir experimentos como Weave, que intentan que la información vaya con nosotros a cualquier parte y, en la medida de lo posible, desde cualquier dispositivo.
+
+
 
 [Weave](http://labs.mozilla.com/projects/weave/) o [Read it later](http://readitlaterlist.com/)  intentan de alguna manera de sincronizar el contenido que maneja un navegador. El caso de [Read it later](http://readitlaterlist.com/) se limita a los marcadores que dejamos pendientes de lectura para más tarde. En cambio Weave da un paso más allá y aporta una nueva experiencia en la gestión de la información personal que envuelve al navegador. Información que sería el histórico, las pestañas abiertas de la última sesión, las _cookies_, contraseñas, temas o complementos del navegador Mozilla Firefox perfectamente sincronizados con el objeto que el usuario sienta estar siempre delante de su navegador aún estando en dispositivos u ordenadores diferentes. Este es un objetivo que evita la fragmentación de la información y que le obliga a duplicar el entorno de trabajo de su navegador en el resto de navegadores a los que, por diferentes motivos personales o profesionales, toma contacto.
 
