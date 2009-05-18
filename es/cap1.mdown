@@ -18,7 +18,7 @@ La marca comercial 2.0 ha impuesto la dictadura de un antes y un después. Una i
 Si la Web 2.0 se ha edificado en el relato de una conversación colectiva (McLellan, 2008) donde todas las voces tienen algo qué decir ("¿Qué estás haciendo ahora"), una fiesta permanente de cotorras y papagayos, ¿cómo dibujar el espacio de la información personal, aquel que responde a las cuestiones (Jones, 2008) de qué información esta controlada por mí; la información sobre mí; qué información tiene relación conmigo o cuál información es relevante para mí?. La Web 2.0 se ha emancipado de ser esclava de las metáforas del escritorio personal para construirse una realidad propia, obsesionada por una moderna tradición oral. Disrupción de la palabra escrita en voz alta: todo mensaje adopta la forma de charla (Wright, 2007), luego la rápidez en la que circula la información es infinitamente mayor. No leemos, hablamos con las palabras. Escribimos en voz alta a través de los SMS, la mensajería instantánea, el microblogging, el videoblogging. La información a tiempo real, al instante. Un nuevo exceso de información que ha adoptado la forma de una  
 
 >Intranets naturally tend to route around boredom. The best are built bottom-up by engaged individuals cooperating to construct something far more valuable: an intranetworked corporate conversation. 
-The Cluetrain Manifesto (1999)
+>>The Cluetrain Manifesto (1999)
 
 
 La Web 2.0 es una interminable proliferación de servicios, de tecnologías que celebran la conversación. Cada poco tiempo aparece un nuevo servicio que intenta hacerse un hueco en la economía de la atención. Cada servicio es una propuesta nueva o refinada de una anterior en gestionar una información determinada. O remezclar varios tipos de información, como es el caso de las apliaciones _mashup_. Ya no sólo contamos un exceso de información, sino también de servicios de publicación y edición de información, privada o pública. Suma a este escenario una miríada de dispositivos físicos que se conectan con la conversación. Dispositivos o _gadgets_ que tienen en común la movilidad -pequeños, ligeros y fuertemente ergonómicos-, la interoperabilidad (necesaria, aún levantando estúpidas barreras por parte de los fabricantes) y la conectividad. El primer síntoma de este exceso no se limita sólo a nuestras actividades PIM de carácter inmediato -buscar y guardar información- y que luego hablaremos con más detalle. Se rompe definitivamente la frontera física del espacio personal de la información; ésta ya no se limita a las cuatro paredes de nuestro despacho o estudio. El escritorio es una pieza más de un puzzle digital, difuso en cuanto a que el número de dispositivos con el que interactuamos -el ordenador de casa, el portátil, el ordenador del trabajo, el móvil personal, el móvil profesional,...- como los servicios a los que delegamos la información es cada vez mayor. La promesa de nuestro espacio personal de información en la _nube_. La promesa de acceder a nuestra información sincronizada desde cualquier lugar como desde cualquier dispositivo. Se predice la defunción del escritorio tal como lo conocemos (Jones, [2008](http://people.csail.mit.edu/teevan/work/publications/workshops/pim08.pdf)); fallecimiento que no responderá a una disrupción violenta, sino a una transición lenta de un modelo de comunicación caduco -pero todavía mayoritario en organizaciones privadas y públicas- y aquella actual que basa enteramente su estrategia en la interacción a través de los dispositivos móviles y servicios 2.0 de la web. 
@@ -28,27 +28,11 @@ La Web 2.0 es una interminable proliferación de servicios, de tecnologías que 
 
 ##Buscar 
 
->But as people get more sophisticated at search they are coming to us to solve more complex problems. To stay on top of this, we have spent a lot of time looking at how we can better understand the wide range of information that's on the web and quickly connect people to just the nuggets they need at that moment. We want to help our users find more useful information, and do more useful things with it. ([More Search Options and other updates from our Searchology event, 2009](http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html))
+>But as people get more sophisticated at search they are coming to us to solve more complex problems. To stay on top of this, we have spent a lot of time looking at how we can better understand the wide range of information that's on the web and quickly connect people to just the nuggets they need at that moment. We want to help our users find more useful information, and do more useful things with it. 
+>>[More Search Options and other updates from our Searchology event, 2009](http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html)
 
 
 ![Google@1999](http://www.readwriteweb.com/images/google_may1999b.jpg)
-
-
-
----
-
-Si algo se le conoce mundialmente a Google es por su motor de búsqueda. (bla bla)
-
-En términos de búsqueda de información en internet, el enorme volumen de información ya no se reduce a la consulta de un catálago de páginas estáticas a través de los buscadores. Si bien, el algoritmo PageRank de Google cambió por completo el orden de preferencias de los usuarios en la utilización de uno u otro buscador, y creando al mismo tiempo una opinión del significado de buscar y encontrar la información, como también de la visibilidad de la información -más allá de la primera página no existes- y también la perversión de los resultados de la búsqueda de información revelante en la actividad conocida como SEO (Search Engine Optimization), aparecen alternativas que dan respuesta a otro tipo de búsquedas o sistemas de búsqueda o de navegación. Por ejemplo, quizá la búsqueda ya no responde a una pregunta del tipo "¿Cuál es el teléfono de un restaurante de una ciudad?" sino "¿qué restaurantes son mejores en tal ciudad según la opinión de la gente?". Twitter, la marca estrella de los servicios de microblogging dispone de un buscador que responde a la pregunta ¿Qué está pasando ahora? en función de los "tweets" o mensajes de menos de 140 caracteres enviados por los usuarios. Google permite búsquedas precisas en las entradas y comentarios de los blogs, sabiendo que la información proporcionada se corresponderá a la opinión colectiva y no a un mensaje precocinado (especialmente si la búsqueda responde a un producto). 
-
-http://edition.cnn.com/2009/TECH/05/12/future.search.engine/index.html
-
-http://www.readwriteweb.com/archives/major_search_announcement_at_google_today.php 
-
-http://feedproxy.google.com/~r/readwriteweb/~3/jxEfbOdsGDw/introduction_to_the_real_time_web.php
-
----
-
 
 
 Buscar en la geografía del actual océano de información es una actividad que no sólo responde a una única finalidad -encontrar la información adecuada que responda a una necesidad-. En el proceso de búsqueda interactuamos con la información (Jones, 2008); no hay búsqueda que no venga acompañada de una cierta dosis de serendipidad o de procrastinación. Entre encuentros fortuitos y el puro entretenimiento por descubrir nueva información, relacionada o no con el objeto de la búsqueda, buscar información es un ejercicio que William Jones (2008) desglosa en dos grandes bloques:
@@ -56,7 +40,8 @@ Buscar en la geografía del actual océano de información es una actividad que 
 * La información vista con anterioridad (*¿Dónde guardé este documento?*). Recuperamos una información -controlada por nosotros en cuanto a que está en un espacio de nuestra propiedad- que guardamos en el ordenador del trabajo, en un dispositivo de memoria externo, en la cámara digital, en el portátil. O en un servicio externo a nosotros -controlada por terceros-, es decir, una información que reside en alguno de los servicios web en el que participamos, independiente de si es a un nivel de lectura o escritura, o en una simple página estática.
 * La información que desconocemos su existencia (*¿Encontraré la imagen relacionada con el tema?*). Si es una información que controlamos se debe en gran medida al enorme volumen de información que hemos ido acumulando en el tiempo y que nos supera en memoria. De lo contrario, es información que está en otro exceso de información, el de la Web 2.0. 
 
->Quien necesita hoy información abundante (incluso de cierta solvencia), teclea en Google lo que persigue y lo obtiene en cuestión de segundos: desde entradas de blog a tesis doctorales en línea. Lo queramos o no, en los hangares de Google está la memoria del planeta, y la memoria es gran parte de la identidad (Vicente Luis Mora, 2009)
+>Quien necesita hoy información abundante (incluso de cierta solvencia), teclea en Google lo que persigue y lo obtiene en cuestión de segundos: desde entradas de blog a tesis doctorales en línea. Lo queramos o no, en los hangares de Google está la memoria del planeta, y la memoria es gran parte de la identidad.
+>>Vicente Luis Mora, 2009
 
 El paisaje actual de exceso de información, de servicios de la web y de dispositivos traza una serie de limitaciones que perjudican el éxito ("Vamos a tener suerte") de los dos bloques arriba mencionados, de la exploración como la recuperación de información personal. La fragmentación, el polimorfismo, la proliferación de diferentes tipos de información, la acumulación desorganizada, la opacidad, la descontextualización y la duplicación de la información son las principales barreras que la Web 2.0 intenta, de alguna manera, resolver con mayor o menor éxito. Veamos qué significan cada una de ellas.
 
@@ -67,31 +52,38 @@ El paisaje actual de exceso de información, de servicios de la web y de disposi
 
 La fragmentación de la información personal es consecuencia de un paisaje en el que proliferan tanto los dispositivos físicos como las aplicaciones que generan y guardan la información. La información personal navega entre varios ordenadores, **smartphones**, PDA, cámaras de video, móviles, reproductores de música, unidades de memoria externas; se organiza en relación al sistema de archivos del dispositivo o del **software** que la gestiona. Un ejemplo de esto último: el correo electrónico es *dependiente* del cliente de correo que lo gestiona, luego su ordenación y clasificación no dependerá del sistema de archivos del sistema, sino de la opinión del cliente de correo sobre cómo ha de organizarse la información. ¿Y la web? gracias a la conversación actual, la fragmentación adquiere una relevancia hasta entonces no conocida. Publicar y compartir información personal nunca ha sido tan extremadamente fácil. Incluso resulta obvio el funcionamiento de las aplicaciones de la conversación. A diferencia de una formación tradicional de una herramienta de escritorio, donde se hace exhaustivo el inventario de funcionalidades, la formación en la conversación de la web deja paso a la dinamización, a estimular la publicación, la circulación libre de contenidos, personales o colectivos, desde la mayoría de dispositivos. La información personal se diluye en la conversación de la web. ¿Cómo abordar entonces la búsqueda de información personal? ¿Cómo recuperar una información leída, vista con anterioridad, donde la diversidad de dispositivos, sistemas de organización de archivos, *software* tradicional de escritorio y la *nube* de la web coexisten e interactúan cada vez con mayor frecuencia y transparencia? 
 
-Jones (2008) considera la fragmentación de la información como un peaje a la innovación permanente en la creación de nuevos dispositivos, nuevas herramientas, nuevas aplicaciones web, nuevos formatos de archivos, nuevos soportes. 
+Jones (2008) considera la fragmentación de la información como un peaje a la innovación permanente en la creación de nuevos dispositivos, nuevas herramientas, nuevas aplicaciones web, nuevos formatos de archivos, nuevos soportes. Pero la innovación es consciente del problema que representa la fragmentación. Los clientes potenciales de un nuevo dispositivo, de un nuevo servicio web no son ajenos al significado de fragmentar y dispersar una vez y otra su información. Consideremos ahora dos causas habituales de fragmentación:
+
+* La **siembra digital** de un mismo objeto de información repartido por los diferentes espacios de trabajo. Un ejemplo. Acabo de preparar una presentación que ha de acompañar una sesión de trabajo. Esta presentación la he realizado con Microsoft PowerPoint, luego guardaré una copia en el formato nativo -PPT- en el sistema de archivos personal del portátil -primera copia-. La guardaré también en el disco duro externo -segunda copia-, pero incluiré una versión en PDF -tercera copia- ya que es posible que no disponga las fuentes de letra que he utilizado el ordenador instalado en la sala de presentaciones. Enviaré la presentación como adjunto de un correo electrónico -cuarta copia- y la publicaré en un servicio web de presentaciones -quinta copia- del tipo [SlideShare](http://slideshare.ne). 
+* A la repartición se le ha de sumar la **proliferación** de versiones de un mismo documento. La actualización o revisión implica, si no trabajamos con un gestor de control de versiones, una duplicación del documento: el documento original y el actualizado. Crear un histórico del documento, de sucesivas actualizaciones y modificaciones, siguiendo el sistema anterior equivale a la fragmentación del mismo. Si compartimos la edición de este documento, la proliferación y, por lo tanto, la fragmentación de las versiones se vuelve todavía más compleja. ¿Cual de nosotros, el grupo de personas que trabaja en un mismo documento, tiene la versión correcta? ¿Dónde he guardado la última versión del documento? ¿Quién tiene la última versión del documento?
+
+Veamos cómo la innovación es sensible a esta cuestión y estudia soluciones transparentes que hagan frente, de manera transparente, la proliferación y dispersión de la información personal. La empresa Apple anuncia el servicio [MobileMe](http://www.apple.com/es/mobileme/) bajo la consigna de
+
+>La forma más sencilla de mantener todo sincronizado (...) Tal vez tengas un Mac en casa, un PC en el trabajo y un iPhone o un iPod touch, pero... ¿cómo los mantienes todos sincronizados? Con MobileMe, tu correo electrónico, contactos y calendarios siempre son los mismos, sin importar el dispositivo que utilices.
+
+No es el único servicio de estas características. [Pogoplug](http://www.pogoplug.com/) es un dispositivo de memoria que
+
+>connects your external hard drive to the Internet so you can easily share and access your files from anywhere. The Pogoplug is the perfect accessory to your connected life. Imagine accessing all your files and media from any laptop or desktop computer, anywhere in the world
+
+A una menor escala, el laboratorio de la fundación Mozilla, trabaja en el desarrollo de [Weave](https://services.mozilla.com/)
+
+>Weave is a Mozilla Labs experiment to explore opportunities for the Web browser to broker richer experiences while increasing user control over their data and personal information. 
+
+Sincronizar el navegador Mozilla Firefox en los diferentes ordenadores que utilizamos a diario.
+
+Los servicios [DropBox](http://www.getdropbox.com/) o el reciente [Ubuntu One](https://ubuntuone.com/) ratifican una línea de servicio idéntica: vayas a donde vayas, utilices el dispositivo que utilices, la información estará perfectamente sincronizada. El escritorio, multiplicado por el efecto del peaje de la innovación y consumo tecnológico, acaba siendo único e independiente de la herramientas que utilicemos. La información regresa a un lugar común y, por lo tanto, se evita la *siembra* de la información por todas las tecnologías que utilizamos a diario. La búsqueda, misión imposible para los motores de búsqueda de escritorio en un escenario fragmentado, cuasi *cubista* de la información personal, pueden regresar con fuerza. La soluciones como [Google Desktop](http://desktop.google.com/), Apple Spotlight o [Windows Desktop Search](http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx) orientados con exclusividad a satisfacer búsquedas en escritorio tradicional saltaran al nuevo escritorio personal que yace en la *nube*, en consonancia con los nuevos servicios. Google juega con una cierta ventaja respecto a sus contricantes. Su buscador es utilizado diariamente por millones de personas; la traducción del buscador al escritorio personal no ha excluido la información de otros servicios web como el cliente de correo GMail. 
+
+>Whether you're searching your computer or the web, Desktop helps you find it by searching your Gmail and web history along with your hard drive. Also because your index is stored locally on your own computer, you can even access your Gmail and web history while you're offline.
+
+Indexar no sólo los dispositivos de memoria personal (disco duro del ordenador, discos externos de memoria). Indexar la información que publico en la conversación. Recuperar mi actividad en los diferentes servicios en los que publico, observo, registro con asiduidad. Recuperarla no resultará fácil cuando es una información no está controlada por nosotros. El popular servicio [Twitter](http://twitter.com) limita las búsquedas a un mes vista del día actual
+
+>This artificial limit is in place to ensure the performance of the search system. We also restrict the size of the search index by placing a date limit on the updates we allow you to search.
+>>[Twitter. Things Every Developer Should Know](http://apiwiki.twitter.com/Things-Every-Developer-Should-Know#6Therearepaginationlimits)
+
+En el peor de los escenarios, la conversación enmudece. El servicio de marcadores [Magnolia](http://ma.gnolia.com/) enmudeció a primeros de febrero de 2009 "anunciando pérdida y corrupción de datos en sus servidores" ([error500](http://www.error500.net/articulo/magnolia-hizo-crack)). 
 
 
-La fragmentación se presenta en varios frentes, de los que destaco:
 
-* La **clonación** de un mismo objeto de información repartido por los diferentes espacios de trabajo. Un ejemplo. Acabo de preparar una presentación que ha de acompañar una sesión de trabajo. Esta presentación la he realizado con Microsoft PowerPoint, luego guardaré una copia en el formato nativo -PPT- en el sistema de archivos personal del portátil -primera copia-. La guardaré también en el disco duro externo -segunda copia-, pero incluiré una versión en PDF -tercera copia- ya que es posible que no disponga las fuentes de letra que he utilizado el ordenador instalado en la sala de presentaciones. Enviaré la presentación como adjunto de un correo electrónico -cuarta copia- y la publicaré en un servicio web de presentaciones -quinta copia- del tipo [SlideShare](http://slideshare.ne). 
-* A la clonación se le ha de sumar la proliferación de versiones de un mismo documento. La actualización o revisión de un documento implica, si no trabajamos con un gestor de control de versiones, una duplicación del documento: el documento original y el actualizado. Si el documento 
-
-La fragmentación no sólo se reduce a una dispersión *geográfica*, también al polimorfismo que adopta
-
-¿Qué soluciones disponemos para enfrentarnos a la fragmentación de información? Los motores de búsqueda de escritorio y web se han especializado en estos últimos años
-
->Better searching, in combination with better, even automated tagging, can be an important tool in the fight against information fragmentation.
->>Jones et al., 2008
-
-Las opciones de autocompletado también es una estrategia que ayuda a precisar la búsqueda.
-
-Pero se ha de considerar los intentos de sincronizar la información: 
-
-* http://www.getdropbox.com/
-* https://ubuntuone.com/
-
-También aquí entraría la soluciones de MobileMe o la de PogoPlug, soluciones de sincronizar la información que guardamos y que, por lo tanto, la recuperación de la misma no se traumática. En todo caso, se evita la duplicación o triplicación de los objetos de información: realizamos una presentación y el objeto de la misma, el documento, está en el disco duro, en un lápiz USB, como adjunto a un correo enviado a nosotros mismos y, finalmente, publicado en un servicio de presentaciones como SlideShare. Cuatro cartuchos para un mismo objeto.
-
-También podemos incluir experimentos como Weave, que intentan que la información vaya con nosotros a cualquier parte y, en la medida de lo posible, desde cualquier dispositivo.
 
 
 ### Acumulación desorganizada 
@@ -105,7 +97,13 @@ También podemos incluir experimentos como Weave, que intentan que la informaci�
 
 
 
+## Buscar a tiempo real
 
+http://edition.cnn.com/2009/TECH/05/12/future.search.engine/index.html
+
+http://www.readwriteweb.com/archives/major_search_announcement_at_google_today.php 
+
+http://feedproxy.google.com/~r/readwriteweb/~3/jxEfbOdsGDw/introduction_to_the_real_time_web.php
 
 
 
