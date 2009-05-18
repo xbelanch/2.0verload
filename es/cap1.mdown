@@ -69,6 +69,12 @@ La fragmentación de la información personal es consecuencia de un paisaje en e
 
 Jones (2008) considera la fragmentación de la información como un peaje a la innovación permanente en la creación de nuevos dispositivos, nuevas herramientas, nuevas aplicaciones web, nuevos formatos de archivos, nuevos soportes. 
 
+
+La fragmentación se presenta en varios frentes, de los que destaco:
+
+* La **clonación** de un mismo objeto de información repartido por los diferentes espacios de trabajo. Un ejemplo. Acabo de preparar una presentación que ha de acompañar una sesión de trabajo. Esta presentación la he realizado con Microsoft PowerPoint, luego guardaré una copia en el formato nativo -PPT- en el sistema de archivos personal del portátil -primera copia-. La guardaré también en el disco duro externo -segunda copia-, pero incluiré una versión en PDF -tercera copia- ya que es posible que no disponga las fuentes de letra que he utilizado el ordenador instalado en la sala de presentaciones. Enviaré la presentación como adjunto de un correo electrónico -cuarta copia- y la publicaré en un servicio web de presentaciones -quinta copia- del tipo [SlideShare](http://slideshare.ne). 
+* A la clonación se le ha de sumar la proliferación de versiones de un mismo documento. La actualización o revisión de un documento implica, si no trabajamos con un gestor de control de versiones, una duplicación del documento: el documento original y el actualizado. Si el documento 
+
 La fragmentación no sólo se reduce a una dispersión *geográfica*, también al polimorfismo que adopta
 
 ¿Qué soluciones disponemos para enfrentarnos a la fragmentación de información? Los motores de búsqueda de escritorio y web se han especializado en estos últimos años
