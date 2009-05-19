@@ -1,151 +1,210 @@
-# Tabs Overload
+#Representar el exceso de la información
 
+Acostumbro a observar a los compañeros y compañeras del trabajo que pasan horas interminables delante de una rejilla cubierta de números. La mirada atenta, analítica y fría frente a una hoja de cálculo en la que el contenido, imperceptibles cifras atrapadas en diminutas celdas, son legibles sólo a muy poca distancia. A medida que pasan los días, el cuerpo de letra de los números va menguando debido a que el volumen de la información ha aumentado, y las dimensiones de la pantalla no permiten una extensión mayor de los 1280 por 970 píxeles. Al otro lado, un empleado prepara la presentación de un proyecto que ha llevado semanas de trabajo. Hacer una síntesis efectiva de la información del proyecto no resulta una tarea fácil; conoce muy bien las funcionalidades de la herramienta, pero desconoce qué técnicas facilitan la transmisión visual de la información al público al que va dirigida la presentación.
 
-En el momento de mayor popularidad del denostado navegador de Microsoft, Internet Explorer 6, era frecuente ver una multitud de pequeñas secciones en la barra de tareas del escritorio de MS Windows 98/2000 que correspondían a una ventana del navegador. A diferencia de otros navegadores minoritarios, Internet Explorer 6 carecía de pestañas, por lo que obligaba al usuario a abrir una ventana nueva del navegador si quería visitar otra página web distinta a la actual o, desgraciadamente, debido a un atributo del lenguaje HTML -descartado en la actualidad-, los programadores web incluían un método, abrir nueva ventana, en cada uno de los enlaces que aparecía en la página. Olvidaban a menudo que todos los navegadores, incluido Internet Explorer, incorporaban de fábrica una flecha de navegación de retroceso y, en segundo lugar, que los usuarios y usuarias podían tener más ventanas abiertas del navegador.
+Quienes acostumbran a manejar enormes volúmenes de información, al final de un proyecto, toman varias fotografías de la geografía tupida y abigarrada de datos con el objetivo de presentarlas al público en general en forma de instantánea. La información de esta manera se revela eficaz y brinda la oportunidad a quienes la observan y analizan de comprenderla en su totalidad. La representación de la información no es gratuita; la elección del sistema de visualizar los datos allanará más el acceso rápido al conocimiento de la información representada. De lo contrario, una elección equivocada del método empleado en presentar los datos puede tener un efecto contrario y dar como resultado mal interpretaciones o lecturas equivocadas.
 
-Esta dinámica degeneraba en un exceso de ventanas minimizadas del navegador, en el que el usuario no podía siquiera adivinar a qué página correspondía la ventana minimizada. Con la llegada de MS Windows XP, esta irregularidad se corrigió a través de la técnica de agrupación de las ventanas minimizadas. Recuperar una página web de una ventana minimizada del navegador ahora era posible sin ninguna dificultad. En contra del sentido común, se mantuvo la continuidad del navegador Internet Explorer 6 frente al auge de otros navegadores más eficientes, seguros y rápidos. A fin de cuentas, no era difícil caer en la despreocupación cuando los informes te comunican que tu navegador colapsa el 98% del mercado.
 
-_Cluttered_, significa _filled or scattered with a disorderly accumulation of objects or rubbish_[define](http://wordnetweb.princeton.edu/perl/webwn?s=cluttered), una acumulación desordenada de objetos. 
+##La visualización de información como disciplina
 
-## La web contextual 
+[50 grandes ejemplos de visualización](http://blogof.francescomugnai.com/2009/04/50-great-examples-of-infographics/)
 
-  * http://www.readwriteweb.com/archives/contextual_web.php
+El propósito de la visualización es revelar al espectador un conocimiento que, de otra manera, quedaría oculto en su representación más primitiva, aquella que es más próxima a la máquina y no a las personas. Se establece entonces una escala de la representación de la información según el grado de interpretación y conclusiones posibles de su lectura.
 
->>This familiar sequence is an awful lot of clicking, typing, searching, copying, and pasting in order to do a very simple task.  And you haven’t even really sent a map or useful reviews—only links to them.
+Visualizar datos no es equivalente a la infografía o representación de la información. La visualización de datos representa un volumen cuantificado de datos; en frente, la infografía representa una información cuantificable o no.
 
+La visualización de datos revela aquello que, en su representación más cruda, sería imposible de comprender o entender. La representación es una suerte de instantánea que permite al espectador descubrir una o diferentes informaciones que, de la otra manera, quedaría oculta en los propios datos.
 
-Para el navegador, la página web que estás visitando no representa nada más que una simple colección de datos estructurados siguiendo las normas del lenguaje de marcado, HTML. El navegador tampoco sabe qué haces cuando visitas la página. El navegador actúa como una simple ventana al mundo. Lo que veamos a través de él no es de su interés. La Web entendida como contextual rompe esta visión pasiva del navegador. El navegador “comprende” lo que está haciendo el usuario; la combinación de la información de la página y el comportamiento del usuario cuando navega a través de ella crea el contexto. Cada página define un contexto: no será el mismo contexto si lo que estoy visitando es una página sobre restaurantes de Barcelona que consultando mi saldo bancario en la página de la entidad financiera. En el primer caso estoy pensando cuál será el próximo restaurante donde iré a comer o cenar; en el segundo, me preocupa saber si tendré dinero para ir de restaurante. Los contextos, en cada uno de las dos situaciones son diferentes, luego la incorporación de tecnologías que interpreten el contexto y actúen en consonancia a los intereses de los usuarios, ayudaran a que la experiencia sea enormemente más positiva que la media.
-Características de la Web Contextual
+La visualización sirve de transmisor de aquello oculto. Por esto, la hojas de cálculo permiten trabajar con datos, pero estos finalmente acaban visibles no como una interminable lista de datos tabulados, sino a través de los gráficos como por ejemplo los simples de barras o pastel.
 
-Según el autor, la Web Contextual considera cuatro propiedades:
+La elección de qué datos a representar o el tipo de representación puede pervertir el mensaje o la respuesta a la pregunta que desea responder.
 
-  * Relevancia: en el sentido que, a una mayor y mejor experiencia del contexto de la web incrementa la relevancia de los contenidos de la página.
-  * Atajos: los atajos contextuales de la información evitan las búsquedas agresivas (es decir, cuando disparamos cañonazos para matar mariposas en Google, lo que la mayoría de los casos sólo obtenemos una buena carga de frustración).
-  * Personalización: el contexto se basa tanto en la historia como en las intenciones del usuario en sus frecuentes visitas a la página.
-  * Remezcla: información de interés resulta accesible al instante gracias a la posibilidad de lo usuarios en remezclarla.
+Ben Fry (Fry, 2008) establece una secuencia de acciones en el proceso de la visualización de la información: adquirir, analizar (parser), filtrar, extraer (data mining), representar, refinar y, por último, interactuar con la representación. Es un proceso complejo y que implica un control de disciplinas coo la estadística, la matemática, la computacional y la artística. Si una de las acciones no es acertada, el proceso se verá afectado y la visualización difícilmente responderá las preguntas que, previamente, se han formulado al principio.
 
-### Tecnologías de la Web Contextual 
+Joel Laumans determina que una representación de la información requiere un importante proceso de análisis previo de los datos a representar: cuáles son los datos, qué relaciones hay entre las variables? cómo se organizan los datos y, finalmente, qué perseguimos o necesitamos comunicar?
 
+La mayoría de autores coinciden que el éxito de la representación está fuertemente sujeto a la elección del método de representación o tipo de gráfico. Si bien la decisión del tipo de gráfico es libre, una serie de patrones encontramos disponibles que resultan eficientes según el tipo de datos.
 
-Todo lo anterior no sería posible si no tuviéramos una serie de tecnologías que permitan la experiencia de la Web Contextual. Identificamos por el momento las siguientes:
+###Patrones en la visualización de datos
 
-  * microformatos
-  * widgets
-  * extensiones (add-ons) de los navegadores
+* Cantidades independientes: comparación de los valores de variables independientes. Un ejemplo son los gráficos de barra
+* Cantidades continuas a lo largo de una línea de tiempo: gráficas de líneas o gráficas de áreas apiladas (stacked area chart)
+* Proporciones: Cuando la información o los datos forman parte de un todo. Gráficos de pastel o gráficos de anillos
+* Correlaciones: Scatterplots o bubble charts
+* Jerarquías: diagramas de árbol
+* Redes: diagramas de nodos
+* Cartográficos: Mapas
+* Flujo: Diagramas de Sankey
 
-### Microformatos 
- 
-  * http://www.readwriteweb.com/archives/web_of_data_machine_accessible_information.php
+Como es habitual, no todos los escenarios se ajustan a una solución precocinada. Las hojas de cálculo incorporan soluciones estándar como las que hemos visto más arriba, pero también comienzan a introducirse nuevas representaciones. La hoja de cálculo de Google Docs añade una opción conocida por Gadgets que añaden la línea del tiempo y, por lo tanto, una secuencia animada de la representación de datos.
 
+Cuando la solución estándar no es ideal debido a las características de los datos, las alternativas suelen ser una mezcla de dos o más patrones.
 
-Los microformatos aparecen como necesidad de resolver, de una manera transparente, el problema del exceso de desestructuración de la web. Una página web es, en esencia, un documento escrito en un lenguaje de marcado, HTML (HyperText Markup Language). 
+###Revelar la información
 
-En palabras de microformats.org, los Microformatos
+Hacer evidente la información, o la disciplina de visualización de datos no se limita a una traducción de la informacióm tabular (una hoja de cálculo) a un gráfico. Todo lo contrario, la visualización implica la comunicación clara del mensaje que queremos transmitir. Un ejemplo sería los Cloud Tags o una reinvención del ejemplo del libro de Tidwell (http://designinginterfaces.com/) (retomado por Joel Laumans), en el que se muestra una rejilla de puntos, muchos de ellos de color rojo y unos pocos de color azul. Si nos preguntan si sabemos localizar los puntos azules no nos resultaría difícil. En cambio, si cambiamos los puntos de color por valores numéricos y nos preguntan cuáles de ellos están por encima de la unidad, la facilidad del primero se traduciría a ir mirando una variable tras otra.
 
->diseñados primero para los humanos y segundo para las máquinas, los microformatos son un formato abierto y simple elaborados a partir de estándares (...) los microformatos intentan resolver primero problemas simple tomando como referencia conductas y patrones de uso actuales (ejemplo, XHTML blogging)
+En cierta manera, la solución de los Tag Cloud corresponde a ofrecer un mensaje claro: del conjunto total de etiquetas, cuáles tienen mayor peso o relevancia según una variable o valor escogido como referencia (acostumbra a ser el número de artículos a los que se les ha asignado la etiqueta)
 
-Para la gran mayoría de los usuarios, los microformatos pasan inadvertidos, no son visibles y tampoco se manifiestan abiertamente cuando estan presentes. Los microformatos conciernen más a los desarrolladores de páginas web. La intención es proporcionar una mejor estructura y un mayor contenido semántico a la web utilizando el lenguaje de marcado HTML. Según la organización que trabaja en las especificaciones y adopción de los microformatos:
+Tidwell recomienda utilizar estrategias propias de la Gestalt cuando no aconseja emplear técnicas de “separación” visual del aquel ítem relevante respecto al resto de valores. Ejemplos como la posición, orientación, saturación, tamaño (Tag Cloud) o forma.
 
->Designed for humans first and machines second, microformats are a set of simple, open data formats built upon existing and widely adopted standards (Microformats.org)
 
-Sin extenderme en los aspectos técnicos, la estryctura interna los microformatos es realmente simple: son bloques de información sobre un tópico que acostumbran a aparecer en la mayoría de las páginas web. La ficha personal o de una organización, un evento, una fecha de calendario, una licencia, el comentario u opinión de un producto o etiquetas asociadas a un elemento son ejemplos de estos bloques de información. Luego, como desarrolladores de la web podemos tomar la decisión de estructurar estos bloques de información a nuestro antojo o seguir las especificaciones de los microformatos. Seguir las convenciones facilitará mucho las cosas para que los usuarios disfruten de la Web Contextual con poquito esfuerzo.
+###Interactividad de la visualización de información
 
-John Allsopp (2008, Microformats Empowering Your Markup for Web 2.0, friendsoft) resume en la siguiente lista los principales usos de los microformatos:
+La entrada de la informática en el campo de la visualización representó una clara inflexión al facilitar la interactividad del usuario con la información representada a través de interfícies diseñadas a tal propósito. Frente a la foto final de la visualización impresa, la oferta de una visualización dinámica de la información añade nuevas maneras de tratarla, especialmente si pensamos que, a través de la interacción, se altera a tiempo real alguna de las fases del proceso descrito por el autor de Visualizing Data. Es decir, el usuario puede determinar el tipo de filtro, acentuar la visualización o contextualizar mediante tooltips la información. Manipular directamente la información es una ventaja.
 
-* Solucionar problemas específicos
-* Simples en la medida de lo posible
-* Diseñados primero para los humanos, después para las máquinas
-* Adopción de los estándares de la web como punto de partida
-* Modular 
-* Estimula el desarrollo descentralizado de contenidos y servicios.
+Un ejemplo de ello, es la siguiente información: http://flowingdata.com/2008/03/12/17-ways-to-visualize-the-twitter-universe/
 
+en la que los usuarios representan la información de twitter a través de herramientas interactivas de visualización.
 
-Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo mejor será verlos en acción. Si navegáis con el Mozilla Firefox tenéis una extensión, operator que os facilitará la comunicación de los bloque de información proporcionada por los microformatos entre diferentes servicios. Por ejemplo, si en una página encontramos una serie de eventos estructurados según las especificaciones del microformato hCalendar, Operator los detectará y nos brindará la posibilidad de transformalos en eventos de calendario para los diferentes servicios de calendarios web como Yahoo Calendar o Google Calendar. En caso de navegar con IE8, podéis jugar con los Web Slices , en especial Oomph
+http://yoan.dosimple.ch/blog/2007/05/17/
 
-  * http://ajaxian.com/archives/getting-semantic-with-microformats-series-by-emily-lewis
-  * http://labs.mozilla.com/2006/12/introducing-operator/
-  * http://tantek.com/presentations/2006/07/what-are-microformats/
-  * http://visitmix.com/Lab/Oomph#Consume
-  * http://torrez.us/archives/2006/04/13/431/
+De acuerdo con Tufte (Tufte, 200), la excelencia de la representación gráfica de datos consiste en que ideas complejas se comunicen con claridad, precisión y eficiencia.
 
+Examinar los datos o, lo que Ben Fry determinar como el análisis de los datos. Joel Laumans insiste en que toda visualización responde a una pregunta en relación a una información. Conocer esta información, saber las relaciones que hay entre las variables, el cómo se organizan y qué es lo que necesita ser comunicado será básico en el éxito del trabajo.
 
-## Widgets
+El tipo de pregunta que nos formulemos implicará definitivamente el tipo de representación a elegir: la evolución de una empresa en el tiempo corresponderá a una línea en el tiempo; la densidad de población implicaría una representación geográfica antes que otra solución.
 
-En esencia, los _widgets_ son  pequeñas aplicaciones web incrustadas en un escenario más amplio que amplían o enriquecen la experiencia de adquisición de información del usuario. Un _widget_ es un bloque de información específica; evita recurrir o salir fuera del área de trabajo; ejemplos de widgets los vemos a diario, especialmente si visitamos, por ejemplo, blogs u otras páginas web en las que ubican los widgets en una de las columnas laterales: relojes, el tiempo, un lector rss específico, clientes de Twitter o FriendFeed, contadores de visitas, galerías de fotos, videos, publicidad, calendarios. Los _widgets_ pueden ser de escritorio (ejemplos como los _widgets_ de MacOSX, los de Microsoft Vista, los _[screenlets](https://code.launchpad.net/screenlets/trunk/0.1.2)_ en GNU/Linux, los de Yahoo Widgets) y los de la web
 
+##Caso de estudio: tag cloud
 
-El 2007 fue la explosión definitiva del uso indiscriminado de _widgets_ ([Lenehan](http://www.readwriteweb.com/archives/world_wide_web_of_widgets.php), 2007). Su presencia comenzó a resultar ubicua en la web. Quizá el widget más popular y más extendido por su utilización _ad infinitum_ ha resultado ser el de video, especialmente importante en el caso más que documentado de YouTube y que jugó un papel crucial en su meteórica aceptación popular. Si en aquel momento Lenehan argumentaba el papel positivo del uso de los _widgets_ por añadir nuevas funcionalidades a la página. 
+Improving Tag-Clouds as Visual Information Retrieval Interfaces [PDF]
 
-El problema de los widgets es doble: utilizando la metáfora de la ciudad, los _widgets_ corresponderían en muchas de las situaciones en los que aparecen como vallas publicitarias; aumentan el ruido en exceso y proporcionan una experiencia negativa de la navegación por la página cuando estos no suman información relevante al usuario. Se suma a este último que la mayoría de los widgets no estan personalizados (parte porque quien lo proporciona no lo permite o el usuario desconoce cómo hacerlo) y que no tengan ninguna relación temática o visual entre ellos, luego el desiquilibrio visual de la página contribuye todavía más en la  En otro lado, el tiempo de carga de la página es mayor, ya no sólo por el peso de la aplicación que es, sino de las peticiones que ha de realizar si el bloque es un lector de noticias o un canal de Twitter. Desde esta perspectiva, los _widgets_ son una evolución lógica de las molestas ventanas emergentes y no un componente importante de la web contextual. 
+Un ejemplo de solución al problema del exceso de información, que fue adoptado rápidamente por la mayoría de páginas web que clasificaban los contenidos en base a un sistema flexible de etiquetas, es el sistema de representación conocido como Tag Cloud, nube de etiquetas.
 
-El extremo último de los widgets encontramos los portales personalizados como iGoogle, Netvibes, PageFlakes o el servicio [yourminis](http://www.yourminis.com/), en el que permiten la edición y personalización del _widget_ a partir de una catálago prefabricados de aquellos. 
+A diferencia del sistema tradicional de clasificación en carpetas, siguiendo la metáfora del escritorio, se consideró una alternativa más flexible y ágil de ordenar los contenidos, el etiquetaje. Mediante el uso de etiquetas, los usuarios clasifican la información con total libertad, ajustándose al signifcado del contenido según el criterio del sentido común. La actividad de ordenar la información mediante etiquetas resulta ser más espontánea y próxima al usuario que otros sistemas de organización fuertemente jerarquizados, como las taxonomías, donde el usuario debe forzar la categoría de un contenido.
 
-En el sentido estricto de la web contextual, los _widgets_ no deberían ser explícitos como los ejemplos descritos más arriba. Todo lo contrario, los _widgets_ deberían funcionar siguiendo la metáfora del reloj y la hora: no darla si no nos la piden. En esta dirección, uno de los _widgets_ del tipo contextual que apareció con enorme fuerza, especialmente en el ecosistema de los blogs personales, fue la tecnología [SnapShots](http://www.snap.com/). El lema sigue siendo enriquecer la experiencia del usuario cuando visite nuestra página. ¿Hacemos referencia a un personaje histórico, acrónimo tecnológico? enlazamos este con su entrada en la Wikipedia ¿la calle de un restaurante? desplegamos su geolocalización en el mapa del widget ¿citamos un monumento? fotografías tomadas de Flickr... El inconveniente es doble: 
+La rápida acumulación de etiquetas en páginas web donde la publicación de contenidos es intensa originó el sistema de nubes de etiquetas. Este sistema debía cumplir dos funciones:
 
-* Saturación del servicio [SnapShots](http://www.snap.com/), luego la navegación por la página es impracticable y resulta enormemente molesta para los usuarios que la visitan. Exceso luego de información relacionada con los contenidos. El servicio de _widgets_ contextuales como [Apture](http://www.apture.com/), por el contrario, obliga al usuario a hacer clic sobre en enlace, por lo que el resultado no es tan intrusivo. 
-* La decisión de desplegar la información es del propietario de la página. Este decide qué términos o palabras estan sujetas a la aparición o no del widget. Esta pérdida de control por parte del usuario -pueden desactivar la aparición de los widgets de manera transparente?- 
+  * Permitir a los usuarios conocer qué etiquetas clasifican el mayor número de contenidos de la página web y, por lo tanto, una suerte de zeitgeist de la información.
+  * Establecr una metodología sencilla de navegación y adquisición de la información a través del espacio de etiquetas, de tal manera que ofreciese nuevas rutas en la adquisición de la información.
 
-[Apture](http://www.apture.com/) proporciona una mejor experiencia de navegación diferente a [SnapShots](http://www.snap.com/) y viene completada con distintivos visuales que identifican el carácter de la información relacinada (geográfica, textual, imagen, video, sonido,...). En palabras de [MacManus](http://www.readwriteweb.com/archives/apture_popups_media.php) (2009), la tecnología de Apture se diferencia de tecnologías como Snap en la que prevalece el sentido común frente a complejos algoritmos de automatización de la selección de aquellos contenidos suscpetibles de estar sujetos a un _widget_ contextual, caso como Snap o Adapative [SmartLinks](http://www.adaptiveblue.com/smartlinks.html).
 
+### Del Tag Cloud al Wordle
 
+http://www.wordle.net/
 
-* http://ajaxian.com/archives/an-introduction-to-w3c-widgets
-* http://www.anieto2k.com/2006/11/10/la-w3c-le-mete-mano-a-los-widgets/
-* http://www.anieto2k.com/2009/04/22/introduccion-a-los-w3c-widgets/
-* http://www.quirksmode.org/blog/archives/2009/04/introduction_to.html 
-* http://www.w3.org/TR/widgets-apis/
+## Mashups 
 
+Un mashup es una aplicación web que remezcla información o datos de dos o más servicios web con la intención de crear un servicio nuevo o representación diferente. John Musser, creador de la web "Programmable Web" enumera un listado de APIs disponibles para utilizarlas en la creación de mashups. Algunas de estas APis estan diseñadas para ser utilizadas en páginas basadas en la tecnología AJAX -páginas que usan Javascript para intercambiar el XML- basadas en peticiones asíncronas con los servidores de estas APIs, actualizando los contenidos según sea la petición.
 
-## Complementos del navegador
+Los Mashups se sirven de la tecnología web y de las APIs de terceros con el fin de construir una nueva web. En parte, esta tecnología ha permitido representar la información que guardan los servidores de Google, Yahoo, Twitter de una manera no pensada cuando se lanzó el servicio original. Los Mashups en este sentido representan un paso hacia la llamada Web Semántica, es decir, cuando los datos, al agruparlos, remezclarlos con otros y, finalmente, representarlos, adquieren un significado nuevo y alumbran un conocimiento oculto hasta entonces.
 
-[MacManus](http://www.readwriteweb.com/archives/what_became_of.php)(2003) lamentaba que la visión de la Web Semántica que tenía el padre de la _World Wide Web_, Tim Berns Lee, en 1993, diez años después seguía siendo incomprendida o, en el peor de los casos, indiferente a los caprichos de aquel momento. A principios del 2000, la web todavía seguía participando de la metáfora de una suerte de páginas amarillas, es decir, siendo únicamente de lectura, donde los contenidos eran editados y actualizados por los propiepatarios de las páginas. Todo lo contrario del sueño de Tim Berns Lee, la idea de un navegador/editor de la web en donde la nageación por la red es sólo una parte, pero no la importante. La cuestión crucial es la capacidad o libertad de "tejer" la red a través de la escritura. 
+http://www.programmableweb.com/howto para comenzar a tener una ligera idea de lo que escribo
 
-"la descentralización es el principio de diseño subyacente que dará al Web Semántico la capacidad de convertirse en algo más que la suma de sus partes" Berns-Lee (1999)
 
-En aquel momento, las tecnologías flash o java acaparaban el interés y la atención tanto del lado del diseño como del las aplicaciones web. Perfectas cajas negras, callejones sin salida para la información que manipulaba el usuario pero que cumplían la función encomendada a la perfección: la interactividad gráfica y visual del primero, anhelo de los diseñadores web y caramelo fácil para quienes deseaban una página promocional de su producto llamativa y espectacular como un festival de pirotecnia; y del segundo, la creación de aplicaciones de escritorio y que funcionan a la perfección en la web. El papel del navegador resultaba ser de un ridículo intermediario donde hasta parecía molestar el lenguaje propio de la red, el HTML.   La Blogosfera comenzaba a dar sus primeros pasos gracias en gran parte a tecnologías libres (PHP, MySQL) que permitían la creación de gestores de contenidos (Wordpress nace en 2003), Textpattern en 2001, Drupal en (2001). El distanciamento entre la web y los estándares parecía insalvable. El navegador dominante en un 95% era Internet Explorer 6 del que no respetaba apenas un 35% de los estándares de la web. El navegador no proporcionaba otra característica que guardar los marcadores de las páginas que nos interesaba y navegar por internet. Los plugins permitían visualizar los contenidos de las cajas negras como las animaciones realizadas en la tecnología Flash o ejecutar las aplicaciones Java. El navegador, visto de esa manera, era un simple intermediario no muy distante de Mosaic, el primer navegador web de la historia desarrollado en 1993.
+El clásico mashup Chicago Crime (chicahocrime.org o el actualizado http://chicago.everyblock.com/) muestra la manera de cómo recopilar una extensa colección de datos y revelar significados o dar sentido a toda esa colección de información mediante el uso de interficies gráficas (el uso de mapas de Chicago gracias a la API de Google Maps) que nos permitiran comprender la información. En su defecto, la policia de Chicago proporciona los datos mediante hojas de cálculo, pero fue gracias a la representación de mapas que la información adquirió un nuevo significado, más accesible para todos y por lo tanto de un mayor uso y comprensión de la información. 
 
-La creación de la fundación Mozilla en base a la liberación del código de Netscape (el anterior y malogrado rival de Internet Explorer en la llamada [guerra de los navegadores](http://es.wikipedia.org/wiki/Browser_Wars))
+Un ejemplo del potencial es la representación de la información generada por los usuarios de Twitter a través de mashups. Según cuenta programmableweb, hay registrados 141 mashups: http://www.programmableweb.com/api/twitter/mashups, del ya popular Twittervision a http://www.programmableweb.com/mashup/twitter-top-news-trends 
 
 
-[La publicación y promoción de la versión 1.0 del navegador Firefox el 9 de noviembre de 2004](http://www.mozilla.org/press/mozilla-2004-11-09.html), desarrollado bajo el paraguas de la fundación Mozilla, representó un punto de inflexión en una situación aparentemente inamovible: el monopolio del uso de Internet Explorer 6 parecía no tener fin aún sabiéndose que la experiencia de navegación resultaba ser enormemente pobre, poco fiable y en absoluto segura (documentar esto). Firefox, a diferencia de Internet Explorer, estaba sujeto a la licencia Open Source, luego el disponer del código facilita su disponibilidad para las tres plataformas más populares: Microsoft Windows, MacOSX y GNU/Linux. Las características técnicas que resaltaba la fundación Mozilla representaban la antítesis de Interenet Explorer. Daba la impresión que los desarrolladores habían tenido muy en cuenta el malestar de los usuarios y diseñadores web afines a respetar los estándares del W3C. Mozilla Firefox bloqueaba por defecto las ventanas emergentes (_Pop-up_); mejoraba la seguridad frente a ataques de _phising_ y _spoofing_; incorporaba la navegación por diferentes páginas a través de un sencillo sistema de pestañas (_Tabbed Browsing_), facilidad de migrar los datos como marcadores, contraseñas, _cookies_ desde otros navegadores, como por ejemplo de Internet Explorer. Y por último, el navegador Firefox era _extensible_, es decir, su estructura permitía a los desarrolladores a sumar nuevas funcionalidades a través de complementos (_add-ons_). A finales de 2004, Firefox contaba con alrededor de más de 100 complementos. Según la Wikipedia, a febrero de 2008 se cuenta alrededor de 4600 complementos disponibles en diferentes categorías. La [página oficial dedicada](https://addons.mozilla.org/es-ES/firefox/) exclusivamente a la publicación y gestión de los complementos cuenta con un sistema perfectamente organizado que el resto de navegadores han ido sumando a su propio ecositema: es el caso de Internet Explorer a partir de la versión 7 ([página oficial de complementos](http://www.ieaddons.com/es/)); de Chrome, el navegador de Google todavía carece de un espacio dedicado (se espera a partir de mayo de este año dar una respuesta material); Opera cuenta con los [_widgets_](http://widgets.opera.com/) y Safari, el navegador de Apple cuenta también con sus propios (http://mashable.com/2007/09/09/safari-plugins/). Este interés por ofrecer una versión extendida del navegado basada en complementos y personalizable basada en temas demuestra que el papel invisible que jugaba el navegador hasta mediados del 2005 ha desaparecido a favor de otorgarle una mayor presencia. A mediados de 2009 nos preguntamos cuál fue la última vez que participamos de una red social, cuál fue la última vez que vimos una película de YouTube, cuál fue la última vez que abrimos una web realizada enteramente en Flash y, por último, cuál fue la última vez que abrimos una aplicación realizada en Java. 
+Para cuando entonces mashups que gestionen la información personal y, por lo tanto, controlemos el exceso de información ya no mediante una observación precisa del detalle sino relevadora de la imagen general. Es decir, un mashup que remezcle nuestro correo, nuestro trabajo diario con los documentos, los servicios web a los que estamos suscritos, participamos, etc,...
 
-Los complementos vienen a extender las funcionalidades del navegador y, por lo tanto, mejorar la experiencia de navegación pero incluyo la de _publicar y compartir_ en la web.  Si el primero podría considerar el complemento [GreaseMonkey](https://addons.mozilla.org/es-ES/firefox/addon/748) como una herramienta de enorme interés ya que permite modificar el comportamiento de las páginas a través de scripts (interés que ha sido portado al resto de navegadores inclusive Chrome), los hay que permitirán aumentar la información de una página: http://webmynd.com/html/  o [GooglePreview](https://addons.mozilla.org/es-ES/firefox/addon/189) [Minimap Sidebar](https://addons.mozilla.org/es-ES/firefox/addon/5203) que de alguna manera enriquecen por defecto el resultado de la página.
+Esto podría enlazarse con el artículo [[http://flowingdata.com/2009/04/07/a-perfect-personal-data-collection-application/|A Perfect Personal Data Collection Application]]
 
-Pero en la web contextual, también es imprescindible aquellas herramientas que nos permitan publicar o compartir la información sin necesidad de salir de la página que estamos visitando. En el exceso de servicios de publicación (blog, microblog, red social, red profesional, agregador de noticias,...) la descentralización del sistema de publicación ha originado una explosión de complementos que realizan exclusivamente esta tarea: publicar desde fuera de la aplicación o, por el contrario, recibir notificaciones de la misma. Ejemplos como [Shareolic](https://addons.mozilla.org/es-ES/firefox/addon/5457), [TwitterFox](https://addons.mozilla.org/es-ES/firefox/addon/5081), [Open IT Online](https://addons.mozilla.org/es-ES/firefox/addon/6350), [Delicious Bookmarks](https://addons.mozilla.org/es-ES/firefox/addon/3615), [eBay Sidebar for Firefox](https://addons.mozilla.org/es-ES/firefox/addon/5202), [Gmail Notifier](https://addons.mozilla.org/es-ES/firefox/addon/173), 
+El incremento de nuestra actividad en la web, de especial interés en aquella información que recogemos, publicamos o compartimos con otros usuarios. En la actualidad encontramos una serie de herramientas online de tracking sobre alguna actividad específica: cuánto tiempo pasamos delante del ordenador, cuánto dinero gastamos a la semana, cuánto pesamos, etc.  No deja de resultar evidente la limitación que supone evaluar sólo una actividad, independiente de otras variables que afectarían en mayor o menor medida el resultado de aquel. Estas herramientas no pueden siquiera compararse con el tracking de la información generada por la redes sociales como Twitter o Facebook. Según Nathan de Flowing Data remarca que estas posibles herramientas que gestionen la información personal no deberían aumentar el exceso de información, todo lo contrario, una nueva estrategia o una nueva perspectiva de nuestra propia imagen. El individuo como un Mashup?
 
+### PIM ¿Pesonal Information Mashup? 
 
-### Shareolic y Kwiclick
+Dejemos definitivamente la gestión por la remezcla. El nuevo escenario podría ser una suerte de RIA (Rich Internet App) que remezclara la actividad personal, la profesional y la social, y que sincronizara con los diferentes dispositivos que generalmente trabajamos. Una suerte de FriendFeed que registrara además los documentos, correo, aprovechando las APIs abiertas de cada uno de los servicios.
 
-http://feedproxy.google.com/~r/readwriteweb/~3/bxSGNVSKpRw/kwiclick_wants_to_help_you_do_stuff_faster_in_firefox.php 
+De hecho, EventBox es un primer paso hacia una experiencia más efectiva y eficiente en cuanto agrupa algunos de los servicios más populares en una única aplicación: Google Reader, FriendFeed y Twitter. 
 
-### Ubiquity y Taskfox, el poder de la línea de comandos 
+Por otro lado, la información personal es susceptible de ser estudiada y, por lo tanto, convertirse en objeto de análisis de la documentación o una disciplina conocida como _Personal Data Mining_.Un escenario de este tipo sería el caso del cliente de correo electrónico y la promesa de algunos servicios de guardar los mensajes, tanto enviados como recibidos que garantizan y permiten una radiografía de los temas tratados, contactos, que tópicos se repiten con mayor frecuencia, luego se podrían hacer análisis de perfil de los contactos en función de los temas tratados. De esta manera, contextualizar el perfil del remitente en función de mensajes anteriores.
 
-Ubiquity, un Quicksilver?
+>What I’m referring to as “personal data mining” here is not finding personal information about yourself or others, but looking back at things you’ve done (blogging, bookmarking, anything else) and trying to find meaning through visualization or other reconfiguration of the material. [Ericka Menchen, Personal data mining - reading the entrails](http://blog.erickamenchen.net/2005/10/18/personal-data-mining-reading-the-entrails/)
 
+Siguiendo el ejemplo del cliente de correo, [21  ways to visualize and explore your email inbox](http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/) Nathan explora las diferentes representaciones en diferentes agrupaciones según su tratamiento: exploratory, analytic, mapping, metaphor, networks, and abstract. 
 
-  * http://labs.mozilla.com/projects/ubiquity/
-  * https://wiki.mozilla.org/Labs/Ubiquity/
-  * https://ubiquity.mozilla.com/herd/
-  * http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php
-  * https://wiki.mozilla.org/Taskfox
+A nivel de exploración, la visualización de la bandeja de entrada según el volumen de mensajes, las relaciones entre nosotros y los remitentes según un tópico o expresión. 
 
-  * http://lifehacker.com/software/quicksilver/hack-attack-a-beginners-guide-to-quicksilver-247129.php
-  * http://lifehacker.com/322363/top-10-quicksilver-plug+ins
-  * http://docs.blacktree.com/quicksilver/tutorials
-  * http://blacktree.com/
-  * http://do.davebsd.com/
-  * http://feeds.gawker.com/~r/lifehacker/full/~3/p-ooSpL_MIk/gnome-dos-smart-dock-takes-app-launching-to-another-level
+Analítico a nivel cuantitativo. Proyectar sobre un mapa geográfico el volumen de mensajes de entrada (supongamos que trabajamos en un proyecto y queremos valorar geográficamente qué zonas han respondido con mayor frecuencia y número de mensajes a nuestra propuesta; con cuál de estas ha habido mayor interactividad). 
 
-## Hacia nuevos diseños de organización y gestión de la navegación
+Metáforas visuales, donde se recurre a la bandeja de entrada como motivo estético o siguiendo los gráficos circulares que ahonden en las relaciones entre remitente
 
-[link](http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php)
+[I devised a multicolumn layout for visualizing discussions and described it in a workshop paper in 2005](http://zesty.ca/threadmap/)
 
-Recientemente, Oliver Reichenstein de [Information Architecs](http://informationarchitects.jp/) publicaba una entrada que recordaba una pregunta formulada por T-Online a primeros del 2000: _Si tuvieras que diseñar la interfaz de un navegador desde cero ¿qué decisiones tomarías?_. La respuesta se limitó a "pestañas". Manifestaba en una palabra un error de diseño flagrante de navegación de los navegadores de aquel momento: navegar en una página nueva, pero conservando la actual, significaba abrir una ventana nueva del navegador. Por otro lado, los diseñadores web consideraron que las flechas de navegación del navegador eran puramente decorativas, luego utilizaron -y se sigue utilizando- el valor <code>\_blank</code> del atributo <code>target</code> para cada enlace de la página, lo que ya en sí mismo ya supone un acto contra las pautas de accesibilidad.. A todo esto hay que sumar el ingente número de _pop-ups_ como ubicuas e harto intrusivas vallas publicitarias de contenido, generalmente, basura. La imagen de una barra inferior de Microsoft Windows 98/2000 saturada de ventanas minimizadas del navegador una hora después de iniciar una sesión de trabajo comenzó a ser una imagen familiar para los usuarios. Esto suponía un problema evidente de organización de la navegación como de eficiencia de la gestión de recursos del propio sistema operativo. Las pestañas vinieron con el propósito de agrupar las páginas activas de una sesión de trabajo y, en consiguiente, evitar el _cluttered_ de ventanas abiertas. 
+## Herramientas para la visualización
+  
+En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas con la finalidad de proporcionar un DSL (Domain Specific Language) gráfico a artistas y diseñadores. 
 
-Ocho años después, Oliver Reichenstein responde de nuevo a la pregunta, esta vez planteada por [Aza Raskin](http://www.azarask.in/blog/post/firefoxnext-tabs-on-the-side/) y responde con contundencia: "olvida las pestañas!". ¿Regresar al pasado? No. El escenario ha cambiado y, por lo tanto, los problemas han cambiado, luego las respuestas ya no resultan adecuadas ni solucionan los nuevos problemas. Hemos alcanzado una nueva situación que desborda la efectividad de trabajo con pestañas: la sobrecarga. Esta acumulación horizontal de las páginas abiertas provoca de nuevo una mala organización de la información que manejamos acompañado de una sobrecarga del sistema. Ya no hablamos de unas cuantas páginas estásticas abiertas; en la actualidad manejamos páginas que encierran aplicaciones manipulando, recibiendo y transmitiendo información. Es una práctica habitual dejar abiertas las sesiones de, por ejemplo, el cliente de correo de Google, GMail, el calendario de Google, GCalendar, Facebook,... video streaming, etc. Como bien se muestra en el cómic promocional de Chrome (citar al autor), la web se ha vuelto se ha visto enriquecida de aplicaciones que, a principios del 2000, eran difíciles de concebir. Esta visión de la web como el nuevo escritorio personal instalado en la nube obliga al navegador a funcionar como una suerte de sistema operativo; el ejercicio de gestionar esta nueva web es técnicamente intensa. Cada pestaña son más recursos que el navegador solicita al sistema. Reichenstein cita jocosamente a "[Dios](http://www.useit.com/alertbox/tabs.html)" cuando habla que las "pestañas no funcionan cuando la información es heterogénea". Si las pestañas solucionaron el problema del _cluttered_ de ventanas, veamos qué solución encontramos a la diversidad de la información que maneja el navegador. En palabras de Reichenstein,
+>Un DSL, según la Wikipedia, corresponde a un lenguaje de programación que responde a un problema específico. En el escenario de la representación gráfica
 
->The idea is not to show screen shots but to turn the browser into a media system organizer more than a media display application. Instead of structuring a browser to keep the screen tidy for the moment, we thought that it’d be awesome to structure the browser as a (multi media) file system. 
+<code>	
+	size(400, 400); 
+	background(192, 64, 0); 
+	stroke(255); 
+	line(150, 25, 270, 350);
+</code>
+	
 
-Como iTunes. 
 
-Esta es una opinión _bwroser-centric_, pero que podría venir acompañada de otra posibilidad: la desaparición del html en según qué servicios a favor de convertirse en emisores de información estructura (formatos livianos como json). La representación vendría determinada por una convención entre el emisor de información y un complemento oficial o de terceros que la representara. De hecho, lo estamos viendo con la creciente desarrollo de RIAs. Por ejemplo: la versión HTML de GMail desaparece y en su lugar una información relativa a qué debemos tener. En este caso, la carga petición sería la de la información no la información mezclada con la representación. Un complemento sustituiría la parte de la representación, luego la experiencia del usuario a nivel de interficie sería más rica y, por otro lado, más rápida y daría paso a las aplicaciones offline.
+### Processing, Nodebox y Context Free Art
+En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas en el 2001 con la finalidad de proporcionar unas librerías gráficas para el diseño y artistas desde una visión artística._Processing is the first full-featured programming language and environment to be created by artists for artists_ Ira Greenberg (2007). 
+
+Processing no es único en su campo y otras soluciones, quizá no tan populares, han ido ganando aceptación. El caso de NodeBox y ContextFree son claros ejemplos donde el primero es una solución basada en el lenguaje de programación Python y fuertemente dependiente del entorno MacOS. Processing y NodeBox comparten el origen (MIT) como el planteamiento de "state machine" máquina de estados, que facilita la comprensión del lenguaje al profano y le introduce en el arte de programación. No son tampoco una novedad en su planteamiento y la figura de la tortuga del Logo de la década de 1980 es un ejemplo.
+
+Context Free Art es la proyección gráfica del Context Free Grammar. 
+
+Sirva de ejemplo el [SCIgen - An Automatic CS Paper Generator](http://pdos.csail.mit.edu/scigen/), basado igualmente en el Context Free Grammar 
+
+
+###Caso de estudio: Many Eyes & The New York Times & Processing 
+
+[Many Eyes](http://manyeyes.alphaworks.ibm.com/manyeyes/page/About.html) es, en palabras de sus desarrolladores, una aplicación web asentada en la capacidad de la inteligencia visual en encontrar patrones a partir de una fuente de información. El objetivo es _democratizar la visualización y proporcionar nuevas herramientas sociales de análisis de la información_,luego sería motivo de debate y de adquisición de nuevos conocimientos de la información representada. La cuestión estética de la representación dejaría paso a una percepción intelectual de la información. Many Eyes establece seis categorías que agrupan diferentes sistemas de representación según la metodología del análisis. Esta categorización no es muy diferente de la mencionada más arriba:
+
+
+* Relaciones entre puntos de información (Diagramas de redes, ScatterPlot y Matrix Chart) 
+* Comparación entre un conjunto de valores (Gráfico de burbuja _Bubble Chart_, Histogramas, Gráfica de barras)
+* Registro de alzas y bajas a lo largo de un tiempo (gráfica de líneas y de pilas)
+* Observación de las partes de un todo (TreeMap, gráfica de pastel _Pie Chart_)
+* Analizador de texto (Tag Cloud, Phrase Net, Wordle)
+* Mapas, geolocalización de la información.
+
+Este interés en la democratización de la visualización de la información no ha quedado relegada a un ámbito de laboratorio universitario. El diario The New York Times impulsó el año pasado, desde su versión digital, un espacio específico donde los lectores pudieran utilizar Many Eyes y la API del diario y representar la información relativa a la actualidad. Si los comentarios a los artículos publicados en la versión digital del diario como la sección de los lectores aportan una información propia y complementan la de los periodistas, las representaciones y los posibles debates alrededor de las mismas pueden sumar a la información escrita del diario y aportar un enorme valor social. Tomemos como ejemplo el [discurso de inauguración de Barack Obama](http://vizlab.nytimes.com/datasets/barack-obamas-inauguration-address-2/versions/1). La fuente de información es un texto plano, sin ningún formato que pueda distraer técnicamente el análisis. Los usuarios toman esta información y, a través de Many Eyes, eligen un método de representación y, finalmente, publican el resultado. Si todavía su popularidas no es excesiva y el conjunto de la propuesta no ha "arrelado", sí en cambio comprobamos que representaciones como el "Wordle" han tenido una buena acpetación, pero quizá en mayor grado debido a cuestiones estéticas que no provovadoras de un debate. ¿Falta de educación visual?
+
+Acompaña a Many Eyes Swivel, otro servicio que mezcla los tres componentes: explorar y analizar la información a través de su representación; compartirla y subir la información relevante y, por lo tanto, susceptible de generar un debate como la creación. Un ejemplo sería la información relacionada con los [accidentes aéreos ocasionados dede 1918](http://www.swivel.com/data_sets/spreadsheet/1018156). pero que sólo informan del número de accidentes y fallecidos, pero no especifican el lugar, compañía, recorrido, lugar del accidente, y una categorización por etiquetas que los clasificara según el problema que oirginó el accidente (error humano, técnico, atentado, fortuito,...) 
+
+* http://www.research.ibm.com/visual/
+* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/
+* http://vizlab.nytimes.com/
+* http://blog.blprnt.com/blog/blprnt/nytimes-prints-for-sale-files-for-free
+* http://www.flickr.com/photos/blprnt/sets/72157613381549987/
+* http://piksels.com/introduction-to-visualizing-data/ 
+* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
+
+
+
+##Matar al PowerPoint
+
+* http://www.presentationzen.com/presentationzen/2009/05/making-presentations-in-the-ted-style.html
+* dataspora.com
+
+## Referencias
+
+* http://github.com/mojombo/primer/tree/master
+* http://www.aaronkoblin.com/work.html
+* http://raphaeljs.com/
+* http://code.google.com/intl/en/apis/visualization/
+* http://flowingdata.com/2009/04/21/visual-representation-of-tabular-information-how-to-fix-the-uncommunicative-table/
+* http://flowingdata.com/2009/03/20/data-visualization-is-only-part-of-the-answer-to-big-data/
+* http://www.vectart.com/esp/indexsp.htm
+* http://blog.vectart.com/?p=101
+* http://flowingdata.com/2009/01/15/flow-chart-shows-you-what-chart-to-use/
+* http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html
+* http://visualcomplexity.com
+* http://www.timshowers.com/web-design-blog/
+* http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/
+* http://infosthetics.com/
+* http://blog.thejit.org/javascript-information-visualization-toolkit-jit/
+* http://blog.thejit.org/2008/11/27/using-ocaml-to-visualize-radioheads-hoc-music-video-part-1/
+* http://vis.stanford.edu/protovis/
+* http://www.visophyte.org/blog/
+* http://www.math.yorku.ca/SCS/Gallery/milestone/index.html
+* http://magicalnihilism.wordpress.com/2009/04/03/data-as-seductive-material/
+* http://www.flight404.com/blog/
+* http://netdiver.net/10years/artists-and-their-apps-by-doc-woohoo
+* http://vizlab.nytimes.com/
+* http://piksels.com/introduction-to-visualizing-data/
+* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
+

@@ -1,210 +1,219 @@
-#Representar el exceso de la información
+#La lección de Delicious 
 
-Acostumbro a observar a los compañeros y compañeras del trabajo que pasan horas interminables delante de una rejilla cubierta de números. La mirada atenta, analítica y fría frente a una hoja de cálculo en la que el contenido, imperceptibles cifras atrapadas en diminutas celdas, son legibles sólo a muy poca distancia. A medida que pasan los días, el cuerpo de letra de los números va menguando debido a que el volumen de la información ha aumentado, y las dimensiones de la pantalla no permiten una extensión mayor de los 1280 por 970 píxeles. Al otro lado, un empleado prepara la presentación de un proyecto que ha llevado semanas de trabajo. Hacer una síntesis efectiva de la información del proyecto no resulta una tarea fácil; conoce muy bien las funcionalidades de la herramienta, pero desconoce qué técnicas facilitan la transmisión visual de la información al público al que va dirigida la presentación.
+>memory first, discovery second. Joshua Schachter (fundador de Delicious)
 
-Quienes acostumbran a manejar enormes volúmenes de información, al final de un proyecto, toman varias fotografías de la geografía tupida y abigarrada de datos con el objetivo de presentarlas al público en general en forma de instantánea. La información de esta manera se revela eficaz y brinda la oportunidad a quienes la observan y analizan de comprenderla en su totalidad. La representación de la información no es gratuita; la elección del sistema de visualizar los datos allanará más el acceso rápido al conocimiento de la información representada. De lo contrario, una elección equivocada del método empleado en presentar los datos puede tener un efecto contrario y dar como resultado mal interpretaciones o lecturas equivocadas.
+## Resources 
 
-
-##La visualización de información como disciplina
-
-[50 grandes ejemplos de visualización](http://blogof.francescomugnai.com/2009/04/50-great-examples-of-infographics/)
-
-El propósito de la visualización es revelar al espectador un conocimiento que, de otra manera, quedaría oculto en su representación más primitiva, aquella que es más próxima a la máquina y no a las personas. Se establece entonces una escala de la representación de la información según el grado de interpretación y conclusiones posibles de su lectura.
-
-Visualizar datos no es equivalente a la infografía o representación de la información. La visualización de datos representa un volumen cuantificado de datos; en frente, la infografía representa una información cuantificable o no.
-
-La visualización de datos revela aquello que, en su representación más cruda, sería imposible de comprender o entender. La representación es una suerte de instantánea que permite al espectador descubrir una o diferentes informaciones que, de la otra manera, quedaría oculta en los propios datos.
-
-La visualización sirve de transmisor de aquello oculto. Por esto, la hojas de cálculo permiten trabajar con datos, pero estos finalmente acaban visibles no como una interminable lista de datos tabulados, sino a través de los gráficos como por ejemplo los simples de barras o pastel.
-
-La elección de qué datos a representar o el tipo de representación puede pervertir el mensaje o la respuesta a la pregunta que desea responder.
-
-Ben Fry (Fry, 2008) establece una secuencia de acciones en el proceso de la visualización de la información: adquirir, analizar (parser), filtrar, extraer (data mining), representar, refinar y, por último, interactuar con la representación. Es un proceso complejo y que implica un control de disciplinas coo la estadística, la matemática, la computacional y la artística. Si una de las acciones no es acertada, el proceso se verá afectado y la visualización difícilmente responderá las preguntas que, previamente, se han formulado al principio.
-
-Joel Laumans determina que una representación de la información requiere un importante proceso de análisis previo de los datos a representar: cuáles son los datos, qué relaciones hay entre las variables? cómo se organizan los datos y, finalmente, qué perseguimos o necesitamos comunicar?
-
-La mayoría de autores coinciden que el éxito de la representación está fuertemente sujeto a la elección del método de representación o tipo de gráfico. Si bien la decisión del tipo de gráfico es libre, una serie de patrones encontramos disponibles que resultan eficientes según el tipo de datos.
-
-###Patrones en la visualización de datos
-
-* Cantidades independientes: comparación de los valores de variables independientes. Un ejemplo son los gráficos de barra
-* Cantidades continuas a lo largo de una línea de tiempo: gráficas de líneas o gráficas de áreas apiladas (stacked area chart)
-* Proporciones: Cuando la información o los datos forman parte de un todo. Gráficos de pastel o gráficos de anillos
-* Correlaciones: Scatterplots o bubble charts
-* Jerarquías: diagramas de árbol
-* Redes: diagramas de nodos
-* Cartográficos: Mapas
-* Flujo: Diagramas de Sankey
-
-Como es habitual, no todos los escenarios se ajustan a una solución precocinada. Las hojas de cálculo incorporan soluciones estándar como las que hemos visto más arriba, pero también comienzan a introducirse nuevas representaciones. La hoja de cálculo de Google Docs añade una opción conocida por Gadgets que añaden la línea del tiempo y, por lo tanto, una secuencia animada de la representación de datos.
-
-Cuando la solución estándar no es ideal debido a las características de los datos, las alternativas suelen ser una mezcla de dos o más patrones.
-
-###Revelar la información
-
-Hacer evidente la información, o la disciplina de visualización de datos no se limita a una traducción de la informacióm tabular (una hoja de cálculo) a un gráfico. Todo lo contrario, la visualización implica la comunicación clara del mensaje que queremos transmitir. Un ejemplo sería los Cloud Tags o una reinvención del ejemplo del libro de Tidwell (http://designinginterfaces.com/) (retomado por Joel Laumans), en el que se muestra una rejilla de puntos, muchos de ellos de color rojo y unos pocos de color azul. Si nos preguntan si sabemos localizar los puntos azules no nos resultaría difícil. En cambio, si cambiamos los puntos de color por valores numéricos y nos preguntan cuáles de ellos están por encima de la unidad, la facilidad del primero se traduciría a ir mirando una variable tras otra.
-
-En cierta manera, la solución de los Tag Cloud corresponde a ofrecer un mensaje claro: del conjunto total de etiquetas, cuáles tienen mayor peso o relevancia según una variable o valor escogido como referencia (acostumbra a ser el número de artículos a los que se les ha asignado la etiqueta)
-
-Tidwell recomienda utilizar estrategias propias de la Gestalt cuando no aconseja emplear técnicas de “separación” visual del aquel ítem relevante respecto al resto de valores. Ejemplos como la posición, orientación, saturación, tamaño (Tag Cloud) o forma.
-
-
-###Interactividad de la visualización de información
-
-La entrada de la informática en el campo de la visualización representó una clara inflexión al facilitar la interactividad del usuario con la información representada a través de interfícies diseñadas a tal propósito. Frente a la foto final de la visualización impresa, la oferta de una visualización dinámica de la información añade nuevas maneras de tratarla, especialmente si pensamos que, a través de la interacción, se altera a tiempo real alguna de las fases del proceso descrito por el autor de Visualizing Data. Es decir, el usuario puede determinar el tipo de filtro, acentuar la visualización o contextualizar mediante tooltips la información. Manipular directamente la información es una ventaja.
-
-Un ejemplo de ello, es la siguiente información: http://flowingdata.com/2008/03/12/17-ways-to-visualize-the-twitter-universe/
-
-en la que los usuarios representan la información de twitter a través de herramientas interactivas de visualización.
-
-http://yoan.dosimple.ch/blog/2007/05/17/
-
-De acuerdo con Tufte (Tufte, 200), la excelencia de la representación gráfica de datos consiste en que ideas complejas se comunicen con claridad, precisión y eficiencia.
-
-Examinar los datos o, lo que Ben Fry determinar como el análisis de los datos. Joel Laumans insiste en que toda visualización responde a una pregunta en relación a una información. Conocer esta información, saber las relaciones que hay entre las variables, el cómo se organizan y qué es lo que necesita ser comunicado será básico en el éxito del trabajo.
-
-El tipo de pregunta que nos formulemos implicará definitivamente el tipo de representación a elegir: la evolución de una empresa en el tiempo corresponderá a una línea en el tiempo; la densidad de población implicaría una representación geográfica antes que otra solución.
-
-
-##Caso de estudio: tag cloud
-
-Improving Tag-Clouds as Visual Information Retrieval Interfaces [PDF]
-
-Un ejemplo de solución al problema del exceso de información, que fue adoptado rápidamente por la mayoría de páginas web que clasificaban los contenidos en base a un sistema flexible de etiquetas, es el sistema de representación conocido como Tag Cloud, nube de etiquetas.
-
-A diferencia del sistema tradicional de clasificación en carpetas, siguiendo la metáfora del escritorio, se consideró una alternativa más flexible y ágil de ordenar los contenidos, el etiquetaje. Mediante el uso de etiquetas, los usuarios clasifican la información con total libertad, ajustándose al signifcado del contenido según el criterio del sentido común. La actividad de ordenar la información mediante etiquetas resulta ser más espontánea y próxima al usuario que otros sistemas de organización fuertemente jerarquizados, como las taxonomías, donde el usuario debe forzar la categoría de un contenido.
-
-La rápida acumulación de etiquetas en páginas web donde la publicación de contenidos es intensa originó el sistema de nubes de etiquetas. Este sistema debía cumplir dos funciones:
-
-  * Permitir a los usuarios conocer qué etiquetas clasifican el mayor número de contenidos de la página web y, por lo tanto, una suerte de zeitgeist de la información.
-  * Establecr una metodología sencilla de navegación y adquisición de la información a través del espacio de etiquetas, de tal manera que ofreciese nuevas rutas en la adquisición de la información.
-
-
-### Del Tag Cloud al Wordle
-
-http://www.wordle.net/
-
-## Mashups 
-
-Un mashup es una aplicación web que remezcla información o datos de dos o más servicios web con la intención de crear un servicio nuevo o representación diferente. John Musser, creador de la web "Programmable Web" enumera un listado de APIs disponibles para utilizarlas en la creación de mashups. Algunas de estas APis estan diseñadas para ser utilizadas en páginas basadas en la tecnología AJAX -páginas que usan Javascript para intercambiar el XML- basadas en peticiones asíncronas con los servidores de estas APIs, actualizando los contenidos según sea la petición.
-
-Los Mashups se sirven de la tecnología web y de las APIs de terceros con el fin de construir una nueva web. En parte, esta tecnología ha permitido representar la información que guardan los servidores de Google, Yahoo, Twitter de una manera no pensada cuando se lanzó el servicio original. Los Mashups en este sentido representan un paso hacia la llamada Web Semántica, es decir, cuando los datos, al agruparlos, remezclarlos con otros y, finalmente, representarlos, adquieren un significado nuevo y alumbran un conocimiento oculto hasta entonces.
-
-http://www.programmableweb.com/howto para comenzar a tener una ligera idea de lo que escribo
-
-
-El clásico mashup Chicago Crime (chicahocrime.org o el actualizado http://chicago.everyblock.com/) muestra la manera de cómo recopilar una extensa colección de datos y revelar significados o dar sentido a toda esa colección de información mediante el uso de interficies gráficas (el uso de mapas de Chicago gracias a la API de Google Maps) que nos permitiran comprender la información. En su defecto, la policia de Chicago proporciona los datos mediante hojas de cálculo, pero fue gracias a la representación de mapas que la información adquirió un nuevo significado, más accesible para todos y por lo tanto de un mayor uso y comprensión de la información. 
-
-Un ejemplo del potencial es la representación de la información generada por los usuarios de Twitter a través de mashups. Según cuenta programmableweb, hay registrados 141 mashups: http://www.programmableweb.com/api/twitter/mashups, del ya popular Twittervision a http://www.programmableweb.com/mashup/twitter-top-news-trends 
-
-
-Para cuando entonces mashups que gestionen la información personal y, por lo tanto, controlemos el exceso de información ya no mediante una observación precisa del detalle sino relevadora de la imagen general. Es decir, un mashup que remezcle nuestro correo, nuestro trabajo diario con los documentos, los servicios web a los que estamos suscritos, participamos, etc,...
-
-Esto podría enlazarse con el artículo [[http://flowingdata.com/2009/04/07/a-perfect-personal-data-collection-application/|A Perfect Personal Data Collection Application]]
-
-El incremento de nuestra actividad en la web, de especial interés en aquella información que recogemos, publicamos o compartimos con otros usuarios. En la actualidad encontramos una serie de herramientas online de tracking sobre alguna actividad específica: cuánto tiempo pasamos delante del ordenador, cuánto dinero gastamos a la semana, cuánto pesamos, etc.  No deja de resultar evidente la limitación que supone evaluar sólo una actividad, independiente de otras variables que afectarían en mayor o menor medida el resultado de aquel. Estas herramientas no pueden siquiera compararse con el tracking de la información generada por la redes sociales como Twitter o Facebook. Según Nathan de Flowing Data remarca que estas posibles herramientas que gestionen la información personal no deberían aumentar el exceso de información, todo lo contrario, una nueva estrategia o una nueva perspectiva de nuestra propia imagen. El individuo como un Mashup?
-
-### PIM ¿Pesonal Information Mashup? 
-
-Dejemos definitivamente la gestión por la remezcla. El nuevo escenario podría ser una suerte de RIA (Rich Internet App) que remezclara la actividad personal, la profesional y la social, y que sincronizara con los diferentes dispositivos que generalmente trabajamos. Una suerte de FriendFeed que registrara además los documentos, correo, aprovechando las APIs abiertas de cada uno de los servicios.
-
-De hecho, EventBox es un primer paso hacia una experiencia más efectiva y eficiente en cuanto agrupa algunos de los servicios más populares en una única aplicación: Google Reader, FriendFeed y Twitter. 
-
-Por otro lado, la información personal es susceptible de ser estudiada y, por lo tanto, convertirse en objeto de análisis de la documentación o una disciplina conocida como _Personal Data Mining_.Un escenario de este tipo sería el caso del cliente de correo electrónico y la promesa de algunos servicios de guardar los mensajes, tanto enviados como recibidos que garantizan y permiten una radiografía de los temas tratados, contactos, que tópicos se repiten con mayor frecuencia, luego se podrían hacer análisis de perfil de los contactos en función de los temas tratados. De esta manera, contextualizar el perfil del remitente en función de mensajes anteriores.
-
->What I’m referring to as “personal data mining” here is not finding personal information about yourself or others, but looking back at things you’ve done (blogging, bookmarking, anything else) and trying to find meaning through visualization or other reconfiguration of the material. [Ericka Menchen, Personal data mining - reading the entrails](http://blog.erickamenchen.net/2005/10/18/personal-data-mining-reading-the-entrails/)
-
-Siguiendo el ejemplo del cliente de correo, [21  ways to visualize and explore your email inbox](http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/) Nathan explora las diferentes representaciones en diferentes agrupaciones según su tratamiento: exploratory, analytic, mapping, metaphor, networks, and abstract. 
-
-A nivel de exploración, la visualización de la bandeja de entrada según el volumen de mensajes, las relaciones entre nosotros y los remitentes según un tópico o expresión. 
-
-Analítico a nivel cuantitativo. Proyectar sobre un mapa geográfico el volumen de mensajes de entrada (supongamos que trabajamos en un proyecto y queremos valorar geográficamente qué zonas han respondido con mayor frecuencia y número de mensajes a nuestra propuesta; con cuál de estas ha habido mayor interactividad). 
-
-Metáforas visuales, donde se recurre a la bandeja de entrada como motivo estético o siguiendo los gráficos circulares que ahonden en las relaciones entre remitente
-
-[I devised a multicolumn layout for visualizing discussions and described it in a workshop paper in 2005](http://zesty.ca/threadmap/)
-
-## Herramientas para la visualización
+  * http://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
   
-En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas con la finalidad de proporcionar un DSL (Domain Specific Language) gráfico a artistas y diseñadores. 
 
->Un DSL, según la Wikipedia, corresponde a un lenguaje de programación que responde a un problema específico. En el escenario de la representación gráfica
+Kebin Kubasik, desarrollador del indexador libre [Beagle](http://beagle-project.org/Main_Page) ([2008](http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/)) en _The Reality of Semantic Desktops: Death To Tags, Labels and Folders_ defiende un nuevo escritorio que, definitivamente, ponga punto y final a la metáfora del escritorio tradicional, que rompa la sinergia de continuar la tradición de establecer jerarquías de directorios, categorías, etiquetas, distintivos de color y cualquier otro emblema visual con fines organizativos. Toda práctica de clasificación de la información personal y profesional siguiendo este modelo termina en fracaso
 
-<code>	
-	size(400, 400); 
-	background(192, 64, 0); 
-	stroke(255); 
-	line(150, 25, 270, 350);
-</code>
-	
+>how many people actually keep their address book completely updated? Or tag all their photos, or keep every document in the right folder? Even those who are vigilant eventually fall behind, and that’s because users already know what the material they are filling is, but still have to spend time explaining to the computer which items are related and where they belong. 
 
+y defiende dos líneas futuras de un posible espacio de información personal: los buscadores, que si bien pueden ser eficientes a nivel textual, ¿cómo serlo en contenidos audiovisuales? ¿mediante el uso de etiquetas?
 
-### Processing, Nodebox y Context Free Art
-En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas en el 2001 con la finalidad de proporcionar unas librerías gráficas para el diseño y artistas desde una visión artística._Processing is the first full-featured programming language and environment to be created by artists for artists_ Ira Greenberg (2007). 
+>a million and one more ways for me to catalog and store my data, but when I’m actually looking for something the tags never seem to help much
 
-Processing no es único en su campo y otras soluciones, quizá no tan populares, han ido ganando aceptación. El caso de NodeBox y ContextFree son claros ejemplos donde el primero es una solución basada en el lenguaje de programación Python y fuertemente dependiente del entorno MacOS. Processing y NodeBox comparten el origen (MIT) como el planteamiento de "state machine" máquina de estados, que facilita la comprensión del lenguaje al profano y le introduce en el arte de programación. No son tampoco una novedad en su planteamiento y la figura de la tortuga del Logo de la década de 1980 es un ejemplo.
+Esta denuncia de las limitaciones del uso de etiquetas como vía de recuperación de la información es un recurrente que más tarde que temprano aparece en la clasificación de entradas de servicios sociales. Situación que Enrique Dans ([2008](Los límites de las folksonomías)) supo exponer con claridad al tomar como referencia la problemática en evitar al buscador resultados de "falsos-positivos y falsos-negativos" (Encinar, [2008](http://www.jesusencinar.com/2008/12/rediseño-de-11870com.html)) [11870.com](http://11870.com) en presentar un sistema mixto de organización: convivencia entre la vieja guardia de las categorías y sistema flexible de etiquetaje social. La contundente afirmación de Jesús Encinar, CEO (*Chief Executive Officer*) de [Idealista.com](http://www.idealista.com/pagina/portada) al hablar del rediseño de 11870.com 
 
-Context Free Art es la proyección gráfica del Context Free Grammar. 
+>Con el tiempo hemos visto que 2.500 años de historia de las bibliotecas no están equivocadas.
 
-Sirva de ejemplo el [SCIgen - An Automatic CS Paper Generator](http://pdos.csail.mit.edu/scigen/), basado igualmente en el Context Free Grammar 
+Se castiga así a la _folksonomía_ por la deriva de "inconsistencias, sinonimias, homonimias, polisemias o, en general, la falta de homogeneidad y de coherencia." (Dans, 2008). Esta apariencia caótica de clasificar la información espanta a puristas de la ontología y a quienes ven el sistema colectivo de etiquetaje una camino sin retorno a la nulidad organizativa (?). Antes de alcanzar este fatídico escenario lleno de inconsistencias, no hay pocas voces de ayuda en relatar buenas prácticas del _tagging_: http://tagamac.com/2007/07/best_practices/ en las que los consejos pasan por utilizar siempre los nombres en singular, escribir en minúscula y, en especial, nombre cortos, simples y fáciles de recordar. 
+
+Se hecha de menos un modelo orientado a objetos en el que unas etiquetas sean descendientes de otras:
+
+<code>tabs, javascript, jquery, html, css, web, tutorial</code>
 
 
-###Caso de estudio: Many Eyes & The New York Times & Processing 
+<code>tabs < javascript, jquery, html, css < web, documentación > tutorial</code>
 
-[Many Eyes](http://manyeyes.alphaworks.ibm.com/manyeyes/page/About.html) es, en palabras de sus desarrolladores, una aplicación web asentada en la capacidad de la inteligencia visual en encontrar patrones a partir de una fuente de información. El objetivo es _democratizar la visualización y proporcionar nuevas herramientas sociales de análisis de la información_,luego sería motivo de debate y de adquisición de nuevos conocimientos de la información representada. La cuestión estética de la representación dejaría paso a una percepción intelectual de la información. Many Eyes establece seis categorías que agrupan diferentes sistemas de representación según la metodología del análisis. Esta categorización no es muy diferente de la mencionada más arriba:
-
-
-* Relaciones entre puntos de información (Diagramas de redes, ScatterPlot y Matrix Chart) 
-* Comparación entre un conjunto de valores (Gráfico de burbuja _Bubble Chart_, Histogramas, Gráfica de barras)
-* Registro de alzas y bajas a lo largo de un tiempo (gráfica de líneas y de pilas)
-* Observación de las partes de un todo (TreeMap, gráfica de pastel _Pie Chart_)
-* Analizador de texto (Tag Cloud, Phrase Net, Wordle)
-* Mapas, geolocalización de la información.
-
-Este interés en la democratización de la visualización de la información no ha quedado relegada a un ámbito de laboratorio universitario. El diario The New York Times impulsó el año pasado, desde su versión digital, un espacio específico donde los lectores pudieran utilizar Many Eyes y la API del diario y representar la información relativa a la actualidad. Si los comentarios a los artículos publicados en la versión digital del diario como la sección de los lectores aportan una información propia y complementan la de los periodistas, las representaciones y los posibles debates alrededor de las mismas pueden sumar a la información escrita del diario y aportar un enorme valor social. Tomemos como ejemplo el [discurso de inauguración de Barack Obama](http://vizlab.nytimes.com/datasets/barack-obamas-inauguration-address-2/versions/1). La fuente de información es un texto plano, sin ningún formato que pueda distraer técnicamente el análisis. Los usuarios toman esta información y, a través de Many Eyes, eligen un método de representación y, finalmente, publican el resultado. Si todavía su popularidas no es excesiva y el conjunto de la propuesta no ha "arrelado", sí en cambio comprobamos que representaciones como el "Wordle" han tenido una buena acpetación, pero quizá en mayor grado debido a cuestiones estéticas que no provovadoras de un debate. ¿Falta de educación visual?
-
-Acompaña a Many Eyes Swivel, otro servicio que mezcla los tres componentes: explorar y analizar la información a través de su representación; compartirla y subir la información relevante y, por lo tanto, susceptible de generar un debate como la creación. Un ejemplo sería la información relacionada con los [accidentes aéreos ocasionados dede 1918](http://www.swivel.com/data_sets/spreadsheet/1018156). pero que sólo informan del número de accidentes y fallecidos, pero no especifican el lugar, compañía, recorrido, lugar del accidente, y una categorización por etiquetas que los clasificara según el problema que oirginó el accidente (error humano, técnico, atentado, fortuito,...) 
-
-* http://www.research.ibm.com/visual/
-* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/
-* http://vizlab.nytimes.com/
-* http://blog.blprnt.com/blog/blprnt/nytimes-prints-for-sale-files-for-free
-* http://www.flickr.com/photos/blprnt/sets/72157613381549987/
-* http://piksels.com/introduction-to-visualizing-data/ 
-* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
+Es decir, se establecen jerarquías de etiquetas como la anterior sintaxis, en la que, por ejemplo, clasificamos la información mediante etiquetas pero añadimos una sintaxis simple de jerarquización, del detalle al general.
 
 
 
-##Matar al PowerPoint
 
-* http://www.presentationzen.com/presentationzen/2009/05/making-presentations-in-the-ted-style.html
-* dataspora.com
+No es un debate nuevo ni la elección es una novedad. Rashmi Sinha en *Findability with tags: Facets, clusters, and pivot browsing* ([2006](http://rashmisinha.com/2006/07/27/findability-with-tags-facets-clusters-and-pivot-browsing/)). El uso de bloques o agrupaciones -*facets*- de etiquetas que tengan y compartan un significado común 
 
-## Referencias
+>For example, you might start by looking at wines from a particular region. Next, you decide to view by price. If you don’t like that option, you can change the facet, and start looking by type. You are in control every step of the way. In many ways, this could be the holy grail for tagging systems.
 
-* http://github.com/mojombo/primer/tree/master
-* http://www.aaronkoblin.com/work.html
-* http://raphaeljs.com/
-* http://code.google.com/intl/en/apis/visualization/
-* http://flowingdata.com/2009/04/21/visual-representation-of-tabular-information-how-to-fix-the-uncommunicative-table/
-* http://flowingdata.com/2009/03/20/data-visualization-is-only-part-of-the-answer-to-big-data/
-* http://www.vectart.com/esp/indexsp.htm
-* http://blog.vectart.com/?p=101
-* http://flowingdata.com/2009/01/15/flow-chart-shows-you-what-chart-to-use/
-* http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html
-* http://visualcomplexity.com
-* http://www.timshowers.com/web-design-blog/
-* http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/
-* http://infosthetics.com/
-* http://blog.thejit.org/javascript-information-visualization-toolkit-jit/
-* http://blog.thejit.org/2008/11/27/using-ocaml-to-visualize-radioheads-hoc-music-video-part-1/
-* http://vis.stanford.edu/protovis/
-* http://www.visophyte.org/blog/
-* http://www.math.yorku.ca/SCS/Gallery/milestone/index.html
-* http://magicalnihilism.wordpress.com/2009/04/03/data-as-seductive-material/
-* http://www.flight404.com/blog/
-* http://netdiver.net/10years/artists-and-their-apps-by-doc-woohoo
-* http://vizlab.nytimes.com/
-* http://piksels.com/introduction-to-visualizing-data/
-* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
 
+Sigue la opción de creación de *clusters* y recomendaciones. Aunque diferentes, guardan parecidos a nivel de experiencia del usuario. Un ejemplo de éxito del uso de *clusters* el de Flickr. Rashmi dibuja la secuencia: en un principio, las listas de ítems; segundo, las nubes de etiquetas, como lista con esteroides según el uso recurrente de algunas etiquetas; y por último, cuando la información es excesiva, la navegación por estas resulta impracticable. 
+
+
+Quizá la solución pase por la contextualización de la información como sistema de clasificación. Si las etiquetas y las carpetas han ayudado a rebajar el efecto conocido por *cluttering*, no es así cuando he de recuperar una información precisa que he guardado. Y repetimos, no sólo nos referimos a un documento, sino puede ser incluso la recomendación de una canción por parte de una amiga en un chat. Esto implica el uso de la narrativa como ayudante o metainformación. No nos ayudamos sólo de palabras exactas sino de historias, luego una búsqueda por la historia podrá ayuderme o no a encontrar la información...  Por ejemplo:
+
+Marco -realizo un _commit_- un documento de texto, por ejemplo, como objeto de información de interés (no todo lo que almaceno, guardo, hablo ¿es de interés?). El contenido lo parsea y enlaza el documento con una historia, la del contenido con el contexto en el que estaba trabajando (emails, chats, blogging, tweets), hay un track también del uso del mismo, referencias externas al mismo... luego, cada commit representa una actualización de la historia o información contextual del mismo. Quizá de esta manera podrían ligarse meta historias o enlazar a otras, luego ya no encontramos un documento, sino todo lo ligado a este y, por lo tanto, navegar por esa información. 
+
+[2009](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/)
+
+Es decir, si el espacio personal de la información, sus límites se difuminan al compartir parte de aquella con otros usurios, la organización de aquella será parte de la misma, es decir, del relato que haya entre los usuarios que participaron en ella. 
+
+Según el autor del anterior artículo a la gente nos encanta contar historias, explicarlas a los demás. Por el contrario, no nos gusta organizar y clasificar la información. Siempre recurrimos a los buscadores, sea un buscador de la web o de escritorio, para recuperar la información. Todos los ayudantes que se han ido incorporando en facilitar la tarea de organizar (etiquetas, emblemas visuales, redimensión de los iconos,...) y clasifcar la información ha servido de poco si comprobamos que la frontera entre lo social y lo privado (entre la nube y mi escritorio) se ha desdibujado por completo; si el número de dispositivos donde guardo información es superior a mi capacidad de sincronizarlos; cuando la información personal no es exclusiva de un tipo especial de archivo o documento: todo es suspcetible de ser relevante y, en algunos casos, forma parte de un flujo de información continuo (chats, microblogging, MSM,...), no estático.
+
+
+## Intro?
+
+
+
+Laura está preparando una actividad de formación interna en la que uno de los recursos es una lista de marcadores web. 
+
+Laura ha recopilado la lista de recursos en un documento de texto. También ha pensado en la opción de colgar la información en una página web. Si proporciona un documento de texto (del formato .doc o .odt) se encuentra con los siguientes problemas:
+
+* Ha de realizar tantas copias como asistentes a la actividad de formación. Este obliga a que los asistentes proporcionen su correo electrónico.
+* Si el documento está encapsulado, (.pdf), una modificación requerirá un mayor trabajo si no se tiene a mano una editor de documentos PDF.
+* La transmisión es unidireccional. Laura no tiene ningún medio de recibir y organizar la interacción de los participantes sin que acabe en un perfecto caos. Sólo que uno o una de los participantes del curso añade un nuevo marcador al documento, éste debería enviárselo a Laura y, a continuación, Laura debería reenviarlo al resto del grupo. Imaginemos por un momento si en lugar de una modificación contamos diez u once.
+* El último apartado nos recuerda que Laura debe enviar el archivo adjunto según el número de participantes. Si el grupo de trabajo lo integran dieciséis personas, representa dieciséis copias más una (la de Laura). A partir de ese momento ¿qué tipo de estrategia debería seguir Laura para conocer cuál es el documento original y cuál es la copia? ¿Cuál de las dieciséis copias representa la versión definitiva? Si como hemos explicado antes se realiza un cambio o se añade uno o varios marcadores nuevos, ¿cómo notificamos estos cambios a los demás?
+* Es un sistema acumulativo de la información: se basa en una clasificación muy primitiva, por temática. ¿Qué ocurre si un recurso pertenece a dos o tres temáticas diferentes? ¿Debe duplicar o triplicar la información del recurso?
+* Para terminar, Laura sabe que, una vez terminada la actividad, el documento quedará automáticamente obsoleto para los participantes si Laura no realiza el esfuerzo de enviar copias actualizadas a los asistentes cada vez que realiza un cambio. Esto último resulta incluso molesto todavía más si lo único que conseguimos es aumentar la bandeja de entrada del cliente de correo.
+
+Por otro lado, Laura valora la alternativa de publicar los enlaces en una página web. De hecho gana una serie de ventajas frente la realización de un documento de texto:
+
+* El contenido es accesible desde cualquier ordenador, independiente del sistema operativo o exclusivo de un determinado procesador de textos. Los participantes sólo necesitan un navegador.
+* Evita tener que enviar adjuntos a los correos de los participantes. Puede adelantar la información enviando un correo con la dirección de la página web donde ha publicado la lista de recursos o esperar al primer día de la actividad y proporcionar la dirección escribiéndola en la pizarra.
+* A partir de entonces, los participantes ya saben donde pueden consultar la página de los recursos a lo largo de la duración del curso como una vez finalizado.
+* Si alguno o alguna de los participantes desea corregir o añadir un nuevo recurso, debe primero comunicárselo a Laura y, seguidamente, modificar la web. Esto implica un total de 2 ó 3 mensajes de correo (1. notificación del cambio 2. notificación del cambio). 
+* Siguen habiendo un problema de participación: Laura se sitúa en el centro donde convergen y pasas todas las incidencias de cambios, actualizaciones de la página de recursos. 
+* Laura ha publicado el contenido de los enlaces en una página estática.(y?) luego deberá tener un mínimo de formación de creación de páginas web (lenguaje HTML), transmisión de ficheros desde su ordenador al servidor, etc.
+* Si ha mejorado el trabajo que lleva la gestión del documento, esta vez publicado en web, de los recursos de la actividad, Laura considera que todavía es ineficiente. ¿Por qué?
+* No se ha solucionado el problema que supone centralizar la publicación del documento y, por lo tanto, el coste de mantenimiento/edición y actualización del documento.
+* Lo anterior tampoco no proporciona un sistema eficiente de catalogación de los recursos.
+* También Laura insiste que no tiene horas para aprender a crear páginas web. Le recuerdo que no es problema. En la actualidad hay varias aplicaciones libres que te permiten crearla sin problemas. Incluso puedes probar servicios como http://www.weebly.com/ que te ayudan a crear una página web en cuatro pasos.
+
+
+
+## Organizar, clasificar, ordenar la información. 
+
+Clasificar la información es un acto puramente ontológico. Clasificamos la información para comprender la información que tratamos a diario o puntualmente. Si estamos preparando un viaje, diseñamos una clasificación de la información según las propiedades de cada uno de los elementos que participen en la descripción del viaje. Ordenar esta información en carpetas y subcarpetas bajo nombres que identiquen el contenido de cada una de ellas es un taxonomía naïf donde el nodo raíz sería la carpeta o directorio con el nombre, por ejemplo, del viaje. De este nodo principal irían colgando los nodos de segunda categoría (carpetas de fotografías, documentos, mapas,...) y así sucesivamente (por ejemplo, del nodo "fotografías" podrían colgar los nodos que representan los días del viaje).
+
+
+### Taxonomías y ontologías 
+
+>This is something the ‘well-designed metadata’ crowd has never understood — just because it’s better to have well-designed metadata along one axis does not mean that it is better along all axes, and the axis of cost, in particular, will trump any other advantage as it grows larger. And the cost of tagging large systems rigorously is crippling, so fantasies of using controlled metadata in environments like Flickr are really fantasies of users suddenly deciding to become disciples of information architecture. 
+
+http://www.sifry.com/alerts/archives/000270.html
+
+
+Los metadatos, como indica su procedencia griega, son la tarjeta de identidad de un objeto de información. _Data about data_. 
+
+
+Cory Doctorow ([2001](http://www.well.com/~doctorow/metacrap.htm)) ya planteó muy acertadamente la inutilidad de los metadatos; en un escenario ideal, los metadatos proporcionarían la ayuda exacta para encontrar la información que estamos buscando, debido a que esta estaría correctamente identificada; es el lo que Cory Doctorow identifica con la _meta-utopia_, un estadio de la información en la que los metadatos son de una gran ayuda, imparciales y neutrales, pero ineficaces cuando se trata de un mundo en el que la gente _miente_. No olvidemos que las palabras de Cory Doctorow se escribieron en el 2001. De hecho, anticipa una realidad donde los metadatos se pervierten originando una realida informativa tóxica: tóxica debido al continuo _spam_ que va entrando en las bandejas de entrada, resultados de una búsqueda que no tiene relación ninguna con lo que estamos localizando; 
+
+¿Es posible mantener, actualizar y preservar durante un tiempo la actividad de clasificar la información con metadatos? Cory Doctorow determina que la gente es tremendamente vaga y estúpida; conservan los documentos con el nombre que la herramienta les asigna por defecto ("UNTITLED.DOC", las fotografías,...) o escriben mal, puntuan mal: ejemplo de ello sería "Plam Pilot", donde uno gracias a estas incorrecciones puede encontrar una auténtica ganga.
+
+Cory Doctorow alega que las jerarquías no son neutrales: _cualquier jerarquía de ideas necesariamente implica la importancia de algunos ejes sobre otros. 
+
+### Las etiquetas importan 
+
+http://www.sifry.com/alerts/archives/000270.html
+
+
+
+Cuando acumulamos demasiada información en la memoria del ordenador o de un disco duro externo, nos sentimos obligados a clasificarla, a ordenarla, con el fin último de recuperarla más tarde. En general, el sistema de organización personal que sigamos, entre intuitiva, flexible o rígida, siempre terminará encontrándose con el sistema de ordenación que nos proporciona el sistema operativo. Hasta el momento, la organización de los archivos (sean documentos de textos o imágenes) pasa por el sistema de carpetas (folders). Cada archivo estará asociado a unos metadatos, de los cuales el más evidente es el nombre del archivo (no necesariamente relacionado con el contenido del mismo).
+
+Con el tiempo, superponemos nuestra lógica de organización personal frente a la lógica del sistema de organización de carpetas y archivos que propone el sistema operativo. Pasado un tiempo, esta convivencia acaba resultando más o menos compleja y difiere sobretodo en la regularidad en la que clasificamos la información según pautas propias.
+
+* No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
+Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
+* El escritorio lleno o la visión del *clutter desktop*. Tanto que el fondo de escritorio (léase paisaje, foto de las vacaciones o familiar querido) se esconde detrás de la infinidad de carpetas o documentos. Se cree o piensa que el tener los documentos en el escritorio es sinónimo de tenerlos más a mano, como si de una pila de papeles se tratara (siguiendo la metáfora del escritorio). En realidad su visión resulta como mínimo estresante para un desconocido. Insostenible si pensamos que el número de documentos y carpetas crecen cada día. Las dos pantallas no son la respuesta a esta problemática. http://www.avesh.com/blog/DesktopZenReducingVisualClutterOnYourDesktop.aspx
+* Se utilizan un par o tres de carpetas como almacén de toda la información, lo que en poco tiempo se llega a una situación conocida por “clutter digital”. No se puede encontrar ningún fichero por el problema del “engordamiento”
+* La degradación de un sistema personal. Este es quizá el más generalizado. Se emprende el ejercicio de mantener una estructura pero con el tiempo se consigue sólo a medias. Esto se debe en gran parte al trabajo bajo presión de fechas de entrega o realización de proyectos.
+* Priorizamos una serie de archivos o documentos en los que estamos trabajando y, con el motivo de no perderlos de vista, hacemos la excepción de la regla de organización fijada previamente. El resultado es, al poco tiempo, un auténtico desastre: conviven una organización de archivos y la ubicación aleatoria de otros.
+
+No hay una solución definitiva a este problema, pero la mayoría tienen puntos en común:
+  
+* La carpeta base o raíz. Los tres sistemas operativos más populares tienen una y se identifica con un nombre bastante significativo: mis documentos (windows), documentos (mac osx). También han incorporado carpetas asociadas a un tipo de archivo (Películas, Música, Descargas, Imágenes,...)
+* Tomamos la carpeta asociada a “Documentos”. Descartamos todos los archivos de imágenes o películas o música, ya que corresponderían a las carpetas que reciben su nombre.
+Dentro de Documentos creamos un segundo nivel de carpetas. Nunca dejamos archivos sueltos en el interior de la carpeta “Documentos”.
+Las carpetas pueden tener dos tipos de organización: por temática (nombre de un proyecto) o año.
+* Los proyectos pueden tener un mínimo de organización lógica antes de ir dejando todos los archivos relacionados con el mismo y sufrir de nuevo un cierto cluttering. Tener carpetas como “old”, “
+
+Las aplicaciones incorporan la opción de recuperar los objetos de información que habitualmente recurrimos para continuar trabajando con ellos; es también el caso de los navegadores con las pestañas abiertas de la última sesión. Aún así los buscadores de escritorio tienen una especial utilidad, especialmente cuando hablamos de información que gestiona exclusivamente la aplicación, como es el caso de los clientes de correo.
+
+**Nota**: introducir aquí el tema de organización de los ficheros (Bit Literacy), los buscadores como Google Desktop o Spotlight
+
+
+
+Este sistema requiere una manera personal de clasificar los archivos. Primero se estima cuál es el espacio o lugar idóneo para ubicar los archivos según sea su tipo. Es relevante que las últimas versiones de los sistemas operativos vengan con unos directorios predeterminados asociados a la cuenta del usuario: Documentos, Música, Photos, Imágenes, Videos, Plantillas o incluso directamente el formato PDF. De esta manera insinúa al usuario cuál será el lugar más indicado. Sería una contradicción guardar documentos de texto en la carpeta de imágenes. Una segunda decisión viene después, cuando el contenido de las fotografías corresponden a diferentes temáticas, están tomadas en fechas diferentes, algunas son públicas, otras privadas.
+
+Mark Hurst, en su libro “Bit Literacy” nos sugiere la técnica de los “dos niveles”(pág. 84). Él es partidario de utilizar el sistema de organización de carpetas. El sistema de los dos niveles es realmente simple. Consiste en una primera organización por año (2003, 2004, 2005,…) y seguidamente, el segundo nivel de carpetas en la que sigue la convención mes - evento.
+
+Mark Hurst no es partidario de utilizar etiquetas. Considera que la práctica de etiquetar las fotografías requiere de un esfuerzo que, la mayoría de usuarios, no está dispuesto a asumir (pág 80-81). En general, muy pocos son los usuarios que sigan a conciencia un sistema rígido de clasificación y organización de los archivos. En general ni siquiera renombran las imágenes tal como estas salen por defecto de la cámara de fotos. Prueba de ello es que en Flickr nos encontramos a menudo con imágenes amateur con nombres como “DSCN…” y un largo número. Estos usuarios ni clasifican las imágenes, ni siquiera las nombran. Ni mucho menos las etiquetan,.
+nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search/?ss=2&ct=6&w=all&q=dscn0001&m=text comprobaréis cómo un número elevado de usuarios no renombran las fotografías que suben. De hecho se cuenta hasta 17.582 resultados de imágenes de idéntico título.
+
+
+## Exceso y sobrecarga de etiquetas
+
+>But if you look closer, you can see massive redundancy and disorganization. There are tags for brandenthusiasts, branding and brands. Separate ones for forum and forums. And a run of social media related ones that include no fewer than sellingsocialmedia, socialbookmarking, socialmedia, socialmediamarketing, socialmediameasurement, socialmediarelease, socialmediaroi, socialmediastrategy, socialmediatools, socialnetworking and socialnews. Oh, and there are separate entries for business, CEO and corporate. Jason Falls ([2009](The Practical Guide To Content Tagging In Social Bookmarking))
+
+
+Mira a este: http://delicious.com/earth2marsh?ubtags=off 4563 etiquetas!!!
+
+### Etiquetas vs. Carpetas 
+
+La clasificación de nuestros archivos en el disco duro se ha basado en la metáfora de la vida real. Organizamos facturas, documentos legales, apuntes en carpetas y subcarpetas. No es extraño que practiquemos lo mismo. Aparte de simple contenedores, las carpetas también se presentan como la primera estructura de un proyecto personal. Carpetas y subcarpetas anidadas le siguen una convención personal de cada nombre de la carpeta. Pequeños hacks de las carpetas, especialmente a prefijos con números y letras para forzar uno u otro orden.
+
+>In traditional file hierarchies, the user can only provide simple annotations. For example, people must name their folders and files. They may optionally specify additional information, such as a short text comment or a highlight color, which are stored as file system metadata. Other annotations are automatically supplied by the system, including the icon associated with the file type, the date the file was last modified, and, perhaps, a thumbnail view of the file’s contents. The problem is that these annotation capabilities are extremely limited, given the volume and diversity of files that most individuals must manage. (...) So, while file browsers are excellent for allowing people to create, modify, move, and delete files, they provide 
+extremely limited tools for annotating these artifacts. 
+Stephen Voida & Saul Greenberg. WikiFolders: Augmenting the Display of Folders 
+to Better Convey the Meaning of Files 
+ 
+
+
+La estructura de directorios y ficheros revelan un significado y la relación entre los archivos que la contienen. Una buena estructura es susceptible de se reutilizada, no en cambio otra que es un caos! Pero, una estructura, por ejemplo, de un proyecto, es posible reutilizarla. Todos los proyectos son iguales. Si bien la organización de un viaje resulta 
+
+El problema sigue siendo el mismo: el día a día nos hace ser más flexibles con nuestras propias reglas o tareas repetitivas. Dejamos de seguir la convención con la que ordenábamos las carpetas, la numeración, vamos dejando los archivos en el Escritorio, más tarde los desplazamos a lugares equivocados, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta fatiga degrada el sistema de organización de los documentos, lo que ocasiona que, al cabo de un tiempo (no muy largo), no encontremos los archivos si quiera en nuestro ordenador.
+http://www.uxmatters.com/MT/archives/000271.php
+Quizá el origen de todo sirvió en cuanto a que el ordenador seguía la metáfora del escritorio: guardábamos documentos de texto, hojas de cálculo y fichas de datos. El problema es cuando el ordenador ha dejado de ser la metáfora del escritorio. Ahora mismo guardamos:
+
+* Documentos de texto
+* Hojas de cálculo
+* Correo electrónico
+* Presentaciones
+* Mensajería instantánea
+* Calendarios / Eventos 
+* Enlaces
+* Música
+* Videos
+* Imágenes (capturas de pantalla, fotografías, imágenes de la web,…)
+* Ilustraciones
+* Notas/Clips
+* To-do
+* Serial numbers
+* Contraseñas
+* Contactos
+* referencias de libros
+* ...
+
+El problema aumenta en cuanto perdemos la metáfora del escritorio y nuestra actividad profesional traspasa los límites tradicionales de la información personal. 
+
+
+### La lección de Delicious
+
+Joshua Porter ([2006](http://bokardo.com/archives/the-delicious-lesson/)), autor de _Designing for the social web_(2008) acentúa el orden de la secuencia: el valor de la información personal precede a la información de la web. Prueba de ello es el enorme éxito de Delicious y su sistema flexible de ordenación de los marcadores por etiquetas. Porter relata el escepticismo de Yahoo! (http://blog.searchenginewatch.com/blog/050322-163753) y comprobar poco después que las etiquetas no funcionan como sucedáneos o una suerte de metadatos, parte del mal funcionamiento de los buscadores siguiendo los principios de una taxonomía de la web basada en metadatos.
+
+¿Dónde reside el valor de la acción de _tagging_, de clasificar libremente la información por etiquetas? A diferencia de las etiquetas como metadatos, que no aportan ningún valor personal, sino de _atención_ para los buscadores, el valor de las etiquetas de Delicious es la de proporcionar un valor personal por cada vez que un usuario los utiliza para recuperar o descubrir un marcador. 
+
+###Etiquetas para llamar la atención o como valor personal
+
+
+
+
+
+## Entre el escritorio y la nube
+
+
+La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
+Hay intentos como http://www.plaxo.com/ o http://www.airset.com/AirSet.jsp#app.Home
+
+
+
+Quizá una solución posible pasaría por un sistema de lifestreaming online/offline (RIA?). Veamos un ejemplo:
+
+  * Acabo un documento de texto en el escritorio. Si creo necesario, lo subo mediante un cliente RIA a mi espacio de lifestreaming. Este cliente podría trabajar offline, esperando a que, una vez sincronizado con la nube, suba los cambios. En realidad se registra la localización del documento, versión y etiquetas. De esta manera, en la línea de “vida” tienes archivado. 
+  * Pueden tener perfiles de privacidad
+  * Incorporar servicios web 
+  * Puedes publicar o referenciar documentos, los primeros tienen un límite de espacio
+  * Puedes agrupar documentos tomando como referencia un directorio/carpeta 
+
+Una parte de nosotros ha comenzado a considerar la subida de este tipo de archivos a la red en lugar de estar repartido en un ordenador. Quizá el problema más serio viene con los documentos ofimáticos que tienen relación con la realización de un proyecto.

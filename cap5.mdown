@@ -1,82 +1,182 @@
-# RSS Overload 
+# ¿Cuál es la versión correcta? 
 
->I’m a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. (( Mark Frauenfelder, Rule the Web (2007) ))
+En la redacción de un documento en el que participan varias personas se establece la vieja metodología de trabajo divide y vencerás Los participantes deciden qué parte del documento desarrollaran. De esta forma, nadie pisará el trabajo del otro y no se incurrirá a incongruencias al final del proceso. Esta modalidad también incluye un baremo de evaluación del trabajo de cada uno. El trabajo final es una suerte de suma de las partes. Si a primera vista esta estrategia parece idónea, una visión más detenida nos informará que:
 
-Atención: http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia
+* El resultado es irregular a varios niveles: no es homogéneo a nivel estilístico.
+* La calidad resulta irregular
+* La información queda fragmentada y dispersa.
+* Los participantes deben coincidir en utilizar idénticas tecnologías  (???)
+* Resulta muy difícil la tarea de coordinar estos proyectos debido a la fragmentación de la información. 
+* Resulta difícil gestionar las sucesivas actualizaciones del documento.
+* Se establece una comunicación unidireccional con la coordinación del proyecto. La coordinación deja de realizar tareas de coordinación y las sustituye por otras que intoxican su trabajo.
 
+El problema fundamental se manifiesta cuando quienes participan en el desarrollo del documento intentan revisar cambios anteriores. ¿Quién ha realizado este o aquel cambio? ¿Cuándo se realizó la modificación? ¿Podemos recuperar una versión anterior del documento previo a la modificación? Y una vez terminada la redacción, ¿quién y cómo se encargarán las futuras actualizaciones del documento?
 
-Antes de la explosión generalizada de los blogs, los propietarios de páginas web informaban a los visitantes de novedades, modificaciones o simplemente que estaba en proceso de creación mediante advertencias visuales. Esta alertas estaban representadas por pequeños iconos animados (los gif animados) en forma de banderines rojos, bolas que cambiaban el color y, en el peor de los gustos, alguna figura humana practicando un gesto obsceno. Los usuarios guardábamos en la carpeta Favoritos del navegador los marcadores de las páginas de interés con el objeto de, más adelante, verificar si habían publicado nuevas noticias o actualizado la información. El problema surgió cuando el número de marcadores crecía sin deternerse y el tiempo que dedicábamos a averigurar si habían novedades era incluso mayor. Ya no era sólo averiguar si había o no una actualización del contenido; también se necesitaba un cierto esfuerzo en localizarla.
+## Gestión de las versiones 
 
-Manternerse al día de la actualidad de la web resultaba caro en cuanto a tiempo y dedicación.  Una alternativa a este proceso interminable representó la suscripción, emulando el sistema tradicional de revistas y periódicos. Si estaba suscrito, la información actualizada, la novedad o la publicación de una noticia vendría a mí a través de un e-mail. No venía el contenido total de la noticia o novedad, sino generalmente el anuncio de la misma. 
-Este escenario incurría a varios problemas:
+Versionista: http://eliax.com/index.php?/archives/5041-Versionista-y-WayBackMachine-detectan-cambios-en-paginas-web.html
 
-  * Aumentaba el número de mensajes en la bandeja de entrada.
-  * Dispersión de la información. Recuperar más tarde la información era una tarea ardua. 
-  * Obligaba al usuario a consultar el contenido en la web, lo que significaba dejar  el cliente de correo, ir al navegador y visitar el enlace de la web.
-  * A medida que los blogs se fueron haciendo más populares, la necesidad de adoptar un sistema de subscripción más eficiente que permitiera a los usuarios
-  * recibir el contenido de la noticia, no una alerta de novedad.
-  * concentrar la información de las subscripciones.
-  * alejar definitivamente las subscripciones de la bandeja de entrada.
+Este escenario se agrava más todavía si una metodología de desarrollo de la documentación personal y, especialmente, colectiva, no permite de manera transparente la reutilización de los contenidos. Es probable que un mismo contenido se escriba más de una vez en organizaciones en las que las unidades que la conforman generan la documentación en la más pura de las invisibilidades; se hablaría de unidades estancas aunque las separe físicamente apenas un metro de distancia entre ellas. La duplicación y la triplicación de los contenidos tiene un efecto desastroso en la productividad de la organización como manifestar abiertamente las incoherencias internas. De hecho, es posible que un único mensaje se represente, se escriba o se transmita de varias maneras, en parte por culpa de una tipología de la gestión de la información unidad-centric. 
 
-se volvió urgente. Finalmente se decidió adoptar un antiguo formato conocido por el acrónimo RSS, que significaba Really Simple Syndication. Este formato tenía unas características generales que resultaron fundamentales para su uso generalizado:
+## Wikis 
 
-  * Formato estandarizado
-  * Contenía el contenido de la noticia
-  * Contenía metainformación como la fecha de publicación y autoría.
-
-Aún conociendo las ventajas que suponía un uso generalizado del RSS, es todavía un acrónimo desconocido para la mayoría de usuarios. En general convive con la práctica de ir visitando las páginas, una tras otra, para consultar las novedades o el envío de un boletín informativo si pensamos en la información interna de una organización, sea pública o privada.
-
-## El lector de RSS 
-
-A medida que el número de páginas que permitían la sindicación aumentaba, en parte a servicios como Blogger que facilitiban en menos de tres clics comenzar a publicar en un blog, se hizo patente la necesidad de un lector o herramienta que gestionara las suscripciones. Hubo tres visiones:
-  
-* La visión _e-mail-centric_, es decir, como una funcionalidad nueva del cliente de correo y, por lo tanto, incrementaba la acumulación de información en dos frentes, el de la bandeja de entrada y el de las suscripciones.
-* La visión _desktop-centric_, una aplicación de escritorio y, por lo tanto, sucedáneo del cliente de correo en el que guardar la información que recibimos de las suscripciones.
-* La visión _web-centric_, un servicio web que aprovechara la naturaleza on-line del RSS. En esta dirección encontramos dos versiones diferentes de afrontar la organización y lectura de las suscripciones, la traducción del cliente desktop-centric a la web, como el malogrado Bloglines o el exitoso Google Reader, y la personalización de una pantalla de inicio que ofreciera al usuario una instantánea de las últimas entradas de las suscripciones.
+>Nevertheless, I predict that Wikis will disappear over the next 5 to 10 years. This is not because they will fail but precisely because they will succeed. The best technologies disappear from view because they become so common-place that nobody notices them. Wiki-style functionality will become embedded within other software – within portals, web design tools, word processors, and content management systems. Our children may not learn the word “Wiki,” but they will be surprised when we tell them that there was a time when you couldn’t just edit a web page to build the content collaboratively. Matthew C.
+Clarke ([2009](http://www.boxesandarrows.com/view/control-and))
 
 
->The key is quality information, not quantity of information. (( http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/ ))
+Según la Wikipedia, una wiki es una o más páginas web que permite a los usuarios modificar su contenido utilizando un lenguaje de marcado simplificado a través de una navegador. La wiki más popular es la Wikipedia (http://wikipedia.org), una enciclopedia libre y sin ánimo de lucro creada, actualizada y mantenida por voluntarios de todo el mundo.
+Su creación se remonta a mediados de la década de 1990 y el próposito original era, según las palabras de su creador, Ward Cunningham(( http://www.wiki.org/wiki.cgi?TheBook )):
 
-A medida que aumentamos el interés en conocer nuevos contenidos, no sólo de publicaciones de blogs, sino marcadores, listas de videos, redes sociales, etc, el número de subscripciones también crece. El lector RSS o agregador de feeds se colapsa de información y el usuario tiende a una lectura en diagonal de la mayoría de las noticias y el abandono de otras.
-Si bien parece ser un escenario prematuro, no son pocas las voces que plantean el problema de la sobrecarga de suscripciones. El exceso de la información generada por la publicación ininterrumpida de terceros. No entraremos en los motivos que empujan a muchos bloggers a publicar dos o tres mensajes diarios. Esto sin contar en aquellos blogs o gestores de contenidos colaborativos que el promedio de noticias acostumbra a alcanzar los nueve o diez mensajes al día.
+* Una wiki invita a todos los usuarios a editar cualquier página o crear de nuevas dentro de la wiki, utilizando un simple navegador web sin funcionalidades extras.
+* Una wiki promueve la asociación de diferentes contenidos gracias la creación intuitiva y fácil de enlaces entre páginas, mostrando si la página existe o no.
 
-Si todavía esta situación no es generalizada, sí podría ser el marco de referencia o germen del desarrollo de nuevas aplicaciones que, en la actualidad, permanecen bajo el áura de experimentales o de laboratorio, o para early-adopters. 
+La adopción de la tecnología wiki fue rápida en gran medida por la facilidad de publicar contenidos en la web sin necesidad de un editor HTML. Los usuarios sólo debían aprender un sencillo lenguaje de marcado o etiquetas que identifica los diferentes elementos como las cabeceras de diferente nivel, la negrita, la cursiva, los enlaces, etc. de la página. Este planteamiento de la wiki favorece la creación colectiva de documentación. Prevalece el contenido sobre la forma. 
 
-## Mashups a la ayuda 
+En general, la tecnología wiki es vista como un sistema que incrementa la productividad de un grupo de trabajo en términos de creación y gestión de la documentación de un proyecto por varias razones:
 
->The point is that we all have difficulty managing information overload and our attention stream; however, we can’t let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity. ((http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/))
+* **Integradora**. Evita la dispersión de la documentación y la información relacionada a su gestión. Esta fragmentación se debe generalmente al uso de canales de comunicación como el e-mail, en forma de adjuntos que van y vienen , o calendarios de trabajo. Una wiki facilitará a los usuarios encontrar rápidamente la información sólo accediendo a la web de la wiki desde un simple navegador.
+* **Gestión eficiente del histórico de la documentación**. Una wiki incorpora un sistema transparente de control de versiones, luego permitirá a los usuarios saber en cada momento quién, cuando y el qué ha contribuido, modificado o eliminado. También resultará posible recuperar versiones anteriores del documento sin problemas.
+* **Descentralizada**. Al evitar la dispersión de la documentación, se evita el falso sentimiento de propiedad de los empleados con la generación de contenidos. En lugar de dispersar la documentación por los discos duros de los empleados, se unifica. De esta manera, si un empleado marcha de la empresa, se podrá rescatar sin problemas la información que generó a su paso por la empresa.
+* **Horizontal**. Una wiki favorece la responsabilidad personal de la  gestión de los contenidos en lugar de otros sistemas punitivos de regulación y control de la información.
+* **Visible**. Especialmente si nos referimos a que otros grupos o unidades de trabajo puedan acceder a la información
+* **Indexable**. Una wiki incorpora un sistema de indexación de los contenidos, luego permite que los usuarios realicen búsquedas internas de la documentación.
+* **Independiente**. Una wiki no está sujeta a un software específico y, por lo tanto, susceptible de ver sus contenidos afectados por futuras actualizaciones. Sólo necesita un navegador web, por lo que resultará también ajena a una exclusiva plataforma, sistema operativo o dispositivo. 
+* **Coherente**. La unificación de la documentación en la wiki permite que el resultado sea más coherente en términos de estilo.
+* El contenido predomina sobre la forma. Quienes editen la wiki sólo han de preocuparse de entrar contenidos y no vigilar si incumplen o alteran la plantilla visual del documento, como ocurre en general al trabajar con los procesadores de texto.
+* **Estructural**. La edición mediante un simple lenguaje de marcado favorece, en contra de los editores visuales, la estructura de los contenidos.
+* **Exportable**. En general, una wiki incluye un sistema transparente de exportación de los contenidos a otros formatos de documentación, como HTML y PDF. 
+* **Gestión** de la edición y la visibilidad de los contenidos. Una wiki incorpora sistemas de control de permisos de acceso a los usuarios, luego es posible establecer reglas de lectura y escritura de las diferentes páginas.
 
-La aparición hace un año de Yahoo Pipes causó una cierta expectación, mezcla de incomprensión y de pregunta ¿Para qué sirve? En un primer momento se vendió como una herramienta web-centric de creación de mashups. Un mashup no es más que una aplicación web que recoger, mezcla y presenta la información de  servicios web de terceros, abiertos y documentados para su uso colectivo. En el úlimo capítulo nos extenderemos más en el término, especialmente a ayudarno a gestionar mejor el exceso de información.
+## la wiki, navaja suiza de la documentación 
 
-Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical que enlazaba la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura “En un principio fue la línea de comandos”, de Niel Stephenson)) veamos el siguiente ejemplo:
-
-<code>
-ls -lah | grep 
-</code> 
-
-Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Yahoo Pipes sigue una línea de trabajo conocida por el uso de Widgets. No es el único. Varias herramientas siguen esta metodología visual de trabajo. Veamos estas capturas de diferentes herramientas:
-
-  * Yahoo Pipes
-  * Quartz Composer
-
-
-## Caso práctico: flitrar un grupo de suscripciones con Yahoo Pipes 
-
-El objetivo de esta práctica será la creación de un nuevo RSS mediante el filtro según unas palabras clave de un grupo de suscripciones. En este ejemplo, nuestro interés está puesto en aquellas noticias que hablen sobre las libretas Moleskine, GTD  (Getting Things Done) y coaching en blogs sobre productividad personal.
-
-Dirígete a la página de  Yahoo Pipes y haz clic en la opción Create a Pipe. Accederás a la pàgina de autentificación de Yahoo!. Identifícate o crea una cuenta nueva .
-Una vez 
-
-Si bien funciona, queda el agujero de saber qué ocurre con aquellas noticias que, sin estar relacionadas con las palabras que hemos determinado como filtro, pueden resultar de interés.
-
-### Expresiones regulares 
-
-Controlar las expresiones regulares, Rubular (http://www.rubular.com/) es un editor de expresiones regulares 
+El uso y utilización de una wiki en el ámbito personal y profesional de una organización y empresa no se debe reducir única y exclusivamente a  la generación de contenidos de la documentación de un proyecto. Una wiki puede utilizarse también como:
+  * Actas de una sesión
+  * Sesión de ideas, brainstorming,...
+  * Preguntas más frecuentes
+  * Expedientes
+  * Recogida de anotaciones, propuestas, consejos, observaciones internas alrededor de un servicio en beneficio de los compañeros/as de la misma unidad
+  * Diario de un proyecto
+  * Lista de tareas (GTD)
+* Gestión documental de un proyecto. 
+* Canal de comunicación fácil de actualizar con los clientes
 
 
+### Wikis públicas 
+
+  * PBWiki
+  * Wikispaces
+  * Jottit
+  * Wikidot
+  * Google Sites
+
+
+### Caso práctico: Jottit 
+
+Jottit (http://jottit.com) es un servicio gratuito de creación ágil de wikis, basado en un pequeño web framework de dominio público, web.py (http://webpy.org/). La elección de esta wiki pública se debe, en gran medida, a su facilidad y agilidad de uso: contiene las funcionalidades básicas y necesarias para emprender un proyecto colaborativo de pocas páginas. 
+
+Con Jottit podéis:
+
+  * Crear y editar páginas 
+  * Uso de un lenguaje de marcado wiki
+
+La página principal de Jottit presenta el logo y, debajo de este, una caja de texto en las que nos invita a comenzar a crear la primera página. Escribimos una frase y hacemos clic en el botón Create a site.
+
+  - Una vez creada la página, aparecerá la primera página -la principal o home- en la que se nos recuerda guardar el marcador, creado mediante la suma del dominio de jottit.com, más una clave de cinco letras que proporciona la dirección de la página principal de la wiki, http://jottit.com/tyqjt/ por ejemplo, si queremos volver a recuperar o trabajar de nuevo con la wiki.
+  - Configurar el título, subtítulo y modificar la URL original de la wiki es posible si hacéis clic a la opción settings, ubicada en la esquina superior derecha. A través de un sencillo formulario podréis modificar los apartados arriba mencionados. Incluye la función de exportación de los últimos cambios realizados, una foto-finish de la documentación, al formato ATOM y, por último, la opción de borrar la wiki. Más adelante hablaremos de las posibilidades del formato ATOM.
+  - En este mismo formulario podéis modificar la URL original, proporcionada por defecto por Jottit, si hacéis clic en el enlace Give your site an address. En lugar de una clave de cinco letras, podéis personalizar la URL que os sea fácil de recordar.
+  - Si hacéis clic en home, regresaréis a la página principal. La edición de la página principal o de cualquier otra página es posible si hacéis clic en edit. Aparecerá la página de edición, dividida en dos partes iguales. A la izquierda, una caja de texto donde introduciréis el texto nuevo o cambios de un documento. A la derecha iréis viendo, a tiempo real, la representación de estos cambios. Recordad que, como wiki, la edición del texto sigue un lenguaje de marcado en lugar de utilizar un editor  WYSIWYG (What You See Is What You Get), es decir, el sistema de edición de la mayoría de procesadores de texto actuales. 
+  - ¿Por qué debo aprender un lenguaje de marcado en lugar de utilizar un editor visual?
+  - Para ayudarnos a dar formato correctamente el texto plano, haced clic sobre el enlace formatting help. Aparecerá en el lugar del espacio de la visualización del texto una ayuda práctica en el que se explica las características del lenguaje de marcado. Qué habéis de escribir para obtener según qué resultado.
+  - El lenguaje de marcado que utiliza Jottit para la creación de documentos estructurados es conocida como markdown (http://daringfireball.net/projects/markdown/syntax#overview). A grandes rasgos, el propósito del lenguaje de marcado markdown es la de proporcionar una sintaxis muy sencilla y fácil de leer, escribir y recordar para la creación de páginas web estructuradas sin recurrir a la engorrosa tarea de escribir HTML. No es el único lenguaje de marcado que realizan esta tarea. Podríamos destacar entre otros Textile (http://textile.thresholdstate.com/), completamente ligado al CMS (Content Managament System) Textpattern (http://textpattern.com/) o Creole (http://wiki.wikicreole.org/), un lenguaje de marcado con la pretensión de representar un estandar en la interminable lista de lenguajes de marcado ligados a las diferentes soluciones wiki. 
+  - La creación de nuevas páginas es tan simple como crear un nuevo enlace. Al hacer clic sobre él, Jottit nos pedirá la confirmación de crear la nueva página.
+  - Es posible visualizar los cambios... esto se lo conoce como control de versiones de un documento
+  - Es posible definir unas sencillas reglas de acceso o de privacidad del documento
+
+## Lenguaje de marcado en la era de los editores visuales 
+
+Una de las dificultades de adopción de una wiki y que la mayoría de  usuarios presentan como barrera insuperable es la redacción de texto mediante un lenguaje de marcado en lugar del acostumbrado editor visual.
+
+Cristoph Sauer, en su artículo What you see is Wiki - Questioning WYSIWYG in the Internet Age (http://www.i3g.hs-heilbronn.de/attach/Ver%C3%B6ffentlichungen/What+you+see+is+Wiki.pdf) explica cuáles son los puntos a favor y en contra de utilizar un lenguaje de marcado frente a un editor visual en el caso de las tecnologías wikis. En general, los puntos en contra de los lenguajes de marcado son los siguientes:
+
+  * El hábito de editar el texto de manera visual, aquello que veo en pantalla es aquello que saldrá por la impresora, siguiendo la lógica de los editores visuales, como Microsoft Word o OpenOffice Writer, empuja a los usuarios a rechazar de pleno el trabajo con una wiki. Conocer un lenguaje de marcado representa poco menos de 15 minutos de aprendizaje. Explicar la lógica de utilizar un lenguaje de marcado y sus beneficios en la creación de textos estructurados puede representar mucho más que los 15 minutos de conocimiento del lenguaje de marcado
+  * El hábito de modificar libremente el estilo del documento en el caso de los editores visuales frente a la rígida separación de contenido y presentación de los lenguajes de marcado es otro de los problemas que los usuarios presentan como un motivo más para no adoptar una wiki. 
+  * La dificultad de navegar visualmente por el flujo del texto en los lenguajes de marcado es otro de los inconvenientes frente a una visualización del texto diferenciado según sea su formato. En este sentido, soluciones como la de Jottit, donde quedan representadas las dos vistas, la de edición y la de formato, o la de commutación transparente entre una edición visual y otra de lenguaje de marcado son unas buenas alternativas.
+  * La falta de estandarización del lenguaje de marcado de las diferentes tecnologías wikis en la actualidad. Uno de los intentos para corregir esta situación es Creole.
+
+Estos problemas son los argumentos principales en contra del uso de un lenguaje de marcado. El problema suele ser de concepto; los lenguajes de marcado priorizan la estructura de la información y la versatilidad en la que una misma fuente de información pueda representarse sin dificultad en cualquier dispositivo o aplicación actual y futura. Cristoph Sauer hace nos recuerda el escenario de la edición de e-mails. No todos los clientes de correo electrónico presentarán el formato idéntico con el que estás trabajando. Todo lo contrario, estamos acostumbrados a recibir a menudo e-mails en el que la información aparece completamente innaccesible y desestructurada por ese motivo. También se ha desactivado, por motivos de seguridad, la representación en HTML del cuerpo de mensaje en algunos clientes de correo, o gran parte de ello. Esta situación se ha ido corregiendo a medida que los usuarios optaban por escribir texto plano como cuerpo del mensaje o, en el peor de los escenarios, adjuntar un documento de texto o encapsulado (PDF). 
+
+Por otro lado, si hablamos en el contexto de la web, cada vez son más los usuarios que remezclan los contenidos que van encontrando en las páginas. De hecho, la mayoría de veces sólo interesa un fragmento o parte del documento. Si este viene asociado o cautivo a un formato visual, nos veremos obligados a darle de nuevo un formato que se ajuste al documento que estamos elaborando. En este sentido, lo editores visuales son la peor opción, ya que, recordemos, el editor visual se encarga de traducir la representación visual a HTML, añadiendo un excedente de etiquetas para que visualmente se ajuste a lo que estamos escribiendo. Por otro lado, en el caso del lenguaje de marcado, nos obliga a:
+
+  * concentrarnos en el contenido, no en el resultado visual.
+  * el contenido no está sujeto o cautivo a ningún formato visual propio de una aplicación o dispositivo, luego el contenido puede tomar o adquirir la forma visual que se quiera o que le  exiga el dispositivo o aplicación nueva
+  * velocidad de redacción al despreocuparnos de cómo va a quedar y pensar en cómo lo voy a redactar.
+  * simplicidad
+  * compartir! resulta más efectivo compartir texto plano sin ningún formato que de cualquier otra manera.
+
+## wikis corporativos ¿una realidad imposible? 
+
+Si la utilización colectiva de una wiki permite un número de ventajas sobre la gestión de la documentación, no es así su adopción. En general las wikis corporativas plantean dos dificultades, a veces insalvables, en entornos corporativos.
+
+La edición siguiendo un lenguaje de marcado frente al hábito de trabajar con editores visuales. Este es quizá el mayor inconveniente o problema que plantean los empleados de una empresa al enfrentarse a una wiki. El hábito o costumbre de trabajar con procesadores de texto visuales3, tales como Microsoft Word o el Writer de la suite de OpenOffice, representa un escollo a veces insalvable. A diferencia de las wikis públicas mencionadas más arriba, Google Sites incorpora un editor visual en lugar de un simple editor de etiquetas. En este sentido es preferible que las wikis se introduzcan progresivamente en proyectos pequeños y de corta duración, como sesiones de brainstorming o la redacción de actas de la unidad, buscando la complicidad las unidades o empleados más proclives a un cambio de metodología de trabajo. Esta actuación debe acompañarse de una wiki que sea ágil en la introducción y modificación de los contenidos.
+
+La falta de hábito en compartir la información o trabajar de manera colaborativa. Introducir tecnologías de naturaleza participativa en entornos estancos de comunicación acaba pervirtiendo el resultado, entre la soledad del editor de fondo, que hace el esfuerzo por convicción personal o la degradación del servicio: adjuntar documentos de texto a una página de la wiki.
 
 
 
-## Referencias 
+## Hacias nuevas maneras de gestionar las versiones
 
-  * http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php
+
+En el artículo [[http://tommorris.org/blog/2008/03/09#pid2761430|How to build the perfect wiki]], Tom Morris arremete contra la mayoría de los sistemas wikis conocidos cuando los utiliza como wikis personales: no puede trabajar con ellos debido sobretodo a:
+
+  * Cuando aparecen bajo la etiqueta //enterprise//, inevitablemente piensa en un producto lo suficientemente complicado, intratable y lejos de poder ser "hackeable" que por ello mismo sólo puede venderse como producto comercial. Su opción es cuanto más simples más útiles que aquellos que presentan un mínimo de complejidad.
+  * Trabajar con el editor <textarea\> del navegador web es francamente frustrante. Si lo es en cierta manera editar textos con los editores llamados visuales, que imitan la edición de los procesadores de textos, y que su aparición en sistemas wikis son una absurda contradicción, esta edición que sólo incorpora generalmente un número pequeño de botones de ayuda de sintaxis (negrita, itálica, secciones y subsecciones, subrayado, enlaces, imágenes,...) tampoco es la panacea. La navegación por el texto no es intuitiva (todo se convierte en monospace); funciones de búsqueda y reemplazar texto es completamente imposible. Y en cierta manera es incomparable el uso de un editor de textos profesional contra el simple editor web de la wiki. Frente a esta carencia Tom recomienda el uso de editores como VIm o TextMate acompañados de complemento [[http://docwhat.gerf.org/tag/iat/|It's All Text]], que permite editar cualquier área de texto en mejores condiciones.
+  * Una wiki, según Tom, es en realidad un sistema de control de versiones de páginas web, pero un sistema //pobre// si lo comparamos con los sistema de control de versiones que utilizan los programadores como Subversion o Git. ¿Qué ocurre si queremos trabajar en modo //offline//? La mayoría de wikis no permiten todavía un modo offline. (GeniusWiki, http://wibokr.com/page/page.do#, implementa un modo offline gracias al plugin Google Gears)
+  * La sintaxis sigue siendo un problema. Cada wiki lleva una de diferente, como si de dialectos de un mismo idioma se tratara. Ni Creole parece que ayude a corregir este panorama, sería como una suerte de Esperanto a los idiomas lo que Creole a las wikis. 
+
+Según Tom, la solución pasa por trabajar en local y utilizar un verdadero sistema de control de versiones en lugar de los que incorporan los sistemas wikis, muy rudimentarios en comparación. Los sistemas de control de versiones están muy ligados al desarrollo de software. El uso de una herramienta de control de versiones es tan necesaria como la documentación o un [depurador](http://es.wikipedia.org/wiki/Depurador). A modo introductorio, las herramientas de control de versiones permiten a los programadores realizar _snapshots_, instantáneas del código fuente en el que se está trabajando, comprobar diferencias entre diferentes instantáneas y revertir a una instantánea anterior si es necesario. Tecnologías como CVS (Concurrent Version System), Subversion, DARCS, Mercurial o Git son los sistemas de control de versiones de licencia libre más populares y ampliamente usados, en especial Subversion. Si todos ellos comparten un mecanismos de trabajo muy parecidos, no es así en cuanto a la concepción de cómo debería ser la gestión y mantenimiento de las versiones de un proyecto. Si desde un principio los sistemas de control de versiones, como CVS o Subversion tuvieron una planteamiento centralizado, es decir, el _repositorio_, lugar donde el sistema de control de versiones mantiene el registro de todos los cambios (qué, quién y cuando), está ubicado en un único lugar o servidor. Esta metodología de trabajo centralizada obliga a quienes participan en la evolución del proyecto a acceder al servidor o lugar donde se mantenía el _repositorio_ en la realización de tareas ...
+
+El problema, según observa Travis Swicegood (2008), es doble. Swicegood remarca que la definición de _repositorio centralizado_ representa una mejora considerable frente a un _repositorio_ único, el cual nos evita acceder al ordenador que lo hospeda, sigue teniendo limitaciones. Señala que sólo tienes la última versión del proyecto, luego si quieres conocer el histórico de cambios tienes que preguntarle al _repositorio_. Esta situación nos hace dependientes de la conexión, luego tenemos el segundo problema. Este es también el problema en relación a las wikis: son dependientes de la conectividad. En palabras del equipo de soporte de Google ([2009](http://code.google.com/p/support/wiki/DVCSAnalysis)), la visión tradicional de los sistemas de control de versiones obliga  a los desarrolladores a trabajar directamente con el repositorio central si desean examinar el histórico, los cambios entre diferentes _commits_, otras ramificaciones. Las copias que tienen los desarrolladores en local es la instantánea del proyecto cuando realizaron un _checkout_, pero no las versiones previas o el histórico del proyecto. 
+
+
+
+Frente a los _repositorios centralizados_ encontramos una enfoque opuesto: los _repositorios distribuidos_ (DVCS, _Distributed Version Control Systems_). La diferencia más notable es que cada uno tiene su propio _repositorio_ en local, luego se tiene el acceso a toda la historia del proyecto, examinar el histórico de cada archivo sin depender o no de la conexión o acceso al repositorio. Realizar _commits_ también se realizan en local. Que esté en local no significa que el proyecto pueda estar _distribuido_ en otros lugares de acceso público o privdado. El concepto de _distribuido_ atañe a la oportunidad, mediante las operaciones _push_ y _pull_, de realizar intercambiar repositorios individuales. La operación _push_ representa una transferencia de parte o toda información del repositorio local a uno remoto y, al otro lado, la operación _pull_ copia información remota a un repositorio local. 
+
+El lema de GitHub se resume en los comentarios de Ryan Tomayko ([2008](http://tomayko.com/writings/github-is-myspace-for-hackers))
+
+>Forking on GitHub is like friending on Myspace (or Facebook or whatever crazy ass social networking site that is) inasmuch as this is the point where a line is drawn from one node to another in the social graph.
+
+Los esotéricos sistema de control de versiones están entrando en el ámbito social: 
+
+>You want to “friend me”? Send me a patch.
+
+Y el vocabulario propio como patch, pull, merge, patch, diff, push, commit o fork está siendo apropiado como lenguaje social (mejorar esto!)
+
+En la actualidad, la percepción de un _repositorio_ distribuida va ganando terreno, especialmente bajo el influjo de Git, sistema de control de versiones desarrollado por Linus Torvalds, padre del kernel de Linux, molesto con la ineficiencia de los sistemas con los que trabajaba.
+
+De un tiempo a esta parte se han realizado tímidos intentos de llevar estos sistemas a ámbitos tan aparentemente lejanos como la creación literaria: el escritor y blogger [Cory Doctorow](http://craphound.com/) utiliza un sistema de control de versiones con el registrar los cambios. 
+
+Pero donde puede haber una inflexión es en la 
+
+
+http://craphound.com/?p=2171
+
+Absolutamente genial! ya no sólo automatiza los "push" sino que además añade información como: tiempo, correo leído, feeds, o incluso canciones! Y todo ello lo incorpora en el commit :-) El contexto de la creación se ve reflejado en el commit: el exceso de información que manejamos queda igualmente congelado en la instantánea :)
+
+  * http://lifehacker.com/5232049/flashbake-automates-version-control-for-nerdy-writers
+  * WiGit: A Simple Git-based Wiki: http://el-tramo.be/software/wigit
+  * Git-Wiki: http://github.com/sr/git-wiki/tree/master 
+
+
+
+
+##  Preguntas finales 
+
+Es probable que estés interesado en adoptar una wiki para un trabajo o proyecto específico en la empresa o a nivel personal. Habrás considerado o sopesado las diferentes ventajas e inconvenientes que signifique dar un paso hacia esta dirección. Las preguntas que vienen a continuación pueden ayudarte y ayudar a tomar una decisión correcta.
+
+  * En la empresa existe el hábito de compartir la documentación?
+  * Una versión nueva del procesador de textos resulta traumática?
+  * Es fácil encontrar la documentación de hace un mes? de hace seis meses? de hace un año?
+  * Consideras que la herramienta que utilizáis es la más adecuada para la creación de contenidos?
+  * Cuántas veces te has visto obligado a cambiar el formato visual de un documento en un año?  
+  * Tus clientes tienen problemas en visualizar los documentos editables (.odt, .doc) y no encapsulados (.pdf)
+  * Te resulta cómodo mezclar contenidos de diferentes fuentes de información para crear un único documento?

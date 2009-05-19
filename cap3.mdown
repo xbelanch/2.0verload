@@ -1,219 +1,82 @@
-#La lección de Delicious 
+# RSS Overload 
 
->memory first, discovery second. Joshua Schachter (fundador de Delicious)
+>I’m a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. (( Mark Frauenfelder, Rule the Web (2007) ))
 
-## Resources 
+Atención: http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia
 
-  * http://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
+
+Antes de la explosión generalizada de los blogs, los propietarios de páginas web informaban a los visitantes de novedades, modificaciones o simplemente que estaba en proceso de creación mediante advertencias visuales. Esta alertas estaban representadas por pequeños iconos animados (los gif animados) en forma de banderines rojos, bolas que cambiaban el color y, en el peor de los gustos, alguna figura humana practicando un gesto obsceno. Los usuarios guardábamos en la carpeta Favoritos del navegador los marcadores de las páginas de interés con el objeto de, más adelante, verificar si habían publicado nuevas noticias o actualizado la información. El problema surgió cuando el número de marcadores crecía sin deternerse y el tiempo que dedicábamos a averigurar si habían novedades era incluso mayor. Ya no era sólo averiguar si había o no una actualización del contenido; también se necesitaba un cierto esfuerzo en localizarla.
+
+Manternerse al día de la actualidad de la web resultaba caro en cuanto a tiempo y dedicación.  Una alternativa a este proceso interminable representó la suscripción, emulando el sistema tradicional de revistas y periódicos. Si estaba suscrito, la información actualizada, la novedad o la publicación de una noticia vendría a mí a través de un e-mail. No venía el contenido total de la noticia o novedad, sino generalmente el anuncio de la misma. 
+Este escenario incurría a varios problemas:
+
+  * Aumentaba el número de mensajes en la bandeja de entrada.
+  * Dispersión de la información. Recuperar más tarde la información era una tarea ardua. 
+  * Obligaba al usuario a consultar el contenido en la web, lo que significaba dejar  el cliente de correo, ir al navegador y visitar el enlace de la web.
+  * A medida que los blogs se fueron haciendo más populares, la necesidad de adoptar un sistema de subscripción más eficiente que permitiera a los usuarios
+  * recibir el contenido de la noticia, no una alerta de novedad.
+  * concentrar la información de las subscripciones.
+  * alejar definitivamente las subscripciones de la bandeja de entrada.
+
+se volvió urgente. Finalmente se decidió adoptar un antiguo formato conocido por el acrónimo RSS, que significaba Really Simple Syndication. Este formato tenía unas características generales que resultaron fundamentales para su uso generalizado:
+
+  * Formato estandarizado
+  * Contenía el contenido de la noticia
+  * Contenía metainformación como la fecha de publicación y autoría.
+
+Aún conociendo las ventajas que suponía un uso generalizado del RSS, es todavía un acrónimo desconocido para la mayoría de usuarios. En general convive con la práctica de ir visitando las páginas, una tras otra, para consultar las novedades o el envío de un boletín informativo si pensamos en la información interna de una organización, sea pública o privada.
+
+## El lector de RSS 
+
+A medida que el número de páginas que permitían la sindicación aumentaba, en parte a servicios como Blogger que facilitiban en menos de tres clics comenzar a publicar en un blog, se hizo patente la necesidad de un lector o herramienta que gestionara las suscripciones. Hubo tres visiones:
   
+* La visión _e-mail-centric_, es decir, como una funcionalidad nueva del cliente de correo y, por lo tanto, incrementaba la acumulación de información en dos frentes, el de la bandeja de entrada y el de las suscripciones.
+* La visión _desktop-centric_, una aplicación de escritorio y, por lo tanto, sucedáneo del cliente de correo en el que guardar la información que recibimos de las suscripciones.
+* La visión _web-centric_, un servicio web que aprovechara la naturaleza on-line del RSS. En esta dirección encontramos dos versiones diferentes de afrontar la organización y lectura de las suscripciones, la traducción del cliente desktop-centric a la web, como el malogrado Bloglines o el exitoso Google Reader, y la personalización de una pantalla de inicio que ofreciera al usuario una instantánea de las últimas entradas de las suscripciones.
 
-Kebin Kubasik, desarrollador del indexador libre [Beagle](http://beagle-project.org/Main_Page) ([2008](http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/)) en _The Reality of Semantic Desktops: Death To Tags, Labels and Folders_ defiende un nuevo escritorio que, definitivamente, ponga punto y final a la metáfora del escritorio tradicional, que rompa la sinergia de continuar la tradición de establecer jerarquías de directorios, categorías, etiquetas, distintivos de color y cualquier otro emblema visual con fines organizativos. Toda práctica de clasificación de la información personal y profesional siguiendo este modelo termina en fracaso
 
->how many people actually keep their address book completely updated? Or tag all their photos, or keep every document in the right folder? Even those who are vigilant eventually fall behind, and that’s because users already know what the material they are filling is, but still have to spend time explaining to the computer which items are related and where they belong. 
+>The key is quality information, not quantity of information. (( http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/ ))
 
-y defiende dos líneas futuras de un posible espacio de información personal: los buscadores, que si bien pueden ser eficientes a nivel textual, ¿cómo serlo en contenidos audiovisuales? ¿mediante el uso de etiquetas?
+A medida que aumentamos el interés en conocer nuevos contenidos, no sólo de publicaciones de blogs, sino marcadores, listas de videos, redes sociales, etc, el número de subscripciones también crece. El lector RSS o agregador de feeds se colapsa de información y el usuario tiende a una lectura en diagonal de la mayoría de las noticias y el abandono de otras.
+Si bien parece ser un escenario prematuro, no son pocas las voces que plantean el problema de la sobrecarga de suscripciones. El exceso de la información generada por la publicación ininterrumpida de terceros. No entraremos en los motivos que empujan a muchos bloggers a publicar dos o tres mensajes diarios. Esto sin contar en aquellos blogs o gestores de contenidos colaborativos que el promedio de noticias acostumbra a alcanzar los nueve o diez mensajes al día.
 
->a million and one more ways for me to catalog and store my data, but when I’m actually looking for something the tags never seem to help much
+Si todavía esta situación no es generalizada, sí podría ser el marco de referencia o germen del desarrollo de nuevas aplicaciones que, en la actualidad, permanecen bajo el áura de experimentales o de laboratorio, o para early-adopters. 
 
-Esta denuncia de las limitaciones del uso de etiquetas como vía de recuperación de la información es un recurrente que más tarde que temprano aparece en la clasificación de entradas de servicios sociales. Situación que Enrique Dans ([2008](Los límites de las folksonomías)) supo exponer con claridad al tomar como referencia la problemática en evitar al buscador resultados de "falsos-positivos y falsos-negativos" (Encinar, [2008](http://www.jesusencinar.com/2008/12/rediseño-de-11870com.html)) [11870.com](http://11870.com) en presentar un sistema mixto de organización: convivencia entre la vieja guardia de las categorías y sistema flexible de etiquetaje social. La contundente afirmación de Jesús Encinar, CEO (*Chief Executive Officer*) de [Idealista.com](http://www.idealista.com/pagina/portada) al hablar del rediseño de 11870.com 
+## Mashups a la ayuda 
 
->Con el tiempo hemos visto que 2.500 años de historia de las bibliotecas no están equivocadas.
+>The point is that we all have difficulty managing information overload and our attention stream; however, we can’t let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity. ((http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/))
 
-Se castiga así a la _folksonomía_ por la deriva de "inconsistencias, sinonimias, homonimias, polisemias o, en general, la falta de homogeneidad y de coherencia." (Dans, 2008). Esta apariencia caótica de clasificar la información espanta a puristas de la ontología y a quienes ven el sistema colectivo de etiquetaje una camino sin retorno a la nulidad organizativa (?). Antes de alcanzar este fatídico escenario lleno de inconsistencias, no hay pocas voces de ayuda en relatar buenas prácticas del _tagging_: http://tagamac.com/2007/07/best_practices/ en las que los consejos pasan por utilizar siempre los nombres en singular, escribir en minúscula y, en especial, nombre cortos, simples y fáciles de recordar. 
+La aparición hace un año de Yahoo Pipes causó una cierta expectación, mezcla de incomprensión y de pregunta ¿Para qué sirve? En un primer momento se vendió como una herramienta web-centric de creación de mashups. Un mashup no es más que una aplicación web que recoger, mezcla y presenta la información de  servicios web de terceros, abiertos y documentados para su uso colectivo. En el úlimo capítulo nos extenderemos más en el término, especialmente a ayudarno a gestionar mejor el exceso de información.
 
-Se hecha de menos un modelo orientado a objetos en el que unas etiquetas sean descendientes de otras:
+Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical que enlazaba la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura “En un principio fue la línea de comandos”, de Niel Stephenson)) veamos el siguiente ejemplo:
 
-<code>tabs, javascript, jquery, html, css, web, tutorial</code>
+<code>
+ls -lah | grep 
+</code> 
 
+Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Yahoo Pipes sigue una línea de trabajo conocida por el uso de Widgets. No es el único. Varias herramientas siguen esta metodología visual de trabajo. Veamos estas capturas de diferentes herramientas:
 
-<code>tabs < javascript, jquery, html, css < web, documentación > tutorial</code>
+  * Yahoo Pipes
+  * Quartz Composer
 
-Es decir, se establecen jerarquías de etiquetas como la anterior sintaxis, en la que, por ejemplo, clasificamos la información mediante etiquetas pero añadimos una sintaxis simple de jerarquización, del detalle al general.
 
+## Caso práctico: flitrar un grupo de suscripciones con Yahoo Pipes 
 
+El objetivo de esta práctica será la creación de un nuevo RSS mediante el filtro según unas palabras clave de un grupo de suscripciones. En este ejemplo, nuestro interés está puesto en aquellas noticias que hablen sobre las libretas Moleskine, GTD  (Getting Things Done) y coaching en blogs sobre productividad personal.
 
+Dirígete a la página de  Yahoo Pipes y haz clic en la opción Create a Pipe. Accederás a la pàgina de autentificación de Yahoo!. Identifícate o crea una cuenta nueva .
+Una vez 
 
-No es un debate nuevo ni la elección es una novedad. Rashmi Sinha en *Findability with tags: Facets, clusters, and pivot browsing* ([2006](http://rashmisinha.com/2006/07/27/findability-with-tags-facets-clusters-and-pivot-browsing/)). El uso de bloques o agrupaciones -*facets*- de etiquetas que tengan y compartan un significado común 
+Si bien funciona, queda el agujero de saber qué ocurre con aquellas noticias que, sin estar relacionadas con las palabras que hemos determinado como filtro, pueden resultar de interés.
 
->For example, you might start by looking at wines from a particular region. Next, you decide to view by price. If you don’t like that option, you can change the facet, and start looking by type. You are in control every step of the way. In many ways, this could be the holy grail for tagging systems.
+### Expresiones regulares 
 
+Controlar las expresiones regulares, Rubular (http://www.rubular.com/) es un editor de expresiones regulares 
 
-Sigue la opción de creación de *clusters* y recomendaciones. Aunque diferentes, guardan parecidos a nivel de experiencia del usuario. Un ejemplo de éxito del uso de *clusters* el de Flickr. Rashmi dibuja la secuencia: en un principio, las listas de ítems; segundo, las nubes de etiquetas, como lista con esteroides según el uso recurrente de algunas etiquetas; y por último, cuando la información es excesiva, la navegación por estas resulta impracticable. 
 
 
-Quizá la solución pase por la contextualización de la información como sistema de clasificación. Si las etiquetas y las carpetas han ayudado a rebajar el efecto conocido por *cluttering*, no es así cuando he de recuperar una información precisa que he guardado. Y repetimos, no sólo nos referimos a un documento, sino puede ser incluso la recomendación de una canción por parte de una amiga en un chat. Esto implica el uso de la narrativa como ayudante o metainformación. No nos ayudamos sólo de palabras exactas sino de historias, luego una búsqueda por la historia podrá ayuderme o no a encontrar la información...  Por ejemplo:
 
-Marco -realizo un _commit_- un documento de texto, por ejemplo, como objeto de información de interés (no todo lo que almaceno, guardo, hablo ¿es de interés?). El contenido lo parsea y enlaza el documento con una historia, la del contenido con el contexto en el que estaba trabajando (emails, chats, blogging, tweets), hay un track también del uso del mismo, referencias externas al mismo... luego, cada commit representa una actualización de la historia o información contextual del mismo. Quizá de esta manera podrían ligarse meta historias o enlazar a otras, luego ya no encontramos un documento, sino todo lo ligado a este y, por lo tanto, navegar por esa información. 
 
-[2009](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/)
+## Referencias 
 
-Es decir, si el espacio personal de la información, sus límites se difuminan al compartir parte de aquella con otros usurios, la organización de aquella será parte de la misma, es decir, del relato que haya entre los usuarios que participaron en ella. 
-
-Según el autor del anterior artículo a la gente nos encanta contar historias, explicarlas a los demás. Por el contrario, no nos gusta organizar y clasificar la información. Siempre recurrimos a los buscadores, sea un buscador de la web o de escritorio, para recuperar la información. Todos los ayudantes que se han ido incorporando en facilitar la tarea de organizar (etiquetas, emblemas visuales, redimensión de los iconos,...) y clasifcar la información ha servido de poco si comprobamos que la frontera entre lo social y lo privado (entre la nube y mi escritorio) se ha desdibujado por completo; si el número de dispositivos donde guardo información es superior a mi capacidad de sincronizarlos; cuando la información personal no es exclusiva de un tipo especial de archivo o documento: todo es suspcetible de ser relevante y, en algunos casos, forma parte de un flujo de información continuo (chats, microblogging, MSM,...), no estático.
-
-
-## Intro?
-
-
-
-Laura está preparando una actividad de formación interna en la que uno de los recursos es una lista de marcadores web. 
-
-Laura ha recopilado la lista de recursos en un documento de texto. También ha pensado en la opción de colgar la información en una página web. Si proporciona un documento de texto (del formato .doc o .odt) se encuentra con los siguientes problemas:
-
-* Ha de realizar tantas copias como asistentes a la actividad de formación. Este obliga a que los asistentes proporcionen su correo electrónico.
-* Si el documento está encapsulado, (.pdf), una modificación requerirá un mayor trabajo si no se tiene a mano una editor de documentos PDF.
-* La transmisión es unidireccional. Laura no tiene ningún medio de recibir y organizar la interacción de los participantes sin que acabe en un perfecto caos. Sólo que uno o una de los participantes del curso añade un nuevo marcador al documento, éste debería enviárselo a Laura y, a continuación, Laura debería reenviarlo al resto del grupo. Imaginemos por un momento si en lugar de una modificación contamos diez u once.
-* El último apartado nos recuerda que Laura debe enviar el archivo adjunto según el número de participantes. Si el grupo de trabajo lo integran dieciséis personas, representa dieciséis copias más una (la de Laura). A partir de ese momento ¿qué tipo de estrategia debería seguir Laura para conocer cuál es el documento original y cuál es la copia? ¿Cuál de las dieciséis copias representa la versión definitiva? Si como hemos explicado antes se realiza un cambio o se añade uno o varios marcadores nuevos, ¿cómo notificamos estos cambios a los demás?
-* Es un sistema acumulativo de la información: se basa en una clasificación muy primitiva, por temática. ¿Qué ocurre si un recurso pertenece a dos o tres temáticas diferentes? ¿Debe duplicar o triplicar la información del recurso?
-* Para terminar, Laura sabe que, una vez terminada la actividad, el documento quedará automáticamente obsoleto para los participantes si Laura no realiza el esfuerzo de enviar copias actualizadas a los asistentes cada vez que realiza un cambio. Esto último resulta incluso molesto todavía más si lo único que conseguimos es aumentar la bandeja de entrada del cliente de correo.
-
-Por otro lado, Laura valora la alternativa de publicar los enlaces en una página web. De hecho gana una serie de ventajas frente la realización de un documento de texto:
-
-* El contenido es accesible desde cualquier ordenador, independiente del sistema operativo o exclusivo de un determinado procesador de textos. Los participantes sólo necesitan un navegador.
-* Evita tener que enviar adjuntos a los correos de los participantes. Puede adelantar la información enviando un correo con la dirección de la página web donde ha publicado la lista de recursos o esperar al primer día de la actividad y proporcionar la dirección escribiéndola en la pizarra.
-* A partir de entonces, los participantes ya saben donde pueden consultar la página de los recursos a lo largo de la duración del curso como una vez finalizado.
-* Si alguno o alguna de los participantes desea corregir o añadir un nuevo recurso, debe primero comunicárselo a Laura y, seguidamente, modificar la web. Esto implica un total de 2 ó 3 mensajes de correo (1. notificación del cambio 2. notificación del cambio). 
-* Siguen habiendo un problema de participación: Laura se sitúa en el centro donde convergen y pasas todas las incidencias de cambios, actualizaciones de la página de recursos. 
-* Laura ha publicado el contenido de los enlaces en una página estática.(y?) luego deberá tener un mínimo de formación de creación de páginas web (lenguaje HTML), transmisión de ficheros desde su ordenador al servidor, etc.
-* Si ha mejorado el trabajo que lleva la gestión del documento, esta vez publicado en web, de los recursos de la actividad, Laura considera que todavía es ineficiente. ¿Por qué?
-* No se ha solucionado el problema que supone centralizar la publicación del documento y, por lo tanto, el coste de mantenimiento/edición y actualización del documento.
-* Lo anterior tampoco no proporciona un sistema eficiente de catalogación de los recursos.
-* También Laura insiste que no tiene horas para aprender a crear páginas web. Le recuerdo que no es problema. En la actualidad hay varias aplicaciones libres que te permiten crearla sin problemas. Incluso puedes probar servicios como http://www.weebly.com/ que te ayudan a crear una página web en cuatro pasos.
-
-
-
-## Organizar, clasificar, ordenar la información. 
-
-Clasificar la información es un acto puramente ontológico. Clasificamos la información para comprender la información que tratamos a diario o puntualmente. Si estamos preparando un viaje, diseñamos una clasificación de la información según las propiedades de cada uno de los elementos que participen en la descripción del viaje. Ordenar esta información en carpetas y subcarpetas bajo nombres que identiquen el contenido de cada una de ellas es un taxonomía naïf donde el nodo raíz sería la carpeta o directorio con el nombre, por ejemplo, del viaje. De este nodo principal irían colgando los nodos de segunda categoría (carpetas de fotografías, documentos, mapas,...) y así sucesivamente (por ejemplo, del nodo "fotografías" podrían colgar los nodos que representan los días del viaje).
-
-
-### Taxonomías y ontologías 
-
->This is something the ‘well-designed metadata’ crowd has never understood — just because it’s better to have well-designed metadata along one axis does not mean that it is better along all axes, and the axis of cost, in particular, will trump any other advantage as it grows larger. And the cost of tagging large systems rigorously is crippling, so fantasies of using controlled metadata in environments like Flickr are really fantasies of users suddenly deciding to become disciples of information architecture. 
-
-http://www.sifry.com/alerts/archives/000270.html
-
-
-Los metadatos, como indica su procedencia griega, son la tarjeta de identidad de un objeto de información. _Data about data_. 
-
-
-Cory Doctorow ([2001](http://www.well.com/~doctorow/metacrap.htm)) ya planteó muy acertadamente la inutilidad de los metadatos; en un escenario ideal, los metadatos proporcionarían la ayuda exacta para encontrar la información que estamos buscando, debido a que esta estaría correctamente identificada; es el lo que Cory Doctorow identifica con la _meta-utopia_, un estadio de la información en la que los metadatos son de una gran ayuda, imparciales y neutrales, pero ineficaces cuando se trata de un mundo en el que la gente _miente_. No olvidemos que las palabras de Cory Doctorow se escribieron en el 2001. De hecho, anticipa una realidad donde los metadatos se pervierten originando una realida informativa tóxica: tóxica debido al continuo _spam_ que va entrando en las bandejas de entrada, resultados de una búsqueda que no tiene relación ninguna con lo que estamos localizando; 
-
-¿Es posible mantener, actualizar y preservar durante un tiempo la actividad de clasificar la información con metadatos? Cory Doctorow determina que la gente es tremendamente vaga y estúpida; conservan los documentos con el nombre que la herramienta les asigna por defecto ("UNTITLED.DOC", las fotografías,...) o escriben mal, puntuan mal: ejemplo de ello sería "Plam Pilot", donde uno gracias a estas incorrecciones puede encontrar una auténtica ganga.
-
-Cory Doctorow alega que las jerarquías no son neutrales: _cualquier jerarquía de ideas necesariamente implica la importancia de algunos ejes sobre otros. 
-
-### Las etiquetas importan 
-
-http://www.sifry.com/alerts/archives/000270.html
-
-
-
-Cuando acumulamos demasiada información en la memoria del ordenador o de un disco duro externo, nos sentimos obligados a clasificarla, a ordenarla, con el fin último de recuperarla más tarde. En general, el sistema de organización personal que sigamos, entre intuitiva, flexible o rígida, siempre terminará encontrándose con el sistema de ordenación que nos proporciona el sistema operativo. Hasta el momento, la organización de los archivos (sean documentos de textos o imágenes) pasa por el sistema de carpetas (folders). Cada archivo estará asociado a unos metadatos, de los cuales el más evidente es el nombre del archivo (no necesariamente relacionado con el contenido del mismo).
-
-Con el tiempo, superponemos nuestra lógica de organización personal frente a la lógica del sistema de organización de carpetas y archivos que propone el sistema operativo. Pasado un tiempo, esta convivencia acaba resultando más o menos compleja y difiere sobretodo en la regularidad en la que clasificamos la información según pautas propias.
-
-* No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
-Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
-* El escritorio lleno o la visión del *clutter desktop*. Tanto que el fondo de escritorio (léase paisaje, foto de las vacaciones o familiar querido) se esconde detrás de la infinidad de carpetas o documentos. Se cree o piensa que el tener los documentos en el escritorio es sinónimo de tenerlos más a mano, como si de una pila de papeles se tratara (siguiendo la metáfora del escritorio). En realidad su visión resulta como mínimo estresante para un desconocido. Insostenible si pensamos que el número de documentos y carpetas crecen cada día. Las dos pantallas no son la respuesta a esta problemática. http://www.avesh.com/blog/DesktopZenReducingVisualClutterOnYourDesktop.aspx
-* Se utilizan un par o tres de carpetas como almacén de toda la información, lo que en poco tiempo se llega a una situación conocida por “clutter digital”. No se puede encontrar ningún fichero por el problema del “engordamiento”
-* La degradación de un sistema personal. Este es quizá el más generalizado. Se emprende el ejercicio de mantener una estructura pero con el tiempo se consigue sólo a medias. Esto se debe en gran parte al trabajo bajo presión de fechas de entrega o realización de proyectos.
-* Priorizamos una serie de archivos o documentos en los que estamos trabajando y, con el motivo de no perderlos de vista, hacemos la excepción de la regla de organización fijada previamente. El resultado es, al poco tiempo, un auténtico desastre: conviven una organización de archivos y la ubicación aleatoria de otros.
-
-No hay una solución definitiva a este problema, pero la mayoría tienen puntos en común:
-  
-* La carpeta base o raíz. Los tres sistemas operativos más populares tienen una y se identifica con un nombre bastante significativo: mis documentos (windows), documentos (mac osx). También han incorporado carpetas asociadas a un tipo de archivo (Películas, Música, Descargas, Imágenes,...)
-* Tomamos la carpeta asociada a “Documentos”. Descartamos todos los archivos de imágenes o películas o música, ya que corresponderían a las carpetas que reciben su nombre.
-Dentro de Documentos creamos un segundo nivel de carpetas. Nunca dejamos archivos sueltos en el interior de la carpeta “Documentos”.
-Las carpetas pueden tener dos tipos de organización: por temática (nombre de un proyecto) o año.
-* Los proyectos pueden tener un mínimo de organización lógica antes de ir dejando todos los archivos relacionados con el mismo y sufrir de nuevo un cierto cluttering. Tener carpetas como “old”, “
-
-Las aplicaciones incorporan la opción de recuperar los objetos de información que habitualmente recurrimos para continuar trabajando con ellos; es también el caso de los navegadores con las pestañas abiertas de la última sesión. Aún así los buscadores de escritorio tienen una especial utilidad, especialmente cuando hablamos de información que gestiona exclusivamente la aplicación, como es el caso de los clientes de correo.
-
-**Nota**: introducir aquí el tema de organización de los ficheros (Bit Literacy), los buscadores como Google Desktop o Spotlight
-
-
-
-Este sistema requiere una manera personal de clasificar los archivos. Primero se estima cuál es el espacio o lugar idóneo para ubicar los archivos según sea su tipo. Es relevante que las últimas versiones de los sistemas operativos vengan con unos directorios predeterminados asociados a la cuenta del usuario: Documentos, Música, Photos, Imágenes, Videos, Plantillas o incluso directamente el formato PDF. De esta manera insinúa al usuario cuál será el lugar más indicado. Sería una contradicción guardar documentos de texto en la carpeta de imágenes. Una segunda decisión viene después, cuando el contenido de las fotografías corresponden a diferentes temáticas, están tomadas en fechas diferentes, algunas son públicas, otras privadas.
-
-Mark Hurst, en su libro “Bit Literacy” nos sugiere la técnica de los “dos niveles”(pág. 84). Él es partidario de utilizar el sistema de organización de carpetas. El sistema de los dos niveles es realmente simple. Consiste en una primera organización por año (2003, 2004, 2005,…) y seguidamente, el segundo nivel de carpetas en la que sigue la convención mes - evento.
-
-Mark Hurst no es partidario de utilizar etiquetas. Considera que la práctica de etiquetar las fotografías requiere de un esfuerzo que, la mayoría de usuarios, no está dispuesto a asumir (pág 80-81). En general, muy pocos son los usuarios que sigan a conciencia un sistema rígido de clasificación y organización de los archivos. En general ni siquiera renombran las imágenes tal como estas salen por defecto de la cámara de fotos. Prueba de ello es que en Flickr nos encontramos a menudo con imágenes amateur con nombres como “DSCN…” y un largo número. Estos usuarios ni clasifican las imágenes, ni siquiera las nombran. Ni mucho menos las etiquetan,.
-nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search/?ss=2&ct=6&w=all&q=dscn0001&m=text comprobaréis cómo un número elevado de usuarios no renombran las fotografías que suben. De hecho se cuenta hasta 17.582 resultados de imágenes de idéntico título.
-
-
-## Exceso y sobrecarga de etiquetas
-
->But if you look closer, you can see massive redundancy and disorganization. There are tags for brandenthusiasts, branding and brands. Separate ones for forum and forums. And a run of social media related ones that include no fewer than sellingsocialmedia, socialbookmarking, socialmedia, socialmediamarketing, socialmediameasurement, socialmediarelease, socialmediaroi, socialmediastrategy, socialmediatools, socialnetworking and socialnews. Oh, and there are separate entries for business, CEO and corporate. Jason Falls ([2009](The Practical Guide To Content Tagging In Social Bookmarking))
-
-
-Mira a este: http://delicious.com/earth2marsh?ubtags=off 4563 etiquetas!!!
-
-### Etiquetas vs. Carpetas 
-
-La clasificación de nuestros archivos en el disco duro se ha basado en la metáfora de la vida real. Organizamos facturas, documentos legales, apuntes en carpetas y subcarpetas. No es extraño que practiquemos lo mismo. Aparte de simple contenedores, las carpetas también se presentan como la primera estructura de un proyecto personal. Carpetas y subcarpetas anidadas le siguen una convención personal de cada nombre de la carpeta. Pequeños hacks de las carpetas, especialmente a prefijos con números y letras para forzar uno u otro orden.
-
->In traditional file hierarchies, the user can only provide simple annotations. For example, people must name their folders and files. They may optionally specify additional information, such as a short text comment or a highlight color, which are stored as file system metadata. Other annotations are automatically supplied by the system, including the icon associated with the file type, the date the file was last modified, and, perhaps, a thumbnail view of the file’s contents. The problem is that these annotation capabilities are extremely limited, given the volume and diversity of files that most individuals must manage. (...) So, while file browsers are excellent for allowing people to create, modify, move, and delete files, they provide 
-extremely limited tools for annotating these artifacts. 
-Stephen Voida & Saul Greenberg. WikiFolders: Augmenting the Display of Folders 
-to Better Convey the Meaning of Files 
- 
-
-
-La estructura de directorios y ficheros revelan un significado y la relación entre los archivos que la contienen. Una buena estructura es susceptible de se reutilizada, no en cambio otra que es un caos! Pero, una estructura, por ejemplo, de un proyecto, es posible reutilizarla. Todos los proyectos son iguales. Si bien la organización de un viaje resulta 
-
-El problema sigue siendo el mismo: el día a día nos hace ser más flexibles con nuestras propias reglas o tareas repetitivas. Dejamos de seguir la convención con la que ordenábamos las carpetas, la numeración, vamos dejando los archivos en el Escritorio, más tarde los desplazamos a lugares equivocados, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta fatiga degrada el sistema de organización de los documentos, lo que ocasiona que, al cabo de un tiempo (no muy largo), no encontremos los archivos si quiera en nuestro ordenador.
-http://www.uxmatters.com/MT/archives/000271.php
-Quizá el origen de todo sirvió en cuanto a que el ordenador seguía la metáfora del escritorio: guardábamos documentos de texto, hojas de cálculo y fichas de datos. El problema es cuando el ordenador ha dejado de ser la metáfora del escritorio. Ahora mismo guardamos:
-
-* Documentos de texto
-* Hojas de cálculo
-* Correo electrónico
-* Presentaciones
-* Mensajería instantánea
-* Calendarios / Eventos 
-* Enlaces
-* Música
-* Videos
-* Imágenes (capturas de pantalla, fotografías, imágenes de la web,…)
-* Ilustraciones
-* Notas/Clips
-* To-do
-* Serial numbers
-* Contraseñas
-* Contactos
-* referencias de libros
-* ...
-
-El problema aumenta en cuanto perdemos la metáfora del escritorio y nuestra actividad profesional traspasa los límites tradicionales de la información personal. 
-
-
-### La lección de Delicious
-
-Joshua Porter ([2006](http://bokardo.com/archives/the-delicious-lesson/)), autor de _Designing for the social web_(2008) acentúa el orden de la secuencia: el valor de la información personal precede a la información de la web. Prueba de ello es el enorme éxito de Delicious y su sistema flexible de ordenación de los marcadores por etiquetas. Porter relata el escepticismo de Yahoo! (http://blog.searchenginewatch.com/blog/050322-163753) y comprobar poco después que las etiquetas no funcionan como sucedáneos o una suerte de metadatos, parte del mal funcionamiento de los buscadores siguiendo los principios de una taxonomía de la web basada en metadatos.
-
-¿Dónde reside el valor de la acción de _tagging_, de clasificar libremente la información por etiquetas? A diferencia de las etiquetas como metadatos, que no aportan ningún valor personal, sino de _atención_ para los buscadores, el valor de las etiquetas de Delicious es la de proporcionar un valor personal por cada vez que un usuario los utiliza para recuperar o descubrir un marcador. 
-
-###Etiquetas para llamar la atención o como valor personal
-
-
-
-
-
-## Entre el escritorio y la nube
-
-
-La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
-Hay intentos como http://www.plaxo.com/ o http://www.airset.com/AirSet.jsp#app.Home
-
-
-
-Quizá una solución posible pasaría por un sistema de lifestreaming online/offline (RIA?). Veamos un ejemplo:
-
-  * Acabo un documento de texto en el escritorio. Si creo necesario, lo subo mediante un cliente RIA a mi espacio de lifestreaming. Este cliente podría trabajar offline, esperando a que, una vez sincronizado con la nube, suba los cambios. En realidad se registra la localización del documento, versión y etiquetas. De esta manera, en la línea de “vida” tienes archivado. 
-  * Pueden tener perfiles de privacidad
-  * Incorporar servicios web 
-  * Puedes publicar o referenciar documentos, los primeros tienen un límite de espacio
-  * Puedes agrupar documentos tomando como referencia un directorio/carpeta 
-
-Una parte de nosotros ha comenzado a considerar la subida de este tipo de archivos a la red en lugar de estar repartido en un ordenador. Quizá el problema más serio viene con los documentos ofimáticos que tienen relación con la realización de un proyecto.
+  * http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php

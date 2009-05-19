@@ -1,182 +1,138 @@
-# ¿Cuál es la versión correcta? 
+# Inbox Overload
 
-En la redacción de un documento en el que participan varias personas se establece la vieja metodología de trabajo divide y vencerás Los participantes deciden qué parte del documento desarrollaran. De esta forma, nadie pisará el trabajo del otro y no se incurrirá a incongruencias al final del proceso. Esta modalidad también incluye un baremo de evaluación del trabajo de cada uno. El trabajo final es una suerte de suma de las partes. Si a primera vista esta estrategia parece idónea, una visión más detenida nos informará que:
+  * http://www.elpais.com/articulo/sociedad/sindrome/Diogenes/llego/ordenador/elpepisoc/20090331elpepisoc_1/Tes
+  * http://www.research.ibm.com/remail/index.html
+  * http://www.enriquedans.com/2009/03/el-sindrome-de-diogenes-y-el-correo-electronico-en-el-pais.html
+  * http://www.enriquedans.com/2005/03/que-hacemos-con-los-correos.html
 
-* El resultado es irregular a varios niveles: no es homogéneo a nivel estilístico.
-* La calidad resulta irregular
-* La información queda fragmentada y dispersa.
-* Los participantes deben coincidir en utilizar idénticas tecnologías  (???)
-* Resulta muy difícil la tarea de coordinar estos proyectos debido a la fragmentación de la información. 
-* Resulta difícil gestionar las sucesivas actualizaciones del documento.
-* Se establece una comunicación unidireccional con la coordinación del proyecto. La coordinación deja de realizar tareas de coordinación y las sustituye por otras que intoxican su trabajo.
 
-El problema fundamental se manifiesta cuando quienes participan en el desarrollo del documento intentan revisar cambios anteriores. ¿Quién ha realizado este o aquel cambio? ¿Cuándo se realizó la modificación? ¿Podemos recuperar una versión anterior del documento previo a la modificación? Y una vez terminada la redacción, ¿quién y cómo se encargarán las futuras actualizaciones del documento?
+>I stopped using e-mail most of the time. I quickly realized that the more messages you answer, the more messages you generate in return. It becomes a vicious cycle. By trying hard to stop the cycle, I cut the number of e-mails that I receive by 80 percent in a single week. Cita de http://www.nytimes.com/2008/06/29/jobs/29pre.html?_r=1 Luis Suarez
 
-## Gestión de las versiones 
+Luis ha tomado una decisión drástica: ha comunicado a los compañeros y compañeras de la empresa que va a dejar de utilizar el correo electrónico como herramienta de comunicación. Expresa la necesidad de recuperar su productividad personal; considera que pasar parte de la mañana en leer y responder correo una actividad improductiva: requiere un enorme esfuerzo de concentración, especialmente si atiende a la totalidad de los mensajes, recibidos y pendientes de respuesta. Leer y responder correo no es el problema, puntualiza Luis. El problema se encuentra en las prácticas tóxicas que contaminan y ofuscan la bandeja de entrada. El resultado es un cajón de sastre donde conviven entre muchos mensajes importantes, reenvíos, adjuntos de archivos, recordatorios, agradecimientos, publicidad, spam, etc. 
+La determinación de Luis se realizó en dos fases. La primera fue comunicar su deseo de abandonar la comunicación por e-mail. Recibió respuestas de las personas con las que regularmente mantenía correspondencia. La mayoría reaccionaron positivamente. Se identificaban plenamente con la situación que planteaba Luis. La pregunta que vino después fue conocer la manera de comunicarse con él a partir del momento que apague el cliente de correo. 
 
-Versionista: http://eliax.com/index.php?/archives/5041-Versionista-y-WayBackMachine-detectan-cambios-en-paginas-web.html
+Luis es experto en nuevas tecnologías. Se llama a sí mismo //social computing evangelist//. Cree firmemente que las nuevas formas de comunicación en la web tendrán un papel decisivo en la metodología de trabajo en equipo. Luis se defiende argumentando que él no desea en ningún momento estar incomunicado. Todo lo contrario, desea utilizar alternativas de comunicación más eficientes que el e-mail. Los blogs, las wikis, la mensajería instantánea (IM), la videoconferencia, las redes sociales son ejemplos de alternativas al uso indiscriminado del correo electrónico. Incluso recupera un hábito que parecía olvidado, levantarse de la silla y dirigirse personalmente a otro compañero de unidad en lugar de enviarse mensajes. Por lo tanto, Luis animó a los demás a incorporar estas tecnologías en lugar del e-mail. Esta acción representaba la segunda fase. La más difícil puesto que representaba un cambio de hábitos de trabajo.
+En primer lugar, Luis expuso que el e-mail no era un cliente de mensajería instantánea. El intercambio rápido de mensajes cortos acumulándose en la bandeja de entrada sólo conseguía tener un efecto difuminador: los correos relevantes quedaban ocultos entre los mensajes de pregunta-respuesta rápida. 
 
-Este escenario se agrava más todavía si una metodología de desarrollo de la documentación personal y, especialmente, colectiva, no permite de manera transparente la reutilización de los contenidos. Es probable que un mismo contenido se escriba más de una vez en organizaciones en las que las unidades que la conforman generan la documentación en la más pura de las invisibilidades; se hablaría de unidades estancas aunque las separe físicamente apenas un metro de distancia entre ellas. La duplicación y la triplicación de los contenidos tiene un efecto desastroso en la productividad de la organización como manifestar abiertamente las incoherencias internas. De hecho, es posible que un único mensaje se represente, se escriba o se transmita de varias maneras, en parte por culpa de una tipología de la gestión de la información unidad-centric. 
+Luis animó a utilizar los espacios de intercambio de ficheros, como documentos, informes, presentaciones en lugar de gestionarlos mediante adjuntos. Compartir los archivos es un espacio visible para todos permite que otra persona de otras unidades reutilicen la totalidad o parte de su contenido en otro proyecto, situación que, de la otra manera, como adjunto, queda invisible y su impacto es menor.
 
-## Wikis 
+## Aciertos y limitaciones del email 
 
->Nevertheless, I predict that Wikis will disappear over the next 5 to 10 years. This is not because they will fail but precisely because they will succeed. The best technologies disappear from view because they become so common-place that nobody notices them. Wiki-style functionality will become embedded within other software – within portals, web design tools, word processors, and content management systems. Our children may not learn the word “Wiki,” but they will be surprised when we tell them that there was a time when you couldn’t just edit a web page to build the content collaboratively. Matthew C.
-Clarke ([2009](http://www.boxesandarrows.com/view/control-and))
+La rápida adopción del correo electrónico a finales de la década de los noventa por particulares, organizaciones, empresas tuvo un efecto nuevo: las bandejas de entrada se iban llenando de mensajes un día sí y otro también debido a la facilidad e 
 
+Enviar mensajes no cuesta dinero y es fácil. Esta situación conlleva a una convivencia entre dos realidades, el aumento de la comunicación entres personas y la degradación de la comunicación  en varias formas: la saturación, la acumulación de basura y otros correos de carácter malicioso y la fragmentación de la información.
 
-Según la Wikipedia, una wiki es una o más páginas web que permite a los usuarios modificar su contenido utilizando un lenguaje de marcado simplificado a través de una navegador. La wiki más popular es la Wikipedia (http://wikipedia.org), una enciclopedia libre y sin ánimo de lucro creada, actualizada y mantenida por voluntarios de todo el mundo.
-Su creación se remonta a mediados de la década de 1990 y el próposito original era, según las palabras de su creador, Ward Cunningham(( http://www.wiki.org/wiki.cgi?TheBook )):
+Debido a su  facilidad de uso y al convertirse rápidamente en el medio de comunicación más utilizado, se termina en una visión e-mail centrista de la información. Toda actividad personal y profesional gira alrededor de la bandeja de entrada, por lo que los usuarios terminan añadiendo funcionalidades o servicios necesarios al cliente de correo, pero no contemplados en su diseño original.
 
-* Una wiki invita a todos los usuarios a editar cualquier página o crear de nuevas dentro de la wiki, utilizando un simple navegador web sin funcionalidades extras.
-* Una wiki promueve la asociación de diferentes contenidos gracias la creación intuitiva y fácil de enlaces entre páginas, mostrando si la página existe o no.
+De nuevo tenemos un exceso de información digital. Cada día tenemos en la bandeja de entrada alrededor de un centenar o dos de mensajes. La media de tiempo que dedicamos a la bandeja de entrada puede llegar a las dos horas. 
 
-La adopción de la tecnología wiki fue rápida en gran medida por la facilidad de publicar contenidos en la web sin necesidad de un editor HTML. Los usuarios sólo debían aprender un sencillo lenguaje de marcado o etiquetas que identifica los diferentes elementos como las cabeceras de diferente nivel, la negrita, la cursiva, los enlaces, etc. de la página. Este planteamiento de la wiki favorece la creación colectiva de documentación. Prevalece el contenido sobre la forma. 
+Hay diferentes enfoques sobre cómo tratar de gestionar el problema de la bandeja de entrada. Algunos autores consideran que el problema tiene su origen en la procrastinación de los usuarios provocado por el volumen de mensajes. Enfrentarse a doscientos correos electrónicos sin 
+Sumar erróneamente funcionalidades al cliente de correo
 
-En general, la tecnología wiki es vista como un sistema que incrementa la productividad de un grupo de trabajo en términos de creación y gestión de la documentación de un proyecto por varias razones:
+Debido al tiempo que invertimos en gestionar diariamente el e-mail, no es sorprendente que, en poco tiempo, le incorporemos nuevas funcionalidades o usos:
+cliente de mensajería instantánea. Intercambiamos mensajes cortos con familiares, compañeros de unidad, de la empresa, clientes, proveedores,... 
 
-* **Integradora**. Evita la dispersión de la documentación y la información relacionada a su gestión. Esta fragmentación se debe generalmente al uso de canales de comunicación como el e-mail, en forma de adjuntos que van y vienen , o calendarios de trabajo. Una wiki facilitará a los usuarios encontrar rápidamente la información sólo accediendo a la web de la wiki desde un simple navegador.
-* **Gestión eficiente del histórico de la documentación**. Una wiki incorpora un sistema transparente de control de versiones, luego permitirá a los usuarios saber en cada momento quién, cuando y el qué ha contribuido, modificado o eliminado. También resultará posible recuperar versiones anteriores del documento sin problemas.
-* **Descentralizada**. Al evitar la dispersión de la documentación, se evita el falso sentimiento de propiedad de los empleados con la generación de contenidos. En lugar de dispersar la documentación por los discos duros de los empleados, se unifica. De esta manera, si un empleado marcha de la empresa, se podrá rescatar sin problemas la información que generó a su paso por la empresa.
-* **Horizontal**. Una wiki favorece la responsabilidad personal de la  gestión de los contenidos en lugar de otros sistemas punitivos de regulación y control de la información.
-* **Visible**. Especialmente si nos referimos a que otros grupos o unidades de trabajo puedan acceder a la información
-* **Indexable**. Una wiki incorpora un sistema de indexación de los contenidos, luego permite que los usuarios realicen búsquedas internas de la documentación.
-* **Independiente**. Una wiki no está sujeta a un software específico y, por lo tanto, susceptible de ver sus contenidos afectados por futuras actualizaciones. Sólo necesita un navegador web, por lo que resultará también ajena a una exclusiva plataforma, sistema operativo o dispositivo. 
-* **Coherente**. La unificación de la documentación en la wiki permite que el resultado sea más coherente en términos de estilo.
-* El contenido predomina sobre la forma. Quienes editen la wiki sólo han de preocuparse de entrar contenidos y no vigilar si incumplen o alteran la plantilla visual del documento, como ocurre en general al trabajar con los procesadores de texto.
-* **Estructural**. La edición mediante un simple lenguaje de marcado favorece, en contra de los editores visuales, la estructura de los contenidos.
-* **Exportable**. En general, una wiki incluye un sistema transparente de exportación de los contenidos a otros formatos de documentación, como HTML y PDF. 
-* **Gestión** de la edición y la visibilidad de los contenidos. Una wiki incorpora sistemas de control de permisos de acceso a los usuarios, luego es posible establecer reglas de lectura y escritura de las diferentes páginas.
+  * gestor de proyectos y documentos. Cuanso colaboramos en un proyecto o en la redacción de un documento en el que participan varias personas, el cliente de correo se transforma en un sistema de control de versiones.
+  * gestor de marcadores. Enviamos mensajes con enlaces de interés personal o profesional o relacionado con un proyecto del tipo “Mira cuando puedas esto...” o “¿Tienes presente esta página?”. 
+  * calendario. Recibimos mensajes del tipo “El 28 de enero tendrá lugar...” o “Te recordamos que el próximo 28  de enero tendrá lugar”. También es generalizado el uso del e-mail como gestor de citas, reuniones o conferencias: “Mañana reunión a las 11:00 en la sala...” o “no olvides que mañana hemos de vernos para...”
+  * gestor de contactos. La acumulación de mensajes de un cliente proporciona un tipo de información que, de otra manera, resultaría imposible de localizar. Ejemplo de esto sería el número de teléfono, qué clase de proyectos está involucrado o una información más difusa, pero no menos importante, como son las curiosidaes, intereses personales y profesionales. Una de las parcelas que, en este sentido está siendo de utilidad es lo que se conoce por e-mail mining o data mining e-mail1 y que tiene como objetivo detectar patrones en el contenido de los mensajes.
+  * gestor de tareas. Nos reenviamos mensajes del tipo “Urgente terminar...” o “Escribir mañana a...”.
+  * gestor de copias de seguridad. No nos sentimos seguros de la fiabilidad del disco duro del ordenador, tampoco del lápiz USB, luego nos reenviamos una copia del documento en forma de adjunto. También esta será la práctica para transportar información de un ordenador a otro.
+  * una red social en el que compartir las fotos de vacaciones, diapositivas divertidas (o no tan divertidas), chismorreos, rumores, causas y un largo etcétera.
+  * un diario personal en el que vamos registrando nuestras memorias.
 
-## la wiki, navaja suiza de la documentación 
+Esta sobrecarga de funcionalidades al cliente de correo tiene un efecto demoleador en la bandeja de entrada: todos los mensajes se confunden en un único espacio, lo que resulta improductivo porque exige esfuerzos en:
+     
+* diferenciar los niveles de importancia de los mensajes.
+* clasificar los mensajes según sea el contenido.
+* recuperar el contenido de mensajes pasados.
 
-El uso y utilización de una wiki en el ámbito personal y profesional de una organización y empresa no se debe reducir única y exclusivamente a  la generación de contenidos de la documentación de un proyecto. Una wiki puede utilizarse también como:
-  * Actas de una sesión
-  * Sesión de ideas, brainstorming,...
-  * Preguntas más frecuentes
-  * Expedientes
-  * Recogida de anotaciones, propuestas, consejos, observaciones internas alrededor de un servicio en beneficio de los compañeros/as de la misma unidad
-  * Diario de un proyecto
-  * Lista de tareas (GTD)
-* Gestión documental de un proyecto. 
-* Canal de comunicación fácil de actualizar con los clientes
+## Bandeja de entrada saturada -cuttering, scattering and suffering 
 
 
-### Wikis públicas 
+Una bandeja de entrada representa un problema triple: 
+Acumulación de trabajo (work cuttering), por lo que nos provocará un tipo de estrés al no poder controlar la información que diariamente nos va llegando
+Dispersión de la información (information scattering) que también nos provocará un enorme estrés y baja productividad al no saber dónde hemos guardado la información.
+Sufrimiento (suffering)al no conocer estrategias que nos permitan remediar o corregir los anteriores escenarios.
 
-  * PBWiki
-  * Wikispaces
-  * Jottit
-  * Wikidot
-  * Google Sites
+## Consejos, ayudas, recomendaciones 
 
+>Esta es la primera crisis fuerte en la que disponemos masivamente desplegada de esta tecnología de comunicación electrónica. Lo que me dicen y lo que puedo observar es que no está resultando todo lo efectiva, productiva y humana que pensaron sus inventores, como explicó uno de ellos, Howard Frank, cuando le dimos un premio en el IESE hará 15 años. Hay quienes se esconden y evitan disculparse. Pero también los hay creando la imagen de que trabajan reduciendo costes cuando lo que hacen es superficial o contraproducente. Casi seguro que para la próxima crisis fuerte, el 2021, los e-mail estarán prohibidos. Pedro Nueno ([2009, (http://espaicritic.blogspot.com/2009/05/emailiando-de-pedro-nueno-en-la.html)])
 
-### Caso práctico: Jottit 
 
-Jottit (http://jottit.com) es un servicio gratuito de creación ágil de wikis, basado en un pequeño web framework de dominio público, web.py (http://webpy.org/). La elección de esta wiki pública se debe, en gran medida, a su facilidad y agilidad de uso: contiene las funcionalidades básicas y necesarias para emprender un proyecto colaborativo de pocas páginas. 
+Varios autores han dedicado su atención al problema de la bandeja de entrada. Merlin Mann, ideólogo de Inbox Zero, Tim Ferriss, autor de “The 4-Hour Workweek”, Mark Husrt, de “Bit Literacy”, Scott Young, en “Email Zen”, incluso cabría el tremendamente popular “Getting Things Done”, de David Allen, y otros autores de la blogosfera, proponen consejos, ayudas, recomendaciones, orientaciones e incluso qué herramientas son más eficientes en alcanzar el zen del control de la bandeja de entrada.
 
-Con Jottit podéis:
+Un visión general de las ayudas y consejos de los diferentes autores nos permite encontrar un común denominador:
+Conseguir el zen de la bandeja de entrada cero.
 
-  * Crear y editar páginas 
-  * Uso de un lenguaje de marcado wiki
+  * Utiliza un cliente de correo eficiente que filtre lo máximo posible el correo basura, spam. Publicidad, basura, información indiscriminada o junk: basura o no, la mayoría de estos mensajes sólo consiguen distraernos del resto de mensajes en cuanto a su cantidad. Todos los autores coinciden en no abrir jamás estos mensajes y borrarlos inmediatamente.
+  * No actualizar la bandeja de entrada cada momento. No trabajas en un silo de misiles nucleares en Corea del Norte, como remarca Merlin Mann.
+  * Mensajes de amigos o familiares. Scott Young aconseja responderlos y acto seguido, borrarlos. Sólo quiero apuntar que algunos de estos mensajes deberían ser borrados si contienen información de escaso interés, por lo que se convierten en mensajes de sólo lectura.
+  * Concentrar en una única bandeja de entrada en caso de utilizar dos o más cuentas de correo.
+  * Utilizar un cliente de correo web frente a uno de escritorio. Evitará de esta manera futuras migraciones. Independiente del sistema operativo, lugar.
+  * Utilizar teclas de acceso rápido para ser más eficientes con el cliente de correo.
+  * Concentrar la lectura del correo en un momento del día. No dispersar esta acción a lo largo del día.
+  * Evitar leer el correo desde dispositivos móviles si no quieres ser un esclavo de la bandeja de entrada las 24 horas del día, 7 días a la semana.
+  * Si el mensaje puede responderse en menos de un minuto, respóndelo y bórralo. 
+  * Cancelar subscripciones a listas de correo que ya no les prestamos ninguna atención. Si sigue interesándonos, agrupar los mensajes por días.
+  * Borrar inmediatamente los mensajes que contengan causas colectivas, presentaciones de dudosa procedencia, chistes u otro material improcedente.
+  * Penalizar a quien nos envía mensajes regularmente con contenido improcedente.
+Convencerse que un cliente de correo no es una herramienta con el que registramos la lista de tareas personal o del trabajo, guardamos los marcadores web, gestionamos las versiones de los documentos, un sistema de copias de seguridad de documentos o un cliente de mensajería instantánea.
+  * Evitar el envío indiscriminado de mensajes ya que es probable que recibas un número igual o mayor de respuestas.
+  * Borrar automáticamente todo mensaje pasado un tiempo (1 mes, por ejemplo).
+  * Evitar posponer una respuesta más allá de 3 días. Pasado este tiempo es preferible borrar el mensaje.
+  * Escribir menos, conciso y hacer un uso intensivo de listas de apartados como cuerpo del mensaje.
+  * El título del menaje ha de contextualizar el contenido del mensaje.
+  * Evitar la prosa, largas redacciones o florituras estilísticas. El receptor no espera leer la primera parte de una novela.
+  * Evitar adornos visuales, tipografía vistosa o colores que no sean armónicos en el cuerpo del mensaje. 
+Utilizar alternativas de comunicación más efecientes si el medio (administración, empresa, compañía) lo permite.
 
-La página principal de Jottit presenta el logo y, debajo de este, una caja de texto en las que nos invita a comenzar a crear la primera página. Escribimos una frase y hacemos clic en el botón Create a site.
 
-  - Una vez creada la página, aparecerá la primera página -la principal o home- en la que se nos recuerda guardar el marcador, creado mediante la suma del dominio de jottit.com, más una clave de cinco letras que proporciona la dirección de la página principal de la wiki, http://jottit.com/tyqjt/ por ejemplo, si queremos volver a recuperar o trabajar de nuevo con la wiki.
-  - Configurar el título, subtítulo y modificar la URL original de la wiki es posible si hacéis clic a la opción settings, ubicada en la esquina superior derecha. A través de un sencillo formulario podréis modificar los apartados arriba mencionados. Incluye la función de exportación de los últimos cambios realizados, una foto-finish de la documentación, al formato ATOM y, por último, la opción de borrar la wiki. Más adelante hablaremos de las posibilidades del formato ATOM.
-  - En este mismo formulario podéis modificar la URL original, proporcionada por defecto por Jottit, si hacéis clic en el enlace Give your site an address. En lugar de una clave de cinco letras, podéis personalizar la URL que os sea fácil de recordar.
-  - Si hacéis clic en home, regresaréis a la página principal. La edición de la página principal o de cualquier otra página es posible si hacéis clic en edit. Aparecerá la página de edición, dividida en dos partes iguales. A la izquierda, una caja de texto donde introduciréis el texto nuevo o cambios de un documento. A la derecha iréis viendo, a tiempo real, la representación de estos cambios. Recordad que, como wiki, la edición del texto sigue un lenguaje de marcado en lugar de utilizar un editor  WYSIWYG (What You See Is What You Get), es decir, el sistema de edición de la mayoría de procesadores de texto actuales. 
-  - ¿Por qué debo aprender un lenguaje de marcado en lugar de utilizar un editor visual?
-  - Para ayudarnos a dar formato correctamente el texto plano, haced clic sobre el enlace formatting help. Aparecerá en el lugar del espacio de la visualización del texto una ayuda práctica en el que se explica las características del lenguaje de marcado. Qué habéis de escribir para obtener según qué resultado.
-  - El lenguaje de marcado que utiliza Jottit para la creación de documentos estructurados es conocida como markdown (http://daringfireball.net/projects/markdown/syntax#overview). A grandes rasgos, el propósito del lenguaje de marcado markdown es la de proporcionar una sintaxis muy sencilla y fácil de leer, escribir y recordar para la creación de páginas web estructuradas sin recurrir a la engorrosa tarea de escribir HTML. No es el único lenguaje de marcado que realizan esta tarea. Podríamos destacar entre otros Textile (http://textile.thresholdstate.com/), completamente ligado al CMS (Content Managament System) Textpattern (http://textpattern.com/) o Creole (http://wiki.wikicreole.org/), un lenguaje de marcado con la pretensión de representar un estandar en la interminable lista de lenguajes de marcado ligados a las diferentes soluciones wiki. 
-  - La creación de nuevas páginas es tan simple como crear un nuevo enlace. Al hacer clic sobre él, Jottit nos pedirá la confirmación de crear la nueva página.
-  - Es posible visualizar los cambios... esto se lo conoce como control de versiones de un documento
-  - Es posible definir unas sencillas reglas de acceso o de privacidad del documento
+La mayoría de consejos estan orientados como solución individual cuando en realidad pertenece a una dinámica colectiva. De poco o nada sirven si, como jefe de unidad, recibo copias de mensajes de mis subordinados demostrándome lo mucho que trabajan o incurren regularmente en acciones descritas en la lista anterior.
 
-## Lenguaje de marcado en la era de los editores visuales 
 
-Una de las dificultades de adopción de una wiki y que la mayoría de  usuarios presentan como barrera insuperable es la redacción de texto mediante un lenguaje de marcado en lugar del acostumbrado editor visual.
+## Bandeja de entrada cero 
 
-Cristoph Sauer, en su artículo What you see is Wiki - Questioning WYSIWYG in the Internet Age (http://www.i3g.hs-heilbronn.de/attach/Ver%C3%B6ffentlichungen/What+you+see+is+Wiki.pdf) explica cuáles son los puntos a favor y en contra de utilizar un lenguaje de marcado frente a un editor visual en el caso de las tecnologías wikis. En general, los puntos en contra de los lenguajes de marcado son los siguientes:
+Hay varias razones importantes para tener la bandeja de entrada vacía:
 
-  * El hábito de editar el texto de manera visual, aquello que veo en pantalla es aquello que saldrá por la impresora, siguiendo la lógica de los editores visuales, como Microsoft Word o OpenOffice Writer, empuja a los usuarios a rechazar de pleno el trabajo con una wiki. Conocer un lenguaje de marcado representa poco menos de 15 minutos de aprendizaje. Explicar la lógica de utilizar un lenguaje de marcado y sus beneficios en la creación de textos estructurados puede representar mucho más que los 15 minutos de conocimiento del lenguaje de marcado
-  * El hábito de modificar libremente el estilo del documento en el caso de los editores visuales frente a la rígida separación de contenido y presentación de los lenguajes de marcado es otro de los problemas que los usuarios presentan como un motivo más para no adoptar una wiki. 
-  * La dificultad de navegar visualmente por el flujo del texto en los lenguajes de marcado es otro de los inconvenientes frente a una visualización del texto diferenciado según sea su formato. En este sentido, soluciones como la de Jottit, donde quedan representadas las dos vistas, la de edición y la de formato, o la de commutación transparente entre una edición visual y otra de lenguaje de marcado son unas buenas alternativas.
-  * La falta de estandarización del lenguaje de marcado de las diferentes tecnologías wikis en la actualidad. Uno de los intentos para corregir esta situación es Creole.
+  * Una bandeja de entrada vacía evita la ansiedad de saber que tenemos trabajo pendiente por realizar. Y que cada día que pasa resulta ser más nocivo para la conciencia profesional.
+  * Nos hace sentir más eficientes en la redacción de las respuestas. Nos resulta más agobiante responder un mensaje de hace semanas que uno del mismo día. El primero nos exigirá un mayor esfuerzo de concentración: recordar el contexto del contenido del mensaje; excusarse por el retraso de la respuesta; encontrar la solución o la respuesta adecuada. Cuanto más tiempo ha pasado, más formal deberá ser la respuesta.
 
-Estos problemas son los argumentos principales en contra del uso de un lenguaje de marcado. El problema suele ser de concepto; los lenguajes de marcado priorizan la estructura de la información y la versatilidad en la que una misma fuente de información pueda representarse sin dificultad en cualquier dispositivo o aplicación actual y futura. Cristoph Sauer hace nos recuerda el escenario de la edición de e-mails. No todos los clientes de correo electrónico presentarán el formato idéntico con el que estás trabajando. Todo lo contrario, estamos acostumbrados a recibir a menudo e-mails en el que la información aparece completamente innaccesible y desestructurada por ese motivo. También se ha desactivado, por motivos de seguridad, la representación en HTML del cuerpo de mensaje en algunos clientes de correo, o gran parte de ello. Esta situación se ha ido corregiendo a medida que los usuarios optaban por escribir texto plano como cuerpo del mensaje o, en el peor de los escenarios, adjuntar un documento de texto o encapsulado (PDF). 
+## La desaparición del correo electrónico ¿es posible? 
 
-Por otro lado, si hablamos en el contexto de la web, cada vez son más los usuarios que remezclan los contenidos que van encontrando en las páginas. De hecho, la mayoría de veces sólo interesa un fragmento o parte del documento. Si este viene asociado o cautivo a un formato visual, nos veremos obligados a darle de nuevo un formato que se ajuste al documento que estamos elaborando. En este sentido, lo editores visuales son la peor opción, ya que, recordemos, el editor visual se encarga de traducir la representación visual a HTML, añadiendo un excedente de etiquetas para que visualmente se ajuste a lo que estamos escribiendo. Por otro lado, en el caso del lenguaje de marcado, nos obliga a:
+Hay voces que proclaman que la desparición del e-mail tal como lo hemos conocido por varios factores:
 
-  * concentrarnos en el contenido, no en el resultado visual.
-  * el contenido no está sujeto o cautivo a ningún formato visual propio de una aplicación o dispositivo, luego el contenido puede tomar o adquirir la forma visual que se quiera o que le  exiga el dispositivo o aplicación nueva
-  * velocidad de redacción al despreocuparnos de cómo va a quedar y pensar en cómo lo voy a redactar.
-  * simplicidad
-  * compartir! resulta más efectivo compartir texto plano sin ningún formato que de cualquier otra manera.
+  * Las nuevas generaciones prefieren sistemas de comunicación rápidos: se inclinan definitivamente por tecnologías de mensajería instantánea, SMS (Short Message Service) o, simplemente, teléfono móvil, VOiP o videoconferencia antes que el correo electrónico.
+  * La proliferación de intranets, foros, gestores de contenidos, redes sociales, servicios de microblogging, bloging o wikis, por ejemplo, permiten otros modelos de comunicación más eficientes en cuanto a que:
+    * Agrupan los mensajes en conversaciones que giran alrededor de un tema o afinidad.
+    * Mantienen la conversación en un espacio entre lo privado y público. 	
+  * La degradación del servicio debido a diversos factores como: 
+    * la acumulación desorbitada de correo basura o malicioso por falta de una tecnología eficaz del proveedor contra el spam.
+    * limitaciones ridículas de espacio de la bandeja de entrada como del tamaño de transferencia de los mensajes.
+    * inseguridad a la hora de realizar copias de seguridad del correo
+    * dificultad en la localización de contenido específico a través del buscador interno del cliente de correo.
 
-## wikis corporativos ¿una realidad imposible? 
 
-Si la utilización colectiva de una wiki permite un número de ventajas sobre la gestión de la documentación, no es así su adopción. En general las wikis corporativas plantean dos dificultades, a veces insalvables, en entornos corporativos.
+## Dos visiones confrontadas del PIG: email-centric o stop-using-email
 
-La edición siguiendo un lenguaje de marcado frente al hábito de trabajar con editores visuales. Este es quizá el mayor inconveniente o problema que plantean los empleados de una empresa al enfrentarse a una wiki. El hábito o costumbre de trabajar con procesadores de texto visuales3, tales como Microsoft Word o el Writer de la suite de OpenOffice, representa un escollo a veces insalvable. A diferencia de las wikis públicas mencionadas más arriba, Google Sites incorpora un editor visual en lugar de un simple editor de etiquetas. En este sentido es preferible que las wikis se introduzcan progresivamente en proyectos pequeños y de corta duración, como sesiones de brainstorming o la redacción de actas de la unidad, buscando la complicidad las unidades o empleados más proclives a un cambio de metodología de trabajo. Esta actuación debe acompañarse de una wiki que sea ágil en la introducción y modificación de los contenidos.
 
-La falta de hábito en compartir la información o trabajar de manera colaborativa. Introducir tecnologías de naturaleza participativa en entornos estancos de comunicación acaba pervirtiendo el resultado, entre la soledad del editor de fondo, que hace el esfuerzo por convicción personal o la degradación del servicio: adjuntar documentos de texto a una página de la wiki.
 
 
+## Etiquetas a la ayuda
 
-## Hacias nuevas maneras de gestionar las versiones
+>"I run a student organization with a 10-member 'board of directors.' We hardly ever all have time to attend meetings and a large part of how we interact with the student body is through email. We have a shared email account (accessible by the 10 of us on the board) right now that is typically accessed through an outlook web-access portal. We've been attempting to keep things organized in the account through a complex collection of folders that have been tacked on ad libum. It's turned into a complete mess. I have the onerous task of restructuring the folder system in hopes of achieving sustainable organization, but I'm wondering if I should just switch us over to a tagging system — perhaps Gmail. Has anyone used tags for a multi-user account successfully or does it end up being just as messy?"
 
+[Folders vs. Tags For Shared Email Accounts?](http://tech.slashdot.org/article.pl?sid=08/05/03/1749255)
 
-En el artículo [[http://tommorris.org/blog/2008/03/09#pid2761430|How to build the perfect wiki]], Tom Morris arremete contra la mayoría de los sistemas wikis conocidos cuando los utiliza como wikis personales: no puede trabajar con ellos debido sobretodo a:
 
-  * Cuando aparecen bajo la etiqueta //enterprise//, inevitablemente piensa en un producto lo suficientemente complicado, intratable y lejos de poder ser "hackeable" que por ello mismo sólo puede venderse como producto comercial. Su opción es cuanto más simples más útiles que aquellos que presentan un mínimo de complejidad.
-  * Trabajar con el editor <textarea\> del navegador web es francamente frustrante. Si lo es en cierta manera editar textos con los editores llamados visuales, que imitan la edición de los procesadores de textos, y que su aparición en sistemas wikis son una absurda contradicción, esta edición que sólo incorpora generalmente un número pequeño de botones de ayuda de sintaxis (negrita, itálica, secciones y subsecciones, subrayado, enlaces, imágenes,...) tampoco es la panacea. La navegación por el texto no es intuitiva (todo se convierte en monospace); funciones de búsqueda y reemplazar texto es completamente imposible. Y en cierta manera es incomparable el uso de un editor de textos profesional contra el simple editor web de la wiki. Frente a esta carencia Tom recomienda el uso de editores como VIm o TextMate acompañados de complemento [[http://docwhat.gerf.org/tag/iat/|It's All Text]], que permite editar cualquier área de texto en mejores condiciones.
-  * Una wiki, según Tom, es en realidad un sistema de control de versiones de páginas web, pero un sistema //pobre// si lo comparamos con los sistema de control de versiones que utilizan los programadores como Subversion o Git. ¿Qué ocurre si queremos trabajar en modo //offline//? La mayoría de wikis no permiten todavía un modo offline. (GeniusWiki, http://wibokr.com/page/page.do#, implementa un modo offline gracias al plugin Google Gears)
-  * La sintaxis sigue siendo un problema. Cada wiki lleva una de diferente, como si de dialectos de un mismo idioma se tratara. Ni Creole parece que ayude a corregir este panorama, sería como una suerte de Esperanto a los idiomas lo que Creole a las wikis. 
 
-Según Tom, la solución pasa por trabajar en local y utilizar un verdadero sistema de control de versiones en lugar de los que incorporan los sistemas wikis, muy rudimentarios en comparación. Los sistemas de control de versiones están muy ligados al desarrollo de software. El uso de una herramienta de control de versiones es tan necesaria como la documentación o un [depurador](http://es.wikipedia.org/wiki/Depurador). A modo introductorio, las herramientas de control de versiones permiten a los programadores realizar _snapshots_, instantáneas del código fuente en el que se está trabajando, comprobar diferencias entre diferentes instantáneas y revertir a una instantánea anterior si es necesario. Tecnologías como CVS (Concurrent Version System), Subversion, DARCS, Mercurial o Git son los sistemas de control de versiones de licencia libre más populares y ampliamente usados, en especial Subversion. Si todos ellos comparten un mecanismos de trabajo muy parecidos, no es así en cuanto a la concepción de cómo debería ser la gestión y mantenimiento de las versiones de un proyecto. Si desde un principio los sistemas de control de versiones, como CVS o Subversion tuvieron una planteamiento centralizado, es decir, el _repositorio_, lugar donde el sistema de control de versiones mantiene el registro de todos los cambios (qué, quién y cuando), está ubicado en un único lugar o servidor. Esta metodología de trabajo centralizada obliga a quienes participan en la evolución del proyecto a acceder al servidor o lugar donde se mantenía el _repositorio_ en la realización de tareas ...
 
-El problema, según observa Travis Swicegood (2008), es doble. Swicegood remarca que la definición de _repositorio centralizado_ representa una mejora considerable frente a un _repositorio_ único, el cual nos evita acceder al ordenador que lo hospeda, sigue teniendo limitaciones. Señala que sólo tienes la última versión del proyecto, luego si quieres conocer el histórico de cambios tienes que preguntarle al _repositorio_. Esta situación nos hace dependientes de la conexión, luego tenemos el segundo problema. Este es también el problema en relación a las wikis: son dependientes de la conectividad. En palabras del equipo de soporte de Google ([2009](http://code.google.com/p/support/wiki/DVCSAnalysis)), la visión tradicional de los sistemas de control de versiones obliga  a los desarrolladores a trabajar directamente con el repositorio central si desean examinar el histórico, los cambios entre diferentes _commits_, otras ramificaciones. Las copias que tienen los desarrolladores en local es la instantánea del proyecto cuando realizaron un _checkout_, pero no las versiones previas o el histórico del proyecto. 
 
+> You can have multiple tags on one mail, but you can't put a mail in multiple folders.([Tags. Or three folders maximum](http://tech.slashdot.org/comments.pl?sid=542398&cid=23286128))
 
 
-Frente a los _repositorios centralizados_ encontramos una enfoque opuesto: los _repositorios distribuidos_ (DVCS, _Distributed Version Control Systems_). La diferencia más notable es que cada uno tiene su propio _repositorio_ en local, luego se tiene el acceso a toda la historia del proyecto, examinar el histórico de cada archivo sin depender o no de la conexión o acceso al repositorio. Realizar _commits_ también se realizan en local. Que esté en local no significa que el proyecto pueda estar _distribuido_ en otros lugares de acceso público o privdado. El concepto de _distribuido_ atañe a la oportunidad, mediante las operaciones _push_ y _pull_, de realizar intercambiar repositorios individuales. La operación _push_ representa una transferencia de parte o toda información del repositorio local a uno remoto y, al otro lado, la operación _pull_ copia información remota a un repositorio local. 
 
-El lema de GitHub se resume en los comentarios de Ryan Tomayko ([2008](http://tomayko.com/writings/github-is-myspace-for-hackers))
 
->Forking on GitHub is like friending on Myspace (or Facebook or whatever crazy ass social networking site that is) inasmuch as this is the point where a line is drawn from one node to another in the social graph.
 
-Los esotéricos sistema de control de versiones están entrando en el ámbito social: 
 
->You want to “friend me”? Send me a patch.
 
-Y el vocabulario propio como patch, pull, merge, patch, diff, push, commit o fork está siendo apropiado como lenguaje social (mejorar esto!)
-
-En la actualidad, la percepción de un _repositorio_ distribuida va ganando terreno, especialmente bajo el influjo de Git, sistema de control de versiones desarrollado por Linus Torvalds, padre del kernel de Linux, molesto con la ineficiencia de los sistemas con los que trabajaba.
-
-De un tiempo a esta parte se han realizado tímidos intentos de llevar estos sistemas a ámbitos tan aparentemente lejanos como la creación literaria: el escritor y blogger [Cory Doctorow](http://craphound.com/) utiliza un sistema de control de versiones con el registrar los cambios. 
-
-Pero donde puede haber una inflexión es en la 
-
-
-http://craphound.com/?p=2171
-
-Absolutamente genial! ya no sólo automatiza los "push" sino que además añade información como: tiempo, correo leído, feeds, o incluso canciones! Y todo ello lo incorpora en el commit :-) El contexto de la creación se ve reflejado en el commit: el exceso de información que manejamos queda igualmente congelado en la instantánea :)
-
-  * http://lifehacker.com/5232049/flashbake-automates-version-control-for-nerdy-writers
-  * WiGit: A Simple Git-based Wiki: http://el-tramo.be/software/wigit
-  * Git-Wiki: http://github.com/sr/git-wiki/tree/master 
-
-
-
-
-##  Preguntas finales 
-
-Es probable que estés interesado en adoptar una wiki para un trabajo o proyecto específico en la empresa o a nivel personal. Habrás considerado o sopesado las diferentes ventajas e inconvenientes que signifique dar un paso hacia esta dirección. Las preguntas que vienen a continuación pueden ayudarte y ayudar a tomar una decisión correcta.
-
-  * En la empresa existe el hábito de compartir la documentación?
-  * Una versión nueva del procesador de textos resulta traumática?
-  * Es fácil encontrar la documentación de hace un mes? de hace seis meses? de hace un año?
-  * Consideras que la herramienta que utilizáis es la más adecuada para la creación de contenidos?
-  * Cuántas veces te has visto obligado a cambiar el formato visual de un documento en un año?  
-  * Tus clientes tienen problemas en visualizar los documentos editables (.odt, .doc) y no encapsulados (.pdf)
-  * Te resulta cómodo mezclar contenidos de diferentes fuentes de información para crear un único documento?
