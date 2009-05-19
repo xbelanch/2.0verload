@@ -1,6 +1,5 @@
 # De la gestión al enredo de la información personal (PIG)
 
-
 *Personal Information Managament* (PIM) es el espacio personal que, según la Wikipedia (http://en.wikipedia.org/wiki/Personal_information_management), engloba toda aquella actividad relacionada con la adquisición, búsqueda, organización, recuperación, mantenimiento y uso significativo de la información que persigue completar una tarea. Belloti et al. (2002) describe el PIM como "la organización de la información en base a la categorización, ubicación o adorno de la misma con el fin de facilitar su recuperación cuando sea necesaria" o la de Barreau (1995) como "las estrategias en la adquisición, organización y guardar información, las reglas y procedimientos para recuperarla, los mecanismos para su recuperación, y los métodos para producir un resultado". El PIM gestiona todo objeto de información susceptibe de representar una respuesta o solución a una pregunta personal o profesional, luego este objeto de información se verá afectado por el flujo de fuerzas entre los procesos de búsqueda, recuperación y preservación en el tiempo.
 
 La gestión de la información personal implica una elección entre aquello que consideramos objeto de información, susceptible de sernos de utilidad y aquella que consideramos ruido, molesta debido a su visibilidad en exceso. Elección no carente de tensión: ¿dejar escapar el ruido? ¿y si más tarde me resulta de utilidad? La percepción de qué consideramos objeto de información o ruido puede verse alterada en el tiempo o por el contexto personal. Un enlace sobre un estudio o tutorial sobre un tema puede que no nos resulte importante hoy, pero que meses más tarde, queramos recuperarlo debido a una nueva necesidad desconocida en el momento de conocer la existencia de aquella información. En este contexto, una mayoría de servicios actuales de la web tienen en común relajar esta tensión, aligerar el peso de la decisión de qué hacer con el exceso de información: la promesa que las actividades que enlazan los objetos de información con nuestros intereses, fundamentalmente la de buscar y guardar la información (Jones, 2008), sean eficiente, lo suficiente para despreocuparnos en guardar o no la información. La promesa que toda información, aunque sea ruido, queda guardada en la red; luego siempre recuperable más adelante bajo la borrachera de lo inmediato. 
@@ -8,7 +7,8 @@ La gestión de la información personal implica una elección entre aquello que 
 Buscar y guardar son actividades que no superan la barrera de la inmediatez (Jones, 2008); responden a necesidades urgentes, colindantes a una tarea que requiera una respuesta inminente. Busco el horario de un tren, el vuelo de un avión, el teléfono de un hotel. Y guardo en un papel los productos de cocina que he de comprar, las ideas en una servilleta, un número de móvil en un trozo de papel, en la esquina de un billete de metro o en la agenda de la PDA. Buscar y guardar son actividades que la red ha fijado como una extensión más de nosotros mismos. Utilizamos los buscadores, con mayor o menor acierto, debido a lo veloz del resultado; los motores de búsqueda no superan nunca el límite del segundo. En el otro lado, los dispositivos de memoria -más pequeños en dimensiones, más espacio- y el pensamiento colectivo de una nube de ordenadores sin límites de memoria ayudan a que vayamos guardando, marcando la información que nos interesa. O no.
 
   
-## ¿PIM 2.0?
+##¿PIM 2.0?
+
 
 La marca comercial 2.0 ha impuesto la dictadura de un antes y un después. Una inflexión entre lo viejo -pesado, ineficiente, gris e individual- y lo nuevo -ágil, competente, colorido y colectivo-. Definir la Web 2.0 es tan absurdo como leer, una a una, las "aproximadamente 354 millones de entradas" sobre la Web 2.0 en el resultado de búsqueda de Google. Se señala la Web 2.0 como una segunda generación de la web (O'Reilly, 2004) en la que se estimula la participación social en la creación y distribución de los contenidos. Bajo el signo 2.0 han aparecido servicios como YouTube, Flickr, Twitter o Facebook, muy populares y controvertidos en la actualidad; se habla y utilizan nuevas herramientas de comunicación -wikis, blogging, microblogging, videoblogging, podcasting- y la sofisticación de otras -videochats, mensajería instantánea- que vienen a complementar y aumentar la comunicación entre las personas. La Web 2.0 es también la Web de la lectura-escritura; la web de la reinvención de tecnologías -como Javascript-, que parecían estar abocadas a una severa marginación; el redescubrimiento de otras (Python, Ruby) que permanecían indolentes en los círculos universitarios; la eclosión de los estándares de la Web; un nuevo pulso entre los navegadores; la intecomunicación entre dispositivos físicos y virtuales; la Web 2.0 como la W2W, "Web to wealth" (Shuen, 2008); la Web 2.0 como excusa para agitar la industria _punto com_ (O'Reilly, 2006); y otros la consideran el peldaño intermedio a la ansiada web semántica. Pero la Web 2.0 tampoco está exenta de sombras. La Web 2.0 es la respuesta salvaje desde la industria contra los sistemas P2P; su misión es destruir el aspecto descentralizado de internet (Kleiner y Wyrick, 2007). El sistema P2P respira -los usuarios son clientes y servidores de la información, luego eliminan la figura del intermediario, luego sistema distribuido por antonomasia- el aire de la ausencia de jerarquías. La Web 2.0 se vende como marca regulada de una web distribuida. Puro espejismo. Se aboga antes por soluciones controladas (Youtube) de la circulación de la información y, por consiguiente, del control y censura de la información. Es más fuerte la presión y persecución judicial frente a los grupos P2P que no a los actuales servicios 2.0. La realidad de un sistema -el P2P-, ingobernable por las grandes corporaciones, que cuestiona la validez de los derechos de autor, el _copyright_, y que anima la actividad de compartir libremente objetos de información (libros, videos, cine, imágenes, música,...) entre los ciudadanos.
 
@@ -28,12 +28,13 @@ La Web 2.0 es una interminable proliferación de servicios, de tecnologías que 
 
 ##Buscar 
 
+
 >But as people get more sophisticated at search they are coming to us to solve more complex problems. To stay on top of this, we have spent a lot of time looking at how we can better understand the wide range of information that's on the web and quickly connect people to just the nuggets they need at that moment. We want to help our users find more useful information, and do more useful things with it. 
 >>[More Search Options and other updates from our Searchology event, 2009](http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html)
 
-
+<!--
 ![Google@1999](http://www.readwriteweb.com/images/google_may1999b.jpg)
-
+-->
 
 Buscar en la geografía del actual océano de información es una actividad que no sólo responde a una única finalidad -encontrar la información adecuada que responda a una necesidad-. En el proceso de búsqueda interactuamos con la información (Jones, 2008); no hay búsqueda que no venga acompañada de una cierta dosis de serendipidad o de procrastinación. Entre encuentros fortuitos y el puro entretenimiento por descubrir nueva información, relacionada o no con el objeto de la búsqueda, buscar información es un ejercicio que William Jones (2008) desglosa en dos grandes bloques:
 
@@ -65,11 +66,11 @@ No es el único servicio de estas características. [Pogoplug](http://www.pogopl
 
 >connects your external hard drive to the Internet so you can easily share and access your files from anywhere. The Pogoplug is the perfect accessory to your connected life. Imagine accessing all your files and media from any laptop or desktop computer, anywhere in the world
 
-A una menor escala, el laboratorio de la fundación Mozilla, trabaja en el desarrollo de [Weave](https://services.mozilla.com/)
+A una escala menor, el laboratorio de la fundación Mozilla, trabaja en el desarrollo de [Weave](https://services.mozilla.com/)
 
 >Weave is a Mozilla Labs experiment to explore opportunities for the Web browser to broker richer experiences while increasing user control over their data and personal information. 
 
-Sincronizar el navegador Mozilla Firefox en los diferentes ordenadores que utilizamos a diario.
+Sincronizar el navegador Mozilla Firefox en los diferentes ordenadores que utilizamos a diario. Sincronizar marcadores, *cookies*, contraseñas, histórico de navegación.
 
 Los servicios [DropBox](http://www.getdropbox.com/) o el reciente [Ubuntu One](https://ubuntuone.com/) ratifican una línea de servicio idéntica: vayas a donde vayas, utilices el dispositivo que utilices, la información estará perfectamente sincronizada. El escritorio, multiplicado por el efecto del peaje de la innovación y consumo tecnológico, acaba siendo único e independiente de la herramientas que utilicemos. La información regresa a un lugar común y, por lo tanto, se evita la *siembra* de la información por todas las tecnologías que utilizamos a diario. La búsqueda, misión imposible para los motores de búsqueda de escritorio en un escenario fragmentado, cuasi *cubista* de la información personal, pueden regresar con fuerza. La soluciones como [Google Desktop](http://desktop.google.com/), Apple Spotlight o [Windows Desktop Search](http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx) orientados con exclusividad a satisfacer búsquedas en escritorio tradicional saltaran al nuevo escritorio personal que yace en la *nube*, en consonancia con los nuevos servicios. Google juega con una cierta ventaja respecto a sus contricantes. Su buscador es utilizado diariamente por millones de personas; la traducción del buscador al escritorio personal no ha excluido la información de otros servicios web como el cliente de correo GMail. 
 
@@ -80,21 +81,35 @@ Indexar no sólo los dispositivos de memoria personal (disco duro del ordenador,
 >This artificial limit is in place to ensure the performance of the search system. We also restrict the size of the search index by placing a date limit on the updates we allow you to search.
 >>[Twitter. Things Every Developer Should Know](http://apiwiki.twitter.com/Things-Every-Developer-Should-Know#6Therearepaginationlimits)
 
-En el peor de los escenarios, la conversación enmudece. El servicio de marcadores [Magnolia](http://ma.gnolia.com/) enmudeció a primeros de febrero de 2009 "anunciando pérdida y corrupción de datos en sus servidores" ([error500](http://www.error500.net/articulo/magnolia-hizo-crack)). 
+En el peor de los escenarios, la conversación enmudece. El servicio de marcadores [Magnolia](http://ma.gnolia.com/) acalló a primeros de febrero de 2009 "anunciando pérdida y corrupción de datos en sus servidores" ([error500](http://www.error500.net/articulo/magnolia-hizo-crack)). 
 
+### Ayudantes
 
+Buscar información, recuperar la información que anteriormente hemos visto, guardado, es una actividad poliédrica, interactiva entre el usuario y el buscador e insoportablemente repititiva (Kelly, 2008). De un tiempo a esta parte, los buscadores han ido incorporando lentamente ayudantes o recursos (*helpers*) que facilitan en la medida de lo posible el éxito de la búsqueda. Los formularios barrocos de opciones han dejado paso al minimalismo de un único formulario; se recupera aquí la potencia de la línea de comandos al representar opciones de filtro de búsqueda en un conjunto limitado de operadores. Un ejemplo práctico, a veces poco conocido por el usuario medio, es la sintaxis del buscador de Google -venerado por _[lifehackers](http://lifehacker.com/339474/top-10-obscure-google-search-tricks)_-, pero no menos interesante es la sintaxis de búsqueda del servicio de correo, GMail, encontramos [expresiones](http://mail.google.com/support/bin/answer.py?hl=en&answer=7190) del tipo:
 
+<code>
+from:mai in:anywhere has:attachment filename:pdf after:2007/04/16 before:2009/04/18 
+</code>
 
+que vendría a decir _busca todos los mensajes enviados por mai que adjunten un archivo del tipo pdf entre las fechas 16 de abril de 2007 y 18 de abril de 2009_
 
-### Acumulación desorganizada 
+Veamos otro ejemplo. El buscador de Twitter también nos proporciona una [lista de operadores](http://search.twitter.com/operators) que nos ayudará a recuperar _tweets_ pasados (pero no más allá de los límites que impone el servicio). 
 
-* Acumulación o *cluttering* de información personal sin seguir criterios de organización
+<code>flight :(	containing "flight" and with a negative attitude.</code>
 
+La acción de auto completar la expresión que estamos escribiendo en el formulario de búsqueda es uno de los ayudantes más generalizados. Nos corrige posibles errores de ortografía y, a un mismo tiempo, nos sugiere un resultado idóneo o colateral al objeto de la búsqueda. Las variaciones del autocompletado son múltiples: la palabra clave, la cuenta de correo electrónico, la página web, e incluso contraseñas.
 
-### Descontextualización
+Pero estos dos ejemplos de ayudantes tienen una serie de limitaciones 
 
-* Descontextualización de la información (Google incorpora búsquedas más precisas) una organización, o el relato que explica Jones como excusa para asociar la información a un relato. Un ejemplo de contextualización es la Wikipedia (mediante el omnipresente hipervínculo) como Delicious (sistema de etiquetas) que sirven de gran ayuda en la navegación como actividad de búsqueda.
+* Una incorrección en la búsqueda será de nuevo recuperada por los sistemas de autocompletado
+* El autocompletado es _dispositivo-dependiente_, luego no sortea el problema de la fragmentación de información personal.
+* Una mala práctica organizativa de la información personal. Los buscadores no diferencian entre cuál es la versión correcta de un mismo documento; sólo la puede organizar en la línea del tiempo. En el caso de los objetos media, si la descripción no es la adecuada, la búsqueda resulta impracticable: DSCN... DSCN
+* La descontextualización de la información debida a la acumulación o  *cluttering* de información personal sin seguir criterios de organización. A este respecto, la conversación puede resultar de gran ayuda. Jones ([2009](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/)) refuerza la tesis del relato como método idóneo para la recuperación de la información, un relato puede contener documentos, imágenes, videos. En lugar de una organización jerárquica, o basada en etiquetas, el relato cumple la función de hilvanar la información sujeta a ella. (Extenderse)
 
+>"You press the button , We do the rest"
+>>Kodak advertisement
+
+Este abandonamiento voluntario a los servicios de la web evita también la fragmentación de la información: en la actualidad no utilizamos un único navegador al día debido al acceso permanente a Internet; el ordenador de sobremesa, el portátil personal, el de trabajo, el dispositivo móvil, el ordenador de un aula de formación, el de la biblioteca. Deseamos que los dispositivos resulten transparentes cuando buscamos y accedemos a nuestro espacio de la información. Si la búsqueda resulta compleja cuando desconocemos los referentes que nos permitirán encontrarla, un escenario donde la información se vea impedida por la cautividad de la información en un dispositivo puede resultar demoledora. De hecho, las herramientas que acompañan a las nuevas cámaras de fotos o videos añaden nuevas opciones de publicación, no dirigidas exclusivamentes al ordenador o un dispositivo de almacenamiento sino a la cuenta de un servicio popular ¿acabas de grabar un video? súbelo a tu cuenta de YouTube ¿Tu colección de fotografías? Súbelas a tu cuenta de Flickr. ¿Quieres tenerlas impresas? Flickr te conecta con servicios de terceros de impresión, del tipo Blurb o ..., La información aquí se gestiona en la nube y los mecanismos tradicionales se ven superados por la inmediatez y la portabilidad de la información: el formato desaparece (sube el formato que quieras, nosotros haremos el resto); una vez en la nube la imagen  será indexada, utilizada, reinventada, remezclada, impresa en el resto de servicios web. Los caminos para recuperarla será tan fácil debido a que la misma estará asociada a nuestra identidad digital. "Pon tu nombre, nosotros nos encargamos de decirte quien eres y qué has publicado; te diremos cómo encontrar aquello que buscas;...".
 
 
 ## Buscar a tiempo real
@@ -107,104 +122,12 @@ http://feedproxy.google.com/~r/readwriteweb/~3/jxEfbOdsGDw/introduction_to_the_r
 
 
 
-### Ayudantes
-
-
-Las búsquedas también se veran afectadas por la elaboración de una sintaxis sencilla para precisar mejor el resultado de la búsqueda. Se omite por tanto la utilización de un formulario a favor de una sintaxis que facilita la agilidad de la búsqueda y que se aproxima, por lo tanto, a una expresión del lenguaje humano. Google, por ejemplo, ha incorporado una sintaxis a la mayoría de sus servicios. Si en el ejemplo del buscador teníamos esta lista:
-
-<code>
-site:google.com  syntax gmail +search
-</code>
-
-en el caso del servicio de correo, GMail, encontramos [expresiones](http://mail.google.com/support/bin/answer.py?hl=en&answer=7190) del tipo:
-
-<code>
-from:mai in:anywhere  has:attachment filename:pdf after:2007/04/16 before:2009/04/18 
-</code>
-
-que vendría a decir _busca todos los mensajes enviados por mai que adjunten un archivo del tipo pdf entre las fechas 16 de abril de 2007 y 18 de abril de 2009_
-
-
-Veamos otro ejemplo. El buscador de Twitter también nos proporciona una [lista de operadores](http://search.twitter.com/operators):
-
-
-Por otro lado, las búsquedas de aquello que hemos visto o recogido mediante alguno de los servicios, pongamos el caso de los lectores de noticias. Es otra manera de seguir una actividad primero de filtrar la información que nos interesa (nos suscribimos vía RSS a los canales de nuestro interés); en el ejercicio diario de la lectura podemos marcar algunos mensajes como favoritos, o etiquetarlos. y finalmente, cuando el exceso de noticias recibidas sobrepasa el límite de un control personal, recurrimos al buscador para reencontrar información.
-
-En el caso del lector de noticias de Google, Google Reader, por el contrario, la búsqueda es todavía demasiado simple. 
-
-
 ---
 
-Hablar también que la información personal se diluye en proyectos comunitarios de guardar y organizar la información. Es decir, proyectos como la Wikipedia, o 11870.com donde los usuarios van almacenando información relativa a una entrada enciclopedica, luego la organización descansa en la misma estructura de la aplicación (wiki,...) y, mediante el buscador propio de la aplicación, con mayor o menor éxito, puede ayudar a encontrar la información. A este sistema, tendríamos ayudantes que contribuyen al éxito de búsqueda: el autocompletado, la desambiguación de la expresión (mal escrito, en el caso de Google Web Search, o por diferencias de significado, caso de la Wikipedia) o la fortaleza del hipervínculo en el caso de las entradas de la Wikipedia, la categorización de las entradas; la Wikipedia es también culto al hipervínculo, a la conexión en red de la información; toda entrada es eco y reflejo de otras entradas. La lectura de una entrada es en sí misma un soporte o punto de partida en la nevagación del resto de entradas de la Wikipedia.
-
-La Wikipedia como otros servicios de la Web 2.0 se construyen en la suma de una iniciativa colectiva de, además de compartir, delegar la actividad de guardar la información en un servicio de terceros, sabiendo de antemano que este servicio nos proporcionará las herramientas suficientes para la recuperación de la información que hemos depositado: nuestros conocimentos sobre uno o varios temas (Wikipedia), comentarios, anécdotas o sugerencias en los servicios de las ciudades (11870), fotografías (Flickr), marcadores (Delicious), videos (YouTube), presentaciones (SlideShare), documentos (Google Docs). Esta actividad, por otro lado, nos permitirá buscar la información debido a dos motivos: asociamos una marca a un tipo de información que excluye al resto; los marcadores estan asociados a Delicious, luego una búsqueda en el espacio privado, organzado por categorías o etiquetas, demostrará ser más eficiente que si buscamos en la sección de uno de los navegadores que usamos. Este abandonamiento voluntario a los servicios de la web evita también la fragmentación de la información: en la actualidad no utilizamos un único navegador al día debido al acceso permanente a Internet; el ordenador de sobremesa, el portátil personal, el de trabajo, el dispositivo móvil, el ordenador de un aula de formación, el de la biblioteca. Deseamos que los dispositivos resulten transparentes cuando buscamos y accedemos a nuestro espacio de la información. Si la búsqueda resulta compleja cuando desconocemos los referentes que nos permitirán encontrarla, un escenario donde la información se vea impedida por la cautividad de la información en un dispositivo puede resultar demoledora. De hecho, las herramientas que acompañan a las nuevas cámaras de fotos o videos añaden nuevas opciones de publicación, no dirigidas exclusivamentes al ordenador o un dispositivo de almacenamiento sino a la cuenta de un servicio popular ¿acabas de grabar un video? súbelo a tu cuenta de YouTube ¿Tu colección de fotografías? Súbelas a tu cuenta de Flickr. ¿Quieres tenerlas impresas? Flickr te conecta con servicios de terceros de impresión, del tipo Blurb o ..., La información aquí se gestiona en la nube y los mecanismos tradicionales se ven superados por la inmediatez y la portabilidad de la información: el formato desaparece (sube el formato que quieras, nosotros haremos el resto); una vez en la nube la imagen  será indexada, utilizada, reinventada, remezclada, impresa en el resto de servicios web. Los caminos para recuperarla será tan fácil debido a que la misma estará asociada a nuestra identidad digital. "Pon tu nombre, nosotros nos encargamos de decirte quien eres y qué has publicado; te diremos cómo encontrar aquello que buscas;...".
-
-nunca como antes la misiva de Kodak tiene más fuerza que nunca: "Tú haz la foto, nosotros nos encargamos del resto". 
-
-#### Apartado A: La información que hemos visto con anterioridad y controlamos
-
-En el apartado A se ubican toda la información que hemos ido acumulando tanto en nuestro ordenador. En el escenario PIM, esta información reside en el disco duro del ordenador: documentos de texto, hojas de cálculo, música, películas, fotografías, correo,..., en general es información a la que recurrimos habitualmente, pero en PIG el límite del disco duro se ve extralimitado por la información personal que compartimos en las diferentes redes sociales. Aquí tiene vital importancia los búscadores de escritorio, de los que hablamos ahora... pero qué ocurre con la información que guardamos en la red, en la nube? Qué ocurre cuando el objeto de información es algo más que un documento de trabajo, un simple marcador y se extiende a otras nuevas formas, como por ejemplo, un artículo de blog, 
-
-Aquí, en relación a la búsqueda o recuperación de la información personal propia, o mejor dicho, aquella que tenemos bajo control (se traduce con permisos de lectura, escritura y ejecución, es decir, podemos elegir la herramienta con la que abriremos la información (en el caso de las fotografías, desde el visualizador del sistema hasta herramientas sofisticadas de retoque digital; de escritura, en cuanto a que podemos borrarla o desplazarla a otros dispositivos y, finalmente, de lectura, la opción básica de acceder al contenido de la misma. 
-
-Siguiendo el apartado anterior, los usuarios organizan o sistematizan las técnicas para reencontrar la información a la que frencuentemente recurrimos a ella. Aquí la metáfora del escritorio adquiere especial interés ya que es el espacio en el que dejamos la información con la que trabajamos a menudo y que, debido a la facilidad visual de acceso. Prueba de ello es el problema que el autor X (Bit Literacy) habla del problema conocido por cluttering, es decir, por la acumulación de elementos de información que contiene el escritorio -documentos, carpetas, enlaces directos a aplicaciones- que neutralizan su función.
-
-La división o brecha digital entre los inmigrantes digitales y nativos digitales también les separa el cómo gestionan su información personal. Tal división es obsoleta y debería diferenciarse entre quienes mantienen actividades PIM tradicionales y, por lo tanto, la extienden al ámbito digital; a diferencia de los net-natives, quienes la información personal se extiende en y por la red; se sirven de los servicios para organizarse en grupo la información personal, que deja de ser individual y cobra significado en la galería, en la identificación en grupo; en los comentarios adjuntos; en las valoraciones; en las respuestas de quienes forman o no de aquella infromación 
-
-
-
-
-#### Apartado B: La información que hemos visto con anterioridad y no controlamos
-
-En este apartado tiene relación por ejemplo con los marcadores de la web, pero también con una fotografía.
-
-En este sentido, era habitual en los primeros pasos de la web, finales de la década de 1990, los usuarios guardaban los marcadores de las páginas de interés personal en una página web. No dejaba de ser un reflejo de la gestión de marcadores del navegador.
-
-Un ejemplo de afrontar el hecho de ver continuamente páginas que puedan resultarnos de interés o sólo nos llamen la atención, pero no resultan lo suficientemente importantes para incluirlas en una lista de marcadores. El problema viene a menudo con los diferentes navegadores que usamos a diario, no sólo del tipo sino que nuestros continuos movimientos y los dispositivos diferentes nos obligan a utilizar vario navegadores. Es decir, una dispersión de información de las páginas que hemos visto. EL complemento [Read it later](http://readitlaterlist.com/) por un lado nos ayuda a no acumular pestañas con páginas abiertas pendientes de una lectura detenida. El problema ocurre que no sólo navegamos con el navegador del ordenador personal, sino también del ordenador del trabajo, ordenador de la escuela, de otros dispositivos que tienen acceso a la red, etc. Luego comprobamos que la dispersión de la información que hemos visto en un navegador, representado en forma de pestaña, queda atrapada en aquel navegador a no ser que nos enviemos una mensaje o que finalmente incorporemos la información de la página en la lista de nuestros marcadores favoritos, lo que aumenta considerablemente el volumen de marcadores sin apenas diferenciar su nivel de importancia o interés.
-
-
-
-
-
-
-
-## Buscar
-
-1. La frontera entre el apartado A y B se diluye en el ámbito de la nube. Nuestra información se la supone ubicua y, por lo tanto, traspasa la frontera del ordenador personal. 
-2. Los ayudantes o helpers que nos guian en la localización puede determinar un búsqueda equivocada o esconder información relevante: autocompletados, una jerarquización errónea, etiquetas falsas, metadatos erróneos...
-3. Polimorfismo de la información; cuando esta convive entre su representación física (notas, papeles, impresiones, cartas físicas, memorándums,...) y sobretodo por la explosión de nuevas formas con la llegada de las aplicaciones o servicios web. La información representada de múltiples maneras y guardada en diferentes espacios de almacenamiento ocasiona la dispersión y fragmentación de la información. Incluso un mismo documento o ítem de información es igualmente susceptible de representar este mismo problema en cuanto a que:
-  * el documento se edita y actualiza a lo largo de un tiempo (presentación de un proyecto, informe de una actividad, ...)
-  * el documento se edita mediante uno o varios tipos de software. Recibimos el documento, lo abrimos con un software, lo publicamos para visualizarlo en otro y lo retocamos mediante otro.
-  * Guardamos una copia en uno o varios ordenadores, en uno o varios dispositivos de almacenamiento, en uno o varios mensajes de correo como adjunto,...
-  * Si guardamos las versiones del documento, incrementa la fragmentación y la dispersión si este es un documento de colaboración. 
-  * Manejar versiones diferentes de un mismo documento dificulta la búsqueda de la //versión//, dejando al usuario la tarea de decidir cuál de las versiones es la correcta.
-
-  * La búsqueda ya no es en muchas situaciones interna. No es sólo recorrer el disco duro, sino también la actividad en la web. Es posible pensar en un buscador que indexe todas aquella información que no sólo guardamos en el disco duro, sino en la miríada de servicios en los que participamos en la manera que publicamos, compartimos y guardamos información.
-3. **La fragmentación de la información**: 
-4. El síndrome de las versiones y variaciones de un mismo objeto de información puede representar 
-5. La información entrante es enorme, luego el sistema de búsqueda queda relegada a los buscadores de escritorio
-
-
-¿Se puede hablar de un sistema 
 
 
 ## Guardar
 
-
-
-
-
-
-[Weave](http://labs.mozilla.com/projects/weave/) o [Read it later](http://readitlaterlist.com/)  intentan de alguna manera de sincronizar el contenido que maneja un navegador. El caso de [Read it later](http://readitlaterlist.com/) se limita a los marcadores que dejamos pendientes de lectura para más tarde. En cambio Weave da un paso más allá y aporta una nueva experiencia en la gestión de la información personal que envuelve al navegador. Información que sería el histórico, las pestañas abiertas de la última sesión, las _cookies_, contraseñas, temas o complementos del navegador Mozilla Firefox perfectamente sincronizados con el objeto que el usuario sienta estar siempre delante de su navegador aún estando en dispositivos u ordenadores diferentes. Este es un objetivo que evita la fragmentación de la información y que le obliga a duplicar el entorno de trabajo de su navegador en el resto de navegadores a los que, por diferentes motivos personales o profesionales, toma contacto.
-
->synchronizes the Firefox experience across multiple browsers, so that your desktop, laptop, and mobile phone can all work together. It currently supports continuous synchronization of your bookmarks, browsing history, saved passwords and tabs.
-
-
-Hablar de https://addons.mozilla.org/es-ES/firefox/addon/2410
-
-
-
-### Preservar
 
 >I think of those old Apple II disks in my closet. My son's first Basic program, still on a Commodore 64 cassette. I flip through my filing cabinet. Sure enough, some 51/4-inch floppies for an IBM PC, containing who knows what? I think of a stele in the Louvre, with Hammurabi's code of law carved on it 3,000 years ago, of listening to the English translation on the digital recorder you rent at the museum door. I think of Shakespeare's first folio, fading but readable. Steven Gulie, [Saved. What death can't destroy and how to digitize it.](http://wired-vig.wired.com/wired/archive/6.09/saved.html?pg=1&topic=)
 
@@ -221,9 +144,7 @@ A una escala mayor, el proyecto _BBC Domesday_ representó en la década de 1980
 Guardar información. Jones (2008) considera que la actividad de mantener la información responde a más de una cuestión: ¿me resultará útil más adelante? ¿dónde guardarla? ¿en qué formato? ¿en qué dispositivo? Guardar información es sinónimo de tomar una decisión sobre la prevención de si surge una necesidad relacionada. "Guardo este enlace ya que es posible que más adelante surga un proyecto en el trabajo". En gran medida, los servicios web actuales aligeran la necesidad de tomar una decisión al respecto, ya que si bien antes podría haber limitaciones físicas de espacio (comprar libros resulta un problema) o cuando los dispositivos de almacenamiento eran limitados, ahora resulta una práctica de cazadores de información, incluso aunque la información en sí misma no resulte útil. No guardamos copia de esta información, sólo instancias de la misma: de las páginas web guardamos su marcador, de aquellas fotografías, presentaciones o videos los marcamos de nuestro interés; marcamos/cazamos comentarios, grupos de discusión, noticias, comentarios, opiniones, enlaces, vuelos, rutas, hoteles, estancias,...; agregar noticias no deja de ser también una actividad relacionada con guardar la información. El símbolo de la estrella iluminada adyacente al objeto de información. 
 
 
-Hablar de Caso de estudio: Ma.gnolia
 
-http://www.error500.net/articulo/magnolia-hizo-crack
 
 como de los intentos de mantener la información de geocities! y de empresas que se encargan de traspasar la información a otro lado.
 
