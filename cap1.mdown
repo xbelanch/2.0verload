@@ -112,7 +112,12 @@ Pero estos dos ejemplos de ayudantes tienen una serie de limitaciones
 Este abandonamiento voluntario a los servicios de la web evita también la fragmentación de la información: en la actualidad no utilizamos un único navegador al día debido al acceso permanente a Internet; el ordenador de sobremesa, el portátil personal, el de trabajo, el dispositivo móvil, el ordenador de un aula de formación, el de la biblioteca. Deseamos que los dispositivos resulten transparentes cuando buscamos y accedemos a nuestro espacio de la información. Si la búsqueda resulta compleja cuando desconocemos los referentes que nos permitirán encontrarla, un escenario donde la información se vea impedida por la cautividad de la información en un dispositivo puede resultar demoledora. De hecho, las herramientas que acompañan a las nuevas cámaras de fotos o videos añaden nuevas opciones de publicación, no dirigidas exclusivamentes al ordenador o un dispositivo de almacenamiento sino a la cuenta de un servicio popular ¿acabas de grabar un video? súbelo a tu cuenta de YouTube ¿Tu colección de fotografías? Súbelas a tu cuenta de Flickr. ¿Quieres tenerlas impresas? Flickr te conecta con servicios de terceros de impresión, del tipo Blurb o ..., La información aquí se gestiona en la nube y los mecanismos tradicionales se ven superados por la inmediatez y la portabilidad de la información: el formato desaparece (sube el formato que quieras, nosotros haremos el resto); una vez en la nube la imagen  será indexada, utilizada, reinventada, remezclada, impresa en el resto de servicios web. Los caminos para recuperarla será tan fácil debido a que la misma estará asociada a nuestra identidad digital. "Pon tu nombre, nosotros nos encargamos de decirte quien eres y qué has publicado; te diremos cómo encontrar aquello que buscas;...".
 
 
-## Buscar a tiempo real
+## Buscar en la conversación
+
+
+De igual manera que no registramos a diario nuestras conversaciones cotidianas
+
+http://www.readwriteweb.com/archives/larry_page_on_real_time_google_we_have_to_do_it.php
 
 http://edition.cnn.com/2009/TECH/05/12/future.search.engine/index.html
 
@@ -120,6 +125,7 @@ http://www.readwriteweb.com/archives/major_search_announcement_at_google_today.p
 
 http://feedproxy.google.com/~r/readwriteweb/~3/jxEfbOdsGDw/introduction_to_the_real_time_web.php
 
+http://www.flotzam.com/archivist/
 
 
 ---

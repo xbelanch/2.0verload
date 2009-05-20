@@ -1,5 +1,6 @@
 # Anexo I: The beauty of commitment
 
+http://dmiessler.com/blog/using-git-to-maintain-your-website
 
 
 http://www.rubyinside.com/git-and-ruby-git-tutorials-articles-and-links-for-rubyists-860.html
