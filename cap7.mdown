@@ -1,11 +1,10 @@
-# Social Network Overload 
+# Conversation Overload 
 
 
+*Únete a la conversación* exclama el eslogan de Twitter. 
 Curiosas comparaciones!
 
-|{{:2.0_overload:unix.jpeg?350|}}| {{:2.0_overload:time-machine-mode.jpg?350|}} |
 
-La primera corresponde al paper "Lifestreams: Organizing your Electronic Life", de www.aaai.org/Papers/Symposia/Fall/1995/FS-95-03/FS95-03-007.pdf 
 
 ## Sobre el lifestreaming 
 
