@@ -122,22 +122,16 @@ Pero en términos de búsqueda, ¿qué buscar en la conversación? De igual mane
 >See what's happening - right now
 >Eslogan de Twitter Search 
 
-La búsqueda de la _Real Time Web_ es la búsqueda en la conversación. ¿Qué significa esto? No nos referimos a indexar documentos, páginas, archivos, imágenes o fotografías. El servicio de microblogging Twitter ha demostrado que su buscador no tiene nada que ver con la recuperación de viejos _tweets_ de los usuarios. El [buscador de Twitter](http://search.twitter.com/) actúa de sismógrafo de la conversación, traza sobre la pantalla cualquiera de las tendencias que estan ocurriendo en ese momento en la conversación.
+La búsqueda de la _Real Time Web_ es la búsqueda en la conversación. ¿Qué significa esto? No nos referimos a indexar documentos, páginas, archivos, imágenes o fotografías de la web. El servicio de microblogging Twitter ha demostrado que su buscador no tiene nada que ver con la recuperación de viejos _tweets_ de los usuarios. El [buscador de Twitter](http://search.twitter.com/) actúa de sismógrafo de la conversación, traza sobre la pantalla cualquiera de las tendencias que estan ocurriendo en ese momento en la conversación.
 
 >I have always thought we needed to index the web every second to allow real time search. At first, my team laughed and did not believe me. Now they know they have to do it. Not everybody needs sub-second indexing but people are getting pretty excited about realtime.
 >[Larry Page about Twitter](http://www.loiclemeur.com/english/2009/05/larry-page-about-twitter.html)
 
+No resulta difícil imaginar la expresión de los desarrolladores de Google al conocer la propuesta de Page. Aparte del buscador de Twitter, ejemplos como el de [OneRiot](http://www.oneriot.com), [Scoopler](http://www.scoopler.com/),  [TweetMeme](http://tweetmeme.com/search.php) o el [buscador de FriendFeed](http://friendfeed.com/search), inciden en el hecho que la mayoría de los usuarios buscan el pulso de la conversación, toda información de la que la gente habla, comparte o está simplemente mirando. El *PageRank* deja paso a una suerte de *SocialRank*:
+
+>OneRiot crawls the links people share on Twitter, Digg and other social sharing services, then indexes the content on those pages in seconds. The end result is a search experience that allows users to find the freshest, most socially-relevant content from across the realtime web.
 
 
-http://www.oneriot.com
-
-http://www.readwriteweb.com/archives/larry_page_on_real_time_google_we_have_to_do_it.php
-
-http://edition.cnn.com/2009/TECH/05/12/future.search.engine/index.html
-
-http://www.readwriteweb.com/archives/major_search_announcement_at_google_today.php 
-
-http://feedproxy.google.com/~r/readwriteweb/~3/jxEfbOdsGDw/introduction_to_the_real_time_web.php
 
 http://www.flotzam.com/archivist/
 

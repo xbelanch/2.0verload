@@ -16,3 +16,7 @@
 
 * Vicente Luis Mora, 2009, "Revolución Google", Suplemento cultura|s La Vanguardia
 * http://pim.ischool.washington.edu/Towards%20a%20unification%20final.pdf
+* http://www.readwriteweb.com/archives/larry_page_on_real_time_google_we_have_to_do_it.php
+* http://edition.cnn.com/2009/TECH/05/12/future.search.engine/index.html
+* http://www.readwriteweb.com/archives/major_search_announcement_at_google_today.php 
+* http://feedproxy.google.com/~r/readwriteweb/~3/jxEfbOdsGDw/introduction_to_the_real_time_web.php
