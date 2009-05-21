@@ -2,6 +2,36 @@
 
 >memory first, discovery second. Joshua Schachter (fundador de Delicious)
 
+
+Laura está preparando una actividad de formación en la que utilizará una lista de marcadores web como recurso de ampliación. 
+
+Laura ha recopilado la lista de recursos en un documento de texto. También ha pensado en la opción de colgar la información en una página web. Si proporciona un documento de texto (del formato .doc o .odt) se encuentra con los siguientes problemas:
+
+* Ha de realizar tantas copias como asistentes a la actividad de formación. Este obliga a que los asistentes proporcionen su correo electrónico.
+* Si el documento está encapsulado, (.pdf), una modificación requerirá un mayor trabajo si no se tiene a mano una editor de documentos PDF.
+* La transmisión es unidireccional. Laura no tiene ningún medio de recibir y organizar la interacción de los participantes sin que acabe en un perfecto caos. Sólo que uno o una de los participantes del curso añade un nuevo marcador al documento, éste debería enviárselo a Laura y, a continuación, Laura debería reenviarlo al resto del grupo. Imaginemos por un momento si en lugar de una modificación contamos diez u once.
+* El último apartado nos recuerda que Laura debe enviar el archivo adjunto según el número de participantes. Si el grupo de trabajo lo integran dieciséis personas, representa dieciséis copias más una (la de Laura). A partir de ese momento ¿qué tipo de estrategia debería seguir Laura para conocer cuál es el documento original y cuál es la copia? ¿Cuál de las dieciséis copias representa la versión definitiva? Si como hemos explicado antes se realiza un cambio o se añade uno o varios marcadores nuevos, ¿cómo notificamos estos cambios a los demás?
+* Es un sistema acumulativo de la información: se basa en una clasificación muy primitiva, por temática. ¿Qué ocurre si un recurso pertenece a dos o tres temáticas diferentes? ¿Debe duplicar o triplicar la información del recurso?
+* Para terminar, Laura sabe que, una vez terminada la actividad, el documento quedará automáticamente obsoleto para los participantes si Laura no realiza el esfuerzo de enviar copias actualizadas a los asistentes cada vez que realiza un cambio. Esto último resulta incluso molesto todavía más si lo único que conseguimos es aumentar la bandeja de entrada del cliente de correo.
+
+Por otro lado, Laura valora la alternativa de publicar los enlaces en una página web. De hecho gana una serie de ventajas frente la realización de un documento de texto:
+
+* El contenido es accesible desde cualquier ordenador, independiente del sistema operativo o exclusivo de un determinado procesador de textos. Los participantes sólo necesitan un navegador.
+* Evita tener que enviar adjuntos a los correos de los participantes. Puede adelantar la información enviando un correo con la dirección de la página web donde ha publicado la lista de recursos o esperar al primer día de la actividad y proporcionar la dirección escribiéndola en la pizarra.
+* A partir de entonces, los participantes ya saben donde pueden consultar la página de los recursos a lo largo de la duración del curso como una vez finalizado.
+* Si alguno o alguna de los participantes desea corregir o añadir un nuevo recurso, debe primero comunicárselo a Laura y, seguidamente, modificar la web. Esto implica un total de 2 ó 3 mensajes de correo (1. notificación del cambio 2. notificación del cambio). 
+* Siguen habiendo un problema de participación: Laura se sitúa en el centro donde convergen y pasas todas las incidencias de cambios, actualizaciones de la página de recursos. 
+* Laura ha publicado el contenido de los enlaces en una página estática.(y?) luego deberá tener un mínimo de formación de creación de páginas web (lenguaje HTML), transmisión de ficheros desde su ordenador al servidor, etc.
+* Si ha mejorado el trabajo que lleva la gestión del documento, esta vez publicado en web, de los recursos de la actividad, Laura considera que todavía es ineficiente. ¿Por qué?
+* No se ha solucionado el problema que supone centralizar la publicación del documento y, por lo tanto, el coste de mantenimiento/edición y actualización del documento.
+* Lo anterior tampoco no proporciona un sistema eficiente de catalogación de los recursos.
+* También Laura insiste que no tiene horas para aprender a crear páginas web. Le recuerdo que no es problema. En la actualidad hay varias aplicaciones libres que te permiten crearla sin problemas. Incluso puedes probar servicios como http://www.weebly.com/ que te ayudan a crear una página web en cuatro pasos.
+
+
+
+
+
+
 ## Resources 
 
   * http://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
@@ -52,33 +82,6 @@ Es decir, si el espacio personal de la información, sus límites se difuminan a
 Según el autor del anterior artículo a la gente nos encanta contar historias, explicarlas a los demás. Por el contrario, no nos gusta organizar y clasificar la información. Siempre recurrimos a los buscadores, sea un buscador de la web o de escritorio, para recuperar la información. Todos los ayudantes que se han ido incorporando en facilitar la tarea de organizar (etiquetas, emblemas visuales, redimensión de los iconos,...) y clasifcar la información ha servido de poco si comprobamos que la frontera entre lo social y lo privado (entre la nube y mi escritorio) se ha desdibujado por completo; si el número de dispositivos donde guardo información es superior a mi capacidad de sincronizarlos; cuando la información personal no es exclusiva de un tipo especial de archivo o documento: todo es suspcetible de ser relevante y, en algunos casos, forma parte de un flujo de información continuo (chats, microblogging, MSM,...), no estático.
 
 
-## Intro?
-
-
-
-Laura está preparando una actividad de formación interna en la que uno de los recursos es una lista de marcadores web. 
-
-Laura ha recopilado la lista de recursos en un documento de texto. También ha pensado en la opción de colgar la información en una página web. Si proporciona un documento de texto (del formato .doc o .odt) se encuentra con los siguientes problemas:
-
-* Ha de realizar tantas copias como asistentes a la actividad de formación. Este obliga a que los asistentes proporcionen su correo electrónico.
-* Si el documento está encapsulado, (.pdf), una modificación requerirá un mayor trabajo si no se tiene a mano una editor de documentos PDF.
-* La transmisión es unidireccional. Laura no tiene ningún medio de recibir y organizar la interacción de los participantes sin que acabe en un perfecto caos. Sólo que uno o una de los participantes del curso añade un nuevo marcador al documento, éste debería enviárselo a Laura y, a continuación, Laura debería reenviarlo al resto del grupo. Imaginemos por un momento si en lugar de una modificación contamos diez u once.
-* El último apartado nos recuerda que Laura debe enviar el archivo adjunto según el número de participantes. Si el grupo de trabajo lo integran dieciséis personas, representa dieciséis copias más una (la de Laura). A partir de ese momento ¿qué tipo de estrategia debería seguir Laura para conocer cuál es el documento original y cuál es la copia? ¿Cuál de las dieciséis copias representa la versión definitiva? Si como hemos explicado antes se realiza un cambio o se añade uno o varios marcadores nuevos, ¿cómo notificamos estos cambios a los demás?
-* Es un sistema acumulativo de la información: se basa en una clasificación muy primitiva, por temática. ¿Qué ocurre si un recurso pertenece a dos o tres temáticas diferentes? ¿Debe duplicar o triplicar la información del recurso?
-* Para terminar, Laura sabe que, una vez terminada la actividad, el documento quedará automáticamente obsoleto para los participantes si Laura no realiza el esfuerzo de enviar copias actualizadas a los asistentes cada vez que realiza un cambio. Esto último resulta incluso molesto todavía más si lo único que conseguimos es aumentar la bandeja de entrada del cliente de correo.
-
-Por otro lado, Laura valora la alternativa de publicar los enlaces en una página web. De hecho gana una serie de ventajas frente la realización de un documento de texto:
-
-* El contenido es accesible desde cualquier ordenador, independiente del sistema operativo o exclusivo de un determinado procesador de textos. Los participantes sólo necesitan un navegador.
-* Evita tener que enviar adjuntos a los correos de los participantes. Puede adelantar la información enviando un correo con la dirección de la página web donde ha publicado la lista de recursos o esperar al primer día de la actividad y proporcionar la dirección escribiéndola en la pizarra.
-* A partir de entonces, los participantes ya saben donde pueden consultar la página de los recursos a lo largo de la duración del curso como una vez finalizado.
-* Si alguno o alguna de los participantes desea corregir o añadir un nuevo recurso, debe primero comunicárselo a Laura y, seguidamente, modificar la web. Esto implica un total de 2 ó 3 mensajes de correo (1. notificación del cambio 2. notificación del cambio). 
-* Siguen habiendo un problema de participación: Laura se sitúa en el centro donde convergen y pasas todas las incidencias de cambios, actualizaciones de la página de recursos. 
-* Laura ha publicado el contenido de los enlaces en una página estática.(y?) luego deberá tener un mínimo de formación de creación de páginas web (lenguaje HTML), transmisión de ficheros desde su ordenador al servidor, etc.
-* Si ha mejorado el trabajo que lleva la gestión del documento, esta vez publicado en web, de los recursos de la actividad, Laura considera que todavía es ineficiente. ¿Por qué?
-* No se ha solucionado el problema que supone centralizar la publicación del documento y, por lo tanto, el coste de mantenimiento/edición y actualización del documento.
-* Lo anterior tampoco no proporciona un sistema eficiente de catalogación de los recursos.
-* También Laura insiste que no tiene horas para aprender a crear páginas web. Le recuerdo que no es problema. En la actualidad hay varias aplicaciones libres que te permiten crearla sin problemas. Incluso puedes probar servicios como http://www.weebly.com/ que te ayudan a crear una página web en cuatro pasos.
 
 
 

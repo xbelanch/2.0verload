@@ -76,7 +76,7 @@ Los servicios [DropBox](http://www.getdropbox.com/) o el reciente [Ubuntu One](h
 
 >Whether you're searching your computer or the web, Desktop helps you find it by searching your Gmail and web history along with your hard drive. Also because your index is stored locally on your own computer, you can even access your Gmail and web history while you're offline.
 
-Indexar no sólo los dispositivos de memoria personal (disco duro del ordenador, discos externos de memoria). Indexar la información que publico en la conversación. Recuperar mi actividad en los diferentes servicios en los que publico, observo, registro con asiduidad. Recuperarla no resultará fácil cuando es una información no está controlada por nosotros. El popular servicio [Twitter](http://twitter.com) limita las búsquedas a un mes vista del día actual
+Indexar no sólo los dispositivos de memoria personal (disco duro del ordenador, discos externos de memoria). Indexar la información que publico en la conversación. Recuperar mi actividad en los diferentes servicios en los que publico, observo, registro con asiduidad. Recuperarla no resultará fácil cuando es una información no está controlada por nosotros. 
 
 >This artificial limit is in place to ensure the performance of the search system. We also restrict the size of the search index by placing a date limit on the updates we allow you to search.
 >>[Twitter. Things Every Developer Should Know](http://apiwiki.twitter.com/Things-Every-Developer-Should-Know#6Therearepaginationlimits)
@@ -99,17 +99,18 @@ Veamos otro ejemplo. El buscador de Twitter también nos proporciona una [lista 
 
 La acción de auto completar la expresión que estamos escribiendo en el formulario de búsqueda es uno de los ayudantes más generalizados. Nos corrige posibles errores de ortografía y, a un mismo tiempo, nos sugiere un resultado idóneo o colateral al objeto de la búsqueda. Las variaciones del autocompletado son múltiples: la palabra clave, la cuenta de correo electrónico, la página web, e incluso contraseñas.
 
-Pero estos dos ejemplos de ayudantes tienen una serie de limitaciones 
+Pero estos dos ejemplos de ayudantes tienen una serie de limitaciones:
 
-* Una incorrección en la búsqueda será de nuevo recuperada por los sistemas de autocompletado
+* El sistema de auto completado no sabe de errores humanos. No diferenciará si una búsqueda está bien o mal escrita, luego, si escribimos una búsqueda que previamente se ha escrito equivocádamente, el sistema lo recuperará, lo que proporcionará -si es recurrente- una desagradable experiencia al usuario. 
 * El autocompletado es _dispositivo-dependiente_, luego no sortea el problema de la fragmentación de información personal.
-* Una mala práctica organizativa de la información personal. Los buscadores no diferencian entre cuál es la versión correcta de un mismo documento; sólo la puede organizar en la línea del tiempo. En el caso de los objetos media, si la descripción no es la adecuada, la búsqueda resulta impracticable: DSCN... DSCN
+* Los buscadores no diferencian cuál es la versión correcta del histórico de un documento si aquel se resuelve mediante el ineficiente sistema de copias. 
+* Los buscadores no pueden indexar el contenido de los objetos media. Luego se apoyarán en la descripción de la misma. Una descripción ambigua o errónea como el ejemplo evidente de no modificar el nombre que asigna por defecto la cámara digital a cada fotografía que realizamos. 
 * La descontextualización de la información debida a la acumulación o  *cluttering* de información personal sin seguir criterios de organización. A este respecto, la conversación puede resultar de gran ayuda. Jones ([2009](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/)) refuerza la tesis del relato como método idóneo para la recuperación de la información, un relato puede contener documentos, imágenes, videos. En lugar de una organización jerárquica, o basada en etiquetas, el relato cumple la función de hilvanar la información sujeta a ella. (Extenderse)
 
 >"You press the button , We do the rest"
 >>Kodak advertisement
 
-Este abandonamiento voluntario a los servicios de la web evita también la fragmentación de la información: en la actualidad no utilizamos un único navegador al día debido al acceso permanente a Internet; el ordenador de sobremesa, el portátil personal, el de trabajo, el dispositivo móvil, el ordenador de un aula de formación, el de la biblioteca. Deseamos que los dispositivos resulten transparentes cuando buscamos y accedemos a nuestro espacio de la información. Si la búsqueda resulta compleja cuando desconocemos los referentes que nos permitirán encontrarla, un escenario donde la información se vea impedida por la cautividad de la información en un dispositivo puede resultar demoledora. De hecho, las herramientas que acompañan a las nuevas cámaras de fotos o videos añaden nuevas opciones de publicación, no dirigidas exclusivamentes al ordenador o un dispositivo de almacenamiento sino a la cuenta de un servicio popular ¿acabas de grabar un video? súbelo a tu cuenta de YouTube ¿Tu colección de fotografías? Súbelas a tu cuenta de Flickr. ¿Quieres tenerlas impresas? Flickr te conecta con servicios de terceros de impresión, del tipo Blurb o ..., La información aquí se gestiona en la nube y los mecanismos tradicionales se ven superados por la immediatez y la portabilidad de la información: el formato desaparece (sube el formato que quieras, nosotros haremos el resto); una vez en la nube la imagen  será indexada, utilizada, reinventada, remezclada, impresa en el resto de servicios web. Los caminos para recuperarla será tan fácil debido a que la misma estará asociada a nuestra identidad digital. "Pon tu nombre, nosotros nos encargamos de decirte quien eres y qué has publicado; te diremos cómo encontrar aquello que buscas;...".
+Este abandonamiento voluntario a los servicios de la web evita también la fragmentación de la información: en la actualidad no utilizamos un único navegador al día debido al acceso permanente a Internet; el ordenador de sobremesa, el portátil personal, el de trabajo, el dispositivo móvil, el ordenador de un aula de formación, el de la biblioteca. Deseamos que los dispositivos resulten transparentes cuando buscamos y accedemos a nuestro espacio de la información. Si la búsqueda resulta compleja cuando desconocemos los referentes que nos permitirán encontrarla, un escenario donde la información se vea impedida por la cautividad de la información en un dispositivo puede resultar demoledora. De hecho, las herramientas que acompañan a las nuevas cámaras de fotos o videos añaden nuevas opciones de publicación, no dirigidas exclusivamentes al ordenador o un dispositivo de almacenamiento sino a la cuenta de un servicio popular ¿acabas de grabar un video? súbelo a tu cuenta de YouTube ¿Tu colección de fotografías? Súbelas a tu cuenta de Flickr. ¿Quieres tenerlas impresas? Flickr te conecta con servicios de terceros de impresión, del tipo Blurb o ..., La información aquí se gestiona en la nube y los mecanismos tradicionales se ven superados por la immediatez y la portabilidad de la información: el formato desaparece (sube el formato que quieras, nosotros haremos el resto); una vez en la nube la imagen  será indexada, utilizada, reinventada, remezclada, impresa en el resto de servicios web. Los caminos para recuperarla será tan fácil debido a que la misma estará asociada a nuestra identidad digital. 
 
 
 ## Buscar en la conversación
@@ -131,13 +132,7 @@ No resulta difícil imaginar la expresión de los desarrolladores de Google al c
 
 >OneRiot crawls the links people share on Twitter, Digg and other social sharing services, then indexes the content on those pages in seconds. The end result is a search experience that allows users to find the freshest, most socially-relevant content from across the realtime web.
 
-
-
-http://www.flotzam.com/archivist/
-
-
----
-
+Pero los buscadores de la conversación no tienen memoria. [Twitter](http://twitter.com) limita las búsquedas a un mes vista del día actual. Guardar la conversación más allá de un límite de tiempo no es relevante, incluso si es la conversación de uno. Experimentos como [Archivist](http://www.flotzam.com/archivist/) tienen un acento que roza lo antropológico. Buscar en la conversación de la web persigue la instantaniedad del momento, no su fijación.
 
 
 ## Guardar
