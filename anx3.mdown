@@ -1,1 +1,6 @@
-# Anexo III: Web Scraping
+# Anexo III: Generar la copia del libro
+
+* http://maruku.rubyforge.org/index.html
+* http://johnmacfarlane.net/pandoc/
+* 
+
