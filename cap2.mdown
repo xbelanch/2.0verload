@@ -1,21 +1,14 @@
-#La lección de Delicious 
+# Folders overload
 
 >memory first, discovery second. Joshua Schachter (fundador de Delicious)
 
-Clasificar la información es un acto puramente ontológico. Clasificamos la información para comprender su significado. Si estamos preparando un viaje, diseñamos una clasificación de la información según las propiedades de cada uno de los elementos que participen en la descripción del viaje. Ordenar esta información en carpetas y subcarpetas bajo nombres que identiquen el contenido de cada una de ellas es un principio taxonomía donde el nodo raíz sería la carpeta o directorio con el nombre, por ejemplo, del viaje. De este nodo principal irían colgando los nodos de segunda categoría (carpetas de fotografías, documentos, mapas,...) y así sucesivamente (por ejemplo, del nodo "fotografías" podrían colgar los nodos que representan los días del viaje).
+Clasificamos la información para recuperarla y comprenderla en su contexto original más tarde. Clasificamos la información en el momentos que la guardamos. Recuperar más tarde la información dependerá en gran medida de sistema de organización que hayamos adoptado. 
 
-Cuando acumulamos demasiada información en la memoria del ordenador o de un disco duro externo, nos sentimos obligados a clasificarla, a ordenarla, con el fin último de recuperarla más tarde. En general, el sistema de organización personal que sigamos, entre intuitiva, flexible o rígida, siempre terminará encontrándose con el sistema de ordenación que nos proporciona el sistema operativo. Hasta el momento, la organización de los archivos (sean documentos de textos o imágenes) pasa por el sistema de carpetas (folders). Cada archivo estará asociado a unos metadatos, de los cuales el más evidente es el nombre del archivo (no necesariamente relacionado con el contenido del mismo).
 
-Con el tiempo y la ligereza, superponemos nuestra lógica de organización personal frente a la lógica del sistema de organización de carpetas y archivos que propone el sistema operativo. Pasado un tiempo, esta convivencia acaba resultando más o menos compleja y difiere sobretodo en la regularidad en la que clasificamos la información según pautas propias.
 
-* No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
-Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
-* El escritorio lleno o la visión del *clutter desktop*. Tanto que el fondo de escritorio (léase paisaje, foto de las vacaciones o familiar querido) se esconde detrás de la infinidad de carpetas o documentos. Se cree o piensa que el tener los documentos en el escritorio es sinónimo de tenerlos más a mano, como si de una pila de papeles se tratara (siguiendo la metáfora del escritorio). En realidad su visión resulta como mínimo estresante para un desconocido. Insostenible si pensamos que el número de documentos y carpetas crecen cada día. Las dos pantallas no son la respuesta a esta problemática. http://www.avesh.com/blog/DesktopZenReducingVisualClutterOnYourDesktop.aspx
-* Se utilizan un par o tres de carpetas como almacén de toda la información, lo que en poco tiempo se llega a una situación conocida por “clutter digital”. No se puede encontrar ningún fichero por el problema del “engordamiento”
-* La degradación de un sistema personal. Este es quizá el más generalizado. Se emprende el ejercicio de mantener una estructura pero con el tiempo se consigue sólo a medias. Esto se debe en gran parte al trabajo bajo presión de fechas de entrega o realización de proyectos.
-* Priorizamos una serie de archivos o documentos en los que estamos trabajando y, con el motivo de no perderlos de vista, hacemos la excepción de la regla de organización fijada previamente. El resultado es, al poco tiempo, un auténtico desastre: conviven una organización de archivos y la ubicación aleatoria de otros.
+  su significado en el contexto que se guardó al establecer una más tarde. Si estamos preparando un viaje, diseñamos una clasificación de la información según las propiedades de cada uno de los elementos que participen en la descripción del viaje. Ordenar esta información en carpetas y subcarpetas bajo nombres que identiquen el contenido de cada una de ellas es un principio taxonomía donde el nodo raíz sería la carpeta o directorio con el nombre, por ejemplo, del viaje. De este nodo principal irían colgando los nodos de segunda categoría (carpetas de fotografías, documentos, mapas,...) y así sucesivamente (por ejemplo, del nodo "fotografías" podrían colgar los nodos que representan los días del viaje).
 
-### Etiquetas vs. Carpetas 
+Con el tiempo y la ligereza, superponemos nuestra lógica de organización personal frente a la lógica del sistema de organización de carpetas y archivos que propone el sistema operativo. Pasado un tiempo, esta convivencia acaba resultando más o menos compleja y difiere sobretodo en la regularidad en la que clasificamos la información según pautas propias. 
 
 La clasificación de nuestros archivos en el disco duro se ha basado en la metáfora de la vida real. Organizamos facturas, documentos legales, apuntes en carpetas y subcarpetas. No es extraño que practiquemos lo mismo. Aparte de simple contenedores, las carpetas también se presentan como la primera estructura de un proyecto personal. Carpetas y subcarpetas anidadas le siguen una convención personal de cada nombre de la carpeta. Pequeños hacks de las carpetas, especialmente a prefijos con números y letras para forzar uno u otro orden.
 
@@ -30,7 +23,54 @@ La estructura de directorios y ficheros revelan un significado y la relación en
 
 El problema sigue siendo el mismo: el día a día nos hace ser más flexibles con nuestras propias reglas o tareas repetitivas. Dejamos de seguir la convención con la que ordenábamos las carpetas, la numeración, vamos dejando los archivos en el Escritorio, más tarde los desplazamos a lugares equivocados, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta fatiga degrada el sistema de organización de los documentos, lo que ocasiona que, al cabo de un tiempo (no muy largo), no encontremos los archivos si quiera en nuestro ordenador.
 http://www.uxmatters.com/MT/archives/000271.php
-Quizá el origen de todo sirvió en cuanto a que el ordenador seguía la metáfora del escritorio: guardábamos documentos de texto, hojas de cálculo y fichas de datos. El problema es cuando el ordenador ha dejado de ser la metáfora del escritorio.
+
+* No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
+Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
+* El escritorio lleno o la visión del *clutter desktop*. Tanto que el fondo de escritorio (léase paisaje, foto de las vacaciones o familiar querido) se esconde detrás de la infinidad de carpetas o documentos. Se cree o piensa que el tener los documentos en el escritorio es sinónimo de tenerlos más a mano, como si de una pila de papeles se tratara (siguiendo la metáfora del escritorio). En realidad su visión resulta como mínimo estresante para un desconocido. Insostenible si pensamos que el número de documentos y carpetas crecen cada día. Las dos pantallas no son la respuesta a esta problemática. http://www.avesh.com/blog/DesktopZenReducingVisualClutterOnYourDesktop.aspx
+* Se utilizan un par o tres de carpetas como almacén de toda la información, lo que en poco tiempo se llega a una situación conocida por “clutter digital”. No se puede encontrar ningún fichero por el problema del “engordamiento”
+* La degradación de un sistema personal. Este es quizá el más generalizado. Se emprende el ejercicio de mantener una estructura pero con el tiempo se consigue sólo a medias. Esto se debe en gran parte al trabajo bajo presión de fechas de entrega o realización de proyectos.
+* Priorizamos una serie de archivos o documentos en los que estamos trabajando y, con el motivo de no perderlos de vista, hacemos la excepción de la regla de organización fijada previamente. El resultado es, al poco tiempo, un auténtico desastre: conviven una organización de archivos y la ubicación aleatoria de otros.
+
+
+### Carpetas vs. etiquetas 
+
+X (Glut,2006) diferencia una tensión permanente entre dos tipologías de organización: la jerárquica -disposición vertical- en forma de árbol invertido y la horizontal en forma de red
+
+Tensión entre dos sistemas ancestrales de organización, entre una vertical y jerárquica, la de un sistema de carpetas y subcarpetas y una horizontal
+
+
+http://www.sifry.com/alerts/archives/000270.html
+
+Mark Hurst (Bit Literacy) no es partidario de utilizar etiquetas. Considera que la práctica de etiquetar las fotografías requiere de un esfuerzo que, la mayoría de usuarios, no está dispuesto a asumir (pág 80-81). En general, muy pocos son los usuarios que sigan a conciencia un sistema rígido de clasificación y organización de los archivos. En general ni siquiera renombran las imágenes tal como estas salen por defecto de la cámara de fotos. Prueba de ello es que en Flickr nos encontramos a menudo con imágenes amateur con nombres como “DSCN…” y un largo número. Estos usuarios ni clasifican las imágenes, ni siquiera las nombran. Ni mucho menos las etiquetan,.
+nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search/?ss=2&ct=6&w=all&q=dscn0001&m=text comprobaréis cómo un número elevado de usuarios no renombran las fotografías que suben. De hecho se cuenta hasta 17.582 resultados de imágenes de idéntico título.
+
+
+### Taxonomías y ontologías 
+
+>This is something the ‘well-designed metadata’ crowd has never understood — just because it’s better to have well-designed metadata along one axis does not mean that it is better along all axes, and the axis of cost, in particular, will trump any other advantage as it grows larger. And the cost of tagging large systems rigorously is crippling, so fantasies of using controlled metadata in environments like Flickr are really fantasies of users suddenly deciding to become disciples of information architecture. 
+
+http://www.sifry.com/alerts/archives/000270.html
+
+
+Los metadatos, como indica su procedencia griega, son la tarjeta de identidad de un objeto de información. _Data about data_. 
+
+
+Cory Doctorow ([2001](http://www.well.com/~doctorow/metacrap.htm)) ya planteó muy acertadamente la inutilidad de los metadatos; en un escenario ideal, los metadatos proporcionarían la ayuda exacta para encontrar la información que estamos buscando, debido a que esta estaría correctamente identificada; es el lo que Cory Doctorow identifica con la _meta-utopia_, un estadio de la información en la que los metadatos son de una gran ayuda, imparciales y neutrales, pero ineficaces cuando se trata de un mundo en el que la gente _miente_. No olvidemos que las palabras de Cory Doctorow se escribieron en el 2001. De hecho, anticipa una realidad donde los metadatos se pervierten originando una realida informativa tóxica: tóxica debido al continuo _spam_ que va entrando en las bandejas de entrada, resultados de una búsqueda que no tiene relación ninguna con lo que estamos localizando; 
+
+¿Es posible mantener, actualizar y preservar durante un tiempo la actividad de clasificar la información con metadatos? Cory Doctorow determina que la gente es tremendamente vaga y estúpida; conservan los documentos con el nombre que la herramienta les asigna por defecto ("UNTITLED.DOC", las fotografías,...) o escriben mal, puntuan mal: ejemplo de ello sería "Plam Pilot", donde uno gracias a estas incorrecciones puede encontrar una auténtica ganga.
+
+Cory Doctorow alega que las jerarquías no son neutrales: _cualquier jerarquía de ideas necesariamente implica la importancia de algunos ejes sobre otros. 
+
+
+
+## Clasificar la fragmentación de información
+
+¿Qué sistema de clasificación seguimos frente a la fragmentación de información? Las recomendaciones, consejos y otras varitas mágicas hablan de un solo dispositivo, el ordenador personal, cuando en la actualidad son varios los dispositivos en los que guardamos información. 
+
+
+
+
+## Clasificar en la conversación: la lección de Delicious 
 
 Laura está preparando una actividad de formación en la que uno de los recursos es una lista de marcadores web. En un primer momento, Laura considera la opción de proporcionar esta lista al grupo de alumnos mediante un documento de texto junto al resto de materiales del curso. Pero este sistema por experiencia sólo le ha generado problemas como los siguientes:
 
@@ -55,11 +95,10 @@ Por otro lado, Laura valora la alternativa de publicar los enlaces en una págin
 * También Laura insiste que no tiene horas para aprender a crear páginas web. Le recuerdo que no es problema. En la actualidad hay varias aplicaciones libres que te permiten crearla sin problemas. Incluso puedes probar servicios como http://www.weebly.com/ que te ayudan a crear una página web en cuatro pasos.
 
 
+La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
+Hay intentos como http://www.plaxo.com/ o http://www.airset.com/AirSet.jsp#app.Home
 
 
-
-
-## Resources 
 
   * http://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
   
@@ -114,35 +153,6 @@ Según el autor del anterior artículo a la gente nos encanta contar historias, 
 
 
 
-### Taxonomías y ontologías 
-
->This is something the ‘well-designed metadata’ crowd has never understood — just because it’s better to have well-designed metadata along one axis does not mean that it is better along all axes, and the axis of cost, in particular, will trump any other advantage as it grows larger. And the cost of tagging large systems rigorously is crippling, so fantasies of using controlled metadata in environments like Flickr are really fantasies of users suddenly deciding to become disciples of information architecture. 
-
-http://www.sifry.com/alerts/archives/000270.html
-
-
-Los metadatos, como indica su procedencia griega, son la tarjeta de identidad de un objeto de información. _Data about data_. 
-
-
-Cory Doctorow ([2001](http://www.well.com/~doctorow/metacrap.htm)) ya planteó muy acertadamente la inutilidad de los metadatos; en un escenario ideal, los metadatos proporcionarían la ayuda exacta para encontrar la información que estamos buscando, debido a que esta estaría correctamente identificada; es el lo que Cory Doctorow identifica con la _meta-utopia_, un estadio de la información en la que los metadatos son de una gran ayuda, imparciales y neutrales, pero ineficaces cuando se trata de un mundo en el que la gente _miente_. No olvidemos que las palabras de Cory Doctorow se escribieron en el 2001. De hecho, anticipa una realidad donde los metadatos se pervierten originando una realida informativa tóxica: tóxica debido al continuo _spam_ que va entrando en las bandejas de entrada, resultados de una búsqueda que no tiene relación ninguna con lo que estamos localizando; 
-
-¿Es posible mantener, actualizar y preservar durante un tiempo la actividad de clasificar la información con metadatos? Cory Doctorow determina que la gente es tremendamente vaga y estúpida; conservan los documentos con el nombre que la herramienta les asigna por defecto ("UNTITLED.DOC", las fotografías,...) o escriben mal, puntuan mal: ejemplo de ello sería "Plam Pilot", donde uno gracias a estas incorrecciones puede encontrar una auténtica ganga.
-
-Cory Doctorow alega que las jerarquías no son neutrales: _cualquier jerarquía de ideas necesariamente implica la importancia de algunos ejes sobre otros. 
-
-### Las etiquetas importan 
-
-http://www.sifry.com/alerts/archives/000270.html
-
-
-
-
-
-
-
-
-Mark Hurst (Bit Literacy) no es partidario de utilizar etiquetas. Considera que la práctica de etiquetar las fotografías requiere de un esfuerzo que, la mayoría de usuarios, no está dispuesto a asumir (pág 80-81). En general, muy pocos son los usuarios que sigan a conciencia un sistema rígido de clasificación y organización de los archivos. En general ni siquiera renombran las imágenes tal como estas salen por defecto de la cámara de fotos. Prueba de ello es que en Flickr nos encontramos a menudo con imágenes amateur con nombres como “DSCN…” y un largo número. Estos usuarios ni clasifican las imágenes, ni siquiera las nombran. Ni mucho menos las etiquetan,.
-nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search/?ss=2&ct=6&w=all&q=dscn0001&m=text comprobaréis cómo un número elevado de usuarios no renombran las fotografías que suben. De hecho se cuenta hasta 17.582 resultados de imágenes de idéntico título.
 
 
 ## Exceso y sobrecarga de etiquetas
@@ -152,8 +162,6 @@ nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search
 
 Mira a este: http://delicious.com/earth2marsh?ubtags=off 4563 etiquetas!!!
 
-
-### La lección de Delicious
 
 Joshua Porter ([2006](http://bokardo.com/archives/the-delicious-lesson/)), autor de _Designing for the social web_(2008) acentúa el orden de la secuencia: el valor de la información personal precede a la información de la web. Prueba de ello es el enorme éxito de Delicious y su sistema flexible de ordenación de los marcadores por etiquetas. Porter relata el escepticismo de Yahoo! (http://blog.searchenginewatch.com/blog/050322-163753) y comprobar poco después que las etiquetas no funcionan como sucedáneos o una suerte de metadatos, parte del mal funcionamiento de los buscadores siguiendo los principios de una taxonomía de la web basada en metadatos.
 
@@ -168,17 +176,7 @@ Joshua Porter ([2006](http://bokardo.com/archives/the-delicious-lesson/)), autor
 ## Entre el escritorio y la nube
 
 
-La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
-Hay intentos como http://www.plaxo.com/ o http://www.airset.com/AirSet.jsp#app.Home
 
 
 
-Quizá una solución posible pasaría por un sistema de lifestreaming online/offline (RIA?). Veamos un ejemplo:
 
-  * Acabo un documento de texto en el escritorio. Si creo necesario, lo subo mediante un cliente RIA a mi espacio de lifestreaming. Este cliente podría trabajar offline, esperando a que, una vez sincronizado con la nube, suba los cambios. En realidad se registra la localización del documento, versión y etiquetas. De esta manera, en la línea de “vida” tienes archivado. 
-  * Pueden tener perfiles de privacidad
-  * Incorporar servicios web 
-  * Puedes publicar o referenciar documentos, los primeros tienen un límite de espacio
-  * Puedes agrupar documentos tomando como referencia un directorio/carpeta 
-
-Una parte de nosotros ha comenzado a considerar la subida de este tipo de archivos a la red en lugar de estar repartido en un ordenador. Quizá el problema más serio viene con los documentos ofimáticos que tienen relación con la realización de un proyecto.
