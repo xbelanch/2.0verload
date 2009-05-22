@@ -134,6 +134,9 @@ No resulta difícil imaginar la expresión de los desarrolladores de Google al c
 
 Pero los buscadores de la conversación no tienen memoria. [Twitter](http://twitter.com) limita las búsquedas a un mes vista del día actual. Guardar la conversación más allá de un límite de tiempo no es relevante, incluso si es la conversación de uno. Experimentos como [Archivist](http://www.flotzam.com/archivist/) tienen un acento que roza lo antropológico. Buscar en la conversación de la web persigue la instantaniedad del momento, no su fijación.
 
+>The Web is alive. Why are we still searching like it is 1999?
+>[Collecta](http://collecta.com/)
+
 
 ## Guardar
 
