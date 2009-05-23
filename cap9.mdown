@@ -58,7 +58,7 @@ La página oficial del servicio Bicing de Barcelona proporciona una primitiva vi
 
 Este estudio consistirá en localizar la información, liberarla en un formato y proporcionarla públicamente. También seria ideal proporcionar una API que, a partir de una consulta, nos proporcionara una información concreta.
 
-## Localizar la información ===
+## Localizar la información
 
 Una búsqueda en Google nos proporciona un enlace a la Wikipedia: [[http://es.wikipedia.org/wiki/Anexo:Estaciones_Bicing|Estaciones Bicing]]. La lista que proporciona es mucho mejor que la que proporciona la web oficial de Bicing: [[http://www.bicing.com/localizaciones/localizaciones.php?TU5fTE9DQUxJWkFDSU9ORVM%3D&MQ%3D%3D|Estacions de Bicing]]. Al poco encontramos la siguiente página: [[http://www.bicing.info/bicis.kml|KML de les estacions de Bicing]] donde podemos descargar el archivo con el que podemos trabajar sin problemas.
 
