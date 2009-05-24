@@ -3,7 +3,8 @@ foo*
 memento.*
 *.tex
 *.pdf*
-temp*
+*temp*
+*temp
 total*
 borra*
 
