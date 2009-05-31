@@ -1,5 +1,7 @@
 # ¿Cuál es la versión correcta? 
 
+http://pymecrunch.com/gestion-documental-mediante-software
+
 En la redacción de un documento en el que participan varias personas se establece la vieja metodología de trabajo divide y vencerás Los participantes deciden qué parte del documento desarrollaran. De esta forma, nadie pisará el trabajo del otro y no se incurrirá a incongruencias al final del proceso. Esta modalidad también incluye un baremo de evaluación del trabajo de cada uno. El trabajo final es una suerte de suma de las partes. Si a primera vista esta estrategia parece idónea, una visión más detenida nos informará que:
 
 * El resultado es irregular a varios niveles: no es homogéneo a nivel estilístico.
