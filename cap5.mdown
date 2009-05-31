@@ -125,7 +125,7 @@ La falta de hábito en compartir la información o trabajar de manera colaborati
 
 
 
-## Hacias nuevas maneras de gestionar las versiones
+## Hacia nuevas maneras de gestionar las versiones
 
 
 En el artículo [[http://tommorris.org/blog/2008/03/09#pid2761430|How to build the perfect wiki]], Tom Morris arremete contra la mayoría de los sistemas wikis conocidos cuando los utiliza como wikis personales: no puede trabajar con ellos debido sobretodo a:
