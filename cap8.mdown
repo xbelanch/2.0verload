@@ -4,10 +4,7 @@
 
 Acostumbro a observar a los compañeros y compañeras del trabajo que pasan horas interminables delante de una rejilla cubierta de números. La mirada atenta, analítica y fría frente a una hoja de cálculo en la que el contenido, imperceptibles cifras atrapadas en diminutas celdas, son legibles sólo a muy poca distancia. A medida que pasan los días, el cuerpo de letra de los números va menguando debido a que el volumen de la información ha aumentado, y las dimensiones de la pantalla no permiten una extensión mayor de los 1280 por 970 píxeles. Al otro lado, un empleado prepara la presentación de un proyecto que ha llevado semanas de trabajo. Hacer una síntesis efectiva de la información del proyecto no resulta una tarea fácil; conoce muy bien las funcionalidades de la herramienta, pero desconoce qué técnicas facilitan la transmisión visual de la información al público al que va dirigida la presentación.
 
-Quienes acostumbran a manejar enormes volúmenes de información, al final de un proyecto, toman varias fotografías de la geografía tupida y abigarrada de datos con el objetivo de presentarlas al público en general en forma de instantánea. La información de esta manera se revela eficaz y brinda la oportunidad a quienes la observan y analizan de comprenderla en su totalidad. La representación de la información no es gratuita; la elección del sistema de visualizar los datos allanará más el acceso rápido al conocimiento de la información representada. De lo contrario, una elección equivocada del método empleado en presentar los datos puede tener un efecto contrario y dar como resultado mal interpretaciones o lecturas equivocadas.
-
-
-##La visualización de información es sexy
+Quienes acostumbran a manejar enormes volúmenes de información, al final de un proyecto, toman varias fotografías de la geografía tupida y abigarrada de datos con el objetivo de presentarlas al público en general en forma de instantánea. La información de esta manera se revela eficaz y brinda la oportunidad a quienes la observan y analizan de comprenderla en su totalidad. El nuevo relato que nos ayudará a comprender y dar significado a la información es visual La representación de la información no es gratuita; la elección del sistema de visualizar los datos allanará más el acceso rápido al conocimiento de la información representada. De lo contrario, una elección equivocada del método empleado en presentar los datos puede tener un efecto contrario y dar como resultado mal interpretaciones o lecturas equivocadas.
 
 
 
@@ -15,7 +12,7 @@ Quienes acostumbran a manejar enormes volúmenes de información, al final de un
 
 [50 grandes ejemplos de visualización](http://blogof.francescomugnai.com/2009/04/50-great-examples-of-infographics/)
 
-El propósito de la visualización es revelar al espectador un conocimiento que, de otra manera, quedaría oculto en su representación más primitiva, aquella que es más próxima a la máquina y no a las personas. Se establece entonces una escala de la representación de la información según el grado de interpretación y conclusiones posibles de su lectura.
+El propósito de la visualización es revelar un significado que, de otra manera, en su representación más cruda -aquella que es más próxima a la máquina y no a las personas- , quedaría oculto más primitiva,  Se establece entonces una escala de la representación de la información según el grado de interpretación y conclusiones posibles de su lectura.
 
 Visualizar datos no es equivalente a la infografía o representación de la información. La visualización de datos representa un volumen cuantificado de datos; en frente, la infografía representa una información cuantificable o no.
 
@@ -90,52 +87,20 @@ La rápida acumulación de etiquetas en páginas web donde la publicación de co
 
 http://www.wordle.net/
 
-## Mashups 
-
-Un mashup es una aplicación web que remezcla información o datos de dos o más servicios web con la intención de crear un servicio nuevo o representación diferente. John Musser, creador de la web "Programmable Web" enumera un listado de APIs disponibles para utilizarlas en la creación de mashups. Algunas de estas APis estan diseñadas para ser utilizadas en páginas basadas en la tecnología AJAX -páginas que usan Javascript para intercambiar el XML- basadas en peticiones asíncronas con los servidores de estas APIs, actualizando los contenidos según sea la petición.
-
-Los Mashups se sirven de la tecnología web y de las APIs de terceros con el fin de construir una nueva web. En parte, esta tecnología ha permitido representar la información que guardan los servidores de Google, Yahoo, Twitter de una manera no pensada cuando se lanzó el servicio original. Los Mashups en este sentido representan un paso hacia la llamada Web Semántica, es decir, cuando los datos, al agruparlos, remezclarlos con otros y, finalmente, representarlos, adquieren un significado nuevo y alumbran un conocimiento oculto hasta entonces.
-
-http://www.programmableweb.com/howto para comenzar a tener una ligera idea de lo que escribo
 
 
-El clásico mashup Chicago Crime (chicahocrime.org o el actualizado http://chicago.everyblock.com/) muestra la manera de cómo recopilar una extensa colección de datos y revelar significados o dar sentido a toda esa colección de información mediante el uso de interficies gráficas (el uso de mapas de Chicago gracias a la API de Google Maps) que nos permitiran comprender la información. En su defecto, la policia de Chicago proporciona los datos mediante hojas de cálculo, pero fue gracias a la representación de mapas que la información adquirió un nuevo significado, más accesible para todos y por lo tanto de un mayor uso y comprensión de la información. 
+##La visualización de información es sexy
 
-Un ejemplo del potencial es la representación de la información generada por los usuarios de Twitter a través de mashups. Según cuenta programmableweb, hay registrados 141 mashups: http://www.programmableweb.com/api/twitter/mashups, del ya popular Twittervision a http://www.programmableweb.com/mashup/twitter-top-news-trends 
+Aunque todavía se encuentra encerrada en una aureola de incomprensión para la mayoría de personas o mal entendida al no otorgar mayor interés que la de una presentación gráfica de los datos a través de los métodos más que sabidos (el pastel o el gráfico de barras), lo cierto es que de un tiempo a esta parte, la visualización de información ha despertado un enorme interés. Prueba de ello es el número cada vez mayor de voces que hablan sobre este tópico, pero no menos importante es la aparición de atractivas herramientas que permiten generar complejas infografías con relativa facilidad.
 
+>To democratize visualization we'll need a new generation of software. With personal and then web-based computing, we've seen it happen again and again: spreadsheets, desktop publishing, web multimedia, cloud-based services. Now, across a range of devices as well as in the cloud, we have the raw technologies to democratize the visualization -- and collaborative analysis -- of data.
+[Visualization Trends For The Noosphere by Jon Udell](http://www.visitmix.com/articles/Visualization-Trends-For-The-Noosphere) 
 
-Para cuando entonces mashups que gestionen la información personal y, por lo tanto, controlemos el exceso de información ya no mediante una observación precisa del detalle sino relevadora de la imagen general. Es decir, un mashup que remezcle nuestro correo, nuestro trabajo diario con los documentos, los servicios web a los que estamos suscritos, participamos, etc,...
+Estas herramientas pueden ser de propósito general, pero estan siendo utilizadas como es el caso de NodeBox o Processing, pero también han surgido aplicaciones web orientadas al usuario final como es Many Eyes. Pero también merece una enorme atención el goteo continuo de *frameworks*, *toolkits* o librerías, de las que comentaremos más adelante **Raphaël**, pero que no podemos olvidar:
 
-Esto podría enlazarse con el artículo [[http://flowingdata.com/2009/04/07/a-perfect-personal-data-collection-application/|A Perfect Personal Data Collection Application]]
+* http://blog.thejit.org/javascript-information-visualization-toolkit-jit/
+* http://www.84bytes.com/2008/10/22/advanced-data-visualization-tools-built-with-javascript/
 
-El incremento de nuestra actividad en la web, de especial interés en aquella información que recogemos, publicamos o compartimos con otros usuarios. En la actualidad encontramos una serie de herramientas online de tracking sobre alguna actividad específica: cuánto tiempo pasamos delante del ordenador, cuánto dinero gastamos a la semana, cuánto pesamos, etc.  No deja de resultar evidente la limitación que supone evaluar sólo una actividad, independiente de otras variables que afectarían en mayor o menor medida el resultado de aquel. Estas herramientas no pueden siquiera compararse con el tracking de la información generada por la redes sociales como Twitter o Facebook. Según Nathan de Flowing Data remarca que estas posibles herramientas que gestionen la información personal no deberían aumentar el exceso de información, todo lo contrario, una nueva estrategia o una nueva perspectiva de nuestra propia imagen. El individuo como un Mashup?
-
-### PIM ¿Pesonal Information Mashup? 
-
-Dejemos definitivamente la gestión por la remezcla. El nuevo escenario podría ser una suerte de RIA (Rich Internet App) que remezclara la actividad personal, la profesional y la social, y que sincronizara con los diferentes dispositivos que generalmente trabajamos. Una suerte de FriendFeed que registrara además los documentos, correo, aprovechando las APIs abiertas de cada uno de los servicios.
-
-De hecho, EventBox es un primer paso hacia una experiencia más efectiva y eficiente en cuanto agrupa algunos de los servicios más populares en una única aplicación: Google Reader, FriendFeed y Twitter. 
-
-Por otro lado, la información personal es susceptible de ser estudiada y, por lo tanto, convertirse en objeto de análisis de la documentación o una disciplina conocida como _Personal Data Mining_.Un escenario de este tipo sería el caso del cliente de correo electrónico y la promesa de algunos servicios de guardar los mensajes, tanto enviados como recibidos que garantizan y permiten una radiografía de los temas tratados, contactos, que tópicos se repiten con mayor frecuencia, luego se podrían hacer análisis de perfil de los contactos en función de los temas tratados. De esta manera, contextualizar el perfil del remitente en función de mensajes anteriores.
-
->What I’m referring to as “personal data mining” here is not finding personal information about yourself or others, but looking back at things you’ve done (blogging, bookmarking, anything else) and trying to find meaning through visualization or other reconfiguration of the material. [Ericka Menchen, Personal data mining - reading the entrails](http://blog.erickamenchen.net/2005/10/18/personal-data-mining-reading-the-entrails/)
-
-Siguiendo el ejemplo del cliente de correo, [21  ways to visualize and explore your email inbox](http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/) Nathan explora las diferentes representaciones en diferentes agrupaciones según su tratamiento: exploratory, analytic, mapping, metaphor, networks, and abstract. 
-
-A nivel de exploración, la visualización de la bandeja de entrada según el volumen de mensajes, las relaciones entre nosotros y los remitentes según un tópico o expresión. 
-
-Analítico a nivel cuantitativo. Proyectar sobre un mapa geográfico el volumen de mensajes de entrada (supongamos que trabajamos en un proyecto y queremos valorar geográficamente qué zonas han respondido con mayor frecuencia y número de mensajes a nuestra propuesta; con cuál de estas ha habido mayor interactividad). 
-
-Metáforas visuales, donde se recurre a la bandeja de entrada como motivo estético o siguiendo los gráficos circulares que ahonden en las relaciones entre remitente
-
-[I devised a multicolumn layout for visualizing discussions and described it in a workshop paper in 2005](http://zesty.ca/threadmap/)
-
-## Herramientas para la visualización
-  
-En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas con la finalidad de proporcionar un DSL (Domain Specific Language) gráfico a artistas y diseñadores. 
-
->Un DSL, según la Wikipedia, corresponde a un lenguaje de programación que responde a un problema específico. En el escenario de la representación gráfica
-	
 
 
 ### Processing, Nodebox y Context Free Art
@@ -173,8 +138,16 @@ Acompaña a Many Eyes Swivel, otro servicio que mezcla los tres componentes: exp
 * http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
 
 
+### Raphaël
 
-##Matar al PowerPoint
+
+
+
+
+## PowerPoint Overload: la degradación de la información
+
+
+
 
 * http://www.presentationzen.com/presentationzen/2009/05/making-presentations-in-the-ted-style.html
 * dataspora.com

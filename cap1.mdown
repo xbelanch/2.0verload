@@ -171,3 +171,5 @@ En PIG no guardamos, marcamos aquello que nos interesa. Luego no mantenemos todo
 [Atoms For Bits: Designing physical embodiments for virtual content Posted by Carla Diana | 30 May 2009](http://www.core77.com/blog/featured_items/atoms_for_bits_designing_physical_embodiments_for_virtual_content_13625.asp)
 
 Aquí puedes acabar con una reflexión del artículo de Carla Diana, comentado por [Cory Doctorow](http://www.boingboing.net/2009/05/31/design-challenge-of.html)
+
+

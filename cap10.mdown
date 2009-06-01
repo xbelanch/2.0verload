@@ -1,0 +1,100 @@
+# data404.org
+
+  * data404.org@gmail.com
+  * http://twitter.com/data404
+
+>We Hpricot, an HTML parser for Ruby, written in C, to parse both the XML produced by the House and the HTML displayed on Senate.gov, and we use the ar-extensions plugin for Ruby on Rails which extends ActiveRecord to speed the bulk loading of records. We also parse some information from THOMAS, the Library of Congress Web site ((3 http://blog.programmableweb.com/2009/01/09/us-congress-gets-an-api/ ))
+
+  * http://flowingdata.com/2009/04/15/millions-of-money-in-politics-data-records-now-available/
+  * http://radar.oreilly.com/2009/04/where-20-preview-eric-gunderso.html
+  * http://www.developmentseed.org/blog/2009/jan/27/phase-zero-open-data
+  * http://www.appsfordemocracy.org/
+  * http://data.octo.dc.gov/
+  * http://www.appsfordemocracy.org/apps-for-democracy-medal-winners/
+  * http://ryanagraves.com/01/16/2009/guest-post-how-the-cta-bus-tracking-was-hacked/ 
+  * http://open.blogs.nytimes.com/tag/congress/
+  * http://blog.programmableweb.com/2009/01/09/us-congress-gets-an-api/
+  * http://blog.programmableweb.com/2009/03/04/realizing-transparency-through-federal-government-apis/
+  * [[http://www.newsweek.com/id/186991|The People’s Data]]
+  * [[http://transparencycamp.org/|Transparency Camp]]
+  * [[http://blog.programmableweb.com/2008/07/04/uk-government-moves-forward-with-data-sharing-apis-and-mashup-contest/|UK Government Moves Forward with Data Sharing, APIs, and Mashup Contest]]
+  * [[http://powerofinformation.wordpress.com/about/|Task Force]]
+  * [[http://www.showusabetterway.com/call/examples.html|What would you create with public information?]]
+  * [[http://www.oaklaw.qut.edu.au/|http://www.oaklaw.qut.edu.au/]]
+  * [[http://tellthemwhatyouthink.org/|Tell Them What You Think]]
+  * [[http://blog.programmableweb.com/2008/06/18/should-the-feds-focus-on-reusable-data-or-user-interfaces/|Should the Feds Focus on Reusable Data or User Interfaces?]]
+
+
+>The idea is that government agencies should make public data openly available, and then get out of the way to let the best outside talent reimagine how it can be used online. It’s something of a free-market approach to nosing around in the government’s business. David Robinson, associate director of Princeton University’s Center for Information Technology Policy, has argued for what he envisions as an “ecosystem” of open, easily accessible public data. The competitive advantage that savvy, civic-minded Web developers have over federal Webmasters would increase the opportunities for public engagement with the activities of government. (( [[http://services.newsweek.com/search.aspx?q=Author:^%22christopher%20werth%22$&sortDirection=descending&sortField=pubdatetime&offset=0&pageSize=10|According to Christopher Werth of Newsweek]] ))
+
+The numerous Federal agencies concentrated in Washington, D.C. and around the country maintain a massive amount of data that, as of today, is largely inaccessible either through lack of entry points or through lack of gateways for distribution. Consequently, how to provide the public with access to “the people’s data” has emerged as an important topic amongst technologists and freedom of information advocates, especially now that the U.S. has a president who included transparency as a core element of his campaign platform.
+
+El volumen excesivo de información que una administración pública manipula, crea y gestiona el día de hoy es prácticamente inaccesible debido en parte a la incapacidad de proporcionar las herramientas adecuadas. 
+
+## Free Data, GoodBye Overloading 
+
+  * http://sunlightlabs.com/ !!! 
+  * http://www.sunlightfoundation.com/
+  * http://feedback.sunlightfoundation.com/oogl/
+  * http://www.sunlightfoundation.com/mashup/
+
+
+##  Herramientas para la liberación (freepublicdata) 
+
+Encontramos diferentes casos en el hay una voluntad, aunque mínima, de acceder a la información que genera la administración pública a traves de una API. En este sentido no deja de ser una denuncia de la falta de transparencia de la administración en cuanto a que los datos o la información se publica sin estructurar, lo que provoca que, aunque la información es pública, no es fácil de localizar o encontrar. Ni mucho menos el poder acceder a esta información con el motivo de poder representarla o, simplemente, jugar con ella.
+
+>The key word is “our”. There is still a strong belief in the public service that somehow they own our data whether that is a hospital telling me I can only get my son’s x-rays through the Freedom of Information act, the Ordnance Survey keeping an iron-grip on GIS data or local government publishing data in proprietary Word docs and PDFs. ((http://www.web2ireland.org/2007/10/16/time-for-apigovie/))
+
+Las administraciones públicas acostumbran a proporcionar aplicaciones web que, en general, acostumbran a ser costosas para el erario público. En la mayoría de las situaciones, prevalecen los convenios o los intereses de las empresas que participan que no la eficiencia del resultado. De hecho, no es habitual que las empresas proporcionen el código fuente de la aplicación. Tampoco es lógico que los ciclos de desarrollo de la aplicación suelan extenderse más allá de los 2 ó 3 años de cuando se necesitaba el servicio. 
+
+Una página donde se muestran las contractaciones públicas, pero que no proporciona ninguna api con la que podamos interactuar con la información. Es decir, devuélveme una información, por ejemplo, de las contractaciones que superen un importe específico. [[https://contractaciopublica.gencat.cat|Contractació Pública de la Generalitat]]. 
+
+Las soluciones que proporciona la administración son mastodónticas, en cuanto que suelen intentar cubrir todos los flancos posibles e imposibles de la información; inflexibles si no permite al usuario interactuar con ella. En lugar de dar soluciones ligeras, lejos de una fisonomía de horror vacui informativa, en las que cada departamento o microunidad de la administración pública, independiente de su posición en la jerarquía que ocupa, publicara una API de la información relevante.
+
+## Caso práctico: Liberar la información de Bicing Barcelona 
+
+
+La página oficial del servicio Bicing de Barcelona proporciona una primitiva visualización de las estaciones repartidas por la ciudad. La información no está liberada en cuanto a que no disponemos de un archivo .csv, .xml, .kml o json con el que podamos trabajar con ella. 
+
+Este estudio consistirá en localizar la información, liberarla en un formato y proporcionarla públicamente. También seria ideal proporcionar una API que, a partir de una consulta, nos proporcionara una información concreta.
+
+## Localizar la información
+
+Una búsqueda en Google nos proporciona un enlace a la Wikipedia: [[http://es.wikipedia.org/wiki/Anexo:Estaciones_Bicing|Estaciones Bicing]]. La lista que proporciona es mucho mejor que la que proporciona la web oficial de Bicing: [[http://www.bicing.com/localizaciones/localizaciones.php?TU5fTE9DQUxJWkFDSU9ORVM%3D&MQ%3D%3D|Estacions de Bicing]]. Al poco encontramos la siguiente página: [[http://www.bicing.info/bicis.kml|KML de les estacions de Bicing]] donde podemos descargar el archivo con el que podemos trabajar sin problemas.
+
+La Wikipedia proporciona desde mediados del 2008 una API nativa [[http://ca.wikipedia.org/w/api.php|API de la Wikipedia]] con la que podemos interactuar con la información que reside en ella. Un ejemplo sería el siguiente:
+
+
+## Herramientas para la liberación 
+
+  * http://scrubyt.org/tutorials.html
+  * http://www.ruby-lang.org/es/
+  * http://mofo.rubyforge.org/
+  * http://wiki.github.com/why/hpricot
+  * http://www.pragprog.com/screencasts/v-aksinatra/classy-web-development-with-sinatra
+  * http://blog.zerosum.org/2007/11/5/build-a-simple-pastie-clone-with-sinatra-datamapper-in-15-minutes
+  * http://atmos.org/index.php/2009/03/20/hancock-a-single-sign-on-server-in-sinatra/
+  * http://accidentaltechnologist.com/ruby/10-alternative-ruby-web-frameworks/ 
+  * http://mediumexposure.com/techblog/how-i-setup-sinatra-rake-thin-server-and-deployed-it-capistrano-github
+  * http://www.gittr.com/index.php/archive/sinatra-basic-authentication-selectively-applied/ 
+  * http://www.rubyrailways.com/data-extraction-for-web-20-screen-scraping-in-rubyrails-episode1/ 
+  * http://advent2008.hackruby.com/past/2008/12/23/html_scraping_with_scrubyt_for_fun_and_profit 
+  * http://blog.zerosum.org/2009/2/4/microapp-tweetdreams 
+  * http://autonomousmachine.com/2009/2/17/using-will_paginate-with-datamapper-and-sinatra
+  * http://earthcode.com/blog/2008/12/building_a_simple_sinatradatam.html 
+  * http://blog.programmableweb.com/2007/05/07/12-useful-ruby-mashup-resources/
+  * http://blog.logeek.fr/2008/3/31/data-visualization-with-ruby-and-rmagick-where-are-those-bikes
+
+## Cuando los datos se mezclan con la realidad 
+
+  * http://senseable.mit.edu/wikicity/
+  * http://www.readwriteweb.com/archives/when_sensors_and_social_networks_mix.php
+  * http://www.readwriteweb.com/archives/sense_networks_citysense.php
+  * http://www.citysense.com/home.php
+
+Sería posible imaginar un escenario en el que el volumen de datos tuvieran su representación y utilidad pública. Pongamos por caso el ejemplo anterior: los datos de las estaciones, el registro de los movimientos de los usuarios, el número de bicicletas disponibles por cada estación cada cierta frecuencia... esta información no debería estar disponible de manera centralista, sino dispuesta a la distribución, distribuible. De esta manera se podría pensar en pantallas informativas en lugar de establecer un penoso negocio de consulta a través de llamadas. Es el caso del Bicing, ¿es justificable la creación de una aplicación para un movil de 500 euros para consultar cuál es la estación más cercana con disponibilidad? ¿no sería preferible paneles informativos en el que, además de consultar un servicio concreto, también informara de otros servicios de interés social: ubicación 
+de farmacias, centros sociales, sanitarios, sociales,...?
+
+Luego pensemos en la Semapedia, como proyectos de fusión entre la realidad y la información digital. Los juegos del tipo ARG...
+
+El término "infoporn" o la pornografía de la información, donde el interés por descubrir nuevos significados en la representación de los datos, esto queda relegado a favor de un interés más bien colorista o de gráficos espectaculares, pero que no aportan ningún significado, critica hacia proyectos como wikicity.
