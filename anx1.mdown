@@ -135,3 +135,10 @@ In git everything revolves around branches (github calls them forks1). When you 
 6. git commit -a
 7. git push
 8. go back to git hub and click the “pull request” button.
+
+Aquí falta explicar lo de las branches, especialmente seguir este tutorial:
+
+http://github.com/guides/push-a-branch-to-github
+
+y http://github.com/guides/pull-requests y http://www.viget.com/extend/i-have-a-pull-request-on-github-now-what/
+

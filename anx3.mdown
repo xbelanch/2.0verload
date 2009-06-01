@@ -1,6 +1,6 @@
-# Anexo III: Generar la copia del libro
+# Anexo III: Memento.rb
 
-* http://maruku.rubyforge.org/index.html
-* http://johnmacfarlane.net/pandoc/
-* http://www.ruby-doc.org/stdlib/libdoc/fileutils/rdoc/index.html
 
+## Antecedentes
+
+En este anexo puedes explicar el rollo del memento,

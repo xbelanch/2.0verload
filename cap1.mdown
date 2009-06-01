@@ -166,3 +166,8 @@ Preservar el exceso de información, incluso el ruido que la acompaña, en el an
 
 
 En PIG no guardamos, marcamos aquello que nos interesa. Luego no mantenemos todo y tampoco mantenemos nada. Jones (2008) encuentra problemas tanto en lo primero -mantenerlo todo-, ya que pervierte cualquier sistematización u organización de la información personal (problemas de versiones, resultados equívocos o fallidos de los buscadores, problemas más adelante del mantenimiento de la información) como también el dejar a terceros la actividad de guardar la información, es decir, subir nuestra información personal a la nube: las etiquetas o acción de señalizar toda información en lugar de guardarla, no hemos de olvidar que esta información no es de nuestra propiedad y está fuera de control, puede cambiar o desaparecer con el tiempo. Es también una manera de aniquilar los formatos entendidos como barreras de portabilidad de la información entre aplicaciones.
+
+>If so much of our personal history is getting compressed into data, and digital imaging, cloud computing, and streaming media have become an integral part of daily experience, being sensitive to the physical presence of these devices is an important responsibility.
+[Atoms For Bits: Designing physical embodiments for virtual content Posted by Carla Diana | 30 May 2009](http://www.core77.com/blog/featured_items/atoms_for_bits_designing_physical_embodiments_for_virtual_content_13625.asp)
+
+Aquí puedes acabar con una reflexión del artículo de Carla Diana, comentado por [Cory Doctorow](http://www.boingboing.net/2009/05/31/design-challenge-of.html)
