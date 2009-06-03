@@ -20,11 +20,11 @@ primer en local renombramos:
 
 es decir
 
-	git branch -m master ca
+	git branch -m master <local>
 	
 luego lo subimos a GitHub
 
-
+	git push origin <local>
 
 finalmente borramos el master de GitHub para tener sólo la rama <local>
 
@@ -36,6 +36,12 @@ A partir de ahora
 	git pull origin <local>
 
 Bug: aparece el siniestro mensaje
+	
+	error: refs/remotes/origin/HEAD points nowhere!
+
+se borra a continuación y todo a funcionar perfectamente :-)
+
+	rm .git/refs/remotes/origin/HEAD 
 
 
 
