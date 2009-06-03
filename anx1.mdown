@@ -2,8 +2,42 @@
 
 http://dmiessler.com/blog/using-git-to-maintain-your-website
 
-
 http://www.rubyinside.com/git-and-ruby-git-tutorials-articles-and-links-for-rubyists-860.html
+
+El propósito de tener el libro en GitHub es múltiple:
+
+* Cada traducción es una rama del proyecto
+* Dar la oportunidad real a los usuarios de crear *forks* de manera fácil del libro.
+* Las posibles traducciones corresponderían a *ramas* -branches- 
+* Explorar los sistemas de control de versiones distribuidos como herramientas de creación de contenidos.
+
+
+## Cambiar la branch master a el idioma  :-)
+
+primer en local renombramos: 
+
+	git branch -m master <local>
+
+es decir
+
+	git branch -m master ca
+	
+luego lo subimos a GitHub
+
+
+
+finalmente borramos el master de GitHub para tener sólo la rama <local>
+
+	git push origin :master
+	
+A partir de ahora
+
+	git push origin <local>
+	git pull origin <local>
+
+Bug: aparece el siniestro mensaje
+
+
 
 ## Sistemas de control de versiones
 
@@ -18,6 +52,10 @@ En general, la mayoría de opiniones a favor del uso de Git frente a otros siste
 * La acción de crear ramas (*branches*) del repositorio es simple, barata y rápida.
 * El repositorio y ramificaciones están separadas del sistema de archivos
 * GitHub es *cool* y sus posibilidades de publicación va más allá del simple repositorio de código fuente.
+
+Si la impresión es de *desbandada* general hacia Git en los casos de proyectos grandes o populares como el kernel de Linux, Rails, Xorg o casi bien toda la comunidad de desarrolladores de Ruby, surgen otras voces que el uso distribuido de Git es literalmente falso al nivel del desarrollo de la mayoría de proyectos ([Your SCM may be decentralized, but your project isn’t | Loren Segal](http://gnuu.org/2008/02/22/your-scm-may-be-decentralized-but-your-project-isnt/)): se usa un control de versiones distribuido para un proyecto completamente centralizado 
+
+>Programming is not quite like editing Wikipedia (...) In real life, projects are well guarded from the outside world and have a few gatekeepers known as maintainers. These people are usually the project owners/creators. In real life, you deal with having to convince these maintainers that your code deserves to be in the main branch.
 
 
 
