@@ -27,16 +27,14 @@ La mejor manera de conocer Git es haciendo uso de él. En primer lugar clonaremo
 
 	git clone git://github.com/xbelanch/2.0-overload.git
 
-Una vez realizado, comprobamos mediante un listado de los ficheros ocultos del directorio (`ls -lah`) que la información del repositorio está guardado en un directorio oculto `.git` a nivel de raíz del proyecto. El listado de archivos del proyecto actual 
+Una vez realizado, comprobamos mediante un listado de los ficheros ocultos del directorio (`ls -lah`) que la información del repositorio está guardado en un directorio oculto `.git` a nivel de raíz del proyecto. Hay tres espacios a tener cuenta con git:
 
-With git, the whole repository is stored in a (hidden) folder called .git at the top level of your project structure. The working tree (i.e. the actual files in your project) are just the ones you happen to be working with at the time. Git doesn’t track the files themselves, it just tracks their content along with some metadata (read more about this here).
-There are a few locations for your content in git
+* **el árbol de trabajo** (*working tree*): es el sistema de archivos del proyecto con los que realizas manualmente los cambios. En el ejemplo del libro correspondería a los archivos asociados a los capítulos del libro (`cap1.mdown`, `cap2.mdown`,...)
+* **área de la etapas** (*staging area*): donde permanecen los cambio hasta que son *committed*.
+* **el repositorio**, donde van los *committed changes* (no se me ocurre una traducción mejor)
 
-    * The working tree. This is the file system, where you manually make the changes.
-    * The staging area, where changes lie until they’re committed.
-    * The repository itself, where committed changes go (you can have local and remote repositories).
+Cada *commit* en Git es etiquetado con un hash SHA-1 en lugar de versiones numeradas, lo que hay muy poca probabilidad que pueda haber una colisión entre dos *commits*, luego se asume que son únicos. Git genera un hash de 40 caracteres de largo, pero con los 7 o 8 primeros carácteres es suficiente para identificar un *commit*
 
-Commits in git are labeled with an SHA-1 hash instead of version numbers. There’s a very small chance of the hashes ever colliding, so they can be assumed to be unique. Git actually generates a 40 character-long hash but normally the first 7 or 8 characters are enough to uniquely identify a commit.
 
 
 **Repositorio**
@@ -53,6 +51,14 @@ Crear un repositorio en Git Hub es simple. Sigue las instrucciones...
 
 
 ## Git básico
+
+Si trabajáis en Mac OS X, el modo más rápido de instalar Git es descargar el instalador de [Google Code Project](http://code.google.com/p/git-osx-installer/) o compilarlo a partir del código fuente o usar [MacPorts](http://github.com/guides/get-git-on-mac)
+
+Antes de realizar nada debes pasar algunos parámetros generales a Git como es el nombre de usuario y el correo electrónico:
+
+	git config --global user.name "username"
+	git config --global user.email mi.direccion.de@email.com
+
 
 
 ### Operaciones básicas
