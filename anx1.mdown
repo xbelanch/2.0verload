@@ -9,11 +9,34 @@ http://www.rubyinside.com/git-and-ruby-git-tutorials-articles-and-links-for-ruby
 
 Un sistema de control de versiones (VCS, _Version Control System_) es una herramienta o metodología de trabajo que establece un registro preciso de last modificaciones de un proyecto. La actividad de realizar una copia de un documento, renombrarlo con la fecha o un código que responda a una convención personal correspondería a la manera más simple de controlar las versiones del documento.
 
+Un sistema de control de versiones distribuido permite que cualquiera tenga su propia versión del repositorio. Que el repositorio central (en el caso del libro a GitHub) es completamente arbitrario. Esto significa que puedes realizar operaciones con el código del libro sin necesidad de estar conectado con el servidor central. 
 
+En general, la mayoría de opiniones a favor del uso de Git frente a otros sistemas de control de versiones coinciden en:
+
+* rápido y no comporta un espacio excesivo de disco
+* El [artículo de Eric Sink](http://www.ericsink.com/entries/dvcs_dag_1.html) ofrece una visión práctica de las diferencias entre los dos modelos, el centralizado (Subversion o Vault) en el que el desarrollo de cada versión es claramente una línea (1<-2<-3<-4) y el distribuido, donde la representación de la historia de versiones es más parecida a un DAG (Directed Acyclic Graph).
+* La acción de crear ramas (*branches*) del repositorio es simple, barata y rápida.
+* El repositorio y ramificaciones están separadas del sistema de archivos
+* GitHub es *cool* y sus posibilidades de publicación va más allá del simple repositorio de código fuente.
 
 
 
 ## Vocabulario básico
+
+La mejor manera de conocer Git es haciendo uso de él. En primer lugar clonaremos el repositorio del libro desde el [espacio de GitHub](http://github.com/xbelanch/2.0-overload/tree/master)
+
+	git clone git://github.com/xbelanch/2.0-overload.git
+
+Una vez realizado, comprobamos mediante un listado de los ficheros ocultos del directorio (`ls -lah`) que la información del repositorio está guardado en un directorio oculto `.git` a nivel de raíz del proyecto. El listado de archivos del proyecto actual 
+
+With git, the whole repository is stored in a (hidden) folder called .git at the top level of your project structure. The working tree (i.e. the actual files in your project) are just the ones you happen to be working with at the time. Git doesn’t track the files themselves, it just tracks their content along with some metadata (read more about this here).
+There are a few locations for your content in git
+
+    * The working tree. This is the file system, where you manually make the changes.
+    * The staging area, where changes lie until they’re committed.
+    * The repository itself, where committed changes go (you can have local and remote repositories).
+
+Commits in git are labeled with an SHA-1 hash instead of version numbers. There’s a very small chance of the hashes ever colliding, so they can be assumed to be unique. Git actually generates a 40 character-long hash but normally the first 7 or 8 characters are enough to uniquely identify a commit.
 
 
 **Repositorio**
