@@ -26,3 +26,5 @@
 
 * [5 Tips For Building Effective Infographics](http://www.visitmix.com/Articles/5-Tips-For-Building-Effective-Infographics)
 * [50 grandes ejemplos de visualización](http://blogof.francescomugnai.com/2009/04/50-great-examples-of-infographics/)
+* Improving Tag-Clouds as Visual Information Retrieval Interfaces [PDF]
+* 

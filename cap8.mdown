@@ -4,12 +4,12 @@
 
 Acostumbro a observar a los compañeros de trabajo que pasan interminables horas frente a una pantalla. Los hay con la mirada congelada apuntando a una rejilla completamente cubierta de información numérica; cifras atrapadas en diminutas celdas que, apenas perceptibles a una cierta distancia, inundan la hoja de cálculo. Otros pasan interminables sesiones manejando una bandeja de entrada ocupada por un número interminable de correo electrónico cuando no están enfrascados en la construcción de laberínticas tablas en el procesador de textos. Si por casualidad descubren su escritorio, aquel paisaje de las últimas vacaciones o un rostro de un familiar querido es apenas reconocible por la dispersión de cientos de archivos y carpetas. Antes de regresar a mi asiento y dar por terminada este corto periplo por las oficinas, me resisto a pasar de largo y preguntar a una compañera qué está haciendo en ese justo momento. Responde -no sin un tono ciertamente amargo- que está preparando una presentación ("Un *Powerpoint*"). Mientras entra en más detalles, advierto que las diapositivas son casi una copia exacta del documento en la que basa la realización de aquella; cada diapositiva es un chaparrón de texto acompañada, diapositiva sí y otra también, de algún icono gráfico. 
 
-Manejar diariamente un volumen excesivo de información no es tarea fácil. Nos instruyen en el aprendizaje de las diferentes funcionalidades de las herramientas ofimáticas; nos imbuyen de cuánto fácil es publicar y editar a través de las aplicaciones web actuales. Pero el aprendizaje de gestionar y manipular la información a base de ensayo y error acaba siendo una experiencia frustrante. Al margen de cuestiones como sobrevivir al exceso o la fragmentación de la información, un asunto que pasa inadvertido, pero no por ello resulta menos importante, es la representación de la información. Cuando nos invitan a presentar un proyecto, un trabajo, una exposición o una síntesis del curso de una investigación, decidimos acompañar nuestro discurso de unas diapositivas, como si ya no fuera posible otra alternativa, y quedara como un acto extravagante y provocador no hacerlo. Si realizar una presentación es un ejercicio de síntesis del contenido de un documento, ¿qué hacer cuando nos enfrentamos a una instantánea del contenido de una hoja de cálculo? ¿y de los resultados de una estadística? La visualización o, lo que es lo mismo, la elección de una representación adecuada de la información, nos facultará de un significado nuevo que, en su forma primitiva, difícilmente lo conseguiría.
+Manejar diariamente un volumen excesivo de información no es tarea fácil. Nos instruyen en el aprendizaje de las diferentes funcionalidades de las herramientas ofimáticas; nos imbuyen de cuánto fácil es publicar y editar a través de las aplicaciones web actuales. Pero el aprendizaje de gestionar y manipular la información a base de ensayo y error acaba siendo una experiencia frustrante. Al margen de cuestiones como sobrevivir al exceso o la fragmentación de la información, un asunto que pasa inadvertido, pero no por ello resulta menos importante, es la representación de la información. Cuando nos invitan a presentar un proyecto, un trabajo, una exposición o una síntesis del curso de una investigación, decidimos acompañar nuestro discurso de unas diapositivas, como si ya no fuera posible otra alternativa, y quedara como un acto extravagante y provocador no hacerlo. Si realizar una presentación es un ejercicio de síntesis del contenido de un documento, ¿qué hacer cuando nos enfrentamos a una instantánea del contenido de una hoja de cálculo? ¿y de los resultados de una estadística? La visualización o, lo que es lo mismo, la elección de una representación adecuada de la información, nos facultará de un significado nuevo que, en su forma primitiva, difícilmente lo conseguiría. De acuerdo con Tufte (2007), la excelencia de la representación gráfica de datos consiste en que ideas complejas se comuniquen con claridad, precisión y eficiencia.
 
 
 ##La visualización de información como disciplina
 
-El propósito de la visualización es revelar un significado que, de otra manera, en su representación más cruda -tabular, en gruesos informes, estadísticas interminables o en formatos de archivos estructurados (CSV, XML, JSON, YAML,...) o, en el peor de los escenarios posibles, completamente desestructurada-, queda oculta. Hacer visible la información en una suerte de instantánea general del contenido, de los datos, el objeto de la visualización de la información no se limita exclusivamente a una traducción literal de los datos. Todo lo contrario, el proceso de la visualización implica una compleja estrategia de comunicación en el que intervienen diferentes procesos de trabajo como la matemática, la computacional y la artística. 
+El propósito de la visualización es revelar un significado que, de otra manera, en su representación más cruda -tabular, en gruesos informes, estadísticas interminables o en formatos de archivos estructurados (CSV, XML, JSON, YAML,...) o, en el peor de los escenarios posibles, completamente desestructurada-, queda oculta. Joel Laumans insiste que toda visualización responde a una pregunta en relación a una información dada. Conocer esta información, saber las relaciones que hay entre sus variables; cómo se organizan y qué es lo que necesita ser comunicado. Hacer visible la información en una suerte de instantánea general del contenido, de los datos, el objeto de la visualización de la información no se limita exclusivamente a una traducción literal de los datos. Todo lo contrario, el proceso de la visualización implica una compleja estrategia de comunicación en el que intervienen diferentes procesos de trabajo como la matemática, la computacional y la artística. 
 
 La representación es un relato visual construido en varias fases con el motivo de responder a una pregunta general. Ben Fry (2008) distingue las siguientes fases: adquisición, análisis, filtro, extracción, representación e interacción de la información. Cada una de las fases implica una toma de decisiones que intentaran ajustarse, en la medida de lo posible, a la pregunta original.  
 
@@ -24,41 +24,18 @@ La mayoría de autores coinciden que el éxito de la representación está fuert
 * **Cartográficos**: Mapas
 * **Flujo**: Diagramas de Sankey
 
-Como suele ser habitual, no todos los escenarios se ajustan a una solución visual precocinada o encajan perfectamente en alguno de los patrones anteriores. Las hojas de cálculo incorporan soluciones estándar y aceptadas colectivamente como únicas (diagrama de barras, de pastel,...), pero los nuevos paquetes ofimáticos han comenzado a incluir el resto de los patrones no tradicionales, incluso la funcionalidad interactiva. La hoja de cálculo de Google Docs incluye representaciones cartográficas (aprovechando el enorme tirón de su servicio de mapas), líneas del tiempo y otros *gadgets* visuales que enriquecen y complementan la percepción de la información tabular.
+Las hojas de cálculo incorporan soluciones estándar y aceptadas colectivamente como únicas (diagrama de barras, de pastel,...), pero los nuevos paquetes ofimáticos han comenzado a incluir el resto de los patrones no tradicionales, incluso la funcionalidad interactiva. La hoja de cálculo de Google Docs incluye representaciones cartográficas (aprovechando el enorme tirón de su servicio de mapas), líneas del tiempo y otros *gadgets* visuales que enriquecen y complementan la percepción de la información tabular.
 
-Cuando la solución estándar no es ideal debido a las características de los datos, las alternativas suelen ser una mezcla de dos o más patrones.
+Como suele ser habitual, no todos los escenarios se ajustan a una solución visual precocinada o encajan perfectamente en alguno de los patrones anteriores. Cuando esto ocurre, la solución pasa por una mezcla de dos o más patrones visuales. 
 
+La entrada de la informática en el campo de la visualización ha significado un salto cualitativo al facilitar el procesamiento masivo de información, la actualización inmediata del resultado y la interacción entre el usuario y la información representada. Frente a la visualización congelada en papel impreso, la oferta de una visualización dinámica contribuye enormemente a una utilización democrática de las herramientas que la producen. El usuario puede determinar la fuente de datos, filtros y el tipo de representación final. Veamos un ejemplo básico, pero muy popular de visualización de la información: las nubes de etiquetas o *cloud tags*
 
-###Interactividad de la visualización de información
+### Nubes de etiquetas
 
-La entrada de la informática en el campo de la visualización representó una clara inflexión al facilitar la interactividad del usuario con la información representada a través de interfícies diseñadas a tal propósito. Frente a la foto final de la visualización impresa, la oferta de una visualización dinámica de la información añade nuevas maneras de tratarla, especialmente si pensamos que, a través de la interacción, se altera a tiempo real alguna de las fases del proceso descrito por el autor de Visualizing Data. Es decir, el usuario puede determinar el tipo de filtro, acentuar la visualización o contextualizar mediante tooltips la información. Manipular directamente la información es una ventaja.
+Un ejemplo muy sencillo, pero no exento de cierta complejidad técnica, y que fue adoptado rápidamente por la mayoría de páginas web que clasificaban los contenidos en base a un sistema de etiquetas, es la representación conocida como Tag Cloud o nube de etiquetas. La rápida acumulación de etiquetas en páginas web donde la publicación de contenidos es intensa originó el sistema de nubes de etiquetas. Este sistema debía cumplir dos funciones:
 
-Un ejemplo de ello, es la siguiente información: http://flowingdata.com/2008/03/12/17-ways-to-visualize-the-twitter-universe/
-
-en la que los usuarios representan la información de twitter a través de herramientas interactivas de visualización.
-
-http://yoan.dosimple.ch/blog/2007/05/17/
-
-De acuerdo con Tufte (Tufte, 200), la excelencia de la representación gráfica de datos consiste en que ideas complejas se comunicen con claridad, precisión y eficiencia.
-
-Examinar los datos o, lo que Ben Fry determinar como el análisis de los datos. Joel Laumans insiste en que toda visualización responde a una pregunta en relación a una información. Conocer esta información, saber las relaciones que hay entre las variables, el cómo se organizan y qué es lo que necesita ser comunicado será básico en el éxito del trabajo.
-
-El tipo de pregunta que nos formulemos implicará definitivamente el tipo de representación a elegir: la evolución de una empresa en el tiempo corresponderá a una línea en el tiempo; la densidad de población implicaría una representación geográfica antes que otra solución.
-
-
-##Caso de estudio: tag cloud
-
-Improving Tag-Clouds as Visual Information Retrieval Interfaces [PDF]
-
-Un ejemplo de solución al problema del exceso de información, que fue adoptado rápidamente por la mayoría de páginas web que clasificaban los contenidos en base a un sistema flexible de etiquetas, es el sistema de representación conocido como Tag Cloud, nube de etiquetas.
-
-A diferencia del sistema tradicional de clasificación en carpetas, siguiendo la metáfora del escritorio, se consideró una alternativa más flexible y ágil de ordenar los contenidos, el etiquetaje. Mediante el uso de etiquetas, los usuarios clasifican la información con total libertad, ajustándose al signifcado del contenido según el criterio del sentido común. La actividad de ordenar la información mediante etiquetas resulta ser más espontánea y próxima al usuario que otros sistemas de organización fuertemente jerarquizados, como las taxonomías, donde el usuario debe forzar la categoría de un contenido.
-
-La rápida acumulación de etiquetas en páginas web donde la publicación de contenidos es intensa originó el sistema de nubes de etiquetas. Este sistema debía cumplir dos funciones:
-
-  * Permitir a los usuarios conocer qué etiquetas clasifican el mayor número de contenidos de la página web y, por lo tanto, una suerte de zeitgeist de la información.
-  * Establecr una metodología sencilla de navegación y adquisición de la información a través del espacio de etiquetas, de tal manera que ofreciese nuevas rutas en la adquisición de la información.
-
+  * **Permitir** a los usuarios conocer qué etiquetas clasifican el mayor número de contenidos de la página web y, por lo tanto, una suerte de zeitgeist de la información.
+  * **Establecer** una metodología sencilla de navegación y adquisición de la información a través del espacio de etiquetas, de tal manera que ofreciese nuevas rutas en la adquisición de la información.
 
 En cierta manera, la solución de los Tag Cloud corresponde a ofrecer un mensaje claro: del conjunto total de etiquetas, cuáles tienen mayor peso o relevancia según una variable o valor escogido como referencia (acostumbra a ser el número de artículos a los que se les ha asignado la etiqueta)
 
@@ -66,6 +43,14 @@ En cierta manera, la solución de los Tag Cloud corresponde a ofrecer un mensaje
 
 http://www.wordle.net/
 
+
+## Twitter?
+
+Un ejemplo de ello, es la siguiente información: http://flowingdata.com/2008/03/12/17-ways-to-visualize-the-twitter-universe/
+
+en la que los usuarios representan la información de twitter a través de herramientas interactivas de visualización.
+
+http://yoan.dosimple.ch/blog/2007/05/17/
 
 
 ##La visualización de información es sexy
