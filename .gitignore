@@ -1,8 +1,10 @@
+*log
 foo*
 memento.*
 *.pdf*
 *temp*
 *temp
+*.tex.temp
 total*
 borra*
 

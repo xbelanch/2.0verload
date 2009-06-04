@@ -7,6 +7,7 @@ class Book < Thor
 
 	def build
 		result = []
+		File.delete('foo.pdf') if File.exist?('foo.pdf')
 		File.delete('foo.mdown') if File.exist?('foo.mdown')
 		sequence = YAML::load_file("book.yaml")
 		sequence[:order].each do |part|
@@ -15,16 +16,28 @@ class Book < Thor
 			end
 		end
 		file = File.new("foo.mdown", "w+")
+
+	# Si estamos elaborando un libro
+	# recuerda incluir el \mainmatter antes del capítulo 1
+	# Utilizar \part{}para los principios de cada capítulo..
+	# por el momento sólo se me ocurre con un regexp :-( de la primera línea
+
 		result.each do |part|
 			file <<  part + "\n" + '\newpage' + "\n\n"
 		end
 		file.close
 		to_pdf('foo.mdown')
+		File.delete('foo.mdown') if File.exist?('foo.mdown')
 	end	
 	
 	private
 	
 	def to_pdf(doc)
-		system("markdown2pdf #{doc} -C tex/header.tex -B tex/beforebody.tex  -A tex/afterbody.tex -o foo.pdf")
+		system("markdown2pdf #{doc} -N -C tex/header.tex -B tex/beforebody.tex  -A tex/afterbody.tex -o foo.pdf")
+		#system("pandoc -s -r markdown -w latex foo.mdown -C tex/header.tex -B tex/beforebody.tex  -o foo.tex")
+		#luego creamos un tmp donde llevamos el  foo.tex resultante
+		#allí ejecutaremos dos veces el pdf2latex (para  generar la tabla de contenidos...)
+		#system("pdflatex -interaction=batchmode foo.tex >/dev/null")
+		#movemos el pdf fuera de tmp y borramos el contenido
 	end
 end
