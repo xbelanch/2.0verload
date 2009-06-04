@@ -1,0 +1,141 @@
+%http://www.yanb.be/w/latexPhDstyle
+\ProvidesPackage{yanthese}
+
+% % %
+% SPACING & NUMBERING
+% = = = = = = = = = = = = = = = = = = 
+\usepackage{setspace} % use \begin{spacing}{1.5}, or \onehalfspacing, etc
+\usepackage{enumerate}
+
+% % %
+% COLOR / PICS
+% = = = = = = = = = = = = = = = = = = 
+\usepackage{graphicx}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\usepackage{color} % to add font color
+
+
+% % %
+% EPIGRAPH
+% = = = = = = = = = = = = = = = = = = 
+\usepackage{epigraph} % epigraph
+%customize: \setlength{\epigraphwidth}{7cm}\setlength{\epigraphrule}{0pt}
+%use: \epigraph{text}{reference}
+
+% % %
+%DROPPED CAPITALS
+% = = = = = = = = = = = = = = = = = = 
+% font families: ppl (Palatino), ptm (Times), pbk (Bookman),
+% pnc (NewCentury), pag (Avantgarde [sans])
+\usepackage{lettrine}% use: \lettrine{A}{fter years} of looking...
+\renewcommand{\LettrineFontHook}{\fontfamily{ptm}\mdseries\upshape}
+\setcounter{DefaultLines}{2}
+
+% % %
+% CHANGE MARGINAR STYLE
+% = = = = = = = = = = = = = = = = = = 
+\setlength{\marginparwidth}{3cm}
+\let\oldmarginpar\marginpar
+\renewcommand\marginpar[1]{\-\oldmarginpar[\sffamily\raggedleft\footnotesize #1]%
+{\sffamily\raggedright\footnotesize #1}}
+
+
+% % % 
+% SIZE OF QUOTES / QUOTATIONS / VERSE
+% To customize, change \small to size needed 
+% = = = = = = = = = = = = = = = = = = 
+\let\oldquote\quote
+%\renewcommand\quote{\par\singlespacing\small\asciifamily\selectfont\oldquote}
+\renewcommand\quote{\par\singlespacing\small\oldquote}
+\let\oldquotation\quotation
+\renewcommand\quotation{\par\singlespacing\small\oldquotation}
+\let\oldverse\verse
+\renewcommand\verse{\par\singlespacing\small\oldverse}
+
+
+% % %
+% CUSTOM HEADINGS
+% = = = = = = = = = = = = = = = = = = 
+\usepackage{sectsty} 
+
+
+\partnumberfont{\fontfamily{ppl}\mdseries\scshape\Large} 
+\parttitlefont{\fontfamily{ppl}\mdseries\scshape\LARGE} 
+\chapternumberfont{\sffamily\mdseries\upshape\Large} 
+\chaptertitlefont{\sffamily\mdseries\upshape\LARGE} 
+%\sectionfont{\titlerule\filleft\normalsize{#1}\vspace{0.5mm}\bigrule\LARGE} 
+%\subsectionfont{\small} 
+% % For subsubsection : small caps
+\subsubsectionfont{\fontfamily{ppl}\mdseries\scshape\normalsize} 
+%\renewcommand \thesubsubsection{} %  no number
+
+
+% % HEADER
+% % L/C/R = left / center / right
+% % E/O = even / odd
+\usepackage{fancyhdr}
+\fancyhf{}  % clear header + footer before defining new parameters
+\pagestyle{fancy} 
+%\renewcommand{\headrulewidth}{0pt} % remove line
+
+\renewcommand{\chaptermark}[1]{\markboth{\emph{ #1}}{}} 
+\renewcommand{\sectionmark}[1]{\markright{\thesection\emph{ #1}}{}} 
+
+\fancyhf{} 
+\fancyhead[LE,RO]{\small\upshape\thepage} 
+
+\fancyhead[LO]{\small\upshape\rightmark} 
+\fancyhead[RE]{\small\upshape\leftmark} 
+\fancypagestyle{plain}{% this is for beginning of chapter: empty
+ \fancyhead{} % get rid of headers 
+ \renewcommand{\headrulewidth}{0.5pt} % and the line 
+ }
+
+\fancyhead[LE,RO]{\fontfamily{ppl}\upshape\thepage}  % page number
+
+% % Clear Header Style on the Last Empty Odd pages
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+	     \hbox{}%
+	 \thispagestyle{empty}%              % Empty header styles
+	 \newpage%
+	 \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+ 
+
+% % HEADER STYLE 2
+
+%\usepackage{fancyhdr}
+%\pagestyle{fancy} 
+
+%
+%\renewcommand{\chaptermark}[1]% 
+%{\markboth{\MakeUppercase{\thechapter.\ #1}}{}} 
+%\renewcommand{\sectionmark}[1]% 
+%{\markright{\MakeUppercase{\thesection.\ #1}}} 
+%\renewcommand{\headrulewidth}{0.5pt} 
+%\renewcommand{\footrulewidth}{0pt} 
+%\newcommand{\helv}{% 
+%\fontfamily{phv}\fontseries{b}\fontsize{9}{11}\selectfont} 
+%\fancyhf{} 
+%\fancyhead[LE,RO]{\helv \thepage} 
+%\fancyhead[LO]{\helv \rightmark} 
+%\fancyhead[RE]{\helv \leftmark}
+ 
+ % TOC
+\usepackage[titles]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftpartindent}{1.8em}
+%\renewcommand{\cftpartpresnum}{Part }
+\renewcommand{\cftpartaftersnum}{:}
+\renewcommand{\cftpartfont}{\fontfamily{ppl}\mdseries\scshape\bfseries}
+\renewcommand{\cftpartpagefont}{\sffamily\mdseries\scshape\normalsize}
+\renewcommand{\cftchapfont}{\sffamily\bfseries\upshape}
+\renewcommand{\cftchappagefont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecfont}{\sffamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsubsecfont}{\sffamily\mdseries\upshape}
+\renewcommand{\cftsubsecpagefont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsubsubsecfont}{\sffamily\mdseries\upshape}
+\renewcommand{\cftsubsubsecpagefont}{\rmfamily\mdseries\upshape}
+
+

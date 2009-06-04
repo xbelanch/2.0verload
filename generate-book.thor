@@ -25,6 +25,6 @@ class Book < Thor
 	private
 	
 	def to_pdf(doc)
-		system("markdown2pdf #{doc} -C header.tex -B beforebody.tex  -A afterbody.tex -o foo.pdf")
+		system("markdown2pdf #{doc} -C tex/header.tex -B tex/beforebody.tex  -A tex/afterbody.tex -o foo.pdf")
 	end
 end

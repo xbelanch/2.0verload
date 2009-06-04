@@ -51,8 +51,9 @@ Esta sobrecarga de funcionalidades al cliente de correo tiene un efecto demolead
 
 ## Bandeja de entrada saturada -cuttering, scattering and suffering 
 
-
+<!--
 ![email-overload-by-noise-to-signal](http://www.readwriteweb.com/images/2009-05-23-ledge.gif)
+-->
 
 Una bandeja de entrada representa un problema triple: 
 Acumulación de trabajo (work cuttering), por lo que nos provocará un tipo de estrés al no poder controlar la información que diariamente nos va llegando
