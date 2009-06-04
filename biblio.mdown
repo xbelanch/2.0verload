@@ -27,4 +27,28 @@
 * [5 Tips For Building Effective Infographics](http://www.visitmix.com/Articles/5-Tips-For-Building-Effective-Infographics)
 * [50 grandes ejemplos de visualización](http://blogof.francescomugnai.com/2009/04/50-great-examples-of-infographics/)
 * Improving Tag-Clouds as Visual Information Retrieval Interfaces [PDF]
-* 
+* http://github.com/mojombo/primer/tree/master
+* http://www.aaronkoblin.com/work.html
+* http://raphaeljs.com/
+* http://code.google.com/intl/en/apis/visualization/
+* http://flowingdata.com/2009/04/21/visual-representation-of-tabular-information-how-to-fix-the-uncommunicative-table/
+* http://flowingdata.com/2009/03/20/data-visualization-is-only-part-of-the-answer-to-big-data/
+* http://www.vectart.com/esp/indexsp.htm
+* http://blog.vectart.com/?p=101
+* http://flowingdata.com/2009/01/15/flow-chart-shows-you-what-chart-to-use/
+* http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html
+* http://visualcomplexity.com
+* http://www.timshowers.com/web-design-blog/
+* http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/
+* http://infosthetics.com/
+* http://blog.thejit.org/javascript-information-visualization-toolkit-jit/
+* http://blog.thejit.org/2008/11/27/using-ocaml-to-visualize-radioheads-hoc-music-video-part-1/
+* http://vis.stanford.edu/protovis/
+* http://www.visophyte.org/blog/
+* http://www.math.yorku.ca/SCS/Gallery/milestone/index.html
+* http://magicalnihilism.wordpress.com/2009/04/03/data-as-seductive-material/
+* http://www.flight404.com/blog/
+* http://netdiver.net/10years/artists-and-their-apps-by-doc-woohoo
+* http://vizlab.nytimes.com/
+* http://piksels.com/introduction-to-visualizing-data/
+* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#

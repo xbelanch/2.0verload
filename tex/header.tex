@@ -1,0 +1,52 @@
+%\documentclass[a5paper,twoside,10pt]{book}
+\documentclass[a5paper,twoside,11pt]{book}
+%\documentclass[letterpaper]{report}
+\usepackage{pxfonts}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{ucs}
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{makeidx}
+\usepackage{index}
+\usepackage[T1]{fontenc}
+\usepackage[scaled]{helvet}
+\usepackage{ascii}
+\usepackage{yanthese}
+\sloppy % suaviza las reglas de ruptura de líneas de LaTeX
+\frenchspacing % usar espaciado normal después de '.'
+%\pagestyle{headings} % páginas con encabezado y pie básico
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{6pt plus 2pt minus 1pt} 
+\usepackage[breaklinks=true]{hyperref}
+\pagestyle{fancy}
+%\setlength{\textheight}{21cm}
+%\setlength{\textwidth}{17cm}
+%\setlength{\oddsidemargin}{0cm}
+%\setlength{\topmargin}{-1cm}
+%\setlength{\columnsep}{7mm}
+%\setlength{\parindent}{0mm}
+%\setlength{\parskip}{2.5mm}
+
+\usepackage{titlesec}
+
+\newcommand{\bigrule}{\titlerule[0.5mm]}
+
+\titleformat{\section}[display] % cambiamos el formato de los capítulos
+{\bfseries\Huge} % por defecto se usarán caracteres de tamaño \Huge en negrita
+{% contenido de la etiqueta
+%\titlerule % línea horizontal
+\filleft % texto alineado a la derecha
+\Large\chaptertitlename\ % "Capítulo" o "Apéndice" en tamaño \Large en lugar de \Huge
+\Large\thechapter} % número de capítulo en tamaño \Large
+{13mm} % espacio mínimo entre etiqueta y cuerpo
+{\vspace{0mm}\filleft} % texto del cuerpo alineado a la derecha
+[\vspace{50mm}] % después del cuerpo, dejar espacio vertical y trazar línea horizontal gruesa
+
+
+\title{%
+	\textbf{\fontfamily{phv}\selectfont\bfseries 2.0 OVERLOAD}\\
+	\normalsize{\asciifamily\selectfont Geografías del exceso de información}%
+}%
+%\author{\huge \textit{Xavier Belanche} \and \huge \textit{Maite Goñi}}
+%\date{\Large Mes, Año}

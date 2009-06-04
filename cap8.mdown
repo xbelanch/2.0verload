@@ -1,5 +1,3 @@
-
-
 # Representar el exceso de la información
 
 Acostumbro a observar a los compañeros de trabajo que pasan interminables horas frente a una pantalla. Los hay con la mirada congelada apuntando a una rejilla completamente cubierta de información numérica; cifras atrapadas en diminutas celdas que, apenas perceptibles a una cierta distancia, inundan la hoja de cálculo. Otros pasan interminables sesiones manejando una bandeja de entrada ocupada por un número interminable de correo electrónico cuando no están enfrascados en la construcción de laberínticas tablas en el procesador de textos. Si por casualidad descubren su escritorio, aquel paisaje de las últimas vacaciones o un rostro de un familiar querido es apenas reconocible por la dispersión de cientos de archivos y carpetas. Antes de regresar a mi asiento y dar por terminada este corto periplo por las oficinas, me resisto a pasar de largo y preguntar a una compañera qué está haciendo en ese justo momento. Responde -no sin un tono ciertamente amargo- que está preparando una presentación ("Un *Powerpoint*"). Mientras entra en más detalles, advierto que las diapositivas son casi una copia exacta del documento en la que basa la realización de aquella; cada diapositiva es un chaparrón de texto acompañada, diapositiva sí y otra también, de algún icono gráfico. 
@@ -11,7 +9,20 @@ Manejar diariamente un volumen excesivo de información no es tarea fácil. Nos 
 
 El propósito de la visualización es revelar un significado que, de otra manera, en su representación más cruda -tabular, en gruesos informes, estadísticas interminables o en formatos de archivos estructurados (CSV, XML, JSON, YAML,...) o, en el peor de los escenarios posibles, completamente desestructurada-, queda oculta. Joel Laumans insiste que toda visualización responde a una pregunta en relación a una información dada. Conocer esta información, saber las relaciones que hay entre sus variables; cómo se organizan y qué es lo que necesita ser comunicado. Hacer visible la información en una suerte de instantánea general del contenido, de los datos, el objeto de la visualización de la información no se limita exclusivamente a una traducción literal de los datos. Todo lo contrario, el proceso de la visualización implica una compleja estrategia de comunicación en el que intervienen diferentes procesos de trabajo como la matemática, la computacional y la artística. 
 
-La representación es un relato visual construido en varias fases con el motivo de responder a una pregunta general. Ben Fry (2008) distingue las siguientes fases: adquisición, análisis, filtro, extracción, representación e interacción de la información. Cada una de las fases implica una toma de decisiones que intentaran ajustarse, en la medida de lo posible, a la pregunta original.  
+La representación es un relato visual construido en varias fases con el motivo de responder a una pregunta general. Ben Fry (2008) distingue las siguientes fases: adquisición, análisis, filtro, extracción, representación e interacción de la información. Cada una de las fases implica una toma de decisiones que intentaran ajustarse, en la medida de lo posible, a la pregunta original. Cada una de ellas, bajo el paraguas de una parcela del conocimiento: 
+
+1. **Computación** - Adquisición y *parseo* de la información
+2. **Matemáticas, Estadística y Minería de datos** - Minería y filtrado
+3. **Diseño gràfico** - Refinación y representación
+4. **Infovis and Human-Computer Interaction (HCI)** - Interacción
+
+### Adquisición
+
+
+### Minería de datos
+
+
+### Representación
 
 La mayoría de autores coinciden que el éxito de la representación está fuertemente sujeto a la elección del método de representación o tipo de gráfico. Si bien la decisión del tipo de gráfico es libre -y en muchos casos, incluso creativa-, encontramos disponibles una serie de patrones visuales asociados a un problema concreto de la representación de la información:  
 
@@ -28,9 +39,14 @@ Las hojas de cálculo incorporan soluciones estándar y aceptadas colectivamente
 
 Como suele ser habitual, no todos los escenarios se ajustan a una solución visual precocinada o encajan perfectamente en alguno de los patrones anteriores. Cuando esto ocurre, la solución pasa por una mezcla de dos o más patrones visuales. 
 
-La entrada de la informática en el campo de la visualización ha significado un salto cualitativo al facilitar el procesamiento masivo de información, la actualización inmediata del resultado y la interacción entre el usuario y la información representada. Frente a la visualización congelada en papel impreso, la oferta de una visualización dinámica contribuye enormemente a una utilización democrática de las herramientas que la producen. El usuario puede determinar la fuente de datos, filtros y el tipo de representación final. Veamos un ejemplo básico, pero muy popular de visualización de la información: las nubes de etiquetas o *cloud tags*
+### Interacción
 
-### Nubes de etiquetas
+
+
+
+## Caso de ejemplo: Nubes de etiquetas
+
+La entrada de la informática en el campo de la visualización ha significado un salto cualitativo al facilitar el procesamiento masivo de información, la actualización inmediata del resultado y la interacción entre el usuario y la información representada. Frente a la visualización congelada en papel impreso, la oferta de una visualización dinámica contribuye enormemente a una utilización democrática de las herramientas que la producen. El usuario puede determinar la fuente de datos, filtros y el tipo de representación final. Veamos un ejemplo básico, pero muy popular de visualización de la información: las nubes de etiquetas o *cloud tags*
 
 Un ejemplo muy sencillo, pero no exento de cierta complejidad técnica, y que fue adoptado rápidamente por la mayoría de páginas web que clasificaban los contenidos en base a un sistema de etiquetas, es la representación conocida como Tag Cloud o nube de etiquetas. La rápida acumulación de etiquetas en páginas web donde la publicación de contenidos es intensa originó el sistema de nubes de etiquetas. Este sistema debía cumplir dos funciones:
 
@@ -68,6 +84,7 @@ Estas herramientas pueden ser de propósito general, pero estan siendo utilizada
 
 
 ### Processing, Nodebox y Context Free Art
+
 En el trabajo "Data Visualization" el autor elige Processing como herramienta de soporte para los ejemplos de cada capítulo. Processing nació de las manos Ben Fry y Casey Reas en el 2001 con la finalidad de proporcionar unas librerías gráficas para el diseño y artistas desde una visión artística._Processing is the first full-featured programming language and environment to be created by artists for artists_ Ira Greenberg (2007). 
 
 Processing no es único en su campo y otras soluciones, quizá no tan populares, han ido ganando aceptación. El caso de NodeBox y ContextFree son claros ejemplos donde el primero es una solución basada en el lenguaje de programación Python y fuertemente dependiente del entorno MacOS. Processing y NodeBox comparten el origen (MIT) como el planteamiento de "state machine" máquina de estados, que facilita la comprensión del lenguaje al profano y le introduce en el arte de programación. No son tampoco una novedad en su planteamiento y la figura de la tortuga del Logo de la década de 1980 es un ejemplo.
@@ -108,7 +125,7 @@ Acompaña a Many Eyes Swivel, otro servicio que mezcla los tres componentes: exp
 
 
 
-## PowerPoint Overload: la degradación de la información
+# PowerPoint Overload: la degradación de la información
 
 
 
@@ -116,33 +133,7 @@ Acompaña a Many Eyes Swivel, otro servicio que mezcla los tres componentes: exp
 * http://www.presentationzen.com/presentationzen/2009/05/making-presentations-in-the-ted-style.html
 * dataspora.com
 
-## Referencias
 
-* http://github.com/mojombo/primer/tree/master
-* http://www.aaronkoblin.com/work.html
-* http://raphaeljs.com/
-* http://code.google.com/intl/en/apis/visualization/
-* http://flowingdata.com/2009/04/21/visual-representation-of-tabular-information-how-to-fix-the-uncommunicative-table/
-* http://flowingdata.com/2009/03/20/data-visualization-is-only-part-of-the-answer-to-big-data/
-* http://www.vectart.com/esp/indexsp.htm
-* http://blog.vectart.com/?p=101
-* http://flowingdata.com/2009/01/15/flow-chart-shows-you-what-chart-to-use/
-* http://extremepresentation.typepad.com/blog/2006/09/choosing_a_good.html
-* http://visualcomplexity.com
-* http://www.timshowers.com/web-design-blog/
-* http://flowingdata.com/2008/03/19/21-ways-to-visualize-and-explore-your-email-inbox/
-* http://infosthetics.com/
-* http://blog.thejit.org/javascript-information-visualization-toolkit-jit/
-* http://blog.thejit.org/2008/11/27/using-ocaml-to-visualize-radioheads-hoc-music-video-part-1/
-* http://vis.stanford.edu/protovis/
-* http://www.visophyte.org/blog/
-* http://www.math.yorku.ca/SCS/Gallery/milestone/index.html
-* http://magicalnihilism.wordpress.com/2009/04/03/data-as-seductive-material/
-* http://www.flight404.com/blog/
-* http://netdiver.net/10years/artists-and-their-apps-by-doc-woohoo
-* http://vizlab.nytimes.com/
-* http://piksels.com/introduction-to-visualizing-data/
-* http://www.brainpickings.org/index.php/2009/03/05/new-york-times-data-visualization/#
 
 
 
