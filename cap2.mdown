@@ -38,7 +38,7 @@ Creación de carpetas y subcarpetas anidadas. Esta organización que responde al
 
 ## Tagging para las masas
 
-La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores Delicious. Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Youtube (Jun de 2005) ^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; las nubes de etiquetas (*cloud tags*)
+La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores Delicious. Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Youtube (Jun de 2005) ^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; emergen las nubes de etiquetas (*cloud tags*) como la mejor estrategia de visualizarlas (y cómo ejemplo )
 
 ### Carpetas vs. etiquetas 
 
