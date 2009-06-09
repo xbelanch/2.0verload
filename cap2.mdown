@@ -38,7 +38,25 @@ Creación de carpetas y subcarpetas anidadas. Esta organización que responde al
 
 ## Tagging para las masas
 
-La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores Delicious. Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Youtube (Jun de 2005) ^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; emergen las nubes de etiquetas (*cloud tags*) como la mejor estrategia de visualizarlas.
+La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores Delicious. Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Youtube (Jun de 2005) ^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; emergen las nubes de etiquetas (*cloud tags*) como la mejor estrategia de visualizarlas y nadie que se preciaba estar en la vorágine del torbellino de la marca 2.0 no descansó en evangelizar este sistema como panacea a todos los males de la ordenación de información, personal o colectiva. 
+
+(incluir los beneficios a partir del libro de Gene Smith (Tagging))
+
+
+Al margen del evidente beneficio del uso de las etiquetas, otras opiniones contrarias al sistema han ido manifestando sus limitaciones a diferentes niveles. 
+
+>Tagging in 2007 seems to have advanced no further than a means by which one or more users of a site (or application) can group content around a loose framework of concepts.^[[Matt Mower](http://www.asis.org/Bulletin/Aug-08/AugSep08_Smith.html#3)]
+
+Clasificar la información mediante etiquetas tampoco ha mejorado el resultado de las búsquedas
+
+>a million and one more ways for me to catalog and store my data, but when I’m actually looking for something the tags never seem to help much
+
+Esta denuncia de las limitaciones del uso de etiquetas como vía de recuperación de la información es un recurrente que más tarde que temprano aparece en la clasificación de entradas de servicios sociales. Situación que Enrique Dans ([2008](Los límites de las folksonomías)) supo exponer con claridad al tomar como referencia la problemática en evitar al buscador resultados de "falsos-positivos y falsos-negativos" (Encinar, [2008](http://www.jesusencinar.com/2008/12/rediseño-de-11870com.html)) [11870.com](http://11870.com) en presentar un sistema mixto de organización: convivencia entre la vieja guardia de las categorías y sistema flexible de etiquetaje social. La contundente afirmación de Jesús Encinar, CEO (*Chief Executive Officer*) de [Idealista.com](http://www.idealista.com/pagina/portada) al hablar del rediseño de 11870.com 
+
+>Con el tiempo hemos visto que 2.500 años de historia de las bibliotecas no están equivocadas.
+
+Se castiga así a la _folksonomía_ por la deriva de "inconsistencias, sinonimias, homonimias, polisemias o, en general, la falta de homogeneidad y de coherencia." (Dans, 2008). Esta apariencia caótica de clasificar la información espanta a puristas de la ontología y a quienes ven el sistema colectivo de etiquetaje una camino sin retorno a la nulidad organizativa (?). Antes de alcanzar este fatídico escenario lleno de inconsistencias, no hay pocas voces de ayuda en relatar buenas prácticas del _tagging_: http://tagamac.com/2007/07/best_practices/ en las que los consejos pasan por utilizar siempre los nombres en singular, escribir en minúscula y, en especial, nombre cortos, simples y fáciles de recordar. 
+
 
 ### Carpetas vs. etiquetas 
 
@@ -117,13 +135,6 @@ Kebin Kubasik, desarrollador del indexador libre [Beagle](http://beagle-project.
 
 y defiende dos líneas futuras de un posible espacio de información personal: los buscadores, que si bien pueden ser eficientes a nivel textual, ¿cómo serlo en contenidos audiovisuales? ¿mediante el uso de etiquetas?
 
->a million and one more ways for me to catalog and store my data, but when I’m actually looking for something the tags never seem to help much
-
-Esta denuncia de las limitaciones del uso de etiquetas como vía de recuperación de la información es un recurrente que más tarde que temprano aparece en la clasificación de entradas de servicios sociales. Situación que Enrique Dans ([2008](Los límites de las folksonomías)) supo exponer con claridad al tomar como referencia la problemática en evitar al buscador resultados de "falsos-positivos y falsos-negativos" (Encinar, [2008](http://www.jesusencinar.com/2008/12/rediseño-de-11870com.html)) [11870.com](http://11870.com) en presentar un sistema mixto de organización: convivencia entre la vieja guardia de las categorías y sistema flexible de etiquetaje social. La contundente afirmación de Jesús Encinar, CEO (*Chief Executive Officer*) de [Idealista.com](http://www.idealista.com/pagina/portada) al hablar del rediseño de 11870.com 
-
->Con el tiempo hemos visto que 2.500 años de historia de las bibliotecas no están equivocadas.
-
-Se castiga así a la _folksonomía_ por la deriva de "inconsistencias, sinonimias, homonimias, polisemias o, en general, la falta de homogeneidad y de coherencia." (Dans, 2008). Esta apariencia caótica de clasificar la información espanta a puristas de la ontología y a quienes ven el sistema colectivo de etiquetaje una camino sin retorno a la nulidad organizativa (?). Antes de alcanzar este fatídico escenario lleno de inconsistencias, no hay pocas voces de ayuda en relatar buenas prácticas del _tagging_: http://tagamac.com/2007/07/best_practices/ en las que los consejos pasan por utilizar siempre los nombres en singular, escribir en minúscula y, en especial, nombre cortos, simples y fáciles de recordar. 
 
 Se hecha de menos un modelo orientado a objetos en el que unas etiquetas sean descendientes de otras:
 
