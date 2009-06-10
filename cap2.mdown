@@ -40,8 +40,15 @@ Creación de carpetas y subcarpetas anidadas. Esta organización que responde al
 
 La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores Delicious. Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Youtube (Jun de 2005) ^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; emergen las nubes de etiquetas (*cloud tags*) como la mejor estrategia de visualizarlas y nadie que se preciaba estar en la vorágine del torbellino de la marca 2.0 no descansó en evangelizar este sistema como panacea a todos los males de la ordenación de información, personal o colectiva. 
 
-(incluir los beneficios a partir del libro de Gene Smith (Tagging))
+Gene Smith^[Smith, Gene. 2008. Tagging: People-Powered Metadata for the Social Web. New Riders] describe, en términos generales, los beneficios de la práctica del *tagging*:
 
+* **Facilidad de uso**: La simplicidad y flexibilidad que nos permite organizar la información frente a una ordenación en carpetas y subcarpetas. 
+* **PIM**: La gestión de información personal tiene un recorrido inverso: de local -etiquetar primero- a general -visualizar la estructura general en base al conjunto de etiquetas-. Esta diferencia es visible si recuperamos la comparación entre ordenar con etiquetas o carpetas o, en palabras de Alex Wright^[Wright, Alex. 2007. *Glut: mastering information through the ages*], la tensión permanente entre dos tipologías de organización cuasi ancestrales: la jerárquica -disposición vertical-, en forma de árbol invertido, y la horizontal, en forma de red. 
+* **Colaborar, compartir**:
+* **Diversión**:
+* **Expresión personal**:
+* **Mejorar la búsqueda**:
+* **Refuerza la clasificación**:
 
 Al margen del evidente beneficio del uso de las etiquetas, otras opiniones contrarias al sistema han ido manifestando sus limitaciones a diferentes niveles. 
 
@@ -59,10 +66,6 @@ Se castiga así a la _folksonomía_ por la deriva de "inconsistencias, sinonimia
 
 
 ### Carpetas vs. etiquetas 
-
-Alex Wright^[Wright, Alex. 2007. *Glut: mastering information through the ages*] diferencia una tensión permanente entre dos tipologías de organización: la jerárquica -disposición vertical- en forma de árbol invertido y la horizontal en forma de red
-
-Tensión entre dos sistemas ancestrales de organización, entre una vertical y jerárquica, la de un sistema de carpetas y subcarpetas y una horizontal
 
 
 http://www.sifry.com/alerts/archives/000270.html
