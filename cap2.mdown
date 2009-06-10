@@ -1,9 +1,5 @@
 # Folders overload, Tagging overload
 
-
-[Tagging: Emerging Trends by Gene Smith](http://www.asis.org/Bulletin/Aug-08/AugSep08_Smith.html)
-
-
 >memory first, discovery second. Joshua Schachter (fundador de Delicious)
 
 Clasificamos la información para recuperarla y comprenderla en su contexto original más tarde. Clasificamos la información en el momentos que la guardamos. Recuperar más tarde la información dependerá en gran medida de sistema de organización que hayamos adoptado. 
@@ -38,40 +34,53 @@ Creación de carpetas y subcarpetas anidadas. Esta organización que responde al
 
 ## Tagging para las masas
 
-La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores Delicious. Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Youtube (Jun de 2005) ^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; emergen las nubes de etiquetas (*cloud tags*) como la mejor estrategia de visualizarlas y nadie que se preciaba estar en la vorágine del torbellino de la marca 2.0 no descansó en evangelizar este sistema como panacea a todos los males de la ordenación de información, personal o colectiva. 
+La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores [Delicious](http://delicious.com). Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Youtube (Jun de 2005) ^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; emergen las nubes de etiquetas (*cloud tags*) como la mejor estrategia de visualizarlas y nadie que se preciaba estar en la vorágine del torbellino de la marca 2.0 no descansó en evangelizar este sistema como panacea a todos los males de la ordenación de información, personal o colectiva. 
 
-Gene Smith^[Smith, Gene. 2008. Tagging: People-Powered Metadata for the Social Web. New Riders] describe, en términos generales, los beneficios de la práctica del *tagging*:
+Gene Smith^[Smith, Gene. 2008. *Tagging: People-Powered Metadata for the Social Web*. New Riders] describe, en términos generales, los beneficios de la práctica del *tagging*:
 
 * **Facilidad de uso**: La simplicidad y flexibilidad que nos permite organizar la información frente a una ordenación en carpetas y subcarpetas. 
-* **PIM**: La gestión de información personal tiene un recorrido inverso: de local -etiquetar primero- a general -visualizar la estructura general en base al conjunto de etiquetas-. Esta diferencia es visible si recuperamos la comparación entre ordenar con etiquetas o carpetas o, en palabras de Alex Wright^[Wright, Alex. 2007. *Glut: mastering information through the ages*], la tensión permanente entre dos tipologías de organización cuasi ancestrales: la jerárquica -disposición vertical-, en forma de árbol invertido, y la horizontal, en forma de red. 
-* **Colaborar, compartir**:
-* **Diversión**:
-* **Expresión personal**:
-* **Mejorar la búsqueda**:
-* **Refuerza la clasificación**:
+* **PIM**: La gestión de información personal tiene un recorrido inverso: de local -etiquetar primero- a general -visualizar la estructura general en base al conjunto de etiquetas-. Esta diferencia es visible si recuperamos la comparación entre ordenar con etiquetas o carpetas o, en palabras de Alex Wright^[Wright, Alex. 2007. *Glut: mastering information through the ages*], la tensión permanente entre dos tipologías de organización cuasi ancestrales: la jerárquica -disposición vertical-, en forma de árbol invertido, y la horizontal, en forma de red. Si la primera tipología es sinónimo de rigidez y fácilmente reconocible en la estructura de directorios o carpetas del sistema operativo o de algunos clientes de correo, la segunda tipología correspondería a la práctica del *tagging*. De nuevo, la flexibilidad con la que nos deja estructurar la información y, sobretodo, categorizarla a nuestra medida. Otro ejemplo de valor añadido es no duplicar la información si esta pertenece a dos categorías diferentes. Simplificando: si seguimos un sistema rígido basado en carpetas y subcarpetas, es posible toparnos con una situación en la que un documento, por su siginicado o temática, deba pertenecer a dos o tres carpetas diferentes, lo que acaba por degradar el propio sistema de clasificación al provocar que cierta información quede duplicada o triplicada. En otro lado, escribir una, dos o más etiquetas asociadas al documento sortea el anterior escenario.
+* **Colaborar, compartir**: Ejemplos como Flickr o Delicious en el que las etiquetas forman parte de la idiosincrasia del servicio, ayudan a los usuarios a descubrir o explorar nuevos contenidos a través de sus etiquetas. 
+* **Expresión personal**: Etiquetar es, de alguna manera, definir de manera subjetiva un contenido. La actividad de etiquetar no es imparcial ni es resultado de un plan organizativo previo. En esta dirección, el *tagging* puede originar movimientos de denuncia, como por ejemplo el emprendido por la organización [defectivebydesign.org](http://www.defectivebydesign.org/) contra el DRM^[*Big Media describe DRM as Digital Rights Management. However, since its purpose is to restrict you the user, it is more accurate to describe DRM as Digital Restrictions Management. DRM Technology can restricts users’ access to movies, music, literature and software, indeed all forms of digital data*.[What is DRM? Digital Restrictions Management](http://www.defectivebydesign.org/what_is_drm)] al utilizar el servicio de *tagging* de Amazon para identificar todo aquel producto que estuviera sujeto bajo DRM.
 
-Al margen del evidente beneficio del uso de las etiquetas, otras opiniones contrarias al sistema han ido manifestando sus limitaciones a diferentes niveles. 
+Al margen de estos usos benéficos de las etiquetas, otras opiniones, contrarias al *tagging* han ido manifestando sus limitaciones a diferentes niveles. 
 
->Tagging in 2007 seems to have advanced no further than a means by which one or more users of a site (or application) can group content around a loose framework of concepts.^[[Matt Mower](http://www.asis.org/Bulletin/Aug-08/AugSep08_Smith.html#3)]
+>Tagging in 2007 seems to have advanced no further than a means by which one or more users of a site (or application) can group content around a loose framework of concepts.^[[Matt Mower](http://matt.blogs.it/entries/00002618.html)]
+
+
+Mark Hurst, autor de *Bit Literacy* no es partidario de utilizar etiquetas como método de clasificación de la información personal. Considera que la práctica de, por ejemplo, etiquetar fotografías requiere de un esfuerzo que, la mayoría de usuarios, no está dispuesto a asumir^[Husrt, Mark. 2007. *Bit Literacy*, pág 80-81]. En general, muy pocos son los usuarios que sigan a conciencia un sistema rígido de clasificación y organización de los archivos. Un ejemplo de esto es cómo los propios usuarios descuidan modificar el nombre que, por defecto, las bautiza la propia cámara digital. Luego tampoco parece que factible que los usuarios dediquen un tiempo, aunque corto, a clasificarlas por etiquetas.
 
 Clasificar la información mediante etiquetas tampoco ha mejorado el resultado de las búsquedas
 
 >a million and one more ways for me to catalog and store my data, but when I’m actually looking for something the tags never seem to help much
 
-Esta denuncia de las limitaciones del uso de etiquetas como vía de recuperación de la información es un recurrente que más tarde que temprano aparece en la clasificación de entradas de servicios sociales. Situación que Enrique Dans ([2008](Los límites de las folksonomías)) supo exponer con claridad al tomar como referencia la problemática en evitar al buscador resultados de "falsos-positivos y falsos-negativos" (Encinar, [2008](http://www.jesusencinar.com/2008/12/rediseño-de-11870com.html)) [11870.com](http://11870.com) en presentar un sistema mixto de organización: convivencia entre la vieja guardia de las categorías y sistema flexible de etiquetaje social. La contundente afirmación de Jesús Encinar, CEO (*Chief Executive Officer*) de [Idealista.com](http://www.idealista.com/pagina/portada) al hablar del rediseño de 11870.com 
+Esta denuncia de las limitaciones del uso de etiquetas como vía de recuperación de la información es un recurrente que más tarde que temprano aparece en la clasificación de entradas de servicios sociales. Situación que Enrique Dans^[[2008](Los límites de las folksonomías)] expuso con claridad al tomar como referencia la problemática en evitar al buscador resultados de "falsos-positivos y falsos-negativos" (Encinar, [2008](http://www.jesusencinar.com/2008/12/rediseño-de-11870com.html)) [11870.com](http://11870.com) en presentar un sistema mixto de organización: convivencia entre la vieja guardia de las categorías y sistema flexible de etiquetaje social. La contundente afirmación de Jesús Encinar, CEO (*Chief Executive Officer*) de [Idealista.com](http://www.idealista.com/pagina/portada) al hablar del rediseño de 11870.com 
 
 >Con el tiempo hemos visto que 2.500 años de historia de las bibliotecas no están equivocadas.
 
 Se castiga así a la _folksonomía_ por la deriva de "inconsistencias, sinonimias, homonimias, polisemias o, en general, la falta de homogeneidad y de coherencia." (Dans, 2008). Esta apariencia caótica de clasificar la información espanta a puristas de la ontología y a quienes ven el sistema colectivo de etiquetaje una camino sin retorno a la nulidad organizativa (?). Antes de alcanzar este fatídico escenario lleno de inconsistencias, no hay pocas voces de ayuda en relatar buenas prácticas del _tagging_: http://tagamac.com/2007/07/best_practices/ en las que los consejos pasan por utilizar siempre los nombres en singular, escribir en minúscula y, en especial, nombre cortos, simples y fáciles de recordar. 
 
+>But if you look closer, you can see massive redundancy and disorganization. There are tags for brandenthusiasts, branding and brands. Separate ones for forum and forums. And a run of social media related ones that include no fewer than sellingsocialmedia, socialbookmarking, socialmedia, socialmediamarketing, socialmediameasurement, socialmediarelease, socialmediaroi, socialmediastrategy, socialmediatools, socialnetworking and socialnews. Oh, and there are separate entries for business, CEO and corporate. Jason Falls ([2009](The Practical Guide To Content Tagging In Social Bookmarking))
+
+
+Mira a este: http://delicious.com/earth2marsh?ubtags=off 4563 etiquetas!!!
+
+Joshua Porter ([2006](http://bokardo.com/archives/the-delicious-lesson/)), autor de _Designing for the social web_(2008) acentúa el orden de la secuencia: el valor de la información personal precede a la información de la web. Prueba de ello es el enorme éxito de Delicious y su sistema flexible de ordenación de los marcadores por etiquetas. Porter relata el escepticismo de Yahoo! (http://blog.searchenginewatch.com/blog/050322-163753) y comprobar poco después que las etiquetas no funcionan como sucedáneos o una suerte de metadatos, parte del mal funcionamiento de los buscadores siguiendo los principios de una taxonomía de la web basada en metadatos.
+
+¿Dónde reside el valor de la acción de _tagging_, de clasificar libremente la información por etiquetas? A diferencia de las etiquetas como metadatos, que no aportan ningún valor personal, sino de _atención_ para los buscadores, el valor de las etiquetas de Delicious es la de proporcionar un valor personal por cada vez que un usuario los utiliza para recuperar o descubrir un marcador.
+
+
+Introducir aquí la defensa de Smith
+<!--
+(http://www.asis.org/Bulletin/Aug-08/AugSep08_Smith.html#3)]
+-->
 
 ### Carpetas vs. etiquetas 
 
 
 http://www.sifry.com/alerts/archives/000270.html
 
-Mark Hurst (Bit Literacy) no es partidario de utilizar etiquetas. Considera que la práctica de etiquetar las fotografías requiere de un esfuerzo que, la mayoría de usuarios, no está dispuesto a asumir (pág 80-81). En general, muy pocos son los usuarios que sigan a conciencia un sistema rígido de clasificación y organización de los archivos. En general ni siquiera renombran las imágenes tal como estas salen por defecto de la cámara de fotos. Prueba de ello es que en Flickr nos encontramos a menudo con imágenes amateur con nombres como “DSCN…” y un largo número. Estos usuarios ni clasifican las imágenes, ni siquiera las nombran. Ni mucho menos las etiquetan,.
-nota: Si hacemos la siguiente búsqueda por Flickr: http://www.flickr.com/search/?ss=2&ct=6&w=all&q=dscn0001&m=text comprobaréis cómo un número elevado de usuarios no renombran las fotografías que suben. De hecho se cuenta hasta 17.582 resultados de imágenes de idéntico título.
+
 
 
 ### Taxonomías y ontologías 
@@ -179,15 +188,7 @@ Según el autor del anterior artículo a la gente nos encanta contar historias, 
 
 ## Exceso y sobrecarga de etiquetas
 
->But if you look closer, you can see massive redundancy and disorganization. There are tags for brandenthusiasts, branding and brands. Separate ones for forum and forums. And a run of social media related ones that include no fewer than sellingsocialmedia, socialbookmarking, socialmedia, socialmediamarketing, socialmediameasurement, socialmediarelease, socialmediaroi, socialmediastrategy, socialmediatools, socialnetworking and socialnews. Oh, and there are separate entries for business, CEO and corporate. Jason Falls ([2009](The Practical Guide To Content Tagging In Social Bookmarking))
 
-
-Mira a este: http://delicious.com/earth2marsh?ubtags=off 4563 etiquetas!!!
-
-
-Joshua Porter ([2006](http://bokardo.com/archives/the-delicious-lesson/)), autor de _Designing for the social web_(2008) acentúa el orden de la secuencia: el valor de la información personal precede a la información de la web. Prueba de ello es el enorme éxito de Delicious y su sistema flexible de ordenación de los marcadores por etiquetas. Porter relata el escepticismo de Yahoo! (http://blog.searchenginewatch.com/blog/050322-163753) y comprobar poco después que las etiquetas no funcionan como sucedáneos o una suerte de metadatos, parte del mal funcionamiento de los buscadores siguiendo los principios de una taxonomía de la web basada en metadatos.
-
-¿Dónde reside el valor de la acción de _tagging_, de clasificar libremente la información por etiquetas? A diferencia de las etiquetas como metadatos, que no aportan ningún valor personal, sino de _atención_ para los buscadores, el valor de las etiquetas de Delicious es la de proporcionar un valor personal por cada vez que un usuario los utiliza para recuperar o descubrir un marcador. 
 
 ###Etiquetas para llamar la atención o como valor personal
 
