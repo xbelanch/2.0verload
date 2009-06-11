@@ -1,27 +1,19 @@
 # Folders overload, Tagging overload
 
->memory first, discovery second. Joshua Schachter (fundador de Delicious)
-
-Clasificamos la información para recuperarla y comprenderla en su contexto original más tarde. Clasificamos la información en el momentos que la guardamos. Recuperar más tarde la información dependerá en gran medida de sistema de organización que hayamos adoptado. 
+>“I don’t use the word ‘folksonomy. Tagging in delicious is about 1/3 classification and 2/3 functionality. Something easy to do that let's you recall the item. The goal isn’t to classify, it’s to remember.”^[Joshua Schachter (fundador de Delicious). [*Joshua Schachter: Future of Tagging*](http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html)
 
 
+Organizamos la información guardada con el propósito de recuperarla más adelante. Clasificamos la información en la medida que nos ayuda a comprenderla una vez la recuperamos más tarde en el contexto y momento que se guardó. Preparar un proyecto que aglutine documentos de texto, hojas de cálculo, fotografías, videos, presentaciones significa a un tiempo ordenar cada uno de los ítems que lo forman siguiendo una estructura previa que proporcione un sentido a cada una de las partes del proyecto. Esto lo traducimos generalmente en un sistema de carpetas y subcarpetas anidadas; cada una de ellas recibe un nombre que nos informe del contenido como de su relación con las carpetas adyacentes y, finalmente, su vínculo con la carpeta de un nivel superior. 
 
-  su significado en el contexto que se guardó al establecer una más tarde. Si estamos preparando un viaje, diseñamos una clasificación de la información según las propiedades de cada uno de los elementos que participen en la descripción del viaje. Ordenar esta información en carpetas y subcarpetas bajo nombres que identiquen el contenido de cada una de ellas es un principio taxonomía donde el nodo raíz sería la carpeta o directorio con el nombre, por ejemplo, del viaje. De este nodo principal irían colgando los nodos de segunda categoría (carpetas de fotografías, documentos, mapas,...) y así sucesivamente (por ejemplo, del nodo "fotografías" podrían colgar los nodos que representan los días del viaje).
+En un escenario ideal, seguir pautas claras de organización de la información nos evitaría momentos de enorme confusión: ¿dónde la he guardado? ¿qué hace esta imagen aquí? Pero las circunstancias son otras y la lógica misma de un sistema de clasificación personal acaba, con el tiempo, degradándose y perdiendo toda su efectividad. Problema de flexibilidad y adaptación de un sistema rígido de clasificación de información en un entorno cambiante, excesivamente cambiante como es el espacio personal de información de nuestros dispositivos de uso cotidiano. Dejamos de seguir la convención con la que ordenamos la información: el nombre de las carpetas y subcarpetas, la numeración; vamos dejando los archivos por el Escritorio, más tarde los desplazamos a lugares equivocados, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta fatiga
 
-Con el tiempo y la ligereza, superponemos nuestra lógica de organización personal frente a la lógica del sistema de organización de carpetas y archivos que propone el sistema operativo. Pasado un tiempo, esta convivencia acaba resultando más o menos compleja y difiere sobretodo en la regularidad en la que clasificamos la información según pautas propias. 
-
-La clasificación de nuestros archivos en el disco duro se ha basado en la metáfora de la vida real. Organizamos facturas, documentos legales, apuntes en carpetas y subcarpetas. No es extraño que practiquemos lo mismo. Aparte de simple contenedores, las carpetas también se presentan como la primera estructura de un proyecto personal. Carpetas y subcarpetas anidadas le siguen una convención personal de cada nombre de la carpeta. Pequeños hacks de las carpetas, especialmente a prefijos con números y letras para forzar uno u otro orden.
 
 >In traditional file hierarchies, the user can only provide simple annotations. For example, people must name their folders and files. They may optionally specify additional information, such as a short text comment or a highlight color, which are stored as file system metadata. Other annotations are automatically supplied by the system, including the icon associated with the file type, the date the file was last modified, and, perhaps, a thumbnail view of the file’s contents. The problem is that these annotation capabilities are extremely limited, given the volume and diversity of files that most individuals must manage. (...) So, while file browsers are excellent for allowing people to create, modify, move, and delete files, they provide 
-extremely limited tools for annotating these artifacts. 
-Stephen Voida & Saul Greenberg. WikiFolders: Augmenting the Display of Folders 
-to Better Convey the Meaning of Files 
+extremely limited tools for annotating these artifacts.^[Stephen Voida & Saul Greenberg. *WikiFolders: Augmenting the Display of Folders 
+to Better Convey the Meaning of Files*] 
  
 
-
-La estructura de directorios y ficheros revelan un significado y la relación entre los archivos que la contienen. Una buena estructura es susceptible de se reutilizada, no en cambio otra que es un caos! Pero, una estructura, por ejemplo, de un proyecto, es posible reutilizarla. Todos los proyectos son iguales. Si bien la organización de un viaje resulta 
-
-El problema sigue siendo el mismo: el día a día nos hace ser más flexibles con nuestras propias reglas o tareas repetitivas. Dejamos de seguir la convención con la que ordenábamos las carpetas, la numeración, vamos dejando los archivos en el Escritorio, más tarde los desplazamos a lugares equivocados, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta fatiga degrada el sistema de organización de los documentos, lo que ocasiona que, al cabo de un tiempo (no muy largo), no encontremos los archivos si quiera en nuestro ordenador.
+ degrada el sistema de organización de los documentos, lo que ocasiona que, al cabo de un tiempo (no muy largo), no encontremos los archivos si quiera en nuestro ordenador.
 http://www.uxmatters.com/MT/archives/000271.php
 
 * No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
