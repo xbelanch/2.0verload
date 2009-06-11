@@ -5,16 +5,27 @@
 
 Organizamos la información guardada con el propósito de recuperarla más adelante. Clasificamos la información en la medida que nos ayuda a comprenderla una vez la recuperamos más tarde en el contexto y momento que se guardó. Preparar un proyecto que aglutine documentos de texto, hojas de cálculo, fotografías, videos, presentaciones significa a un tiempo ordenar cada uno de los ítems que lo forman siguiendo una estructura previa que proporcione un sentido a cada una de las partes del proyecto. Esto lo traducimos generalmente en un sistema de carpetas y subcarpetas anidadas; cada una de ellas recibe un nombre que nos informe del contenido como de su relación con las carpetas adyacentes y, finalmente, su vínculo con la carpeta de un nivel superior. 
 
-En un escenario ideal, seguir pautas claras de organización de la información nos evitaría momentos de enorme confusión: ¿dónde la he guardado? ¿qué hace esta imagen aquí? Pero las circunstancias son otras y la lógica misma de un sistema de clasificación personal acaba, con el tiempo, degradándose y perdiendo toda su efectividad. Problema de flexibilidad y adaptación de un sistema rígido de clasificación de información en un entorno cambiante, excesivamente cambiante como es el espacio personal de información de nuestros dispositivos de uso cotidiano. Dejamos de seguir la convención con la que ordenamos la información: el nombre de las carpetas y subcarpetas, la numeración; vamos dejando los archivos por el Escritorio, más tarde los desplazamos a lugares equivocados, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta fatiga
+En un escenario ideal, seguir pautas claras de organización de la información nos evitaría momentos de enorme confusión: ¿dónde la he guardado? ¿qué hace esta imagen aquí? Pero las circunstancias son otras y la lógica misma de un sistema de clasificación personal acaba, con el tiempo, degradándose y perdiendo toda su efectividad. Problema de flexibilidad y adaptación de un sistema rígido de clasificación de información en un entorno cambiante, excesivamente cambiante como es el espacio personal de información de nuestros dispositivos de uso cotidiano. Dejamos de seguir la convención con la que ordenamos la información: el nombre, identificador o numeración de carpetas y subcarpetas; vamos dejando los múltiples archivos en el Escritorio, más tarde los desplazamos a lugares que no siguen ninguna lógica organizativa, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta degradación aumenta si pensamos que la tipología de archivo ya no es metáfora de un documento de papel. La metáfora de la carpeta ha perdido su sentido cuando en su interior guardamos, además de los documentos de texto, todo tipo de archivos. Un ejemplo. La aplicación de búsqueda en local, *Google Desktop Search*^[http://desktop.google.com/features.html/] asegura indexar todo tipo de elementos:
 
+* Correo electrónico
+* Documentos de texto
+* Hojas de cálculo
+* Presentaciones
+* Mensajería instantánea
+* Documentos encapsulados (PDF)
+* Música
+* Video
+* Archivos comprimidos
+* Imágenes
+
+Elementos que poco tienen que ver com la metáfora del escritorio tradicional.
 
 >In traditional file hierarchies, the user can only provide simple annotations. For example, people must name their folders and files. They may optionally specify additional information, such as a short text comment or a highlight color, which are stored as file system metadata. Other annotations are automatically supplied by the system, including the icon associated with the file type, the date the file was last modified, and, perhaps, a thumbnail view of the file’s contents. The problem is that these annotation capabilities are extremely limited, given the volume and diversity of files that most individuals must manage. (...) So, while file browsers are excellent for allowing people to create, modify, move, and delete files, they provide 
 extremely limited tools for annotating these artifacts.^[Stephen Voida & Saul Greenberg. *WikiFolders: Augmenting the Display of Folders 
 to Better Convey the Meaning of Files*] 
  
 
- degrada el sistema de organización de los documentos, lo que ocasiona que, al cabo de un tiempo (no muy largo), no encontremos los archivos si quiera en nuestro ordenador.
-http://www.uxmatters.com/MT/archives/000271.php
+No son l¡ooc 
 
 * No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
 Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
