@@ -25,10 +25,12 @@ extremely limited tools for annotating these artifacts.^[Stephen Voida & Saul Gr
 to Better Convey the Meaning of Files*] 
  
 
-No son l¡ooc 
+No son pocas las voces que denuncian las limitaciones en términos de *findability*^[Morville, Peter (2007) *Ambient Findability*] del actual sistema de carpetas y archivos. No nos referimos a la información que *no está bajo nuestro control*, sino de aquella información que guardamos tanto en dispositivos personales (ordenadores, PDA, memorias externas, Smartphones,...) como también aquella que, si bien la consideramos nuestra, no está completamente bajo nuestro control, dependiendo de terceros. En relación a esta cuestión, Paul Sherman^[Sherman, Paul (2008), [Where’s My Stuff? Beyond the Nested Folder Metaphor](http://www.uxmatters.com/mt/archives/2008/03/wheres-my-stuff-beyond-the-nested-folder-metaphor.php)], diferencia tres puntos de tensión:
 
-* No respetamos la organización del sistema de archivos del sistema operativo. Si la dispersión de los documentos afecta a la jerarquía misma del sistema de archivos, la probabilidad de encontrarlos de nuevos al poco tiempo es mínima.
-Creación de carpetas y subcarpetas anidadas. Esta organización que responde al ejercicio de “divide y vencerás” acaba siendo un enredo, especialmente cuando deseamos guardar un archivo nuevo que no responde a tal jerarquía. Se llega a la situación surrealista de creación de carpetas por cada documento.
+* ¿Cómo organizar la información que guardo para que pueda recuperarla más tarde sin dificultad?
+* ¿Puedo encontrar fácilmente aquella información una vez que recuerdo dónde está?
+* ¿Puedo modificar fácilmente la organización de mi información?
+
 * El escritorio lleno o la visión del *clutter desktop*. Tanto que el fondo de escritorio (léase paisaje, foto de las vacaciones o familiar querido) se esconde detrás de la infinidad de carpetas o documentos. Se cree o piensa que el tener los documentos en el escritorio es sinónimo de tenerlos más a mano, como si de una pila de papeles se tratara (siguiendo la metáfora del escritorio). En realidad su visión resulta como mínimo estresante para un desconocido. Insostenible si pensamos que el número de documentos y carpetas crecen cada día. Las dos pantallas no son la respuesta a esta problemática. http://www.avesh.com/blog/DesktopZenReducingVisualClutterOnYourDesktop.aspx
 * Se utilizan un par o tres de carpetas como almacén de toda la información, lo que en poco tiempo se llega a una situación conocida por “clutter digital”. No se puede encontrar ningún fichero por el problema del “engordamiento”
 * La degradación de un sistema personal. Este es quizá el más generalizado. Se emprende el ejercicio de mantener una estructura pero con el tiempo se consigue sólo a medias. Esto se debe en gran parte al trabajo bajo presión de fechas de entrega o realización de proyectos.
