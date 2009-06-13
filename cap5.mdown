@@ -117,13 +117,15 @@ Por otro lado, si hablamos en el contexto de la web, cada vez son más los usuar
 
 ## wikis corporativos ¿una realidad imposible? 
 
+>Nearly all enterprise wikis have implemented a WYSIWYG editor. Even ones that began with MediaWiki, like Mindtouch, quickly replaced wiki syntax with XHTML. The Initiative has attempted to draw on the experience of companies like Mindtouch, whose CEO, Aaron Fulkerson, told ReadWriteWeb he was impressed with the Initiative, but that he felt, "wiki text will always and forever be inferior to XHTML."^[[Can $890,000 Make MediaWiki Useful? (2009)](http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php)]
+
 Si la utilización colectiva de una wiki permite un número de ventajas sobre la gestión de la documentación, no es así su adopción. En general las wikis corporativas plantean dos dificultades, a veces insalvables, en entornos corporativos.
 
 La edición siguiendo un lenguaje de marcado frente al hábito de trabajar con editores visuales. Este es quizá el mayor inconveniente o problema que plantean los empleados de una empresa al enfrentarse a una wiki. El hábito o costumbre de trabajar con procesadores de texto visuales3, tales como Microsoft Word o el Writer de la suite de OpenOffice, representa un escollo a veces insalvable. A diferencia de las wikis públicas mencionadas más arriba, Google Sites incorpora un editor visual en lugar de un simple editor de etiquetas. En este sentido es preferible que las wikis se introduzcan progresivamente en proyectos pequeños y de corta duración, como sesiones de brainstorming o la redacción de actas de la unidad, buscando la complicidad las unidades o empleados más proclives a un cambio de metodología de trabajo. Esta actuación debe acompañarse de una wiki que sea ágil en la introducción y modificación de los contenidos.
 
 La falta de hábito en compartir la información o trabajar de manera colaborativa. Introducir tecnologías de naturaleza participativa en entornos estancos de comunicación acaba pervirtiendo el resultado, entre la soledad del editor de fondo, que hace el esfuerzo por convicción personal o la degradación del servicio: adjuntar documentos de texto a una página de la wiki.
 
-
+>WYSIWYG editors are already available for MediaWiki through extensions, but the potential for corrupting the data that makes up Wikipedia's encyclopedic content is very real. Avoiding that scenario is primarily what lead the Initiative to discount a switch to WYSIWYG, at least within the scope of the project.^[[Can $890,000 Make MediaWiki Useful? (2009)](http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php)]
 
 ## Hacia nuevas maneras de gestionar las versiones
 
