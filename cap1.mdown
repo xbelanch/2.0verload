@@ -87,15 +87,15 @@ En el peor de los escenarios, la conversación enmudece. El servicio de marcador
 
 Buscar información, recuperar la información que anteriormente hemos visto, guardado, es una actividad poliédrica, interactiva entre el usuario y el buscador e insoportablemente repititiva (Kelly, 2008). De un tiempo a esta parte, los buscadores han ido incorporando lentamente ayudantes o recursos (*helpers*) que facilitan en la medida de lo posible el éxito de la búsqueda. Los formularios barrocos de opciones han dejado paso al minimalismo de un único formulario; se recupera aquí la potencia de la línea de comandos al representar opciones de filtro de búsqueda en un conjunto limitado de operadores. Un ejemplo práctico, a veces poco conocido por el usuario medio, es la sintaxis del buscador de Google -venerado por _[lifehackers](http://lifehacker.com/339474/top-10-obscure-google-search-tricks)_-, pero no menos interesante es la sintaxis de búsqueda del servicio de correo, GMail, encontramos [expresiones](http://mail.google.com/support/bin/answer.py?hl=en&answer=7190) del tipo:
 
-<code>
-from:mai in:anywhere has:attachment filename:pdf after:2007/04/16 before:2009/04/18 
-</code>
+
+	from:mai in:anywhere has:attachment filename:pdf after:2007/04/16 before:2009/04/18 
+
 
 que vendría a decir _busca todos los mensajes enviados por mai que adjunten un archivo del tipo pdf entre las fechas 16 de abril de 2007 y 18 de abril de 2009_
 
 Veamos otro ejemplo. El buscador de Twitter también nos proporciona una [lista de operadores](http://search.twitter.com/operators) que nos ayudará a recuperar _tweets_ pasados (pero no más allá de los límites que impone el servicio). 
 
-<code>flight :(	containing "flight" and with a negative attitude.</code>
+	flight :(	containing "flight" and with a negative attitude
 
 La acción de auto completar la expresión que estamos escribiendo en el formulario de búsqueda es uno de los ayudantes más generalizados. Nos corrige posibles errores de ortografía y, a un mismo tiempo, nos sugiere un resultado idóneo o colateral al objeto de la búsqueda. Las variaciones del autocompletado son múltiples: la palabra clave, la cuenta de correo electrónico, la página web, e incluso contraseñas.
 
@@ -107,8 +107,7 @@ Pero estos dos ejemplos de ayudantes tienen una serie de limitaciones:
 * Los buscadores no pueden indexar el contenido de los objetos media. Luego se apoyarán en la descripción de la misma. Una descripción ambigua o errónea como el ejemplo evidente de no modificar el nombre que asigna por defecto la cámara digital a cada fotografía que realizamos. 
 * La descontextualización de la información debida a la acumulación o  *cluttering* de información personal sin seguir criterios de organización. A este respecto, la conversación puede resultar de gran ayuda. Jones ([2009](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/)) refuerza la tesis del relato como método idóneo para la recuperación de la información, un relato puede contener documentos, imágenes, videos. En lugar de una organización jerárquica, o basada en etiquetas, el relato cumple la función de hilvanar la información sujeta a ella. (Extenderse)
 
->"You press the button , We do the rest"
->>Kodak advertisement
+>"You press the button , We do the rest" Kodak advertisement
 
 Este abandonamiento voluntario a los servicios de la web evita también la fragmentación de la información: en la actualidad no utilizamos un único navegador al día debido al acceso permanente a Internet; el ordenador de sobremesa, el portátil personal, el de trabajo, el dispositivo móvil, el ordenador de un aula de formación, el de la biblioteca. Deseamos que los dispositivos resulten transparentes cuando buscamos y accedemos a nuestro espacio de la información. Si la búsqueda resulta compleja cuando desconocemos los referentes que nos permitirán encontrarla, un escenario donde la información se vea impedida por la cautividad de la información en un dispositivo puede resultar demoledora. De hecho, las herramientas que acompañan a las nuevas cámaras de fotos o videos añaden nuevas opciones de publicación, no dirigidas exclusivamentes al ordenador o un dispositivo de almacenamiento sino a la cuenta de un servicio popular ¿acabas de grabar un video? súbelo a tu cuenta de YouTube ¿Tu colección de fotografías? Súbelas a tu cuenta de Flickr. ¿Quieres tenerlas impresas? Flickr te conecta con servicios de terceros de impresión, del tipo Blurb o ..., La información aquí se gestiona en la nube y los mecanismos tradicionales se ven superados por la immediatez y la portabilidad de la información: el formato desaparece (sube el formato que quieras, nosotros haremos el resto); una vez en la nube la imagen  será indexada, utilizada, reinventada, remezclada, impresa en el resto de servicios web. Los caminos para recuperarla será tan fácil debido a que la misma estará asociada a nuestra identidad digital. 
 
@@ -120,8 +119,7 @@ Este abandonamiento voluntario a los servicios de la web evita también la fragm
 
 Pero en términos de búsqueda, ¿qué buscar en la conversación? De igual manera que no registramos a diario nuestras conversaciones cotidianas, ¿es necesario recuperar nuestra voz de hace un mes, un año? La búsqueda se plantea no en clave de pasado sino en presente.
 
->See what's happening - right now
->Eslogan de Twitter Search 
+>See what's happening - right now (Eslogan de Twitter Search)
 
 La búsqueda de la _Real Time Web_ es la búsqueda en la conversación. ¿Qué significa esto? No nos referimos a indexar documentos, páginas, archivos, imágenes o fotografías de la web. El servicio de microblogging Twitter ha demostrado que su buscador no tiene nada que ver con la recuperación de viejos _tweets_ de los usuarios. El [buscador de Twitter](http://search.twitter.com/) actúa de sismógrafo de la conversación, traza sobre la pantalla cualquiera de las tendencias que estan ocurriendo en ese momento en la conversación.
 
