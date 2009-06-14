@@ -1,6 +1,6 @@
 # Folders overload, Tagging overload
 
->“I don’t use the word ‘folksonomy. Tagging in delicious is about 1/3 classification and 2/3 functionality. Something easy to do that let's you recall the item. The goal isn’t to classify, it’s to remember.”^[Joshua Schachter (fundador de Delicious). [*Joshua Schachter: Future of Tagging*](http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html)
+>I don’t use the word ‘folksonomy. Tagging in delicious is about 1/3 classification and 2/3 functionality. Something easy to do that let's you recall the item. The goal isn’t to classify, it’s to remember.^[Joshua Schachter (fundador de Delicious). [*Joshua Schachter: Future of Tagging*](http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html)]
 
 
 Organizamos la información guardada con el propósito de recuperarla más adelante. Clasificamos la información en la medida que nos ayuda a comprenderla una vez la recuperamos más tarde en el contexto y momento que se guardó. Preparar un proyecto que aglutine documentos de texto, hojas de cálculo, fotografías, videos, presentaciones significa a un tiempo ordenar cada uno de los ítems que lo forman siguiendo una estructura previa que proporcione un sentido a cada una de las partes del proyecto. Esto lo traducimos generalmente en un sistema de carpetas y subcarpetas anidadas; cada una de ellas recibe un nombre que nos informe del contenido como de su relación con las carpetas adyacentes y, finalmente, su vínculo con la carpeta de un nivel superior. 
