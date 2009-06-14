@@ -10,6 +10,7 @@
 \usepackage[scaled]{helvet}
 \usepackage{ascii}
 \usepackage{indentfirst}
+\usepackage{fancyhead}
 \sloppy % suaviza las reglas de ruptura de líneas de LaTeX
 \frenchspacing % usar espaciado normal después de '.'
 \setlength{\parindent}{0pt} 
@@ -17,9 +18,16 @@
 \usepackage[breaklinks=true]{hyperref}
 \pagestyle{plain}
 \usepackage{titlesec}
-\addtolength\baselineskip{200mm}
+\setlength\baselineskip{200mm}
 \setlength\parindent{5mm}
 \setlength\parskip{3mm} 
+
+\fancyhead[RE]{\scriptsize {\nouppercase{\leftmark}}}   
+\fancyhead[LO]{\rightmark}               
+\headsep 0.15in 
+\rhead{WIP} 
+
+
 
 \title{%
 	\begin{flushright}
@@ -31,6 +39,7 @@
 \date{2009}
 \makeindex
 \setcounter{tocdepth}{1}
+
 
 
 
