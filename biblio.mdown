@@ -21,6 +21,10 @@
 * http://www.readwriteweb.com/archives/major_search_announcement_at_google_today.php 
 * http://feedproxy.google.com/~r/readwriteweb/~3/jxEfbOdsGDw/introduction_to_the_real_time_web.php
 
+## Folders overload, Tagging overload
+
+* Doctorow, C. (2001). *Metacrap: Putting the torch to the seven straw-men of the meta-utopia*. Retrieved July 2, 2008, from  www.well.com/~doctorow/metacrap.htm
+
 
 ## Representar el exceso de información
 
