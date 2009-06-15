@@ -172,7 +172,8 @@ Absolutamente genial! ya no sólo automatiza los "push" sino que además añade 
 
 
 
-
+<!--
+	Valorar si realmente es coherente estas preguntas
 ##  Preguntas finales 
 
 Es probable que estés interesado en adoptar una wiki para un trabajo o proyecto específico en la empresa o a nivel personal. Habrás considerado o sopesado las diferentes ventajas e inconvenientes que signifique dar un paso hacia esta dirección. Las preguntas que vienen a continuación pueden ayudarte y ayudar a tomar una decisión correcta.
@@ -184,3 +185,4 @@ Es probable que estés interesado en adoptar una wiki para un trabajo o proyecto
   * Cuántas veces te has visto obligado a cambiar el formato visual de un documento en un año?  
   * Tus clientes tienen problemas en visualizar los documentos editables (.odt, .doc) y no encapsulados (.pdf)
   * Te resulta cómodo mezclar contenidos de diferentes fuentes de información para crear un único documento?
+-->
