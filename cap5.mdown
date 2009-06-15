@@ -153,9 +153,9 @@ Los esotéricos sistema de control de versiones están entrando en el ámbito so
 
 >You want to “friend me”? Send me a patch.
 
-Y el vocabulario propio como patch, pull, merge, patch, diff, push, commit o fork está siendo apropiado como lenguaje social (mejorar esto!)
+Y el vocabulario propio como *patch*, *pull*, *merge*, *patch*, *diff*, *push*, *commit* o *fork* está siendo apropiados  como lenguaje social (mejorar esto!)
 
-En la actualidad, la percepción de un _repositorio_ distribuida va ganando terreno, especialmente bajo el influjo de Git, sistema de control de versiones desarrollado por Linus Torvalds, padre del kernel de Linux, molesto con la ineficiencia de los sistemas con los que trabajaba.
+En la actualidad, la percepción de un repositorio distribuida va ganando terreno, especialmente bajo el influjo de Git, sistema de control de versiones desarrollado por Linus Torvalds, padre del kernel de Linux, molesto con la ineficiencia de los sistemas con los que trabajaba.
 
 De un tiempo a esta parte se han realizado tímidos intentos de llevar estos sistemas a ámbitos tan aparentemente lejanos como la creación literaria: el escritor y blogger [Cory Doctorow](http://craphound.com/) utiliza un sistema de control de versiones con el registrar los cambios. 
 
