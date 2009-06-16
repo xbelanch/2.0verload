@@ -12,7 +12,36 @@ El propósito de tener el libro en GitHub es múltiple:
 * Explorar los sistemas de control de versiones distribuidos como herramientas de creación de contenidos.
 
 
-## Cambiar la branch master a el idioma  :-)
+## How branches in git work
+
+In git everything is treated like a branch, so they’re quick and easy to create and manage. Branching doesn’t involve copying the files into a new directory, like in other version control systems. Git keeps track of only the most recent commit to that branch and from there, it can ﬁgure out all the changes in that branch. (The history of changes in git takes the form of a Directed Acyclic Graph).
+
+Branching marks the point that files in the repository diverge onto two different paths. Each branch keeps track of the changes separately. Changes in branches can be merged together later if you like.
+So, what would you use a branch for?
+
+You can use a branch for whatever you want, but they’re especially useful for keeping experiments or new features separate from bug fixes to already-released code.
+Making a new branch
+
+To make a new branch from the current one, use:
+
+	git branch <nombre de la rama>
+
+If you then run the branch command with no params, it will give you a list of all the existing branches (with an asterisk indicating the current one):
+
+	>git branch
+	* master
+	  my_new_branch
+
+### Working with your new branch
+
+
+Now, to start working on your new branch, you need to check it out. Remember, I mentioned last time that checkout means something different in git to subversion? In git, it refers to switching your working tree over to using that branch. Don’t worry – any committed changes will safely remain in the other branch (even if you’ve not pushed them to your central repository).
+
+	git checkout my_new_branch
+	
+
+
+### Cambiar la branch master a el idioma  :-)
 
 primer en local renombramos: 
 
@@ -214,4 +243,6 @@ Aquí falta explicar lo de las branches, especialmente seguir este tutorial:
 http://github.com/guides/push-a-branch-to-github
 
 y http://github.com/guides/pull-requests y http://www.viget.com/extend/i-have-a-pull-request-on-github-now-what/
+
+
 
