@@ -79,7 +79,7 @@ Aunque todavía se encuentra encerrada en una aureola de incomprensión para la 
 >To democratize visualization we'll need a new generation of software. With personal and then web-based computing, we've seen it happen again and again: spreadsheets, desktop publishing, web multimedia, cloud-based services. Now, across a range of devices as well as in the cloud, we have the raw technologies to democratize the visualization -- and collaborative analysis -- of data.
 [Visualization Trends For The Noosphere by Jon Udell](http://www.visitmix.com/articles/Visualization-Trends-For-The-Noosphere) 
 
-Estas herramientas pueden ser de propósito general, pero estan siendo utilizadas como es el caso de NodeBox o Processing, pero también han surgido aplicaciones web orientadas al usuario final como es Many Eyes. Pero también merece una enorme atención el goteo continuo de *frameworks*, *toolkits* o librerías, de las que comentaremos más adelante **Raphaël**, pero que no podemos olvidar:
+Estas herramientas pueden ser de propósito general, pero estan siendo utilizadas como es el caso de NodeBox o Processing, pero también han surgido aplicaciones web orientadas al usuario final como es Many Eyes, Swivel, Data360^[[The Flowing Data guide to visualisations](http://www.guardian.co.uk/news/datablog/2009/jun/15/google-ibm)]. Pero también merece una enorme atención el goteo continuo de *frameworks*, *toolkits* o librerías, de las que comentaremos más adelante **Raphaël**, pero que no podemos olvidar:
 
 * http://blog.thejit.org/javascript-information-visualization-toolkit-jit/
 * http://www.84bytes.com/2008/10/22/advanced-data-visualization-tools-built-with-javascript/
