@@ -40,9 +40,11 @@ A medida que el número de páginas que permitían la sindicación aumentaba, en
 A medida que aumentamos el interés en conocer nuevos contenidos, no sólo de publicaciones de blogs, sino marcadores, listas de videos, redes sociales, etc, el número de subscripciones también crece. El lector RSS o agregador de feeds se colapsa de información y el usuario tiende a una lectura en diagonal de la mayoría de las noticias y el abandono de otras.
 Si bien parece ser un escenario prematuro, no son pocas las voces que plantean el problema de la sobrecarga de suscripciones. El exceso de la información generada por la publicación ininterrumpida de terceros. No entraremos en los motivos que empujan a muchos bloggers a publicar dos o tres mensajes diarios. Esto sin contar en aquellos blogs o gestores de contenidos colaborativos que el promedio de noticias acostumbra a alcanzar los nueve o diez mensajes al día.
 
+>Alguién me ha preguntado recientemente porqué hago dos post al día. Es lo que me habéis pedido. En algún viaje, queriendo contar todo lo que he podido ver en un evento, he intentado postear 4 y 5 posts y enseguida he recibido un rumor de mis lectores. Oye, ¿Te crees que eres el único que leo? ¿Que es eso de postear como una ametralladora?^[Rodolfo Carpintier Santana (2009) [Sólo dos post al día](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
+
 Si todavía esta situación no es generalizada, sí podría ser el marco de referencia o germen del desarrollo de nuevas aplicaciones que, en la actualidad, permanecen bajo el aura de experimentales o de laboratorio, o para *early-adopters*. 
 
-## Filtros a la ayuda 
+## Filtrar la conversación
 
 >The point is that we all have difficulty managing information overload and our attention stream; however, we can’t let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity.^[http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)]
 
@@ -58,8 +60,13 @@ Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Y
   * Quartz Composer
 
 
+<!--
+Referencias:
+ 
+* http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php
+* http://vanelsas.wordpress.com/2008/04/18/the-noise-in-web-20-is-mainly-a-tech-elites-problem/
+* http://www.readwriteweb.com/archives/the_conversation_has_left_the_blogosphere.php
+* http://www.readwriteweb.com/archives/groups_turn_information_overload_into_an_asset.php
+* http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php
 
-
-## Referencias 
-
-  * http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php
+-->
