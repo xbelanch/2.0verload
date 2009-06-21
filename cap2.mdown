@@ -24,6 +24,9 @@ Elementos que poco tienen que ver com la metáfora del escritorio tradicional.
 extremely limited tools for annotating these artifacts.^[Stephen Voida & Saul Greenberg. *WikiFolders: Augmenting the Display of Folders 
 to Better Convey the Meaning of Files*] 
  
+Kebin Kubasik, desarrollador del indexador libre [Beagle](http://beagle-project.org/Main_Page) ([2008](http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/)) en _The Reality of Semantic Desktops: Death To Tags, Labels and Folders_ defiende un nuevo escritorio que, definitivamente, ponga punto y final a la metáfora del escritorio tradicional, que rompa la sinergia de continuar la tradición de establecer jerarquías de directorios, categorías, etiquetas, distintivos de color y cualquier otro emblema visual con fines organizativos. Toda práctica de clasificación de la información personal y profesional siguiendo este modelo termina en fracaso
+
+>how many people actually keep their address book completely updated? Or tag all their photos, or keep every document in the right folder? Even those who are vigilant eventually fall behind, and that’s because users already know what the material they are filling is, but still have to spend time explaining to the computer which items are related and where they belong. 
 
 No son pocas las voces que denuncian las limitaciones en términos de *findability*^[Morville, Peter (2007) *Ambient Findability*] del actual sistema de carpetas y archivos. No nos referimos a la información que *no está bajo nuestro control*, sino de aquella información que guardamos tanto en dispositivos personales (ordenadores, PDA, memorias externas, Smartphones,...) como también aquella que, si bien la consideramos nuestra, no está completamente bajo nuestro control, dependiendo de terceros. En relación a esta cuestión, Paul Sherman^[Sherman, Paul (2008), [Where’s My Stuff? Beyond the Nested Folder Metaphor](http://www.uxmatters.com/mt/archives/2008/03/wheres-my-stuff-beyond-the-nested-folder-metaphor.php)], diferencia tres puntos de tensión:
 
@@ -31,11 +34,11 @@ No son pocas las voces que denuncian las limitaciones en términos de *findabili
 * ¿Puedo encontrar fácilmente aquella información una vez que recuerdo dónde está?
 * ¿Puedo modificar fácilmente la organización de mi información?
 
-Las tres preguntas han originado todo tipo de respuestas: desde los ya habituales consejos de auto-ayuda digital^[Husrt, Mark. 2007. *Bit Literacy*] a visiones de escritorios 3D, de los cuales remarcar [Bumptop](http://bumptop.com/), más por su efectismo que por su efectividad. Pero como ya hemos señalado más arriba, cualquier ordenación personal basada en directorios y subdirectorios, en seguir firmemente una convención para los nombre, acaba tarde o temprano en un proceso de degradación. Prueba de ello la encontramos en la expresión más superlativa de la desorganización de la información: los *clutter desktop* escritorio inundado de archivos y carpetas que apenas dejan ver si quiera la imagen de fondo utilizada para el escritorio. Este final de camino de la desorganización queda artísticamente representado en [concursos informales](http://gizmodo.com/381081/spider+pig-and-homer-simpson-made-of-folders-are-good-excuse-for-desktop-clutter-art-contest). No es extraño que se potencie y promocione el uso de buscadores de escritorio que reemplace no ya sólo la falta de una organización personal de información (y resuelva, por lo tanto, las cuestiones de recuperación sin problemas independientemente del dispositivo o *nube* en el que se encuentre).
+Las tres preguntas han originado todo tipo de respuestas: desde los ya habituales consejos de auto-ayuda digital^[Husrt, Mark. 2007. *Bit Literacy*] a visiones de escritorios 3D, de los cuales remarcar [Bumptop](http://bumptop.com/), más por su efectismo que por su efectividad. Pero como ya hemos señalado más arriba, cualquier ordenación personal basada en directorios y subdirectorios, en seguir firmemente una convención para los nombre, acaba tarde o temprano en un proceso de degradación. Prueba de ello la encontramos en la expresión más superlativa de la desorganización de la información: los *clutter desktop* escritorio inundado de archivos y carpetas que apenas dejan ver si quiera la imagen de fondo utilizada para el escritorio. Este final de camino de la desorganización queda artísticamente representado en [concursos informales](http://gizmodo.com/381081/spider+pig-and-homer-simpson-made-of-folders-are-good-excuse-for-desktop-clutter-art-contest). No es extraño que se potencie y promocione el uso de buscadores de escritorio que reemplace la falta de una organización personal de información (y resuelva, por lo tanto, las cuestiones de recuperación sin problemas independientemente del dispositivo o *nube* en el que se encuentre). Pero, ¿y la información personal que flota en la *nube*? La actividad en la red, cada vez más intensa, hace que resulte más complicada la convivencia entre una organización tradicional de documentos y carpetas de escritorio y la actividad social en la conversación. El servicio Plaxo (http://www.plaxo.com/) es un ejemplo de ello. Agrupa información tradicional del tipo tareas, calendario, agenda, fotografías, videos, pero también incluye la opción de sumar a aquella nuestra voz en la conversación agregando los servicios web más populares. 
  
-## Tagging para las masas
+## Organizar la conversación
 
-La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores [Delicious](http://delicious.com). Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Youtube (Jun de 2005) ^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; emergen las nubes de etiquetas (*cloud tags*) como la mejor estrategia de visualizarlas y nadie que se preciaba estar en la vorágine del torbellino de la marca 2.0 no descansó en evangelizar este sistema como panacea a todos los males de la ordenación de información, personal o colectiva. 
+La aparición a primeros de 2003 del etiquetaje o *tagging* como estrategia de clasificación personal y colectiva de información vino de la mano del servicio de marcadores [Delicious](http://delicious.com). Falta muy poco para que se bautice la extraordinaria actividad de *escribir* la web por parte de sus usuarios como *Web 2.0*. El sistema de etiquetas, las *folksonomías* (etiquetajes colectivos) es adoptado rápidamente por otros servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005), Technorati (Enero de 2005)^[http://www.sifry.com/alerts/archives/000270.html], Youtube (Jun de 2005)^[[Tag history and gartners hype cycles](http://www.pui.ch/phred/archives/2007/05/tag-history-and-gartners-hype-cycles.html)]; clasificar por etiquetas las entradas de un blog personal se convierte en hábito; emergen las nubes de etiquetas (*cloud tags*) como la mejor estrategia de visualizarlas y nadie que se preciaba estar en la vorágine del torbellino de la marca 2.0 no descansó en evangelizar este sistema como panacea a todos los males de la ordenación de información, personal o colectiva. 
 
 Gene Smith^[Smith, Gene. 2008. *Tagging: People-Powered Metadata for the Social Web*. New Riders] describe, en términos generales, los beneficios de la práctica del *tagging*:
 
@@ -72,59 +75,7 @@ Si el futuro del *tagging* está bajo una cierta sospecha, Gene Smith defiende e
 * El lado **creativo** e innovador de la práctica del *tagging* al margen de su propósito original de clasificar la información, como ya se ha mencionado más arriba en el caso de denuncia del DRM por parte de la organización [defectivebydesign.org](http://www.defectivebydesign.org/).
 
 
-### Carpetas vs. etiquetas 
-
-
-http://www.sifry.com/alerts/archives/000270.html
-
-
-
-## Organizar la conversación: la lección de Delicious 
-
-Joshua Porter ([2006](http://bokardo.com/archives/the-delicious-lesson/)), autor de _Designing for the social web_(2008) acentúa el orden de la secuencia: el valor de la información personal precede a la información de la web. Prueba de ello es el enorme éxito de Delicious y su sistema flexible de ordenación de los marcadores por etiquetas. Porter relata el escepticismo de Yahoo! (http://blog.searchenginewatch.com/blog/050322-163753) y comprobar poco después que las etiquetas no funcionan como sucedáneos o una suerte de metadatos, parte del mal funcionamiento de los primeros buscadores.
-
-Pongamos, por ejemplo, el siguiente caso. Laura está preparando una actividad de formación interna para la unidad que forma parte. Uno de los recursos es una lista de marcadores web. En un primer momento, Laura considera la opción de proporcionar esta lista al grupo de alumnos mediante un documento de texto junto al resto de materiales del curso. Pero este sistema por experiencia sólo le ha generado problemas como los siguientes:
-
-* Imprimir el documento de la lista de marcadores web no tiene demasiado sentido. Aparte de 
-* Si el documento está encapsulado, (.pdf), una modificación requerirá un mayor trabajo si no se tiene a mano una editor de documentos PDF.
-* La transmisión es unidireccional. Laura no tiene ningún medio de recibir y organizar la interacción de los participantes sin que acabe en un perfecto caos. Sólo que uno o una de los participantes del curso añade un nuevo marcador al documento, éste debería enviárselo a Laura y, a continuación, Laura debería reenviarlo al resto del grupo. Imaginemos por un momento si en lugar de una modificación contamos diez u once.
-* El último apartado nos recuerda que Laura debe enviar el archivo adjunto según el número de participantes. Si el grupo de trabajo lo integran dieciséis personas, representa dieciséis copias más una (la de Laura). A partir de ese momento ¿qué tipo de estrategia debería seguir Laura para conocer cuál es el documento original y cuál es la copia? ¿Cuál de las dieciséis copias representa la versión definitiva? Si como hemos explicado antes se realiza un cambio o se añade uno o varios marcadores nuevos, ¿cómo notificamos estos cambios a los demás?
-* Es un sistema acumulativo de la información: se basa en una clasificación muy primitiva, por temática. ¿Qué ocurre si un recurso pertenece a dos o tres temáticas diferentes? ¿Debe duplicar o triplicar la información del recurso?
-* Para terminar, Laura sabe que, una vez terminada la actividad, el documento quedará automáticamente obsoleto para los participantes si Laura no realiza el esfuerzo de enviar copias actualizadas a los asistentes cada vez que realiza un cambio. Esto último resulta incluso molesto todavía más si lo único que conseguimos es aumentar la bandeja de entrada del cliente de correo.
-
-Por otro lado, Laura valora la alternativa de publicar los enlaces en una página web. De hecho gana una serie de ventajas frente la realización de un documento de texto:
-
-* El contenido es accesible desde cualquier ordenador, independiente del sistema operativo o exclusivo de un determinado procesador de textos. Los participantes sólo necesitan un navegador.
-* Evita tener que enviar adjuntos a los correos de los participantes. Puede adelantar la información enviando un correo con la dirección de la página web donde ha publicado la lista de recursos o esperar al primer día de la actividad y proporcionar la dirección escribiéndola en la pizarra.
-* A partir de entonces, los participantes ya saben donde pueden consultar la página de los recursos a lo largo de la duración del curso como una vez finalizado.
-* Si alguno o alguna de los participantes desea corregir o añadir un nuevo recurso, debe primero comunicárselo a Laura y, seguidamente, modificar la web. Esto implica un total de 2 ó 3 mensajes de correo (1. notificación del cambio 2. notificación del cambio). 
-* Siguen habiendo un problema de participación: Laura se sitúa en el centro donde convergen y pasas todas las incidencias de cambios, actualizaciones de la página de recursos. 
-* Laura ha publicado el contenido de los enlaces en una página estática.(y?) luego deberá tener un mínimo de formación de creación de páginas web (lenguaje HTML), transmisión de ficheros desde su ordenador al servidor, etc.
-* Si ha mejorado el trabajo que lleva la gestión del documento, esta vez publicado en web, de los recursos de la actividad, Laura considera que todavía es ineficiente. ¿Por qué?
-* No se ha solucionado el problema que supone centralizar la publicación del documento y, por lo tanto, el coste de mantenimiento/edición y actualización del documento.
-* Lo anterior tampoco no proporciona un sistema eficiente de catalogación de los recursos.
-* También Laura insiste que no tiene horas para aprender a crear páginas web. Le recuerdo que no es problema. En la actualidad hay varias aplicaciones libres que te permiten crearla sin problemas. Incluso puedes probar servicios como http://www.weebly.com/ que te ayudan a crear una página web en cuatro pasos.
-
-
-La actividad en la red hace que resulte más complicada la convivencia entre una organización de documentos de escritorio y la actividad (publicaciones y comentarios en blogs, microblogging,…) en internet.
-Hay intentos como http://www.plaxo.com/ o http://www.airset.com/AirSet.jsp#app.Home
-
-
-
-  * http://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
-  
-
-## Organizar la *conversación* personal ¿vida más allá de la organización por etiquetas o carpetas?
-
-Kebin Kubasik, desarrollador del indexador libre [Beagle](http://beagle-project.org/Main_Page) ([2008](http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/)) en _The Reality of Semantic Desktops: Death To Tags, Labels and Folders_ defiende un nuevo escritorio que, definitivamente, ponga punto y final a la metáfora del escritorio tradicional, que rompa la sinergia de continuar la tradición de establecer jerarquías de directorios, categorías, etiquetas, distintivos de color y cualquier otro emblema visual con fines organizativos. Toda práctica de clasificación de la información personal y profesional siguiendo este modelo termina en fracaso
-
->how many people actually keep their address book completely updated? Or tag all their photos, or keep every document in the right folder? Even those who are vigilant eventually fall behind, and that’s because users already know what the material they are filling is, but still have to spend time explaining to the computer which items are related and where they belong. 
-
-y defiende dos líneas futuras de un posible espacio de información personal: los buscadores, que si bien pueden ser eficientes a nivel textual, ¿cómo serlo en contenidos audiovisuales? ¿mediante el uso de etiquetas?
-
-
-
-
+## Entre la voz y la conversación
 
 Quizá la solución pase por la contextualización de la información como sistema de clasificación. Si las etiquetas y las carpetas han ayudado a rebajar el efecto conocido por *cluttering*, no es así cuando he de recuperar una información precisa que he guardado. Y repetimos, no sólo nos referimos a un documento, sino puede ser incluso la recomendación de una canción por parte de una amiga en un chat. Esto implica el uso de la narrativa como ayudante o metainformación. No nos ayudamos sólo de palabras exactas sino de historias, luego una búsqueda por la historia podrá ayuderme o no a encontrar la información...  Por ejemplo:
 
