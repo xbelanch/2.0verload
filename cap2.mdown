@@ -72,20 +72,23 @@ Si el futuro del *tagging* está bajo una cierta sospecha, Gene Smith defiende e
 * **Complicidad** con una parte de la comunidad de usuarios en la que ayuden a reducir el ruido producido por las inconsistencias derivadadas de la *folksonomía*. 
 * El lado **creativo** e innovador de la práctica del *tagging* al margen de su propósito original de clasificar la información, como ya se ha mencionado más arriba en el caso de denuncia del DRM por parte de la organización [defectivebydesign.org](http://www.defectivebydesign.org/).
 
+En cierta manera, si las etiquetas han acaparado buena parte de la clasificación de los servicios de la conversación, no es así en el caso del escritorio personal. 
+
 
 ## Entre la voz y la conversación: el relato
-<!-- 
-Quizá la solución pase por la contextualización de la información como sistema de clasificación. Si las etiquetas y las carpetas han ayudado a rebajar el efecto conocido por *cluttering*, no es así cuando he de recuperar una información precisa que he guardado. Y repetimos, no sólo nos referimos a un documento, sino puede ser incluso la recomendación de una canción por parte de una amiga en un chat. Esto implica el uso de la narrativa como ayudante o metainformación. No nos ayudamos sólo de palabras exactas sino de historias, luego una búsqueda por la historia podrá ayuderme o no a encontrar la información...  Por ejemplo:
 
-Marco -realizo un _commit_- un documento de texto, por ejemplo, como objeto de información de interés (no todo lo que almaceno, guardo, hablo ¿es de interés?). El contenido lo parsea y enlaza el documento con una historia, la del contenido con el contexto en el que estaba trabajando (emails, chats, blogging, tweets), hay un track también del uso del mismo, referencias externas al mismo... luego, cada commit representa una actualización de la historia o información contextual del mismo. Quizá de esta manera podrían ligarse meta historias o enlazar a otras, luego ya no encontramos un documento, sino todo lo ligado a este y, por lo tanto, navegar por esa información. 
 
-[2009](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/)
+Llegado a este punto en el que los diferentes sistemas de ordenación de la información personal se ven superados por la diversificación de dispositivos, fragmentación y la conversación de la web, no resulta difícil imaginar el escenario actual como un ecosistema en el que, no sin tensiones, conviven con resultados irregulares las dos metodologías arriba explicadas, más otras propias de aplicaciones o servicios web que centralizan/cautivan la información que manejan.
 
-Es decir, si el espacio personal de la información, sus límites se difuminan al compartir parte de aquella con otros usurios, la organización de aquella será parte de la misma, es decir, del relato que haya entre los usuarios que participaron en ella. 
+Frente a esta colorida iconografía de carpetas, archivos, etiquetas, estrellas, banderas, colores, marcas... Jones ([2009](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/))^[[http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/)] propone la técnica del *Storytelling*^[http://en.wikipedia.org/wiki/Storytelling] o "arte de contar historias", la construcción de relatos asociados a los diferentes ítems (fotografías, videos, opiniones, documentos de texto, marcadores,...) como metodología de organización de información personal. El relato proporciona un valor añadido en cuanto a significación de la información
+
+Una clara ventaja es que los relatos pueden construirse en base no a una única voz sino a varias. 
+
+
 
 Según el autor del anterior artículo a la gente nos encanta contar historias, explicarlas a los demás. Por el contrario, no nos gusta organizar y clasificar la información. Siempre recurrimos a los buscadores, sea un buscador de la web o de escritorio, para recuperar la información. Todos los ayudantes que se han ido incorporando en facilitar la tarea de organizar (etiquetas, emblemas visuales, redimensión de los iconos,...) y clasifcar la información ha servido de poco si comprobamos que la frontera entre lo social y lo privado (entre la nube y mi escritorio) se ha desdibujado por completo; si el número de dispositivos donde guardo información es superior a mi capacidad de sincronizarlos; cuando la información personal no es exclusiva de un tipo especial de archivo o documento: todo es suspcetible de ser relevante y, en algunos casos, forma parte de un flujo de información continuo (chats, microblogging, MSM,...), no estático.
 -->
 
 
-
+>Sometimes Newton's Law of Inertia is just as applicable to the digital world as to the physical. All too often our files sit around never to be filed. Downloads and other sundry files pile up never to leave. Fortunately, an uncluttered desktop can be a reality.^[Lema comercial de [Hazel](http://www.noodlesoft.com/hazel.php)]
 
