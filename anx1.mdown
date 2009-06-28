@@ -1,5 +1,7 @@
 # Anexo I: The beauty of commitment
 
+Si estás en Windows: http://kylecordes.com/2008/04/30/git-windows-go/
+
 http://dmiessler.com/blog/using-git-to-maintain-your-website
 
 http://www.rubyinside.com/git-and-ruby-git-tutorials-articles-and-links-for-rubyists-860.html
