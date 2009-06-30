@@ -59,7 +59,7 @@ Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Y
 
 Yahoo Pipes no es el único servicio orientado a la filtración de la conversación. En cierta manera, el alcance de Yahoo Pipes supera el simple ejercicio de filtrar la saturación de *feeds*. Otras empresas o *startups* ofrecen la oportunidad de rebajar el flujo informativo a través de la personalización de filtros: FeedRinse^[http://www.feedrinse.com/]; sin excesiva complejidad, Feedsifter^[http://feedsifter.com/create.php] permite crear *in situ* el filtro de una fuente mediante palabras clave. 
 
-Es notable remarcar que un servicio como Google Reader, uno de los lectores de *feeds* por parte de los usuarios, no presente un sistema de creación y gestión de filtros. En su lugar, todavía hay que remitir a los *hacks*^[http://thinkwasabi.com/2009/03/13-trucos-exprimir-maximo-google-reader/]
+Es notable remarcar que un servicio como Google Reader, uno de los lectores de *feeds* por parte de los usuarios, no presente un sistema de creación y gestión de filtros. En su lugar, todavía hay que remitir a los *hacks*^[http://thinkwasabi.com/2009/03/13-trucos-exprimir-maximo-google-reader/]. Por otro lado, este filtro lo deja de la mano del servicio Google Alert, el cual, no es precisamente lo mejorcito :-)^[[How to Use the New Google Web Search RSS Feeds](http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php)]
 
 >So where is the startup that is going to be my information filter? I am aware of a few companies working on this problem, but I have yet to see one that has solved it in a compelling way. Can someone please do this for me? Please? I need help. We all do.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn’t Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
 
@@ -83,3 +83,6 @@ Referencias:
 
 
 >But the problem many people face is that there are so many sources of information that we're trying to keep track of, we've become buried. Information overload is a real problem for many web users, and one way to cope with it is to filter your RSS feeds so you only see what you want^[Josh Catone  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
+
+
+## Voces 
