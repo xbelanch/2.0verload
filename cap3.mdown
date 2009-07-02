@@ -1,6 +1,6 @@
 # RSS Overload 
 
->I’m a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. ^[Mark Frauenfelder, Rule the Web (2007)]
+>I'm a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. ^[Mark Frauenfelder, Rule the Web (2007)]
 
 Antes de la explosión generalizada de los blogs, los propietarios de páginas web informaban a los visitantes de novedades, modificaciones o simplemente que estaba en proceso de creación mediante advertencias visuales. Esta alertas estaban representadas por pequeños iconos animados (los gif animados) en forma de banderines rojos, bolas que cambiaban el color y, en el peor de los gustos, alguna figura humana practicando un gesto obsceno. Los usuarios guardábamos en la carpeta Favoritos del navegador los marcadores de las páginas de interés con el objeto de, más adelante, verificar si habían publicado nuevas noticias o actualizado la información. El problema surgió cuando el número de marcadores crecía sin detenerse y el tiempo que dedicábamos a averigurar si habían novedades era incluso mayor. Ya no era sólo averiguar si había o no una actualización del contenido; también se necesitaba un cierto esfuerzo en localizarla.
 
@@ -45,7 +45,7 @@ Una búsqueda en la blogosfera sobre este tópico nos conduce a que la mayoría 
 
 ## Filtrar la conversación
 
->The point is that we all have difficulty managing information overload and our attention stream; however, we can’t let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity.^[http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)]
+>The point is that we all have difficulty managing information overload and our attention stream; however, we can't let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity.^[http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)]
 
 La aparición hace un año de Yahoo Pipes causó una cierta expectación, mezcla de incomprensión y de pregunta ¿Para qué sirve? En un primer momento se vendió como una herramienta web-centric de creación de mashups. Un mashup no es más que una aplicación web que recoger, mezcla y presenta la información de  servicios web de terceros, abiertos y documentados para su uso colectivo. En el úlimo capítulo nos extenderemos más en el término, especialmente a ayudarno a gestionar mejor el exceso de información.
 
@@ -58,21 +58,23 @@ Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Y
   * Yahoo Pipes
   * Quartz Composer
 
+<!--
 
 Yahoo Pipes no es el único servicio orientado a la filtración de la conversación. En cierta manera, el alcance de Yahoo Pipes supera el simple ejercicio de filtrar la saturación de *feeds*. Otras empresas o *startups* ofrecen la oportunidad de rebajar el flujo informativo a través de la personalización de filtros: FeedRinse^[http://www.feedrinse.com/]; sin excesiva complejidad, Feedsifter^[http://feedsifter.com/create.php] permite crear *in situ* el filtro de una fuente mediante palabras clave. 
 
 Es notable remarcar que un servicio como Google Reader, uno de los lectores de *feeds* por parte de los usuarios, no presente un sistema de creación y gestión de filtros. En su lugar, todavía hay que remitir a los *hacks*^[http://thinkwasabi.com/2009/03/13-trucos-exprimir-maximo-google-reader/]. Por otro lado, este filtro lo deja de la mano del servicio Google Alert, el cual, no es precisamente lo mejorcito :-)^[[How to Use the New Google Web Search RSS Feeds](http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php)]
 
->So where is the startup that is going to be my information filter? I am aware of a few companies working on this problem, but I have yet to see one that has solved it in a compelling way. Can someone please do this for me? Please? I need help. We all do.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn’t Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
+>So where is the startup that is going to be my information filter? I am aware of a few companies working on this problem, but I have yet to see one that has solved it in a compelling way. Can someone please do this for me? Please? I need help. We all do.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
 
 La conversación y http://notifixio.us/ feedsqueezer: feedsqueezer provides sophisticated tools for the management of RSS feeds
 
 
->Bringing all of this Web messaging and activity together in one place doesn’t really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn’t Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
+>Bringing all of this Web messaging and activity together in one place doesn't really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
 
 
 
 >But the problem many people face is that there are so many sources of information that we're trying to keep track of, we've become buried. Information overload is a real problem for many web users, and one way to cope with it is to filter your RSS feeds so you only see what you want^[Josh Catone  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
 
+-->
 
 ## Voces 

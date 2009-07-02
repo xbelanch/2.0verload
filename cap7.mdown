@@ -1,18 +1,20 @@
 # Social Overload 
 
->I think the Feed is finally getting to me. Lately all I seem to be talking about are the following: Twitter, the iPhone, the Kindle, web hosting platforms, blogging, Facebook vanity URLs…^[http://elanaroth.com/2009/06/22/overload/]
+<!-- 
 
->One minute, they’re quietly updating their Twitter status… checking out their friend’s baby shower pictures on Flickr… or taking one of those fun “which celebrity boyfriend would you be” quizzes on Facebook… when suddenly they see a Tweet about a must-see YouTube video and BAM!, just like that, their head explodes.^[[Social Media Overload](http://bonafidemarketinggenius.com/2009/06/19/social-media-overload-making-sense-of-it-all/)]
+>I think the Feed is finally getting to me. Lately all I seem to be talking about are the following: Twitter, the iPhone, the Kindle, web hosting platforms, blogging, Facebook vanity URLs^[http://elanaroth.com/2009/06/22/overload/]
 
 
->I need less data, not more data. I need to know what is important, and I don’t have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn’t Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
+>I need less data, not more data. I need to know what is important, and I don't have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
 
->I just told @ev to turn off my autofollow script. 20,000 followers is enough. I'm seeing one new Tweet every second, I can't deal with more.^[http://twitter.com/Scobleizer/statuses/791260464]
+>I just told \@ev to turn off my autofollow script. 20,000 followers is enough. I'm seeing one new Tweet every second, I can't deal with more.^[http://twitter.com/Scobleizer/statuses/791260464]
 
-*Únete a la conversación* exclama el eslogan de Twitter. 
-Curiosas comparaciones!
+*Únete a la conversación* exclama el eslogan de Twitter. Curiosas comparaciones!
 
 [Groups: Turn Information Overload Into an Asset](http://www.readwriteweb.com/archives/groups_turn_information_overload_into_an_asset.php)
+
+
+-->
 
 ## Sobre el lifestreaming 
 
@@ -24,7 +26,7 @@ Curiosas comparaciones!
   * http://lifestream.fm/
   * http://lifestream.fm/
 
->In researching this column, I signed up for as many of the networks out there as I could and what did I get? A headache. Suddenly my email inbox was flooded with friends accepting my invites for Plaxo, Twitter, etc., and I realized there was no way I was going to have time to do any of these sites justice. Especially since I’m already a member of LinkedIn and Facebook, and I barely have time to keep those up-to-date(( Eve Tahmincioglu, “Beware of social networking overload” ))
+>In researching this column, I signed up for as many of the networks out there as I could and what did I get? A headache. Suddenly my email inbox was flooded with friends accepting my invites for Plaxo, Twitter, etc., and I realized there was no way I was going to have time to do any of these sites justice. Especially since I'm already a member of LinkedIn and Facebook, and I barely have time to keep those up-to-date(( Eve Tahmincioglu, “Beware of social networking overload” ))
 
 
 Publicamos noticias, agregamos noticias, votamos noticias,  publicamos videos, fotografías, marcamos como favoritos videos, fotografías,  anunciamos nuestro estado actual, guardamos marcadores, definimos un estado, agregamos noticias, compartimos causas, comentamos, escribimos, añadimos amigos, dejamos de ser amigos. Esta es una de las realidades que, por el momento, nos convierte en adictos a la publicación de contenidos a través de los diferentes servicios gratuitos de la web.  
