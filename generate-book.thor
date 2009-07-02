@@ -33,11 +33,16 @@ class Book < Thor
 	private
 	
 	def to_pdf(doc)
-		system("markdown2pdf #{doc} -N -C tex/header.tex -B tex/beforebody.tex  -A tex/afterbody.tex -o foo.pdf")
-		#system("pandoc -s -r markdown -w latex foo.mdown -C tex/header.tex -B tex/beforebody.tex  -o foo.tex")
+		#system("markdown2pdf #{doc} -N -C tex/header.tex -B tex/beforebody.tex  -A tex/afterbody.tex -o foo.pdf")
+		system("pandoc -s -r markdown -w latex foo.mdown -C tex/header.tex -B tex/beforebody.tex  -o foo.tex")
 		#luego creamos un tmp donde llevamos el  foo.tex resultante
 		#allí ejecutaremos dos veces el pdf2latex (para  generar la tabla de contenidos...)
-		#system("pdflatex -interaction=batchmode foo.tex >/dev/null")
+		2.times do 
+			system("pdflatex -interaction=batchmode foo.tex >/dev/null")
+		end
 		#movemos el pdf fuera de tmp y borramos el contenido
+		FileUtils.mv 'foo.pdf', 'book.pdf'
+		FileUtils.rm Dir.glob('foo.*')
+		puts 'Create pdf'
 	end
 end
