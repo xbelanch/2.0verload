@@ -1,47 +1,34 @@
-# RSSocial Overload 
+# Feed Overload 
 
 >I'm a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. ^[Mark Frauenfelder, Rule the Web (2007)]
 
-Anteriormente a la masificación del *blogging*, los administradores de páginas web informaban a los visitantes de novedades, modificaciones o simplemente que estaba en proceso de creación, mediante advertencias visuales. Esta alertas estaban representadas por pequeños iconos animados (los gif animados) en forma de banderines rojos, bolas que cambiaban el color y, en el peor de los gustos, alguna figura humana practicando un gesto obsceno. Los usuarios guardábamos en la carpeta Favoritos del navegador los marcadores de las páginas de interés con el objeto de, más adelante, verificar si habían publicado nuevas noticias o actualizado la información. El problema surgió cuando el número de marcadores crecía sin detenerse y el tiempo que dedicábamos a averigurar si habían novedades era incluso mayor. Ya no era sólo averiguar si había o no una actualización del contenido; también se necesitaba un cierto esfuerzo en localizarla.
-
-Manternerse al día de la actualidad de la web resultaba caro en cuanto a tiempo y dedicación.  Una alternativa a este proceso interminable representó la suscripción, emulando el sistema tradicional de revistas y periódicos. Si estaba suscrito, la información actualizada, la novedad o la publicación de una noticia vendría a mí a través de un e-mail. No venía el contenido total de la noticia o novedad, sino generalmente el anuncio de la misma. 
-Este escenario incurría a varios problemas:
-
-  * Aumentaba el número de mensajes en la bandeja de entrada.
-  * Dispersión de la información. Recuperar más tarde la información era una tarea ardua. 
-  * Obligaba al usuario a consultar el contenido en la web, lo que significaba dejar  el cliente de correo, ir al navegador y visitar el enlace de la web.
-  * A medida que los blogs se fueron haciendo más populares, la necesidad de adoptar un sistema de subscripción más eficiente que permitiera a los usuarios
-  * recibir el contenido de la noticia, no una alerta de novedad.
-  * concentrar la información de las subscripciones.
-  * alejar definitivamente las subscripciones de la bandeja de entrada.
-
-se volvió urgente. Finalmente se decidió adoptar un antiguo formato conocido por el acrónimo RSS, que significaba Really Simple Syndication. Este formato tenía unas características generales que resultaron fundamentales para su uso generalizado:
+Anteriormente a la masificación del *blogging*, los administradores de páginas web informaban a los visitantes de novedades, modificaciones o simplemente que estaba en proceso de creación, mediante algún tipo de aviso textual o visual. Los usuarios guardábamos en la carpeta *Favoritos* del navegador los marcadores de las páginas de interés con el objeto de, más adelante, comprobar si habían actualizado parte del contenido. El problema surgió cuando el número de marcadores crecía en la misma medida que nuestra curiosidad. El tiempo que dedicábamos a averiguar si habían novedades se hacía cada vez mayor. La forma en la que descubríamos si una página había publicado información nueva desde la última visita no era una actividad eficiente. Mantenerse al día de la actualidad de la web resultaba costosa en cuanto a tiempo y dedicación. Una alternativa representó la suscripción, emulando el sistema tradicional de revistas y periódicos. Si estaba suscrito, la información actualizada, la novedad o la publicación de una noticia vendría a mí a través de un correo electrónico. No venía el contenido total de la noticia o novedad, sino generalmente el anuncio de la misma, lo que incurría de nuevo a un problema grave: el circuito de acceso a la información pasaba por consultar primero el correo y después la página actualizada.  
+ 
+Finalmente se decidió adoptar un antiguo formato conocido por el acrónimo RSS, que significa *Really Simple Syndication*. Este formato tenía unas características generales que resultaron fundamentales para un uso generalizado y ampliamente adoptado:
 
   * Formato estandarizado
   * Contenía el contenido de la noticia
   * Contenía metainformación como la fecha de publicación y autoría.
 
-Aún conociendo las ventajas que suponía un uso generalizado del RSS, es todavía un acrónimo desconocido para la mayoría de usuarios. En general convive con la práctica de ir visitando las páginas, una tras otra, para consultar las novedades o el envío de un boletín informativo si pensamos en la información interna de una organización, sea pública o privada.
+Aún conociendo las ventajas que suponía la utilización del RSS, es todavía un acrónimo desconocido para la mayoría de usuarios. En general convive con la práctica de ir visitando las páginas, una tras otra, para consultar las novedades de las páginas guardadas en la carpeta *Favoritos*. O el envío de un boletín informativo si pensamos en la información interna de una organización, sea pública o privada.
 
 ## El lector de RSS 
 
-A medida que el número de páginas que permitían la sindicación aumentaba, en parte a servicios como Blogger que facilitiban en menos de tres clics comenzar a publicar en un blog, se hizo patente la necesidad de un lector o herramienta que gestionara las suscripciones. Hubo tres visiones:
+A medida que el número de páginas que permitían la sindicación aumentaba, en gran medida gracias a servicios de *democratización tecnológica* como Blogger, que facilitan la creación de un blog en menos de tres clics de ratón, se hizo patente la necesidad de un lector o herramienta que gestionara las suscripciones vía RSS. Hubo tres planteamientos:
   
 * La visión _e-mail-centric_, es decir, como una funcionalidad nueva del cliente de correo y, por lo tanto, incrementaba la acumulación de información en dos frentes, el de la bandeja de entrada y el de las suscripciones.
 * La visión _desktop-centric_, una aplicación de escritorio y, por lo tanto, sucedáneo del cliente de correo en el que guardar la información que recibimos de las suscripciones.
-* La visión _web-centric_, un servicio web que aprovechara la naturaleza on-line del RSS. En esta dirección encontramos dos versiones diferentes de afrontar la organización y lectura de las suscripciones, la traducción del cliente desktop-centric a la web, como el malogrado Bloglines o el exitoso Google Reader, y la personalización de una pantalla de inicio que ofreciera al usuario una instantánea de las últimas entradas de las suscripciones.
-
+* La visión _web-centric_, un servicio web que aprovechara la naturaleza web del RSS. En esta dirección encontramos dos versiones diferentes de afrontar la organización y lectura de las suscripciones, la traducción del cliente desktop-centric a la web, como el malogrado Bloglines o el exitoso Google Reader, y la personalización de una pantalla de inicio que ofreciera al usuario una instantánea de las últimas entradas de las suscripciones.
 
 >The key is quality information, not quantity of information.^[ http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/]
 
-A medida que aumentamos el interés en conocer nuevos contenidos, no sólo de publicaciones de blogs, sino marcadores, listas de videos, redes sociales, etc, el número de subscripciones también crece. El lector RSS o agregador de feeds se colapsa de información y el usuario tiende a una lectura en diagonal de la mayoría de las noticias y el abandono de otras.
-Si bien parece ser un escenario prematuro, no son pocas las voces que plantean el problema de la sobrecarga de suscripciones. El exceso de la información generada por la publicación ininterrumpida de terceros. No entraremos en los motivos que empujan a muchos bloggers a publicar dos o tres mensajes diarios. Esto sin contar en aquellos blogs o gestores de contenidos colaborativos que el promedio de noticias acostumbra a alcanzar los nueve o diez mensajes al día.
+A medida que aumentamos el interés en conocer nuevos contenidos, no sólo de publicaciones de blogs, sino marcadores, listas de videos, redes sociales, etc, el número de subscripciones también crece. El lector RSS o agregador de *feeds* se colapsa de información y el usuario tiende a una lectura en diagonal de la mayoría de las noticias y el abandono de otras.
+Si bien parece ser un escenario prematuro, no son pocas las voces que plantean el problema de la sobrecarga del flujo de información entrante en el lector de RSS. El exceso de la información generada por la publicación sin pausa de terceros colapsa nuestra atención e interés por el contenido.
 
 >Alguién me ha preguntado recientemente porqué hago dos post al día. Es lo que me habéis pedido. En algún viaje, queriendo contar todo lo que he podido ver en un evento, he intentado postear 4 y 5 posts y enseguida he recibido un rumor de mis lectores. Oye, ¿Te crees que eres el único que leo? ¿Que es eso de postear como una ametralladora?^[Rodolfo Carpintier Santana (2009) [Sólo dos post al día](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
 
 Si todavía esta situación no es generalizada, sí podría ser el marco de referencia o germen del desarrollo de nuevas aplicaciones que, en la actualidad, permanecen bajo el aura de experimentales o de laboratorio, o para *early-adopters*. 
 
-Una búsqueda en la blogosfera sobre este tópico nos conduce a que la mayoría de los artículos publicados son del 2006
 
 ## Filtrar la conversación
 
@@ -77,4 +64,7 @@ La conversación y http://notifixio.us/ feedsqueezer: feedsqueezer provides soph
 
 -->
 
-## Voces 
+## Social Fatigue
+
+
+>I think the Feed is finally getting to me. Lately all I seem to be talking about are the following: Twitter, the iPhone, the Kindle, web hosting platforms, blogging, Facebook vanity URLs^[http://elanaroth.com/2009/06/22/overload/]
