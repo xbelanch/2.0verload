@@ -71,8 +71,5 @@ La conversación y http://notifixio.us/ feedsqueezer: feedsqueezer provides soph
 
 >Bringing all of this Web messaging and activity together in one place doesn't really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
 
-
-
-
-
 -->
+Es posible filtrar: http://mashable.com/2009/07/03/twitter-filter/
