@@ -1,4 +1,4 @@
-# Feed Overload 
+# RSSocial Overload 
 
 >I'm a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. ^[Mark Frauenfelder, Rule the Web (2007)]
 
@@ -27,14 +27,21 @@ Si bien parece ser un escenario prematuro, no son pocas las voces que plantean e
 
 >Alguién me ha preguntado recientemente porqué hago dos post al día. Es lo que me habéis pedido. En algún viaje, queriendo contar todo lo que he podido ver en un evento, he intentado postear 4 y 5 posts y enseguida he recibido un rumor de mis lectores. Oye, ¿Te crees que eres el único que leo? ¿Que es eso de postear como una ametralladora?^[Rodolfo Carpintier Santana (2009) [Sólo dos post al día](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
 
+## Feed Fatigue
+
+>But the problem many people face is that there are so many sources of information that we're trying to keep track of, we've become buried. Information overload is a real problem for many web users, and one way to cope with it is to filter your RSS feeds so you only see what you want^[Josh Catone  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
 
 
-## Social Feed Fatigue
 
+## Social Fatigue
 
 >I think the Feed is finally getting to me. Lately all I seem to be talking about are the following: Twitter, the iPhone, the Kindle, web hosting platforms, blogging, Facebook vanity URLs^[http://elanaroth.com/2009/06/22/overload/]
 
-Publicamos artículos, comentamos artículos, agregamos, compartimos noticias, votamos noticias, publicamos fotografías, videos, presentaciones, actualizamos nuestro estado, hablamos en menos de 140 caracteres, guardamos marcadores, definimos un estado, agregamos noticias, compartimos causas... el flujo de información que transmitimos diariamente es equiparable al que recibimos. 
+Publicamos artículos, comentamos artículos, agregamos, compartimos noticias, votamos noticias, publicamos fotografías, videos, presentaciones, actualizamos nuestro estado, hablamos en menos de 140 caracteres, guardamos marcadores, definimos un estado, agregamos noticias, compartimos causas... el flujo de información que transmitimos diariamente es equiparable al que recibimos a través de los diferentes servicios de *voz de la conversación*. Cuanto más participamos en la conversación, mayor es nuestro interés en descubrir y compartir voces de la conversación. No es un simple juego en el que participamos bajo el rol de emisor y receptor a un mismo tiempo. La conversación es maleable como el barro y adopta formas diferentes según la dirección de las voces. 
+
+
+
+
 
 ## Filtrar la conversación
 
@@ -66,6 +73,6 @@ La conversación y http://notifixio.us/ feedsqueezer: feedsqueezer provides soph
 
 
 
->But the problem many people face is that there are so many sources of information that we're trying to keep track of, we've become buried. Information overload is a real problem for many web users, and one way to cope with it is to filter your RSS feeds so you only see what you want^[Josh Catone  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
+
 
 -->
