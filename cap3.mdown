@@ -45,7 +45,7 @@ Publicamos artículos, comentamos artículos, agregamos, compartimos noticias, v
 
 ## Filtrar la conversación
 
->The point is that we all have difficulty managing information overload and our attention stream; however, we can't let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity.^[http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)]
+>I need less data, not more data. I need to know what is important, and I don't have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [http://tinyurl.com/5b6p2f](http://tinyurl.com/5b6p2f)]
 
 La aparición hace un año de Yahoo Pipes causó una cierta expectación, mezcla de incomprensión y de pregunta ¿Para qué sirve? En un primer momento se vendió como una herramienta web-centric de creación de mashups. Un mashup no es más que una aplicación web que recoger, mezcla y presenta la información de  servicios web de terceros, abiertos y documentados para su uso colectivo. En el úlimo capítulo nos extenderemos más en el término, especialmente a ayudarno a gestionar mejor el exceso de información.
 
@@ -55,10 +55,17 @@ Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical que enlazaba
 
 Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Yahoo Pipes sigue una línea de trabajo conocida por el uso de Widgets. No es el único. Varias herramientas siguen esta metodología visual de trabajo. Veamos estas capturas de diferentes herramientas:
 
-  * Yahoo Pipes
-  * Quartz Composer
+* Yahoo Pipes
+* Quartz Composer
+
+
+
+
 
 <!--
+
+>The point is that we all have difficulty managing information overload and our attention stream; however, we can't let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity.^[http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)]
+
 
 Yahoo Pipes no es el único servicio orientado a la filtración de la conversación. En cierta manera, el alcance de Yahoo Pipes supera el simple ejercicio de filtrar la saturación de *feeds*. Otras empresas o *startups* ofrecen la oportunidad de rebajar el flujo informativo a través de la personalización de filtros: FeedRinse^[http://www.feedrinse.com/]; sin excesiva complejidad, Feedsifter^[http://feedsifter.com/create.php] permite crear *in situ* el filtro de una fuente mediante palabras clave. 
 

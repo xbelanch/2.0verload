@@ -27,7 +27,7 @@ class Book < Thor
 		end
 		file.close
 		to_pdf('foo.mdown')
-		File.delete('foo.mdown') if File.exist?('foo.mdown')
+		#File.delete('foo.mdown') if File.exist?('foo.mdown')
 	end	
 	
 	private
@@ -42,7 +42,7 @@ class Book < Thor
 		end
 		#movemos el pdf fuera de tmp y borramos el contenido
 		FileUtils.mv 'foo.pdf', 'book.pdf'
-		FileUtils.rm Dir.glob('foo.*')
+		#FileUtils.rm Dir.glob('foo.*')
 		puts 'Create pdf'
 	end
 end

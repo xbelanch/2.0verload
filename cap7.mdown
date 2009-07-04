@@ -3,10 +3,6 @@
 <!-- 
 
 
-
-
->I need less data, not more data. I need to know what is important, and I don't have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
-
 >I just told @ev to turn off my autofollow script. 20,000 followers is enough. I'm seeing one new Tweet every second, I can't deal with more.^[http://twitter.com/Scobleizer/statuses/791260464]
 
 
