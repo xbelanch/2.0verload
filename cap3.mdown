@@ -60,11 +60,26 @@ Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Y
 
 
 
-## Twitter, el metafiltro de la conversación
+## Twitter, un nuevo RSS?
 
 >Neoligism: UPDATE SLUT (n); one who promiscuously posts self-status blurbs to multiple svcs (Twitter, pownce, fb) all at once.^[http://twitter.com/xenijardin/statuses/264534072]
 
 ¿Es Twitter quien matará el RSS? * http://www.twistimage.com/blog/archives/twitter-is-going-to-kill-rss/
+
+
+En adelante, la información no la recibiremos siguiendo el método tradicional de las suscripciones. Quienes publiquen la información se encargaran de filtrarla; no me suscribo a una página, sino a una conversación que me proporcione más información
+
+No me centraré a una canal, o web, sino a una tendencia. Si sólo me interesa un argumento, a través de los trends de Twitter puedo acceder a una información de enlaces, páginas, eventos, curiosidades, es decir, de alguna manera, mucho mayor que no mediante la sindicación a 100 ó 150 canales. 
+
+En este sentido, las búsquedas en servicios de life streaming como FriendFeed ayudarían a ir en este camino:
+
+* Escuchar la conversación desde los diferentes servicios de publicación a tiempo real de cada una de las voces
+* Aprovechar los filtros que permite la misma herramientas: búsquedas personalizadas.
+* Aprovechar el juego de eco que proporciona muchas voces (fenómeno de los RT en Twitter) en el juego de la atención a una noticia. Relevancia por las veces que aparece
+
+Esta dinámica no es todavía ni siquiera
+
+
 
 <!--
 

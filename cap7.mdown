@@ -51,19 +51,11 @@ La una primera observación del esquema es cómo algunos de los servicios web qu
 Según Catone ([2008](http://www.readwriteweb.com/archives/visualizing_social_media_fatigue.php)), un elemento clave contra la fatiga digital que dibuja el diagrama de Shuttelworth es la portabilidad de la información personal, lo que permitiría la creación de espacios de agrupación de la información y mejore la gestión de nuestra atención. Catone recupera el concepto de [la economía de la atención](http://en.wikipedia.org/wiki/Attention_economy) que, en palabras de Iskold y MacManus ([2007](http://www.readwriteweb.com/archives/attention_economy_overview.php)), _Because of this information explosion, we no longer read - we skim_. No leemos siguiendo el sentido de lectura horizontal de izquierda a derecha sino _observamos_ o tomamos instantáneas del contenido que desechamos una vez realizadas. El ritmo de lectura y asmilación de la información que vamos recibiendo es comparable a la fotografía, de los procedimientos artesanales de la generación de la imagen al ultra consumo de creación/deshecho/publicación con la cámara digital: nuestra atención es cada vez más exigente o, en su contra, más pobre: no hay sobresaltos en la abundancia informativa; todo es un falso positivo (Iskold y MacManus, 2007).
 
 
-## Adicción por compartir: replicar la información 
-
-Este espacio sería conveniente que fuera en el de Lifestreaming, cuando hablas de shareolic, pero también no deja de ser contextual en cuanto compartes información sin necesidad de ir a la página.
-
 ## Lifestreaming: un arma de doble filo 
 
 >Lifestreaming, according to Wordspy, is "an online record of a person's daily activities, either via direct video feed or via aggregating the person's online content such as blog posts, social network updates, and online photos."(( Richard MacManus, “Lifestreaming: a ReadWriteWeb Primer” (http://www.readwriteweb.com/archives/lifestreaming_primer.php) ))
 
-Si bien los servicios lifestreaming agrupan la actividad social en la red en un único lugar, se da la situación que nos encontramos de nuevo frente a una situación de exceso de información. Agregar servicios de microblogging como Twitter, servicios que todavía tienen una enorme actividad entre los usuarios, hinundan el espacio.
 
-Para evitar el cuttering, FriendFeed agrupan los mensajes, si estos han sido publicados en un intervalo pequeño de tiempo, en uno único. Un ejemplo sería el marcar como favoritos varias fotografías del servicio Flickr en apenas varios minutos; en lugar de aparecer una por cada favorito marcado, se agrupan en una única entrada. De igual manera se plantea la agrupación de los tweets de los usuarios de Twitter. En esta dirección se consigue paliar el efecto cluttering del espacio de actividad social.
-
-Por otro lado, estos servicios no permiten por el momento sistemas de filtrado de la información de la información de terceros. No podemos, por ejemplo, determinar qué servicios de los que acostumbra a publicar un amigo o amiga nos interesa como relevante. Es decir, sólo quiero los contenidos o publicaciones generadas en este servicio de este amigo o amiga
 
 
 ### FriendFeed
