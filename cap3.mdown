@@ -59,8 +59,11 @@ Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Y
 * Quartz Composer
 
 
+## Del RSS a Twitter
 
-## Twitter, un nuevo RSS?
+
+
+## FriendFeed, ¿el filtro de la conversación?
 
 >Neoligism: UPDATE SLUT (n); one who promiscuously posts self-status blurbs to multiple svcs (Twitter, pownce, fb) all at once.^[http://twitter.com/xenijardin/statuses/264534072]
 
@@ -77,9 +80,7 @@ En este sentido, las búsquedas en servicios de life streaming como FriendFeed a
 * Aprovechar los filtros que permite la misma herramientas: búsquedas personalizadas.
 * Aprovechar el juego de eco que proporciona muchas voces (fenómeno de los RT en Twitter) en el juego de la atención a una noticia. Relevancia por las veces que aparece
 
-Esta dinámica no es todavía ni siquiera
-
-
+Según Catone ([2008](http://www.readwriteweb.com/archives/visualizing_social_media_fatigue.php)), un elemento clave contra la fatiga digital que dibuja el diagrama de Shuttelworth es la portabilidad de la información personal, lo que permitiría la creación de espacios de agrupación de la información y mejore la gestión de nuestra atención. Catone recupera el concepto de [la economía de la atención](http://en.wikipedia.org/wiki/Attention_economy) que, en palabras de Iskold y MacManus ([2007](http://www.readwriteweb.com/archives/attention_economy_overview.php)), _Because of this information explosion, we no longer read - we skim_. No leemos siguiendo el sentido de lectura horizontal de izquierda a derecha sino _observamos_ o tomamos instantáneas del contenido que desechamos una vez realizadas. El ritmo de lectura y asmilación de la información que vamos recibiendo es comparable a la fotografía, de los procedimientos artesanales de la generación de la imagen al ultra consumo de creación/deshecho/publicación con la cámara digital: nuestra atención es cada vez más exigente o, en su contra, más pobre: no hay sobresaltos en la abundancia informativa; todo es un falso positivo (Iskold y MacManus, 2007).
 
 <!--
 
