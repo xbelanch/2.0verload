@@ -96,7 +96,7 @@ Recuperar la información que anteriormente hemos visto es una actividad poliéd
 
 	site:google.com filetype:pdf web2.0
 
-Otro ejemplo, no menos interesante, es la sintaxis de búsqueda del servicio de correo de Google -GMail-, donde encontramos [expresiones](http://mail.google.com/support/bin/answer.py?hl=en&answer=7190) del tipo:
+Otro ejemplo, no menos ilustrativo, es la sintaxis de búsqueda del servicio de correo de Google -GMail-, donde encontramos [expresiones](http://mail.google.com/support/bin/answer.py?hl=en&answer=7190) del tipo:
 
 
 	from:mai in:anywhere has:attachment filename:pdf
