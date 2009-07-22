@@ -28,22 +28,18 @@ Con el paso del tiempo, los usuarios más atentos a la *blogosfera* y a cualquie
 
 No es infrecuente tomar alguna decisión cuando el volumen de *feeds* nuevos excede en cantidad a un límite razonable de lectura. Pero, ¿en qué dirección tomarla? ¿eliminar las suscripciones más promiscuas, aquellas que publican con una frecuencia de veinte o treinta noticias al día? ¿filtrar las noticias entrantes? ¿borrar aquellas suscripciones que sólo redundan en información, es decir, que actúan de eco de otras publicaciones? El problema de filtrar la información entrante es que, una noticia de enorme interés personal acabe detrás del filtro y, por lo tanto, desaparezca. De hecho, el cliente web de RS más utilizado, Google Reader, no incorpora ningún sistema o funcionalidad que ayude a filtrar la información. En lugar de un sistema de filtros, Google Reader apuesta por la indexación de los *feeds*, un sistema flexible de etiquetaje, una suerte de *blog* en el que el usuario publiqua aquellas noticias que desea compartir o, finalmente, un sencillo panel que muestra unas estadísticas básicas sobre nuestra actividad de lectura en relación con los diferentes canales a los que estamos agregados. Antes la abundancia *recuperable*  que un sistema inteligente de filtrado.
 
-## Feed Fatigue? You need a filter!
+## Feed Fatigue? You need a filter system!
 
 >But the problem many people face is that there are so many sources of information that we're trying to keep track of, we've become buried. Information overload is a real problem for many web users, and one way to cope with it is to filter your RSS feeds so you only see what you want^[Josh Catone  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
 
-Filtrar de alguna manera el exceso de RSS no es un problema menor si, como ya hemos apuntado más arriba, no se consigue diferenciar aquello que *resulta vital para mí* del ruido. Enfrentarse en el momento actual al desarrollo de un sistema eficiente de filtrado pasa por dos visiones si bien a primera vista irreconciliables sí complementarias a medio plazo.
+Filtrar de alguna manera el exceso de RSS no es un problema menor si, como ya hemos apuntado más arriba, no se consigue diferenciar aquello que *resulta vital para mí* del ruido. Enfrentarse en el momento actual al desarrollo de un sistema eficiente de filtrado pasa por dos visiones si bien a primera vista irreconciliables, sí complementarias a medio plazo.
 
-La primera visión pasa por la utilización de palabras clave que actúen como barrera a cualquier noticia que no aparezca en su contenido. Más sofisticado si cabe, pero no representa ninguna novedad técnica, es la incorporación de expresiones regulares en lugar de palabras clave. La aparición hace un año de Yahoo Pipes causó una cierta expectación como algún que otro interrogante del tipo *¿para qué sirve?*. En un primer momento se vendió como una herramienta web-centric de creación de *mashups*^[Un mashup no es más que una aplicación web que recoge y mezcla la información disponible de manera abierta de servicios web de terceros y los presenta de en un formato *remix* . En el úlimo capítulo nos extenderemos más en el término, especialmente a ayudarno a gestionar mejor el exceso de información.
+La primera visión pasa por la utilización de palabras clave que actúen como barrera a cualquier noticia que no aparezca en su contenido. Más sofisticado si cabe, pero no representa ninguna novedad técnica, es la incorporación de expresiones regulares en lugar de palabras clave. La aparición hace un año de Yahoo Pipes causó una cierta expectación como algún que otro interrogante del tipo *¿para qué sirve?*. En un primer momento se vendió como una herramienta web-centric de creación de *mashups*^[Un mashup no es más que una aplicación web que recoge y mezcla la información disponible de manera abierta de servicios web de terceros y la presenta en un acabado *remix* enriqueciendo la información original al proponer un nuevo mensaje o representación]
 
-Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical que enlaza la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura “En un principio fue la línea de comandos”, de Niel Stephenson)) veamos el siguiente ejemplo:
+Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical o *tubería* que enlaza la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura *En un principio fue la línea de comandos*, de Niel Stephenson)), la idea es muy simple: gracias a un conjunto de operadores visuales, Yahoo Pipes actúa como una suerte de tubería entre la fuente de información y el resultado final. El usuario decide que  
 
-	ls -lah | grep 
 
-Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Yahoo Pipes sigue una línea de trabajo conocida por el uso de Widgets. No es el único. Varias herramientas siguen esta metodología visual de trabajo. Veamos estas capturas de diferentes herramientas:
 
-* Yahoo Pipes
-* Quartz Composer
 
 
 
