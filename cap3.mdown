@@ -2,19 +2,19 @@
 
 >I'm a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. ^[Mark Frauenfelder, Rule the Web (2007)]
 
-Anteriormente a la masificación del *blogging*, los administradores de páginas web informaban a los visitantes de novedades, modificaciones o simplemente que estaba en proceso de creación, mediante algún tipo de aviso textual o visual. Los usuarios guardábamos en la carpeta *Favoritos* del navegador los marcadores de las páginas de interés con el objeto de, más adelante, comprobar si habían actualizado parte del contenido. El problema surgió cuando el número de marcadores crecía en la misma medida que nuestra curiosidad. El tiempo que dedicábamos a averiguar si habían novedades se hacía cada vez mayor. La forma en la que descubríamos si una página había publicado información nueva desde la última visita no era una actividad eficiente. Mantenerse al día de la actualidad de la web resultaba costosa en cuanto a tiempo y dedicación. Una alternativa representó la suscripción, emulando el sistema tradicional de revistas y periódicos. Si estaba suscrito, la información actualizada, la novedad o la publicación de una noticia vendría a mí a través de un correo electrónico. No venía el contenido total de la noticia o novedad, sino generalmente el anuncio de la misma, lo que incurría de nuevo a un problema grave: el circuito de acceso a la información pasaba por consultar primero el correo y después la página actualizada.  
+Antes que el *blogging* se convirtiera en una actividad generalizada, quien mantenía su propia páginas web informaba a los visitantes de las novedades o actualizaciones mediante algún tipo de aviso textual o visual. Los usuarios guardaban en la carpeta *Favoritos* del navegador los marcadores de las páginas de interés con el fin de, más adelante, visitar de nuevo la web y comprobar si uno de estos avisos visuales animados estaba presenta, informándonos que alguna parte del contenido era nuevo. El problema surgió cuando el número de marcadores crecía en la misma medida que nuestra curiosidad. El tiempo que dedicábamos a averiguar si habían novedades se hacía cada vez mayor. Esta manera de saber si las páginas habían actualizado o no sus contenidos no resultaba nada eficiente. Mantenerse al día de la actualidad de la web resultaba caro en cuanto a tiempo y dedicación. Una alternativa representó la suscripción, copiando el sistema tradicional de revistas y periódicos. Si estabas suscrito recibías el aviso de la página web actualizada. El aviso sólo era eso: un aviso. Nada más. De nuevo un problema aparecía en el momento de creer haber solucionado otro: primero debíamos consultar el correo y, en caso de tener en la bandeja de entrada la notificación, visitábamos la página actualizada. El colmo de este planteamiento era que estas notificaciones venían a engrosar el número de mensajes recibidos en la bandeja de entrada. 
  
-Finalmente se decidió adoptar un antiguo formato conocido por el acrónimo RSS, que significa *Really Simple Syndication*. Este formato tenía unas características generales que resultaron fundamentales para un uso generalizado y ampliamente adoptado:
+La explosión del *blogging* vino acompañada de una solución a este problema. Se decidió adoptar un antiguo formato conocido por el acrónimo RSS, que significa *Really Simple Syndication*. Este formato tenía unas características generales que resultaron fundamentales para su uso generalizado y ampliamente adoptado:
 
   * Formato estandarizado
   * Contenía el contenido de la noticia
   * Contenía metainformación como la fecha de publicación y autoría.
 
-Aún conociendo las ventajas que suponía la utilización del RSS, es todavía un acrónimo desconocido para la mayoría de usuarios. En general convive con la práctica de ir visitando las páginas, una tras otra, para consultar las novedades de las páginas guardadas en la carpeta *Favoritos*. O el envío de un boletín informativo si pensamos en la información interna de una organización, sea pública o privada.
+Aún conociendo las ventajas que suponía la utilización del RSS, es todavía un acrónimo desconocido para la mayoría de internautas. En general convive con la práctica de ir visitando las páginas, una tras otra, para consultar las novedades de las páginas guardadas en la carpeta *Favoritos*. O el envío de un boletín informativo si pensamos en la información interna de una organización, sea pública o privada.
 
 ## El lector de RSS 
 
-A medida que el número de páginas que permitían la sindicación aumentaba, en gran medida gracias a servicios de *democratización tecnológica* como Blogger, que facilitan la creación de un blog en menos de tres clics de ratón, se hizo patente la necesidad de un lector o herramienta que gestionara las suscripciones vía RSS. Hubo tres planteamientos:
+Gracias a servicios de *democratización de la publicación en la web* como Blogger, que facilitaron la creación de un blog en menos de tres clics de ratón, se hizo patente la necesidad de un lector o herramienta que gestionara las suscripciones RSS. Hubo tres planteamientos:
   
 * La visión _e-mail-centric_, es decir, como una funcionalidad nueva del cliente de correo y, por lo tanto, incrementaba la acumulación de información en dos frentes, el de la bandeja de entrada y el de las suscripciones.
 * La visión _desktop-centric_, una aplicación de escritorio y, por lo tanto, sucedáneo del cliente de correo en el que guardar la información que recibimos de las suscripciones.
@@ -22,14 +22,33 @@ A medida que el número de páginas que permitían la sindicación aumentaba, en
 
 >The key is quality information, not quantity of information.^[ http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/]
 
-A medida que aumentamos el interés en conocer nuevos contenidos, no sólo de publicaciones de blogs, sino marcadores, listas de videos, redes sociales, etc, el número de subscripciones también crece. El lector RSS o agregador de *feeds* se colapsa de información y el usuario tiende a una lectura en diagonal de la mayoría de las noticias y el abandono de otras.
-Si bien parece ser un escenario prematuro, no son pocas las voces que plantean el problema de la sobrecarga del flujo de información entrante en el lector de RSS. El exceso de la información generada por la publicación sin pausa de terceros colapsa nuestra atención e interés por el contenido.
+Con el paso del tiempo, los usuarios más atentos a la *blogosfera* y a cualquier publicación de noticias *sindicable*, vieron cómo el número de suscripciones crecía y, por ende, el volumen de noticias o *feeds* diarias era cada vez mayor, lo que provocaba que el lector RSS se colapsara con relativa facilidad. Este exceso de información obligaba a los incombustibles lectores de RSS a una lectura en diagonal cuando no el abandono de gran parte de las noticias. Si parece ser un escenario prematuro, no son pocas las voces que plantean desde hace un tiempo el problema de la sobrecarga del flujo de información entrante en el lector de RSS. El exceso de la información generada por la publicación sin pausa de terceros colapsa nuestra atención e interés por el contenido que recibimos a diario.
 
 >Alguién me ha preguntado recientemente porqué hago dos post al día. Es lo que me habéis pedido. En algún viaje, queriendo contar todo lo que he podido ver en un evento, he intentado postear 4 y 5 posts y enseguida he recibido un rumor de mis lectores. Oye, ¿Te crees que eres el único que leo? ¿Que es eso de postear como una ametralladora?^[Rodolfo Carpintier Santana (2009) [Sólo dos post al día](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
 
-## Feed Fatigue
+No es infrecuente tomar alguna decisión cuando el volumen de *feeds* nuevos excede en cantidad a un límite razonable de lectura. Pero, ¿en qué dirección tomarla? ¿eliminar las suscripciones más promiscuas, aquellas que publican con una frecuencia de veinte o treinta noticias al día? ¿filtrar las noticias entrantes? ¿borrar aquellas suscripciones que sólo redundan en información, es decir, que actúan de eco de otras publicaciones? El problema de filtrar la información entrante es que, una noticia de enorme interés personal acabe detrás del filtro y, por lo tanto, desaparezca. De hecho, el cliente web de RS más utilizado, Google Reader, no incorpora ningún sistema o funcionalidad que ayude a filtrar la información. En lugar de un sistema de filtros, Google Reader apuesta por la indexación de los *feeds*, un sistema flexible de etiquetaje, una suerte de *blog* en el que el usuario publiqua aquellas noticias que desea compartir o, finalmente, un sencillo panel que muestra unas estadísticas básicas sobre nuestra actividad de lectura en relación con los diferentes canales a los que estamos agregados. Antes la abundancia *recuperable*  que un sistema inteligente de filtrado.
+
+## Feed Fatigue? You need a filter!
 
 >But the problem many people face is that there are so many sources of information that we're trying to keep track of, we've become buried. Information overload is a real problem for many web users, and one way to cope with it is to filter your RSS feeds so you only see what you want^[Josh Catone  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
+
+Filtrar de alguna manera el exceso de RSS no es un problema menor si, como ya hemos apuntado más arriba, no se consigue diferenciar aquello que *resulta vital para mí* del ruido. Enfrentarse en el momento actual al desarrollo de un sistema eficiente de filtrado pasa por dos visiones si bien a primera vista irreconciliables sí complementarias a medio plazo.
+
+La primera visión pasa por la utilización de palabras clave que actúen como barrera a cualquier noticia que no aparezca en su contenido. Más sofisticado si cabe, pero no representa ninguna novedad técnica, es la incorporación de expresiones regulares en lugar de palabras clave. La aparición hace un año de Yahoo Pipes causó una cierta expectación como algún que otro interrogante del tipo *¿para qué sirve?*. En un primer momento se vendió como una herramienta web-centric de creación de *mashups*^[Un mashup no es más que una aplicación web que recoge y mezcla la información disponible de manera abierta de servicios web de terceros y los presenta de en un formato *remix* . En el úlimo capítulo nos extenderemos más en el término, especialmente a ayudarno a gestionar mejor el exceso de información.
+
+Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical que enlaza la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura “En un principio fue la línea de comandos”, de Niel Stephenson)) veamos el siguiente ejemplo:
+
+	ls -lah | grep 
+
+Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Yahoo Pipes sigue una línea de trabajo conocida por el uso de Widgets. No es el único. Varias herramientas siguen esta metodología visual de trabajo. Veamos estas capturas de diferentes herramientas:
+
+* Yahoo Pipes
+* Quartz Composer
+
+
+
+
+
 
 
 
@@ -47,16 +66,7 @@ Publicamos artículos, comentamos artículos, agregamos, compartimos noticias, v
 
 >I need less data, not more data. I need to know what is important, and I don't have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [http://tinyurl.com/5b6p2f](http://tinyurl.com/5b6p2f)]
 
-La aparición hace un año de Yahoo Pipes causó una cierta expectación, mezcla de incomprensión y de pregunta ¿Para qué sirve? En un primer momento se vendió como una herramienta web-centric de creación de mashups. Un mashup no es más que una aplicación web que recoger, mezcla y presenta la información de  servicios web de terceros, abiertos y documentados para su uso colectivo. En el úlimo capítulo nos extenderemos más en el término, especialmente a ayudarno a gestionar mejor el exceso de información.
 
-Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical que enlazaba la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura “En un principio fue la línea de comandos”, de Niel Stephenson)) veamos el siguiente ejemplo:
-
-	ls -lah | grep 
-
-Desde luego, Yahoo Pipes no es tan árido como lo anterior. Todo lo contrario, Yahoo Pipes sigue una línea de trabajo conocida por el uso de Widgets. No es el único. Varias herramientas siguen esta metodología visual de trabajo. Veamos estas capturas de diferentes herramientas:
-
-* Yahoo Pipes
-* Quartz Composer
 
 
 ## Del RSS a Twitter	
