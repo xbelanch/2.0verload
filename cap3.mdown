@@ -30,16 +30,28 @@ No es infrecuente tomar alguna decisión cuando el volumen de *feeds* nuevos exc
 
 ## Feed Fatigue? You need a filter system!
 
+
 >But the problem many people face is that there are so many sources of information that we're trying to keep track of, we've become buried. Information overload is a real problem for many web users, and one way to cope with it is to filter your RSS feeds so you only see what you want^[Josh Catone  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
 
 Filtrar de alguna manera el exceso de RSS no es un problema menor si, como ya hemos apuntado más arriba, no se consigue diferenciar aquello que *resulta vital para mí* del ruido. Enfrentarse en el momento actual al desarrollo de un sistema eficiente de filtrado pasa por dos visiones si bien a primera vista irreconciliables, sí complementarias a medio plazo.
 
 La primera visión pasa por la utilización de palabras clave que actúen como barrera a cualquier noticia que no aparezca en su contenido. Más sofisticado si cabe, pero no representa ninguna novedad técnica, es la incorporación de expresiones regulares en lugar de palabras clave. La aparición hace un año de Yahoo Pipes causó una cierta expectación como algún que otro interrogante del tipo *¿para qué sirve?*. En un primer momento se vendió como una herramienta web-centric de creación de *mashups*^[Un mashup no es más que una aplicación web que recoge y mezcla la información disponible de manera abierta de servicios web de terceros y la presenta en un acabado *remix* enriqueciendo la información original al proponer un nuevo mensaje o representación]
 
-Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical o *tubería* que enlaza la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura *En un principio fue la línea de comandos*, de Niel Stephenson)), la idea es muy simple: gracias a un conjunto de operadores visuales, Yahoo Pipes actúa como una suerte de tubería entre la fuente de información y el resultado final. El usuario decide que  
+Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical o *tubería* que enlaza la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura *En un principio fue la línea de comandos*, de Niel Stephenson)), la idea es muy simple: gracias a un conjunto de operadores visuales, Yahoo Pipes actúa como una suerte de tubería entre la fuente de información y el resultado final. Por ejemplo, el operador *RegExp* permite al usuario definir expresiones regulares que actúen como filtro de los *feeds* entrantes. Luego Yahoo Pipes transforma una masa informe de ruido informativo en un flujo de información adecuada y aproximada a los intereses del usuario.
+
+>So where is the startup that is going to be my information filter? I am aware of a few companies working on this problem, but I have yet to see one that has solved it in a compelling way. Can someone please do this for me? Please? I need help. We all do.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://tinyurl.com/5q2ag5)]
+
+
+Yahoo Pipes no es el único servicio orientado a filtrar la sobrecarga de *feeds* (aunque no sea su propósito). En cierta manera, el alcance de Yahoo Pipes supera el simple ejercicio de filtrar la saturación de *feeds*. Otras empresas o *startups* ofrecen la oportunidad de rebajar el flujo informativo a través de la personalización de filtros: FeedRinse^[http://www.feedrinse.com/]; sin excesiva complejidad, Feedsifter^[http://feedsifter.com/create.php] permite crear *in situ* el filtro de una fuente mediante palabras clave. 
+
+## La conversación como filtro 
 
 
 
+
+<!--
+
+Es posible filtrar: http://mashable.com/2009/07/03/twitter-filter/
 
 
 
@@ -65,8 +77,6 @@ Publicamos artículos, comentamos artículos, agregamos, compartimos noticias, v
 
 
 
-## Del RSS a Twitter	
-
 
 
 ## FriendFeed, ¿el filtro de la conversación?
@@ -88,16 +98,14 @@ En este sentido, las búsquedas en servicios de life streaming como FriendFeed a
 
 Según Catone ([2008](http://www.readwriteweb.com/archives/visualizing_social_media_fatigue.php)), un elemento clave contra la fatiga digital que dibuja el diagrama de Shuttelworth es la portabilidad de la información personal, lo que permitiría la creación de espacios de agrupación de la información y mejore la gestión de nuestra atención. Catone recupera el concepto de [la economía de la atención](http://en.wikipedia.org/wiki/Attention_economy) que, en palabras de Iskold y MacManus ([2007](http://www.readwriteweb.com/archives/attention_economy_overview.php)), _Because of this information explosion, we no longer read - we skim_. No leemos siguiendo el sentido de lectura horizontal de izquierda a derecha sino _observamos_ o tomamos instantáneas del contenido que desechamos una vez realizadas. El ritmo de lectura y asmilación de la información que vamos recibiendo es comparable a la fotografía, de los procedimientos artesanales de la generación de la imagen al ultra consumo de creación/deshecho/publicación con la cámara digital: nuestra atención es cada vez más exigente o, en su contra, más pobre: no hay sobresaltos en la abundancia informativa; todo es un falso positivo (Iskold y MacManus, 2007).
 
-<!--
 
 >The point is that we all have difficulty managing information overload and our attention stream; however, we can't let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity.^[http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)]
 
 
-Yahoo Pipes no es el único servicio orientado a la filtración de la conversación. En cierta manera, el alcance de Yahoo Pipes supera el simple ejercicio de filtrar la saturación de *feeds*. Otras empresas o *startups* ofrecen la oportunidad de rebajar el flujo informativo a través de la personalización de filtros: FeedRinse^[http://www.feedrinse.com/]; sin excesiva complejidad, Feedsifter^[http://feedsifter.com/create.php] permite crear *in situ* el filtro de una fuente mediante palabras clave. 
+
 
 Es notable remarcar que un servicio como Google Reader, uno de los lectores de *feeds* por parte de los usuarios, no presente un sistema de creación y gestión de filtros. En su lugar, todavía hay que remitir a los *hacks*^[http://thinkwasabi.com/2009/03/13-trucos-exprimir-maximo-google-reader/]. Por otro lado, este filtro lo deja de la mano del servicio Google Alert, el cual, no es precisamente lo mejorcito :-)^[[How to Use the New Google Web Search RSS Feeds](http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php)]
 
->So where is the startup that is going to be my information filter? I am aware of a few companies working on this problem, but I have yet to see one that has solved it in a compelling way. Can someone please do this for me? Please? I need help. We all do.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
 
 La conversación y http://notifixio.us/ feedsqueezer: feedsqueezer provides sophisticated tools for the management of RSS feeds
 
@@ -105,4 +113,4 @@ La conversación y http://notifixio.us/ feedsqueezer: feedsqueezer provides soph
 >Bringing all of this Web messaging and activity together in one place doesn't really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
 
 -->
-Es posible filtrar: http://mashable.com/2009/07/03/twitter-filter/
+
