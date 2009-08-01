@@ -46,6 +46,15 @@ Yahoo Pipes no es el único servicio orientado a filtrar la sobrecarga de *feeds
 
 ## La conversación como filtro 
 
+>I need less data, not more data. I need to know what is important, and I don't have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [http://tinyurl.com/5b6p2f](http://tinyurl.com/5b6p2f)]
+
+
+Gran parte de la actividad en la conversación es compartir información. La mayoría de las herramientas de la conversación se fundamentan en esta actividad que, en algunos momentos, resulta frenética. No es extraño que, con frecuencia, se produzca el fenómeno de *echo chamber* o una reverberación de la información debido al efecto de compartir la misma información desde diferentes canales y usuarios. Compartimos una noticia en Twitter o FriendFeed y, al poco tiempo, la misma noticia rebota literalmente en la conversación, luego nos llegará publicada como artículo en otro blog, como marcador, como *retweet* del nuestro, como comentario en FriendFeed, como noticia compartida en Google Reader. La reverberación de una información puede terminar transformándose en una auténtica caja de grillos digitales (nace un *trend*) cuando la información es de interés público. La muerte del cantante mundialmente popular Michael Jackson generó una onda expansiva de la noticia que recorrió la conversación adoptando todas las formas posibles. No es tan interesante la noticia en si misma -el fallecimiento inesperado del músico- sino cómo esta información fue interpretada por la conversación. Millones de voces publicaron su opinión del acontecimiento  
+
+
+>Bringing all of this Web messaging and activity together in one place doesn't really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://tinyurl.com/5q2ag5)]
+
+
 
 
 
@@ -64,7 +73,6 @@ Es posible filtrar: http://mashable.com/2009/07/03/twitter-filter/
 
 >I think the Feed is finally getting to me. Lately all I seem to be talking about are the following: Twitter, the iPhone, the Kindle, web hosting platforms, blogging, Facebook vanity URLs^[http://elanaroth.com/2009/06/22/overload/]
 
-Publicamos artículos, comentamos artículos, agregamos, compartimos noticias, votamos noticias, publicamos fotografías, videos, presentaciones, actualizamos nuestro estado, hablamos en menos de 140 caracteres, guardamos marcadores, definimos un estado, agregamos noticias, compartimos causas... el flujo de información que transmitimos diariamente es equiparable al que recibimos a través de los diferentes servicios de *voz de la conversación*. Cuanto más participamos en la conversación, mayor es nuestro interés en descubrir y compartir voces de la conversación. No es un simple juego en el que participamos bajo el rol de emisor y receptor a un mismo tiempo. La conversación es maleable como el barro y adopta formas diferentes según la dirección de las voces. 
 
 
 
@@ -72,7 +80,7 @@ Publicamos artículos, comentamos artículos, agregamos, compartimos noticias, v
 
 ## Filtrar la conversación
 
->I need less data, not more data. I need to know what is important, and I don't have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [http://tinyurl.com/5b6p2f](http://tinyurl.com/5b6p2f)]
+
 
 
 
@@ -103,14 +111,9 @@ Según Catone ([2008](http://www.readwriteweb.com/archives/visualizing_social_me
 
 
 
-
-Es notable remarcar que un servicio como Google Reader, uno de los lectores de *feeds* por parte de los usuarios, no presente un sistema de creación y gestión de filtros. En su lugar, todavía hay que remitir a los *hacks*^[http://thinkwasabi.com/2009/03/13-trucos-exprimir-maximo-google-reader/]. Por otro lado, este filtro lo deja de la mano del servicio Google Alert, el cual, no es precisamente lo mejorcito :-)^[[How to Use the New Google Web Search RSS Feeds](http://www.readwriteweb.com/archives/how_to_use_the_new_google_web_feeds.php)]
-
-
 La conversación y http://notifixio.us/ feedsqueezer: feedsqueezer provides sophisticated tools for the management of RSS feeds
 
 
->Bringing all of this Web messaging and activity together in one place doesn't really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://www.techcrunch.com/2008/04/17/web-30-will-be-about-reducing-the-noise%E2%80%94and-twhirl-isnt-helping/)]
 
 -->
 
