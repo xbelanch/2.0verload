@@ -1,13 +1,5 @@
 # Inbox Overload
 
-* http://www.readwriteweb.com/archives/cartoon_inbox_overload.php
-* http://www.socialsignal.com/blog/alexandra-samuel/10-steps-get-your-e-mail-inbox-zero-every-day
-* http://www.elpais.com/articulo/sociedad/sindrome/Diogenes/llego/ordenador/elpepisoc/20090331elpepisoc_1/Tes
-* http://www.research.ibm.com/remail/index.html
-* http://www.enriquedans.com/2009/03/el-sindrome-de-diogenes-y-el-correo-electronico-en-el-pais.html
-* http://www.enriquedans.com/2005/03/que-hacemos-con-los-correos.html
-
-
 >I stopped using e-mail most of the time. I quickly realized that the more messages you answer, the more messages you generate in return. It becomes a vicious cycle. By trying hard to stop the cycle, I cut the number of e-mails that I receive by 80 percent in a single week.^[http://www.nytimes.com/2008/06/29/jobs/29pre.html?_r=1]
 
 Luis ha tomado una decisión drástica: ha comunicado a los compañeros y compañeras de la empresa que va a dejar de utilizar el correo electrónico como herramienta de comunicación. Expresa la necesidad de recuperar su productividad personal; considera que pasar parte de la mañana en leer y responder correo una actividad improductiva: requiere un enorme esfuerzo de concentración, especialmente si atiende a la totalidad de los mensajes, recibidos y pendientes de respuesta. Leer y responder correo no es el problema, puntualiza Luis. El problema se encuentra en las prácticas tóxicas que contaminan y ofuscan la bandeja de entrada. El resultado es un cajón de sastre donde conviven entre muchos mensajes importantes, reenvíos, adjuntos de archivos, recordatorios, agradecimientos, publicidad, spam, etc. 

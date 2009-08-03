@@ -53,69 +53,14 @@ Gran parte de la actividad en la conversación es compartir información. La may
 
 Cada voz un filtro. Dejo de suscribirme a canales de información: prefiero *seguir* aquellas voces que actúan a un mismo tiempo de filtro y emisores de información *relevante*. La atención que pueda dedicar a un contenido será proporcional al número de *retweets* de las voces que soy *follower*. El viejo RSS, como el e-mail, ya se le identifica como parte activa del ruido y sobrecarga de información actual. Los filtros están dejando paso a opciones difusas: *Share it*, *I like it* o *tweet me*. Si bien tampoco están resultando una solución definitiva, ni siquiera parcial (*overtweets* y *overlikeit*), sí puede representar una puerta abierta a nuevas metodologías de filtrar las suscripciones a los canales de información y, por lo tanto, discriminar el ruido que poco o nada nos inquieta.
 
+### El discreto encanto de FriendFeed
+
+¿Que es FriendFeed? 
+
 
 >Bringing all of this Web messaging and activity together in one place doesn't really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://tinyurl.com/5q2ag5)]
 
 
 
 
-
-<!--
-
-Es posible filtrar: http://mashable.com/2009/07/03/twitter-filter/
-
-
-
-
-
-
-
-
-## Social Fatigue
-
->I think the Feed is finally getting to me. Lately all I seem to be talking about are the following: Twitter, the iPhone, the Kindle, web hosting platforms, blogging, Facebook vanity URLs^[http://elanaroth.com/2009/06/22/overload/]
-
-
-
-
-
-
-## Filtrar la conversación
-
-
-
-
-
-
-
-
-## FriendFeed, ¿el filtro de la conversación?
-
->Neoligism: UPDATE SLUT (n); one who promiscuously posts self-status blurbs to multiple svcs (Twitter, pownce, fb) all at once.^[http://twitter.com/xenijardin/statuses/264534072]
-
-¿Es Twitter quien matará el RSS? * http://www.twistimage.com/blog/archives/twitter-is-going-to-kill-rss/
-
-
-En adelante, la información no la recibiremos siguiendo el método tradicional de las suscripciones. Quienes publiquen la información se encargaran de filtrarla; no me suscribo a una página, sino a una conversación que me proporcione más información
-
-No me centraré a una canal, o web, sino a una tendencia. Si sólo me interesa un argumento, a través de los trends de Twitter puedo acceder a una información de enlaces, páginas, eventos, curiosidades, es decir, de alguna manera, mucho mayor que no mediante la sindicación a 100 ó 150 canales. 
-
-En este sentido, las búsquedas en servicios de life streaming como FriendFeed ayudarían a ir en este camino:
-
-* Escuchar la conversación desde los diferentes servicios de publicación a tiempo real de cada una de las voces
-* Aprovechar los filtros que permite la misma herramientas: búsquedas personalizadas.
-* Aprovechar el juego de eco que proporciona muchas voces (fenómeno de los RT en Twitter) en el juego de la atención a una noticia. Relevancia por las veces que aparece
-
-Según Catone ([2008](http://www.readwriteweb.com/archives/visualizing_social_media_fatigue.php)), un elemento clave contra la fatiga digital que dibuja el diagrama de Shuttelworth es la portabilidad de la información personal, lo que permitiría la creación de espacios de agrupación de la información y mejore la gestión de nuestra atención. Catone recupera el concepto de [la economía de la atención](http://en.wikipedia.org/wiki/Attention_economy) que, en palabras de Iskold y MacManus ([2007](http://www.readwriteweb.com/archives/attention_economy_overview.php)), _Because of this information explosion, we no longer read - we skim_. No leemos siguiendo el sentido de lectura horizontal de izquierda a derecha sino _observamos_ o tomamos instantáneas del contenido que desechamos una vez realizadas. El ritmo de lectura y asmilación de la información que vamos recibiendo es comparable a la fotografía, de los procedimientos artesanales de la generación de la imagen al ultra consumo de creación/deshecho/publicación con la cámara digital: nuestra atención es cada vez más exigente o, en su contra, más pobre: no hay sobresaltos en la abundancia informativa; todo es un falso positivo (Iskold y MacManus, 2007).
-
-
->The point is that we all have difficulty managing information overload and our attention stream; however, we can't let this stop us from exploring new technologies and new ideas. The solution is not to avoid these new tools. Our focus should be on finding ways to better manage this stream of information in a way that increases, not decreases, our productivity.^[http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)]
-
-
-
-La conversación y http://notifixio.us/ feedsqueezer: feedsqueezer provides sophisticated tools for the management of RSS feeds
-
-
-
--->
 

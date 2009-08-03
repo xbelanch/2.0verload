@@ -26,6 +26,27 @@
 * Doctorow, C. (2001). *Metacrap: Putting the torch to the seven straw-men of the meta-utopia*. Retrieved July 2, 2008, from  www.well.com/~doctorow/metacrap.htm
 * uhttp://rashmisinha.com/2006/01/18/a-social-analysis-of-tagging/
 
+
+## RSSocial Overload
+
+* http://www.readwriteweb.com/archives/the_man_who_made_gmail_says_real-time_conversation.php
+* http://www.consumer.es/web/es/tecnologia/internet/2008/10/08/180169.php
+* http://www.dangerouslyirrelevant.org/2007/08/social-network-.html 
+* http://blog.duoconsulting.com/2008/12/04/why-create-yet-another-social-profile/
+* http://www.readwriteweb.com/archives/friendfeed_information_overload.php 
+* http://feedproxy.google.com/~r/readwriteweb/~3/OrJW6611-CM/how_to_use_the_new_friendfeed.php
+
+
+## Email Overload
+
+* http://www.readwriteweb.com/archives/cartoon_inbox_overload.php
+* http://www.socialsignal.com/blog/alexandra-samuel/10-steps-get-your-e-mail-inbox-zero-every-day
+* http://www.elpais.com/articulo/sociedad/sindrome/Diogenes/llego/ordenador/elpepisoc/20090331elpepisoc_1/Tes
+* http://www.research.ibm.com/remail/index.html
+* http://www.enriquedans.com/2009/03/el-sindrome-de-diogenes-y-el-correo-electronico-en-el-pais.html
+* http://www.enriquedans.com/2005/03/que-hacemos-con-los-correos.html
+
+
 ## Representar el exceso de información
 
 * [5 Tips For Building Effective Infographics](http://www.visitmix.com/Articles/5-Tips-For-Building-Effective-Infographics)
