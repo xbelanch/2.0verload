@@ -23,8 +23,7 @@ De nuevo tenemos un exceso de información digital. Cada día tenemos en la band
 Hay diferentes enfoques sobre cómo tratar de gestionar el problema de la bandeja de entrada. Algunos autores consideran que el problema tiene su origen en la procrastinación de los usuarios provocado por el volumen de mensajes. Enfrentarse a doscientos correos electrónicos sin 
 Sumar erróneamente funcionalidades al cliente de correo
 
-Debido al tiempo que invertimos en gestionar diariamente el e-mail, no es sorprendente que, en poco tiempo, le incorporemos nuevas funcionalidades o usos:
-cliente de mensajería instantánea. Intercambiamos mensajes cortos con familiares, compañeros de unidad, de la empresa, clientes, proveedores,... 
+Debido al tiempo que dedicamos diariamente a gestionar la bandeja de entrada no es sorprendente que, en poco tiempo, incorporemos nuevas funcionalidades o usos: 
 
   * **gestor de proyectos y documentos**. Cuando colaboramos en un proyecto o en la redacción de un documento en el que participan varias personas, el cliente de correo se transforma en un sistema de control de versiones.
   * **gestor de marcadores**. Enviamos mensajes con enlaces de interés personal o profesional o relacionado con un proyecto del tipo “Mira cuando puedas esto...” o “¿Tienes presente esta página?”. 
@@ -85,9 +84,6 @@ Convencerse que un cliente de correo no es una herramienta con el que registramo
 Utilizar alternativas de comunicación más efecientes si el medio (administración, empresa, compañía) lo permite.
 
 
-La mayoría de consejos estan orientados como solución individual cuando en realidad pertenece a una dinámica colectiva. De poco o nada sirven si, como jefe de unidad, recibo copias de mensajes de mis subordinados demostrándome lo mucho que trabajan o incurren regularmente en acciones descritas en la lista anterior.
-
-
 ## Bandeja de entrada cero 
 
 Hay varias razones importantes para tener la bandeja de entrada vacía:
@@ -110,10 +106,17 @@ Hay voces que proclaman que la desparición del e-mail tal como lo hemos conocid
     * dificultad en la localización de contenido específico a través del buscador interno del cliente de correo.
 
 
-## Dos visiones confrontadas del PIG: email-centric o stop-using-email
+## Dos visiones confrontadas: *email-centric* o *stop-using-email*
 
+### *email-centric*
 
+O lo que vendría a ser un cliente de correo *on steroids*. 
 
+### *stop-using-email*
+
+La batalla personal de Luis Suárez contra la acumlación de correo en la bandeja de entrada no acabó en una simple declaración de buenos propósitos. Transcurrido un año, Luis sigue evaluando la iniciativa de aparcar el cliente de correo como canal de comunicación principal con el resto de compañeros de trabajo. La variedad de alternativas al uso indiscriminado del e-mail son cada vez más numerosas y, sobretodo, consistentes. Redes sociales como Facebook, servicios de microblogging como Twitter o cualquiera clientes de mensajería instantánea o VoIP representan, en la actualidad, herramientas de uso generalizado.   Si bien el éxito es parcial debido en gran medida a
+
+>No E-Mail Account: You are in your late teens or early 20s and you equate sending e-mails with using a fax machine, watching broadcast TV or buying CDs -- lame. You text and/or IM, and that's it. TTYL. Thomas Wailgum (2009)^[Wailgum, Thomas. 2009. *[What Your Webmail Choice Reveals About You](http://www.pcworld.com/businesscenter/article/162940/what_your_webmail_choice_reveals_about_you.html)*]
 
 ## Etiquetas a la ayuda
 
@@ -127,7 +130,7 @@ Hay voces que proclaman que la desparición del e-mail tal como lo hemos conocid
 
 > You can have multiple tags on one mail, but you can't put a mail in multiple folders.([Tags. Or three folders maximum](http://tech.slashdot.org/comments.pl?sid=542398&cid=23286128))
 
-
+>What's wrong with e-mail? In a nutshell, the medium is perfectly designed for information overload. Both message size and quantity are essentially unlimited. Unfortunately, electronic communication is like a gas: It expands to fill its container. Mike Elgan (2009)^[Elgan, Mike. 2009. *[How to kill e-mail (before it kills you)](http://www.computerworld.com/s/article/9131438/How_to_kill_e_mail_before_it_kills_you_)*] 
 
 ## Google Wave
 
