@@ -108,27 +108,29 @@ Hay voces que proclaman que la desparición del e-mail tal como lo hemos conocid
 
 ## Dos visiones confrontadas: *email-centric* o *stop-using-email*
 
-### *email-centric*
+### GMail o la visión *email-centric* llevada al límite.
 
 O lo que vendría a ser un cliente de correo *on steroids*. 
 
-### *stop-using-email*
+#### Etiquetas a la ayuda
 
-La batalla personal de Luis Suárez contra la acumlación de correo en la bandeja de entrada no acabó en una simple declaración de buenos propósitos. Transcurrido un año, Luis sigue evaluando la iniciativa de aparcar el cliente de correo como canal de comunicación principal con el resto de compañeros de trabajo. La variedad de alternativas al uso indiscriminado del e-mail son cada vez más numerosas y, sobretodo, consistentes. Redes sociales como Facebook, servicios de microblogging como Twitter o cualquiera clientes de mensajería instantánea o VoIP representan, en la actualidad, herramientas de uso generalizado.   Si bien el éxito es parcial debido en gran medida a
-
->No E-Mail Account: You are in your late teens or early 20s and you equate sending e-mails with using a fax machine, watching broadcast TV or buying CDs -- lame. You text and/or IM, and that's it. TTYL. Thomas Wailgum (2009)^[Wailgum, Thomas. 2009. *[What Your Webmail Choice Reveals About You](http://www.pcworld.com/businesscenter/article/162940/what_your_webmail_choice_reveals_about_you.html)*]
-
-## Etiquetas a la ayuda
-
->"I run a student organization with a 10-member 'board of directors.' We hardly ever all have time to attend meetings and a large part of how we interact with the student body is through email. We have a shared email account (accessible by the 10 of us on the board) right now that is typically accessed through an outlook web-access portal. We've been attempting to keep things organized in the account through a complex collection of folders that have been tacked on ad libum. It's turned into a complete mess. I have the onerous task of restructuring the folder system in hopes of achieving sustainable organization, but I'm wondering if I should just switch us over to a tagging system — perhaps Gmail. Has anyone used tags for a multi-user account successfully or does it end up being just as messy?"
+> You can have multiple tags on one mail, but you can't put a mail in multiple folders.([Tags. Or three folders maximum](http://tech.slashdot.org/comments.pl?sid=542398&cid=23286128))
 
 [Folders vs. Tags For Shared Email Accounts?](http://tech.slashdot.org/article.pl?sid=08/05/03/1749255)
 
+### *stop-using-email*
+
+La batalla personal de Luis Suárez contra la acumlación de correo en la bandeja de entrada no acabó en una simple declaración de buenos propósitos. Transcurrido un año, Luis sigue evaluando la iniciativa de aparcar el cliente de correo como canal de comunicación principal con el resto de compañeros de trabajo. La variedad de alternativas al uso indiscriminado del e-mail son cada vez más numerosas y, sobretodo, consistentes. Redes sociales como Facebook, servicios de microblogging como Twitter o cualquiera clientes de mensajería instantánea o VoIP representan, en la actualidad, herramientas de uso generalizado en el ámbito particular. La enorme interacción de muchos a muchos coloca la dinámica del e-mail en una posición de clara desventaja. 
+
+>No E-Mail Account: You are in your late teens or early 20s and you equate sending e-mails with using a fax machine, watching broadcast TV or buying CDs -- lame. You text and/or IM, and that's it. TTYL. Thomas Wailgum (2009)^[Wailgum, Thomas. 2009. *[What Your Webmail Choice Reveals About You](http://www.pcworld.com/businesscenter/article/162940/what_your_webmail_choice_reveals_about_you.html)*]
+
+Pero finalmente el éxito de esta propuesta es limitada si el contexto en el que se desarrolla es de ámbito profesional y corporativo. El celo con el que empresas y corporaciones gestiona la comunicación interna de sus empleados acaba en la penalización del uso de tecnologías externas -fuera de los servidores corporativos- como el enquiste de la ineficencia y baja calidad de las propias. Si el lamentable Internet Explorer 6 todavía sigue utilizándose mayoritariamente (Dans [2009])^[Dans, Enrique. 2009 *[El problema con Internet Explorer 6](http://www.enriquedans.com/2009/08/el-problema-con-internet-explorer-6.html)] por estas y otras políticas restrictivas en el equipamiento informático de administraciones públicas y empresas, no resulta difícil extrapolar esta delirante situación al tratamiento del correo:
+
+	Action: failed
+	Status: 4.2.2 (user over quota; cannot receive new mail)
 
 
 
-
-> You can have multiple tags on one mail, but you can't put a mail in multiple folders.([Tags. Or three folders maximum](http://tech.slashdot.org/comments.pl?sid=542398&cid=23286128))
 
 >What's wrong with e-mail? In a nutshell, the medium is perfectly designed for information overload. Both message size and quantity are essentially unlimited. Unfortunately, electronic communication is like a gas: It expands to fill its container. Mike Elgan (2009)^[Elgan, Mike. 2009. *[How to kill e-mail (before it kills you)](http://www.computerworld.com/s/article/9131438/How_to_kill_e_mail_before_it_kills_you_)*] 
 
