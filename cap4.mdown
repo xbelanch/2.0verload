@@ -108,9 +108,11 @@ Hay voces que proclaman que la desparición del e-mail tal como lo hemos conocid
 
 ## Dos visiones confrontadas: *email-centric* o *stop-using-email*
 
+Dos son las tendencias que dibujan las dos caras de la moneda de la gestión del correo electrónico. Una primera, *email-centric*, que integra definitivamente aquellas funcionalidades que el usuario ha incorporado al margen del primero y único uso del cliente de correo, recibir, leer y enviar correo. La segunda visión propone, como la iniciativa de Luis Suárez, la eliminación por completo del correo electrónico.
+
 ### GMail o la visión *email-centric* llevada al límite.
 
-O lo que vendría a ser un cliente de correo *on steroids*. 
+O lo que vendría a ser un cliente de correo *on steroids*. La aparición en el 2003 del cliente de correo de Google despertó un mayor interés en los *early-adopters* que en el seno de la empresa, que dudaron de su capacidad de atraer al número millonario de usuarios de HotMail, luego de los esfuerzos en vano del desarrollo. Un sistema de invitaciones, un buscador marca de la casa, buenas dosis de tecnología AJAX^[Asynchronous Javascript XML] y un nuevo método de organización y clasificación de los mensajes, agrupando las conversaciones en una único mensaje y asociar etiquetas en lugar de la tradicional sistema de carpetas, contribuyó a un éxito generalizado, luego la rápida migración como principal cliente de correo
 
 #### Etiquetas a la ayuda
 
@@ -124,7 +126,7 @@ La batalla personal de Luis Suárez contra la acumlación de correo en la bandej
 
 >No E-Mail Account: You are in your late teens or early 20s and you equate sending e-mails with using a fax machine, watching broadcast TV or buying CDs -- lame. You text and/or IM, and that's it. TTYL. Thomas Wailgum (2009)^[Wailgum, Thomas. 2009. *[What Your Webmail Choice Reveals About You](http://www.pcworld.com/businesscenter/article/162940/what_your_webmail_choice_reveals_about_you.html)*]
 
-La posibilidad de alcanzar un éxito en abandonar definitivamente el e-mail es limitada si el contexto en el que se desarrolla es de ámbito profesional y corporativo. El celo con el que empresas y corporaciones gestionan la comunicación interna de sus empleados acaba en la penalización de la utilización de tecnologías externas -fuera de los servidores corporativos- como el enquiste de la ineficencia y baja calidad de las propias. Si el lamentable Internet Explorer 6 todavía sigue utilizándose mayoritariamente (Dans [2009])^[Dans, Enrique. 2009 *[El problema con Internet Explorer 6](http://www.enriquedans.com/2009/08/el-problema-con-internet-explorer-6.html)] por estas y otras políticas restrictivas en el equipamiento informático de administraciones públicas y empresas, no resulta difícil extrapolar esta delirante situación al tratamiento del correo:
+La posibilidad de alcanzar un éxito en abandonar definitivamente el e-mail es limitada si el contexto en el que se desarrolla es de ámbito profesional y corporativo. El celo con el que empresas y corporaciones gestionan la comunicación interna de sus empleados acaba en la penalización de la utilización de tecnologías externas -fuera de los servidores corporativos- como el enquiste de la ineficencia y baja calidad de las propias. Si el lamentable Internet Explorer 6 todavía sigue utilizándose mayoritariamente (Dans [2009])^[Dans, Enrique. 2009 *[El problema con Internet Explorer 6](http://www.enriquedans.com/2009/08/el-problema-con-internet-explorer-6.html)*] por estas y otras políticas restrictivas en el equipamiento informático de administraciones públicas y empresas^[Dybward, Barb. 2009. *[IE6 OFFENDERS: Report Companies Still Using Internet Explorer 6](http://mashable.com/2009/08/18/ie6-offenders/)*], no resulta difícil extrapolar esta delirante situación al tratamiento del correo:
 
 	Action: failed
 	Status: 4.2.2 (user over quota; cannot receive new mail)
