@@ -34,42 +34,30 @@ Debido al tiempo que dedicamos diariamente a gestionar la bandeja de entrada no 
   * una **red social** en el que compartimos las fotos de vacaciones, diapositivas divertidas (o no tan divertidas), chismorreos, rumores, causas y un largo etcétera.
   * un **diario personal** en el que vamos registrando nuestras memorias.
 
-Esta sobrecarga de funcionalidades al cliente de correo tiene un efecto demoleador en la bandeja de entrada: todos los mensajes se confunden en un único espacio, lo que resulta improductivo porque exige esfuerzos en:
-     
-* diferenciar los niveles de importancia de los mensajes.
-* clasificar los mensajes según sea el contenido.
-* recuperar el contenido de mensajes pasados.
-
-## Bandeja de entrada saturada -cuttering, scattering and suffering 
-
 <!--
 ![email-overload-by-noise-to-signal](http://www.readwriteweb.com/images/2009-05-23-ledge.gif)
 -->
 
-Una bandeja de entrada representa un problema triple: 
-Acumulación de trabajo (work cuttering), por lo que nos provocará un tipo de estrés al no poder controlar la información que diariamente nos va llegando
-Dispersión de la información (information scattering) que también nos provocará un enorme estrés y baja productividad al no saber dónde hemos guardado la información.
-Sufrimiento (suffering)al no conocer estrategias que nos permitan remediar o corregir los anteriores escenarios.
+## El zen de la bandeja de entrada
 
-## Consejos, ayudas, recomendaciones 
+Varios autores, unos más populares que otros, han prestado su atención al problema del descontrol de la bandeja de entrada. Merlin Mann, ideólogo de *Inbox Zero*, Tim Ferriss, autor de *The 4-Hour Workweek*, Mark Husrt, de *Bit Literacy*, Scott Young, en *Email Zen*, incluso cabría el tremendamente popular *Getting Things Done* de David Allen, y otros activistas *zen* de la productividad, proponen consejos, ayudas, recomendaciones, orientaciones e incluso qué herramientas son las más eficientes en alcanzar ese estadio de equilibrio espiritual moderno representado por una bandeja de entrada limpia, controlada. En general, coinciden que una bandeja de entrada desbordada, un cliente de correo desbocado, supone un triple problema:
 
->Esta es la primera crisis fuerte en la que disponemos masivamente desplegada de esta tecnología de comunicación electrónica. Lo que me dicen y lo que puedo observar es que no está resultando todo lo efectiva, productiva y humana que pensaron sus inventores, como explicó uno de ellos, Howard Frank, cuando le dimos un premio en el IESE hará 15 años. Hay quienes se esconden y evitan disculparse. Pero también los hay creando la imagen de que trabajan reduciendo costes cuando lo que hacen es superficial o contraproducente. Casi seguro que para la próxima crisis fuerte, el 2021, los e-mail estarán prohibidos.^[Pedro Nueno ([2009](http://espaicritic.blogspot.com/2009/05/emailiando-de-pedro-nueno-en-la.html)) Emailiando]
+* Se acumula el trabajo pendiente -*email cuttering*-. Un larga lista de mensajes no leídos es motivo de estrés y de disminución de eficiencia al obligarnos a dedicar gran parte de la jornada laboral a gestionar la bandeja de entrada.
+* Una creciente dispersión de la información -*email scattering*-. El contenido de los mensajes se pierde en la confusión de una bandeja de entrada desbordada. Recuperar más tarde un mensaje puede costarnos un tiempo y esfuerzo excesivo.
+* Una angustia personal -*email suffering*- al no conocer una manera mejor y eficiente de gestionar la bandeja de entrada.
 
+Esta literatura colinda con la autoayuda profesional y los autores acostumbran a adoptar una postura agnóstica en términos de cuál cliente es mejor o más idóneo para rebajar tensiones y ser más eficientes en el trabajo.
 
-Varios autores han dedicado su atención al problema de la bandeja de entrada. Merlin Mann, ideólogo de *Inbox Zero*, Tim Ferriss, autor de *The 4-Hour Workweek*, Mark Husrt, de *Bit Literacy*, Scott Young, en *Email Zen*, incluso cabría el tremendamente popular *Getting Things Done* de David Allen, y otros activistas zen de la productividad que participan profusamente en esta conversación, proponen consejos, ayudas, recomendaciones, orientaciones e incluso qué herramientas son más eficientes en alcanzar el zen del control de la bandeja de entrada.
+En general, los diferentes autores coinciden en mayor o menor grado en la siguiente lista de recomendaciones:
 
-Un visión general de las ayudas y consejos de los diferentes autores nos permite encontrar un común denominador:
-Conseguir el zen de la bandeja de entrada cero.
-
-  * Utiliza un cliente de correo eficiente que filtre lo máximo posible el correo basura, spam. Publicidad, basura, información indiscriminada o junk: basura o no, la mayoría de estos mensajes sólo consiguen distraernos del resto de mensajes en cuanto a su cantidad. Todos los autores coinciden en no abrir jamás estos mensajes y borrarlos inmediatamente.
-  * No actualizar la bandeja de entrada cada momento. No trabajas en un silo de misiles nucleares en Corea del Norte, como remarca Merlin Mann.
-  * Mensajes de amigos o familiares. Scott Young aconseja responderlos y acto seguido, borrarlos. Sólo quiero apuntar que algunos de estos mensajes deberían ser borrados si contienen información de escaso interés, por lo que se convierten en mensajes de sólo lectura.
+  * Utilizar un cliente de correo eficiente que filtre lo máximo posible el correo basura, spam. Publicidad, basura, información indiscriminada o *junk*: basura o no, la mayoría de estos mensajes sólo consiguen distraernos del resto de mensajes en cuanto a su cantidad. Todos los autores coinciden en no abrir jamás estos mensajes y borrarlos inmediatamente.
+  * No actualizar la bandeja de entrada cada momento. *No trabajas en un silo de misiles nucleares en Corea del Norte*, como remarca Merlin Mann.
   * Concentrar en una única bandeja de entrada en caso de utilizar dos o más cuentas de correo.
   * Utilizar un cliente de correo web frente a uno de escritorio. Evitará de esta manera futuras migraciones. Independiente del sistema operativo, lugar.
   * Utilizar teclas de acceso rápido para ser más eficientes con el cliente de correo.
   * Concentrar la lectura del correo en un momento del día. No dispersar esta acción a lo largo del día.
   * Evitar leer el correo desde dispositivos móviles si no quieres ser un esclavo de la bandeja de entrada las 24 horas del día, 7 días a la semana.
-  * Si el mensaje puede responderse en menos de un minuto, respóndelo y bórralo. 
+  * Responder y borrar un mensaje que no necesite más de 1 minuto la redacción de la respuesta. 
   * Cancelar subscripciones a listas de correo que ya no les prestamos ninguna atención. Si sigue interesándonos, agrupar los mensajes por días.
   * Borrar inmediatamente los mensajes que contengan causas colectivas, presentaciones de dudosa procedencia, chistes u otro material improcedente.
   * Penalizar a quien nos envía mensajes regularmente con contenido improcedente.
@@ -78,32 +66,10 @@ Convencerse que un cliente de correo no es una herramienta con el que registramo
   * Borrar automáticamente todo mensaje pasado un tiempo (1 mes, por ejemplo).
   * Evitar posponer una respuesta más allá de 3 días. Pasado este tiempo es preferible borrar el mensaje.
   * Escribir menos, conciso y hacer un uso intensivo de listas de apartados como cuerpo del mensaje.
-  * El título del menaje ha de contextualizar el contenido del mensaje.
-  * Evitar la prosa, largas redacciones o florituras estilísticas. El receptor no espera leer la primera parte de una novela.
+  * Contextualizar el contenido en el campo del título del mensaje.
+  * Evitar la prosa, largas redacciones o florituras estilísticas. El receptor no espera leer la primera parte de una novela decimonónica.
   * Evitar adornos visuales, tipografía vistosa o colores que no sean armónicos en el cuerpo del mensaje. 
 Utilizar alternativas de comunicación más efecientes si el medio (administración, empresa, compañía) lo permite.
-
-
-## Bandeja de entrada cero 
-
-Hay varias razones importantes para tener la bandeja de entrada vacía:
-
-  * Una bandeja de entrada vacía evita la ansiedad de saber que tenemos trabajo pendiente por realizar. Y que cada día que pasa resulta ser más nocivo para la conciencia profesional.
-  * Nos hace sentir más eficientes en la redacción de las respuestas. Nos resulta más agobiante responder un mensaje de hace semanas que uno del mismo día. El primero nos exigirá un mayor esfuerzo de concentración: recordar el contexto del contenido del mensaje; excusarse por el retraso de la respuesta; encontrar la solución o la respuesta adecuada. Cuanto más tiempo ha pasado, más formal deberá ser la respuesta.
-
-## La desaparición del correo electrónico ¿es posible? 
-
-Hay voces que proclaman que la desparición del e-mail tal como lo hemos conocido por varios factores:
-
-  * Las nuevas generaciones prefieren sistemas de comunicación rápidos: se inclinan definitivamente por tecnologías de mensajería instantánea, SMS (Short Message Service) o, simplemente, teléfono móvil, VOiP o videoconferencia antes que el correo electrónico.
-  * La proliferación de intranets, foros, gestores de contenidos, redes sociales, servicios de microblogging, bloging o wikis, por ejemplo, permiten otros modelos de comunicación más eficientes en cuanto a que:
-    * Agrupan los mensajes en conversaciones que giran alrededor de un tema o afinidad.
-    * Mantienen la conversación en un espacio entre lo privado y público. 	
-  * La degradación del servicio debido a diversos factores como: 
-    * la acumulación desorbitada de correo basura o malicioso por falta de una tecnología eficaz del proveedor contra el spam.
-    * limitaciones ridículas de espacio de la bandeja de entrada como del tamaño de transferencia de los mensajes.
-    * inseguridad a la hora de realizar copias de seguridad del correo
-    * dificultad en la localización de contenido específico a través del buscador interno del cliente de correo.
 
 
 ## Dos visiones confrontadas: *email-centric* o *stop-using-email*
@@ -112,24 +78,35 @@ Dos son las tendencias que dibujan las dos caras de la moneda de la gestión del
 
 ### GMail o la visión *email-centric* llevada al límite.
 
-O lo que vendría a ser un cliente de correo *on steroids*. La aparición en el 2003 del cliente de correo de Google despertó un mayor interés en los *early-adopters* que en el seno de la empresa, que dudaron de su capacidad de atraer al número millonario de usuarios de HotMail, luego de los esfuerzos en vano del desarrollo. Un sistema de invitaciones, un buscador marca de la casa, buenas dosis de tecnología AJAX^[Asynchronous Javascript XML] y un nuevo método de organización y clasificación de los mensajes, agrupando las conversaciones en una único mensaje y asociar etiquetas en lugar de la tradicional sistema de carpetas, contribuyó a un éxito generalizado, luego la rápida migración como principal cliente de correo
+>We didn't want to simply bolt new features onto old interfaces. We needed to rethink email, but at the same time we needed to respect that email already had over 30 years of history, thousands of existing programs, and nearly a billion users^[Buchheit, Paul. 2005. *[Guess what just turned 34?](http://googleblog.blogspot.com/2005/10/guess-what-just-turned-34.html)*]
 
-#### Etiquetas a la ayuda
+O lo que vendría a ser un cliente de correo *on steroids*. Su aparición en abril del 2004 despertó un mayor interés en los *early-adopters* que en el seno de la empresa, que dudaron y se resistieron^[Buchheit, Paul. 2009. *[Overnight success takes a long time](http://paulbuchheit.blogspot.com/2009/01/overnight-success-takes-long-time.html)*] al desarrollo de la nueva tecnología pensando en la poca penetración que tendría en un sector dominado por el cliente de correo de escritorio de Microsoft, Outlook, como el popular Hotmail (ahora MSN Hotmail). Un sistema de invitaciones, un buscador marca de la casa, buenas dosis de tecnología AJAX^[asynchronous Javascript and XML] y un nuevo método de organización y clasificación de los mensajes, la vista de conversación (emulando los mensajes de un foro) y el uso etiquetas en lugar de la tradicional sistema de carpetas, contribuyó a un éxito generalizado, luego la rápida migración como principal cliente de correo.
+
+
+<!--
 
 > You can have multiple tags on one mail, but you can't put a mail in multiple folders.([Tags. Or three folders maximum](http://tech.slashdot.org/comments.pl?sid=542398&cid=23286128))
 
 [Folders vs. Tags For Shared Email Accounts?](http://tech.slashdot.org/article.pl?sid=08/05/03/1749255)
+-->
 
 ### *stop-using-email*
 
-La batalla personal de Luis Suárez contra la acumlación de correo en la bandeja de entrada no acabó en una simple declaración de buenos propósitos. Transcurrido un año, Luis sigue evaluando la iniciativa de aparcar el cliente de correo como canal de comunicación principal con el resto de compañeros de trabajo. La variedad de alternativas al uso indiscriminado del e-mail son cada vez más numerosas y, sobretodo, consistentes. Redes sociales como Facebook, servicios de microblogging como Twitter o cualquiera clientes de mensajería instantánea o VoIP representan, en la actualidad, herramientas de uso generalizado en el ámbito particular. La enorme interacción de muchos a muchos coloca la dinámica del e-mail en una posición de clara desventaja. Quizá una evolución/transformación del e-mail en esta dirección sea el *comentario*, asociado a cualquier evento que publicamos, sea una entrada del blog, un *tweet* o una actividad o estado en la red social.
+>Esta es la primera crisis fuerte en la que disponemos masivamente desplegada de esta tecnología de comunicación electrónica. Lo que me dicen y lo que puedo observar es que no está resultando todo lo efectiva, productiva y humana que pensaron sus inventores, como explicó uno de ellos, Howard Frank, cuando le dimos un premio en el IESE hará 15 años. Hay quienes se esconden y evitan disculparse. Pero también los hay creando la imagen de que trabajan reduciendo costes cuando lo que hacen es superficial o contraproducente. Casi seguro que para la próxima crisis fuerte, el 2021, los e-mail estarán prohibidos.^[Pedro Nueno ([2009](http://espaicritic.blogspot.com/2009/05/emailiando-de-pedro-nueno-en-la.html)) Emailiando]
+
+La batalla personal de Luis Suárez contra la acumlación de correo en la bandeja de entrada no acabó en una simple declaración de buenos propósitos. Transcurrido un año, Luis sigue evaluando la iniciativa de aparcar el cliente de correo como canal de comunicación principal con el resto de compañeros de trabajo. La variedad de alternativas al uso indiscriminado del e-mail son cada vez más numerosas y, sobretodo, consistentes. Redes sociales como Facebook, servicios de microblogging como Twitter o cualquiera clientes de mensajería instantánea o VoIP representan, en la actualidad, herramientas de uso generalizado en el ámbito particular. Un ejemplo de esto representa la diversidad de medios de comunicación utilizados por los ridículamente bautizados como *digital natives* o *net natives*. Estos se inclinan por tecnologías de mensajería instantánea, redes sociales, SMS (Short Message Service) o, simplemente, teléfono móvil y sólo utilizan el correo electrónico en entornos rehacios a formar parte de la cultura de la conversación, como el caso del ecosistema de la administración pública y, en especial, el mundo educativo. La enorme interacción de muchos a muchos coloca la dinámica del e-mail en una posición de clara desventaja. Quizá una evolución/transformación del e-mail en esta dirección sea el *comentario*, asociado a cualquier evento que publicamos, sea una entrada del blog, un *tweet* o una actividad o estado en la red social.
 
 >No E-Mail Account: You are in your late teens or early 20s and you equate sending e-mails with using a fax machine, watching broadcast TV or buying CDs -- lame. You text and/or IM, and that's it. TTYL. Thomas Wailgum (2009)^[Wailgum, Thomas. 2009. *[What Your Webmail Choice Reveals About You](http://www.pcworld.com/businesscenter/article/162940/what_your_webmail_choice_reveals_about_you.html)*]
 
 La posibilidad de alcanzar un éxito en abandonar definitivamente el e-mail es limitada si el contexto en el que se desarrolla es de ámbito profesional y corporativo. El celo con el que empresas y corporaciones gestionan la comunicación interna de sus empleados acaba en la penalización de la utilización de tecnologías externas -fuera de los servidores corporativos- como el enquiste de la ineficencia y baja calidad de las propias. Si el lamentable Internet Explorer 6 todavía sigue utilizándose mayoritariamente (Dans [2009])^[Dans, Enrique. 2009 *[El problema con Internet Explorer 6](http://www.enriquedans.com/2009/08/el-problema-con-internet-explorer-6.html)*] por estas y otras políticas restrictivas en el equipamiento informático de administraciones públicas y empresas^[Dybward, Barb. 2009. *[IE6 OFFENDERS: Report Companies Still Using Internet Explorer 6](http://mashable.com/2009/08/18/ie6-offenders/)*], no resulta difícil extrapolar esta delirante situación al tratamiento del correo:
 
+* acumulación desorbitada de correo basura o malicioso por falta de una tecnología eficaz del proveedor contra el spam.
+* limitaciones ridículas de espacio de la bandeja de entrada como del tamaño de transferencia de los mensajes.
 	Action: failed
 	Status: 4.2.2 (user over quota; cannot receive new mail)
+* inseguridad y dudosa efectividad si urge la necesidad realizar copias de seguridad del correo
+* dificultad en la localización de contenido específico a través del buscador interno del propio cliente de correo.
+
 
 El e-mail no forma parte de la conversación actual. Su presencia ubicua en el ecosistema digital no corresponde con la dinámica actual de compartir información. Todo lo contrario, representa uno de los generadores de mayor ruido y basura no visible debido a su carácter privado. Al margen de sus efectos nocivos en términos de productividad, resulta evidente la necesidad de frenar su prolongación en el tiempo. Google invierte esfuerzos en la dos direcciones al dotar, por un lado, a su popular cliente de correo, GMail, funcionalidades que reinventan la gestión de la bandeja de entrada y, por otro, diseñar un entorno híbrido de comunicación o *mashup* a tiempo real que permita la personalización individual y colectiva de la conversación (Parr [2009]^[Parr, Ben. 2009. *[Google Wave: A Complete Guide](http://mashable.com/2009/05/28/google-wave-guide/)*]. 
 
