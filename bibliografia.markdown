@@ -46,6 +46,11 @@
 * http://www.enriquedans.com/2009/03/el-sindrome-de-diogenes-y-el-correo-electronico-en-el-pais.html
 * http://www.enriquedans.com/2005/03/que-hacemos-con-los-correos.html
 
+## ¿Cuál es la versión correcta?
+
+* http://pymecrunch.com/gestion-documental-mediante-software
+* http://eliax.com/index.php?/archives/5041-Versionista-y-WayBackMachine-detectan-cambios-en-paginas-web.html
+*
 
 ## Representar el exceso de información
 

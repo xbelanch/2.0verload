@@ -1,7 +1,5 @@
 # ¿Cuál es la versión correcta? 
 
-http://pymecrunch.com/gestion-documental-mediante-software
-
 En la redacción de un documento en el que participan varias personas se establece la vieja metodología de trabajo divide y vencerás Los participantes deciden qué parte del documento desarrollaran. De esta forma, nadie pisará el trabajo del otro y no se incurrirá a incongruencias al final del proceso. Esta modalidad también incluye un baremo de evaluación del trabajo de cada uno. El trabajo final es una suerte de suma de las partes. Si a primera vista esta estrategia parece idónea, una visión más detenida nos informará que:
 
 * El resultado es irregular a varios niveles: no es homogéneo a nivel estilístico.
@@ -12,17 +10,11 @@ En la redacción de un documento en el que participan varias personas se estable
 * Resulta difícil gestionar las sucesivas actualizaciones del documento.
 * Se establece una comunicación unidireccional con la coordinación del proyecto. La coordinación deja de realizar tareas de coordinación y las sustituye por otras que intoxican su trabajo.
 
-El problema fundamental se manifiesta cuando quienes participan en el desarrollo del documento intentan revisar cambios anteriores. ¿Quién ha realizado este o aquel cambio? ¿Cuándo se realizó la modificación? ¿Podemos recuperar una versión anterior del documento previo a la modificación? Y una vez terminada la redacción, ¿quién y cómo se encargarán las futuras actualizaciones del documento?
-
-## Gestión de las versiones 
-
-Versionista: http://eliax.com/index.php?/archives/5041-Versionista-y-WayBackMachine-detectan-cambios-en-paginas-web.html
-
-Este escenario se agrava más todavía si una metodología de desarrollo de la documentación personal y, especialmente, colectiva, no permite de manera transparente la reutilización de los contenidos. Es probable que un mismo contenido se escriba más de una vez en organizaciones en las que las unidades que la conforman generan la documentación en la más pura de las invisibilidades; se hablaría de unidades estancas aunque las separe físicamente apenas un metro de distancia entre ellas. La duplicación y la triplicación de los contenidos tiene un efecto desastroso en la productividad de la organización como manifestar abiertamente las incoherencias internas. De hecho, es posible que un único mensaje se represente, se escriba o se transmita de varias maneras, en parte por culpa de una tipología de la gestión de la información unidad-centric. 
+El problema fundamental se manifiesta cuando quienes participan en el desarrollo del documento intentan revisar cambios anteriores. ¿Quién ha realizado este o aquel cambio? ¿Cuándo se realizó la modificación? ¿Podemos recuperar una versión anterior del documento previo a la modificación? Y una vez terminada la redacción, ¿quién y cómo se encargarán las futuras actualizaciones del documento? Este escenario se agrava más todavía si una metodología de desarrollo de la documentación personal y, especialmente, colectiva, no permite de manera transparente la reutilización de los contenidos. Es probable que un mismo contenido se escriba más de una vez en organizaciones en las que las unidades que la conforman generan la documentación en la más pura de las invisibilidades; se hablaría de unidades estancas aunque las separe físicamente apenas un metro de distancia entre ellas. La duplicación y la triplicación de los contenidos tiene un efecto desastroso en la productividad de la organización como manifestar abiertamente las incoherencias internas. De hecho, es posible que un único mensaje se represente, se escriba o se transmita de varias maneras, en parte por culpa de una tipología centralista de la gestión de la información.
 
 ## Wikis 
 
->Nevertheless, I predict that Wikis will disappear over the next 5 to 10 years. This is not because they will fail but precisely because they will succeed. The best technologies disappear from view because they become so common-place that nobody notices them. Wiki-style functionality will become embedded within other software – within portals, web design tools, word processors, and content management systems. Our children may not learn the word “Wiki,” but they will be surprised when we tell them that there was a time when you couldn’t just edit a web page to build the content collaboratively. Matthew C.
+>Nevertheless, I predict that Wikis will disappear over the next 5 to 10 years. This is not because they will fail but precisely because they will succeed. The best technologies disappear from view because they become so common-place that nobody notices them. Wiki-style functionality will become embedded within other software – within portals, web design tools, word processors, and content management systems. Our children may not learn the word “Wiki,” but they will be surprised when we tell them that there was a time when you couldn’t just edit a web page to build the content collaboratively.^[Matthew C.
 Clarke ([2009](http://www.boxesandarrows.com/view/control-and))
 
 
@@ -63,37 +55,6 @@ El uso y utilización de una wiki en el ámbito personal y profesional de una or
 * Canal de comunicación fácil de actualizar con los clientes
 
 
-### Wikis públicas 
-
-  * PBWiki
-  * Wikispaces
-  * Jottit
-  * Wikidot
-  * Google Sites
-
-
-### Caso práctico: Jottit 
-
-Jottit (http://jottit.com) es un servicio gratuito de creación ágil de wikis, basado en un pequeño web framework de dominio público, web.py (http://webpy.org/). La elección de esta wiki pública se debe, en gran medida, a su facilidad y agilidad de uso: contiene las funcionalidades básicas y necesarias para emprender un proyecto colaborativo de pocas páginas. 
-
-Con Jottit podéis:
-
-  * Crear y editar páginas 
-  * Uso de un lenguaje de marcado wiki
-
-La página principal de Jottit presenta el logo y, debajo de este, una caja de texto en las que nos invita a comenzar a crear la primera página. Escribimos una frase y hacemos clic en el botón Create a site.
-
-  - Una vez creada la página, aparecerá la primera página -la principal o home- en la que se nos recuerda guardar el marcador, creado mediante la suma del dominio de jottit.com, más una clave de cinco letras que proporciona la dirección de la página principal de la wiki, http://jottit.com/tyqjt/ por ejemplo, si queremos volver a recuperar o trabajar de nuevo con la wiki.
-  - Configurar el título, subtítulo y modificar la URL original de la wiki es posible si hacéis clic a la opción settings, ubicada en la esquina superior derecha. A través de un sencillo formulario podréis modificar los apartados arriba mencionados. Incluye la función de exportación de los últimos cambios realizados, una foto-finish de la documentación, al formato ATOM y, por último, la opción de borrar la wiki. Más adelante hablaremos de las posibilidades del formato ATOM.
-  - En este mismo formulario podéis modificar la URL original, proporcionada por defecto por Jottit, si hacéis clic en el enlace Give your site an address. En lugar de una clave de cinco letras, podéis personalizar la URL que os sea fácil de recordar.
-  - Si hacéis clic en home, regresaréis a la página principal. La edición de la página principal o de cualquier otra página es posible si hacéis clic en edit. Aparecerá la página de edición, dividida en dos partes iguales. A la izquierda, una caja de texto donde introduciréis el texto nuevo o cambios de un documento. A la derecha iréis viendo, a tiempo real, la representación de estos cambios. Recordad que, como wiki, la edición del texto sigue un lenguaje de marcado en lugar de utilizar un editor  WYSIWYG (What You See Is What You Get), es decir, el sistema de edición de la mayoría de procesadores de texto actuales. 
-  - ¿Por qué debo aprender un lenguaje de marcado en lugar de utilizar un editor visual?
-  - Para ayudarnos a dar formato correctamente el texto plano, haced clic sobre el enlace formatting help. Aparecerá en el lugar del espacio de la visualización del texto una ayuda práctica en el que se explica las características del lenguaje de marcado. Qué habéis de escribir para obtener según qué resultado.
-  - El lenguaje de marcado que utiliza Jottit para la creación de documentos estructurados es conocida como markdown (http://daringfireball.net/projects/markdown/syntax#overview). A grandes rasgos, el propósito del lenguaje de marcado markdown es la de proporcionar una sintaxis muy sencilla y fácil de leer, escribir y recordar para la creación de páginas web estructuradas sin recurrir a la engorrosa tarea de escribir HTML. No es el único lenguaje de marcado que realizan esta tarea. Podríamos destacar entre otros Textile (http://textile.thresholdstate.com/), completamente ligado al CMS (Content Managament System) Textpattern (http://textpattern.com/) o Creole (http://wiki.wikicreole.org/), un lenguaje de marcado con la pretensión de representar un estandar en la interminable lista de lenguajes de marcado ligados a las diferentes soluciones wiki. 
-  - La creación de nuevas páginas es tan simple como crear un nuevo enlace. Al hacer clic sobre él, Jottit nos pedirá la confirmación de crear la nueva página.
-  - Es posible visualizar los cambios... esto se lo conoce como control de versiones de un documento
-  - Es posible definir unas sencillas reglas de acceso o de privacidad del documento
-
 ## Lenguaje de marcado en la era de los editores visuales 
 
 Una de las dificultades de adopción de una wiki y que la mayoría de  usuarios presentan como barrera insuperable es la redacción de texto mediante un lenguaje de marcado en lugar del acostumbrado editor visual.
@@ -127,7 +88,7 @@ La falta de hábito en compartir la información o trabajar de manera colaborati
 
 >WYSIWYG editors are already available for MediaWiki through extensions, but the potential for corrupting the data that makes up Wikipedia's encyclopedic content is very real. Avoiding that scenario is primarily what lead the Initiative to discount a switch to WYSIWYG, at least within the scope of the project.^[[Can $890,000 Make MediaWiki Useful? (2009)](http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php)]
 
-## Hacia nuevas maneras de gestionar las versiones
+## La gestión de versiones como parte de la conversación
 
 
 En el artículo [[http://tommorris.org/blog/2008/03/09#pid2761430|How to build the perfect wiki]], Tom Morris arremete contra la mayoría de los sistemas wikis conocidos cuando los utiliza como wikis personales: no puede trabajar con ellos debido sobretodo a:
@@ -137,13 +98,13 @@ En el artículo [[http://tommorris.org/blog/2008/03/09#pid2761430|How to build t
   * Una wiki, según Tom, es en realidad un sistema de control de versiones de páginas web, pero un sistema //pobre// si lo comparamos con los sistema de control de versiones que utilizan los programadores como Subversion o Git. ¿Qué ocurre si queremos trabajar en modo //offline//? La mayoría de wikis no permiten todavía un modo offline. (GeniusWiki, http://wibokr.com/page/page.do#, implementa un modo offline gracias al plugin Google Gears)
   * La sintaxis sigue siendo un problema. Cada wiki lleva una de diferente, como si de dialectos de un mismo idioma se tratara. Ni Creole parece que ayude a corregir este panorama, sería como una suerte de Esperanto a los idiomas lo que Creole a las wikis. 
 
-Según Tom, la solución pasa por trabajar en local y utilizar un verdadero sistema de control de versiones en lugar de los que incorporan los sistemas wikis, muy rudimentarios en comparación. Los sistemas de control de versiones están muy ligados al desarrollo de software. El uso de una herramienta de control de versiones es tan necesaria como la documentación o un [depurador](http://es.wikipedia.org/wiki/Depurador). A modo introductorio, las herramientas de control de versiones permiten a los programadores realizar _snapshots_, instantáneas del código fuente en el que se está trabajando, comprobar diferencias entre diferentes instantáneas y revertir a una instantánea anterior si es necesario. Tecnologías como CVS (Concurrent Version System), Subversion, DARCS, Mercurial o Git son los sistemas de control de versiones de licencia libre más populares y ampliamente usados, en especial Subversion. Si todos ellos comparten un mecanismos de trabajo muy parecidos, no es así en cuanto a la concepción de cómo debería ser la gestión y mantenimiento de las versiones de un proyecto. Si desde un principio los sistemas de control de versiones, como CVS o Subversion tuvieron una planteamiento centralizado, es decir, el _repositorio_, lugar donde el sistema de control de versiones mantiene el registro de todos los cambios (qué, quién y cuando), está ubicado en un único lugar o servidor. Esta metodología de trabajo centralizada obliga a quienes participan en la evolución del proyecto a acceder al servidor o lugar donde se mantenía el _repositorio_ en la realización de tareas ...
+Según Tom, la solución pasa por trabajar en local y utilizar un verdadero sistema de control de versiones en lugar de los que incorporan los sistemas wikis, muy rudimentarios en comparación. Los sistemas de control de versiones están muy ligados al desarrollo de software. El uso de una herramienta de control de versiones es tan necesaria como la documentación o un [depurador](http://es.wikipedia.org/wiki/Depurador). A modo introductorio, las herramientas de control de versiones permiten a los programadores realizar *snapshots*, instantáneas del código fuente en el que se está trabajando, comprobar diferencias entre diferentes instantáneas y revertir a una instantánea anterior si es necesario. Tecnologías como CVS (Concurrent Version System), Subversion, DARCS, Mercurial o Git son los sistemas de control de versiones de licencia libre más populares y ampliamente usados, en especial Subversion. Si todos ellos comparten un mecanismos de trabajo muy parecidos, no es así en cuanto a la concepción de cómo debería ser la gestión y mantenimiento de las versiones de un proyecto. Si desde un principio los sistemas de control de versiones, como CVS o Subversion tuvieron una planteamiento centralizado, es decir, el *repositorio*, lugar donde el sistema de control de versiones mantiene el registro de todos los cambios (qué, quién y cuando), está ubicado en un único lugar o servidor. Esta metodología de trabajo centralizada obliga a quienes participan en la evolución del proyecto a acceder al servidor o lugar donde se mantenía el *repositorio* en la realización de tareas ...
 
-El problema, según observa Travis Swicegood (2008), es doble. Swicegood remarca que la definición de _repositorio centralizado_ representa una mejora considerable frente a un _repositorio_ único, el cual nos evita acceder al ordenador que lo hospeda, sigue teniendo limitaciones. Señala que sólo tienes la última versión del proyecto, luego si quieres conocer el histórico de cambios tienes que preguntarle al _repositorio_. Esta situación nos hace dependientes de la conexión, luego tenemos el segundo problema. Este es también el problema en relación a las wikis: son dependientes de la conectividad. En palabras del equipo de soporte de Google ([2009](http://code.google.com/p/support/wiki/DVCSAnalysis)), la visión tradicional de los sistemas de control de versiones obliga  a los desarrolladores a trabajar directamente con el repositorio central si desean examinar el histórico, los cambios entre diferentes _commits_, otras ramificaciones. Las copias que tienen los desarrolladores en local es la instantánea del proyecto cuando realizaron un _checkout_, pero no las versiones previas o el histórico del proyecto. 
+El problema, según observa Travis Swicegood (2008), es doble. Swicegood remarca que la definición de *repositorio centralizado* representa una mejora considerable frente a un *repositorio* único, el cual nos evita acceder al ordenador que lo hospeda, sigue teniendo limitaciones. Señala que sólo tienes la última versión del proyecto, luego si quieres conocer el histórico de cambios tienes que preguntarle al *repositorio*. Esta situación nos hace dependientes de la conexión, luego tenemos el segundo problema. Este es también el problema en relación a las wikis: son dependientes de la conectividad. En palabras del equipo de soporte de Google ([2009](http://code.google.com/p/support/wiki/DVCSAnalysis)), la visión tradicional de los sistemas de control de versiones obliga  a los desarrolladores a trabajar directamente con el repositorio central si desean examinar el histórico, los cambios entre diferentes *commits*, otras ramificaciones. Las copias que tienen los desarrolladores en local es la instantánea del proyecto cuando realizaron un *checkout*, pero no las versiones previas o el histórico del proyecto. 
 
 
 
-Frente a los _repositorios centralizados_ encontramos una enfoque opuesto: los _repositorios distribuidos_ (DVCS, _Distributed Version Control Systems_). La diferencia más notable es que cada uno tiene su propio _repositorio_ en local, luego se tiene el acceso a toda la historia del proyecto, examinar el histórico de cada archivo sin depender o no de la conexión o acceso al repositorio. Realizar _commits_ también se realizan en local. Que esté en local no significa que el proyecto pueda estar _distribuido_ en otros lugares de acceso público o privdado. El concepto de _distribuido_ atañe a la oportunidad, mediante las operaciones _push_ y _pull_, de realizar intercambiar repositorios individuales. La operación _push_ representa una transferencia de parte o toda información del repositorio local a uno remoto y, al otro lado, la operación _pull_ copia información remota a un repositorio local. 
+Frente a los *repositorios centralizados* encontramos una enfoque opuesto: los *repositorios distribuidos* (DVCS, *Distributed Version Control Systems*). La diferencia más notable es que cada uno tiene su propio *repositorio* en local, luego se tiene el acceso a toda la historia del proyecto, examinar el histórico de cada archivo sin depender o no de la conexión o acceso al repositorio. Realizar *commits* también se realizan en local. Que esté en local no significa que el proyecto pueda estar *distribuido* en otros lugares de acceso público o privdado. El concepto de *distribuido* atañe a la oportunidad, mediante las operaciones *push* y *pull*, de realizar intercambiar repositorios individuales. La operación *push* representa una transferencia de parte o toda información del repositorio local a uno remoto y, al otro lado, la operación *pull* copia información remota a un repositorio local. 
 
 El lema de GitHub se resume en los comentarios de Ryan Tomayko ([2008](http://tomayko.com/writings/github-is-myspace-for-hackers))
 
@@ -171,18 +132,3 @@ Absolutamente genial! ya no sólo automatiza los "push" sino que además añade 
   * Git-Wiki: http://github.com/sr/git-wiki/tree/master 
 
 
-
-<!--
-	Valorar si realmente es coherente estas preguntas en el contexto de
-##  Preguntas finales 
-
-Es probable que estés interesado en adoptar una wiki para un trabajo o proyecto específico en la empresa o a nivel personal. Habrás considerado o sopesado las diferentes ventajas e inconvenientes que signifique dar un paso hacia esta dirección. Las preguntas que vienen a continuación pueden ayudarte y ayudar a tomar una decisión correcta.
-
-  * En la empresa existe el hábito de compartir la documentación?
-  * Una versión nueva del procesador de textos resulta traumática?
-  * Es fácil encontrar la documentación de hace un mes? de hace seis meses? de hace un año?
-  * Consideras que la herramienta que utilizáis es la más adecuada para la creación de contenidos?
-  * Cuántas veces te has visto obligado a cambiar el formato visual de un documento en un año?  
-  * Tus clientes tienen problemas en visualizar los documentos editables (.odt, .doc) y no encapsulados (.pdf)
-  * Te resulta cómodo mezclar contenidos de diferentes fuentes de información para crear un único documento?
--->
