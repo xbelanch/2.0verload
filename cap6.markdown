@@ -1,4 +1,4 @@
-# Tabs Overload
+# Look Ma! Without tabs.
 
 
 En el momento de mayor popularidad del denostado navegador de Microsoft, Internet Explorer 6, era frecuente ver una multitud de pequeñas secciones en la barra de tareas del escritorio de MS Windows 98/2000 que correspondían a una ventana del navegador. A diferencia de otros navegadores minoritarios, Internet Explorer 6 carecía de pestañas, por lo que obligaba al usuario a abrir una ventana nueva del navegador si quería visitar otra página web distinta a la actual o, desgraciadamente, debido a un atributo del lenguaje HTML -descartado en la actualidad-, los programadores web incluían un método, abrir nueva ventana, en cada uno de los enlaces que aparecía en la página. Olvidaban a menudo que todos los navegadores, incluido Internet Explorer, incorporaban de fábrica una flecha de navegación de retroceso y, en segundo lugar, que los usuarios y usuarias podían tener más ventanas abiertas del navegador.
@@ -62,11 +62,11 @@ John Allsopp (2008, Microformats Empowering Your Markup for Web 2.0, friendsoft)
 
 Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo mejor será verlos en acción. Si navegáis con el Mozilla Firefox tenéis una extensión, operator que os facilitará la comunicación de los bloque de información proporcionada por los microformatos entre diferentes servicios. Por ejemplo, si en una página encontramos una serie de eventos estructurados según las especificaciones del microformato hCalendar, Operator los detectará y nos brindará la posibilidad de transformalos en eventos de calendario para los diferentes servicios de calendarios web como Yahoo Calendar o Google Calendar. En caso de navegar con IE8, podéis jugar con los Web Slices , en especial Oomph
 
-  * http://ajaxian.com/archives/getting-semantic-with-microformats-series-by-emily-lewis
-  * http://labs.mozilla.com/2006/12/introducing-operator/
-  * http://tantek.com/presentations/2006/07/what-are-microformats/
-  * http://visitmix.com/Lab/Oomph#Consume
-  * http://torrez.us/archives/2006/04/13/431/
+* http://ajaxian.com/archives/getting-semantic-with-microformats-series-by-emily-lewis
+* http://labs.mozilla.com/2006/12/introducing-operator/
+* http://tantek.com/presentations/2006/07/what-are-microformats/
+* http://visitmix.com/Lab/Oomph#Consume
+* http://torrez.us/archives/2006/04/13/431/
 
 
 ## Widgets
