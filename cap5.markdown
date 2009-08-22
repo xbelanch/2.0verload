@@ -1,4 +1,4 @@
-# ¿Cuál es la versión correcta? 
+# The wiki old days
 
 En la elaboración de un documento en el que participa más de una persona se establece, en general, la metodología de trabajo de divide y vencerás. Cada responsable acepta una parte de la redacción del contenido. De esta forma, nadie pisa el trabajo del otro y no se incurre a incongruencias al final del trabajo. Esta modalidad también incluye un baremo de evaluación del trabajo de cada uno. El trabajo final es una extraña suerte de suma de las partes. Si a primera vista esta metodología nos parece idónea, un análisis un poco más detallado nos revela que:
 
