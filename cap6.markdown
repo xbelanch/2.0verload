@@ -8,51 +8,25 @@ Ocho años después, Oliver Reichenstein responde de nuevo a la misma pregunta, 
 >Today, most of what we use the web for on a day-to-day basis aren't just web pages, they are **applications**
 
 
-La web se ha vuelto compleja en comparación a la de hace una década, pero, paradójicamente, nunca como ahora la web ha prolongado los límites del escritorio personal hasta la *nube* de ordenadores. Esta construcción de la web obliga al navegador a trabajar como una suerte de sistema operativo. El ejercicio de gestionar eficazmente cada una de las aplicaciones web en cuanto a rendimiento, seguridad y estabilidad representa la meta de los navegadores actuales. Cada aplicación abierta, cada *app-tab*, representa un intenso de consumo de recursos del sistema. En otras palabras, el navegador devora al sistema operativo si hay un número elevado de pestañas abiertas. Reichenstein cita jocosamente a [Dios](http://www.useit.com/alertbox/tabs.html) cuando habla que las *pestañas no funcionan cuando la información es heterogénea*. Si las pestañas, como sistema de organización de la información del navegador, solucionaron el problema del *cluttering* de ventanas, veamos qué solución encontramos a la diversidad de la información que maneja el navegador. En palabras de Reichenstein,
+La web se ha vuelto compleja en comparación a la de hace una década, pero, paradójicamente, nunca como ahora la web ha prolongado los límites del escritorio personal hasta la *nube* de ordenadores. Esta construcción de la web obliga al navegador a trabajar como una suerte de sistema operativo. El ejercicio de gestionar eficazmente cada una de las aplicaciones web en cuanto a rendimiento, seguridad y estabilidad representa la meta de los navegadores actuales. Cada aplicación abierta, cada *app-tab*, representa un intenso de consumo de recursos del sistema. En otras palabras, el navegador devora al sistema operativo si hay un número elevado de pestañas abiertas. Reichenstein cita jocosamente a [Dios](http://www.useit.com/alertbox/tabs.html) cuando habla que las *pestañas no funcionan cuando la información es heterogénea*. Si las pestañas, como sistema de organización de la información del navegador, solucionaron el problema del *cluttering* de ventanas, veamos qué solución encontramos a la diversidad de información que maneja el navegador. En palabras de Reichenstein,
 
 >The idea is not to show screen shots but to turn the browser into a media system organizer more than a media display application. Instead of structuring a browser to keep the screen tidy for the moment, we thought that it’d be awesome to structure the browser as a (multi media) file system. 
 
-O dicho de otra manera, transformar el navegador en un *iTunes de la web*.
-
-<!-- aquí me he quedado -->
-
-Esta es una opinión _bwroser-centric_, pero que podría venir acompañada de otra posibilidad: la desaparición del html en según qué servicios a favor de convertirse en emisores de información estructura (formatos livianos como json). La representación vendría determinada por una convención entre el emisor de información y un complemento oficial o de terceros que la representara. De hecho, lo estamos viendo con la creciente desarrollo de RIAs. Por ejemplo: la versión HTML de GMail desaparece y en su lugar una información relativa a qué debemos tener. En este caso, la carga petición sería la de la información no la información mezclada con la representación. Un complemento sustituiría la parte de la representación, luego la experiencia del usuario a nivel de interficie sería más rica y, por otro lado, más rápida y daría paso a las aplicaciones offline.
-
+O dicho de otra manera, transformar el navegador en una suerte de *iTunes de la web*. Pero mientras esperamos el cambio que jubile definitivamente la gestión de las páginas y aplicaciones web por pestañas, otro modelo de interacción entre la web y el usuario, menos *browser-centric*, corresponde a la llamada *web contextual* o, en otras palabras, el uso de diversas estrategias que aumenten la experiencia del usuario al visitar una página web y eviten, indirectamente, el problema del exceso de pestañas. Veamos cómo.
 
 ## La web contextual 
 
-  * http://www.readwriteweb.com/archives/contextual_web.php
+El significado de la web contextual es simple: cada página web no es un contenido aislado. Todo lo contrario, el contenido define de manera implícita un marco más amplio de información; una suerte de capas de información asociadas a partes específicas y, por lo tanto, relevantes, de cada página. Esta *web aumentada* permite mejorar la eficacia de algunas de las prácticas habituales en la red:
 
->This familiar sequence is an awful lot of clicking, typing, searching, copying, and pasting in order to do a very simple task.  And you haven’t even really sent a map or useful reviews—only links to them.
+* Mejorar la eficacia de la doble actividad *buscar/guardar* información de la página web. La información contextual actúa de filtro en la búsqueda de información asociada a un contenido.
+* Mostrar el grado de participación social de la página web y, por lo tanto, conocer su grado de relevancia. 
+* Incrementar la interoperabilidad entre diferentes páginas y aplicaciones web.
 
-
-Para el navegador, la página web que estás visitando no representa nada más que una simple colección de datos estructurados siguiendo las normas del lenguaje de marcado, HTML. El navegador tampoco sabe qué haces cuando visitas la página. El navegador actúa como una simple ventana al mundo. Lo que veamos a través de él no es de su interés. La Web entendida como contextual rompe esta visión pasiva del navegador. El navegador “comprende” lo que está haciendo el usuario; la combinación de la información de la página y el comportamiento del usuario cuando navega a través de ella crea el contexto. Cada página define un contexto: no será el mismo contexto si lo que estoy visitando es una página sobre restaurantes de Barcelona que consultando mi saldo bancario en la página de la entidad financiera. En el primer caso estoy pensando cuál será el próximo restaurante donde iré a comer o cenar; en el segundo, me preocupa saber si tendré dinero para ir de restaurante. Los contextos, en cada uno de las dos situaciones son diferentes, luego la incorporación de tecnologías que interpreten el contexto y actúen en consonancia a los intereses de los usuarios, ayudaran a que la experiencia sea enormemente más positiva que la media.
-Características de la Web Contextual
-
-Según el autor, la Web Contextual considera cuatro propiedades:
-
-  * Relevancia: en el sentido que, a una mayor y mejor experiencia del contexto de la web incrementa la relevancia de los contenidos de la página.
-  * Atajos: los atajos contextuales de la información evitan las búsquedas agresivas (es decir, cuando disparamos cañonazos para matar mariposas en Google, lo que la mayoría de los casos sólo obtenemos una buena carga de frustración).
-  * Personalización: el contexto se basa tanto en la historia como en las intenciones del usuario en sus frecuentes visitas a la página.
-  * Remezcla: información de interés resulta accesible al instante gracias a la posibilidad de lo usuarios en remezclarla.
-
-### Tecnologías de la Web Contextual 
-
-
-Todo lo anterior no sería posible si no tuviéramos una serie de tecnologías que permitan la experiencia de la Web Contextual. Identificamos por el momento las siguientes:
-
-  * microformatos
-  * widgets
-  * extensiones (add-ons) de los navegadores
+Lo anterior no sería posible si no tuviéramos una serie de tecnologías que hagan posible la experiencia de la Web Contextual.
 
 ### Microformatos 
  
-  * http://www.readwriteweb.com/archives/web_of_data_machine_accessible_information.php
-
-
-Los microformatos aparecen como necesidad de resolver, de una manera transparente, el problema del exceso de desestructuración de la web. Una página web es, en esencia, un documento escrito en un lenguaje de marcado, HTML (HyperText Markup Language). 
-
-En palabras de microformats.org, los Microformatos
+En palabras de *microformats.org*
 
 >diseñados primero para los humanos y segundo para las máquinas, los microformatos son un formato abierto y simple elaborados a partir de estándares (...) los microformatos intentan resolver primero problemas simple tomando como referencia conductas y patrones de uso actuales (ejemplo, XHTML blogging)
 
