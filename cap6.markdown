@@ -11,7 +11,7 @@ La web se ha vuelto compleja en comparación a hace diez años, pero, paradójic
 
 >The idea is not to show screen shots but to turn the browser into a media system organizer more than a media display application. Instead of structuring a browser to keep the screen tidy for the moment, we thought that it’d be awesome to structure the browser as a (multi media) file system. 
 
-O dicho de otra manera, transformar el navegador en una suerte de iTunes de la web.
+O dicho de otra manera, transformar el navegador en un *iTunes de la web*.
 
 <!-- aquí me he quedado -->
 
