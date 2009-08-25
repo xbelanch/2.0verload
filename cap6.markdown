@@ -40,15 +40,12 @@ Seguir esta y las otras convenciones que proponen las diferentes especificacione
 
 John Allsopp^[Allsopp, John. (2008). *Microformats Empowering Your Markup for Web 2.0*, Friendsoft] resume los principales usos de los microformatos:
 
-* Solucionar problemas específicos
-* Simples en la medida de lo posible
-* Diseñados primero para los humanos, después para las máquinas
-* Adopción de los estándares de la web como punto de partida
-* Modular 
-* Estimula el desarrollo descentralizado de contenidos y servicios.
+* **Fáciles de implementar**
+* **Estandarizar patrones de información** 
+* **Simples** en la medida de lo posible
 
+Pero tiene el interés de convertirse en una API fortuita
 
-Por el momento no he respondido a la pregunta ¿pero esto sirve para algo?. Lo mejor será verlos en acción. Si navegáis con el Mozilla Firefox tenéis una extensión, operator que os facilitará la comunicación de los bloque de información proporcionada por los microformatos entre diferentes servicios. Por ejemplo, si en una página encontramos una serie de eventos estructurados según las especificaciones del microformato hCalendar, Operator los detectará y nos brindará la posibilidad de transformalos en eventos de calendario para los diferentes servicios de calendarios web como Yahoo Calendar o Google Calendar. En caso de navegar con IE8, podéis jugar con los Web Slices , en especial Oomph
 
 * http://ajaxian.com/archives/getting-semantic-with-microformats-series-by-emily-lewis
 * http://labs.mozilla.com/2006/12/introducing-operator/
