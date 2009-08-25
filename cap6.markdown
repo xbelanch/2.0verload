@@ -30,9 +30,15 @@ Para la gran mayoría de los usuarios, los microformatos pasan inadvertidos. Los
 
 >diseñados primero para los humanos y segundo para las máquinas, los microformatos son un formato abierto y simple elaborados a partir de estándares (...) los microformatos intentan resolver primero problemas simple tomando como referencia conductas y patrones de uso actuales (ejemplo, XHTML blogging)
 
-La estructura de los microformatos es simple. Son bloques estructurados de un patrón de información en HTML. La ficha personal o de una organización, un evento, una fecha de calendario, una licencia, el comentario u opinión de un producto o etiquetas asociadas a un elemento son ejemplos de estos bloques de información. Luego, como desarrolladores de la web podemos tomar la decisión de estructurar estos bloques de información a nuestro antojo o seguir las especificaciones de los microformatos. Seguir las convenciones facilitará mucho las cosas para que los usuarios disfruten de la Web Contextual con poquito esfuerzo.
+La estructura de los microformatos es simple. Son bloques estructurados de un patrón de información en HTML que aparece asiudamente en cada página web. La ficha personal o de una organización, un evento, una fecha de calendario, una licencia, la geolocalización de un lugar, el comentario u opinión de un producto o etiquetas asociadas a un elemento son ejemplos de microformatos. Por ejemplo, la siguiente estructura HTML
 
-John Allsopp (2008, Microformats Empowering Your Markup for Web 2.0, friendsoft) resume en la siguiente lista los principales usos de los microformatos:
+	<a href="http://creativecommons.org/licenses/by/2.0/" rel="license">cc by 2.0</a>
+
+incluye el atributo ``rel="license"`` que indica que el destino del enlace es la licencia de la página.
+
+Seguir esta y las otras convenciones que proponen las diferentes especificaciones del proyecto facilitará el acceso y el intercambio de información entre diferentes páginas web. 
+
+John Allsopp^[Allsopp, John. (2008). *Microformats Empowering Your Markup for Web 2.0*, Friendsoft] resume los principales usos de los microformatos:
 
 * Solucionar problemas específicos
 * Simples en la medida de lo posible
