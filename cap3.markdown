@@ -6,9 +6,9 @@ Antes que el *blogging* se convirtiera en una actividad generalizada, quien mant
  
 La explosión del *blogging* vino acompañada de una solución a este problema. Se decidió adoptar un antiguo formato conocido por el acrónimo RSS, que significa *Really Simple Syndication*. Este formato tenía unas características generales que resultaron fundamentales para su uso generalizado y ampliamente adoptado:
 
-  * Formato estandarizado
-  * Contenía el contenido de la noticia
-  * Contenía metainformación como la fecha de publicación y autoría.
+* Formato estandarizado
+* Contenía el contenido de la noticia
+* Contenía metainformación como la fecha de publicación y autoría.
 
 Aún conociendo las ventajas que suponía la utilización del RSS, es todavía un acrónimo desconocido para la mayoría de internautas. En general convive con la práctica de ir visitando las páginas, una tras otra, para consultar las novedades de las páginas guardadas en la carpeta *Favoritos*. O el envío de un boletín informativo si pensamos en la información interna de una organización, sea pública o privada.
 

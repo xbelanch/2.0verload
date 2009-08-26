@@ -11,14 +11,14 @@ En primer lugar, Luis expuso que el e-mail no era un cliente de mensajería inst
 
 La rápida adopción del correo electrónico a finales de la década de los noventa por particulares, organizaciones, empresas tuvo un efecto desconocido: los mensajes se acumulaban en la bandeja de entrada y su gestión diaria representaba una buena dosis de esfuerzo y dedicación. No sólo eran mensajes entre particulares; aparece el *spam* (o correo basura), que degrada la cuenta de correo, el *phising*, el *e-mail spoofing* y otras actividades maliciosas que irrumpían en el flujo del correo. Aún así, la facilidad de uso y su instantaneidad convierten el e-mail en el espacio central de la comunicación y gestión de información personal, por lo que los usuarios adjudican funcionalidades o servicios tanto a la cuenta como al cliente de correo:
 
-  * **gestor de proyectos y documentos**. Cuando colaboramos en un proyecto o en la redacción de un documento en el que participan varias personas, el cliente de correo se transforma en un sistema de control de versiones.
-  * **gestor de marcadores**. Enviamos mensajes con enlaces de interés personal o profesional o relacionado con un proyecto del tipo “Mira cuando puedas esto...” o “¿Tienes presente esta página?”. 
-  * **calendario**. Recibimos mensajes del tipo “El 28 de enero tendrá lugar...” o “Te recordamos que el próximo 28  de enero tendrá lugar”. También es generalizado el uso del e-mail como gestor de citas, reuniones o conferencias: “Mañana reunión a las 11:00 en la sala...” o “no olvides que mañana hemos de vernos para...”
-  * **gestor de contactos**. La acumulación de mensajes de un cliente proporciona un tipo de información que, de otra manera, resultaría imposible de localizar. Ejemplo de esto sería el número de teléfono, qué clase de proyectos está involucrado o una información más difusa, pero no menos importante, como son las curiosidaes, intereses personales y profesionales. Una de las parcelas que, en este sentido está siendo de utilidad es lo que se conoce por *e-mail mining* o *data mining e-mail* y que tiene como objetivo detectar patrones en el contenido de los mensajes.
-  * **gestor de tareas**. Nos reenviamos mensajes del tipo “Urgente terminar...” o “Escribir mañana a...”.
-  * **gestor de copias de seguridad**. No nos sentimos seguros de la fiabilidad del disco duro del ordenador, tampoco del lápiz USB, luego nos reenviamos una copia del documento en forma de adjunto. También esta será la práctica para transportar información de un ordenador a otro.
-  * una **red social** en el que compartimos las fotos de vacaciones, diapositivas divertidas (o no tan divertidas), chismorreos, rumores, causas y un largo etcétera.
-  * un **diario personal** en el que vamos registrando nuestras memorias.
+* **gestor de proyectos y documentos**. Cuando colaboramos en un proyecto o en la redacción de un documento en el que participan varias personas, el cliente de correo se transforma en un sistema de control de versiones.
+* **gestor de marcadores**. Enviamos mensajes con enlaces de interés personal o profesional o relacionado con un proyecto del tipo “Mira cuando puedas esto...” o “¿Tienes presente esta página?”. 
+* **calendario**. Recibimos mensajes del tipo “El 28 de enero tendrá lugar...” o “Te recordamos que el próximo 28  de enero tendrá lugar”. También es generalizado el uso del e-mail como gestor de citas, reuniones o conferencias: “Mañana reunión a las 11:00 en la sala...” o “no olvides que mañana hemos de vernos para...”
+* **gestor de contactos**. La acumulación de mensajes de un cliente proporciona un tipo de información que, de otra manera, resultaría imposible de localizar. Ejemplo de esto sería el número de teléfono, qué clase de proyectos está involucrado o una información más difusa, pero no menos importante, como son las curiosidaes, intereses personales y profesionales. Una de las parcelas que, en este sentido está siendo de utilidad es lo que se conoce por *e-mail mining* o *data mining e-mail* y que tiene como objetivo detectar patrones en el contenido de los mensajes.
+* **gestor de tareas**. Nos reenviamos mensajes del tipo “Urgente terminar...” o “Escribir mañana a...”.
+* **gestor de copias de seguridad**. No nos sentimos seguros de la fiabilidad del disco duro del ordenador, tampoco del lápiz USB, luego nos reenviamos una copia del documento en forma de adjunto. También esta será la práctica para transportar información de un ordenador a otro.
+* una **red social** en el que compartimos las fotos de vacaciones, diapositivas divertidas (o no tan divertidas), chismorreos, rumores, causas y un largo etcétera.
+* un **diario personal** en el que vamos registrando nuestras memorias.
 
 La sobredimensión del e-mail no tardará en ser objeto de estudio. La bandeja de entrada llena es sinónimo de frustración y estrés profesional. La acumlación de centenares o miles de mensajes, una obsesión por la preservación de una suerte de copia de seguridad de la memoria personal. Veamos a continuación un repaso a la literatura de *autoayuda* sobre la bandeja de entrada llena.
 
@@ -38,29 +38,29 @@ Esta literatura colinda con la autoayuda profesional y los autores acostumbran a
 
 En general, los diferentes autores coinciden en mayor o menor grado en la siguiente lista de recomendaciones:
 
-  * Utilizar un cliente de correo eficiente que filtre lo máximo posible el correo basura, spam. Publicidad, basura, información indiscriminada o *junk*: basura o no, la mayoría de estos mensajes sólo consiguen distraernos del resto de mensajes en cuanto a su cantidad. Todos los autores coinciden en no abrir jamás estos mensajes y borrarlos inmediatamente.
-  * No actualizar la bandeja de entrada cada momento. *No trabajas en un silo de misiles nucleares en Corea del Norte*, como remarca Merlin Mann.
-  * Concentrar en una única bandeja de entrada en caso de utilizar dos o más cuentas de correo.
-  * Utilizar un cliente de correo web frente a uno de escritorio. Evitará de esta manera futuras migraciones. Independiente del sistema operativo, lugar.
-  * Utilizar teclas de acceso rápido para ser más eficientes con el cliente de correo.
-  * Concentrar la lectura del correo en un momento del día. No dispersar esta acción a lo largo del día.
-  * Evitar leer el correo desde dispositivos móviles si no quieres ser un esclavo de la bandeja de entrada las 24 horas del día, 7 días a la semana.
-  * Responder y borrar un mensaje que no necesite más de 1 minuto la redacción de la respuesta. 
-  * Cancelar subscripciones a listas de correo que ya no les prestamos ninguna atención. Si sigue interesándonos, agrupar los mensajes por días.
-  * Borrar inmediatamente los mensajes que contengan causas colectivas, presentaciones de dudosa procedencia, chistes u otro material improcedente.
-  * Penalizar a quien nos envía mensajes regularmente con contenido improcedente.
+* Utilizar un cliente de correo eficiente que filtre lo máximo posible el correo basura, spam. Publicidad, basura, información indiscriminada o *junk*: basura o no, la mayoría de estos mensajes sólo consiguen distraernos del resto de mensajes en cuanto a su cantidad. Todos los autores coinciden en no abrir jamás estos mensajes y borrarlos inmediatamente.
+* No actualizar la bandeja de entrada cada momento. *No trabajas en un silo de misiles nucleares en Corea del Norte*, como remarca Merlin Mann.
+* Concentrar en una única bandeja de entrada en caso de utilizar dos o más cuentas de correo.
+* Utilizar un cliente de correo web frente a uno de escritorio. Evitará de esta manera futuras migraciones. Independiente del sistema operativo, lugar.
+* Utilizar teclas de acceso rápido para ser más eficientes con el cliente de correo.
+* Concentrar la lectura del correo en un momento del día. No dispersar esta acción a lo largo del día.
+* Evitar leer el correo desde dispositivos móviles si no quieres ser un esclavo de la bandeja de entrada las 24 horas del día, 7 días a la semana.
+* Responder y borrar un mensaje que no necesite más de 1 minuto la redacción de la respuesta. 
+* Cancelar subscripciones a listas de correo que ya no les prestamos ninguna atención. Si sigue interesándonos, agrupar los mensajes por días.
+* Borrar inmediatamente los mensajes que contengan causas colectivas, presentaciones de dudosa procedencia, chistes u otro material improcedente.
+* Penalizar a quien nos envía mensajes regularmente con contenido improcedente.
 Convencerse que un cliente de correo no es una herramienta con el que registramos la lista de tareas personal o del trabajo, guardamos los marcadores web, gestionamos las versiones de los documentos, un sistema de copias de seguridad de documentos o un cliente de mensajería instantánea.
-  * Evitar el envío indiscriminado de mensajes ya que es probable que recibas un número igual o mayor de respuestas.
-  * Borrar automáticamente todo mensaje pasado un tiempo (1 mes, por ejemplo).
-  * Evitar posponer una respuesta más allá de 3 días. Pasado este tiempo es preferible borrar el mensaje.
-  * Escribir menos, conciso y hacer un uso intensivo de listas de apartados como cuerpo del mensaje.
-  * Contextualizar el contenido en el campo del título del mensaje.
-  * Evitar la prosa, largas redacciones o florituras estilísticas. El receptor no espera leer la primera parte de una novela decimonónica.
-  * Evitar adornos visuales, tipografía vistosa o colores que no sean armónicos en el cuerpo del mensaje. 
+* Evitar el envío indiscriminado de mensajes ya que es probable que recibas un número igual o mayor de respuestas.
+* Borrar automáticamente todo mensaje pasado un tiempo (1 mes, por ejemplo).
+* Evitar posponer una respuesta más allá de 3 días. Pasado este tiempo es preferible borrar el mensaje.
+* Escribir menos, conciso y hacer un uso intensivo de listas de apartados como cuerpo del mensaje.
+* Contextualizar el contenido en el campo del título del mensaje.
+* Evitar la prosa, largas redacciones o florituras estilísticas. El receptor no espera leer la primera parte de una novela decimonónica.
+* Evitar adornos visuales, tipografía vistosa o colores que no sean armónicos en el cuerpo del mensaje. 
 Utilizar alternativas de comunicación más efecientes si el medio (administración, empresa, compañía) lo permite.
 
 
-## Dos visiones confrontadas: *e-mail-centric* o *stop-using-e-mail*
+## Dos visiones confrontadas: *e-mail-centric* vs.*stop-using-e-mail*
 
 Al margen de los buenos consejos -que acostumbran a funcionar sólo a su dueño-, la tensión del e-mail no descansa en una gestión más o menos eficiente de la bandeja de entrada. Como ya hemos adelantado más arriba, dos son las tendencias que dibujan el futuro del correo electrónico como sistema de comunicación. Una primera, *e-mail-centric*, que integra definitivamente aquellas funcionalidades que el usuario ha incorporado al margen del primero y único uso del cliente de correo, recibir, leer y enviar correo. La segunda visión propone, como la iniciativa de Luis Suárez, la eliminación por completo del correo electrónico. Porque, en definitiva, el e-mail *no forma parte de la conversación actual* y es más un incordio que un sistema válido de comunicación.
 

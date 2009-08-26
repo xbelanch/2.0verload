@@ -1,0 +1,281 @@
+/* 
+________________________________________________
+body 
+================================================
+*/
+
+body {
+	font:1em georgia,serif;
+	color:#000;
+	background:#fff;
+	text-align:center;
+}
+
+
+
+/* 
+________________________________________________
+	texto
+================================================
+*/
+
+
+/* === headers === */
+
+h1,h2,h3,h4{
+	font-weight:300;
+}
+
+h1{
+	color: #fff;
+	background-color: #000;
+	font-size:1.063em;
+	line-height:0.767em;
+	font-family: 'didot', 'big caslon','palatino linotype','times new roman',serif;
+	letter-spacing:0.010em;
+	margin:1.866em auto 0.66em;
+	padding: 0.333em 0 0.333em 0.333em;
+	text-align: left;
+	
+}
+h1 em{
+	font-style:italic;
+}
+
+.subtitle {
+	margin: 0;
+	padding: 0;
+	font-size: 0.663em;
+	letter-spacing:0.030em;
+	font-style:italic;
+	color:#cfcfcf;
+
+}
+
+p.lorem {
+	border-bottom: 0.221em solid #000;
+	padding: 0.333em 0;
+	text-align: left;
+	font-style: italic;
+	font-size: 0.798em;
+}
+
+
+pre{
+	margin:1.571em 0;
+	background-color: #dfdfdf;
+	text-align:left;
+	padding: 1.5em 1.571em 0em;
+}
+pre code, 
+code{
+	font-size:1.2em;
+	font-family:'lucida console','courier new',sans-serif;
+	color:#3c3c3c;
+}
+
+
+/* layout
+================================================
+*/
+
+.container {
+	margin: 0.063em auto;
+	border-top:0.063em solid #fff;
+	border-bottom:0.188em solid #000;
+	display:block;
+	clear:both;
+	width:48.125em;
+}
+
+.chapter {
+	margin: 0;
+	font-size:1.375em;
+	line-height:1.3em;
+	letter-spacing: 0.045em;
+	text-align:right;
+	font-family: 'cochin', baskerville,'palatino linotype','times new roman',serif;
+	float:left;
+	width:6.5em;
+	padding:1em 0 2.136em;/*41px t 47px b*/
+	border-top-width: 0.045em solid #000;
+	border-bottom: 0.05em solid #000;
+}
+
+
+/* 
+________________________________________________
+	content
+================================================
+*/
+
+
+.content {
+	padding:1.571em 0 0;
+	margin-left:12.571em;
+	width:30.857em;
+	font-size:0.875em;
+	line-height:1.571em;
+	font-family: baskerville,'palatino linotype','times new roman',serif;
+}
+
+
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+	font-family: 'big Caslon', baskerville,'palatino linotype','times new roman',serif;
+}
+
+.content h2{
+	font-size:1.871em;
+	line-height:1em;
+	text-align:right;
+	margin: 1em 0 ;
+}
+
+.content h3 {
+	text-align:right;
+	font-size:1.571em;
+	line-height:1em;
+	font-weight:300;
+	margin: 1em 0;
+}
+
+.content h4 {
+	text-align:right;
+	font-size:1.271em;
+	line-height:1em;
+	font-weight:300;
+	margin: 1em 0;
+}
+
+.content p,
+.content ul,
+.content ol li,
+.content dl,
+.content p{
+	margin:1.571em 0;
+}
+
+.content p {
+	font-size:1.175em;
+	text-align:justify;
+}
+.content em{
+	font-style:italic;
+	text-align:justify;
+}
+
+.content ul{
+	list-style:disc;
+	margin:1.571em 0;
+	font-size: 1.175em;
+}
+.content ol{
+	list-style-type: decimal;
+	margin:1.571em 0;
+}
+
+.content ul li,
+.content ol li {
+	text-align: justify;	
+	margin: 0;
+}
+
+.content ul li { 
+	margin-left: 2em;
+	margin-bottom: 1.1em;
+}
+
+.content ol li { 
+	margin-left: 2em;
+}
+.content ol li p { 
+	font-size: 0.975em;
+	margin: 0.4em 0;
+}
+
+.content blockquote{
+	padding:0 1.571em;
+	border-top:0.071em dotted #999990;
+	border-bottom:0.071em dotted #999990;
+}
+.content blockquote p,
+.content blockquote ol,
+.content blockquote ul{
+	color:#494940; 
+	font-size:1.375em;
+}
+
+
+.content .text-right-wrap {
+	font-size:0.957em;
+	line-height:1.333em;
+	width:9.917em;
+	position:relative;
+	text-align: justify;
+	padding: 1.63em 0 1.8em;
+	border-top: 0.1em solid #000; 
+	border-bottom: 0.3em solid #525252; 
+	display: inline;
+}
+
+.content .text-right-wrap {
+	margin:0 -12.17em 0 0;
+	float:right;
+}
+
+.info-right-wrap  {
+	font-size:0.75em;
+	line-height:1.833em;
+	float:right;
+	padding-top:3.667em;
+	width:11.917em;
+	text-align: right;
+	
+}
+
+/* miscelanea */
+
+.content > p:first-child {
+	margin-top: 0;
+}
+
+.content > p:first-child::first-line,  .content > blockquote:first-child + p:first-line{
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: 'cochin', baskerville,'palatino linotype','times new roman',serif;
+}
+
+.content > p:first-child::first-letter, .content > blockquote:first-child + p:first-letter {
+		float:left;
+		font-family: 'cochin', baskerville,'palatino linotype','times new roman',serif;
+		font-size: 3.043em;
+		font-weight:300;
+		line-height:1em;
+		margin:0 0.125em 0 0;
+}
+
+sup a {
+	color: #000;
+	text-decoration: none;
+}
+
+sup a:hover {
+	color: #ffaa00;
+}
+
+sup {
+	font-size: 0.766em;
+	vertical-align: 0.5em;
+}
+
+
+hr {
+	border: none;
+	background: url(hr.png) no-repeat;
+    height: 69px;
+	width: 172px;
+} 
