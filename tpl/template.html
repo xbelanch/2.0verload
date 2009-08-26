@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="<%= $config['lang'] %>" xml:lang="<%= $config['lang'] %>">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv=
+	"Content-Type" />
+	<title><%= h1 %></title>
+	<% ['reset','e'].each do |style| %>
+	<link rel="stylesheet" href="<%= File.join($tpl,'css',style) %>.css" type="text/css" media="screen, projection">
+	<% end %>
+	
+</head>
+<body>
+	<div class="container">
+		<h1>2.0verload <span class="subtitle">Cartografías de la conversación</span></h1>
+		<p class="lorem">Índice > ¿Cuál es la versión correcta?</p>
+		<div class="chapter">
+				<img src="<%= File.join($tpl,'img', cap + '.png') %>" alt="" />
+		        <h2><%= h1 %></h2>
+		</div>
+		<div class="info-right-wrap">
+		        <p>Este capítulo se generó el <%= t.strftime("%d/%m/%Y") %>, a las <%= t.strftime("%H:%M") %></p>
+		</div>
+	
+		<div class="content">
+			<%= body %>
+		</div>
+	</div>
+</body>
+</html>
+	
