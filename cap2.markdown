@@ -1,4 +1,4 @@
-# Folders overload, Tagging overload
+# Folders & Tagging redundancy
 
 >I don’t use the word folksonomy. Tagging in delicious is about 1/3 classification and 2/3 functionality. Something easy to do that let's you recall the item. The goal isn’t to classify, it’s to remember.^[Joshua Schachter (fundador de Delicious). [*Joshua Schachter: Future of Tagging*](http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html)]
 

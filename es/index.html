@@ -1,13 +1,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="<%= $config['lang'] %>" xml:lang="<%= $config['lang'] %>">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv=
 	"Content-Type" />
-	<title><%= h1 %></title>
-	<% ['reset','e'].each do |style| %>
-	<link rel="stylesheet" href="<%= File.join('css',style) %>.css" type="text/css" media="screen, projection" />
-	<% end %>
+	<title>Tabla de contenidos</title>
+	
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen, projection" />
+	
+	<link rel="stylesheet" href="css/e.css" type="text/css" media="screen, projection" />
+	
 	
 </head>
 <body>
@@ -20,43 +22,44 @@
 				<li><a title="asides" href="colateral.html">Colateral</a></li>
 			</ul>
 		</div>
-	    <% if toc.length <= 7 %>
-		<ul id="navigation">
-				<li><a href="index.html">Tabla de contenidos</a> &raquo; </li>
-				<li><%= h1 %></li>
-		</ul>
-		<% else %>
+	    
 		<p id="navigation">&nbsp</p>
 
-		<% end %>
+		
 
 		<div class="chapter">
-				<img src="<%= File.join('img', cap + '.png') %>" alt="" />
-		        <h2><%= h1 %></h2>
+				<img src="img/index.png" alt="" />
+		        <h2>Tabla de contenidos</h2>
 		</div>
 		<div class="info-right-wrap">
-		        <p>Este documento se generó el <%= t.strftime("%d/%m/%Y") %>, a las <%= t.strftime("%H:%M") %></p>
+		        <p>Este documento se generó el 28/08/2009, a las 16:40</p>
 		</div>
 	
 		<div class="content">
-		<% unless toc.length <= 7 %>
-			<% if cap=="about" %>
-			<h2>Hola!</h2>
-			<% elsif cap=="colateral" %>
-
-			<h2>Colateral</h2>
+		
 			
-			<% else %>
 			<ol id="toc">
-				<% toc.each do |cap| %>
-					<li><a href="cap<%= toc.index(cap) %>.html"><%= cap %></a></li>
-				<% end %>
+				
+					<li><a href="cap0.html">Notas antes de partir</a></li>
+				
+					<li><a href="cap1.html">Personal Information Glut</a></li>
+				
+					<li><a href="cap2.html">Folders &amp; Tagging redundancy</a></li>
+				
+					<li><a href="cap3.html">RSSocial fatigue</a></li>
+				
+					<li><a href="cap4.html">Kill Inbox</a></li>
+				
+					<li><a href="cap5.html">The wiki old days</a></li>
+				
+					<li><a href="cap6.html">Look Ma! Without tabs.</a></li>
+				
+					<li><a href="cap7.html">The sexy job</a></li>
+				
 				
 			</ol>
-			<% end %>
-		<% else %>
-			<%= body %>
-		<% end %>
+			
+		
 		</div>
 	</div>
 	<div id="footer">

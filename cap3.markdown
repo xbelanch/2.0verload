@@ -1,4 +1,4 @@
-# RSSocial Overload 
+# RSSocial fatigue
 
 >I'm a devoted RSS user. I have RSS subscriptions to a couple of hundred different blogs, and I can go through them very quickly using my RSS reader program. Instead of having to visit all those sites individually, I can browse a list of headlines from all my subscribed feeds in one window. ^[Mark Frauenfelder, Rule the Web (2007)]
 

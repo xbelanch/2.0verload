@@ -1,4 +1,4 @@
-# Inbox Overload
+# Kill Inbox
 
 >I stopped using e-mail most of the time. I quickly realized that the more messages you answer, the more messages you generate in return. It becomes a vicious cycle. By trying hard to stop the cycle, I cut the number of e-mails that I receive by 80 percent in a single week.^[http://www.nytimes.com/2008/06/29/jobs/29pre.html?_r=1]
 
