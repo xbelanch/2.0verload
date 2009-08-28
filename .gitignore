@@ -9,8 +9,8 @@ total*
 borra*
 *~
 cap*.html
-intro*.html
 .Apple*
 :2eDS_Store
-es/
+es/*
+es*
 
