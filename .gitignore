@@ -11,6 +11,7 @@ borra*
 cap*.html
 .Apple*
 :2eDS_Store
-es/*
+es/css/*
+es/img/*
 es*
 
