@@ -1,28 +1,15 @@
 # Folders & Tagging redundancy
 
->I don’t use the word folksonomy. Tagging in delicious is about 1/3 classification and 2/3 functionality. Something easy to do that let's you recall the item. The goal isn’t to classify, it’s to remember.^[Joshua Schachter (fundador de Delicious). [*Joshua Schachter: Future of Tagging*](http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html)]
+>I don’t use the word folksonomy. Tagging in delicious is about 1/3 classification and 2/3 functionality. Something easy to do that let's you recall the item. The goal isn’t to classify, it’s to remember.[^1]
 
 
 Organizamos la información con el propósito de recuperarla más adelante; la clasificamos en la medida que nos ayuda a comprenderla una vez la recuperamos más tarde en el contexto y momento que se guardó. Preparar un proyecto que aglutine documentos de texto, hojas de cálculo, fotografías, videos, presentaciones significa a un tiempo ordenar cada uno de los elementos que lo forman siguiendo una estructura previa que otorgue un sentido a cada una de las partes del proyecto. Esto mismo, en el términos digitales, lo traducimos en un sistema de carpetas y subcarpetas anidadas; cada una de ellas recibe un nombre que infiera su contenido como de su relación con las carpetas adyacentes y, finalmente, su vínculo con la carpeta de un nivel superior. 
 
-En un escenario ideal, seguir pautas claras de organización nos evitaría momentos de enorme confusión: ¿dónde he guardado el archivo que necesito? Pero las circunstancias son otras y la lógica misma de un sistema de clasificación personal acaba, con el tiempo, degradándose y perdiendo toda su efectividad. Problema de flexibilidad y adaptación de un sistema rígido de clasificación de información en un entorno cambiante, excesivamente cambiante como es el espacio personal de información de nuestros dispositivos de uso cotidiano. Dejamos de seguir la convención con la que ordenamos la información: el nombre, identificador o numeración de carpetas y subcarpetas; vamos dejando los múltiples archivos en el escritorio, más tarde los desplazamos a lugares que no siguen ninguna lógica organizativa, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta degradación aumenta si pensamos que la tipología de archivo ya no es metáfora de un documento de papel. La metáfora de la carpeta ha perdido su sentido cuando en su interior guardamos, además de los documentos de texto, todo tipo de archivos. Un ejemplo. La aplicación de búsqueda en local, *Google Desktop Search*^[http://desktop.google.com/features.html/] asegura indexar todo tipo de elementos:
+En un escenario ideal, seguir pautas claras de organización nos evitaría momentos de enorme confusión: ¿dónde he guardado el archivo que necesito? Pero las circunstancias son otras y la lógica misma de un sistema de clasificación personal acaba, con el tiempo, degradándose y perdiendo toda su efectividad. Problema de flexibilidad y adaptación de un sistema rígido de clasificación de información en un entorno cambiante, excesivamente cambiante como es el espacio personal de información de nuestros dispositivos de uso cotidiano. Dejamos de seguir la convención con la que ordenamos la información: el nombre, identificador o numeración de carpetas y subcarpetas; vamos dejando los múltiples archivos en el escritorio, más tarde los desplazamos a lugares que no siguen ninguna lógica organizativa, no forzamos a que las aplicaciones guarden un adjunto o documento en el directorio que uno quiere, sino en aquel que tiene por defecto. Esta degradación aumenta si pensamos que la tipología de archivo ya continua la metáfora del documento de papel. La metáfora de la carpeta ha perdido su sentido original. Un ejemplo: la aplicación de búsqueda en local, Google Desktop Search[^2] asegura indexar todo tipo de elementos: correo electrónico, documentos de texto, hojas de cálculo, presentaciones, las conversaciones de la ensajería instantánea, documentos encapsulados (PDF), archivos comprimidos, así hasta rozar trescientos formatos diferentes de archivos. Una realidad que se sitúa en las antípodas del escritorio tradicional.
 
-* Correo electrónico
-* Documentos de texto
-* Hojas de cálculo
-* Presentaciones
-* Mensajería instantánea
-* Documentos encapsulados (PDF)
-* Música
-* Video
-* Archivos comprimidos
-* Imágenes
-
-Elementos que poco tienen que ver com la metáfora del escritorio tradicional
-
->In traditional file hierarchies, the user can only provide simple annotations. For example, people must name their folders and files. They may optionally specify additional information, such as a short text comment or a highlight color, which are stored as file system metadata. Other annotations are automatically supplied by the system, including the icon associated with the file type, the date the file was last modified, and, perhaps, a thumbnail view of the file’s contents. The problem is that these annotation capabilities are extremely limited, given the volume and diversity of files that most individuals must manage. (...) So, while file browsers are excellent for allowing people to create, modify, move, and delete files, they provide extremely limited tools for annotating these artifacts.^[Stephen Voida & Saul Greenberg. *WikiFolders: Augmenting the Display of Folders to Better Convey the Meaning of Files*] 
+>In traditional file hierarchies, the user can only provide simple annotations. For example, people must name their folders and files. They may optionally specify additional information, such as a short text comment or a highlight color, which are stored as file system metadata. Other annotations are automatically supplied by the system, including the icon associated with the file type, the date the file was last modified, and, perhaps, a thumbnail view of the file’s contents. The problem is that these annotation capabilities are extremely limited, given the volume and diversity of files that most individuals must manage. (...) So, while file browsers are excellent for allowing people to create, modify, move, and delete files, they provide extremely limited tools for annotating these artifacts.[^3]
  
-Kebin Kubasik, desarrollador del indexador libre [Beagle](http://beagle-project.org/Main_Page) ([2008](http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/)) en _The Reality of Semantic Desktops: Death To Tags, Labels and Folders_ defiende un nuevo escritorio que, definitivamente, ponga punto y final a la metáfora del escritorio tradicional, que rompa la sinergia de continuar la tradición de establecer jerarquías de directorios, categorías, etiquetas, distintivos de color y cualquier otro emblema visual con fines organizativos. Toda práctica de clasificación de la información personal y profesional siguiendo este modelo termina en fracaso
+Kebin Kubasik, desarrollador del indexador libre Beagle[^4] en la entrada *The Reality of Semantic Desktops: Death To Tags, Labels and Folders*[^5] defiende un nuevo escritorio que, definitivamente, ponga punto y final a la metáfora del escritorio tradicional, que rompa la sinergia de continuar la tradición de establecer jerarquías de directorios, categorías, etiquetas, distintivos de color y cualquier otro emblema visual con fines organizativos. Toda práctica de clasificación de la información personal y profesional siguiendo este modelo termina en fracaso
 
 >how many people actually keep their address book completely updated? Or tag all their photos, or keep every document in the right folder? Even those who are vigilant eventually fall behind, and that’s because users already know what the material they are filling is, but still have to spend time explaining to the computer which items are related and where they belong. 
 
@@ -85,3 +72,14 @@ Frente a esta colorida iconografía de carpetas, archivos, etiquetas, estrellas,
 
 >Sometimes Newton's Law of Inertia is just as applicable to the digital world as to the physical. All too often our files sit around never to be filed. Downloads and other sundry files pile up never to leave. Fortunately, an uncluttered desktop can be a reality.^[Lema comercial de [Hazel](http://www.noodlesoft.com/hazel.php)]
 
+[^1]: Schachter, Joshua (fundador de Delicious) (2005) *Joshua Schachter: Future of Tagging* [http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html](http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html)
+[^2]: [http://desktop.google.com/features.html/](http://desktop.google.com/features.html/)
+[^3]: Voida, Stephen & Greenberg, Saul. *WikiFolders: Augmenting the Display of Folders to Better Convey the Meaning of Files* 
+[^4]: [http://beagle-project.org/Main_Page](http://beagle-project.org/Main_Page
+[^5]: Kubasik, Kebin (2008) [http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/](http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/) 
+[^6]:
+[^7]:
+[^8]:
+[^9]:
+[^10]:
+[^11]:
