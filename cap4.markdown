@@ -92,9 +92,7 @@ La batalla personal de Luis Suárez contra la acumlación de correo en la bandej
 La posibilidad de alcanzar un éxito en abandonar definitivamente el e-mail es limitada si el contexto en el que se desarrolla es de ámbito profesional y corporativo. El celo con el que empresas y corporaciones gestionan la comunicación interna de sus empleados acaba en la penalización de la utilización de tecnologías externas -fuera de los servidores corporativos- como el enquiste de la ineficencia y baja calidad de las propias. Si el lamentable Internet Explorer 6 todavía sigue utilizándose mayoritariamente[^8] por estas y otras políticas restrictivas en el equipamiento informático de administraciones públicas y empresas[^9], no resulta difícil extrapolar esta delirante situación al tratamiento del correo:
 
 * acumulación desorbitada de correo basura o malicioso por falta de una tecnología eficaz del proveedor contra el spam.
-* limitaciones ridículas de espacio de la bandeja de entrada como del tamaño de transferencia de los mensajes.
-	Action: failed
-	Status: 4.2.2 (user over quota; cannot receive new mail)
+* limitaciones ridículas de espacio de la bandeja de entrada como del tamaño de transferencia de los mensajes (``Action: failed Status: 4.2.2 (user over quota; cannot receive new mail)``).
 * inseguridad y dudosa efectividad si urge la necesidad realizar copias de seguridad del correo
 * dificultad en la localización de contenido específico a través del buscador interno del propio cliente de correo.
 

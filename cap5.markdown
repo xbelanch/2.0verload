@@ -12,12 +12,12 @@ El problema fundamental se manifiesta cuando quienes participan en el desarrollo
 
 ## Wikis 
 
->Nevertheless, I predict that Wikis will disappear over the next 5 to 10 years. This is not because they will fail but precisely because they will succeed. The best technologies disappear from view because they become so common-place that nobody notices them. Wiki-style functionality will become embedded within other software – within portals, web design tools, word processors, and content management systems. Our children may not learn the word “Wiki,” but they will be surprised when we tell them that there was a time when you couldn’t just edit a web page to build the content collaboratively.^[Clarke, Matthew C. 2009. *[Control and Community: A Case Study of Enterprise Wiki Usage](http://www.boxesandarrows.com/view/control-and)*]
+>Nevertheless, I predict that Wikis will disappear over the next 5 to 10 years. This is not because they will fail but precisely because they will succeed. The best technologies disappear from view because they become so common-place that nobody notices them. Wiki-style functionality will become embedded within other software – within portals, web design tools, word processors, and content management systems. Our children may not learn the word “Wiki,” but they will be surprised when we tell them that there was a time when you couldn’t just edit a web page to build the content collaboratively[^1]
 
 
-Según la Wikipedia, una wiki es una o más páginas web que permite a los usuarios modificar su contenido utilizando un lenguaje de marcado simplificado a través de una navegador. La wiki más popular es la Wikipedia (http://wikipedia.org), una enciclopedia libre y sin ánimo de lucro creada, actualizada y mantenida por voluntarios de todo el mundo. 
+Según la Wikipedia, una wiki es una o más páginas web que permite a los usuarios modificar su contenido utilizando un lenguaje de marcado simplificado a través de una navegador. La wiki más popular es la Wikipedia, una enciclopedia libre y sin ánimo de lucro creada, actualizada y mantenida por voluntarios de todo el mundo. 
 
-La wiki surge a mediados de la década de 1990 y el próposito original era, según en palabras de su creador, Ward Cunningham^[[http://www.wiki.org/wiki.cgi?TheBook](http://www.wiki.org/wiki.cgi?TheBook)]:
+La wiki surge a mediados de la década de 1990 y el próposito original era, según en palabras de su creador, Ward Cunningham[^2]:
 
 * invitar a todos los usuarios a editar cualquier página o crear de nuevas dentro de la wiki, utilizando un simple y crudo navegador web.
 * promover la asociación de diferentes contenidos gracias la creación intuitiva y fácil de enlaces entre páginas.
@@ -43,7 +43,7 @@ La siguiente lista presenta los argumentos más reiterados que se esgrimen a fav
 
 Una de las dificultades, que la mayoría de usuarios presentan como barrera insuperable cuando se enfrentan por primera vez a una wiki, es la redacción de texto mediante un lenguaje de marcado en lugar del acostumbrado editor visual.
 
-Cristoph Sauer ya expuso en *What you see is Wiki - Questioning WYSIWYG in the Internet Age*^[[http://www.i3g.hs-heilbronn.de/attach/Ver%C3%B6ffentlichungen/What+you+see+is+Wiki.pdf](http://www.i3g.hs-heilbronn.de/attach/Ver%C3%B6ffentlichungen/What+you+see+is+Wiki.pdf)] cuáles son los puntos a favor y en contra de utilizar un lenguaje de marcado frente a un editor visual en el caso de las tecnologías wikis. En general, los puntos en contra de los lenguajes de marcado son los siguientes:
+Cristoph Sauer ya expuso en *What you see is Wiki - Questioning WYSIWYG in the Internet Age*[^3] cuáles son los puntos a favor y en contra de utilizar un lenguaje de marcado frente a un editor visual en el caso de las tecnologías wikis. En general, los puntos en contra de los lenguajes de marcado son los siguientes:
 
   * El hábito de editar el texto de manera visual, aquello que veo en pantalla es aquello que saldrá por la impresora, siguiendo la lógica de los editores visuales, como Microsoft Word o OpenOffice Writer, empuja a los usuarios a rechazar de pleno el trabajo con una wiki. Conocer un lenguaje de marcado representa poco menos de 15 minutos de aprendizaje. Explicar la lógica de utilizar un lenguaje de marcado y sus beneficios en la creación de textos estructurados puede representar mucho más que los 15 minutos de conocimiento del lenguaje de marcado
   * El hábito de modificar libremente el estilo del documento en el caso de los editores visuales frente a la rígida separación de contenido y presentación de los lenguajes de marcado es otro de los problemas que los usuarios presentan como un motivo más para no adoptar una wiki. 
@@ -56,26 +56,26 @@ Por otro lado, si hablamos en el contexto de la web, cada vez son más los usuar
 
 ## wikis corporativos ¿una realidad imposible? 
 
->Nearly all enterprise wikis have implemented a WYSIWYG editor. Even ones that began with MediaWiki, like Mindtouch, quickly replaced wiki syntax with XHTML. The Initiative has attempted to draw on the experience of companies like Mindtouch, whose CEO, Aaron Fulkerson, told ReadWriteWeb he was impressed with the Initiative, but that he felt, "wiki text will always and forever be inferior to XHTML."^[[Can $890,000 Make MediaWiki Useful? (2009)](http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php)]
+>Nearly all enterprise wikis have implemented a WYSIWYG editor. Even ones that began with MediaWiki, like Mindtouch, quickly replaced wiki syntax with XHTML. The Initiative has attempted to draw on the experience of companies like Mindtouch, whose CEO, Aaron Fulkerson, told ReadWriteWeb he was impressed with the Initiative, but that he felt, "wiki text will always and forever be inferior to XHTML."[^4]
 
 Si la utilización colectiva de una wiki ofrece claras ventajas en la gestión y desarrollo de la documentación, no resulta tan evidente su adopción en el ámbito corporativo: 
 
 * La edición siguiendo un lenguaje de marcado frente al hábito de trabajar con editores visuales. Este es quizá el mayor inconveniente o problema que plantean los empleados de una empresa al enfrentarse a una wiki. El hábito o costumbre de trabajar con procesadores de texto visuales representa un escollo a veces insalvable. Superar el rechazo al lenguaje de marcas ha llevado a que los actuales sistemas de edición en línea, a diferencia de las wikis tradicionales, incorporen un editor visual en lugar de un simple editor de etiquetas, como resulta evidente en el caso del procesador de textos de Google.
 * La falta de hábito en compartir la información o trabajar de manera colaborativa. Introducir tecnologías de naturaleza participativa en entornos estancos de comunicación acaba pervirtiendo el resultado, entre la soledad del editor de fondo, que hace el esfuerzo por convicción personal o la degradación del servicio: adjuntar documentos de texto a una única página de la wiki.
 
->WYSIWYG editors are already available for MediaWiki through extensions, but the potential for corrupting the data that makes up Wikipedia's encyclopedic content is very real. Avoiding that scenario is primarily what lead the Initiative to discount a switch to WYSIWYG, at least within the scope of the project.^[[Can $890,000 Make MediaWiki Useful? (2009)](http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php)]
+>WYSIWYG editors are already available for MediaWiki through extensions, but the potential for corrupting the data that makes up Wikipedia's encyclopedic content is very real. Avoiding that scenario is primarily what lead the Initiative to discount a switch to WYSIWYG, at least within the scope of the project.[^5]
 
 ## Reinventar la wiki ¿es posible?
 
-En el artículo [How to build the perfect wiki](http://tommorris.org/blog/2008/03/09#pid2761430), Tom Morris manifiesta abiertamente estar en contra de los sistemas wikis actuales. Según Morris:
+En el artículo *How to build the perfect wiki*[^6], Tom Morris manifiesta abiertamente estar en contra de los sistemas wikis actuales. Según Morris:
 
 * cuando una wiki aparece bajo la etiqueta *enterprise*, inevitablemente piensa en un producto lo suficientemente complicado, intratable y lejos de poder ser *hackeable* que por ello mismo sólo puede venderse como producto comercial. Su opción es cuanto más simples más útiles que aquellos que presentan un mínimo de complejidad.
 * trabajar con el editor ``<textarea />`` del navegador web es frustrante. Si trabajar con los editores llamados *visuales* de una wiki es terriblemente ineficiente (pervierten su sentido de estructura del contenido) al imitar la edición de los procesadores de textos, la *otra* edición, que sólo incorpora un número limitado de botones de ayuda de sintaxis (negrita, itálica, secciones y subsecciones, subrayado, enlaces, imágenes,...) tampoco resulta ninguna panacea.
 * la navegación por el texto no es intuitiva (la fuente *monospace*, de ancho fijo, no es la más indicada aunque nos recuerde que estamos *editando*).
-* la acción de búsqueda y reemplazar texto es inexistente (la funcionalidad del . Y en cierta manera es incomparable el uso de un editor de textos profesional contra el simple editor web de la wiki. Frente a esta carencia Tom recomienda el uso de buenos editores de texto como VIm o TextMate^[[It's All Text](http://docwhat.gerf.org/tag/iat/)] que permite trabajar en condiciones mucho mejores y, sobretodo, más eficiente.
-* en realidad, una wiki es *un sistema de control de versiones de páginas web*, pero muy limitado si lo comparamos con sistemas de control de versiones como Subversion^[http://es.wikipedia.org/wiki/Subversion](http://es.wikipedia.org/wiki/Subversion) o Git^[http://es.wikipedia.org/wiki/Git](http://es.wikipedia.org/wiki/Git).
+* la acción de búsqueda y reemplazar texto es inexistente (la funcionalidad del . Y en cierta manera es incomparable el uso de un editor de textos profesional contra el simple editor web de la wiki. Frente a esta carencia Tom recomienda el uso de buenos editores de texto como VIm o TextMate que permite trabajar en condiciones mucho mejores y, sobretodo, más eficiente.
+* en realidad, una wiki es *un sistema de control de versiones de páginas web*, pero muy limitado si lo comparamos con sistemas de control de versiones como Subversion o Git.
 * ¿qué ocurre si queremos trabajar en modo //offline//? La mayoría de wikis no permiten todavía trabajar desconectados.
-* la sintaxis sigue siendo un problema, pero desde la falta de un estándar de facto. En general, cada wiki funciona mediante una sintaxis propia, como si se tratara de dialectos de un mismo idioma^[Esta situación se hace manifiesta si visitamos [Wikimatrix](http://www.wikimatrix.org/), un proyecto orientado a comparar las tecnologías wiki disponibles en la actualidad]. Ni la aparición hace un tiempo de Creole^[http://www.wikicreole.org/], un proyecto nacido con la buena intención de corregir esta dispersión, ha motivado el esperado consenso. Creole será a las wikis lo que el Esperanto a los idiomas. En cambio
+* la sintaxis sigue siendo un problema, pero desde la falta de un estándar de facto. En general, cada wiki funciona mediante una sintaxis propia, como si se tratara de dialectos de un mismo idioma[^7]. Ni la aparición hace un tiempo de Creole^[http://www.wikicreole.org/], un proyecto nacido con la buena intención de corregir esta dispersión, ha motivado el esperado consenso. Creole será a las wikis lo que el Esperanto a los idiomas. En cambio
 
 Según Tom, la solución pasaría por trabajar en local y utilizar un verdadero sistema de control de versiones en lugar de los que incorporan los sistemas wikis, muy rudimentarios en comparación. Lo que veríamos en la web correspondería al último *commit* o modificación del contenido. Los sistemas de control de versiones están muy ligados al desarrollo de software. El uso de una herramienta de control de versiones es tan necesaria como la documentación o un [depurador](http://es.wikipedia.org/wiki/Depurador). A modo de introducción, una herramienta de control de versiones ayudará a los desarrolladores a gestionar de manera eficaz la evolución de un proyecto. como realizar instantáneas, *snapshots*, del código fuente en el que se está trabajando, comprobar diferencias entre diferentes instantáneas y revertir a una instantánea anterior si es necesario. Tecnologías como CVS (Concurrent Version System), Subversion, DARCS, Mercurial o Git son sistemas de control de versiones de licencia GNU/GPL más populares y ampliamente utilizados. Si comparten mecanismos de trabajo muy parecidos, no en planteamiento de la gestión y mantenimiento de las versiones del proyecto. Si desde un principio los sistemas de control de versiones, como CVS o Subversion, tuvieron una planteamiento fuertemente centralizado, es decir, el *repositorio*, el lugar donde el sistema de control de versiones mantiene el registro de todos los cambios (qué, quién y cuando), está ubicado en un único lugar o servidor.
 
@@ -109,13 +109,13 @@ donde ya no sólo se reduce a manejar las versiones de cada *instantánea* del l
 
 Es quizá este *mashup* de pensamiento y tecnología, entre la creación literaria y la tecnología, unidas esta vez por la conversación, dibujen un enfoque completamente nuevo de cómo gestionar la documentación, sea literaria o técnica, basada enteramente en la idea de la *remezcla*, del *fork me*, del *send me a patch*. Para entonces la wiki tendrá una presencia histórica, como pionera en la publicación colaborativa en la web, pero habrá desaparecido definitivamente como tecnología.
 
-[^1]:
-[^2]:
-[^3]:
-[^4]:
-[^5]:
-[^6]:
-[^7]:
+[^1]:Clarke, Matthew C. (2009) Control and Community: A Case Study of Enterprise Wiki Usage [http://www.boxesandarrows.com/view/control-and](http://www.boxesandarrows.com/view/control-and)
+[^2]: [http://www.wiki.org/wiki.cgi?TheBook](http://www.wiki.org/wiki.cgi?TheBook)
+[^3]: [http://www.i3g.hs-heilbronn.de/attach/Ver%C3%B6ffentlichungen/What+you+see+is+Wiki.pdf](http://www.i3g.hs-heilbronn.de/attach/Ver%C3%B6ffentlichungen/What+you+see+is+Wiki.pdf)
+[^4]: ReadWriteWeb (2009) *Can $890,000 Make MediaWiki Useful?* [http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php](http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php)
+[^5]: Op. cit. ReadWriteWeb (2009)
+[^6]: [http://tommorris.org/blog/2008/03/09#pid2761430](http://tommorris.org/blog/2008/03/09#pid2761430)
+[^7]: Esta situación es particularmente visible si visitamos la página [Wikimatrix](http://www.wikimatrix.org/), un proyecto orientado a comparar las tecnologías wiki disponibles en la actualidad]
 [^8]:
 [^9]:
 [^10]:
