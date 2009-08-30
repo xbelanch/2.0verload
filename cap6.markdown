@@ -50,7 +50,7 @@ En un sentido estricto de la web contextual, los *widgets* no deberían ser expl
 
 ## Complementos del navegador
 
-En el 2003 MacManus[^12] lamentaba que la visión de la Web Semántica que tenía el padre de la *World Wide Web*, Tim Berns Lee, en 1993, diez años después seguía siendo incomprendida o, en el peor de los casos, indiferente a los caprichos de aquel momento. A principios del 2000, la web mantenía firme la metáfora de una suerte de páginas amarillas digital, es decir, un mostrador de información, exclusivamente de lectura y con pocas posibilidades de participación del usuario. Todo lo contrario del sueño de Tim Berns Lee, la idea de un navegador/editor de la web en donde la navegación por la red es sólo una parte de la actividad, no la única. La cuestión crucial es la capacidad o libertad de *tejer* la red a través de la escritura por parte de los usuarios. El navegador deja atrás su metáfora como vehículo de transporte a través de la *galaxia internet* y adquiere la capacidad de editor.
+En el 2003 MacManus[^12] lamentaba que la visión de la Web Semántica que tenía el padre de la *World Wide Web*, Sir Tim Berns Lee, en 1993, diez años después seguía siendo incomprendida o, en el peor de los casos, indiferente a los caprichos de aquel momento. A principios del 2000, la web mantenía firme la metáfora de una suerte de páginas amarillas digital, es decir, un mostrador de información, exclusivamente de lectura y con pocas posibilidades de participación del usuario. Todo lo contrario del sueño de Tim Berns Lee, la idea de un navegador/editor de la web en donde la navegación por la red es sólo una parte de la actividad, no la única. La cuestión crucial es la capacidad o libertad de *tejer* la red a través de la escritura por parte de los usuarios. El navegador deja atrás su metáfora como vehículo de transporte a través de la *galaxia internet* y adquiere la capacidad de editor.
 
 >la descentralización es el principio de diseño subyacente que dará a la Web Semántica la capacidad de convertirse en algo más que la suma de sus partes Berns-Lee (1999)
 
@@ -108,12 +108,12 @@ Ubiquity, un Quicksilver?
 [^10]: [http://www.readwriteweb.com/archives/apture_popups_media.php](http://www.readwriteweb.com/archives/apture_popups_media.php)
 [^11]: [http://www.adaptiveblue.com/smartlinks.html](http://www.adaptiveblue.com/smartlinks.html)
 [^12]: [http://www.readwriteweb.com/archives/what_became_of.php](http://www.readwriteweb.com/archives/what_became_of.php)
-[^13]:
+[^13]: 
 [^14]:
 [^15]:
 [^16]:
 [^17]:
-[^18]:
+[^1]:
 
 
 
