@@ -20,11 +20,10 @@
 				<li><a title="asides" href="colateral.html">Colateral</a></li>
 			</ul>
 		</div>
-	    <% if toc.length <= 8 %>
+	    <% if cap.to_s =~/cap/ %>
 		<ul id="navigation">
 				<li><a href="index.html">Tabla de contenidos</a> &raquo; </li>
 				<li><%= h1 %></li>
-				<li><%= toc.length %></li>
 		</ul>
 		<% else %>
 		<p id="navigation">&nbsp</p>
@@ -40,7 +39,9 @@
 		</div>
 	
 		<div class="content">
-		<% if toc.length <= 8 %>
+		<% if cap.to_s =~/cap/ %>
+			<%= body %>
+		<% else %>
 			<% if cap=="about" %>
 			<h2>Hola!</h2>
 			<% elsif cap=="colateral" %>
@@ -55,8 +56,6 @@
 				
 			</ol>
 			<% end %>
-		<% else %>
-			<%= body %>
 		<% end %>
 		</div>
 	</div>
