@@ -59,7 +59,7 @@ Cada voz un filtro. Dejo de suscribirme a canales de información: prefiero *seg
 [^2]: [http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/](http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)
 [^3]: Carpintier Santana, Rodolfo (2009) *Sólo dos post al día* [http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
 [^4]: Catone, Josh  (2008) *6 Ways to Filter Your RSS Feeds* [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)
-[^5]:
+[^5]: Un *mashup* es una aplicación web que recoge y mezcla la información disponible de manera abierta de servicios web de terceros y la presenta en un acabado *remix* enriqueciendo la información original al proponer un nuevo mensaje o representación.
 [^6]:
 [^7]:
 [^8]:
