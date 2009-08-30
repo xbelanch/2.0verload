@@ -115,7 +115,7 @@ Es quizá este *mashup* de pensamiento y tecnología, entre la creación literar
 [^4]: ReadWriteWeb (2009) *Can $890,000 Make MediaWiki Useful?* [http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php](http://www.readwriteweb.com/archives/can_890000_make_mediawiki_useful.php)
 [^5]: Op. cit. ReadWriteWeb (2009)
 [^6]: [http://tommorris.org/blog/2008/03/09#pid2761430](http://tommorris.org/blog/2008/03/09#pid2761430)
-[^7]: Esta situación es particularmente visible si visitamos la página [Wikimatrix](http://www.wikimatrix.org/), un proyecto orientado a comparar las tecnologías wiki disponibles en la actualidad]
+[^7]: Esta situación es particularmente visible si visitamos la página [Wikimatrix](http://www.wikimatrix.org/), un proyecto orientado a comparar las tecnologías wiki disponibles en la actualidad.
 [^8]:
 [^9]:
 [^10]:
