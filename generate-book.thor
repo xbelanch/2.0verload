@@ -38,7 +38,7 @@ USAGE
 	  FileUtils.cp_r("#$here/tpl/css/.", File.join(dir,"css"))
 	  FileUtils.cp_r("#$here/tpl/img/.", File.join(dir,"img"))
 	  t = Time.now
-      template = ERB.new(File.read("#$tpl/template.html"))
+      template = ERB.new(File.read("#$tpl/template.erb"))
       $config['order'].each do |cap|
          body = Hpricot(Maruku.new(File.read(File.join($here, cap + '.markdown'))).to_html)
   		 h1 = body.at("h1").inner_html

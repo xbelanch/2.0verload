@@ -41,11 +41,11 @@ Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical o *tubería*
 >So where is the startup that is going to be my information filter? I am aware of a few companies working on this problem, but I have yet to see one that has solved it in a compelling way. Can someone please do this for me? Please? I need help. We all do.[^7]
 
 
-Yahoo Pipes no es el único servicio orientado a filtrar la sobrecarga de *feeds* (aunque no sea su propósito). En cierta manera, el alcance de Yahoo Pipes supera el simple ejercicio de filtrar la saturación de *feeds*. Otras empresas o *startups* ofrecen la oportunidad de rebajar el flujo informativo a través de la personalización de filtros: FeedRinse^[http://www.feedrinse.com/]; sin excesiva complejidad, Feedsifter^[http://feedsifter.com/create.php] permite crear *in situ* el filtro de una fuente mediante palabras clave. 
+Yahoo Pipes no es el único servicio orientado a filtrar la sobrecarga de *feeds* (aunque no sea su propósito). En cierta manera, el alcance de Yahoo Pipes supera el simple ejercicio de filtrar la saturación de *feeds*. Otras empresas o *startups* ofrecen la oportunidad de rebajar el flujo informativo a través de la personalización de filtros: FeedRinse[^8]; sin excesiva complejidad, Feedsifter[^9] permite crear *in situ* el filtro de una fuente mediante palabras clave. 
 
 ## La conversación como filtro 
 
->I need less data, not more data. I need to know what is important, and I don't have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [http://tinyurl.com/5b6p2f](http://tinyurl.com/5b6p2f)]
+>I need less data, not more data. I need to know what is important, and I don't have time to sift through thousands of Tweets and Friendfeed messages and blog posts and emails and IMs a day to find the five things that I really need to know[^10]
 
 
 Gran parte de la actividad en la conversación es compartir información. La mayoría de las herramientas de la conversación se fundamentan en esta actividad que, en algunos momentos, resulta frenética. No es extraño que, con frecuencia, se produzca el fenómeno de *echo chamber* o una reverberación de la información debido al efecto de compartir la misma información desde diferentes canales y usuarios. Compartimos una noticia en Twitter o FriendFeed y, al poco tiempo, la misma noticia rebota literalmente en la conversación, luego nos llegará publicada como artículo en otro blog, como marcador, como *retweet* del nuestro, como comentario en FriendFeed, como noticia compartida en Google Reader. La reverberación de una información puede terminar transformándose en una auténtica caja de grillos digitales (nace un *trend*). La muerte del cantante mundialmente popular Michael Jackson inundó por completo la conversación. No es tan interesante la noticia en sí misma -el fallecimiento inesperado del músico- sino cómo esta información fue interpretada por la conversación. Millones de voces publicaron su opinión del acontecimiento, pero otras manifestaron su propia visión en relación al perfil de identidad digital. Entre la recuperación de viejos juegos de 8-bits donde aparece un pixelado Michael Jackson a un perfil inventor -desconocido para todos- del cantante, cada voz de la conversación se apropió de la noticia y la devolvió a la conversación pasada por un tamiz único y personal. Esta hábil reinvención, parte de remezcla colectiva y creación individual, de la información en la conversación desplaza un modelo único de difusión de contenidos. Toda voz es susceptible de ser un emisor y, a un mismo tiempo, peculiar filtro  de aquello que comparte, mezcla de unicidad -gustos y aficiones particulares- y colectividad -actúa de *bridge* entre la noticia y el conjunto de redes sociales al que pertenece.
@@ -53,7 +53,7 @@ Gran parte de la actividad en la conversación es compartir información. La may
 Cada voz un filtro. Dejo de suscribirme a canales de información: prefiero *seguir* aquellas voces que actúan a un mismo tiempo de filtro y emisores de información *relevante*, *auténtica*. La atención que pueda dedicar a un contenido será proporcional al número de *retweets* de las voces que soy *follower*. El viejo RSS, como el e-mail, ya se le identifica como parte activa del ruido y sobrecarga de información actual. Los filtros están dejando paso a opciones difusas: *Share it*, *I like it* o *tweet me*. Si bien tampoco están resultando una solución definitiva, ni siquiera parcial (*overtweets*, *tweetspammers* y *overlikeit*), sí en cambio puede representar el principio de un nuevo horizonte en el que puedan recortarse siluetas de nuevas tecnologías de filtros que discrimine el ruido, el *spam informativo* que poco o nada nos interesa o inquieta.
 
 
->Bringing all of this Web messaging and activity together in one place doesn't really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://tinyurl.com/5q2ag5)]
+>Bringing all of this Web messaging and activity together in one place doesn't really help. It reminds me of a comment ThisNext CEO Gordon Gould made to me earlier this week when he predicted that Web 3.0 will be about reducing the noise.[^11]
 
 [^1]: Frauenfelder, Mark (2007) *Rule the Web*. O'Reilly
 [^2]: [http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/](http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)
@@ -61,12 +61,11 @@ Cada voz un filtro. Dejo de suscribirme a canales de información: prefiero *seg
 [^4]: Catone, Josh  (2008) *6 Ways to Filter Your RSS Feeds* [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)
 [^5]: Un *mashup* es una aplicación web que recoge y mezcla la información disponible de manera abierta de servicios web de terceros y la presenta en un acabado *remix* enriqueciendo la información original al proponer un nuevo mensaje o representación.
 [^6]: Recomiendo la lectura *En un principio fue la línea de comandos*, de Niel Stephenson.
-[^7]:
-[^8]:
-[^9]:
-[^10]:
-[^11]:
-[^12]:
+[^7]: Schonfeld, Erick (2009) *Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping*. [http://tinyurl.com/5q2ag5](http://tinyurl.com/5q2ag5)
+[^8]: [http://www.feedrinse.com/](http://www.feedrinse.com/)
+[^9]: [http://feedsifter.com/create.php](http://feedsifter.com/create.php)
+[^10]: Op. Cit. Schonfeld, Erick (2009)
+[^11]: Op. Cit. Schonfeld, Erick (2009)
 
 
 
