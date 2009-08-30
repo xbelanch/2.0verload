@@ -62,7 +62,7 @@ En cierta manera, si las etiquetas han acaparado buena parte de la clasificació
 
 ## Entre la voz y la conversación: el relato
 
->Suppose there were a way to combine storytelling and organizing? No matter how many stories we tell, our offices, basements and closets will be just as messy as before. But the story, as it were, for our digital information is different.^[Jones (2009) [http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/](http://keepingfoundthingsfound.com/blog/2009/01/12/can-stories-help-us-to-organize-and-make-sense-of-our-information/)]
+>Suppose there were a way to combine storytelling and organizing? No matter how many stories we tell, our offices, basements and closets will be just as messy as before. But the story, as it were, for our digital information is different[^30]
 
 Llegado a este punto en el que los diferentes sistemas de ordenación de la información personal se ven superados por la diversificación de dispositivos, fragmentación y la conversación de la web, no resulta difícil imaginar el escenario actual como un ecosistema en el que, no sin tensiones, conviven con resultados irregulares las dos metodologías arriba explicadas, más otras propias de aplicaciones o servicios web que centralizan/cautivan la información que manejan.
 
