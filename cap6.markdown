@@ -96,6 +96,7 @@ Ubiquity, un Quicksilver?
   * http://do.davebsd.com/
   * http://feeds.gawker.com/~r/lifehacker/full/~3/p-ooSpL_MIk/gnome-dos-smart-dock-takes-app-launching-to-another-level
 -->
+
 [^1]: [http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php](http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php)
 [^2]: [http://informationarchitects.jp/](http://informationarchitects.jp/)
 [^3]: [http://www.azarask.in/blog/post/firefoxnext-tabs-on-the-side/](http://www.azarask.in/blog/post/firefoxnext-tabs-on-the-side/)
