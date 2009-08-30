@@ -24,6 +24,7 @@
 		<ul id="navigation">
 				<li><a href="index.html">Tabla de contenidos</a> &raquo; </li>
 				<li><%= h1 %></li>
+				<li><%= toc.length %></li>
 		</ul>
 		<% else %>
 		<p id="navigation">&nbsp</p>
@@ -39,7 +40,7 @@
 		</div>
 	
 		<div class="content">
-		<% unless toc.length <= 7 %>
+		<% if toc.length <= 8 %>
 			<% if cap=="about" %>
 			<h2>Hola!</h2>
 			<% elsif cap=="colateral" %>
