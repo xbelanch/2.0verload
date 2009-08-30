@@ -109,3 +109,17 @@ donde ya no sólo se reduce a manejar las versiones de cada *instantánea* del l
 
 Es quizá este *mashup* de pensamiento y tecnología, entre la creación literaria y la tecnología, unidas esta vez por la conversación, dibujen un enfoque completamente nuevo de cómo gestionar la documentación, sea literaria o técnica, basada enteramente en la idea de la *remezcla*, del *fork me*, del *send me a patch*. Para entonces la wiki tendrá una presencia histórica, como pionera en la publicación colaborativa en la web, pero habrá desaparecido definitivamente como tecnología.
 
+[^1]:
+[^2]:
+[^3]:
+[^4]:
+[^5]:
+[^6]:
+[^7]:
+[^8]:
+[^9]:
+[^10]:
+[^11]:
+[^12]:
+[^13]:
+
