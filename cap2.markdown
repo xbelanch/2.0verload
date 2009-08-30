@@ -99,3 +99,7 @@ Frente a esta colorida iconografía de carpetas, archivos, etiquetas, estrellas,
 [^27]: Shirky, Clay (2004) *Folksonomy* [http://many.corante.com/archives/2004/08/25/folksonomy.php](http://many.corante.com/archives/2004/08/25/folksonomy.php)
 [^28]: Doctorow, Cory (2001) Metacrap [http://www.well.com/~doctorow/metacrap.htm](http://www.well.com/~doctorow/metacrap.htm)
 [^29]: Sinha, Rashmi. (2006) [http://rashmisinha.com/2006/07/27/findability-with-tags-facets-clusters-and-pivot-browsing/](http://rashmisinha.com/2006/07/27/findability-with-tags-facets-clusters-and-pivot-browsing/)
+[^30]:
+[^31]:
+[^32]:
+[^33]:
