@@ -58,7 +58,7 @@ Cada voz un filtro. Dejo de suscribirme a canales de información: prefiero *seg
 [^1]: Frauenfelder, Mark (2007) *Rule the Web*. O'Reilly
 [^2]: [http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/](http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)
 [^3]: Carpintier Santana, Rodolfo (2009) *Sólo dos post al día* [http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
-[^4]: Catone, Josh  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
+[^4]: Catone, Josh  (2008) *6 Ways to Filter Your RSS Feeds* [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)
 [^5]:
 [^6]:
 [^7]:
