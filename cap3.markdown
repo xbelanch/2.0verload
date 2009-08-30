@@ -24,7 +24,7 @@ Gracias a servicios de *democratización de la publicación en la web* como Blog
 
 Con el paso del tiempo, los usuarios más atentos a la *blogosfera* y a cualquier publicación de noticias *sindicable*, vieron cómo el número de suscripciones crecía y, por ende, el volumen de noticias o *feeds* diarias era cada vez mayor, lo que provocaba que el lector RSS se colapsara con relativa facilidad. Este exceso de información obligaba a los incombustibles lectores de RSS a una lectura en diagonal cuando no el abandono de gran parte de las noticias. Si parece ser un escenario prematuro, no son pocas las voces que plantean desde hace un tiempo el problema de la sobrecarga del flujo de información entrante en el lector de RSS. El exceso de la información generada por la publicación sin pausa de terceros colapsa nuestra atención e interés por el contenido que recibimos a diario.
 
->Alguién me ha preguntado recientemente porqué hago dos post al día. Es lo que me habéis pedido. En algún viaje, queriendo contar todo lo que he podido ver en un evento, he intentado postear 4 y 5 posts y enseguida he recibido un rumor de mis lectores. Oye, ¿Te crees que eres el único que leo? ¿Que es eso de postear como una ametralladora?^[Rodolfo Carpintier Santana (2009) [Sólo dos post al día](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
+>Alguién me ha preguntado recientemente porqué hago dos post al día. Es lo que me habéis pedido. En algún viaje, queriendo contar todo lo que he podido ver en un evento, he intentado postear 4 y 5 posts y enseguida he recibido un rumor de mis lectores. Oye, ¿Te crees que eres el único que leo? ¿Que es eso de postear como una ametralladora?[^3]
 
 No es infrecuente tomar alguna decisión cuando el volumen de *feeds* nuevos excede en cantidad a un límite razonable de lectura. Pero, ¿en qué dirección tomarla? ¿eliminar las suscripciones más promiscuas, aquellas que publican con una frecuencia de veinte o treinta noticias al día? ¿filtrar las noticias entrantes? ¿borrar aquellas suscripciones que sólo redundan en información, es decir, que actúan de eco de otras publicaciones? El problema de filtrar la información entrante es que, una noticia de enorme interés personal acabe detrás del filtro y, por lo tanto, desaparezca. De hecho, el cliente web de RS más utilizado, Google Reader, no incorpora ningún sistema o funcionalidad que ayude a filtrar la información. En lugar de un sistema de filtros, Google Reader apuesta por la indexación de los *feeds*, un sistema flexible de etiquetaje, una suerte de *blog* en el que el usuario publiqua aquellas noticias que desea compartir o, finalmente, un sencillo panel que muestra unas estadísticas básicas sobre nuestra actividad de lectura en relación con los diferentes canales a los que estamos agregados. Antes la abundancia *recuperable*  que un sistema inteligente de filtrado.
 
@@ -58,7 +58,7 @@ Cada voz un filtro. Dejo de suscribirme a canales de información: prefiero *seg
 
 [^1]: Frauenfelder, Mark (2007) *Rule the Web*. O'Reilly
 [^2]: [http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/](http://fastwonderblog.com/2008/01/08/information-overload-attention-and-rss/)
-[^3]:
+[^3]: Carpintier Santana, Rodolfo (2009) *Sólo dos post al día* [http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
 [^4]:
 [^5]:
 [^6]:
