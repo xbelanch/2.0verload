@@ -36,9 +36,9 @@ Filtrar de alguna manera el exceso de RSS no es un problema menor si, como ya he
 
 La primera visión pasa por la utilización de palabras clave que actúen como barrera a cualquier noticia que no aparezca en su contenido. Más sofisticado si cabe, pero no representa ninguna novedad técnica, es la incorporación de expresiones regulares en lugar de palabras clave. La aparición hace un año de Yahoo Pipes causó una cierta expectación como algún que otro interrogante del tipo *¿para qué sirve?*. En un primer momento se vendió como una herramienta web-centric de creación de *mashups*[^5].
 
-Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical o *tubería* que enlaza la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos ((Les recomiendo la lectura *En un principio fue la línea de comandos*, de Niel Stephenson)), la idea es muy simple: gracias a un conjunto de operadores visuales, Yahoo Pipes actúa como una suerte de tubería entre la fuente de información y el resultado final. Por ejemplo, el operador *RegExp* permite al usuario definir expresiones regulares que actúen como filtro de los *feeds* entrantes. Luego Yahoo Pipes transforma una masa informe de ruido informativo en un flujo de información adecuada y aproximada a los intereses del usuario.
+Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical o *tubería* que enlaza la salida y entrada de datos entre dos comandos. Aunque no estemos familiarizados con la línea de comandos[^6], la idea es muy simple: gracias a un conjunto de operadores visuales, Yahoo Pipes actúa como una suerte de tubería entre la fuente de información y el resultado final. Por ejemplo, el operador *RegExp* permite al usuario definir expresiones regulares que actúen como filtro de los *feeds* entrantes. Luego Yahoo Pipes transforma una masa informe de ruido informativo en un flujo de información adecuada y aproximada a los intereses del usuario.
 
->So where is the startup that is going to be my information filter? I am aware of a few companies working on this problem, but I have yet to see one that has solved it in a compelling way. Can someone please do this for me? Please? I need help. We all do.^[Erick Schonfeld (2009) Web 3.0 Will Be About Reducing the Noise—And Twhirl Isn't Helping [URL](http://tinyurl.com/5q2ag5)]
+>So where is the startup that is going to be my information filter? I am aware of a few companies working on this problem, but I have yet to see one that has solved it in a compelling way. Can someone please do this for me? Please? I need help. We all do.[^7]
 
 
 Yahoo Pipes no es el único servicio orientado a filtrar la sobrecarga de *feeds* (aunque no sea su propósito). En cierta manera, el alcance de Yahoo Pipes supera el simple ejercicio de filtrar la saturación de *feeds*. Otras empresas o *startups* ofrecen la oportunidad de rebajar el flujo informativo a través de la personalización de filtros: FeedRinse^[http://www.feedrinse.com/]; sin excesiva complejidad, Feedsifter^[http://feedsifter.com/create.php] permite crear *in situ* el filtro de una fuente mediante palabras clave. 
@@ -60,7 +60,7 @@ Cada voz un filtro. Dejo de suscribirme a canales de información: prefiero *seg
 [^3]: Carpintier Santana, Rodolfo (2009) *Sólo dos post al día* [http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia](http://rodolfocarpintier.com/post/2009/03/16/solo-dos-post-al-dia)]
 [^4]: Catone, Josh  (2008) *6 Ways to Filter Your RSS Feeds* [http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)
 [^5]: Un *mashup* es una aplicación web que recoge y mezcla la información disponible de manera abierta de servicios web de terceros y la presenta en un acabado *remix* enriqueciendo la información original al proponer un nuevo mensaje o representación.
-[^6]:
+[^6]: Recomiendo la lectura *En un principio fue la línea de comandos*, de Niel Stephenson.
 [^7]:
 [^8]:
 [^9]:
