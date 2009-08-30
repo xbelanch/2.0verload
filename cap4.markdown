@@ -110,7 +110,7 @@ El e-mail, tal como lo conocimos a mediados de la década de 1990, no forma part
 [^6]: Suarez, Luis. (2009) *A World Without e-mail - Year 2, Week 9 (How to Kill E-mail, Before It Kills You)* [http://it.toolbox.com/blogs/elsua/a-world-without-e-mail-year-2-week-9-how-to-kill-e-mail-before-it-kills-you-31123](http://it.toolbox.com/blogs/elsua/a-world-without-e-mail-year-2-week-9-how-to-kill-e-mail-before-it-kills-you-31123)
 [^7]: Wailgum,  Thomas. (2009) *What Your Webmail Choice Reveals About You* [http://www.pcworld.com/businesscenter/article/162940/what_your_webmail_choice_reveals_about_you.html](http://www.pcworld.com/businesscenter/article/162940/what_your_webmail_choice_reveals_about_you.html)
 [^8]: Dans, Enrique. (2009) *El problema con Internet Explorer 6* [http://www.enriquedans.com/2009/08/el-problema-con-internet-explorer-6.html](http://www.enriquedans.com/2009/08/el-problema-con-internet-explorer-6.html)
-[^9]: Dybward, Barb. (2009) *IE6 OFFENDERS: Report Companies Still Using Internet Explorer 6. [http://mashable.com/2009/08/18/ie6-offenders/](http://mashable.com/2009/08/18/ie6-offenders/)
+[^9]: Dybward, Barb. (2009) *IE6 OFFENDERS: Report Companies Still Using Internet Explorer 6*. [http://mashable.com/2009/08/18/ie6-offenders/](http://mashable.com/2009/08/18/ie6-offenders/)
 [^10]: Parr, Ben. (2009) *Google Wave: A Complete Guide* [http://mashable.com/2009/05/28/google-wave-guide/](http://mashable.com/2009/05/28/google-wave-guide/)
 [^11]: Elgan, Mike. (2009). *How to kill e-mail (before it kills you)* [http://www.computerworld.com/s/article/9131438/How_to_kill_e_mail_before_it_kills_you_](http://www.computerworld.com/s/article/9131438/How_to_kill_e_mail_before_it_kills_you_)
 

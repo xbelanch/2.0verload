@@ -73,7 +73,7 @@ Frente a esta colorida iconografía de carpetas, archivos, etiquetas, estrellas,
 [^1]: Schachter, Joshua (fundador de Delicious) (2005) *Joshua Schachter: Future of Tagging* [http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html](http://beth.typepad.com/beths_blog/2005/10/joshua_schachte.html)
 [^2]: [http://desktop.google.com/features.html/](http://desktop.google.com/features.html/)
 [^3]: Voida, Stephen & Greenberg, Saul. *WikiFolders: Augmenting the Display of Folders to Better Convey the Meaning of Files* 
-[^4]: [http://beagle-project.org/Main_Page](http://beagle-project.org/Main_Page
+[^4]: [http://beagle-project.org/Main_Page](http://beagle-project.org/Main_Page)
 [^5]: Kubasik, Kebin (2008) [http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/](http://kubasik.net/blog/2008/05/21/the-reality-of-semantic-desktops-death-to-tags-labels-and-folders/) 
 [^6]: Morville, Peter (2007) *Ambient Findability*, O'Reilly
 [^7]: Sherman, Paul (2008), *Where’s My Stuff? Beyond the Nested Folder Metaphor* [http://www.uxmatters.com/mt/archives/2008/03/wheres-my-stuff-beyond-the-nested-folder-metaphor.php](http://www.uxmatters.com/mt/archives/2008/03/wheres-my-stuff-beyond-the-nested-folder-metaphor.php)

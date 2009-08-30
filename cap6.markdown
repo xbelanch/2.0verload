@@ -1,9 +1,8 @@
 # Look Ma! Without tabs.
 
-Oliver Reichenstein^[[link](http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php)
-] de [Information Architecs](http://informationarchitects.jp/) publicaba una entrada en el blog que recordaba una pregunta que le formularon a principios del año 2000: *Si tuvieras que diseñar la interfaz de un navegador desde cero ¿qué decisiones tomarías?*. La respuesta se limitó a una lacónica respuesta: *tabs!* (pestañas). En realidad manifestaba un error de diseño flagrante de la gestión de las páginas activas del navegador más utilizado en aquel momento, Internet Explorer. Cada página nueva significaba una ventana nueva del navegador. El efecto *cluttering* estaba asegurado al poco tiempo de navegar. Tampoco una mayoría de *diseñadores y programadores* de la web no ayudaron a disminuir la saturación de ventanas del navegador por la limitada extensión del escritorio de los usuarios. Todo lo contrario. Obviaron -y siguen obviando- las flechas de navegación -como si fueran un elemento decorativo- alegando como excusa la estupidez del navegante. Surge el *spam* de la navegación de la web, los  *pop-ups*, ubicuas e intrusivas vallas publicitarias de contenido basura. El escritorio atiborrado de ventanas abiertas o minimizadas comenzó a ser una imagen familiar para los usuarios. Las pestañas vinieron con el propósito de agrupar la dispersión de la información: las páginas activas de una sesión de trabajo estarían encerradas en los límites físicos del navegador; la posición de las mismas en el horizonte visual facilitaría un rápida localización de cada una de las páginas abiertas. La adopción del sistema de pestañas por parte de los diferentes navegadores representa una muestra de las irregularidades del desarrollo de *software*. Si las primeras apariciones datan de finales de la década de 1990 (Ibrowse en 1999, Opera en el 2000 y Mozilla en el 2001) a mano de navegadores minoritarios, el popular y monopolístico Internet Explorer de Microsoft tendrá que esperar hasta 2007 (una muestra evidente de cómo los cambios suelen ser más difíciles de ejecutar en empresas y corporaciones grandes que no en pequeños equipos).
+Oliver Reichenstein[^1], de Information Architecs[^2], publicaba una entrada en el blog que recordaba una pregunta que le formularon a principios del año 2000: *Si tuvieras que diseñar la interfaz de un navegador desde cero ¿qué decisiones tomarías?*. La respuesta se limitó a una lacónica respuesta: *tabs!* (pestañas). En realidad manifestaba un error de diseño flagrante de la gestión de las páginas activas del navegador más utilizado en aquel momento, Internet Explorer. Cada página nueva significaba una ventana nueva del navegador. El efecto *cluttering* estaba asegurado al poco tiempo de navegar. Tampoco una mayoría de *diseñadores y programadores* de la web no ayudaron a disminuir la saturación de ventanas del navegador por la limitada extensión del escritorio de los usuarios. Todo lo contrario. Obviaron -y siguen obviando- las flechas de navegación -como si fueran un elemento decorativo- alegando como excusa la estupidez del navegante. Surge el *spam* de la navegación de la web, los  *pop-ups*, ubicuas e intrusivas vallas publicitarias de contenido basura. El escritorio atiborrado de ventanas abiertas o minimizadas comenzó a ser una imagen familiar para los usuarios. Las pestañas vinieron con el propósito de agrupar la dispersión de la información: las páginas activas de una sesión de trabajo estarían encerradas en los límites físicos del navegador; la posición de las mismas en el horizonte visual facilitaría un rápida localización de cada una de las páginas abiertas. La adopción del sistema de pestañas por parte de los diferentes navegadores representa una muestra de las irregularidades del desarrollo de *software*. Si las primeras apariciones datan de finales de la década de 1990 (Ibrowse en 1999, Opera en el 2000 y Mozilla en el 2001) a mano de navegadores minoritarios, el popular y monopolístico Internet Explorer de Microsoft tendrá que esperar hasta 2007 (una muestra evidente de cómo los cambios suelen ser más difíciles de ejecutar en empresas y corporaciones grandes que no en pequeños equipos).
 
-Ocho años después, Oliver Reichenstein responde de nuevo a la misma pregunta, esta vez planteada por [Aza Raskin](http://www.azarask.in/blog/post/firefoxnext-tabs-on-the-side/) y responde con contundencia: *forget tabs!* (olvida las pestañas!). ¿Regresar al pasado? No. La situación ha cambiado mucho desde entonces. El sistema de pestañas ha dejado de ser una respuesta eficiente. La acumulación de pestañas es un problema y las páginas actuales han dejado atrás su condición *estática*; en la actualidad manejamos aplicaciones *encerradas en el cuerpo del navegador*. En la presentación de Chrome^[http://www.google.com/googlebooks/chrome/] -el navegador de Google- a cargo del dibujante de cómics, Scott McCloud, el *product manager* de Google, Brian Rakowski, sentencia en la primera viñeta que
+Ocho años después, Oliver Reichenstein responde de nuevo a la misma pregunta, esta vez planteada por Aza Raskin[^3] y responde con contundencia: *forget tabs!* (olvida las pestañas!). ¿Regresar al pasado? No. La situación ha cambiado mucho desde entonces. El sistema de pestañas ha dejado de ser una respuesta eficiente. La acumulación de pestañas es un problema y las páginas actuales han dejado atrás su condición *estática*; en la actualidad manejamos aplicaciones *encerradas en el cuerpo del navegador*. En la presentación de Chrome^[http://www.google.com/googlebooks/chrome/] -el navegador de Google- a cargo del dibujante de cómics, Scott McCloud, el *product manager* de Google, Brian Rakowski, sentencia en la primera viñeta que
 
 >Today, most of what we use the web for on a day-to-day basis aren't just web pages, they are **applications**
 
@@ -73,7 +72,7 @@ Los complementos transforman, manipulan, personalizan y aumentan la experiencia 
 [^n]: Shareolic [](https://addons.mozilla.org/es-ES/firefox/addon/5457)
 [^n]: TwitterFox[](https://addons.mozilla.org/es-ES/firefox/addon/5081)
 
-
+<!--
 
 ### Shareolic y Kwiclick
 
@@ -96,5 +95,17 @@ Ubiquity, un Quicksilver?
   * http://blacktree.com/
   * http://do.davebsd.com/
   * http://feeds.gawker.com/~r/lifehacker/full/~3/p-ooSpL_MIk/gnome-dos-smart-dock-takes-app-launching-to-another-level
-
+-->
+[^1]: [http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php](http://www.readwriteweb.com/archives/the_future_of_firefox_no_tabs_built_in_ubiquity.php)
+[^2]: [http://informationarchitects.jp/](http://informationarchitects.jp/)
+[^3]: [http://www.azarask.in/blog/post/firefoxnext-tabs-on-the-side/](http://www.azarask.in/blog/post/firefoxnext-tabs-on-the-side/)
+[^4]:
+[^5]:
+[^6]:
+[^7]:
+[^8]:
+[^9]:
+[^10]:
+[^11]:
+[^12]:
 
