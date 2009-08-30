@@ -30,7 +30,6 @@ No es infrecuente tomar alguna decisión cuando el volumen de *feeds* nuevos exc
 
 ## Feed Fatigue? You need a filter system!
 
-
 >But the problem many people face is that there are so many sources of information that we're trying to keep track of, we've become buried. Information overload is a real problem for many web users, and one way to cope with it is to filter your RSS feeds so you only see what you want^[Josh Catone  (2008) 6 Ways to Filter Your RSS Feeds [URL](http://www.readwriteweb.com/archives/6_ways_to_filter_your_rss_feeds.php)]
 
 Filtrar de alguna manera el exceso de RSS no es un problema menor si, como ya hemos apuntado más arriba, no se consigue diferenciar aquello que *resulta vital para mí* del ruido. Enfrentarse en el momento actual al desarrollo de un sistema eficiente de filtrado pasa por dos visiones si bien a primera vista irreconciliables, sí complementarias a medio plazo.
