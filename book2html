@@ -1,0 +1,63 @@
+require 'rubygems'
+require 'fileutils'
+require 'yaml'
+require 'open3'
+require 'erb'
+require 'maruku'
+require 'hpricot'
+
+
+
+$here = File.expand_path(File.dirname(__FILE__))
+#$root = File.join($here, '..')
+$tpl = File.join($here, 'tpl')
+$config = YAML.load_file("#$here/config.yaml")
+
+def book2html(&block)
+
+	block.call
+	
+end
+
+def usage
+	puts <<USAGE
+Usage:
+	book2html: [OPTION...]
+
+Options:
+	no options yet! :-)
+USAGE
+end
+
+def copy_template_files
+	dir = "#$here/#{$config['lang']}"
+	FileUtils.mkdir_p(dir)
+	FileUtils.mkdir_p(File.join(dir,"css"))
+	FileUtils.mkdir_p(File.join(dir,"img"))
+	FileUtils.cp_r("#$here/tpl/css/.", File.join(dir,"css"))
+	FileUtils.cp_r("#$here/tpl/img/.", File.join(dir,"img"))
+end
+
+
+book2html do 
+	abort = false
+	template = ERB.new(File.read("#$tpl/template.erb"))
+
+	print "\t\tConvert book to html... "
+
+	$config['order'].each do |file|
+		File.open(File.join(dir, "#{file}.html"), 'w') do |file|
+       		file.write(template.result(binding))
+    	end	
+	end
+
+	['index', 'about', 'colateral'].each do |file|
+		File.open(File.join(dir, "#{file}.html"), 'w') do |file|
+       		file.write(template.result(binding))
+    	end
+	end
+	
+	unless abort
+		puts "done"
+	end
+end
