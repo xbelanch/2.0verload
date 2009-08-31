@@ -1,68 +1,31 @@
 # The sexy job
 
->I keep saying the sexy job in the next ten years will be statisticians. People think I’m joking, but who would’ve guessed that computer engineers would’ve been the sexy job of the 1990s? The ability to take data—to be able to understand it, to process it, to extract value from it, to visualize it, to communicate it—that’s going to be a hugely important skill in the next decades, not only at the professional level but even at the educational level for elementary school kids, for high school kids, for college kids. Because now we really do have essentially free and ubiquitous data. So the complimentary scarce factor is the ability to understand that data and extract value from it[^1]
+
+>The purpose of visualization is insight, not pictures^[0]
+
+De un tiempo a esta parte, la disciplina de la visualización de datos está siendo objeto de una enorme atención rompiendo, definitivamente, los límites de la esfera universitaria. Comunicar gráficamente el *overloading* está de moda; construir el *relato visual* de una información tabular se ha vuelto en una actividad profesional muy atractiva 
+
+>I keep saying the sexy job in the next ten years will be statisticians. People think I’m joking, but who would’ve guessed that computer engineers would’ve been the sexy job of the 1990s?[^1]
+
+Esta pasión por la visualización de datos no es casual. La actual situación de una presencia ubicua de información personal y colectiva, la capacidad individual y colectiva de producir y recoger (gracias a una rápida evolución del perfil *sensorial* de los nuevos dispositos móviles) información; capacidad de mezclarla, remezclarla,  publicarla y compartirla en la *conversación*, la iniciativa de entregar los datos en formatos abiertos por parte de los servicios 2.0 como de algunos pocos gobiernos occidentales y, finalmente, el desarrollo de tecnologías libres dedicadas a la visualización e infografía  de datos, convergen en un espacio poliédrico en el que es posible reconocer una suerte de *revolución invisible y silenciosa*: la oportunidad como ciudadano de *opinar* (desde la reflexión a la crítica) desde una perspectiva visual, no en términos estéticos y sí en clave de comunicación. Se inaugura la cultura del *open-and-raw-data*, es decir, el acceso a los datos en su estado crudo, libre de intermediarios, y en formatos no cautivos o propietarios. Formatos como CSV, XML, JSON o YAML que faciliten el proceso de intercambio, interoperabilidad, lectura, análisis, extracción y manipulación de los datos. La visualización, de otra manera, resultaría imposible.  
+
+>I would like to suggest: sure, make a beautiful website, but first, give us – all of us – the unadulterated data. We have to ask for raw data now.[^20]
 
 
-Interpretar el exceso de información no es una tarea fácil. El aprendizaje de las herramientas con las que manipulamos la poco incluye o nada la comunicación del *overloading*. El ejemplo más familiar son las hojas de cálculo. Si la competencia técnica de la herramienta nos ayuda a gestionar eficazmente las interminables filas y columnas de la hoja de cálculo, no ocurre lo mismo cuando se intenta facilitar un *relato visual* de aquella información tabular.
+El propósito de la visualización es revelar un significado que, de otra manera, en su representación más cruda, permanece oculta. De acuerdo con Tufte (2007)[^tufte], la excelencia de la representación gráfica de datos consiste en que ideas complejas se comuniquen con claridad, precisión y eficiencia. En realidad, la visualización trata de responder a la formulación de una o varias preguntas en relación a la fuente de información. Encontrar la respuesta dependerá de una metodología secuencial de trabajo. Ben Fry (2008) distingue las siguientes fases: adquisición, análisis, filtro, extracción, representación e interacción de la información. Cada una de las fases implica una toma de decisiones que intentaran ajustarse, en la medida de lo posible, a la pregunta original. Cada una de ellas asociada a una disciplina académica: 
 
+1. **Computación** - Adquisición o *parser* de la fuente de información. Varios autores, en los que se incluyen Tufte y Manuel Lima coinciden en la necesidad de citar la fuente de información en su formato original. 
+2. **Matemáticas, Estadística y Minería de datos** - Minería y filtrado de la información.
+3. **Diseño gràfico** - Elección de un tipo determinado de representación. 
+4. **Infovis and Human-Computer Interaction (HCI)** - Frente a una representación congelada en papel impreso, la interacción invita a una manipulación de la respuesta y enriquece la experiencia cognitiva del usuario.
 
-De un tiempo a esta parte, la disciplina de la visualización de datos está siendo objeto de una enorme atención rompiendo, definitivamente, los límites del ámbito universitario. Comunicar gráficamente el *overloading* está de moda; mostrar el *relato visual* de
+La complejidad de la visualización de información reside precisamente en el acierto de cada una de las fases. Una visualización no responderá correctamente a la pregunta inicial si la elección de la fuente de información es equivocada. Por el contrario, la comunicación de la respuesta no será eficaz si la representación elegida no es la adecuada en relación a los datos procesados. Un ejemplo muy popular de visualización que cumple con acierto su objetivo son las nubes de etiquetas (*cloud tags*). La mayoría de páginas incluyen este *widget*. La nube de etiquetas responde a dos necesidades complementarias:
 
-
-Otro ejemplo son las presentaciones. Cuando nos invitan a presentar un proyecto, un trabajo, una exposición o una síntesis del curso de una investigación, decidimos acompañar nuestro discurso con unas diapositivas, como si ya no fuera posible otra alternativa (y quedara como un acto extravagante y provocador no hacerlo). Si realizar una presentación es un ejercicio de síntesis del contenido de un documento, ¿qué hacer cuando nos enfrentamos a una instantánea del contenido de una hoja de cálculo? ¿y de los resultados de una estadística? La visualización o, lo que es lo mismo, la elección de una representación adecuada de la información, nos facultará de un significado nuevo que, en su forma primitiva, difícilmente lo conseguiría. De acuerdo con Tufte (2007), la excelencia de la representación gráfica de datos consiste en que ideas complejas se comuniquen con claridad, precisión y eficiencia.
-
-
-##La visualización de información como disciplina
-
-El propósito de la visualización es revelar un significado que, de otra manera, en su representación más cruda -tabular, en gruesos informes, estadísticas interminables o en formatos de archivos estructurados (CSV, XML, JSON, YAML,...) o, en el peor de los escenarios posibles, completamente desestructurada-, queda oculta. Joel Laumans[^2] insiste que toda visualización responde a una pregunta en relación a una información dada. Conocer esta información, saber las relaciones que hay entre sus variables; cómo se organizan y qué es lo que necesita ser comunicado. Hacer visible la información en una suerte de instantánea general del contenido, de los datos, el objeto de la visualización de la información no se limita exclusivamente a una traducción literal de los datos. Todo lo contrario, el proceso de la visualización implica una compleja estrategia de comunicación en el que intervienen diferentes procesos de trabajo como la matemática, la computacional y la artística. 
-
-La representación es un relato visual construido en varias fases con el motivo de responder a una pregunta general. Ben Fry (2008) distingue las siguientes fases: adquisición, análisis, filtro, extracción, representación e interacción de la información. Cada una de las fases implica una toma de decisiones que intentaran ajustarse, en la medida de lo posible, a la pregunta original. Cada una de ellas, bajo el paraguas de una parcela del conocimiento: 
-
-1. **Computación** - Adquisición y *parseo* de la información
-2. **Matemáticas, Estadística y Minería de datos** - Minería y filtrado
-3. **Diseño gràfico** - Refinación y representación
-4. **Infovis and Human-Computer Interaction (HCI)** - Interacción
-
-### Adquisición
-
-
-### Minería de datos
-
-
-### Representación
-
-La mayoría de autores coinciden que el éxito de la representación está fuertemente sujeto a la elección del método de representación o tipo de gráfico. Si bien la decisión del tipo de gráfico es libre -y en muchos casos, incluso creativa-, encontramos disponibles una serie de patrones visuales asociados a un problema concreto de la representación de la información:  
-
-* **Cantidades independientes**: comparación de los valores de variables independientes. Un ejemplo son los gráficos de barra
-* **Cantidades continuas a lo largo de una línea de tiempo**: gráficas de líneas o gráficas de áreas apiladas (stacked area chart)
-* **Proporciones**: Cuando la información o los datos forman parte de un todo. Gráficos de pastel o gráficos de anillos
-* **Correlaciones**: Scatterplots o bubble charts
-* **Jerarquías**: diagramas de árbol
-* **Redes**: diagramas de nodos
-* **Cartográficos**: Mapas
-* **Flujo**: Diagramas de Sankey
-
-Las hojas de cálculo incorporan soluciones estándar y aceptadas colectivamente como únicas (diagrama de barras, de pastel,...), pero los nuevos paquetes ofimáticos han comenzado a incluir el resto de los patrones no tradicionales, incluso la funcionalidad interactiva. La hoja de cálculo de Google Docs incluye representaciones cartográficas (aprovechando el enorme tirón de su servicio de mapas), líneas del tiempo y otros *gadgets* visuales que enriquecen y complementan la percepción de la información tabular.
-
-Como suele ser habitual, no todos los escenarios se ajustan a una solución visual precocinada o encajan perfectamente en alguno de los patrones anteriores. Cuando esto ocurre, la solución pasa por una mezcla de dos o más patrones visuales. 
-
-### Interacción
+* **Permitir** a los usuarios conocer qué etiquetas clasifican el mayor número de contenidos de la página web y, por lo tanto, una suerte de *zeitgeist* de qué información ocupa el interés de la página -adquisición y análisis de la información-.
+* **Ofrecer** una ruta alternativa de navegación y adquisición de la información a través de las etiquetas -interacción con la representación-.
 
 
 
-
-## Caso de ejemplo: Nubes de etiquetas
-
-La entrada de la informática en el campo de la visualización ha significado un salto cualitativo al facilitar el procesamiento masivo de información, la actualización inmediata del resultado y la interacción entre el usuario y la información representada. Frente a la visualización congelada en papel impreso, la oferta de una visualización dinámica contribuye enormemente a una utilización democrática de las herramientas que la producen. El usuario puede determinar la fuente de datos, filtros y el tipo de representación final. Veamos un ejemplo básico, pero muy popular de visualización de la información: las nubes de etiquetas o *cloud tags*
-
-Un ejemplo muy sencillo, pero no exento de cierta complejidad técnica, y que fue adoptado rápidamente por la mayoría de páginas web que clasificaban los contenidos en base a un sistema de etiquetas, es la representación conocida como Tag Cloud o nube de etiquetas. La rápida acumulación de etiquetas en páginas web donde la publicación de contenidos es intensa originó el sistema de nubes de etiquetas. Este sistema debía cumplir dos funciones:
-
-* **Permitir** a los usuarios conocer qué etiquetas clasifican el mayor número de contenidos de la página web y, por lo tanto, una suerte de zeitgeist de la información.
-* **Establecer** una metodología sencilla de navegación y adquisición de la información a través del espacio de etiquetas, de tal manera que ofreciese nuevas rutas en la adquisición de la información.
-
-En cierta manera, la solución de los Tag Cloud corresponde a ofrecer un mensaje claro: del conjunto total de etiquetas, cuáles tienen mayor peso o relevancia según una variable o valor escogido como referencia (acostumbra a ser el número de artículos a los que se les ha asignado la etiqueta)
-
-### Del Tag Cloud al Wordle
 <!--
 http://www.wordle.net/
 
@@ -133,8 +96,6 @@ Swivel[^8], otro servicio que mezcla los tres componentes: explorar y analizar l
 
 ### Raphaël
 
-# PowerPoint Overload: la degradación de la información
-
 * http://www.presentationzen.com/presentationzen/2009/05/making-presentations-in-the-ted-style.html
 * dataspora.com
 -->
@@ -185,9 +146,11 @@ Metáforas visuales, donde se recurre a la bandeja de entrada como motivo estét
 <!--
 [I devised a multicolumn layout for visualizing discussions and described it in a workshop paper in 2005](http://zesty.ca/threadmap/)
 -->
-
+[^0]: Ben Shneiderman (1999)
 [^1]: Varian, Hal (2009) *how the Web challenges managers* [http://www.mckinseyquarterly.com/Hal_Varian_on_how_the_Web_challenges_managers_2286](http://www.mckinseyquarterly.com/Hal_Varian_on_how_the_Web_challenges_managers_2286)
 [^2]: Laumans, Joel (2009) *Introduction to Visualizing Data* [http://piksels.com/wp-content/uploads/2009/01/visualizingdata.pdf](http://piksels.com/wp-content/uploads/2009/01/visualizingdata.pdf)
+[^20]: Berners-Lee, Tim, citador por Artur, Charles (2009) *Web inventor to help Downing Street open up government data* [http://www.guardian.co.uk/technology/2009/jun/10/berners-lee-downing-street-web-open](http://www.guardian.co.uk/technology/2009/jun/10/berners-lee-downing-street-web-open)
+[^tufte]: Tufte ? 
 [^3]: Udell, Jon (2009) *Visualization Trends For The Noosphere* [http://www.visitmix.com/articles/Visualization-Trends-For-The-Noosphere](http://www.visitmix.com/articles/Visualization-Trends-For-The-Noosphere) 
 [^4]: Yau, Nathan (2009) *The Flowing Data guide to visualisations* [http://www.guardian.co.uk/news/datablog/2009/jun/15/google-ibm](http://www.guardian.co.uk/news/datablog/2009/jun/15/google-ibm)
 [^5]: Greenberg, Ira (2007). *Processing: Creative Coding and Computational Art*. Apress
