@@ -6,7 +6,7 @@
 Interpretar el exceso de información no es una tarea fácil. El aprendizaje de las herramientas con las que manipulamos la poco incluye o nada la comunicación del *overloading*. El ejemplo más familiar son las hojas de cálculo. Si la competencia técnica de la herramienta nos ayuda a gestionar eficazmente las interminables filas y columnas de la hoja de cálculo, no ocurre lo mismo cuando se intenta facilitar un *relato visual* de aquella información tabular.
 
 
-
+De un tiempo a esta parte, la disciplina de la visualización de datos está siendo objeto de una enorme atención rompiendo, definitivamente, los límites del ámbito universitario. Comunicar gráficamente el *overloading* está de moda; mostrar el *relato visual* de
 
 
 Otro ejemplo son las presentaciones. Cuando nos invitan a presentar un proyecto, un trabajo, una exposición o una síntesis del curso de una investigación, decidimos acompañar nuestro discurso con unas diapositivas, como si ya no fuera posible otra alternativa (y quedara como un acto extravagante y provocador no hacerlo). Si realizar una presentación es un ejercicio de síntesis del contenido de un documento, ¿qué hacer cuando nos enfrentamos a una instantánea del contenido de una hoja de cálculo? ¿y de los resultados de una estadística? La visualización o, lo que es lo mismo, la elección de una representación adecuada de la información, nos facultará de un significado nuevo que, en su forma primitiva, difícilmente lo conseguiría. De acuerdo con Tufte (2007), la excelencia de la representación gráfica de datos consiste en que ideas complejas se comuniquen con claridad, precisión y eficiencia.
