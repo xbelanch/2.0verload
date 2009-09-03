@@ -1,14 +1,23 @@
-
+---
 lang: es
-order:
-    - cap0
-    - cap1
-    - cap2
-    - cap3
-    - cap4
-    - cap5
-    - cap6
-    - cap7
+order: 
+  - cap0:
+      title: Notas antes de partir
+  - cap1:
+  - cap2:
+  - cap3:
+  - cap4:
+
+#order:
+#	- cap0:
+#		- title: Notas antes de partir
+#	- cap1:
+#	- cap2:
+#	- cap3:
+#	- cap4:
+#	- cap5:
+#	- cap6:
+#	- cap7:
 #    - anx1
 #    - anx2
 #    - anx3
