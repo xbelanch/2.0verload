@@ -47,24 +47,33 @@ book2html do
 	copy_template_files
 	template = ERB.new(File.read("#$tpl/template.erb"))
 
-	print "\t\tConvert book to html... "
+	print "\tConvert book to html... "
 
-	$config['order'].each do |cap|
-		File.open(File.join($base, "#{cap}.html"), 'w') do |file|
-			h1 = cap["title"]
-			puts h1
-       		file.write(template.result(binding))
+  i = 0 
+  t = Time.now
+  toc = []
+	$config['order'].each do |item|
+		File.open(File.join($base, "cap#{i}.html"), 'w') do |file|
+			toc << h1 = item["cap#{i}"]["title"]
+			body = Maruku.new(File.read(File.join($here, "cap" + i.to_s + '.markdown'))).to_html
+			body = Hpricot(body)
+			body.search("h1").remove
+      file.write(template.result(binding))
     	end	
+    i += 1
 	end
 
-	['index', 'about', 'colateral'].each do |file|
-		File.open(File.join($base, "#{file}.html"), 'w') do |file|
+	['index', 'about', 'colateral'].each do |item|
+		File.open(File.join($base, "#{item}.html"), 'w') do |file|
+		      h1 = item
+		      item = item
+		      cap = nil
        		file.write(template.result(binding))
     	end
 	end
 	
 	unless abort
-		puts "done"
+		print "\n\tdone\n"
 	end
 end
 

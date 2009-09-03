@@ -20,7 +20,7 @@
 				<li><a title="asides" href="colateral.html">Colateral</a></li>
 			</ul>
 		</div>
-	    <% if cap.to_s =~/cap/ %>
+	    <% if item.to_s =~/cap/ %>
 		<ul id="navigation">
 				<li><a href="index.html">Tabla de contenidos</a> &raquo; </li>
 				<li><%= h1 %></li>
@@ -31,20 +31,21 @@
 		<% end %>
 
 		<div class="chapter">
-				<img src="<%= File.join('img', cap + '.png') %>" alt="" />
+				<img src="<%= File.join('img',"cap#{i.to_s}.png") %>" alt="" />
 		        <h2><%= h1 %></h2>
 		</div>
 		<div class="info-right-wrap">
 		        <p>Este documento se generó el <%= t.strftime("%d/%m/%Y") %>, a las <%= t.strftime("%H:%M") %></p>
+				<p>El diseño está enteramente basado en el excelente trabajo gráfico de <a href="">Jon Tan</a>, diseñador y web typographer</p>
 		</div>
 	
 		<div class="content">
-		<% if cap.to_s =~/cap/ %>
+		<% if item.to_s =~/cap/ %>
 			<%= body %>
 		<% else %>
-			<% if cap=="about" %>
+			<% if item=="about" %>
 			<h2>Hola!</h2>
-			<% elsif cap=="colateral" %>
+			<% elsif item=="colateral" %>
 
 			<h2>Colateral</h2>
 			

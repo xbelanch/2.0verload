@@ -4,9 +4,19 @@ order:
   - cap0:
       title: Notas antes de partir
   - cap1:
+      title: Personal Information Glut
   - cap2:
+      title: Folders & Tagging redundancy
   - cap3:
+      title: RSSocial fatigue
   - cap4:
+      title: Kill Inbox
+  - cap5:
+      title: The wiki old days
+  - cap6:
+      title: Look Ma! Without tabs
+  - cap7:
+      title: The sexy job
 
 #order:
 #	- cap0:
