@@ -5,7 +5,6 @@ require 'yaml'
 require 'open3'
 require 'erb'
 require 'maruku'
-require 'hpricot'
 
 
 
@@ -45,31 +44,36 @@ end
 book2html do 
 	abort = false
 	copy_template_files
-	template = ERB.new(File.read("#$tpl/template.erb"))
+	
 
 	print "\tConvert book to html... "
 
   i = 0 
   t = Time.now
   toc = []
+  
+  template = ERB.new(File.read("#$tpl/template_chapter.erb"))
 	$config['order'].each do |item|
 		File.open(File.join($base, "cap#{i}.html"), 'w') do |file|
 			toc << h1 = item["cap#{i}"]["title"]
-			body = Maruku.new(File.read(File.join($here, "cap" + i.to_s + '.markdown'))).to_html
-			body = Hpricot(body)
-			body.search("h1").remove
+			doc = []
+			File.readlines(File.join($here, "cap" + i.to_s + '.markdown')).each do |lines|
+			  doc << lines unless lines =~ /^#/ #eliminamos los h1 (markdown)
+		  end
+		  body = Maruku.new(doc.to_s).to_html
       file.write(template.result(binding))
     	end	
     i += 1
 	end
 
 	['index', 'about', 'colateral'].each do |item|
+	  template = ERB.new(File.read("#$tpl/template_#{item}.erb"))
 		File.open(File.join($base, "#{item}.html"), 'w') do |file|
-		      h1 = item
-		      item = item
-		      cap = nil
-       		file.write(template.result(binding))
-    	end
+      h1 = item
+      item = item
+      cap = nil
+   		file.write(template.result(binding))
+    end
 	end
 	
 	unless abort

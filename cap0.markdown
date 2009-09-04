@@ -1,4 +1,4 @@
-# Notas antes de partir
+# Notas antes de partir 
 
 La percepción de estar inmersos en una etapa irreversible de exceso de información no es exclusiva de nuestra época. A finales del siglo XVII, Adrien Baillet, lector apasionado y biógrafo de René Descartes, escribió:
 

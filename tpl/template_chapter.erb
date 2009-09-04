@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="<%= $config['lang'] %>" xml:lang="<%= $config['lang'] %>">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv=
+	"Content-Type" />
+	<title><%= h1 %></title>
+	<% %w{reset e}.each do |style| %>
+	<link rel="stylesheet" href="<%= File.join('css',style) %>.css" type="text/css" media="screen, projection" />
+	<% end %>
+	
+</head>
+<body>
+	<div class="container">
+		<div id="utilities">
+			<ul>
+				<li class="home"><a title="book" href="index.html">2.0verload <span class="subtitle">Cartografías de la conversación</span></a></li>
+				<li><a title="blog" href="blog">Blog</a></li>
+				<% %w{ about colateral }.each do |link| %>
+					<li><a title="<%= link %>" href="<%= link %>.html"><%= link %></a></li>
+				<% end %>
+			</ul>
+		</div>
+
+		<ul id="navigation">
+				<li><a href="index.html">Tabla de contenidos</a> &raquo; </li>
+				<li><%= h1 %></li>
+		</ul>
+
+
+		<div class="chapter">
+				<img src="<%= File.join('img',"cap#{i.to_s}.png") %>" alt="" />
+		        <h2><%= h1 %></h2>
+		</div>
+		<div class="info-right-wrap">
+		        <p>Este documento se generó el <%= t.strftime("%d/%m/%Y") %>, a las <%= t.strftime("%H:%M") %></p>
+				<p>El diseño está enteramente basado en el excelente trabajo gráfico de <a href="">Jon Tan</a>, diseñador y web typographer</p>
+		</div>
+	
+		<div class="content">
+	
+			<%= body %>
+	
+		</div>
+	</div>
+	<div id="footer">
+		<p><span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">La obra </span><a xmlns:cc="http://creativecommons.org/ns#" href="http://2.0verload.xbelanch.net" property="cc:attributionName" rel="cc:attributionURL">2.0verload</a> está sujeta a una licencia de <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/es/">Reconocimiento-No comercial-Compartir Igual 3.0 España de Creative Commons</a><br />Creada a partir de una obra disponible a <a xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://github.com/xbelanch/2.0verload/tree/master" rel="dc:source">github.com</a></p>
+	</div>
+
+</body>
+</html>
+	
