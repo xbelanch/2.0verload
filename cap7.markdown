@@ -46,6 +46,8 @@ Aunque todavía se encuentra encerrada en una aureola de incomprensión para la 
 
 >To democratize visualization we'll need a new generation of software. With personal and then web-based computing, we've seen it happen again and again: spreadsheets, desktop publishing, web multimedia, cloud-based services. Now, across a range of devices as well as in the cloud, we have the raw technologies to democratize the visualization -- and collaborative analysis -- of data.[^3]
 
+* http://flowingdata.com/2009/09/03/what-visualization-toolsoftware-should-you-use-getting-started/
+* http://flowingdata.com/2008/10/20/40-essential-tools-and-resources-to-visualize-data/
 
 Estas herramientas pueden ser de propósito general, pero estan siendo utilizadas como es el caso de NodeBox o Processing, pero también han surgido aplicaciones web orientadas al usuario final como es Many Eyes, Swivel, Data360[^4]. Pero también merece una enorme atención el goteo continuo de *frameworks*, *toolkits* o librerías, de las que comentaremos más adelante **Raphaël**, pero que no podemos olvidar:
 

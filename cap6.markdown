@@ -64,7 +64,7 @@ Los complementos transforman, manipulan, personalizan y aumentan la experiencia 
 
 ###Ubiquity, el *killer-add-on* de Firefox.
 
-¿Por qué merece una sección aparte Ubiquity? Ubiquity[^21] es un proyecto de laboratorio nacido bajo el paraguas de la fundación Mozilla. Su objetivo es ayudar a los usuarios a reducir la repetición de pequeñas tareas mientras navegan a través de una línea de comandos o *verbos*. Pequeñas tareas como consultar Google Maps, la Wikipedia, un servicio de traducción, la calculadora, el tiempo... obligan a los usuarios, en el curso habitual de la navegación, a abrir continuamente una pestaña nueva.
+¿Por qué merece una sección aparte Ubiquity? Ubiquity[^21] es un proyecto de laboratorio nacido bajo el paraguas de la fundación Mozilla. Su objetivo es ayudar a los usuarios a reducir la repetición de pequeñas tareas mientras navegan a través de una línea de comandos o *verbos*. Tareas cortas como consultar la ubicación de un lugar en el mapa, la definición de un término, la entrada de la Wikipedia, la traducción de un fragmento de la página, etc. nos obliga, en el curso habitual de la navegación, a abrir continuamente una ventana nueva en el navegador. Estas ventanas presentan la diferencia de actuar como *helpers*, ayudantes, en la navegación principal. Esta navegación principal, interrumpida por la constante consulta 
 
 
 
