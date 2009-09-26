@@ -58,7 +58,7 @@ book2html do
 			toc << h1 = item["cap#{i}"]["title"]
 			doc = []
 			File.readlines(File.join($here, "cap" + i.to_s + '.markdown')).each do |lines|
-			  doc << lines unless lines =~ /^#/ #eliminamos los h1 (markdown)
+			  doc << lines unless lines =~ /^#\s/ #eliminamos los h1 (markdown)
 		  end
 		  body = Maruku.new(doc.to_s).to_html
       file.write(template.result(binding))
