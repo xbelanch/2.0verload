@@ -14,10 +14,10 @@ Esta pasión por la visualización de datos no es casual. La actual situación d
 
 El propósito de la visualización es revelar un significado que, de otra manera, en su representación más cruda, permanece oculta. De acuerdo con Tufte (2007)[^tufte], la excelencia de la representación gráfica de datos consiste en que ideas complejas se comuniquen con claridad, precisión y eficiencia. En realidad, la visualización trata de responder a la formulación de una o varias preguntas en relación a la fuente de información. Encontrar la respuesta dependerá de una metodología secuencial de trabajo. Ben Fry (2008) distingue las siguientes fases:
 
-1. **Adquisición**(*parser*) de la fuente de información. Varios autores, en los que se incluyen Tufte y Manuel Lima coinciden en la necesidad de citar la fuente de información en su formato original. 
-2. **Minería**(*data mining*), filtrado y extracción de los datos que sean relevante al propósito u objetivo planteado al principio.
-3. **Elección** de un tipo determinado de representación o gráfico que facilite la comunicación de la información representada y, a un mismo tiempo, susceptible de ofrecer nuevas interpretaciones de los datos seleccionados.
-4. **Infovis and Human-Computer Interaction (HCI)** - Frente a una representación congelada en papel impreso, la interacción invita a una manipulación de la respuesta y enriquece la experiencia cognitiva del usuario.
+* **Adquisición** de la fuente de información. Varios autores, en los que se incluyen Tufte y Manuel Lima coinciden en la necesidad de citar la fuente de información en su formato original. 
+* **Minería** y filtrado y extracción de los datos que sean relevante al propósito u objetivo planteado al principio.
+* **Elección** de un tipo determinado de representación o gráfico que facilite la comunicación de la información representada y, a un mismo tiempo, susceptible de ofrecer nuevas interpretaciones de los datos seleccionados.
+* **Infovis and Human-Computer Interaction (HCI)** - Frente a una representación congelada en papel impreso, la interacción invita a una manipulación de la respuesta y enriquece la experiencia cognitiva del usuario.
 
 La complejidad de la visualización de información reside precisamente en el acierto de cada una de las fases. Una visualización no responderá correctamente a la pregunta inicial si la elección de la fuente de información es equivocada. Por el contrario, la comunicación de la respuesta no será eficaz si la representación elegida no es la adecuada en relación a los datos procesados. Un ejemplo muy extendido de visualización que cumple con acierto su objetivo son las nubes de etiquetas (*cloud tags*). La mayoría de páginas incluyen este *widget*. La nube de etiquetas responde a dos necesidades complementarias:
 
@@ -26,10 +26,10 @@ La complejidad de la visualización de información reside precisamente en el ac
 
 Si seguimos los pasos indicados por Ben Fry -no sin simplificar al máximo el proceso- podríamos desglosar el funcionamiento las nubes de etiquetas de, por ejemplo un blog, en:
 
-1. adquisición de la fuente de información en el conjunto total de artículos del blog.
-2. de los artículos sólo nos interesará las etiquetas asociadas a cada artículo.
-3. la representación es una secuencia de palabras -cada palabra equivale a una etiqueta- en la que el cuerpo de la fuente vendrá determinado por la frecuencia de uso de la etiqueta. A un mayor intensidad de uso de una etiqueta, mayor será su cuerpo de letra. Otra variante de representación de la nube de etiquetas es también conocida como *wordle*[^wordle].
-4. La interacción, como ya se puede ver en la creación de *nubes de etiquetas rotacionales 3D*[^cumulus]. 
+* adquisición de la fuente de información en el conjunto total de artículos del blog.
+* de los artículos sólo nos interesará las etiquetas asociadas a cada artículo.
+* la representación es una secuencia de palabras -cada palabra equivale a una etiqueta- en la que el cuerpo de la fuente vendrá determinado por la frecuencia de uso de la etiqueta. A un mayor intensidad de uso de una etiqueta, mayor será su cuerpo de letra. Otra variante de representación de la nube de etiquetas es también conocida como *wordle*[^wordle].
+* La interacción, como ya se puede ver en la creación de *nubes de etiquetas rotacionales 3D*[^cumulus]. 
 
 
 <!--

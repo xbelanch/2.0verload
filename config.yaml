@@ -1,5 +1,11 @@
 ---
 lang: es
+font: Baskerville
+mono: Courier
+chap: "Capítulo "
+sect: "Sección "
+fig: "Figura "
+tab: "Tabla "
 order: 
   - cap0:
       title: Notas antes de partir
@@ -17,6 +23,7 @@ order:
       title: Look Ma! Without tabs
   - cap7:
       title: The sexy job
+
 
 #order:
 #	- cap0:

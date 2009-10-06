@@ -214,9 +214,9 @@ Jones (2008) considera que la actividad de preservar la información responde a 
 [^35]: [http://www.flotzam.com/archivist/](http://www.flotzam.com/archivist/)
 [^36]: Anuncio de Collecta [http://collecta.com/](http://collecta.com/)
 [^37]: Gulie, Steven *Saved. What death can't destroy and how to digitize it* [http://wired-vig.wired.com/wired/archive/6.09/saved.html?pg=1&topic=](http://wired-vig.wired.com/wired/archive/6.09/saved.html?pg=1&topic=)
-[^38]: Microsiervos (2009) *El cuento de nunca acabar*. [http://www.microsiervos.com/archivo/ordenadores/vdg-el-cuento-de-nunca-acabar.html](http://www.microsiervos.com/archivo/ordenadores/vdg-el-cuento-de-nunca-acabar.html)
+[^38]: Microsiervos (2009) *El cuento de nunca acabar* [http://bit.ly/Aluk0](http://www.microsiervos.com/archivo/ordenadores/vdg-el-cuento-de-nunca-acabar.html)
 [^39]: [http://slashdot.org/articles/06/09/05/2028258.shtml](http://slashdot.org/articles/06/09/05/2028258.shtml)
-[^40]: [http://catless.ncl.ac.uk/Risks/25.44.html#subj7](http://catless.ncl.ac.uk/Risks/25.44.html#subj7)
+[^40]: [http://bit.ly/ctg0h](http://bit.ly/ctg0h)
 [^41]: Diana, Carla (2009) *Atoms For Bits* [http://www.core77.com/blog/featured_items/atoms_for_bits_designing_physical_embodiments_for_virtual_content_13625.asp](http://www.core77.com/blog/featured_items/atoms_for_bits_designing_physical_embodiments_for_virtual_content_13625.asp)
 [^42]: Microsoft's Bing Commercial: [http://www.webguild.org/2009/06/microsofts-bing-ad-claims-to-terminate-search-overload.php](http://www.webguild.org/2009/06/microsofts-bing-ad-claims-to-terminate-search-overload.php)
 [^43]:
