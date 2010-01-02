@@ -2,6 +2,7 @@
 foo*
 memento.*
 *.pdf*
+*.epub*
 *temp*
 *temp
 *.tex.temp

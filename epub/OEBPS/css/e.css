@@ -1,0 +1,110 @@
+@page {
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;}
+
+body { 
+	font-family: serif;
+	margin: 0%;
+	padding: 0%;
+	text-align: left;
+	margin-left: 1em;
+	margin-right: 1em;
+} 
+
+h1 { 
+	font-size: 5em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 150%;
+	margin-bottom: 0.7em;
+}
+
+h3 {
+	font-size: 120%;
+	margin-bottom: 0.5em;
+}
+
+ul {
+	list-style:disc;
+	font-size: 90%;
+}
+
+ol {
+	list-style-type: decimal;
+	font-size: 80%;
+}
+
+ul li, ol li { 
+	margin-left: 2em;
+	margin-bottom: 0.3em;
+}
+
+p {
+	font-size: 90%;
+	margin-bottom: 0.3em;
+	text-align: justify;
+}
+
+p img {
+	margin: 1em;
+	float: left;
+}
+
+sup a {
+	color: #000;
+	text-decoration: none;
+}
+
+sup a:hover {
+	color: #ffaa00;
+}
+
+sup {
+	font-size: 0.666em;
+	vertical-align: 0.5em;
+}
+
+blockquote{
+	padding: 0 1.571em;
+	border-top: 0.071em dotted #999990;
+	border-bottom: 0.071em dotted #999990;
+	font-style: italic;
+	font-size: 85%;
+}
+
+#title {
+	margin-left: 1em; 
+	margin-bottom: 1.3em;
+	}
+#title h1 { margin-bottom: 0.1em;}
+
+#license p, #license ul {
+	font-size: 80%;
+}
+
+
+.footnotes ol li p {
+	display: inline;
+}
+
+.footnotes ol li a {
+	color: #000;
+}
+
+.footnotes ol li a:hover {
+	color: #ffaa00;
+}
+
+.codeblock
+{
+   font-family:            monospace;
+   font-size:              0.85em;
+   line-height:            1.2em;
+   text-align:             left;
+   margin-top:             1em;
+   margin-bottom:          1em;
+   padding:                1.5em;
+   border:                 1px black solid;
+}

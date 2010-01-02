@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:xavier-belanche-alonso-0001"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>2.0verload. Cartografías de la conversación</text>
+  </docTitle>
+ <docAuthor>
+     <text>Xavier Belanche Alonso</text>
+ </docAuthor>
+  <navMap>
+
+    <navPoint class="titlepage" id="level1-title-page" playOrder="1">
+      <navLabel><text>Título</text></navLabel>
+      <content src="title.xhtml"/>
+    </navPoint>
+
+    <navPoint class="license" id="level1-license-page" playOrder="2">
+      <navLabel><text>Licencia</text></navLabel>
+      <content src="license.xhtml"/>
+    </navPoint>
+
+    <navPoint class="cap0" id="level1-cap0-page" playOrder="3">
+      <navLabel><text>Notas antes de partir</text></navLabel>
+      <content src="cap0.xhtml"/>
+    </navPoint>
+
+    <navPoint class="cap1" id="level1-cap1-page" playOrder="4">
+      <navLabel><text>Personal Information Glut</text></navLabel>
+      <content src="cap1.xhtml"/>
+    </navPoint>
+
+
+    <navPoint class="cap2" id="level1-cap2-page" playOrder="5">
+      <navLabel><text>Folders & Tagging redundancy</text></navLabel>
+      <content src="cap2.xhtml"/>
+    </navPoint>
+
+
+    <navPoint class="cap3" id="level1-cap3-page" playOrder="6">
+      <navLabel><text>RSSocial fatigue</text></navLabel>
+      <content src="cap3.xhtml"/>
+    </navPoint>
+
+    <navPoint class="cap4" id="level1-cap4-page" playOrder="7">
+      <navLabel><text>Kill Inbox</text></navLabel>
+      <content src="cap4.xhtml"/>
+    </navPoint>
+
+    <navPoint class="cap5" id="level1-cap5-page" playOrder="8">
+      <navLabel><text>The wiki old days</text></navLabel>
+      <content src="cap5.xhtml"/>
+    </navPoint>
+
+
+  </navMap>
+</ncx>
