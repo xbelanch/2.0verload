@@ -1,0 +1,3135 @@
+%PROGIT Template 
+%http://github.com/progit/progit/blob/master/latex/template.tex
+\documentclass[12pt, a4paper,twoside]{book}
+\usepackage[
+	urlbordercolor ={1 1 1},
+	linkbordercolor ={1 1 1},
+	citebordercolor ={1 1 1},
+	urlcolor = blue,
+	colorlinks = true,
+	citecolor = black,
+	linkcolor = black]{hyperref}
+\usepackage{graphicx}
+\usepackage[hyper]{apacite}
+\usepackage{xltxtra}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+
+\setromanfont{Baskerville}
+\setmonofont{Courier}
+
+\XeTeXlinebreaklocale{es}
+
+\title{2.0verload}
+\author{Xavier Belanche Alonso}
+
+\makeatletter
+\let\savedauthor=\@author
+\let\savedtitle=\@title
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+
+\fancypagestyle{plain}{\fancyhf{}\fancyfoot[LE,RO]{\footnotesize\textbf\thepage}}
+\pagestyle{plain}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcounter{img}[chapter]
+\renewcommand{\theimg}{\thechapter.\arabic{img}}
+\newcommand{\img}[1]{\begin{figure}[h!]
+	\refstepcounter{img}
+	\label{img:\theimg}
+	\centering\includegraphics[width=\maxwidth]{figures/\theimg.png}
+	\textbf{\caption{#1}}
+\end{figure}}
+
+\renewcommand{\chaptermark}[1]{\markboth{\textbf{Capítulo \thechapter}\hspace*{1ex}#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\textbf{Sección \thesection}\hspace*{1ex}#1}}
+\newcommand{\chap}[1]{\newpage\thispagestyle{empty}\chapter{#1}\label{chap:\thechapter}}
+\newcommand{\chapref}[1]{\hyperref[chap:#1]{Capítulo #1}}
+\newcommand{\imgref}[1]{\hyperref[img:#1]{Figura #1}}
+\newcommand{\tabref}[1]{\hyperref[tab:#1]{Tabla #1}}
+\newcommand{\e}[1]{$ \times 10^{#1}$}
+
+\linespread{1.03}
+
+\begin{document}
+\frontmatter
+\maketitle
+\thispagestyle{empty}
+\setcounter{tocdepth}{4}
+\tableofcontents\newpage\thispagestyle{empty}
+
+\mainmatter
+\fancyhf{}
+\fancyhead[LO]{{\small\leftmark}}
+\fancyhead[LE]{{\small\rightmark}}
+\fancyhead[R]{{\small\savedauthor\hspace*{1ex}\textbf{\savedtitle}}}
+\fancyfoot[LE,RO]{\small\textbf\thepage}
+\pagestyle{fancy}
+
+\chap{Notas antes de partir}
+
+La percepción de estar inmersos en una etapa irreversible de exceso
+de información no es exclusiva de nuestra época. A finales del
+siglo XVII, Adrien Baillet, lector apasionado y biógrafo de René
+Descartes, escribió:
+
+\begin{quote}
+that the multitude of books which grows every day in a prodigious
+fashion will make the following centuries fall into a state as
+barbarous as that of the centuries that followed the fall of the
+Roman Empire.
+
+\end{quote}
+Debido a la incapacidad de absorber y evaluar el flujo continuo de
+información, Adrien Baillet alertó de un futuro confuso, una espesa
+niebla que nos impediría discernir lo relevante de lo superfluo;
+empujaría a la civilización occidental a una nueva etapa oscura de
+la cultura, esta vez no por ausencia cuantitativa de información,
+si no cualitativa. El anticipo de la banalización de la cultura y,
+finalmente, el regreso a una suerte de Edad Media donde los
+ciudadanos se ven anestesiados por el enorme volumen de
+información.
+
+Si la cuestión del exceso de información se limitó a las
+reflexiones de la élite cultural del siglo XVI y XVII, en la
+actualidad es un fenómeno que afecta a todos por igual. Ann Blair%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}},
+en un estudio sobre cómo hacer frente al exceso de información
+concluye que
+
+\begin{quote}
+I don't have any particular remedy to offer, other than to comment
+that even though the problem seems dire, it's not all that new.
+
+\end{quote}
+El exceso de información es un relato recurrente; proyecta una
+sombra que distorsiona las actividades relacionadas con la
+información, es decir, su adquisición, búsqueda, clasificación,
+categorización, recuperación y preservación. Gestionar el exceso de
+información es objeto de análisis y advertencias. Un reciente
+estudio%
+\footnote{Wilson, (2005).
+\emph{\href{http://www.newscientist.com/article/mg18624973.400}{Info-overload harms concentration more than marijuana}}}
+advierte que la \emph{infomanía} o la \emph{infobesidad} tiene
+peores efectos que el consumo de marihuana. La \emph{infoxicación}
+provoca estrés, un penosa sensación de improductividad; se extiende
+la multitarea como metodología única de trabajo y nos acaba
+castigando al difuminar la frontera entre la parcela íntima,
+privada y profesional. De un tiempo a esta parte los libros de
+autoayuda en el terreno profesional han invadido las estanterías de
+librerías. De un tiempo a esta parte, los blogs sobre productividad
+personal y excelencia laboral proliferan y aumentan en número.
+Consejos, recetas prefabricadas, opiniones, estudios, tutoriales,
+experiencias personales alrededor de un mismo eje: controla el
+exceso de información antes que sucumbas a él.
+
+\begin{quote}
+E-mail traffic has increased, computers and other devices have
+profilerated, new acronyms and technology terms have invaded our
+speech, and many people can sense that there's a problem. It's all
+too much%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}
+
+\end{quote}
+Se asocia el exceso de información al déficit de atención%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}},
+a la toma equivocada de decisiones%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}
+y como al tiempo que tardamos en tomarlas%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}}.
+Nos ahogamos en el detalle y perdemos de vista la perspectiva
+general de las situación%
+\footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}}.
+La economía de la atención emerge del océano informativo. No hay
+tiempo para una lectura que no sea en diagonal; no hay espacios de
+reflexión, pero sí de inmediatez, de conversación, de una suerte de
+\emph{oralidad} reinventada por los nuevos medios de comunicación.
+
+El relato de la abundancia de información adquiere un significado
+especial gracias a las nuevas tecnologías de la web. Convivimos con
+la promesa de una integridad inquebrantable del circuito del
+tratamiento de la información. La irreversible digitalización de la
+información personal se la acompaña de buscadores más inteligentes,
+más precisos en los resultados, más rápidos de respuesta a las
+consultas; buscar información nunca nos ha parecido tan fácil. Los
+márgenes del contenedor en el que guardamos la información, que
+seleccionamos y categorizamos son igualmente difusos: los creemos
+ilimitados. Un relato en que los diferentes servicios ubicados bajo
+ese indefinible paraguas tecnológico, pero no menos social,
+conocido popularmente por \emph{Web 2.0}, han construido y forjado
+hábilmente en el imaginario colectivo.
+
+Parafraseando a Roland Barthes%
+\footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós},
+este libro defraudará a técnicos, \emph{geeks} como a quienes
+buscan o esperan descubrir una pésima liturgia de autoayuda digital
+o un interminable listado de servicios de la ubicua y asfixiante
+etiqueta \emph{2.0}. Por el contrario, este libro habla de cómo el
+fenómeno de la \emph{Web 2.0} ha reinventado las actividades
+asociadas a la información personal y, a un mismo tiempo, dice
+adiós a la metáfora del escritorio individual a favor de un
+escritorio colectivo. Una nueva orografía, por tanto, del exceso de
+información personal disfrazada ahora de la \emph{conversación}.
+Como el cartógrafo de Vermeer, sujetando el instrumento de medida
+mientras medita y reflexiona sobre los límites de la
+representación, cada capítulo del libro corresponde a una
+descripción incierta y a veces equivocada de una región de esta
+\emph{conversación} bajo el prisma poliédrico de la web actual, eco
+y reflejo de aquella ciudad invisible de Octavia
+
+\begin{quote}
+Suspendida en el abismo, la vida de los habitantes de Octavia es
+menos incierta que en otras ciudades. Sabe que la resistencia de la
+red tiene un límite%
+\footnote{Italo Calvino, \emph{Las ciudades invisibles}}
+
+\end{quote}
+\chap{Personal Information Glut}
+
+La marca \emph{2.0} ha impuesto la dictadura del
+\emph{antes y el después}. Una división irreconciliable entre lo
+viejo -pesado, ineficiente, gris e individual- y lo nuevo -ágil,
+competente, colorido y colectivo-.
+
+Generalmente se identifica la Web 2.0 como una segunda generación
+de la web%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}},
+en contraposición al modelo anterior de la burbuja punto com, en la
+que se estimula la participación social en la creación y
+distribución de contenidos. Bajo el signo 2.0 han aparecido
+servicios como YouTube, Flickr, Twitter o Facebook, hoy en día tan
+universalmente populares como controvertidos; se habla y se
+utilizan nuevas herramientas de comunicación -wikis, blogging,
+microblogging, \emph{vblogging}, podcasting,\ldots{}- y la
+sofisticación de otras -videochats, mensajería instantánea-. La Web
+2.0 es también la web de la lectura-escritura. De la reinvención de
+tecnologías como el caso del denostado Javascript, que parecían
+estar abocadas a una severa marginación. Del redescubrimiento de
+otras (Python, Ruby). De la necesaria difusión y aceptación de los
+estándares de la Web. De un nuevo pulso entre navegadores web
+(Mozilla Firefox, Internet Explorer, Google Chrome, Opera, Safari)
+cuando a principios del 2000 todo parecía indicar una hegemonía
+indiscutible -ética y tecnológicamente lamentable- de Internet
+Explorer. De la intercomunicación entre dispositivos físicos y
+virtuales (códigos de barra bidimensionales, realidad aumentada).
+De la W2W, ``Web to wealth''%
+\footnote{Wilson, (2005).
+\emph{\href{http://www.newscientist.com/article/mg18624973.400}{Info-overload harms concentration more than marijuana}}}.
+De una renovada agitación en el ámbito de los negocios
+\emph{punto com}%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}.
+Finalmente, de la Web 2.0 como peldaño o bisagra a la ansiada e
+imaginada web semántica.
+
+Pero la Web 2.0 no excluye sombras. Se ha visto -y se sigue viendo-
+la Web 2.0 como una respuesta por parte de la industria contra los
+sistemas P2P. Su misión es aniquilar el aspecto descentralizado y
+distribuido de internet. Los usuarios que comparten y distribuyen
+información a través de clientes P2P respiran el aire de la
+ausencia de jerarquías, de un control centralizado. La Web 2.0 se
+vende como marca regulada de una web distribuida. Puro espejismo.
+Se aboga antes por soluciones controladas de la circulación de
+información y, por consiguiente, de su control y censura. Es más
+fuerte la presión y persecución judicial de los grupos P2P que no a
+los actuales servicios 2.0.
+
+\begin{quote}
+Thus Web 2.0 is not to be thought of as a second-generation of
+either the technical or social development of the internet, but
+rather as the second wave of capitalist enclosure of the
+Information Commons%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}}
+
+\end{quote}
+Si la Web 2.0 se ha edificado en el relato de una conversación
+colectiva%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}:
+McLellan, 2008 donde todas las voces tienen algo qué decir
+(\emph{¿Qué estás haciendo en este momento?}), ¿cómo se representa
+el espacio de la información personal en esta fiesta permanente de
+cotorras y papagayos? La Web 2.0 se ha emancipado de ser una
+esclava de las metáforas del escritorio personal para construir su
+propia representación, obsesionada en la edificación de una moderna
+tradición oral. Es una disrupción de la palabra escrita hacia la
+escritura en voz alta. Todo mensaje adopta la forma de charla%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}}
+luego la rápidez en la que circula la información es infinitamente
+mayor. No leemos, hablamos leyendo. Escribimos en voz alta a través
+de los SMS, la mensajería instantánea, el microblogging, el
+\emph{vblogging}.
+
+\begin{quote}
+Intranets naturally tend to route around boredom. The best are
+built bottom-up by engaged individuals cooperating to construct
+something far more valuable: an intranetworked corporate
+conversation%
+\footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}}
+
+\end{quote}
+La Web 2.0 es una interminable proliferación de servicios, de
+tecnologías que celebran la \emph{industria de la conversación}.
+Cada poco tiempo aparece un nuevo servicio, una nueva estrategia,
+una vuelta de tuerca que intenta hacerse un hueco en la economía de
+la atención. Ya no sólo contamos con un exceso de información o,
+mejor dicho, de voces, sino también de servicios de publicación de
+información, privada o pública. Además hay que sumar a este
+escenario una miríada de dispositivos -\emph{gadgets}- que conectan
+sin interrupción con la conversación. Dispositivos que tienen en
+común la movilidad -pequeños, ligeros y fuertemente ergonómicos-,
+la interoperabilidad (necesaria, aún levantando estúpidas barreras
+por parte de los fabricantes) y la conectividad. El primer síntoma
+de este exceso no se limita sólo a nuestras actividades personales
+de carácter inmediato -buscar y guardar información- y que luego
+hablaremos con más detalle. Se rompe definitivamente la frontera
+física del espacio personal de la información; ésta ya no se limita
+a las cuatro paredes de nuestro despacho o estudio. El escritorio
+es una pieza más de un puzzle digital, difuso en cuanto a que el
+número de dispositivos con el que interactuamos -el ordenador de
+casa, el portátil, el ordenador del trabajo, el móvil personal, el
+móvil profesional,\ldots{}- como los servicios a los que delegamos
+la información es cada vez mayor. Un espacio personal de
+información flotando en una \emph{nube de ordenadores}%
+\footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós}
+promete anular el problema de la fragmentación de la información
+repartida por diferentes dispositivos. Se predice la defunción del
+escritorio tal como lo conocemos%
+\footnote{Italo Calvino, \emph{Las ciudades invisibles}};
+fallecimiento que no responderá a una disrupción violenta, sino a
+una transición lenta de un modelo de comunicación caduco -pero
+todavía mayoritario en organizaciones privadas y públicas- y
+aquélla actual que basa enteramente su estrategia en la separación
+definitiva entre la información -ubicua, persistente- y los
+sistemas o tecnologías que actúan de bisagra entre el modo
+\emph{off-line} y el acceso a la \emph{nube} de la información.
+
+\begin{center}\rule{3in}{0.4pt}\end{center}
+
+¿En qué medida los nuevos servicios de la llamada Web 2.0
+reinventan las actividades de buscar y guardar la información
+personal? ¿Se cumple por fin la promesa de una realidad ideal en la
+que gracias a esta desaparición del escritorio se resuelven
+definitivamente los problemas la gestión de la información
+personal?
+
+Según la Wikipedia%
+\footnote{\href{http://en.wikipedia.org/wiki/Personal_information_management}{http://en.wikipedia.org/wiki/Personal\_information\_management}},
+\emph{Personal Information Managament} (PIM) es el espacio personal
+que engloba toda aquella actividad relacionada con la adquisición,
+búsqueda, organización, recuperación, mantenimiento y uso
+significativo de la información que persigue completar una
+determinada tarea. Busco el teléfono de un restaurante para
+reservar mesa; recupero mensajes antiguos de un cliente donde
+recuerdo que en uno de ellos hablaba de un buen restaurante y así
+organizar una cena de trabajo en un lugar donde se sienta cómodo.
+Belloti et al. (2002) describe el PIM como
+\emph{la organización de la información en base a la categorización, ubicación o adorno de la misma con el fin de facilitar su recuperación cuando sea necesaria},
+o la de Barreau (1995) como
+\emph{las estrategias en la adquisición, organización y guardar la información; las reglas y mecanismos para su recuperación}.
+
+La gestión de información personal plantea una elección entre
+aquello que consideramos objeto de conocimiento, que pueda
+resultarnos útil, y la información que consideramos ruido y que
+molesta debido a su ubicuidad. Decisión no carente de tensión:
+¿dejaré escapar el ruido?, ¿y si me resulta de utilidad más
+adelante? La percepción de qué consideramos información útil o
+ruido puede verse alterada en un futuro. Un marcador web que hoy no
+nos resulta importante, sí lo puede ser pasado un tiempo. En esta
+dirección, una mayoría de servicios actuales de la web comparten la
+intención de relajar esta tensión, aligerar el peso de decidir qué
+hacer con el exceso de flujo de información que vamos recibiendo a
+diario.
+
+\section{Buscar, Guardar}
+
+\begin{quote}
+¡Oh! ¡el mundo offline que tanto odio! ¡Qué tedio tener que
+rebuscar papeles en mi casa! ¡Qué manera de perder tiempo!%
+\footnote{minid.net (2009). \emph{En casa de herrero, cuchillo de palo}
+\href{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}}
+
+\end{quote}
+Buscar y guardar son actividades atrapadas en el área de la
+inmediatez. Responden a necesidades urgentes, colindantes a una
+tarea que requiera una respuesta inminente. Busco el horario de un
+tren, el vuelo de un avión, el teléfono de un hotel; guardo en un
+papel los productos de cocina que he de comprar, las ideas en una
+servilleta, un número de móvil en un trozo de papel, en la esquina
+de un billete de metro o en la agenda de la PDA. Buscar y guardar
+son actividades que la red ha fijado como una extensión natural de
+nuestras tareas cotidianas. Utilizamos los buscadores web o de
+escritorio, con mayor o menor acierto y éxito, para buscar o
+recuperar todo tipo de información, sea nuestra o de terceros,
+vista con anterioridad o no. Los motores de búsqueda no superan
+nunca el umbral del segundo en proporcionar los resultados.
+
+\begin{quote}
+But as people get more sophisticated at search they are coming to
+us to solve more complex problems. To stay on top of this, we have
+spent a lot of time looking at how we can better understand the
+wide range of information that's on the web and quickly connect
+people to just the nuggets they need at that moment. We want to
+help our users find more useful information, and do more useful
+things with it%
+\footnote{\href{http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html}{More Search Options and other updates from our Searchology event, 2009}}
+
+\end{quote}
+Buscar en la actual geografía del océano de información es una
+actividad que no sólo responde a una única finalidad -encontrar la
+información adecuada a la necesidad del momento-. En el proceso de
+búsqueda interactuamos con la información; no hay búsqueda que no
+venga acompañada de una cierta dosis de serendipidad o de
+procrastinación. Entre encuentros fortuitos y el puro
+entretenimiento por descubrir novedades, relacionadas o no con el
+objeto de la búsqueda.
+
+Buscar información es un ejercicio que William Jones (2008)
+desglosa en dos grandes bloques:
+
+\begin{itemize}
+\item
+  \textbf{La información vista con anterioridad}
+  (\emph{¿Dónde guardé el documento?}). Recuperamos una información
+  -controlada por nosotros en cuanto a que está en un espacio de
+  nuestra propiedad- que guardamos en el ordenador del trabajo, en un
+  dispositivo externo de memoria, en la cámara digital, en el
+  portátil, o en un servicio externo controlado por terceros, es
+  decir, una información que reside en alguno de los servicios web en
+  los que participamos.
+\item
+  \textbf{La información que desconocemos su existencia}
+  (\emph{¿Encontraré la imagen relacionada con el tema?}) y que no
+  controlamos.saltarán
+\end{itemize}
+\begin{quote}
+Quien necesita hoy información abundante (incluso de cierta
+solvencia), teclea en Google lo que persigue y lo obtiene en
+cuestión de segundos: desde entradas de blog a tesis doctorales en
+línea. Lo queramos o no, en los hangares de Google está la memoria
+del planeta, y la memoria es gran parte de la identidad%
+\footnote{Mora, Vicente Luis. (2009)}
+
+\end{quote}
+El paisaje actual de exceso de información, de servicios de la web
+y de dispositivos traza una serie de limitaciones que perjudican el
+éxito (\emph{Vamos a tener suerte}) de los dos bloques arriba
+mencionados, de la exploración como la recuperación de información
+personal. La fragmentación, el polimorfismo, la proliferación de
+diferentes tipos de información, la acumulación desorganizada, la
+opacidad, la descontextualización y la duplicación de la
+información son las principales barreras que la Web 2.0 intenta, de
+alguna manera, resolver con mayor o menor éxito. Veamos qué
+significan cada una de ellas.
+
+\subsection{El paisaje de la fragmentación}
+
+\begin{quote}
+Our information may be scattered across various computers and
+gadgets. Some information, for example, may be on a laptop computer
+we use at home, other information may be on a desktop computer we
+use at work and one or more PDA or smart phones. Even on a single
+computer, our information is scattered across the computer desktop,
+``My Document'', file folders, email folders, collections of
+bookmarks, etc. New applications introduce still more forms of
+organization with little or no integration to previous forms.
+People can rightly complain that they have too many organizations%
+\footnote{Jones et al., (2006)}
+
+\end{quote}
+La fragmentación de la información personal es consecuencia de un
+paisaje en el que proliferan tanto los dispositivos físicos como
+las aplicaciones que generan y guardan la información. La
+información personal navega entre varios ordenadores,
+\emph{smartphones}, PDA, cámaras de video, móviles, reproductores
+de música, unidades de memoria externas. ¿Y la web? Gracias a la
+conversación actual, la fragmentación adquiere una nueva dimensión
+hasta ahora desconocida. Publicar y compartir información personal
+nunca ha sido tan extremadamente fácil en la web gracias a la
+transparencia técnica de estos servicios. Luego la información
+personal se diluye en todas aquellos servicios en los que
+continuamente generamos contenido. ¿Cómo abordar entonces la
+búsqueda de información personal en este nuevo contexto? ¿Cómo
+recuperar una información leída, vista con anterioridad, donde la
+diversidad de dispositivos, sistemas de organización de archivos,
+\emph{software} tradicional de escritorio y la \emph{nube} de la
+web coexisten e interactúan cada vez con mayor frecuencia y
+transparencia?
+
+Jones (2008) considera la fragmentación de la información como un
+peaje a la innovación permanente en la creación de nuevos
+dispositivos, nuevas herramientas, nuevas aplicaciones web, nuevos
+formatos de archivos, nuevos soportes. Pero la innovación es
+consciente del problema que representa la fragmentación de la
+información. Los clientes potenciales de un nuevo dispositivo, de
+un nuevo servicio web, no son ajenos al significado de fragmentar y
+dispersar una vez y otra su información personal. Consideremos
+ahora dos escenarios habituales que provocan la fragmentación de
+información:
+
+\begin{itemize}
+\item
+  La \textbf{dispersión digital} de un mismo objeto de información
+  repartido por los diferentes espacios de trabajo. Un ejemplo: acabo
+  de preparar una presentación que ha de acompañar una sesión de
+  trabajo. Esta presentación la he realizado con Microsoft
+  PowerPoint, luego guardaré una copia en el formato nativo -PPT- en
+  el sistema de archivos personal del portátil -primera copia-. La
+  guardaré también en el disco duro externo -segunda copia-, pero
+  incluiré una versión en PDF -tercera copia- ya que es posible que
+  el ordenador instalado en la sala de presentaciones no disponga de
+  las fuentes de letra que he utilizado. Enviaré la presentación como
+  adjunto de un correo electrónico -cuarta copia- y la publicaré en
+  un servicio web de presentaciones -quinta copia- del tipo
+  \href{http://slideshare.ne}{SlideShare}.
+\item
+  A la dispersión se le ha de sumar la \textbf{proliferación} de
+  versiones de un mismo documento. Su actualización o revisión
+  implica una duplicación: el original y el actualizado. Crear un
+  histórico de versiones del documento, siguiendo esta metodología,
+  equivale a la multiplicidad del original. Si además compartimos
+  este documento, la fragmentación de las versiones se acentúa
+  todavía más. ¿Cual de nosotros, del grupo de personas que trabaja
+  en un mismo documento, tiene la versión correcta? ¿Dónde he
+  guardado la última versión correcta del documento?
+\end{itemize}
+Veamos cómo la innovación es sensible a esta cuestión y estudia
+soluciones transparentes que hagan frente a la dispersión de la
+información personal. La empresa Apple anuncia el servicio
+MobileMe%
+\footnote{\href{http://www.apple.com/es/mobileme/}{http://www.apple.com/es/mobileme/}}
+bajo la consigna de
+
+\begin{quote}
+La forma más sencilla de mantener todo sincronizado (\ldots{}) Tal
+vez tengas un Mac en casa, un PC en el trabajo y un iPhone o un
+iPod touch, pero\ldots{} ¿cómo los mantienes todos sincronizados?
+Con MobileMe, tu correo electrónico, contactos y calendarios
+siempre son los mismos, sin importar el dispositivo que utilices.
+
+\end{quote}
+No es el único servicio de estas características. Pogoplug%
+\footnote{\href{http://www.pogoplug.com/}{http://www.pogoplug.com/}}
+es un dispositivo de memoria que
+
+\begin{quote}
+connects your external hard drive to the Internet so you can easily
+share and access your files from anywhere. The Pogoplug is the
+perfect accessory to your connected life. Imagine accessing all
+your files and media from any laptop or desktop computer, anywhere
+in the world
+
+\end{quote}
+A una escala menor, el laboratorio de la fundación Mozilla, trabaja
+en el desarrollo de Weave%
+\footnote{\href{https://services.mozilla.com/}{https://services.mozilla.com/}}
+
+\begin{quote}
+Weave is a Mozilla Labs experiment to explore opportunities for the
+Web browser to broker richer experiences while increasing user
+control over their data and personal information.
+
+\end{quote}
+que permitirá sincronizar el navegador Mozilla Firefox en los
+diferentes dispositivos que utilizamos a diario como los
+marcadores, \emph{cookies}, contraseñas, el histórico de
+navegación, pestañas abiertas,\ldots{}
+
+Los servicios como DropBox%
+\footnote{\href{http://www.getdropbox.com/}{http://www.getdropbox.com/}}
+o el reciente Ubuntu One%
+\footnote{\href{https://ubuntuone.com/}{https://ubuntuone.com/}}
+ratifican una línea de servicio idéntica: vayas a donde vayas,
+utilices el dispositivo que utilices, la información estará
+perfectamente sincronizada. El escritorio, multiplicado por el
+efecto del peaje de la innovación y consumo tecnológico, acaba
+siendo único e independiente de las herramientas que se utilicen.
+La información regresa a un espacio común y, por lo tanto, se evita
+la \emph{siembra} de la información por todos los dispositivos que
+utilizamos a diario. La recuperación de información personal,
+misión imposible para los motores de búsqueda de escritorio en un
+escenario fragmentado, puede regresar con fuerza. La soluciones
+como Google Desktop%
+\footnote{\href{http://desktop.google.com/}{http://desktop.google.com/}},
+Apple Spotlight o Windows Desktop Search%
+\footnote{\href{http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx}{http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx}},
+orientadas con exclusividad a satisfacer búsquedas en el escritorio
+tradicional, saltarán al nuevo escritorio personal que yace en la
+\emph{nube}, en consonancia con los nuevos servicios de la
+sincronización entre dispositivos.
+
+\begin{quote}
+Whether you're searching your computer or the web, Desktop helps
+you find it by searching your Gmail and web history along with your
+hard drive. Also because your index is stored locally on your own
+computer, you can even access your Gmail and web history while
+you're offline.
+
+\end{quote}
+\subsection{Ayudantes}
+
+Recuperar la información que anteriormente hemos visto es una
+actividad poliédrica e insoportablemente repititiva (Kelly, 2008).
+De un tiempo a esta parte, los buscadores han ido incorporando
+ayudantes(\emph{helpers}) que facilitan, en la medida de lo
+posible, el éxito de la búsqueda. Se adopta, en lugar de
+formularios barrocos, la sintaxis de la línea de comandos; se
+representa los filtros de búsqueda mediante un conjunto limitado de
+operadores. Un ejemplo práctico, a veces poco conocido por el
+usuario medio, es la sintaxis del buscador de Google -explicado y
+reiterado por muchos, de los cuales destaco LifeHackers%
+\footnote{\href{http://lifehacker.com/339474/top-10-obscure-google-search-tricks}{http://lifehacker.com/339474/top--10-obscure-google-search-tricks}}:
+
+\begin{verbatim}
+site:google.com filetype:pdf web2.0
+\end{verbatim}
+Otro ejemplo, no menos ilustrativo, es la sintaxis de búsqueda del
+servicio de correo de Google -GMail-, donde encontramos
+expresiones%
+\footnote{\href{http://mail.google.com/support/bin/answer.py?hl=en&answer=7190}{http://mail.google.com/support/bin/answer.py?hl=en\&answer=7190}}
+del tipo:
+
+\begin{verbatim}
+from:mai in:anywhere has:attachment filename:pdf
+after:2007/04/16 
+\end{verbatim}
+que vendría a decir
+\emph{busca todos los mensajes enviados por correo que adjunten un archivo del tipo pdf después de la fecha del 16 de abril de 2007}
+
+Veamos otro ejemplo. El buscador de Twitter nos proporciona una
+lista de operadores%
+\footnote{\href{http://search.twitter.com/operators}{http://search.twitter.com/operators}}
+que nos ayudará a recuperar \emph{tweets} pasados (pero no más allá
+de los límites que impone el propio servicio).
+
+\begin{verbatim}
+flight :( containing "flight" and with
+a negative attitude
+\end{verbatim}
+La acción de autocompletar la expresión que estamos escribiendo en
+el formulario de búsqueda es uno de los ayudantes más
+generalizados. Nos corrige posibles errores de ortografía y, a un
+mismo tiempo, nos sugiere un resultado idóneo o colateral al objeto
+de la búsqueda. Las variaciones del autocompletado son múltiples:
+la palabra clave, la cuenta de correo electrónico, la página web, e
+incluso las contraseñas.
+
+Pero estos dos ejemplos de ayudantes tienen una serie de
+limitaciones:
+
+\begin{itemize}
+\item
+  El sistema de autocompletado no sabe de errores humanos. No
+  diferenciará si una búsqueda está bien o mal escrita, luego, si
+  escribimos una búsqueda que previamente se ha escrito
+  equivocádamente, el sistema lo recuperará, lo que proporcionará -si
+  es recurrente- una desagradable experiencia al usuario.
+\item
+  El autocompletado es \emph{dependiente del dispositivo}, luego no
+  sortea el problema de la fragmentación de información personal.
+\item
+  Los buscadores no diferencian cuál es la versión correcta del
+  histórico de un documento.
+\item
+  Los buscadores no pueden indexar contenidos audiovisuales, luego se
+  apoyarán en los metadatos asociados a estos contenidos.
+\end{itemize}
+\begin{quote}
+``You press the button , We do the rest'' Kodak advertisement
+
+\end{quote}
+En la actualidad no utilizamos un único navegador: el ordenador de
+sobremesa, el portátil personal, el del trabajo, el dispositivo
+móvil, el ordenador de un aula de formación, el de la biblioteca.
+Deseamos que los dispositivos resulten transparentes cuando
+buscamos y accedemos a nuestro espacio personal de información.
+Pero ¿dónde situar la frontera que separa la información personal
+de la colectiva? En la conversación, el límite entre la esfera
+privada y la colectiva se difumina hasta desaparecer. Si
+participamos activamente en la redacción y corrección de artículos
+en la Wikipedia, ¿no es un tipo de información personal -el
+conocimiento sobre un tema- que incorporamos a una estructura
+mayor, colectiva? Gestionar los marcadores en un servicio como
+Delicious, publicar artículos y comentarios en la
+\textbf{blogosfera}, subir un video a Vimeo o YouTube, ¿no rompemos
+definitivamente con los estrechos márgenes del escritorio personal
+y delegamos a los nuevos servicios web, marca 2.0, la gestión de
+nuestra información? La seducción de la facilidad de uso -no
+necesito comprar ningún manual o recibir formación previa- y el
+acceso desde cualquier dispositivo conectado -evito la mochila
+digital- nos convence definitivamente. Mi entrada a este singular
+escritorio colectivo sólo requiere de un navegador. Es evidente que
+el mercado se dirige a este escenario. De ahí, el éxito de ventas
+de los portátiles ligeros, -menos prestaciones técnicas, pero las
+suficientes que permitan un acceso a mi escritorio colectivo-,
+móviles que dejan de serlo a favor de los \emph{smartphones}, o la
+adecuación o innovación de sistemas operativos como Moblin%
+\footnote{\href{http://moblin.org/}{http://moblin.org/}},
+Ubuntu MID%
+\footnote{\href{http://www.ubuntu.com/products/mobile}{http://www.ubuntu.com/products/mobile}}
+o Android%
+\footnote{\href{http://www.android.com/}{http://www.android.com/}}.
+
+\begin{quote}
+While everyone was searching, there was bailing," a narrator says.
+"While everyone was lost in the links, there was collapsing. We
+don't need queries and keywords if they bring back questions and
+confusion. From this moment on, search overload is officially over%
+\footnote{Microsoft's Bing Commercial:
+\href{http://www.webguild.org/2009/06/microsofts-bing-ad-claims-to-terminate-search-overload.php}{http://www.webguild.org/2009/06/microsofts-bing-ad-claims-to-terminate-search-overload.php}}
+
+\end{quote}
+\subsection{Buscar en la conversación}
+
+Pero en términos de búsqueda, ¿qué buscar en la conversación? De
+igual manera que no registramos a diario nuestras conversaciones
+cotidianas, ¿es necesario recuperar nuestra voz de hace un mes, un
+año? La búsqueda se plantea no en clave de pasado sino en
+presente.
+
+\begin{quote}
+See what's happening - right now%
+\footnote{Eslogan de Twitter Search}
+
+\end{quote}
+La búsqueda de la \emph{Real Time Web} es la búsqueda en la
+conversación. ¿Qué significa? No se refiere a indexar documentos,
+páginas, archivos, imágenes o fotografías de la web. El servicio de
+microblogging Twitter ha demostrado que su buscador no tiene nada
+que ver con la recuperación de viejos \emph{tweets} de los
+usuarios. El buscador de Twitter%
+\footnote{\href{http://search.twitter.com/}{http://search.twitter.com/}}
+actúa de sismógrafo de la conversación, traza sobre la pantalla las
+tendencias que estan ocurriendo en ese momento en la conversación.
+Twitter detecta a tiempo real cualquier movimiento sísmico que
+pueda provocar la conversación.
+
+\begin{quote}
+I have always thought we needed to index the web every second to
+allow real time search. At first, my team laughed and did not
+believe me. Now they know they have to do it. Not everybody needs
+sub-second indexing but people are getting pretty excited about
+realtime%
+\footnote{\emph{Larry Page about Twitter}
+(2009)\href{http://www.loiclemeur.com/english/2009/05/larry-page-about-twitter.html}{http://www.loiclemeur.com/english/2009/05/larry-page-about-twitter.html}}
+
+\end{quote}
+No resulta difícil imaginar la expresión de los desarrolladores de
+Google al conocer la propuesta de Larry Page. Aparte del buscador
+de Twitter, ejemplos como el de OneRiot%
+\footnote{\href{http://www.oneriot.com}{http://www.oneriot.com}},
+Scoopler%
+\footnote{\href{http://www.scoopler.com/}{http://www.scoopler.com/}},
+TweetMeme%
+\footnote{\href{http://tweetmeme.com/search.php}{http://tweetmeme.com/search.php}}
+o el buscador de FriendFeed%
+\footnote{\href{http://friendfeed.com/search}{http://friendfeed.com/search}},
+inciden en el hecho que la mayoría de los usuarios buscan el pulso
+de la conversación, toda información de la que la gente habla,
+comparte o está simplemente consultando. El \emph{PageRank} deja
+paso a una suerte de \emph{SocialRank}:
+
+\begin{quote}
+OneRiot crawls the links people share on Twitter, Digg and other
+social sharing services, then indexes the content on those pages in
+seconds. The end result is a search experience that allows users to
+find the freshest, most socially-relevant content from across the
+realtime web.
+
+\end{quote}
+Pero los buscadores de la conversación no tienen memoria. Twitter
+limita las búsquedas a un mes vista del día actual. Guardar la
+conversación más allá de un límite de tiempo no es relevante,
+incluso si es la conversación de uno mismo. Experimentos como
+Archivist%
+\footnote{\href{http://www.flotzam.com/archivist/}{http://www.flotzam.com/archivist/}}
+tienen un acento que roza lo antropológico. Buscar en la
+conversación de la web persigue la instantaniedad del momento, no
+su fijación o preservación.
+
+\begin{quote}
+The Web is alive. Why are we still searching like it is 1999?%
+\footnote{Anuncio de Collecta
+\href{http://collecta.com/}{http://collecta.com/}}
+
+\end{quote}
+\subsection{Preservar}
+
+\begin{quote}
+I think of those old Apple II disks in my closet. My son's first
+Basic program, still on a Commodore 64 cassette. I flip through my
+filing cabinet. Sure enough, some 51/4-inch floppies for an IBM PC,
+containing who knows what? I think of a stele in the Louvre, with
+Hammurabi's code of law carved on it 3,000 years ago, of listening
+to the English translation on the digital recorder you rent at the
+museum door. I think of Shakespeare's first folio, fading but
+readable%
+\footnote{Gulie, Steven
+\emph{Saved. What death can't destroy and how to digitize it}
+\href{http://wired-vig.wired.com/wired/archive/6.09/saved.html?pg=1&topic=}{http://wired-vig.wired.com/wired/archive/6.09/saved.html?pg=1\&topic=}}
+
+\end{quote}
+En la primera época de la informática doméstica, las cintas de
+cassette fueron los principales dispositivos de memoria. Un
+conversor del ruido análogico -la cinta en funcionamiento en un
+reproductor de cintas de casete- a digital traducía las señales de
+sonido al lenguaje de la máquina. El ruido chirriante, altisonante,
+pasados unos minutos, se transformaba en información, en un texto,
+en un gráfico, o en un juego en el televisor. Steven Gulie compara
+las cintas de casete, los primeros discos, con el silencio de los
+restos de civilizaciones desaparecidas que perduran en los museos
+de arqueología. Los programas escritos en el lenguaje BASIC son
+ruido si sólo los reproducimos en un radiocassette de la época, o
+silencio si ni siquiera disponemos del reproductor adecuado. Como
+un grabado de alquimia del siglo XVII, el verdadero significado
+permanece oculto; la información sólo es recuperable a través de
+técnicas actuales de emulación. Pura arqueología digital.
+
+\begin{quote}
+Pero la tendencia actual a pasar todo tipo de contenidos a formato
+digital tampoco está exenta de problemas, porque aparte de poder
+acceder físicamente a los datos -aún tengo por casa cintas de
+casete con programas Commodore 64 y disquetes de 5 1/4 que hace
+años que no tengo forma de leer-, el problema es que muchos de los
+contenidos guardados están en formatos obsoletos creados con
+programas que hoy en día ya no existen, con lo que aunque los datos
+están ahí y probablemente aún se puedan leer, no hay forma de
+interpretarlos%
+\footnote{Microsiervos (2009) \emph{El cuento de nunca acabar}
+\href{http://www.microsiervos.com/archivo/ordenadores/vdg-el-cuento-de-nunca-acabar.html}{http://bit.ly/Aluk0}}
+
+\end{quote}
+El secuestrador austríaco que retuvo a Natascha Kampusch parte de
+su vida, Wolfgang Priklopil, sorprendió a la policía cuando ésta
+descubrió un viejo Commodore 64. Se consideró la posibilidad que
+pudiera guardar información relevante para comprender la actitud
+criminal del secuestrador, pero la recuperación de la información
+no sería trivial debido a que no estaría exenta de pérdida e
+integridad de los datos, según informó la Policía austríaca a los
+medios de comunicación. Slashdot%
+\footnote{\href{http://slashdot.org/articles/06/09/05/2028258.shtml}{http://slashdot.org/articles/06/09/05/2028258.shtml}}
+se hizo eco de la noticia; entre la interminable lista de
+comentarios asociados a la macabra noticia, un usuario se
+preguntaba
+
+\begin{quote}
+how all of this data that isn't transferred to modern day systems
+will be dealt with, both from a technological and machine- and
+media-aging point-of-view. And in the context of criminal
+investigations, what happens if evidence is ``lost'' (or simply
+unrecovered) from a 25-year-old computer in a murder investigation
+which has no statute of limitations? It's an equally difficult
+question for governments, corporations, and academic institutions
+that actually \emph{want} to keep the data but are having trouble
+instituting standards, policies, and mechanisms for data
+retention.
+
+\end{quote}
+A una escala mayor y en un sentido completamente diferente, el
+proyecto \emph{BBC Domesday} representó, en la década de 1980, una
+reinterpretación del trabajo, 900 años después, que impulsó el rey
+Guillermo I en la creación del primer censo conocido de las
+propiedades de la población de Inglaterra. Si aquél se concretó en
+dos volúmenes, el \emph{little Domesday} y el
+\emph{great Domesday}, el homenaje que propuso la BBC, en el que
+participaron alrededor de un millón de escolares. Los estudiantes
+contribuyeron al proyecto escribiendo sobre la historia, geografía
+y acontecimientos de importancia desde una perspectiva local. La
+información, repartida en mapas, videos, fotografías, interactivos
+y escritos, quedó literalmente atrapada en dos \emph{laserdiscs} de
+la época. Poco tiempo después, el proceso de obsolescencia del
+dispositivo de almacenamiento y el tipo de formato en el que se
+registró la información, provocó la alarma, sabedores de tener
+frente a ellos una información irrecuperable. Se originó una serie
+de iniciativas de extracción y migración de la información a las
+tecnologías y formatos actuales, no sin enormes dificultades. El
+error y, por lo tanto, lectura, en palabras de Mike Tibbets,
+responsables del proyecto fue
+
+\begin{quote}
+not in the lack of vision or foresight by the technologists but
+that, at least in the UK, the national systems of data preservation
+and heritage archiving simply don't work reliably or consistently%
+\footnote{\href{http://bit.ly/ctg0h}{http://bit.ly/ctg0h}}
+
+\end{quote}
+Tendemos a preservar el exceso de información, aunque la mayoría de
+ella sea inútil o irrelevante. Toda información está bajo sospecha
+de ser valiosa en un futuro, próximo o lejano, luego no se destruye
+nada. Se pretende que toda información, por estúpido o banal que
+resulte su contenido, sea siempre recuperable en un futuro.
+
+\begin{quote}
+If so much of our personal history is getting compressed into data,
+and digital imaging, cloud computing, and streaming media have
+become an integral part of daily experience, being sensitive to the
+physical presence of these devices is an important responsibility%
+\footnote{Diana, Carla (2009) \emph{Atoms For Bits}
+\href{http://www.core77.com/blog/featured_items/atoms_for_bits_designing_physical_embodiments_for_virtual_content_13625.asp}{http://www.core77.com/blog/featured\_items/atoms\_for\_bits\_designing\_physical\_embodiments\_for\_virtual\_content\_13625.asp}}
+
+\end{quote}
+Jones (2008) considera que la actividad de preservar la información
+responde a más de una cuestión: ¿dónde guardarla? ¿en qué formato?
+¿en qué dispositivo? Los servicios web actuales aligeran la
+necesidad de tomar una decisión al respecto, ya que si bien antes
+podría haber claras limitaciones físicas de espacio (comprar libros
+resulta un problema) o cuando los dispositivos de almacenamiento
+eran limitados, ahora resulta una práctica de cazadores de
+información, incluso aunque la información en sí misma no resulte
+útil. No guardamos copia de esta información, sólo instancias de la
+misma: de las páginas web guardamos su marcador, de aquellas
+fotografías, presentaciones o videos los marcamos de nuestro
+interés; marcamos/cazamos comentarios, grupos de discusión,
+noticias, opiniones, enlaces, vuelos, rutas, hoteles,
+estancias,\ldots{}; agregar noticias no deja de ser también una
+actividad relacionada con guardar la información. No duplicamos,
+realizamos instancias de la infomación. Toda información de nuestro
+interés ha dejado de formar parte de nuestros límites físicos. Ya
+no es de nuestra propiedad. Guardarla, descargarla -y así parece la
+máxima instrucción de la marca 2.0- no tiene sentido. Genera
+información. Publica, escribe, valora, sugiere, sube tu colección
+de fotografías, de videos. Súbelo todo a la \emph{nube}.
+\emph{Nosotros nos encargamos del resto}.
+
+\chap{Folders \& Tagging redundancy}
+
+\begin{quote}
+I don't use the word folksonomy. Tagging in delicious is about 1/3
+classification and 2/3 functionality. Something easy to do that
+let's you recall the item. The goal isn't to classify, it's to
+remember%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}}
+
+\end{quote}
+Organizamos la información con el propósito de recuperarla más
+adelante; la clasificamos en la medida que nos ayude a comprenderla
+una vez recuperada. Preparar un proyecto que aglutine documentos de
+texto, hojas de cálculo, fotografías, videos, presentaciones
+significa ordenar a un tiempo cad uno de los elementos que lo
+forman siguiendo una estructura previa que otorgue un sentido a
+cada una de las partes. Esto mismo, en términos digitales, lo
+traducimos en un sistema de carpetas y subcarpetas anidadas.
+
+En un escenario ideal, seguir pautas claras de organización nos
+evitaría momentos de enorme confusión: ¿dónde he guardado el
+archivo que necesito? Pero las circunstancias son otras y la lógica
+misma de un sistema de clasificación personal acaba, con el tiempo,
+degradándose y perdiendo toda su efectividad. Existe el problema de
+flexibilidad y adaptación de un sistema rígido de clasificación de
+información en un entorno cambiante, excesivamente cambiante como
+es el espacio personal de información de nuestros dispositivos de
+uso cotidiano. Dejamos de seguir la convención con la que ordenamos
+la información: el nombre, identificador o numeración de carpetas y
+subcarpetas; vamos dejando los múltiples archivos en el escritorio,
+más tarde los desplazamos a lugares que no siguen ninguna lógica
+organizativa, no forzamos a que las aplicaciones guarden un adjunto
+o documento en el directorio que uno quiere, sino en aquel que
+tiene por defecto. Esta degradación aumenta si pensamos que la
+tipología de archivo mantiene la metáfora del documento de papel.
+Un ejemplo: la aplicación de búsqueda en local, Google Desktop
+Search%
+\footnote{Wilson, (2005).
+\emph{\href{http://www.newscientist.com/article/mg18624973.400}{Info-overload harms concentration more than marijuana}}}
+asegura indexar todo tipo de elementos: correo electrónico,
+documentos de texto, hojas de cálculo, presentaciones, las
+conversaciones de la mensajería instantánea, documentos
+encapsulados (PDF), archivos comprimidos, así hasta rozar
+trescientos formatos diferentes de archivos. Una realidad que se
+sitúa en las antípodas del escritorio tradicional.
+
+\begin{quote}
+In traditional file hierarchies, the user can only provide simple
+annotations. For example, people must name their folders and files.
+They may optionally specify additional information, such as a short
+text comment or a highlight color, which are stored as file system
+metadata. Other annotations are automatically supplied by the
+system, including the icon associated with the file type, the date
+the file was last modified, and, perhaps, a thumbnail view of the
+file's contents. The problem is that these annotation capabilities
+are extremely limited, given the volume and diversity of files that
+most individuals must manage. (\ldots{}) So, while file browsers
+are excellent for allowing people to create, modify, move, and
+delete files, they provide extremely limited tools for annotating
+these artifacts%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}
+
+\end{quote}
+Kebin Kubasik, desarrollador del indexador libre Beagle%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}}
+en la entrada
+\emph{The Reality of Semantic Desktops: Death To Tags, Labels and Folders}%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}
+defiende un nuevo escritorio que, definitivamente, ponga punto y
+final a la metáfora del escritorio tradicional, que rompa la
+sinergia de continuar la tradición de establecer jerarquías de
+directorios, categorías, etiquetas, distintivos de color y
+cualquier otro emblema visual con fines organizativos. Toda
+práctica de clasificación de la información personal y profesional
+siguiendo este modelo termina en fracaso
+
+\begin{quote}
+how many people actually keep their address book completely
+updated? Or tag all their photos, or keep every document in the
+right folder? Even those who are vigilant eventually fall behind,
+and that's because users already know what the material they are
+filling is, but still have to spend time explaining to the computer
+which items are related and where they belong.
+
+\end{quote}
+No son pocas las voces que denuncian las limitaciones en términos
+de \emph{findability}%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}}
+del actual sistema de carpetas y archivos. No nos referimos a la
+información que \emph{no está bajo nuestro control}, sino de
+aquélla que guardamos tanto en dispositivos personales
+(ordenadores, PDA, memorias externas, Smartphones,\ldots{}) como
+también aquélla que, si bien la consideramos nuestra, no está
+completamente bajo nuestro control, dependiendo de terceros (por
+ejemplo, los servicios de la \emph{nube}) En relación a esta
+cuestión, Paul Sherman%
+\footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}},
+diferencia tres puntos de tensión:
+
+\begin{itemize}
+\item
+  ¿Cómo organizar la información que guardo para que pueda
+  recuperarla más tarde sin dificultad?
+\item
+  ¿Puedo encontrar con facilidad aquella información que he guardado
+  con anterioridad?
+\item
+  ¿Puedo modificar fácilmente la organización de mi información?
+\end{itemize}
+Las tres preguntas han originado todo tipo de respuestas: desde los
+ya habituales consejos de auto-ayuda digital%
+\footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós}
+a visiones de escritorios 3D, de los cuales remarcar Bumptop%
+\footnote{Italo Calvino, \emph{Las ciudades invisibles}},
+más por su efectismo que por su efectividad. Pero como ya hemos
+señalado más arriba, cualquier ordenación personal basada en
+carpetas y subcarpetas acaba tarde o temprano en un proceso de
+degradación. Prueba de ello la encontramos en la expresión más
+superlativa de la desorganización de la información: los
+\emph{clutter desktop} escritorio inundado de archivos y carpetas
+que apenas dejan ver si quiera la imagen de fondo utilizada para el
+escritorio. Este final de camino de la desorganización queda
+artísticamente representado en concursos informales%
+\footnote{\href{http://en.wikipedia.org/wiki/Personal_information_management}{http://en.wikipedia.org/wiki/Personal\_information\_management}}.
+No es extraño que se potencie y promocione el uso de buscadores de
+escritorio que reemplacen la falta de una organización personal de
+información (y resuelvan, por lo tanto, el problema de recuperar
+independientemente del dispositivo en que se encuentre). Pero, ¿y
+la información personal que flota en la \emph{nube}? La actividad
+en la red, cada vez más intensa, hace que resulte más complicada la
+convivencia entre una organización tradicional de documentos y
+carpetas de escritorio y la actividad social en la conversación. El
+servicio Plaxo%
+\footnote{minid.net (2009). \emph{En casa de herrero, cuchillo de palo}
+\href{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}}
+es un ejemplo de ello. Agrupa información tradicional del tipo
+tareas, calendario, agenda, fotografías, videos, pero también
+incluye la opción de sumar nuestra voz de la conversación agregando
+aquellos servicios web que utilizamos. En cierta medida, se vuelve
+invisible el organizador -las carpetas, los archivos, los formatos
+de los archivos- y se hace más tangible la información. Ya no más
+archivos o carpetas. Como mucho, ¿etiquetas?
+
+\section{Organizar la conversación}
+
+La aparición a primeros de 2003 del etiquetaje o \emph{tagging}
+como estrategia de clasificación personal y colectiva de
+información vino de la mano del servicio de marcadores Delicious.
+Falta muy poco para que se bautice la extraordinaria actividad de
+\emph{escribir} la web por parte de sus usuarios como
+\emph{Web 2.0}. El sistema de etiquetas, las \emph{folksonomías}
+(etiquetajes colectivos) es adoptado rápidamente por otros
+servicios como Flickr (junio de 2004), Last.fm (Agosto de 2005),
+Technorati (Enero de 2005)%
+\footnote{\href{http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html}{More Search Options and other updates from our Searchology event, 2009}},
+Youtube (Jun de 2005)%
+\footnote{Mora, Vicente Luis. (2009)};
+clasificar por etiquetas las entradas de un blog personal se
+convierte en hábito; emergen las nubes de etiquetas
+(\emph{cloud tags}) como la mejor estrategia de visualizarlas y
+nadie que se preciaba estar en la vorágine del torbellino de la
+marca 2.0 no descansó en evangelizar este sistema como panacea a
+todos los males de la ordenación de información, personal o
+colectiva.
+
+Gene Smith%
+\footnote{Jones et al., (2006)}
+describe, en términos generales, los beneficios de la práctica del
+\emph{tagging}:
+
+\begin{itemize}
+\item
+  \textbf{Facilidad de uso}: La simplicidad y flexibilidad que nos
+  permite organizar la información frente a una ordenación jerárquica
+  en carpetas y subcarpetas.
+\item
+  \textbf{PIM}: La gestión de información personal tiene un recorrido
+  inverso: de local -etiquetar primero- a general -visualizar la
+  estructura general en base al conjunto de etiquetas-. Esta
+  diferencia es visible si recuperamos la comparación entre ordenar
+  con etiquetas o carpetas o, en palabras de Alex Wright%
+  \footnote{\href{http://www.apple.com/es/mobileme/}{http://www.apple.com/es/mobileme/}},
+  la tensión permanente entre dos tipologías de organización cuasi
+  ancestrales: la jerárquica -disposición vertical-, en forma de
+  árbol invertido, y la horizontal, en forma de red. Si la primera
+  tipología es sinónimo de rigidez y fácilmente reconocible en la
+  estructura de directorios o carpetas del sistema operativo o de
+  algunos clientes de correo, la segunda tipología correspondería a
+  la práctica del \emph{tagging}. De nuevo se destaca la flexibilidad
+  con la que nos permite estructurar la información y, sobretodo,
+  categorizarla a nuestra medida. Otro ejemplo de valor añadido es no
+  duplicar la información si esta pertenece a dos categorías
+  diferentes. Simplificando: si seguimos un sistema rígido basado en
+  carpetas y subcarpetas, es posible toparnos con una situación en la
+  que un documento, por su siginicado o temática, deba pertenecer a
+  dos o tres carpetas diferentes, lo que acaba por degradar el propio
+  sistema de clasificación al provocar que cierta documentación
+  necesite duplicarse o triplicarse. En su contra, gracias al
+  etiquetaje, asociamos al documento las etiquetas que sean
+  necesarias sin necesidad de recurrir a su copia.
+\item
+  \textbf{Colaborar, compartir}: Ejemplos como Flickr o Delicious en
+  el que las etiquetas forman parte de la idiosincrasia del servicio,
+  ayudan a los usuarios a descubrir o explorar nuevos contenidos a
+  través de sus etiquetas.
+\item
+  \textbf{Expresión personal}: Etiquetar es, de alguna manera,
+  definir de manera subjetiva un contenido. La actividad de etiquetar
+  no es imparcial ni es resultado de un plan organizativo previo. En
+  esta dirección, el \emph{tagging} puede originar movimientos de
+  denuncia, como por ejemplo el emprendido por la organización
+  defectivebydesign.org%
+  \footnote{\href{http://www.pogoplug.com/}{http://www.pogoplug.com/}}
+  contra el DRM%
+  \footnote{\href{https://services.mozilla.com/}{https://services.mozilla.com/}}
+  al utilizar el servicio de \emph{tagging} de Amazon para
+  identificar todo aquel producto que estuviera sujeto bajo DRM.
+\end{itemize}
+Al margen de estos usos benéficos de las etiquetas, otras
+opiniones, contrarias al \emph{tagging} han ido manifestando sus
+limitaciones a diferentes niveles.
+
+\begin{quote}
+Tagging in 2007 seems to have advanced no further than a means by
+which one or more users of a site (or application) can group
+content around a loose framework of concepts. Matt Mower%
+\footnote{\href{http://www.getdropbox.com/}{http://www.getdropbox.com/}}
+
+\end{quote}
+Hurst, por el contrario, es de la opinión de no utilizar etiquetas
+como método de clasificación de la información personal. Considera
+que la práctica de, por ejemplo, etiquetar fotografías requiere de
+un esfuerzo que, la mayoría de usuarios, no está dispuesto a
+asumir. En general, muy pocos son los usuarios que sigan a
+conciencia un sistema rígido de clasificación y organización de los
+archivos. Un ejemplo de esto es cómo los propios usuarios descuidan
+modificar el nombre que, por defecto, las bautiza la propia cámara
+digital. Luego tampoco parece factible que los usuarios dediquen un
+tiempo, aunque corto, a clasificarlas por etiquetas.
+
+\begin{quote}
+a million and one more ways for me to catalog and store my data,
+but when I'm actually looking for something the tags never seem to
+help much
+
+\end{quote}
+La denuncia de las limitaciones del uso de etiquetas como sistema
+de recuperación de la información es un recurrente en la Web 2.0.
+Enrique Dans%
+\footnote{\href{https://ubuntuone.com/}{https://ubuntuone.com/}}
+expuso con claridad la situación de
+\emph{falsos-positivos y falsos-negativos}%
+\footnote{\href{http://desktop.google.com/}{http://desktop.google.com/}}
+y abogar por un sistema mixto de organización: convivencia entre la
+vieja guardia de las categorías y el sistema flexible de etiquetaje
+social. La contundente afirmación de Jesús Encinar, CEO
+(\emph{Chief Executive Officer}) de Idealista.com%
+\footnote{\href{http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx}{http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx}}
+al hablar del rediseño del servicio 11870.com%
+\footnote{\href{http://lifehacker.com/339474/top-10-obscure-google-search-tricks}{http://lifehacker.com/339474/top--10-obscure-google-search-tricks}}
+
+\begin{quote}
+Con el tiempo hemos visto que 2.500 años de historia de las
+bibliotecas no están equivocadas.
+
+\end{quote}
+Se castiga así a la \emph{folksonomía} por la deriva de
+\emph{inconsistencias, sinonimias, homonimias, polisemias o, en general, la falta de homogeneidad y de coherencia}
+(Dans, 2008). Esta apariencia caótica de clasificación de la
+información espanta a puristas de las ontologías y a quienes ven el
+sistema colectivo de etiquetaje como un camino sin retorno al pero
+de los escenarios posibles: la ausencia de organización. Antes de
+alcanzar este fatídico escenario lleno de inconsistencias, no hay
+pocas voces de ayuda en explicar buenas prácticas del
+\emph{tagging}%
+\footnote{\href{http://mail.google.com/support/bin/answer.py?hl=en&answer=7190}{http://mail.google.com/support/bin/answer.py?hl=en\&answer=7190}}
+en las que los consejos pasan por utilizar siempre los nombres en
+singular, escribir en minúscula y, en especial, nombre cortos,
+simples y fáciles de recordar.
+
+\begin{quote}
+But if you look closer, you can see massive redundancy and
+disorganization. There are tags for brandenthusiasts, branding and
+brands. Separate ones for forum and forums. And a run of social
+media related ones that include no fewer than sellingsocialmedia,
+socialbookmarking, socialmedia, socialmediamarketing,
+socialmediameasurement, socialmediarelease, socialmediaroi,
+socialmediastrategy, socialmediatools, socialnetworking and
+socialnews. Oh, and there are separate entries for business, CEO
+and corporate%
+\footnote{\href{http://search.twitter.com/operators}{http://search.twitter.com/operators}}
+
+\end{quote}
+Ejemplo de lo anterior: el usuario \verb!earth2marsh! es poseedor
+de 5681 marcadores en Delicious; ha utilizado, por el momento, 4563
+etiquetas%
+\footnote{\href{http://moblin.org/}{http://moblin.org/}}
+diferentes para organizar los marcadores.
+
+Si el futuro del \emph{tagging} está bajo una cierta sospecha, Gene
+Smith defiende en el artículo \emph{Tagging: Emerging Trends}%
+\footnote{\href{http://www.ubuntu.com/products/mobile}{http://www.ubuntu.com/products/mobile}}
+una evolución viable en base a cuatro tendencias del
+\emph{tagging}:
+
+\begin{itemize}
+\item
+  \textbf{Mayor control de los vocabularios}, luego incorporar una
+  cierta estructura que no sacrifique o reduzca la libertad y
+  flexibilidad demostrada por las \emph{folksonomías}. Insistir en
+  los beneficios del \emph{tagging} frente a las taxonomías o
+  vocabularios cerrados, restringidos, inflexibles y de poco valor
+  social%
+  \footnote{\href{http://www.android.com/}{http://www.android.com/}}.
+  Cory Doctorow, en su conocido artículo
+  \emph{Metacrap: Putting the torch to seven straw-men of the meta-utopia}%
+  \footnote{Eslogan de Twitter Search}
+  ya planteó la imposibilidad de una taxonomía global; en un
+  escenario ideal, los metadatos proporcionarían la ayuda exacta para
+  encontrar la información que estamos buscando, debido a que ésta
+  estaría correctamente identificada; es el lo que Cory Doctorow
+  identifica con la \emph{meta-utopia}, un estadio de la información
+  en la que los metadatos son de una gran ayuda, imparciales y
+  neutrales, pero ineficaces cuando se trata de un mundo en el que la
+  gente \emph{miente}, es \emph{idiota} y \emph{vaga}. No olvidemos
+  que las palabras de Cory Doctorow se escribieron en el 2001. De
+  hecho, anticipa una realidad donde los metadatos se pervierten
+  originando una marea tóxica de información en la red.
+\item
+  \textbf{Folksonomías semiautomáticas} o, lo que sería una
+  invitación a los usuarios a aceptar unas etiquetas prefedefinidas
+  que son, en realidad, categorías temáticas que permiten una
+  ordenación más o menos estable de la información. Rashmi Sinha en
+  \emph{Findability with tags: Facets, clusters, and pivot browsing}%
+  \footnote{\href{http://search.twitter.com/}{http://search.twitter.com/}}
+  las describió como bloques o agrupaciones -\emph{facets}- de
+  etiquetas que tengan y compartan un significado más amplio o común
+  a todas ellas. Encontramos ejemplos de ello en el momento de
+  publicar una noticia en el servicio Menéame, el usuario debe elegir
+  la categoría.
+\item
+  \textbf{Complicidad} con una parte de la comunidad de usuarios en
+  la que ayuden a reducir el ruido producido por las inconsistencias
+  derivadadas de la \emph{folksonomía}.
+\item
+  El lado \textbf{creativo} e innovador de la práctica del
+  \emph{tagging}. Ya hemos mencionado más arriba el ejemplo de
+  denuncia contra el DRM por parte de la organización
+  \textbf{defectivebydesign.org}.
+\end{itemize}
+En cierta manera, si las etiquetas han acaparado buena parte de la
+clasificación de los servicios de la conversación, no es así en el
+caso del escritorio personal, donde la propia organización del
+sistema operativo en carpetas y archivos -si bien es técnicamente
+posible-, no nos resulta un escenario propicio para etiquetar
+\emph{nuestras} fotografías, documentos, videos, canciones,\ldots{}
+El valor de las etiquetas es probablemente social y no como
+elemento organizador de la información.
+
+\section{Entre la voz y la conversación: el relato}
+
+\begin{quote}
+Suppose there were a way to combine storytelling and organizing? No
+matter how many stories we tell, our offices, basements and closets
+will be just as messy as before. But the story, as it were, for our
+digital information is different%
+\footnote{\emph{Larry Page about Twitter}
+(2009)\href{http://www.loiclemeur.com/english/2009/05/larry-page-about-twitter.html}{http://www.loiclemeur.com/english/2009/05/larry-page-about-twitter.html}}
+
+\end{quote}
+Llegado a este punto en el que los diferentes sistemas de
+ordenación de la información personal se ven superados por la
+diversificación de dispositivos, fragmentación y la conversación de
+la web, no resulta difícil imaginar el escenario actual como un
+ecosistema en el que, no sin tensiones, conviven con resultados
+irregulares las dos metodologías arriba explicadas, más otras
+propias de aplicaciones o servicios web que centralizan y cautivan
+la información que manejan.
+
+Frente a esta colorida iconografía de carpetas, archivos,
+etiquetas, estrellas, banderas, colores, marcas\ldots{} Jones%
+\footnote{\href{http://www.oneriot.com}{http://www.oneriot.com}}
+propone la técnica del \emph{Storytelling}%
+\footnote{\href{http://www.scoopler.com/}{http://www.scoopler.com/}}
+o \emph{arte de contar historias}, la construcción de relatos
+asociados a los diferentes ítems (fotografías, videos, opiniones,
+documentos de texto, marcadores,\ldots{}) como metodología de
+organización de información personal. El relato proporciona un
+valor añadido en cuanto a significación de aquellos objetos de
+información que forman parte de él; ofrece a su vez un contexto que
+facilita su comprensión (\emph{¿por qué guardé esta información?})
+y su recuperación (\emph{¿dondé guardé esta información?}) ya que,
+en gran medida, el relato es en sí mismo un instrumento preciso de
+comunicación, persistente y persuasivo, en el pueden sumarse otras
+voces en la propia construcción del relato. Lugares ubicados entre
+el espacio personal y la conversación como, por ejemplo, los blogs
+o wikis personales, funcionarían como generadores de relatos que,
+en realidad, actuarían de organizadores de la información personal.
+La clasificación de los elementos de información sería múltiple:
+desde la propia clasificación por categorías, etiquetas, fechas de
+publicación-actualización-modificación del mismo relato, pasando
+por la indexación de los contenidos e ítems que la misma
+herramienta (blog, wiki) proporciona, o de los buscadores generales
+en caso de que estos relatos sean públicos y visibles.
+
+\begin{quote}
+Sometimes Newton's Law of Inertia is just as applicable to the
+digital world as to the physical. All too often our files sit
+around never to be filed. Downloads and other sundry files pile up
+never to leave. Fortunately, an uncluttered desktop can be a
+reality%
+\footnote{\href{http://tweetmeme.com/search.php}{http://tweetmeme.com/search.php}}
+
+\end{quote}
+\chap{RSSocial fatigue}
+
+\begin{quote}
+I'm a devoted RSS user. I have RSS subscriptions to a couple of
+hundred different blogs, and I can go through them very quickly
+using my RSS reader program. Instead of having to visit all those
+sites individually, I can browse a list of headlines from all my
+subscribed feeds in one window%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}}
+
+\end{quote}
+Antes que el \emph{blogging} se democratizara, quien mantenía su
+propia página web informaba a los visitantes de las novedades o
+actualizaciones mediante algún tipo de aviso textual o visual. Los
+usuarios guardaban en la carpeta \emph{Favoritos} del navegador los
+marcadores de las páginas de interés con el fin de, más adelante,
+visitar de nuevo la web y comprobar si uno de estos avisos visuales
+animados estaba presente, informándonos que alguna parte del
+contenido era nuevo. El problema surgió cuando el número de
+marcadores crecía en la misma medida que nuestra curiosidad. El
+tiempo que dedicábamos a averiguar si habían novedades se hacía
+cada vez mayor. Esta manera de saber si las páginas habían
+actualizado o no sus contenidos no resultaba nada eficiente.
+Mantenerse al día de la actualidad de la web resultaba caro en
+cuanto a tiempo y dedicación. Una alternativa representó la
+suscripción, copiando el sistema tradicional de revistas y
+periódicos. Si estabas suscrito recibías el aviso de la página web
+actualizada. El aviso sólo era eso: un aviso. Nada más. De nuevo un
+problema aparecía en el momento de creer haber solucionado otro:
+primero debíamos consultar el correo y, en caso de tener en la
+bandeja de entrada la notificación, visitábamos la página
+actualizada. El colmo de este planteamiento era que estas
+notificaciones venían a engrosar el número de mensajes recibidos en
+la bandeja de entrada.
+
+La explosión del \emph{blogging} vino acompañada de una solución a
+este problema. Se decidió adoptar un antiguo formato conocido por
+el acrónimo RSS, que significa \emph{Really Simple Syndication}.
+Este formato tenía unas características generales que resultaron
+fundamentales para su uso generalizado y ampliamente adoptado:
+
+\begin{itemize}
+\item
+  Formato estandarizado
+\item
+  Contenía el contenido de la noticia
+\item
+  Contenía metainformación como la fecha de publicación y autoría.
+\end{itemize}
+Aún conociendo las ventajas que suponía la utilización del RSS, es
+todavía un acrónimo desconocido para la mayoría de internautas. En
+general convive con la práctica de ir visitando las páginas, una
+tras otra, para consultar las novedades de las páginas guardadas en
+la carpeta \emph{Favoritos}.
+
+\section{El lector de RSS}
+
+Gracias a servicios de
+\emph{democratización de la publicación en la web} como Blogger,
+que facilitaron la creación de un blog en menos de tres clics de
+ratón, se hizo patente la necesidad de un lector o herramienta que
+gestionara las suscripciones RSS. Hubo tres planteamientos:
+
+\begin{itemize}
+\item
+  La visión \emph{e-mail-centric}, es decir, como una funcionalidad
+  nueva del cliente de correo y, por lo tanto, incrementaba la
+  acumulación de información en dos frentes, el de la bandeja de
+  entrada y el de las suscripciones.
+\item
+  La visión \emph{desktop-centric}, una aplicación de escritorio y,
+  por lo tanto, sucedáneo del cliente de correo en el que guardar la
+  información que recibimos de las suscripciones.
+\item
+  La visión \emph{web-centric}, un servicio web que aprovechara la
+  naturaleza web del RSS. En esta dirección encontramos dos versiones
+  diferentes de afrontar la organización y lectura de las
+  suscripciones, la traducción del cliente desktop-centric a la web,
+  como el malogrado Bloglines o el exitoso Google Reader, y la
+  personalización de una pantalla de inicio que ofreciera al usuario
+  una instantánea de las últimas entradas de las suscripciones.
+\end{itemize}
+\begin{quote}
+The key is quality information, not quantity of information%
+\footnote{Wilson, (2005).
+\emph{\href{http://www.newscientist.com/article/mg18624973.400}{Info-overload harms concentration more than marijuana}}}
+
+\end{quote}
+Con el paso del tiempo, los usuarios más atentos a la
+\emph{blogosfera} y a cualquier publicación de noticias
+\emph{sindicable}, vieron cómo el número de suscripciones crecía y,
+por ende, el volumen de noticias o \emph{feeds} diarias era cada
+vez mayor, lo que provocaba que el lector RSS se colapsara con
+relativa facilidad. Este exceso de información obligaba a los
+incombustibles lectores de RSS a una lectura en diagonal, cuando
+no, al abandono de gran parte de las noticias. Si parece ser un
+escenario prematuro, no son pocas las voces que plantean desde hace
+un tiempo el problema de la sobrecarga del flujo de información
+entrante en el lector de RSS. El exceso de la información generada
+por la publicación sin pausa de terceros, colapsa nuestra atención
+e interés por el contenido que recibimos a diario.
+
+\begin{quote}
+Alguién me ha preguntado recientemente porqué hago dos post al día.
+Es lo que me habéis pedido. En algún viaje, queriendo contar todo
+lo que he podido ver en un evento, he intentado postear 4 y 5 posts
+y enseguida he recibido un rumor de mis lectores. Oye, ¿Te crees
+que eres el único que leo? ¿Que es eso de postear como una
+ametralladora?%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}
+
+\end{quote}
+No es infrecuente tomar alguna decisión cuando el volumen de
+\emph{feeds} nuevos excede en cantidad a un límite razonable de
+lectura. Pero, ¿en qué dirección tomarla? ¿eliminar las
+suscripciones más promiscuas, aquéllas que publican con una
+frecuencia de veinte o treinta noticias al día?, ¿filtrar las
+noticias entrantes?, ¿borrar aquellas suscripciones que sólo
+redundan en información, es decir, que actúan de eco de otras
+publicaciones? El problema de filtrar la información entrante es
+que, una noticia de enorme interés personal acabe detrás del filtro
+y, por lo tanto, desaparezca. De hecho, el cliente web de RS más
+utilizado, Google Reader, no incorpora ningún sistema o
+funcionalidad que ayude a filtrar la información. En lugar de un
+sistema de filtros, Google Reader apuesta por la indexación de los
+\emph{feeds}, un sistema flexible de etiquetaje, una suerte de
+\emph{blog} en el que el usuario publica aquellas noticias que
+desea compartir o, finalmente, un sencillo panel que muestra unas
+estadísticas básicas sobre nuestra actividad de lectura en relación
+con los diferentes canales a los que estamos agregados. Antes la
+abundancia \emph{recuperable} que un sistema inteligente de
+filtrado.
+
+\section{Feed Fatigue? You need a filter system!}
+
+\begin{quote}
+But the problem many people face is that there are so many sources
+of information that we're trying to keep track of, we've become
+buried. Information overload is a real problem for many web users,
+and one way to cope with it is to filter your RSS feeds so you only
+see what you want%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}}
+
+\end{quote}
+Filtrar de alguna manera el exceso de RSS no es un problema menor
+si, como ya hemos apuntado más arriba, no se consigue diferenciar
+aquello que \emph{resulta vital para mi} del ruido. Enfrentarse en
+el momento actual al desarrollo de un sistema eficiente de filtrado
+pasa por dos visiones, si bien a primera vista irreconciliables, sí
+complementarias a medio plazo.
+
+La primera visión pasa por la utilización de palabras clave que
+actúen como barrera a cualquier noticia que no aparezca en su
+contenido. Más sofisticado si cabe, pero no representa ninguna
+novedad técnica, es la incorporación de expresiones regulares en
+lugar de palabras clave. La aparición, hace un año, de Yahoo Pipes
+causó una cierta expectación como algún que otro interrogante del
+tipo \emph{¿para qué sirve?}. En un primer momento se vendió como
+una herramienta web-centric de creación de \emph{mashups}%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}.
+
+Yahoo Pipes debe su nombre a un operador de Unix, la barra vertical
+o \emph{tubería} que enlaza la salida y entrada de datos entre dos
+comandos. Aunque no estemos familiarizados con la línea de
+comandos%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}},
+la idea es muy simple: gracias a un conjunto de operadores
+visuales, Yahoo Pipes actúa como una suerte de tubería entre la
+fuente de información y el resultado final. Por ejemplo, el
+operador \emph{RegExp} permite al usuario definir expresiones
+regulares que actúen como filtro de los \emph{feeds} entrantes.
+Luego Yahoo Pipes transforma una masa informe de ruido informativo
+en un flujo de información adecuada y aproximada a los intereses
+del usuario.
+
+\begin{quote}
+So where is the startup that is going to be my information filter?
+I am aware of a few companies working on this problem, but I have
+yet to see one that has solved it in a compelling way. Can someone
+please do this for me? Please? I need help. We all do.%
+\footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}}
+
+\end{quote}
+Yahoo Pipes no es el único servicio orientado a filtrar la
+sobrecarga de \emph{feeds} (aunque no sea su propósito). En cierta
+manera, el alcance de Yahoo Pipes supera el simple ejercicio de
+filtrar la saturación de \emph{feeds}. Otras empresas o
+\emph{startups} ofrecen la oportunidad de rebajar el flujo
+informativo a través de la personalización de filtros: FeedRinse%
+\footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós};
+sin excesiva complejidad, Feedsifter%
+\footnote{Italo Calvino, \emph{Las ciudades invisibles}}
+permite crear \emph{in situ} el filtro de una fuente mediante
+palabras clave.
+
+\section{La conversación como filtro}
+
+\begin{quote}
+I need less data, not more data. I need to know what is important,
+and I don't have time to sift through thousands of Tweets and
+Friendfeed messages and blog posts and emails and IMs a day to find
+the five things that I really need to know%
+\footnote{\href{http://en.wikipedia.org/wiki/Personal_information_management}{http://en.wikipedia.org/wiki/Personal\_information\_management}}
+
+\end{quote}
+Gran parte de la actividad en la conversación es compartir
+información. La mayoría de las herramientas de la conversación se
+fundamentan en esta actividad que, en algunos momentos, resulta
+frenética. No es extraño que, con frecuencia, se produzca el
+fenómeno de \emph{echo chamber} o una reverberación de la
+información debido al efecto de compartir la misma información
+desde diferentes canales y usuarios. Compartimos una noticia en
+Twitter o FriendFeed y, al poco tiempo, la misma noticia rebota
+literalmente en la conversación, luego nos llegará publicada como
+artículo en otro blog, como marcador, como \emph{retweet} del
+nuestro, como comentario en FriendFeed, como noticia compartida en
+Google Reader. La reverberación de una información puede terminar
+transformándose en una auténtica caja de grillos digitales (nace un
+\emph{trend}). La muerte del cantante mundialmente popular Michael
+Jackson inundó por completo la conversación. No es tan interesante
+la noticia en sí misma -el fallecimiento inesperado del músico-
+sino cómo esta información fue interpretada por la conversación.
+Millones de voces publicaron su opinión del acontecimiento, pero
+otras manifestaron su propia visión en relación al perfil de
+identidad digital. Desde la recuperación de viejos juegos de
+\emph{8 bits}, donde aparece un pixelado Michael Jackson, hasta un
+perfil inventor -desconocido para todos- del cantante, cada voz de
+la conversación se apropió de la noticia y la devolvió a la
+conversación pasada por un tamiz único y personal. Esta hábil
+reinvención, parte de remezcla colectiva y creación individual, de
+la información en la conversación desplaza un modelo único de
+difusión de contenidos. Toda voz es susceptible de ser un emisor y,
+a un mismo tiempo, peculiar filtro de aquello que comparte, mezcla
+de unicidad -gustos y aficiones particulares- y colectividad -actúa
+de \emph{bridge} entre la noticia y el conjunto de redes sociales
+al que pertenece.
+
+Cada voz un filtro. Dejo de suscribirme a canales de información:
+prefiero \emph{seguir} aquellas voces que actúan a un mismo tiempo
+de filtro y emisores de información \emph{relevante},
+\emph{auténtica}. La atención que pueda dedicar a un contenido será
+proporcional al número de \emph{retweets} de las voces que soy
+\emph{follower}. El viejo RSS, como el e-mail, ya se le identifica
+como parte activa del ruido y sobrecarga de información actual. Los
+filtros están dejando paso a opciones difusas: \emph{Share it},
+\emph{I like it} o \emph{tweet me}. Si bien tampoco están
+resultando una solución definitiva, ni siquiera parcial
+(\emph{overtweets}, \emph{tweetspammers} y \emph{overlikeit}), sí
+en cambio puede representar el principio de un nuevo horizonte en
+el que puedan recortarse siluetas de nuevas tecnologías de filtros
+que discriminen el ruido, el \emph{spam informativo} que poco o
+nada nos interesa.
+
+\begin{quote}
+Bringing all of this Web messaging and activity together in one
+place doesn't really help. It reminds me of a comment ThisNext CEO
+Gordon Gould made to me earlier this week when he predicted that
+Web 3.0 will be about reducing the noise.%
+\footnote{minid.net (2009). \emph{En casa de herrero, cuchillo de palo}
+\href{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}}
+
+\end{quote}
+\chap{Kill Inbox}
+
+\begin{quote}
+I stopped using e-mail most of the time. I quickly realized that
+the more messages you answer, the more messages you generate in
+return. It becomes a vicious cycle. By trying hard to stop the
+cycle, I cut the number of e-mails that I receive by 80 percent in
+a single week%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}}
+
+\end{quote}
+Luis ha tomado una decisión drástica: ha comunicado a los
+compañeros y compañeras de la empresa que va a dejar de utilizar el
+correo electrónico como herramienta de comunicación. Expresa la
+necesidad de recuperar su productividad personal. Considera que
+pasar parte de la mañana en leer y responder correo es una
+actividad improductiva: requiere un enorme esfuerzo de
+concentración, especialmente si atiende la totalidad de los
+mensajes, recibidos y pendientes de respuesta. Leer y responder
+correo no es el problema, puntualiza Luis. El problema se encuentra
+en las prácticas tóxicas que contaminan y ofuscan la bandeja de
+entrada. El resultado es un cajón de sastre donde conviven, entre
+muchos, mensajes importantes, reenvíos, adjuntos de archivos,
+recordatorios, agradecimientos, publicidad, \emph{spam}, etc. La
+determinación de Luis se realizó en dos fases. La primera fue
+comunicar su deseo de abandonar la comunicación por e-mail. Recibió
+respuestas de las personas con las que regularmente mantenía
+correspondencia. La mayoría reaccionaron positivamente. Se
+identificaban plenamente con la situación que planteaba Luis. La
+pregunta que vino después fue conocer la manera de comunicarse con
+él a partir del momento que apagase el cliente de correo.
+
+Luis es experto en nuevas tecnologías. Se llama a sí mismo
+\emph{social computing evangelist}. Cree firmemente que las nuevas
+formas de comunicación en la web tendrán un papel decisivo en la
+metodología de trabajo en equipo. Luis se defiende argumentando que
+él no desea en ningún momento estar incomunicado. Todo lo
+contrario, desea utilizar alternativas de comunicación más
+eficientes que el e-mail. Los blogs, las wikis, la mensajería
+instantánea (IM), la videoconferencia, las redes sociales son
+ejemplos de alternativas al uso indiscriminado del correo
+electrónico. Incluso recupera un hábito que parecía olvidado,
+levantarse de la silla y dirigirse personalmente a otro compañero
+de unidad en lugar de enviarse mensajes. Por lo tanto, Luis animó a
+los demás a incorporar estas tecnologías en lugar del e-mail. Esta
+acción representaba la segunda fase, la más difícil, puesto que
+representaba una disrupción en la metodología de intercambiar
+información en el ámbito profesional. En primer lugar, Luis expuso
+que el e-mail no era un cliente de mensajería instantánea, no era
+tampoco un \emph{gestor de tareas}, ni el mejor lugar para los
+\emph{recordatorios} de reuniones, ni mucho menos un
+\emph{sistema de control de versiones} de la documentación cuando
+ésta era desarrollada por varias personas. Este amplio abanico de
+funcionalidades sólo conseguía un desastroso efecto: los correos
+relevantes quedaban ocultos entre todo lo demás.
+
+\section{Aciertos y limitaciones del e-mail}
+
+La rápida adopción del correo electrónico a finales de la década de
+los noventa por particulares, organizaciones, empresas tuvo un
+efecto desconocido: los mensajes se acumulaban en la bandeja de
+entrada y su gestión diaria representaba una buena dosis de
+esfuerzo y dedicación. No sólo eran mensajes entre particulares:
+aparece el \emph{spam} (correo basura), el \emph{phising}, el
+\emph{e-mail spoofing} y otras actividades maliciosas que irrumpían
+en el flujo del correo. Aún así, la facilidad de uso y su
+instantaneidad convierten el e-mail en el espacio central de la
+comunicación y gestión de información personal, por lo que los
+usuarios adjudican funcionalidades o servicios tanto a la cuenta
+como al cliente de correo:
+
+\begin{itemize}
+\item
+  \textbf{gestor de proyectos y documentos}. Cuando colaboramos en un
+  proyecto o en la redacción de un documento en el que participan
+  varias personas, el cliente de correo se transforma en un sistema
+  de control de versiones.
+\item
+  \textbf{gestor de marcadores}. Enviamos mensajes con enlaces de
+  interés personal o profesional o relacionado con un proyecto del
+  tipo \emph{Mira cuando puedas esto\ldots{}} o
+  \emph{¿Tienes presente esta página?}.
+\item
+  \textbf{calendario}. Recibimos mensajes del tipo
+  \emph{El 28 de enero tendrá lugar\ldots{}} o
+  \emph{Te recordamos que el próximo 28 de enero tendrá lugar}.
+  También es generalizado el uso del e-mail como gestor de citas,
+  reuniones o conferencias:
+  \emph{Mañana reunión a las 11:00 en la sala\ldots{}” o “no olvides que mañana hemos de vernos para\ldots{}}
+\item
+  \textbf{gestor de contactos}. La acumulación de mensajes de un
+  cliente proporciona un tipo de información que, de otra manera,
+  resultaría imposible de localizar. Ejemplo de esto sería el número
+  de teléfono, qué clase de proyectos está involucrado o una
+  información más difusa, pero no menos importante, como son las
+  curiosidaes, intereses personales y profesionales. Una de las
+  parcelas que, en este sentido está siendo de utilidad es lo que se
+  conoce por \emph{e-mail mining} o \emph{data mining e-mail} y que
+  tiene como objetivo detectar patrones en el contenido de los
+  mensajes.
+\item
+  \textbf{gestor de tareas}. Nos reenviamos mensajes del tipo
+  \emph{Urgente terminar\ldots{}} o \emph{Escribir mañana a\ldots{}}.
+\item
+  \textbf{gestor de copias de seguridad}. No nos sentimos seguros de
+  la fiabilidad del disco duro del ordenador, tampoco del lápiz USB,
+  luego nos reenviamos una copia del documento en forma de adjunto.
+  También esta será la práctica para transportar información de un
+  ordenador a otro.
+\item
+  una \textbf{red social} en el que compartimos las fotos de
+  vacaciones, diapositivas divertidas (o no tan divertidas),
+  chismorreos, rumores, causas y un largo etcétera.
+\item
+  un \textbf{diario personal} en el que vamos registrando nuestras
+  memorias.
+\end{itemize}
+La sobredimensión del e-mail no tardará en ser objeto de estudio.
+La bandeja de entrada llena es sinónimo de frustración y estrés
+profesional. La acumlación de centenares o miles de mensajes es una
+obsesión por la preservación de una suerte de copia de seguridad de
+la memoria personal. Veamos a continuación un repaso a la
+literatura de \emph{autoayuda} sobre la bandeja de entrada llena.
+
+\section{El zen de una bandeja de entrada limpia}
+
+Varios autores, unos más populares que otros, han prestado su
+atención al problema del descontrol de la bandeja de entrada.
+Merlin Mann, ideólogo de \emph{Inbox Zero}, Tim Ferriss, autor de
+\emph{The 4-Hour Workweek}, Mark Husrt, de \emph{Bit Literacy},
+Scott Young, en \emph{e-mail Zen}, incluso cabría el tremendamente
+popular \emph{Getting Things Done} de David Allen, y otros
+activistas \emph{zen} de la productividad, proponen consejos,
+ayudas, recomendaciones, orientaciones e incluso qué herramientas
+son las más eficientes para alcanzar ese estadio de equilibrio
+espiritual moderno representado por una bandeja de entrada limpia,
+controlada. En general, coinciden en que una bandeja de entrada
+desbordada, un cliente de correo desbocado, supone un triple
+problema:
+
+\begin{itemize}
+\item
+  Se acumula el trabajo pendiente -\emph{e-mail cuttering}-. Un larga
+  lista de mensajes no leídos es motivo de estrés y de disminución de
+  eficiencia al obligarnos a dedicar gran parte de la jornada laboral
+  a gestionar la bandeja de entrada.
+\item
+  Una creciente dispersión de la información
+  -\emph{e-mail scattering}-. El contenido de los mensajes se pierde
+  en la confusión de una bandeja de entrada desbordada. Recuperar más
+  tarde un mensaje puede costarnos un tiempo y esfuerzo excesivo.
+\item
+  Una angustia personal -\emph{e-mail suffering}- al no conocer una
+  manera mejor y eficiente de gestionar la bandeja de entrada.
+\end{itemize}
+Esta literatura colinda con la autoayuda profesional y los autores
+acostumbran a adoptar una postura agnóstica en términos de qué
+cliente es mejor o más idóneo para rebajar tensiones y ser más
+eficientes en el trabajo.
+
+En general, los diferentes autores coinciden en mayor o menor grado
+en la siguiente lista de recomendaciones:
+
+\begin{itemize}
+\item
+  Utilizar un cliente de correo eficiente que filtre lo máximo
+  posible el correo basura, spam. Publicidad, basura, información
+  indiscriminada o \emph{junk}: basura o no, la mayoría de estos
+  mensajes sólo consiguen distraernos del resto de mensajes en cuanto
+  a su cantidad. Todos los autores coinciden en no abrir jamás estos
+  mensajes y borrarlos inmediatamente.
+\item
+  No actualizar la bandeja de entrada cada momento.
+  \emph{No trabajas en un silo de misiles nucleares en Corea del Norte},
+  como remarca Merlin Mann.
+\item
+  Concentrar en una única bandeja de entrada en caso de utilizar dos
+  o más cuentas de correo.
+\item
+  Utilizar un cliente de correo web frente a uno de escritorio.
+  Evitará de esta manera futuras migraciones. Independiente del
+  sistema operativo, lugar.
+\item
+  Utilizar teclas de acceso rápido para ser más eficientes con el
+  cliente de correo.
+\item
+  Concentrar la lectura del correo en un momento del día. No
+  dispersar esta acción a lo largo del día.
+\item
+  Evitar leer el correo desde dispositivos móviles si no quieres ser
+  un esclavo de la bandeja de entrada las 24 horas del día, 7 días a
+  la semana.
+\item
+  Responder y borrar un mensaje que no necesite más de 1 minuto la
+  redacción de la respuesta.
+\item
+  Cancelar subscripciones a listas de correo que ya no les prestamos
+  ninguna atención. Si sigue interesándonos, agrupar los mensajes por
+  días.
+\item
+  Borrar inmediatamente los mensajes que contengan causas colectivas,
+  presentaciones de dudosa procedencia, chistes u otro material
+  improcedente.
+\item
+  Penalizar a quien nos envía mensajes regularmente con contenido
+  improcedente. Convencerse que un cliente de correo no es una
+  herramienta con el que registramos la lista de tareas personal o
+  del trabajo, guardamos los marcadores web, gestionamos las
+  versiones de los documentos, un sistema de copias de seguridad de
+  documentos o un cliente de mensajería instantánea.
+\item
+  Evitar el envío indiscriminado de mensajes ya que es probable que
+  recibas un número igual o mayor de respuestas.
+\item
+  Borrar automáticamente todo mensaje pasado un tiempo (1 mes, por
+  ejemplo).
+\item
+  Evitar posponer una respuesta más allá de 3 días. Pasado este
+  tiempo es preferible borrar el mensaje.
+\item
+  Escribir menos, conciso y hacer un uso intensivo de listas de
+  apartados como cuerpo del mensaje.
+\item
+  Contextualizar el contenido en el campo del título del mensaje.
+\item
+  Evitar la prosa, largas redacciones o florituras estilísticas. El
+  receptor no espera leer la primera parte de una novela
+  decimonónica.
+\item
+  Evitar adornos visuales, tipografía vistosa o colores que no sean
+  armónicos en el cuerpo del mensaje. Utilizar alternativas de
+  comunicación más efecientes si el medio (administración, empresa,
+  compañía) lo permite.
+\end{itemize}
+\section{Dos visiones confrontadas: \emph{e-mail-centric} vs.\emph{stop-using-e-mail}}
+
+Al margen de los buenos consejos -que acostumbran a funcionar sólo
+a su dueño-, la tensión del e-mail no descansa en una gestión más o
+menos eficiente de la bandeja de entrada. Como ya hemos adelantado
+más arriba, dos son las tendencias que dibujan el futuro del correo
+electrónico como sistema de comunicación. Una primera,
+\emph{e-mail-centric}, que integra definitivamente aquellas
+funcionalidades que el usuario ha incorporado al margen del primero
+y único uso del cliente de correo, recibir, leer y enviar correo.
+La segunda visión propone, como la iniciativa de Luis Suárez, la
+eliminación por completo del correo electrónico. Porque, en
+definitiva, el e-mail
+\emph{no forma parte de la conversación actual} y es más un
+incordio que un sistema válido de comunicación.
+
+\subsection{GMail o la visión \emph{e-mail-centric} llevada al límite.}
+
+\begin{quote}
+We didn't want to simply bolt new features onto old interfaces. We
+needed to rethink e-mail, but at the same time we needed to respect
+that e-mail already had over 30 years of history, thousands of
+existing programs, and nearly a billion users%
+\footnote{Wilson, (2005).
+\emph{\href{http://www.newscientist.com/article/mg18624973.400}{Info-overload harms concentration more than marijuana}}}
+
+\end{quote}
+O lo que vendría a ser un cliente de correo \emph{on steroids}. Su
+aparición, en abril del 2004, despertó un mayor interés en los
+\emph{early-adopters} que en el seno de la empresa, que dudaron y
+se resistieron%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}
+al desarrollo de la nueva tecnología, pensando en la poca
+penetración que tendría en un sector dominado por el cliente de
+correo de escritorio de Microsoft, Outlook, o el popular Hotmail
+(ahora MSN Hotmail). Un sistema de invitaciones, un buscador marca
+de la casa, capacidad, buenas dosis de tecnología AJAX
+(\emph{Asynchronous Javascript and XML}) y un nuevo método de
+organización y clasificación de los mensajes, la vista de
+conversación (emulando los mensajes de un foro) y el uso etiquetas
+en lugar del tradicional sistema de carpetas, contribuyó que GMail
+se convirtiera, en poco tiempo, en el principal cliente de correo.
+
+Desde entonces, el \emph{laboratorio} del equipo de desarrollo de
+GMail no ha descansando en ampliar los límites de la reinvención
+del e-mail. La integración de una mensajería instantánea y, más
+tarde, de videoconferencia, podía interpretarse como una estrategia
+para desplazar la administración de la bandeja de entrada a la
+conversación actual y reducir, en la medida de lo posible, el envío
+de mensajes. Una suerte de \emph{metacliente} de correo que anima a
+sus usuarios a no confundir la bandeja de entrada con la
+conversación actual. El cliente de correo deja atrás la imagen de
+aplicación monolítica y, siguiendo los pasos de la evolución del
+móvil -de simple telefóno \emph{sin cables} a un pequeño, pero
+potente ordenador de bolsillo-, deviene un sistema poliédrico de
+gestión de información personal. Se le da al usuario lo que pide:
+gestor de tareas, calendario, \emph{disco duro}, agenda,
+sincronización con diferentes dispositivos, notificaciones
+asíncronas%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}}
+y un largo etc. que asegura un vida prolongada del \emph{primitivo}
+sistema.
+
+\subsection{\emph{stop-using-e-mail}}
+
+\begin{quote}
+Esta es la primera crisis fuerte en la que disponemos masivamente
+desplegada de esta tecnología de comunicación electrónica. Lo que
+me dicen y lo que puedo observar es que no está resultando todo lo
+efectiva, productiva y humana que pensaron sus inventores, como
+explicó uno de ellos, Howard Frank, cuando le dimos un premio en el
+IESE hará 15 años. Hay quienes se esconden y evitan disculparse.
+Pero también los hay creando la imagen de que trabajan reduciendo
+costes cuando lo que hacen es superficial o contraproducente. Casi
+seguro que para la próxima crisis fuerte, el 2021, los e-mail
+estarán prohibidos%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}
+
+\end{quote}
+La batalla personal de Luis Suárez contra la acumlación de correo
+en la bandeja de entrada no acabó en una simple declaración de
+buenos propósitos. Transcurrido un año, Luis sigue evaluando la
+iniciativa de aparcar el cliente de correo como canal de
+comunicación principal con el resto de compañeros de trabajo%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}}.
+La variedad de alternativas al uso indiscriminado del e-mail son
+cada vez más numerosas y, sobretodo, factibles. Redes sociales,
+servicios de microblogging o cualquiera de los clientes de
+mensajería instantánea o VoIP representan, en la actualidad,
+herramientas de uso generalizado en el ámbito particular. Un
+ejemplo de esto representa la diversidad de medios de comunicación
+utilizados por los ridículamente bautizados como
+\emph{digital natives} o \emph{net natives}. Estos se inclinan por
+tecnologías de mensajería instantánea, redes sociales, SMS (Short
+Message Service) o, simplemente, teléfono móvil y sólo utilizan el
+correo electrónico en entornos rehacios a formar parte de la
+cultura de la conversación, como el caso del ecosistema de la
+administración pública y, en especial, el mundo educativo. La
+enorme interacción de muchos a muchos coloca la dinámica del e-mail
+en una posición de clara desventaja. Quizá una
+evolución/transformación del e-mail en esta dirección sea el
+\emph{comentario}, asociado a cualquier evento que publicamos, sea
+una entrada del blog, un \emph{tweet} o una actividad o estado en
+la red social.
+
+\begin{quote}
+No E-Mail Account: You are in your late teens or early 20s and you
+equate sending e-mails with using a fax machine, watching broadcast
+TV or buying CDs --- lame. You text and/or IM, and that's it. TTYL%
+\footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}}
+
+\end{quote}
+La posibilidad de alcanzar un éxito en abandonar definitivamente el
+e-mail es limitada si el contexto en el que se desarrolla es de
+ámbito profesional y corporativo. El celo con el que empresas y
+corporaciones gestionan la comunicación interna de sus empleados
+acaba en la penalización de la utilización de tecnologías externas
+-fuera de los servidores corporativos- como el enquiste de la
+ineficencia y baja calidad de las propias. Si el lamentable
+Internet Explorer 6 todavía sigue utilizándose mayoritariamente%
+\footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós}
+por estas y otras políticas restrictivas en el equipamiento
+informático de administraciones públicas y empresas%
+\footnote{Italo Calvino, \emph{Las ciudades invisibles}},
+no resulta difícil extrapolar esta delirante situación al
+tratamiento del correo:
+
+\begin{itemize}
+\item
+  acumulación desorbitada de correo basura o malicioso por falta de
+  una tecnología eficaz del proveedor contra el spam.
+\item
+  limitaciones ridículas de espacio de la bandeja de entrada como del
+  tamaño de transferencia de los
+  mensajes.\verb!Action: failed Status: 4.2.2 (user over quota; cannot receive new mail)!
+\item
+  inseguridad y dudosa efectividad si urge la necesidad realizar
+  copias de seguridad del correo
+\item
+  dificultad en la localización de contenido específico a través del
+  buscador interno del propio cliente de correo.
+\end{itemize}
+El e-mail, tal como lo conocimos a mediados de la década de 1990,
+no forma parte de la conversación actual. Su presencia ubicua en el
+ecosistema digital no corresponde con la dinámica actual de
+compartir información. Todo lo contrario, representa uno de los
+generadores de mayor ruido y basura no visible debido a su carácter
+privado. Al margen de sus efectos nocivos en términos de
+productividad, resulta evidente la necesidad de frenar su
+prolongación en el tiempo. Google invierte esfuerzos en las dos
+direcciones al dotar, por un lado, a su popular cliente de correo
+GMail, funcionalidades que reinventan la gestión de la bandeja de
+entrada y, por otro, diseñar un entorno híbrido de comunicación o
+\emph{mashup} a tiempo real que permita la personalización
+individual y colectiva de la conversación%
+\footnote{\href{http://en.wikipedia.org/wiki/Personal_information_management}{http://en.wikipedia.org/wiki/Personal\_information\_management}}.
+
+\begin{quote}
+What's wrong with e-mail? In a nutshell, the medium is perfectly
+designed for information overload. Both message size and quantity
+are essentially unlimited. Unfortunately, electronic communication
+is like a gas: It expands to fill its container%
+\footnote{minid.net (2009). \emph{En casa de herrero, cuchillo de palo}
+\href{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}}
+
+\end{quote}
+\chap{The wiki old days}
+
+En la elaboración de un documento en el que participa más de una
+persona se establece, en general, la metodología de trabajo de
+divide y vencerás. Cada responsable acepta una parte de la
+redacción del contenido. De esta forma, nadie pisa el trabajo del
+otro. Esta modalidad también incluye un baremo de evaluación del
+trabajo de cada uno. El trabajo final es una extraña suerte de suma
+de las partes. Si a primera vista esta metodología nos parece
+idónea, un análisis un poco más detallado nos revela que:
+
+\begin{itemize}
+\item
+  Cada responsable desconoce la evolución del trabajo del resto del
+  equipo.
+\item
+  Los responables deben coincidir en utilizar tecnologías idénticas
+  que permitan unificar el estilo visual del documento.
+\item
+  Se crea la dinámica del \emph{archivo adjunto} como gestión de las
+  versiones del documento.
+\item
+  Resulta muy difícil la tarea de coordinar el desarrollo del
+  documento debido fundamentalmente a la fragmentación del contenido.
+\item
+  Hay tantas copias o más del contenido como responsables del mismo.
+\end{itemize}
+El problema fundamental se manifiesta cuando quienes participan en
+el desarrollo del documento intentan revisar cambios anteriores.
+¿Quién ha realizado este o aquel cambio? ¿Cuándo se realizó la
+modificación? ¿Podemos recuperar una versión anterior del documento
+previo a la modificación? Y una vez terminada la redacción, ¿quién
+y cómo se encargarán las futuras actualizaciones del documento?
+Este escenario se agrava más todavía si una metodología de
+desarrollo de la documentación personal y, especialmente,
+colectiva, no permite de manera transparente la reutilización de
+los contenidos. Es probable que un mismo contenido se escriba más
+de una vez en organizaciones en las que las unidades que la
+conforman generan la documentación en la más pura de las
+invisibilidades; se hablaría de unidades estancas aunque las separe
+físicamente apenas un metro de distancia entre ellas. La
+duplicación y la triplicación de los contenidos tiene un efecto
+desastroso en la productividad de la organización como manifestar
+abiertamente las incoherencias internas. De hecho, es posible que
+un único mensaje se represente, se escriba o se transmita de varias
+maneras, debido a una visión centralista de la gestión de la
+información.
+
+\section{Wikis}
+
+\begin{quote}
+Nevertheless, I predict that Wikis will disappear over the next 5
+to 10 years. This is not because they will fail but precisely
+because they will succeed. The best technologies disappear from
+view because they become so common-place that nobody notices them.
+Wiki-style functionality will become embedded within other software
+– within portals, web design tools, word processors, and content
+management systems. Our children may not learn the word ``Wiki,''
+but they will be surprised when we tell them that there was a time
+when you couldn't just edit a web page to build the content
+collaboratively%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}}
+
+\end{quote}
+Según la Wikipedia, una wiki es una o más páginas web que permite a
+los usuarios modificar su contenido utilizando un lenguaje de
+marcado simplificado a través de un navegador. La wiki más popular
+es la Wikipedia, una enciclopedia libre y sin ánimo de lucro
+creada, actualizada y mantenida por voluntarios de todo el mundo.
+
+La wiki surge a mediados de la década de 1990 y el próposito
+original era, según en palabras de su creador, Ward Cunningham%
+\footnote{Wilson, (2005).
+\emph{\href{http://www.newscientist.com/article/mg18624973.400}{Info-overload harms concentration more than marijuana}}}:
+
+\begin{itemize}
+\item
+  invitar a todos los usuarios a editar cualquier página o crear
+  nuevas dentro de la wiki, utilizando un navegador web.
+\item
+  promover la asociación de diferentes contenidos gracias a la
+  creación intuitiva y fácil de enlaces entre páginas.
+\end{itemize}
+La adopción de la tecnología wiki fue rápida en gran medida por la
+facilidad de publicar contenidos en la web sin necesidad de pasar
+por un editor de HTML. Los usuarios sólo debían aprender un
+sencillo lenguaje de marcado que identifica las cabeceras de
+diferente nivel, la negrita, la cursiva, los enlaces, etc. de la
+página. Este planteamiento favoreció la agilidad en el desarrollo
+colectivo de la documentación, al situar el núcleo de trabajo en un
+espacio único y editable en la web, accesible desde cualquier
+ordenador que tuviera conexión y manejar un simple sistema de
+control de versiones de las páginas del documento.
+
+La siguiente lista presenta los argumentos más reiterados que se
+esgrimen a favor de esta visión de las wikis como potentes
+herramientas de productividad en la gestión documental:
+
+\begin{itemize}
+\item
+  \textbf{Integradora}. Evita la dispersión de la documentación y la
+  información relacionada a su gestión. Esta fragmentación se debe
+  generalmente al uso de canales de comunicación como el e-mail, en
+  forma de adjuntos que van y vienen , o calendarios de trabajo. Una
+  wiki facilitará a los usuarios encontrar rápidamente la información
+  sólo accediendo a la web de la wiki desde cualquier navegador.
+\item
+  \textbf{Gestión eficiente del histórico de la documentación}. Una
+  wiki incorpora un sistema transparente de control de versiones,
+  luego permitirá a los usuarios saber en cada momento quién, cuando
+  y cómo ha contribuido, modificado o borrado. También resultará
+  posible recuperar sin problemas versiones anteriores del documento.
+\item
+  \textbf{Centralizada}. En lugar de dispersar la documentación por
+  los diferentes dispositivos de memoria de los usuarios, se unifica
+  en un único lugar, la wiki.
+\item
+  \textbf{Visible}. Especialmente si nos referimos a que otros grupos
+  o unidades de trabajo puedan acceder a la información
+\item
+  \textbf{Indexable}. Una wiki incorpora un sistema de indexación de
+  los contenidos, luego permite que los usuarios realicen búsquedas
+  internas de la documentación.
+\item
+  \textbf{Independiente}. Una wiki no está sujeta a un software
+  específico y, por lo tanto, no es susceptible de ver el contenido
+  afectado por futuras actualizaciones. Sólo necesita un navegador
+  web, por lo que resultará también ajena a una exclusiva plataforma,
+  sistema operativo o dispositivo.
+\item
+  \textbf{Coherente}. La unificación de la documentación en la wiki
+  permite que el resultado sea más coherente en términos de estilo.
+\item
+  \textbf{Predominio del contenido sobre la forma}. Quienes editen la
+  wiki sólo han de preocuparse de entrar contenidos y no vigilar si
+  incumplen o alteran la plantilla visual del documento, como ocurre
+  en general al trabajar con los procesadores de texto.
+\item
+  \textbf{Estructural}. La edición mediante un simple lenguaje de
+  marcado favorece, en contra de los editores visuales, la estructura
+  de los contenidos.
+\item
+  \textbf{Exportable}. En general, una wiki incluye un sistema
+  transparente de exportación de los contenidos a otros formatos de
+  documentación, como HTML y PDF.
+\item
+  \textbf{Gestión} de la edición y la visibilidad de los contenidos.
+  Una wiki incorpora sistemas de control de permisos de acceso a los
+  usuarios, luego es posible establecer reglas de lectura y escritura
+  de las diferentes páginas.
+\end{itemize}
+\section{Lenguaje de marcado en la era de los editores visuales}
+
+Una de las dificultades, que la mayoría de usuarios presentan como
+barrera insuperable cuando se enfrentan por primera vez a una wiki,
+es la redacción de texto mediante un lenguaje de marcado en lugar
+del acostumbrado editor visual.
+
+Cristoph Sauer ya expuso en
+\emph{What you see is Wiki - Questioning WYSIWYG in the Internet Age}%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}
+cuáles son los puntos a favor y en contra de utilizar un lenguaje
+de marcado frente a un editor visual en el caso de las tecnologías
+wikis. En general, los puntos en contra de los lenguajes de marcado
+son los siguientes:
+
+\begin{itemize}
+\item
+  El hábito de editar el texto de manera visual, aquello que veo en
+  pantalla es aquello que saldrá por la impresora, siguiendo la
+  lógica de los editores visuales, como Microsoft Word o OpenOffice
+  Writer, empuja a los usuarios a rechazar de pleno el trabajo con
+  una wiki. Conocer un lenguaje de marcado representa poco menos de
+  15 minutos de aprendizaje. Explicar la lógica de utilizar un
+  lenguaje de marcado y sus beneficios en la creación de textos
+  estructurados puede representar mucho más que los 15 minutos de
+  conocimiento del lenguaje de marcado
+\item
+  El hábito de modificar libremente el estilo del documento en el
+  caso de los editores visuales frente a la rígida separación de
+  contenido y presentación de los lenguajes de marcado es otro de los
+  problemas que los usuarios presentan como un motivo más para no
+  adoptar una wiki.
+\item
+  La dificultad de navegar visualmente por el flujo del texto en los
+  lenguajes de marcado es otro de los inconvenientes frente a una
+  visualización del texto diferenciado según sea su formato.
+\item
+  La falta de una estandarización del lenguaje de marcado de las
+  diferentes tecnologías wikis no contribuye a una rápida adopción
+  por parte de los usuarios.
+\end{itemize}
+Estos argumentos acostumbran a ser los más utilizados en contra del
+uso de un lenguaje de marcado. No representan un problema técnico,
+sino de concepto. Los lenguajes de marcado priorizan la estructura
+del contenido, luego el lenguaje de marcado no representa un
+\emph{callejón sin salida}, no es el final del camino, sino la
+\emph{fuente} del contenido para su represantación en otros
+formatos (como por ejemplo, en PDF) que sí tienen carácter de
+\emph{instantáneas} de la documentación. El lenguaje de marcado,
+por otro lado, es sinónimo de flexibilidad: una misma fuente de
+información puede representarse sin dificultad en cualquier
+dispositivo o aplicación actual y futura gracias al desarrollo de
+\emph{parsers}, que transforman fácilmente el lenguaje de marcado a
+otra sintaxis (un ejemplo sería la conversión de wiki a HTML).
+
+Por otro lado, si hablamos en el contexto de la web, cada vez son
+más los usuarios que reelaboran los contenidos, sean propios o
+ajenos. De hecho, en la mayoría de casos sólo interesa un fragmento
+o parte del contenido. Si el contenido es dependiente de una
+tecnología propietaria, si la presentación se mezcla con la
+estructura, estaremos obligados a darle de nuevo un formato que se
+ajuste al documento que estamos elaborando. Por el contrario, el
+lenguaje de marcas de una wiki es texto crudo, plano, no está
+asociado a ninguna tecnología ni a un formato visual, lo que
+facilitará enormemente su portabilidad e interoperablidad entre
+diferentes escenarios de desarrollo, especialmente el de la
+remezcla.
+
+\section{wikis corporativos ¿una realidad imposible?}
+
+\begin{quote}
+Nearly all enterprise wikis have implemented a WYSIWYG editor. Even
+ones that began with MediaWiki, like Mindtouch, quickly replaced
+wiki syntax with XHTML. The Initiative has attempted to draw on the
+experience of companies like Mindtouch, whose CEO, Aaron Fulkerson,
+told ReadWriteWeb he was impressed with the Initiative, but that he
+felt, ``wiki text will always and forever be inferior to XHTML.''%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}}
+
+\end{quote}
+Si la utilización colectiva de una wiki ofrece claras ventajas en
+la gestión y desarrollo de la documentación, no resulta tan
+evidente su adopción en el ámbito corporativo:
+
+\begin{itemize}
+\item
+  La edición siguiendo un lenguaje de marcado frente al hábito de
+  trabajar con editores visuales es quizá el mayor inconveniente o
+  problema que plantean los usuarios al enfrentarse por primera vez a
+  una wiki. El hábito o costumbre de trabajar con procesadores de
+  texto visuales representa un escollo a veces insalvable. Superar el
+  rechazo al lenguaje de marcas ha llevado a que los actuales
+  sistemas de edición en línea, a diferencia de las wikis
+  tradicionales, incorporen un editor visual en lugar de un simple
+  editor de etiquetas, como resulta evidente en el caso del
+  procesador de textos de Google.
+\item
+  La falta de hábito en compartir la documentación, o trabajar de
+  manera colaborativa en entornos de la administración o de la
+  empresa, es otro de los grandes inconvenientes.
+\end{itemize}
+\begin{quote}
+WYSIWYG editors are already available for MediaWiki through
+extensions, but the potential for corrupting the data that makes up
+Wikipedia's encyclopedic content is very real. Avoiding that
+scenario is primarily what lead the Initiative to discount a switch
+to WYSIWYG, at least within the scope of the project.%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}
+
+\end{quote}
+\section{Reinventar la wiki ¿es posible?}
+
+En el artículo \emph{How to build the perfect wiki}%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}},
+Tom Morris manifiesta abiertamente estar en contra de los sistemas
+wikis actuales. Según Morris:
+
+\begin{itemize}
+\item
+  cuando una wiki aparece bajo la etiqueta \emph{enterprise},
+  inevitablemente piensa en un producto lo suficientemente
+  complicado, intratable y lejos de poder ser \emph{hackeable} que
+  por ello mismo sólo puede venderse como producto comercial.
+\item
+  trabajar con el editor \verb!<textarea />! del navegador web es
+  frustrante. Si trabajar con los editores llamados \emph{visuales}
+  de una wiki es terriblemente ineficiente (pervierten su sentido de
+  estructura del contenido) al imitar la edición de los procesadores
+  de textos, la \emph{otra} edición, que sólo incorpora un número
+  limitado de botones de ayuda de sintaxis (negrita, itálica,
+  secciones y subsecciones, subrayado, enlaces, imágenes,\ldots{})
+  tampoco resulta ninguna panacea.
+\item
+  la navegación por el texto no es intuitiva (la fuente
+  \emph{monospace}, de ancho fijo, no es la más indicada aunque nos
+  recuerde que estamos \emph{editando}).
+\item
+  la operación de \textbf{búsqueda y reemplazo de texto} es
+  inexistente en la mayoría de editores wiki.
+\item
+  en realidad, una wiki es
+  \emph{un sistema de control de versiones de páginas web}, pero muy
+  limitado si lo comparamos con sistemas de control de versiones como
+  Subversion o Git.
+\item
+  ¿qué ocurre si queremos trabajar en modo \emph{offline}? La mayoría
+  de wikis no permiten todavía trabajar desconectados.
+\item
+  la sintaxis sigue siendo un problema, pero desde la falta de un
+  estándar de facto. En general, cada wiki funciona mediante una
+  sintaxis propia, como si se tratara de dialectos de un mismo
+  idioma%
+  \footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}}.
+  Ni la aparición hace un tiempo de Creole%
+  \footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós},
+  un proyecto nacido con la buena intención de corregir esta
+  dispersión, ha motivado el esperado consenso. Creole será a las
+  wikis lo que el Esperanto a los idiomas.
+\end{itemize}
+En cambio, según Tom, la solución pasaría por trabajar en local y
+utilizar un verdadero sistema de control de versiones en lugar de
+los que incorporan los sistemas wikis, muy rudimentarios en
+comparación. Lo que veríamos en la web correspondería al último
+\emph{commit} o modificación del contenido. Los sistemas de control
+de versiones están muy ligados al desarrollo de software. El uso de
+una herramienta de control de versiones es imprescindible en el
+desarrollo de cualquier software. A modo de introducción, una
+herramienta de control de versiones ayudará a los desarrolladores a
+gestionar de manera eficaz la evolución de un proyecto. como
+realizar instantáneas, \emph{snapshots}, del código fuente en el
+que se está trabajando, comprobar diferencias entre diferentes
+instantáneas y revertir a una instantánea anterior si es necesario.
+Tecnologías como CVS (Concurrent Version System), Subversion,
+DARCS, Mercurial o Git son sistemas de control de versiones de
+licencia GNU/GPL más populares y ampliamente utilizados. Sí
+comparten mecanismos de trabajo muy parecido y no en el
+planteamiento de la gestión y mantenimiento de las versiones del
+proyecto. Desde un principio, los sistemas de control de versiones,
+como CVS o Subversion, tuvieron una planteamiento fuertemente
+centralizado, es decir, el \emph{repositorio}, el lugar donde el
+sistema de control de versiones mantiene el registro de todos los
+cambios (qué, quién y cuando), está ubicado en un único lugar o
+servidor.
+
+Frente a los \emph{repositorios centralizados} encontramos un
+enfoque diferente: los \emph{repositorios distribuidos} o DVCS
+(\emph{Distributed Version Control Systems}). La diferencia más
+notable es que cada desarrollador tiene su propio
+\emph{repositorio} en local, luego se tiene el acceso a toda la
+historia del proyecto, examinar el histórico de cada archivo sin
+depender o no de la conexión o acceso al repositorio. Sin entrar en
+más detalle, esta visión \emph{distribuida} del sistema de control
+de versiones se ha ido adentrando en el terreno de la conversación,
+especialmente desde el nacimiento hace unos pocos años de Git%
+\footnote{\href{http://en.wikipedia.org/wiki/Personal_information_management}{http://en.wikipedia.org/wiki/Personal\_information\_management}}
+a cargo de Linus Torvalds, padre también de Linux, como de la mano
+de GitHub%
+\footnote{minid.net (2009). \emph{En casa de herrero, cuchillo de palo}
+\href{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}}.
+El lema de GitHub se resume en los comentarios de Ryan Tomayko%
+\footnote{\href{http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html}{More Search Options and other updates from our Searchology event, 2009}}
+
+\begin{quote}
+Forking on GitHub is like friending on Myspace (or Facebook or
+whatever crazy ass social networking site that is) inasmuch as this
+is the point where a line is drawn from one node to another in the
+social graph.
+
+\end{quote}
+Incluso el lenguaje técnico se manifiesta abiertamente en la
+conversación:
+
+\begin{quote}
+You want to ``friend me''? Send me a patch.
+
+\end{quote}
+Llegado a este punto no es difícil imaginar cómo la frustración de
+Tom Morris con las wikis tradicionales ha encontrado una salida,
+una extraña \emph{suerte} de sistema de publicación y gestión de
+documentación gracias a la mezcla de la tecnología de Git y el
+enfoque social de GitHub. Una simple búsqueda de la palabra clave
+\verb!books! en GitHub no dice lo contrario%
+\footnote{Mora, Vicente Luis. (2009)}.
+La paradoja actual se muestra en toda su magnitud cuando un sistema
+caduco de creación, edición y gestión documental se encuentra con
+uno tan disparatadamente actual, eficiente y efectivo:
+
+\begin{quote}
+Somewhere else I read that someone liked that I used Markdown for
+writing the book, as you can download the Markdown source for the
+book at GitHub. Well, the entire writing process was unfortunately
+not done in Markdown. At Apress most of the editing and review
+process is still MS Word centric%
+\footnote{Jones et al., (2006)}
+
+\end{quote}
+Incluso, de un tiempo a esta parte, se han realizado tímidos
+intentos de llevar estos sistemas a ámbitos tan aparentemente
+lejanos como la creación literaria%
+\footnote{\href{http://www.apple.com/es/mobileme/}{http://www.apple.com/es/mobileme/}}:
+el escritor y blogger Cory Doctorow utiliza un \emph{wrapper} de
+Git, Flashbake%
+\footnote{\href{http://www.pogoplug.com/}{http://www.pogoplug.com/}},
+que en palabras de su creador
+
+\begin{quote}
+This project was inspired by Cory Doctorow asking me for
+suggestions on source control for his writing and personal
+information files.
+
+\end{quote}
+donde ya no sólo se reduce a manejar las versiones de cada
+\emph{instantánea} del libro sino, como dice Doctorow, que el
+propio sistema registre detalladamente el contexto personal del
+autor mientras escribe el libro
+
+\begin{quote}
+Every 15 minutes, Flashbake looks at any files that you ask it to
+check (I have it looking at all my fiction-in-progress, my todo
+list, my file of useful bits of information, and the completed
+electronic versions of my recent books), and records any changes
+made since the last check, annotating them with the current
+timezone on the system-clock, the weather in that timezone as
+fetched from Google, and the last three headlines with your by-line
+under them in your blog's RSS feed (I've been characterizing this
+as
+``Where am I, what's it like there, and what am I thinking about?'').
+It also records your computer's uptime. For a future version, I
+think it'd be fun to have the most recent three songs played by
+your music player%
+\footnote{\href{https://services.mozilla.com/}{https://services.mozilla.com/}}
+
+\end{quote}
+Este \emph{mashup} de pensamiento y tecnología, entre la creación
+literaria y la tecnología, y unidas esta vez por la conversación,
+quizás dibujen un enfoque completamente nuevo de cómo gestionar la
+documentación, sea literaria o técnica, basada enteramente en la
+idea de la \emph{remezcla}, del \emph{fork me}, del
+\emph{send me a patch}. Para entonces la wiki tendrá una presencia
+histórica, como pionera en la publicación colaborativa en la web,
+pero habrá desaparecido definitivamente como tecnología.
+
+\chap{Look Ma! Without tabs.}
+
+Oliver Reichenstein%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}},
+de Information Architecs%
+\footnote{Wilson, (2005).
+\emph{\href{http://www.newscientist.com/article/mg18624973.400}{Info-overload harms concentration more than marijuana}}},
+publicaba una entrada en el blog que recordaba una pregunta que le
+formularon a principios del año 2000:
+\emph{Si tuvieras que diseñar la interfaz de un navegador desde cero ¿qué decisiones tomarías?}.
+La respuesta se limitó a una lacónica respuesta: \emph{tabs!}
+(pestañas). En realidad manifestaba un error de diseño flagrante de
+la gestión de las páginas activas del navegador más utilizado en
+aquel momento, Internet Explorer. Cada página nueva significaba una
+ventana nueva del navegador. El efecto \emph{cluttering} estaba
+asegurado al poco tiempo de navegar. Tampoco una mayoría de
+\emph{diseñadores y programadores} de la web no ayudaron a
+disminuir la saturación de ventanas del navegador por la limitada
+extensión del escritorio de los usuarios. Todo lo contrario.
+Obviaron -y siguen obviando- las flechas de navegación -como si
+fueran un elemento decorativo- alegando como excusa la estupidez
+del navegante. Surge el \emph{spam} de la navegación de la web, los
+\emph{pop-ups}, ubicuas e intrusivas vallas publicitarias de
+contenido basura. El escritorio atiborrado de ventanas abiertas o
+minimizadas comenzó a ser una imagen familiar para los usuarios.
+Las pestañas vinieron con el propósito de agrupar la dispersión de
+la información: las páginas activas de una sesión de trabajo
+estarían encerradas en los límites físicos del navegador; la
+posición de las mismas en el horizonte visual facilitaría un rápida
+localización de cada una de las páginas abiertas. La adopción del
+sistema de pestañas por parte de los diferentes navegadores
+representa una muestra de las irregularidades del desarrollo de
+\emph{software}. Si las primeras apariciones datan de finales de la
+década de 1990 (Ibrowse en 1999, Opera en el 2000 y Mozilla en el
+2001) a mano de navegadores minoritarios, el popular y
+monopolístico Internet Explorer de Microsoft tendrá que esperar
+hasta 2007 (una muestra evidente de cómo los cambios suelen ser más
+difíciles de ejecutar en empresas y corporaciones grandes que no en
+pequeños equipos).
+
+Ocho años después, Oliver Reichenstein responde de nuevo a la misma
+pregunta, esta vez planteada por Aza Raskin%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}
+y responde con contundencia: \emph{forget tabs!} (olvida las
+pestañas!). ¿Regresar al pasado? No. La situación ha cambiado mucho
+desde entonces. El sistema de pestañas ha dejado de ser una
+respuesta eficiente. La acumulación de pestañas es un problema y
+las páginas actuales han dejado atrás su condición \emph{estática};
+en la actualidad manejamos aplicaciones
+\emph{encerradas en el cuerpo del navegador}. En la presentación de
+Chrome%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}}
+-el navegador de Google- a cargo del dibujante de cómics, Scott
+McCloud, el \emph{product manager} de Google, Brian Rakowski,
+sentencia en la primera viñeta que
+
+\begin{quote}
+Today, most of what we use the web for on a day-to-day basis aren't
+just web pages, they are \textbf{applications}
+
+\end{quote}
+La web se ha vuelto compleja en comparación a la de hace una
+década, pero, paradójicamente, nunca como ahora la web ha
+prolongado los límites del escritorio personal hasta la \emph{nube}
+de ordenadores. Esta construcción de la web obliga al navegador a
+trabajar como una suerte de sistema operativo. El ejercicio de
+gestionar eficazmente cada una de las aplicaciones web en cuanto a
+rendimiento, seguridad y estabilidad representa la meta de los
+navegadores actuales. Cada aplicación abierta, cada \emph{app-tab},
+representa un intenso de consumo de recursos del sistema. En otras
+palabras, el navegador devora al sistema operativo si hay un número
+elevado de pestañas abiertas. Reichenstein cita jocosamente a Dios%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}
+cuando habla que las
+\emph{pestañas no funcionan cuando la información es heterogénea}.
+Si las pestañas, como sistema de organización de la información del
+navegador, solucionaron el problema del \emph{cluttering} de
+ventanas, veamos qué solución encontramos a la diversidad de
+información que maneja el navegador. En palabras de Reichenstein,
+
+\begin{quote}
+The idea is not to show screen shots but to turn the browser into a
+media system organizer more than a media display application.
+Instead of structuring a browser to keep the screen tidy for the
+moment, we thought that it'd be awesome to structure the browser as
+a (multi media) file system.
+
+\end{quote}
+O dicho de otra manera, transformar el navegador en una suerte de
+\emph{iTunes de la web}. Pero mientras esperamos el cambio que
+jubile definitivamente la gestión de las páginas y aplicaciones web
+por pestañas, otro modelo de interacción entre la web y el usuario,
+menos \emph{browser-centric}, corresponde a la llamada
+\emph{web contextual} o, en otras palabras, el uso de diversas
+estrategias que aumenten la experiencia del usuario al visitar una
+página web y eviten, indirectamente, el problema del exceso de
+pestañas. Veamos cómo.
+
+\section{La web contextual}
+
+El significado de la web contextual es simple: cada página web no
+es un contenido aislado. Todo lo contrario, el contenido define de
+manera implícita un marco más amplio de información; una suerte de
+capas de información asociadas a partes específicas y, por lo
+tanto, relevantes, de cada página. Esta \emph{web aumentada}
+permite mejorar la eficacia de algunas de las prácticas habituales
+en la red:
+
+\begin{itemize}
+\item
+  Mejorar la eficacia de la doble actividad \emph{buscar/guardar}
+  información de la página web. La información contextual actúa de
+  filtro en la búsqueda de información asociada a un contenido.
+\item
+  Mostrar el grado de participación social de la página web y, por lo
+  tanto, conocer su grado de relevancia.
+\item
+  Incrementar la interoperabilidad entre diferentes páginas y
+  aplicaciones web.
+\end{itemize}
+Lo anterior no sería posible si no tuviéramos una serie de
+tecnologías que hagan posible la experiencia de la Web Contextual.
+
+\subsection{Microformatos}
+
+Para la gran mayoría de los usuarios, los microformatos pasan
+inadvertidos. Los microformatos conciernen más a los
+desarrolladores web que no a los usuarios. En palabras de
+\emph{microformats.org}%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}}
+
+\begin{quote}
+diseñados primero para los humanos y segundo para las máquinas, los
+microformatos son un formato abierto y simple elaborados a partir
+de estándares (\ldots{}) los microformatos intentan resolver
+primero problemas simple tomando como referencia conductas y
+patrones de uso actuales (ejemplo, XHTML blogging)
+
+\end{quote}
+La estructura de los microformatos es simple. Son bloques de HTML
+que describen un patrón de información. La ficha personal o de una
+organización, un evento, una fecha de calendario, una licencia, la
+geolocalización de un lugar, el comentario u opinión de un producto
+o etiquetas asociadas a un elemento son ejemplos de microformatos.
+Por ejemplo, la siguiente estructura HTML
+
+\begin{verbatim}
+<a href="http://creativecommons.org/licenses/by/2.0/" rel="license">cc by 2.0</a>
+\end{verbatim}
+incluye el atributo \verb!rel="license"! e indica la licencia de la
+página.
+
+Seguir esta y las otras convenciones que proponen las diferentes
+especificaciones del proyecto facilitará el acceso y el intercambio
+de información entre diferentes páginas web. De alguna manera, los
+microformatos proporcionan un API casual de la pàgina, una puerta
+abierta que permite el acceso sin problemas a los datos que
+contiene la página como una interpretación correcta del significado
+del contenido por parte de las \emph{máquinas}.
+
+\section{Widgets}
+
+En esencia, los \emph{widgets} son pequeñas aplicaciones
+incrustadas en una página. El \emph{widget}, generalmente,
+amplifica la información relacionada con el contenido de la página
+y evita al visitante buscar esta información fuera de la misma. Los
+\emph{widgets} son presentes desde el 2006 en una gran variedad de
+formas: relojes, el tiempo, un lector rss específico, información
+de servicios de terceros, galerías de fotos, etc.
+
+El 2007 representó la adopción popular de \emph{widgets}%
+\footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}}.
+Su presencia comenzó a resultar ubicua en la web. Quizá el widget
+más popular y más extendido por su utilización \emph{ad infinitum}
+ha resultado ser el de video, especialmente importante en el caso
+más que documentado de YouTube y que jugó un papel crucial en su
+meteórica aceptación popular. Si en aquel momento Lenehan
+argumentaba el papel positivo del uso de los \emph{widgets} por
+añadir nuevas funcionalidades a la página.
+
+Si el \emph{widget} proporciona una información específica que, de
+alguna manera, evita que el visitante abra una nueva página, y por
+consiguiente, limita el efecto \emph{cluttering} de pestañas, en el
+otro lado, manifiestan un doble problema. Utilizando la metáfora de
+la ciudad, los \emph{widgets} corresponderían en muchas de las
+situaciones a las vallas publicitarias; aumentan el ruido en exceso
+y proporcionan una experiencia negativa de la lectura de la página.
+Se suma a este último que la mayoría de los widgets no estan
+personalizados y no tengan ninguna relación temática o visual entre
+ellos ni con estilo visual de la página.
+
+En un sentido estricto de la web contextual, los \emph{widgets} no
+deberían ser explícitos, como los ejemplos descritos más arriba.
+Todo lo contrario, los \emph{widgets} deberían aparecer según la
+necesidad del usuario. En esta dirección, uno de los \emph{widgets}
+del tipo contextual que apareció con enorme fuerza, especialmente
+en el ecosistema de los blogs personales, fue la tecnología
+SnapShots%
+\footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós}.
+El lema sigue siendo enriquecer la experiencia informativa del
+usuario cuando visite la página. ¿Hacemos referencia a un personaje
+histórico? enlazamos aquel con su entrada en la Wikipedia ¿la calle
+de un restaurante? ubicamos su posición en una mapa ¿citamos un
+monumento? mostramos una galería de fotografías realizadas por los
+usuarios. Como ya hemos mencionado arriba, el problema sigue siendo
+la saturación del servicio, luego la navegación por la página es
+impracticable y resulta enormemente molesta para los usuarios que
+la visitan. Exceso de información relacionada con los contenidos.
+Esta sobredimensión de información asociada a algunos de los
+contenidos de la página ha servido de inspiración para nuevos
+servicios. Apture%
+\footnote{Italo Calvino, \emph{Las ciudades invisibles}}
+proporciona una mejor experiencia de navegación diferente a
+SnapShots y viene completada con distintivos visuales que
+identifican el carácter de la información asociada (geográfica,
+textual, imagen, video, sonido,\ldots{}). En palabras de MacManus%
+\footnote{\href{http://en.wikipedia.org/wiki/Personal_information_management}{http://en.wikipedia.org/wiki/Personal\_information\_management}},
+la tecnología de Apture se diferencia de tecnologías como Snap en
+la que prevalece el sentido común frente a complejos algoritmos de
+automatización de la selección de aquellos contenidos suscpetibles
+de estar sujetos a un \emph{widget} contextual, caso como Snap o
+Adapative SmartLinks%
+\footnote{minid.net (2009). \emph{En casa de herrero, cuchillo de palo}
+\href{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}{http://www.minid.net/2009/06/17/en-casa-de-herrero-cuchillo-de-palo/}}.
+El futuro de los \emph{widgets} pasará quizá por ser menos
+intrusivos, menos \emph{automatizados} y más personales en cuanto
+sea el usuario el último en decidir su funcionamiento.
+
+\section{Complementos del navegador}
+
+En el 2003 MacManus%
+\footnote{\href{http://googleblog.blogspot.com/2009/05/more-search-options-and-other-updates.html}{More Search Options and other updates from our Searchology event, 2009}}
+lamentaba que la visión de la Web Semántica que tenía el padre de
+la \emph{World Wide Web}, Sir Tim Berns Lee, en 1993, diez años
+después seguía siendo incomprendida o, en el peor de los casos,
+indiferente a los caprichos de aquel momento. A principios del
+2000, la web mantenía firme la metáfora de una suerte de páginas
+amarillas digital, es decir, un mostrador de información,
+exclusivamente de lectura y con pocas posibilidades de
+participación del usuario. Todo lo contrario del sueño de Tim Berns
+Lee, la idea de un navegador/editor de la web en donde la
+navegación por la red es sólo una parte de la actividad, no la
+única. La cuestión crucial es la capacidad o libertad de
+\emph{tejer} la red a través de la escritura por parte de los
+usuarios. El navegador deja atrás su metáfora como vehículo de
+transporte a través de la \emph{galaxia internet} y adquiere la
+capacidad de editor.
+
+\begin{quote}
+la descentralización es el principio de diseño subyacente que dará
+a la Web Semántica la capacidad de convertirse en algo más que la
+suma de sus partes%
+\footnote{Mora, Vicente Luis. (2009)}
+
+\end{quote}
+Hasta el 2004, el papel del navegador resultaba ser todavía un
+simple intermediario. Hasta parecía molestar el lenguaje propio de
+la red, el HTML; el distanciamento entre los diseñadores y
+desarrolladores y la W3C parecía insalvable. El navegador dominante
+en un 95\% era Internet Explorer 6, del que apenas respetaba un
+miserable 35\% de los estándares de la web. El navegador, como
+aplicación, no proporcionaba otra característica al margen de la
+navegación que guardar los marcadores de las páginas; los
+\emph{plugins} permitían visualizar los contenidos de cajas negras
+como las animaciones realizadas en la tecnología Flash o ejecutar
+las aplicaciones Java. El navegador no había evolucionado mucho
+desde Mosaic, el primer navegador web de la historia desarrollado
+en 1993 por Sir Tim Berns Lee.
+
+La publicación y promoción de la versión 1.0 del navegador Firefox
+el 9 de noviembre de 2004%
+\footnote{Jones et al., (2006)},
+desarrollado bajo el paraguas de la fundación Mozilla, representó
+un punto de inflexión en una situación aparentemente inamovible: el
+monopolio del uso de Internet Explorer 6 parecía no tener fin aún
+sabiéndose que la experiencia de navegación resultaba ser
+enormemente pobre, poco fiable y en absoluto segura. El nuevo
+navegador, a diferencia de Internet Explorer, nació bajo licencia
+Open Source. Las características técnicas que resaltaba la
+fundación Mozilla representaban la antítesis de Internet Explorer.
+Daba la impresión que los desarrolladores habían tenido muy en
+cuenta el malestar de los usuarios y diseñadores web creyentes de
+los estándares del W3C. Entre otras características, el navegador
+Mozilla Firefox bloqueaba por defecto las ventanas emergentes
+(\emph{Pop-up}); mejoraba la seguridad frente a ataques de
+\emph{phising} y \emph{spoofing}; incorporaba la navegación por
+diferentes páginas a través de un sencillo sistema de pestañas
+(\emph{Tabbed Browsing}), facilitaba el proceso de migración de de
+migrar los datos como los marcadores. Y por último, era
+\emph{extensible}, es decir, su estructura permitía a los
+desarrolladores a sumar nuevas funcionalidades al navegador a
+través de un simple sistema de complementos (\emph{add-ons}). A
+finales de 2004, Firefox contaba con alrededor de más de 100
+complementos. Según la Wikipedia, a febrero de 2008 se cuenta
+alrededor de 4600 complementos disponibles en diferentes
+categorías. La página oficial dedicada%
+\footnote{\href{http://www.apple.com/es/mobileme/}{http://www.apple.com/es/mobileme/}}
+exclusivamente a la publicación y gestión de los complementos
+cuenta con un sistema perfectamente organizado que el resto de
+navegadores han ido sumando a su propio ecositema: es el caso de
+Internet Explorer a partir de la versión 7%
+\footnote{\href{http://www.pogoplug.com/}{http://www.pogoplug.com/}};
+de Chrome, el navegador de Google todavía carece de un espacio
+dedicado (se espera a partir de mayo de este año dar una respuesta
+material); Opera cuenta con \emph{widgets}%
+\footnote{\href{https://services.mozilla.com/}{https://services.mozilla.com/}}
+y Safari, el navegador de Apple, cuenta también con sus propios%
+\footnote{\href{http://www.getdropbox.com/}{http://www.getdropbox.com/}}.
+Este interés por ofrecer una versión \emph{enriquecida} del
+navegador demuestra que, el papel invisible del navegador hasta
+mediados del 2005 ha desaparecido a favor de un mayor
+protagonismo.
+
+Los complementos vienen a extender las funcionalidades del
+navegador y, por lo tanto, mejorar la experiencia de navegación. La
+novedad incluye la actuar como bisagra entre los servicios de la
+coversación y el navegador. Complementos enormemente populares como
+Shareolic%
+\footnote{\href{https://ubuntuone.com/}{https://ubuntuone.com/}}
+o Twitterfox%
+\footnote{\href{http://desktop.google.com/}{http://desktop.google.com/}}
+permiten al usuario publicar, leer y compartir información
+múltiples servicios -como recibir notificaciones- en y de la
+conversación sin estar obligado a modificar la página activa del
+navegador. Este efecto bisagra es posible gracias a las API
+abiertas de los servicios de la conversación; la interacción con el
+servicio alcanza un horizonte en el que la página web de aquel deja
+de \emph{existir} por el hecho mismo de la descentralización. Se
+convierten en \emph{bases de datos} abiertos a los usuarios y hacen
+posible que aquellos decidan cómo visualizar y gestionar estos
+datos.
+
+Los complementos transforman, manipulan, personalizan y aumentan la
+experiencia de la navegación. Si cada complemento tiene un fin
+específico, la oportunidad de las API abiertas han dibujado el
+camino de un complemento que viene a mezclar lo viejo con lo nuevo,
+la línea de comandos con los \emph{mashups}. Un complemento que
+viene a matar quizá navegación por pestañas.
+
+\subsection{Ubiquity, el \emph{killer-add-on} de Firefox.}
+
+¿Por qué merece una sección aparte Ubiquity? Ubiquity%
+\footnote{\href{http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx}{http://www.microsoft.com/windows/products/winfamily/desktopsearch/default.mspx}}
+es un proyecto de laboratorio nacido bajo el paraguas de la
+fundación Mozilla. Su objetivo es ayudar a los usuarios a reducir
+la repetición de pequeñas tareas mientras navegan a través de una
+línea de comandos o \emph{verbos}. Tareas cortas como consultar la
+ubicación de un lugar en el mapa, la definición de un término, la
+entrada de la Wikipedia, la traducción de un fragmento de la
+página, etc. nos obliga, en el curso habitual de la navegación, a
+abrir continuamente una ventana o pestaña nueva del navegador. Por
+el contrario, Ubiquity salva el escollo de la ayuda contextual
+convertida en un absoluto \emph{cluttering} de pestañas o ventanas
+en la forma de una suerte de capa intermedia entre la estructura de
+la página y el usuario.
+
+Este enfoque de una navegación enriquecida a través del uso de
+acciones puede representar una puerta abierta a la desaparición de
+la organización de la navegación por pestañas. El hijo pequeño de
+Ubiquity, Taskfox%
+\footnote{\href{http://lifehacker.com/339474/top-10-obscure-google-search-tricks}{http://lifehacker.com/339474/top--10-obscure-google-search-tricks}},
+si bien dista del padre de ser un sistema complejo de verbos que
+alcance incluso el lenguaje natural, sí persigue una de las
+finalidades principales
+
+\begin{quote}
+Its aim is to allow users to quickly access information and perform
+tasks that would normally take several steps to complete.
+
+\end{quote}
+Es interesante comprobar que, finalmente, la severa afirmación de
+Oliver Reichenstein sobre la desaparición de las pestañas pueda
+venir justamente del uso intensivo de complementos como Ubiquity o
+Taskfox, complementos que permitan acceder a la información de la
+web de manera asíncrona y a través de una interfaz textual y no
+icónica. Por otro lado, esta evolución no sería posible si la
+interpretación de la web como
+
+\begin{quote}
+a collection of data which can be remixed, mashed together, and
+edited by users as well as by web developers%
+\footnote{\href{http://mail.google.com/support/bin/answer.py?hl=en&answer=7190}{http://mail.google.com/support/bin/answer.py?hl=en\&answer=7190}}
+
+\end{quote}
+es decir, una inconmensurable base de datos en el que todos
+participemos, sin exclusión ni distinción, de su creación, edición
+y remezcla. Sólo de esta manera, los navegadores podrán dejar atrás
+su vieja piel y convertirse en el principal y único \emph{software}
+de cualquier dispositivo.
+
+\chap{The sexy job}
+
+\begin{quote}
+The purpose of visualization is insight, not pictures[\^{}0]
+
+\end{quote}
+De un tiempo a esta parte, la disciplina de la visualización de
+datos está siendo objeto de una enorme atención rompiendo,
+definitivamente, los límites de la esfera universitaria. Comunicar
+gráficamente el \emph{overloading} está de moda; construir el
+\emph{relato visual} de una información tabular se ha vuelto en una
+actividad profesional muy atractiva
+
+\begin{quote}
+I keep saying the sexy job in the next ten years will be
+statisticians. People think I'm joking, but who would've guessed
+that computer engineers would've been the sexy job of the 1990s?%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}}
+
+\end{quote}
+Esta pasión por la visualización de datos no es casual. La actual
+situación de una presencia ubicua de información personal y
+colectiva, la capacidad individual y colectiva de producir y
+recoger información (gracias a una rápida evolución del perfil
+\emph{sensorial} de los nuevos dispositos móviles); capacidad de
+mezclarla, remezclarla, publicarla y compartirla en la
+\emph{conversación}, la iniciativa de entregar los datos en
+formatos abiertos por parte de los servicios 2.0 como de algunos
+pocos gobiernos occidentales y, finalmente, el desarrollo de
+tecnologías libres dedicadas a la visualización e infografía de
+datos, convergen en un espacio poliédrico en el que es posible
+reconocer una suerte de \emph{revolución invisible y silenciosa}:
+la oportunidad como ciudadano de \emph{opinar} (desde la reflexión
+a la crítica) desde una perspectiva visual, no en términos
+estéticos y sí en clave de comunicación. Se inaugura la cultura del
+\emph{open-and-raw-data}, es decir, el acceso a los datos en su
+estado crudo, libre de intermediarios, y en formatos no cautivos o
+propietarios. Formatos como CSV, XML, JSON o YAML que faciliten el
+proceso de intercambio, interoperabilidad, lectura, análisis,
+extracción y manipulación de los datos. La visualización, de otra
+manera, resultaría imposible.
+
+\begin{quote}
+I would like to suggest: sure, make a beautiful website, but first,
+give us – all of us – the unadulterated data. We have to ask for
+raw data now.%
+\footnote{\href{http://desktop.google.com/}{http://desktop.google.com/}}
+
+\end{quote}
+El propósito de la visualización es revelar un significado que, de
+otra manera, en su representación más cruda, permanece oculta. De
+acuerdo con Tufte (2007)[\^{}tufte], la excelencia de la
+representación gráfica de datos consiste en que ideas complejas se
+comuniquen con claridad, precisión y eficiencia. En realidad, la
+visualización trata de responder a la formulación de una o varias
+preguntas en relación a la fuente de información. Encontrar la
+respuesta dependerá de una metodología secuencial de trabajo. Ben
+Fry (2008) distingue las siguientes fases:
+
+\begin{itemize}
+\item
+  \textbf{Adquisición} de la fuente de información. Varios autores,
+  en los que se incluyen Tufte y Manuel Lima coinciden en la
+  necesidad de citar la fuente de información en su formato original.
+\item
+  \textbf{Minería} y filtrado y extracción de los datos que sean
+  relevante al propósito u objetivo planteado al principio.
+\item
+  \textbf{Elección} de un tipo determinado de representación o
+  gráfico que facilite la comunicación de la información representada
+  y, a un mismo tiempo, susceptible de ofrecer nuevas
+  interpretaciones de los datos seleccionados.
+\item
+  \textbf{Infovis and Human-Computer Interaction (HCI)} - Frente a
+  una representación congelada en papel impreso, la interacción
+  invita a una manipulación de la respuesta y enriquece la
+  experiencia cognitiva del usuario.
+\end{itemize}
+La complejidad de la visualización de información reside
+precisamente en el acierto de cada una de las fases. Una
+visualización no responderá correctamente a la pregunta inicial si
+la elección de la fuente de información es equivocada. Por el
+contrario, la comunicación de la respuesta no será eficaz si la
+representación elegida no es la adecuada en relación a los datos
+procesados. Un ejemplo muy extendido de visualización que cumple
+con acierto su objetivo son las nubes de etiquetas
+(\emph{cloud tags}). La mayoría de páginas incluyen este
+\emph{widget}. La nube de etiquetas responde a dos necesidades
+complementarias:
+
+\begin{itemize}
+\item
+  \textbf{Permitir} a los usuarios conocer qué etiquetas clasifican
+  el mayor número de contenidos de la página web y, por lo tanto, una
+  suerte de \emph{zeitgeist} de qué información ocupa el interés de
+  la página -adquisición y análisis de la información-.
+\item
+  \textbf{Ofrecer} una ruta alternativa de navegación y adquisición
+  de la información a través de las etiquetas -interacción con la
+  representación-.
+\end{itemize}
+Si seguimos los pasos indicados por Ben Fry -no sin simplificar al
+máximo el proceso- podríamos desglosar el funcionamiento las nubes
+de etiquetas de, por ejemplo un blog, en:
+
+\begin{itemize}
+\item
+  adquisición de la fuente de información en el conjunto total de
+  artículos del blog.
+\item
+  de los artículos sólo nos interesará las etiquetas asociadas a cada
+  artículo.
+\item
+  la representación es una secuencia de palabras -cada palabra
+  equivale a una etiqueta- en la que el cuerpo de la fuente vendrá
+  determinado por la frecuencia de uso de la etiqueta. A un mayor
+  intensidad de uso de una etiqueta, mayor será su cuerpo de letra.
+  Otra variante de representación de la nube de etiquetas es también
+  conocida como \emph{wordle}[\^{}wordle].
+\item
+  La interacción, como ya se puede ver en la creación de
+  \emph{nubes de etiquetas rotacionales 3D}[\^{}cumulus].
+\end{itemize}
+\section{La visualización de información es sexy}
+
+Aunque todavía se encuentra encerrada en una aureola de
+incomprensión para la mayoría de personas o mal entendida al no
+otorgar mayor interés que la de una presentación gráfica de los
+datos a través de los métodos más que sabidos (el pastel o el
+gráfico de barras), lo cierto es que de un tiempo a esta parte, la
+visualización de información ha despertado un enorme interés en la
+red. Prueba de ello es el número cada vez mayor de voces que hablan
+sobre este tópico, pero no menos importante es la aparición de
+atractivas herramientas que permiten generar complejas infografías
+con relativa facilidad.
+
+\begin{quote}
+To democratize visualization we'll need a new generation of
+software. With personal and then web-based computing, we've seen it
+happen again and again: spreadsheets, desktop publishing, web
+multimedia, cloud-based services. Now, across a range of devices as
+well as in the cloud, we have the raw technologies to democratize
+the visualization --- and collaborative analysis --- of data.%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}
+
+\end{quote}
+Estas herramientas pueden ser de propósito general, provenientes de
+la creación gráfica procedural como es el caso del enormemente
+popular Processing[\^{}processing] o Nodebox[\^{}nodebox], pero
+también han surgido aplicaciones web orientadas al usuario final
+como, por ejemplo, Many Eyes[\^{}manyeyes], Swivel[\^{}swivel],
+Data360%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}}.
+Pero también merece una enorme atención el goteo continuo de
+\emph{frameworks}, \emph{toolkits} o librerías realizadas en
+javascript, como por ejemplo Raphaël[\^{}raphael], que permiten una
+mayor presencia de la práctica de la visualización de datos en la
+web.
+
+Processing nació de las manos Ben Fry y Casey Reas en el 2001 con
+la finalidad de proporcionar unas librerías gráficas para el diseño
+y artistas desde una visión artística:
+
+\begin{quote}
+Processing is the first full-featured programming language and
+environment to be created by artists for artists%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}
+
+\end{quote}
+Processing no es único en su campo y otras soluciones, quizá no tan
+populares, han ido ganando aceptación. El caso de NodeBox o
+ContextFree[\^{}contextfree] son claros ejemplos de la misma
+metodología de desarrollo en la creación de gráficos. Processing y
+NodeBox comparten el origen (MIT) como el planteamiento de
+``state machine'' máquina de estados, que facilita la comprensión
+del lenguaje al profano y le introduce en el arte de programación.
+
+Si los anteriores son aplicaciones de escritorio, Many Eyes%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}}
+es, en palabras de sus desarrolladores, una aplicación web asentada
+en la capacidad de la inteligencia visual en encontrar patrones a
+partir de una fuente de información. El objetivo es
+\emph{democratizar la visualización y proporcionar nuevas herramientas sociales de análisis de la información},
+luego sería motivo de debate y de adquisición de nuevos
+conocimientos de la información representada. La cuestión estética
+de la representación dejaría paso a una percepción intelectual de
+la información. Many Eyes establece seis categorías que agrupan
+diferentes sistemas de representación según la metodología del
+análisis. Esta categorización no es muy diferente de la mencionada
+más arriba:
+
+\begin{itemize}
+\item
+  Relaciones entre puntos de información (Diagramas de redes,
+  ScatterPlot y Matrix Chart)
+\item
+  Comparación entre un conjunto de valores (Gráfico de burbuja
+  \emph{Bubble Chart}, Histogramas, Gráfica de barras)
+\item
+  Registro de alzas y bajas a lo largo de un tiempo (gráfica de
+  líneas y de pilas)
+\item
+  Observación de las partes de un todo (TreeMap, gráfica de pastel
+  \emph{Pie Chart})
+\item
+  Analizador de texto (Tag Cloud, Phrase Net, Wordle)
+\item
+  Mapas, geolocalización de la información.
+\end{itemize}
+Este interés en la democratización de la visualización de la
+información no ha quedado relegada a un ámbito de laboratorio
+universitario. El diario The New York Times[\^{}nyt] impulsó el año
+pasado, desde su versión digital, una suerte de laboratorio donde
+los lectores pudieran utilizar la herramienta Many Eyes y la API
+del diario y, de esta manera, tener la oportunidad de representar
+la información relativa a la actualidad. Si los comentarios a los
+artículos publicados en la versión digital del diario como la
+sección de los lectores aportan una información propia y
+complementan la de los periodistas, las representaciones y los
+posibles debates alrededor de las mismas pueden sumar a la
+información escrita del diario y aportar un enorme valor social.
+Tomemos como ejemplo el discurso de inauguración de Barack Obama%
+\footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}}.
+La fuente de información es un texto plano, sin ningún formato que
+pueda distraer técnicamente el análisis. Los usuarios toman esta
+información y, a través de Many Eyes, eligen un método de
+representación y, finalmente, publican el resultado. Swivel%
+\footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós},
+otro servicio que mezcla los tres componentes elementales de
+trabajo de Many Eyes (explorar y analizar la información a través
+de su representación; compartirla y subir la información relevante
+y, por lo tanto, susceptible de generar un debate como la creación)
+también proporciona prácticas sugerentes, pero limitadas: la
+información relacionada con los accidentes aéreos ocasionados dede
+1918[\^{}accidentes], nombran el número de accidentes y fallecidos
+pero no especifican el lugar, compañía, recorrido, lugar del
+accidente, y una categorización por etiquetas que los clasificara
+según el problema que originó el accidente (error humano, técnico,
+atentado, fortuito,\ldots{}).
+
+Si todavía la popularidad no es excesiva y el conjunto de las
+propuestas no ha conseguido un efecto \emph{democratizador} de la
+visualización de la información, sí en cambio comprobamos que
+representaciones del tipo Wordle o del Cloud Tag, citada más
+arriba, han tenido una buena aceptación y acogida, pero en gran
+parte a cuestiones puramente estéticas que no provocadoras de un
+posible debate sobre la misma información representada. ¿Demasiado
+sujetos todavía a una experiencia puramente retiniana al
+enfrentarnos a una representación visual de la información?
+
+[\^{}0]: Ben Shneiderman (1999)%
+\footnote{Blair, Ann. (2003).
+\emph{Coping with Information Overload in Early Modern Europe}}:
+Varian, Hal (2009) \emph{how the Web challenges managers}
+\href{http://www.mckinseyquarterly.com/Hal_Varian_on_how_the_Web_challenges_managers_2286}{http://www.mckinseyquarterly.com/Hal\_Varian\_on\_how\_the\_Web\_challenges\_managers\_2286}%
+\footnote{Wilson, (2005).
+\emph{\href{http://www.newscientist.com/article/mg18624973.400}{Info-overload harms concentration more than marijuana}}}:
+Laumans, Joel (2009) \emph{Introduction to Visualizing Data}
+\href{http://piksels.com/wp-content/uploads/2009/01/visualizingdata.pdf}{http://piksels.com/wp-content/uploads/2009/01/visualizingdata.pdf}%
+\footnote{\href{http://desktop.google.com/}{http://desktop.google.com/}}:
+Berners-Lee, Tim, citador por Artur, Charles (2009)
+\emph{Web inventor to help Downing Street open up government data}
+\href{http://www.guardian.co.uk/technology/2009/jun/10/berners-lee-downing-street-web-open}{http://www.guardian.co.uk/technology/2009/jun/10/berners-lee-downing-street-web-open}
+[\^{}tufte]: Tufte ?%
+\footnote{Hurst, Mark. (2007). \emph{Bit Literacy}. Good Experience Press.}:
+Udell, Jon (2009) \emph{Visualization Trends For The Noosphere}
+\href{http://www.visitmix.com/articles/Visualization-Trends-For-The-Noosphere}{http://www.visitmix.com/articles/Visualization-Trends-For-The-Noosphere}%
+\footnote{Hallowell, E. M. (2005).
+\emph{\href{http://tr.im/wSsS}{Overloaded circuits: Why smart people underperform}}}:
+Yau, Nathan (2009) \emph{The Flowing Data guide to visualisations}
+\href{http://www.guardian.co.uk/news/datablog/2009/jun/15/google-ibm}{http://www.guardian.co.uk/news/datablog/2009/jun/15/google-ibm}%
+\footnote{Malhotra, Naresh K. (1984).
+\emph{\href{http://www.jstor.org/pss/2488913}{Reflections on the Information Overload Paradigm in Consumer Decision Making}}}:
+Greenberg, Ira (2007).
+\emph{Processing: Creative Coding and Computational Art}. Apress%
+\footnote{Jacoby, J. (1984),
+\emph{\href{http://www.jstor.org/pss/2488912}{Perspectives on Information Overload}}}:
+\href{http://manyeyes.alphaworks.ibm.com/manyeyes/page/About.html}{http://manyeyes.alphaworks.ibm.com/manyeyes/page/About.html}%
+\footnote{Schneider, Ursula. (2002).
+\emph{\href{http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html}{The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?}}}:
+\href{http://vizlab.nytimes.com/datasets/barack-obamas-inauguration-address-2/versions/1}{http://vizlab.nytimes.com/datasets/barack-obamas-inauguration-address--2/versions/1}%
+\footnote{Barthes, Roland. 1980. \emph{La cámara lúcida}. Paidós}:
+\href{http://www.swivel.com/}{http://www.swivel.com/}
+[\^{}accidentes]:
+\href{http://www.swivel.com/data_sets/spreadsheet/1018156}{http://www.swivel.com/data\_sets/spreadsheet/1018156}
+[\^{}cumulus]:
+\href{http://wordpress.org/extend/plugins/wp-cumulus/}{http://wordpress.org/extend/plugins/wp-cumulus/}
+[\^{}wordle]: \href{http://www.wordle.net/}{http://www.wordle.net/}
+[\^{}processing]:
+\href{http://processing.org/}{http://processing.org/}
+[\textsuperscript{nodebox]:\href{http://nodebox.net/code/index.php/Home}{http://nodebox.net/code/index.php/Home} [}manyeyes]:
+\href{http://manyeyes.alphaworks.ibm.com/manyeyes/}{http://manyeyes.alphaworks.ibm.com/manyeyes/}
+[\textsuperscript{swivel]:\href{http://www.swivel.com/}{http://www.swivel.com/} [}raphael]:
+\href{http://raphaeljs.com/}{http://raphaeljs.com/}
+[\^{}contextfree]:
+\href{http://www.contextfreeart.org/}{http://www.contextfreeart.org/}
+[\^{}nyt]:
+\href{http://vizlab.nytimes.com/}{http://vizlab.nytimes.com/}
+
+
+\end{document}

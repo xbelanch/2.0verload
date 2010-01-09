@@ -1,16 +1,25 @@
 body {
-  font-family:  "Trebuchet MS", Verdana, Arial, sans-serif; 
   margin: 0pt 1em;
   padding: 0pt;
 }
 
-h1 {
+h1.chapter-title {
   margin-top:   2em;
   text-align: right;
+}
+
+h1.chapter-title .chapter-number {
+  color:     #999999;
+  font-weight: bold; 
+  display: block;
+  font-size: 90%;
+}
+
+h1.chapter-title .chapter-name {
   display: block;
   color:     #555555;
   background: url(../images/h1-underline.gif) repeat-x bottom;
-  font-size: 160%;
+  font-size: 120%;
   font-weight: bold; 
   margin-bottom: 1ex;
 }
@@ -18,10 +27,10 @@ h1 {
 h2 {
  font-size: 140%;
  font-weight:  bold;
- text-align: center !important;
+ text-align: left !important;
  color:     #445;
- margin-top:  2em;
- margin-bottom: 2ex !important;
+ margin-top:  1em;
+ margin-bottom: 1ex !important;
 }
 
 h3 {
@@ -38,70 +47,39 @@ p {
     margin-top: 0pt;
 }
 
-.author {
-  margin-top:  1em;
-  text-align:  right
+
+
+
+
+/* span styles */
+
+.titlepage 
+{ 
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 
-ul {
-	list-style:disc;
-	font-size: 90%;
+.tp-title {
+  display: block;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:        #777777;
+  border-width: 3px;
+  border-style: solid none;
+  border-color: #888888;	      
 }
 
-ol {
-	list-style-type: decimal;
-	font-size: 80%;
+.tp-subtitle {
+  display: block;
+  margin-top: 10px;
+  color:        #777777;
 }
 
-ul li, ol li { 
-	margin-left: 2em;
-	margin-bottom: 0.3em;
+.tp-authors 
+{ 
+  display: block;
+  color: #777;
+  margin-top: 20px;
 }
-
-sup a {
-	color: #000;
-	text-decoration: none;
-}
-
-sup a:hover {
-	color: #ffaa00;
-}
-
-sup {
-	font-size: 0.666em;
-	vertical-align: 0.5em;
-}
-
-blockquote{
-	padding: 0 1.571em;
-	border-top: 0.071em dotted #999990;
-	border-bottom: 0.071em dotted #999990;
-	font-style: italic;
-	font-size: 85%;
-}
-
-#title {
-	margin-left: 1em; 
-	margin-bottom: 1.3em;
-	}
-#title h1 { margin-bottom: 0.1em;}
-
-#license p, #license ul {
-	font-size: 80%;
-}
-
-
-.footnotes ol li p {
-	display: inline;
-}
-
-.footnotes ol li a {
-	color: #000;
-}
-
-.footnotes ol li a:hover {
-	color: #ffaa00;
-}
-
-
-

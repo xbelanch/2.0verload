@@ -9,13 +9,14 @@ memento.*
 total*
 borra*
 *~
+main*
 cap*.html
 about.html
 colateral.html
 index.html
 .Apple*
 :2eDS_Store
-es/css/*
-es/img/*
-es/*
+html/css/*
+html/img/*
+html/*
 
