@@ -6,7 +6,10 @@ require 'open3'
 require 'erb'
 require 'maruku'
 
-
+# Visual design references
+# http://dustincurtis.com/index.html
+# http://diveintohtml5.org/about.html
+# http://jontangerine.com/
 
 $here = File.expand_path(File.dirname(__FILE__))
 $config = YAML.load_file("#$here/config.yaml")
