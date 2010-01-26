@@ -1,85 +1,66 @@
-body {
-  margin: 0pt 1em;
-  padding: 0pt;
+.titlepage {
+	text-align: center;
 }
 
-h1.chapter-title {
-  margin-top:   2em;
-  text-align: right;
+div.titlepage {
+	margin-top: 100pt;
 }
 
-h1.chapter-title .chapter-number {
-  color:     #999999;
-  font-weight: bold; 
-  display: block;
-  font-size: 90%;
+div.titlepage h1{
+	font-size: 60pt;
 }
 
-h1.chapter-title .chapter-name {
-  display: block;
-  color:     #555555;
-  background: url(../images/h1-underline.gif) repeat-x bottom;
-  font-size: 120%;
-  font-weight: bold; 
-  margin-bottom: 1ex;
+div.titlepage h2 {
+	font-size: 12pt;
 }
 
-h2 {
- font-size: 140%;
- font-weight:  bold;
- text-align: left !important;
- color:     #445;
- margin-top:  1em;
- margin-bottom: 1ex !important;
+div.titlepage h3 {
+	margin-top: 110pt;	
+	font-size: 6pt;
 }
 
-h3 {
- font-size: 110%;
- font-weight:  bold;
- color:     #225555;
- clear:  both;
- margin-top:  1em;
- margin-bottom: 1ex;
+div.titlepage h3 span.tp-city {
+	margin-top: 110pt;	
+	font-size: 4pt;
+}
+
+
+h1 {
+	font-size: 12pt;
+}
+
+.tp-publisher, .uppercase {
+	text-transform: uppercase;
 }
 
 p {
-    line-height: 130%;
-    margin-top: 0pt;
+	text-indent: 10pt;
 }
 
-
-
-
-
-/* span styles */
-
-.titlepage 
-{ 
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
+p#author {
+	font-size: 8pt;
 }
 
-.tp-title {
-  display: block;
-  margin-top: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color:        #777777;
-  border-width: 3px;
-  border-style: solid none;
-  border-color: #888888;	      
+p.nodint {
+	text-indent: 0px;
 }
 
-.tp-subtitle {
-  display: block;
-  margin-top: 10px;
-  color:        #777777;
+#license h1 {
+	font-size: 12pt;
 }
 
-.tp-authors 
-{ 
-  display: block;
-  color: #777;
-  margin-top: 20px;
+#license p {
+	font-size: 9pt;
+}
+
+#license h3 {
+	font-size: 10pt;
+}
+
+#license ul {
+	list-style-type: none;	
+}
+
+#license ul li {
+	font-size: 7pt;
 }

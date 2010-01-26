@@ -19,6 +19,7 @@
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
 	<item id="cover-image" href="images/cover.jpg" media-type="image/jpeg"/>
 	<item id="cc-logo" href="images/cc.png" media-type="image/png"/>
+	
 	<item id="f_0000"
 	      href="f_0000.html"
 	      media-type="application/xhtml+xml" />
@@ -26,46 +27,18 @@
 	<item id="f_0001"
 	      href="f_0001.html"
 	      media-type="application/xhtml+xml" />
-	
-	<item id="f_0002"
-	      href="f_0002.html"
-	      media-type="application/xhtml+xml" />
-	<item id="f_0003"
-	      href="f_0003.html"
-	      media-type="application/xhtml+xml" />
 
 	<item id="f_0004"
 	      href="f_0004.html"
 	      media-type="application/xhtml+xml" />
 
-	<item id="f_0005"
-	      href="f_0005.html"
-	      media-type="application/xhtml+xml" />
-	
-	<item id="f_0006"
-	      href="f_0006.html"
-	      media-type="application/xhtml+xml" />
-	
-	<item id="f_0007"
-	      href="f_0007.html"
-	      media-type="application/xhtml+xml" />
-	
-	<item id="f_0008"
-	      href="f_0008.html"
-	      media-type="application/xhtml+xml" />
   </manifest>
 
 	<spine toc="ncx">
 		<itemref idref="cover" linear="no"/>
 		<itemref idref="f_0000"/>
 	    <itemref idref="f_0001" />
-	    <itemref idref="f_0002" />
-	    <itemref idref="f_0003" />
 	    <itemref idref="f_0004" />
-	    <itemref idref="f_0005" />
-	    <itemref idref="f_0006" />
-	    <itemref idref="f_0007" />
-	    <itemref idref="f_0008" />
   	</spine>
 
 

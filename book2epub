@@ -1,0 +1,66 @@
+require 'rubygems'
+require 'test/unit'
+require 'nokogiri'
+require 'yaml'
+
+ROOT = File.expand_path(File.dirname(__FILE__))
+
+class Book2ePub
+
+  
+end
+
+
+class Book2ePubTest < Test::Unit::TestCase
+
+  @config = []
+  
+  def test_readIndexBook 
+    index = ["cap0.markdown", "cap1.markdown", "cap2.markdown", "cap3.markdown", "cap4.markdown", "cap5.markdown", "cap6.markdown"]
+    assert_equal(index, readIndexBook("markdown") )
+  end
+  
+  def test_readHeadersChapters
+    config = YAML.load_file(File.join(ROOT,"config.yaml"))
+    assert_equal(config["headers"], readHeadersChapters)
+  end
+  
+  def readIndexBook(format)
+    config = YAML.load_file(File.join(ROOT,"config.yaml"))
+    config["index"].collect! {|elem| elem + ".#{format}"}
+    return config["index"]
+  end
+  
+  def readHeadersChapters
+    headers = []
+    @config = readIndexBook("html")
+    @config.each do |file|
+      doc = Nokogiri::HTML(File.open(File.join("html",file)))
+      headers << doc.xpath("/html/body/div/div['chapter']/h2")[0].content
+    end
+    return headers
+  end
+  
+end
+
+
+#doc = Nokogiri::HTML(File.open("epub/f_0004.html"))
+#doc.xpath("/html/body/p/sup").each do |node|
+#  value = node.attributes["id"].value
+#  value2 = node.children[0].attributes["href"].value
+#  value.gsub!(":","_")
+#  value2.gsub!(":","_")
+#  node.attributes["id"].value = value
+#  node.children[0].attributes["href"].value = value2
+#end
+
+#doc.xpath("/html/body/div['kramdown-footnotes']/ol/li").each do |node|
+#  value = node.attributes["id"].value
+#  value.gsub!(":","_")
+#  node.attributes["id"].value = value
+#  value2 = node.xpath("p/a")[0].attributes["href"].value
+#  value2.gsub!(":","_")
+#  node.xpath("p/a")[0].attributes["href"].value = value2
+#end
+  
+#File.open("epub/f_0009.html", "w") { |file| file.write(doc.to_html)  }

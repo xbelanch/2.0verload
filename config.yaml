@@ -6,6 +6,24 @@ chap: "Capítulo "
 sect: "Sección "
 fig: "Figura "
 tab: "Tabla "
+index:
+    - cap0
+    - cap1
+    - cap2
+    - cap3
+    - cap4
+    - cap5
+    - cap6
+    
+headers:
+    - Notas antes de partir
+    - Personal Information Glut
+    - Folders & Tagging redundancy
+    - RSSocial fatigue
+    - Kill Inbox
+    - The wiki old days
+    - Look Ma! Without tabs
+
 order: 
   - cap0:
       title: Notas antes de partir

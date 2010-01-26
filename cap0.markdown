@@ -1,3 +1,5 @@
+{::options:: auto_ids="false"}
+
 # Notas antes de partir 
 
 La percepción de estar inmersos en una etapa irreversible de exceso de información no es exclusiva de nuestra época. A finales del siglo XVII, Adrien Baillet, lector apasionado y biógrafo de René Descartes, escribió:
@@ -32,3 +34,6 @@ Parafraseando a Roland Barthes [^8], este libro defraudará a técnicos, *geeks*
 [^7]: Schneider, Ursula. (2002). *[The Knowledge-Attention-Gap: Do We Underestimate The Problem Of Information Overload In Knowledge Management?](http://www.jucs.org/jucs_8_5/the_knowledge_attention_gap/Schneider_U.html)*
 [^8]: Barthes, Roland. 1980. *La cámara lúcida*. Paidós
 [^9]: Italo Calvino, *Las ciudades invisibles*
+
+
+

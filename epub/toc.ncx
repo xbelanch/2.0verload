@@ -22,42 +22,5 @@
       <content src="f_0000.html"/>
     </navPoint>
 
-    <navPoint id="navPoint-1" playOrder="2">
-       <navLabel>
-          <text>Copyright</text>
-       </navLabel>
-       <content src="f_0001.html"/>
-    </navPoint>
-
-
-    <navPoint id="navPoint-2" playOrder="3">
-       <navLabel>
-          <text>Table of Contents</text>
-       </navLabel>
-       <content src="f_0002.html"/>
-    </navPoint>
-
-    <navPoint id="navPoint-3" playOrder="4">
-       <navLabel>
-          <text>Notas antes de partir</text>
-       </navLabel>
-       <content src="f_0003.html"/>
-    </navPoint>
-    
-
-    <navPoint id="navPoint-5" playOrder="5">
-       <navLabel>
-          <text>Personal Information Glut</text>
-       </navLabel>
-       <content src="f_0005.html"/>
-    </navPoint>
-
-    <navPoint id="navPoint-7" playOrder="6">
-       <navLabel>
-          <text>Folders &amp; Tagging redundancy</text>
-       </navLabel>
-       <content src="f_0007.html"/>
-    </navPoint>
-
   </navMap>
 </ncx>
