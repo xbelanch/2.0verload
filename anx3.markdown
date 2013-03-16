@@ -6,7 +6,11 @@ Anexo III: Memento.rb
 
 ## Antecedentes
 
-En este anexo puedes explicar el rollo del memento,
+En este anexo puedes explicar el rollo del memento, **esto** *quiere decir*:
+
+1. Hola
+2. Adiós
+3. Bye :-)
 
 
 
